@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>19H1217</string>
+	<key>CFBundleAllowMixedLocalizations</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>OneDrive File Provider</string>
+	<key>CFBundleExecutable</key>
+	<string>OneDrive File Provider</string>
+	<key>CFBundleIconFile</key>
+	<string>FPIcon</string>
+	<key>CFBundleIconName</key>
+	<string>FPIcon</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFile</key>
+			<string>FPIcon</string>
+			<key>CFBundleSymbolName</key>
+			<string>odsymbol</string>
+		</dict>
+	</dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.microsoft.OneDrive.FileProvider</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>OneDrive File Provider</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>21.129.0627</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>21129.0627.0002</string>
+	<key>CSFlags</key>
+	<real>65536</real>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>12D4e</string>
+	<key>DTPlatformName</key>
+	<string>macosx</string>
+	<key>DTPlatformVersion</key>
+	<string>11.1</string>
+	<key>DTSDKBuild</key>
+	<string>20C63</string>
+	<key>DTSDKName</key>
+	<string>macosx11.1</string>
+	<key>DTXcode</key>
+	<string>1240</string>
+	<key>DTXcodeBuild</key>
+	<string>12D4e</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>11.0</string>
+	<key>NSExtension</key>
+	<dict>
+		<key>NSExtensionFileProviderActions</key>
+		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Only show if all items can be pinned/unpinned</string>
+				<key>NSExtensionFileProviderActionActivationRule</key>
+				<string>SUBQUERY ( fileproviderItems, $item, $item.userInfo.showPinUnpin == NO ).@count == 0</string>
+				<key>NSExtensionFileProviderActionIdentifier</key>
+				<string>com.microsoft.OneDrive.FileProviderActions.MarkPinned</string>
+				<key>NSExtensionFileProviderActionName</key>
+				<string>ContextMenuAction_Pin</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Only show if all items can be pinned/unpinned</string>
+				<key>NSExtensionFileProviderActionActivationRule</key>
+				<string>SUBQUERY ( fileproviderItems, $item, $item.userInfo.showPinUnpin == NO ).@count == 0</string>
+				<key>NSExtensionFileProviderActionIdentifier</key>
+				<string>com.microsoft.OneDrive.FileProviderActions.MarkUnpinned</string>
+				<key>NSExtensionFileProviderActionName</key>
+				<string>ContextMenuAction_Unpin</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Hide share if any items are ineligible for sharing</string>
+				<key>NSExtensionFileProviderActionActivationRule</key>
+				<string>SUBQUERY ( fileproviderItems, $item, $item.userInfo.showShare != YES ).@count == 0</string>
+				<key>NSExtensionFileProviderActionIdentifier</key>
+				<string>com.microsoft.OneDrive.FileProviderActions.ShareLink</string>
+				<key>NSExtensionFileProviderActionName</key>
+				<string>ContextMenuAction_Share</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Allowed only if one item is selected</string>
+				<key>NSExtensionFileProviderActionActivationRule</key>
+				<string>SUBQUERY ( fileproviderItems, $item, $item.userInfo.showVersionHistory == YES ).@count == 1</string>
+				<key>NSExtensionFileProviderActionIdentifier</key>
+				<string>com.microsoft.OneDrive.FileProviderActions.VersionHistory</string>
+				<key>NSExtensionFileProviderActionName</key>
+				<string>ContextMenuAction_VersionHistory</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Allowed only if one item is selected</string>
+				<key>NSExtensionFileProviderActionActivationRule</key>
+				<string>SUBQUERY ( fileproviderItems, $item, $item.userInfo.showViewOnline == YES ).@count == 1</string>
+				<key>NSExtensionFileProviderActionIdentifier</key>
+				<string>com.microsoft.OneDrive.FileProviderActions.ViewOnline</string>
+				<key>NSExtensionFileProviderActionName</key>
+				<string>ContextMenuAction_ViewOnline</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Hide unmount of any items are ineligible for unmount</string>
+				<key>NSExtensionFileProviderActionActivationRule</key>
+				<string>SUBQUERY ( fileproviderItems, $item, $item.userInfo.showUnmount != YES ).@count == 0</string>
+				<key>NSExtensionFileProviderActionIdentifier</key>
+				<string>com.microsoft.OneDrive.FileProviderActions.Unmount</string>
+				<key>NSExtensionFileProviderActionName</key>
+				<string>ContextMenuAction_RemoveShortcut</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Debug only - crash the extension</string>
+				<key>NSExtensionFileProviderActionActivationRule</key>
+				<string>SUBQUERY ( fileproviderItems, $item, $item.userInfo.showDebugActions != YES ).@count == 0</string>
+				<key>NSExtensionFileProviderActionIdentifier</key>
+				<string>com.microsoft.OneDrive.FileProviderActions.Debug.Crash</string>
+				<key>NSExtensionFileProviderActionName</key>
+				<string>DEBUG: Crash extension</string>
+			</dict>
+		</array>
+		<key>NSExtensionFileProviderAllowsUserControlledEviction</key>
+		<false/>
+		<key>NSExtensionFileProviderDocumentGroup</key>
+		<string>UBF8T346G9.OneDriveStandaloneSuite</string>
+		<key>NSExtensionFileProviderDownloadPipelineDepth</key>
+		<integer>128</integer>
+		<key>NSExtensionFileProviderSupportsEnumeration</key>
+		<true/>
+		<key>NSExtensionFileProviderWantsFlattenedPackages</key>
+		<true/>
+		<key>NSExtensionPointIdentifier</key>
+		<string>com.apple.fileprovider-nonui</string>
+		<key>NSExtensionPrincipalClass</key>
+		<string>FileProviderExtension</string>
+		<key>NSFileProviderDecorations</key>
+		<array>
+			<dict>
+				<key>BadgeImageType</key>
+				<string>com.microsoft.OneDrive.ExportedBadges.Pinned.Shared</string>
+				<key>Category</key>
+				<string>Badge</string>
+				<key>Identifier</key>
+				<string>com.microsoft.OneDrive.FileProviderBadges.Pinned.Shared</string>
+				<key>Label</key>
+				<dict>
+					<key>NSStringFormat</key>
+					<string>BadgeTooltip_PinnedShared</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>BadgeImageType</key>
+				<string>com.microsoft.OneDrive.ExportedBadges.Pinned</string>
+				<key>Category</key>
+				<string>Badge</string>
+				<key>Identifier</key>
+				<string>com.microsoft.OneDrive.FileProviderBadges.Pinned</string>
+				<key>Label</key>
+				<dict>
+					<key>NSStringFormat</key>
+					<string>BadgeTooltip_Pinned</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>BadgeImageType</key>
+				<string>com.microsoft.OneDrive.ExportedBadges.Shared</string>
+				<key>Category</key>
+				<string>Badge</string>
+				<key>Identifier</key>
+				<string>com.microsoft.OneDrive.FileProviderBadges.Shared</string>
+				<key>Label</key>
+				<dict>
+					<key>NSStringFormat</key>
+					<string>BadgeTooltip_Shared</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>BadgeImageType</key>
+				<string>com.microsoft.OneDrive.ExportedBadges.Ignored</string>
+				<key>Category</key>
+				<string>Badge</string>
+				<key>Identifier</key>
+				<string>com.microsoft.OneDrive.FileProviderBadges.Ignored</string>
+				<key>Label</key>
+				<dict>
+					<key>NSStringFormat</key>
+					<string>BadgeTooltip_Ignored</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>BadgeImageType</key>
+				<string>com.microsoft.OneDrive.ExportedFolderBadges.TeamSite</string>
+				<key>Category</key>
+				<string>FolderBadge</string>
+				<key>Identifier</key>
+				<string>com.microsoft.OneDrive.FileProviderFolderBadges.TeamSite</string>
+				<key>Label</key>
+				<dict>
+					<key>NSStringFormat</key>
+					<string>RootTooltip_TeamSite</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>BadgeImageType</key>
+				<string>com.microsoft.OneDrive.ExportedFolderBadges.Shortcut</string>
+				<key>Category</key>
+				<string>FolderBadge</string>
+				<key>Identifier</key>
+				<string>com.microsoft.OneDrive.FileProviderFolderBadges.Shortcut</string>
+				<key>Label</key>
+				<dict>
+					<key>NSStringFormat</key>
+					<string>RootTooltip_Shortcut</string>
+				</dict>
+			</dict>
+		</array>
+		<key>NSFileProviderUserInteractions</key>
+		<array>
+			<dict>
+				<key>ActivationRule</key>
+				<string>sourceItem.userInfo.restrictedMove == 1 AND sourceItem.userInfo.srid != destinationItem.userInfo.srid AND action == "Move"</string>
+				<key>SubInteractions</key>
+				<array>
+					<dict>
+						<key>ActivationRule</key>
+						<string>sourceItemsCount == 1</string>
+						<key>Alert</key>
+						<dict>
+							<key>LocalizedSubTitle</key>
+							<string>UserInteraction_PreventMove_SubTitle</string>
+							<key>LocalizedTitle</key>
+							<string>UserInteraction_PreventMove_Title</string>
+							<key>RecoveryOptions</key>
+							<dict>
+								<key>Continue</key>
+								<false/>
+							</dict>
+						</dict>
+					</dict>
+					<dict>
+						<key>ActivationRule</key>
+						<string>sourceItemsCount &gt; 1</string>
+						<key>Alert</key>
+						<dict>
+							<key>LocalizedSubTitle</key>
+							<string>UserInteraction_PreventMove_Multi_SubTitle</string>
+							<key>LocalizedTitle</key>
+							<string>UserInteraction_PreventMove_Multi_Title</string>
+							<key>RecoveryOptions</key>
+							<dict>
+								<key>Continue</key>
+								<false/>
+							</dict>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright 2021 Microsoft Corporation. All rights reserved.</string>
+</dict>
+</plist>

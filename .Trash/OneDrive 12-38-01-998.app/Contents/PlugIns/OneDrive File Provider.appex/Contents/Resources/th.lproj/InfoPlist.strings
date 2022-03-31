@@ -1,0 +1,35 @@
+/* 
+  Strings for the File Provider extension's info.plist
+ 
+  NOTE: All strings should go in Localizable.Strings except for Badge and Root folder tooltips
+*/
+
+/* Tooltip for files and folders in the pinned state */
+"BadgeTooltip_Pinned" = "พร้อมใช้งานบนอุปกรณ์นี้เสมอ";
+
+/* Tooltip for files and folders which are shared with other users. */
+"BadgeTooltip_Shared" = "แชร์";
+
+/* Tooltip for files and folders which are shared AND in the pinned state. */
+"BadgeTooltip_PinnedShared" = "แชร์ และพร้อมใช้งานบนอุปกรณ์นี้เสมอ";
+
+/* Tooltip for files excluded from syncing. Ex: HVEL, LVEL and ODIgnored */
+"BadgeTooltip_Ignored" = "แยกออกจากการซิงค์";
+
+/* A tooltip for a custom icon on a team site folder. */
+"RootTooltip_TeamSite" = "ไลบรารีที่แชร์";
+
+/* A tooltip for a custom icon on an added/shortcut folder. */
+"RootTooltip_Shortcut" = "ทางลัด";
+
+/* Title bar text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_Title" = "ไม่สามารถย้ายโฟลเดอร์ได้";
+
+/* Description text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_SubTitle" = "ไม่สามารถย้ายโฟลเดอร์นี้มาที่นี่บน Mac เครื่องนี้ได้";
+
+/* Title bar text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_Title" = "ไม่สามารถย้ายรายการได้";
+
+/* Description text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_SubTitle" = "ไม่สามารถย้ายรายการเหล่านี้มาที่นี่บน Mac เครื่องนี้ได้";

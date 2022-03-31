@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ActivityCenter.qml</file>
+        <file>ActivityCenterLoader.qml</file>
+        <file>ActivityCenterContextMenu.qml</file>
+        <file>ActivityCenterFooter.qml</file>
+        <file>ActivityCenterHeader.qml</file>
+        <file>ActivityCenterMessage.qml</file>
+        <file>ActivityCenterMessageMega.qml</file>
+        <file>Colors.qml</file>
+        <file>ConfirmDialog.qml</file>
+        <file>CustomMenu.qml</file>
+        <file>CustomMenuItem.qml</file>
+        <file>ErrorsView.qml</file>
+        <file>ErrorsListItem.qml</file>
+        <file>ErrorsViewEntryPoint.qml</file>
+        <file>FabricButton.qml</file>
+        <file>FabricProgressBar.qml</file>
+        <file>fabricMdl2.js</file>
+        <file>FabExMDL2.ttf</file>
+        <file>FloodgateSurvey.qml</file>
+        <file>FolderItem.qml</file>
+        <file>HelperFunctions.js</file>
+        <file>IconAndTextButton.qml</file>
+        <file>MoveWindow.qml</file>
+        <file>palettes.js</file>
+        <file>PurchaseWindow.qml</file>
+        <file>PurchaseCard.qml</file>
+        <file>ResetWindow.qml</file>
+        <file>ScrollViewWithAcc.qml</file>
+        <file>SendFeedback.qml</file>
+        <file>SendFeedbackModeItem.qml</file>
+        <file>SimpleButton.qml</file>
+        <file>SimpleButtonLink.qml</file>
+        <file>TextWithLink.qml</file>
+        <file>VersionHistoryWindow.qml</file>
+        <file>WizardChooseFolderPage.qml</file>
+        <file>WizardGenericErrorPage.qml</file>
+        <file>WizardWelcomePage.qml</file>
+        <file>WizardVaultAdminRequestPage.qml</file>
+        <file>WizardVaultIntroPage.qml</file>
+        <file>WizardWindow.qml</file>
+    </qresource>
+</RCC>

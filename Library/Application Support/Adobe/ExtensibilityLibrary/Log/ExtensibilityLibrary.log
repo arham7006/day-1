@@ -1,0 +1,229 @@
+09/07/21 18:40:18:173 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | EventProcessor thread started
+09/07/21 18:40:18:173 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Deque at max 10000 events.
+09/07/21 18:40:18:173 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Dropping 0 events.
+09/07/21 18:40:18:173 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:173 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:18:173 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Dequeued 1 events.
+09/07/21 18:40:18:173 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Dequeued 0 anonymous events.
+09/07/21 18:40:18:173 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | dispatch analytics data
+09/07/21 18:40:18:173 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | dispatch:body: 786 bytes (1) events
+09/07/21 18:40:18:173 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | createAndSendHTTPRequest:URL: https://cc-api-data.adobe.io/ingest
+09/07/21 18:40:18:210 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:210 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:211 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:211 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:211 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:211 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:253 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:262 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:262 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:263 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:263 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:263 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:263 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:18:264 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 729730 | 0 | enqueued 1 event.
+09/07/21 18:40:19:105 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | createAndSendHTTPRequest:Response Code: 200
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | createAndSendHTTPRequest:Response Headers: {
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "Connection" = "keep-alive"
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "Content-Length" = "0"
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "Date" = "Tue, 07 Sep 2021 13:10:19 GMT"
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "Server" = "openresty"
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "x-gw-aws-region" = "an1"
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "x-request-id" = "3e8TACqo0u3Z0erDXtNSDVKgGwgV9mUo"
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | }
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | dispatchAnonymous analytics data
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | EventProcessor should quit now
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Deque at max 10000 events.
+09/07/21 18:40:19:106 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Dropping 0 events.
+09/07/21 18:40:19:106 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:106 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:106 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:106 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:106 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:107 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:107 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:107 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:107 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:107 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:107 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:107 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:108 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:108 | [ERROR] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Running on emulator.
+09/07/21 18:40:19:108 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Dequeued 14 events.
+09/07/21 18:40:19:108 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | Dequeued 0 anonymous events.
+09/07/21 18:40:19:108 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | dispatch analytics data
+09/07/21 18:40:19:109 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | dispatch:body: 12761 bytes (14) events
+09/07/21 18:40:19:109 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | createAndSendHTTPRequest:URL: https://cc-api-data.adobe.io/ingest
+09/07/21 18:40:19:282 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | createAndSendHTTPRequest:Response Code: 200
+09/07/21 18:40:19:289 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | createAndSendHTTPRequest:Response Headers: {
+09/07/21 18:40:19:289 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "Connection" = "keep-alive"
+09/07/21 18:40:19:289 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "Content-Length" = "0"
+09/07/21 18:40:19:289 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "Date" = "Tue, 07 Sep 2021 13:10:19 GMT"
+09/07/21 18:40:19:289 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "Server" = "openresty"
+09/07/21 18:40:19:289 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "x-gw-aws-region" = "an1"
+09/07/21 18:40:19:289 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 |   "x-request-id" = "jeNTgRdRsIAfOX77rrYCuumDfF4WDvvb"
+09/07/21 18:40:19:289 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | }
+09/07/21 18:40:19:291 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 730004 | 0 | dispatchAnonymous analytics data
+10/13/21 20:42:37:466 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | EventProcessor thread started
+10/13/21 20:42:37:467 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | Deque at max 10000 events.
+10/13/21 20:42:37:467 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | Dropping 0 events.
+10/13/21 20:42:37:467 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511227 | 0 | enqueued 1 event.
+10/13/21 20:42:37:467 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | Dequeued 1 events.
+10/13/21 20:42:37:467 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | Dequeued 0 anonymous events.
+10/13/21 20:42:37:467 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | dispatch analytics data
+10/13/21 20:42:37:467 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | dispatch:body: 781 bytes (1) events
+10/13/21 20:42:37:467 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | createAndSendHTTPRequest:URL: https://cc-api-data.adobe.io/ingest
+10/13/21 20:42:37:503 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511227 | 0 | enqueued 1 event.
+10/13/21 20:42:37:503 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511227 | 0 | enqueued 1 event.
+10/13/21 20:42:37:548 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511227 | 0 | enqueued 1 event.
+10/13/21 20:42:37:550 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511227 | 0 | enqueued 1 event.
+10/13/21 20:42:37:685 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511227 | 0 | enqueued 1 event.
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | createAndSendHTTPRequest:Response Code: 200
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | createAndSendHTTPRequest:Response Headers: {
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "Connection" = "keep-alive"
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "Content-Length" = "0"
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "Date" = "Wed, 13 Oct 2021 15:12:38 GMT"
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "Server" = "openresty"
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "x-gw-aws-region" = "an1"
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "x-request-id" = "ifOrHNCfAtAGx4nxkkTouguBYz7tRC5F"
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | }
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | dispatchAnonymous analytics data
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | EventProcessor should quit now
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | Deque at max 10000 events.
+10/13/21 20:42:38:119 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | Dropping 0 events.
+10/13/21 20:42:38:120 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | Dequeued 5 events.
+10/13/21 20:42:38:120 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | Dequeued 0 anonymous events.
+10/13/21 20:42:38:120 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | dispatch analytics data
+10/13/21 20:42:38:121 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | dispatch:body: 4225 bytes (5) events
+10/13/21 20:42:38:121 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | createAndSendHTTPRequest:URL: https://cc-api-data.adobe.io/ingest
+10/13/21 20:42:38:277 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | createAndSendHTTPRequest:Response Code: 200
+10/13/21 20:42:38:277 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | createAndSendHTTPRequest:Response Headers: {
+10/13/21 20:42:38:277 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "Connection" = "keep-alive"
+10/13/21 20:42:38:277 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "Content-Length" = "0"
+10/13/21 20:42:38:277 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "Date" = "Wed, 13 Oct 2021 15:12:38 GMT"
+10/13/21 20:42:38:277 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "Server" = "openresty"
+10/13/21 20:42:38:277 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "x-gw-aws-region" = "an1"
+10/13/21 20:42:38:277 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 |   "x-request-id" = "yggJHft02vSZnOfomh64J40zOU95Nz8U"
+10/13/21 20:42:38:277 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | }
+10/13/21 20:42:38:277 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 511247 | 0 | dispatchAnonymous analytics data
+10/14/21 09:58:18:768 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11699 | 0 | enqueued 1 event.
+10/14/21 09:58:18:769 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | EventProcessor thread started
+10/14/21 09:58:18:769 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | Deque at max 10000 events.
+10/14/21 09:58:18:769 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | Dropping 0 events.
+10/14/21 09:58:18:769 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | Dequeued 1 events.
+10/14/21 09:58:18:769 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | Dequeued 0 anonymous events.
+10/14/21 09:58:18:769 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | dispatch analytics data
+10/14/21 09:58:18:769 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | dispatch:body: 784 bytes (1) events
+10/14/21 09:58:18:769 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | createAndSendHTTPRequest:URL: https://cc-api-data.adobe.io/ingest
+10/14/21 09:58:18:797 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11699 | 0 | enqueued 1 event.
+10/14/21 09:58:18:797 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11699 | 0 | enqueued 1 event.
+10/14/21 09:58:19:409 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | createAndSendHTTPRequest:Response Code: 200
+10/14/21 09:58:19:409 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | createAndSendHTTPRequest:Response Headers: {
+10/14/21 09:58:19:409 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "Connection" = "keep-alive"
+10/14/21 09:58:19:409 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "Content-Length" = "0"
+10/14/21 09:58:19:409 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "Date" = "Thu, 14 Oct 2021 04:28:19 GMT"
+10/14/21 09:58:19:409 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "Server" = "openresty"
+10/14/21 09:58:19:409 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "x-gw-aws-region" = "an1"
+10/14/21 09:58:19:409 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "x-request-id" = "Agh1pIJr3oDZhFhtqWzhYOFDx3Y8x8aE"
+10/14/21 09:58:19:409 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | }
+10/14/21 09:58:19:410 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | dispatchAnonymous analytics data
+10/14/21 09:58:19:410 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | EventProcessor should quit now
+10/14/21 09:58:19:410 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | Deque at max 10000 events.
+10/14/21 09:58:19:410 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | Dropping 0 events.
+10/14/21 09:58:19:410 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | Dequeued 2 events.
+10/14/21 09:58:19:410 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | Dequeued 0 anonymous events.
+10/14/21 09:58:19:410 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | dispatch analytics data
+10/14/21 09:58:19:410 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | dispatch:body: 1855 bytes (2) events
+10/14/21 09:58:19:410 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | createAndSendHTTPRequest:URL: https://cc-api-data.adobe.io/ingest
+10/14/21 09:58:19:569 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | createAndSendHTTPRequest:Response Code: 200
+10/14/21 09:58:19:570 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | createAndSendHTTPRequest:Response Headers: {
+10/14/21 09:58:19:570 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "Connection" = "keep-alive"
+10/14/21 09:58:19:570 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "Content-Length" = "0"
+10/14/21 09:58:19:570 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "Date" = "Thu, 14 Oct 2021 04:28:19 GMT"
+10/14/21 09:58:19:570 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "Server" = "openresty"
+10/14/21 09:58:19:570 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "x-gw-aws-region" = "an1"
+10/14/21 09:58:19:570 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 |   "x-request-id" = "HlFKN5Eqpj8bIj7fM4yTM2naSwaKCn2A"
+10/14/21 09:58:19:570 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | }
+10/14/21 09:58:19:570 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 11763 | 0 | dispatchAnonymous analytics data
+10/14/21 09:59:56:613 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17597 | 0 | enqueued 1 event.
+10/14/21 09:59:56:613 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | EventProcessor thread started
+10/14/21 09:59:56:613 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | Deque at max 10000 events.
+10/14/21 09:59:56:613 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | Dropping 0 events.
+10/14/21 09:59:56:613 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | Dequeued 1 events.
+10/14/21 09:59:56:613 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | Dequeued 0 anonymous events.
+10/14/21 09:59:56:613 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | dispatch analytics data
+10/14/21 09:59:56:613 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | dispatch:body: 781 bytes (1) events
+10/14/21 09:59:56:613 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | createAndSendHTTPRequest:URL: https://cc-api-data.adobe.io/ingest
+10/14/21 09:59:56:638 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17597 | 0 | enqueued 1 event.
+10/14/21 09:59:56:638 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17597 | 0 | enqueued 1 event.
+10/14/21 09:59:56:674 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17597 | 0 | enqueued 1 event.
+10/14/21 09:59:56:795 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17597 | 0 | enqueued 1 event.
+10/14/21 09:59:57:282 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | createAndSendHTTPRequest:Response Code: 200
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | createAndSendHTTPRequest:Response Headers: {
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "Connection" = "keep-alive"
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "Content-Length" = "0"
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "Date" = "Thu, 14 Oct 2021 04:29:57 GMT"
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "Server" = "openresty"
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "x-gw-aws-region" = "an1"
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "x-request-id" = "5KzRh4HJT2seRSn3HfDARm2mU2URtw4h"
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | }
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | dispatchAnonymous analytics data
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | EventProcessor should quit now
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | Deque at max 10000 events.
+10/14/21 09:59:57:283 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | Dropping 0 events.
+10/14/21 09:59:57:284 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | Dequeued 4 events.
+10/14/21 09:59:57:284 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | Dequeued 0 anonymous events.
+10/14/21 09:59:57:284 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | dispatch analytics data
+10/14/21 09:59:57:284 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | dispatch:body: 3379 bytes (4) events
+10/14/21 09:59:57:284 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | createAndSendHTTPRequest:URL: https://cc-api-data.adobe.io/ingest
+10/14/21 09:59:57:469 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | createAndSendHTTPRequest:Response Code: 200
+10/14/21 09:59:57:469 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | createAndSendHTTPRequest:Response Headers: {
+10/14/21 09:59:57:469 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "Connection" = "keep-alive"
+10/14/21 09:59:57:469 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "Content-Length" = "0"
+10/14/21 09:59:57:469 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "Date" = "Thu, 14 Oct 2021 04:29:57 GMT"
+10/14/21 09:59:57:469 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "Server" = "openresty"
+10/14/21 09:59:57:469 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "x-gw-aws-region" = "an1"
+10/14/21 09:59:57:469 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 |   "x-request-id" = "ZxwvAmIBcw73eHjup4ysZQmIV7AylBZZ"
+10/14/21 09:59:57:469 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | }
+10/14/21 09:59:57:469 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 17734 | 0 | dispatchAnonymous analytics data
+02/08/22 09:26:01:625 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21019 | 0 | enqueued 1 event.
+02/08/22 09:26:01:625 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | EventProcessor thread started
+02/08/22 09:26:01:625 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | Deque at max 10000 events.
+02/08/22 09:26:01:626 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | Dropping 0 events.
+02/08/22 09:26:01:626 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | Dequeued 1 events.
+02/08/22 09:26:01:626 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | Dequeued 0 anonymous events.
+02/08/22 09:26:01:626 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | dispatch analytics data
+02/08/22 09:26:01:626 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | dispatch:body: 781 bytes (1) events
+02/08/22 09:26:01:626 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | createAndSendHTTPRequest:URL: https://cc-api-data.adobe.io/ingest
+02/08/22 09:26:01:655 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21019 | 0 | enqueued 1 event.
+02/08/22 09:26:01:655 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21019 | 0 | enqueued 1 event.
+02/08/22 09:26:01:672 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21019 | 0 | enqueued 1 event.
+02/08/22 09:26:01:905 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21019 | 0 | enqueued 1 event.
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | createAndSendHTTPRequest:Response Code: 200
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | createAndSendHTTPRequest:Response Headers: {
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "Connection" = "keep-alive"
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "Content-Length" = "0"
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "Date" = "Tue, 08 Feb 2022 03:56:03 GMT"
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "Server" = "openresty"
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "x-gw-aws-region" = "an1"
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "x-request-id" = "obR8Px0jcwgHsHDc81VTa88ONlJonfZl"
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | }
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | dispatchAnonymous analytics data
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | EventProcessor should quit now
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | Deque at max 10000 events.
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | Dropping 0 events.
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | Dequeued 4 events.
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | Dequeued 0 anonymous events.
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | dispatch analytics data
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | dispatch:body: 3379 bytes (4) events
+02/08/22 09:26:02:936 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | createAndSendHTTPRequest:URL: https://cc-api-data.adobe.io/ingest
+02/08/22 09:26:03:220 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | createAndSendHTTPRequest:Response Code: 200
+02/08/22 09:26:03:220 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | createAndSendHTTPRequest:Response Headers: {
+02/08/22 09:26:03:220 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "Connection" = "keep-alive"
+02/08/22 09:26:03:220 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "Content-Length" = "0"
+02/08/22 09:26:03:220 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "Date" = "Tue, 08 Feb 2022 03:56:03 GMT"
+02/08/22 09:26:03:220 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "Server" = "openresty"
+02/08/22 09:26:03:220 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "x-gw-aws-region" = "an1"
+02/08/22 09:26:03:220 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 |   "x-request-id" = "bIWnxYGaFHP0jRPzV2Y83qgwbh1onByT"
+02/08/22 09:26:03:220 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | }
+02/08/22 09:26:03:220 | [INFO] |  | ExtensibilityLibrary | CustomHook |  |  |  | 21087 | 0 | dispatchAnonymous analytics data

@@ -1,0 +1,2575 @@
+// Misc
+
+// File Size Units
+
+/* The lowest unit for file sizes */
+"byteText" = "byte";
+
+/* Unit for file sizes. */
+"KiloByteAbbrv" = "KB";
+
+/* Unit for file sizes. */
+"MegaByteAbbrv" = "MB";
+
+/* Unit for file sizes. */
+"GigaByteAbbrv" = "GB";
+
+/* Unit for file sizes. */
+"TeraByteAbbrv" = "TB";
+
+/* Unit for file transfer speed. */
+"KiloBytePerSecond" = "KB/s";
+
+/* Unit for file transfer speed. */
+"MegaBytePerSecond" = "MB/s";
+
+
+// First run - used by FirstRunWindowController.mm and its views
+
+/* Windows title used to welcome a user running the application.
+ There's probably no need to localize this string. */
+"FirstRunWindowTitle" = "Microsoft OneDrive";
+
+/* Title of the welcome page when running for the first time */
+"FirstRunText" = "Siapkan OneDrive";
+
+/* Short explaination about what OneDrive does when running for the first time */
+"FirstRunDescriptiveText" = "Simpan file Anda di OneDrive agar dapat mengaksesnya dari perangkat apa pun.";
+
+/* Button to sign into a personal instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomePersonalButton" = "Pribadi";
+
+/* Button to sign into a business instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomeBusinessButton" = "Kantor atau sekolah";
+
+/* Button to start email hrd sign in flow on the first run experience in welcome page */
+"FirstRunEmailSignInButton" = "Masuk";
+
+/* Placeholder text for the email input box on the first run experience in welcome page */
+"FirstRunEmailInputPlaceholderText" = "Masukkan alamat email Anda";
+
+/* Errors shown when there is a problem with the users email address on the first run experience in welcome page */
+"FirstRunWelcomeErrorPersonalAlreadySyncing" = "Anda telah menyinkronkan OneDrive pribadi di komputer ini. Hapus tautan akun tersebut untuk menambahkan akun yang baru.";
+"FirstRunWelcomeErrorEmailIsMSAAndAAD" = "Alamat email ini digunakan untuk OneDrive dan OneDrive for Business. Manakah yang ingin Anda gunakan untuk masuk terlebih dahulu?";
+"FirstRunWelcomeErrorEmailIsNotKnown" = "Kami tidak mengenali alamat email tersebut.";
+"FirstRunWelcomeErrorEmailAdminDisabled" = "Organisasi Anda tidak mengizinkan Anda untuk menyinkronkan OneDrive pribadi di komputer ini.";
+
+/* first run wizard progress text for screen readers */
+"FirstRunProgress0" = "Penyiapan OneDrive nol persen selesai";
+"FirstRunProgress50" = "Penyiapan OneDrive lima puluh persen selesai";
+"FirstRunProgress75" = "Penyiapan OneDrive tujuh puluh lima persen selesai";
+"FirstRunProgress100" = "Penyiapan OneDrive seratus persen selesai";
+
+/* Title of the page that introduces OneDrive folder when running for the first time */
+"FirstRunIntroduceText" = "Ini Adalah Folder OneDrive Anda";
+
+/* Title of the page that prompts for required folder when mounting for the first time */
+"FirstRunIntroduceRequiredPathText" = "Konfirmasikan Lokasi Folder";
+
+/* Title of the page that introduces OneDrive folder when running for the first time. "Finder" should be translated the same way as in the Mac OSX */
+"FirstRunIntroduceDescriptiveText" = "Tambahkan file di sini sehingga Anda dapat mengaksesnya dari perangkat lain dan masih memilikinya di Mac ini.";
+
+/* Title of the adminstrative error that will be attached to the FirstRunIntroduceDescriptiveText */
+"FirstRunIntroduceDescriptiveTextWithError" = "Tambahkan file di sini sehingga Anda dapat mengaksesnya dari perangkat lain dan masih memilikinya di Mac ini. Administrator Anda memerlukan folder OneDrive berada di lokasi ini";
+
+/* Title of the page that prompts for access to required folder. */
+"SelectRequiredPathDescriptiveText:%@" = "Untuk menyinkronkan file ini, izinkan kami mengakses folder ini: %@";
+
+/* This is for the button that allows users to change the root folder path. When clicked, it opens a browse window for users to select the root folder. */
+"FirstRunBrowseButtonText" = "Ubah Lokasi";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"FirstRunDoneIntroductionButtonText" = "Berikutnya";
+
+/* This is for the button when user has never selected a root folder. */
+"FirstRunSelectFolderButtonText" = "Pilih Lokasi Folder OneDrive";
+
+/* This is for the button when user has not yet confirmed our required folder. */
+"FirstRunSelectRequiredFolderButtonText" = "Konfirmasikan Lokasi Folder";
+
+/* This is a prompt displayed in the file browse dialog. */
+"SelectRootFolderMessage" = "Pilih lokasi untuk folder OneDrive Anda";
+
+/* This is a prompt displayed in the file browse dialog to confirm required location. */
+"SelectRequiredFolderMessage" = "Gunakan folder terpilih lalu klik \"Konfirmasikan lokasi\".";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"CreateRootFolderButton" = "Pilih lokasi ini";
+
+/* This is for the confirmation button when user is done confirming the required folder. */
+"CreateRequiredFolderButton" = "Konfirmasikan lokasi";
+
+/* This is for the text field to show currently selected root folder path. */
+"FirstRunShowFolderPathText:%@" = "Folder %@ Anda adalah";
+
+/* This is the alert dialog title when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootTitle:%@" = "Kami tidak dapat menemukan lokasi folder %@ Anda";
+
+/* This is the alert dialog body when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootMessage" = "Folder OneDrive Anda mungkin telah dihapus atau jika berada di drive eksternal, folder OneDrive mungkin telah dihapus. Klik OK untuk mengonfigurasi ulang folder OneDrive.";
+
+/* This is the alert dialog button that allows user to reconfigure */
+"FirstRunUnconfiguredRootReconfigureButton" = "OK";
+
+/* This is the alert dialog button that allows user to quit the application */
+"FirstRunUnconfiguredRootQuitButton" = "Keluar dari OneDrive";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is invalid */
+"InvalidMappingLocationMessageTitle" = "Folder OneDrive tidak dapat dibuat di lokasi yang dipilih";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid. */
+"InvalidMappingLocationDetailedMessage" = "Coba lokasi yang berbeda. Pastikan bahwa lokasi tidak berada pada drive yang dapat dilepas atau di disk yang memiliki format peka terhadap huruf besar/kecil.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location can't be used */
+"InvalidMappingLocationInUseTitle" = "Kami Tidak Dapat Membuat Folder OneDrive Anda di Lokasi Ini";
+
+/* This is a detailed explanation in the alert window telling users the selected folder is already used by another OneDrive account. */
+"InvalidMappingLocationInUseDetailedMessage" = "Folder OneDrive lain sudah ada di lokasi ini. Silakan pilih lokasi yang berbeda.";
+
+/* This is a short text above detailed explaination in the alert window telling users to select the required path */
+"InvalidMappingRequiredPathMessageTitle" = "Konfirmasikan lokasi folder dipilih agar sinkronisasi dapat dilanjutkan";
+
+/* This is a detailed explaination in the alert window telling users the selected location is not the required path. */
+"InvalidMappingRequiredPathDetailedMessage" = "Simpan lokasi yang dipilih, lalu klik \"Konfirmasikan lokasi\" di Finder.";
+
+/* This is the button in the alert window that shows up when current location is not the required path. The button allows users to choose a new location */
+"InvalidMappingRequiredPathContinueButton" = "Lanjutkan";
+
+/* This is the button in the alert window that shows up when current location is invalid. The button allows users to choose a new location */
+"InvalidMappingLocationChooseButton" = "Pilih Lokasi Baru";
+
+/* This is the button in the alert window that shows up when current location is invalid. This button allows users to close the alert */
+"InvalidMappingLocationCancelButton" = "Batal";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty */
+"MappingLocationContainsFileMessageTitle" = "Konten sudah ada di folder ini";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessage:%@" = "Jika Anda memilih lokasi ini untuk folder \"%@\", konten dalam folder ini akan digabungkan dengan OneDrive. Anda dapat memilih lokasi lain atau tetap menggunakan lokasi yang telah dipilih";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessageWithDefaultFolder:%@" = "Jika Anda memilih lokasi ini untuk folder \"%@\", konten dalam folder ini akan digabungkan dengan OneDrive.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty {%1$@ is a folder name and %2$@ is its parent folder name } */
+"LibraryFolderMappingLocationContainsFileMessageTitle:%@,%@" = "Folder \"%1$@\" sudah ada di folder \"%2$@\" Anda";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is not empty. { %1$@ is a folder name } */
+"LibraryFolderMappingLocationContainsFileDetailedMessage:%@" = "Jika Anda memilih lokasi ini untuk folder \"%1$@\", file di dalam folder ini akan digabungkan dengan file yang ada di awan. Anda dapat menggunakan lokasi yang dipilih, atau menyinkronkan ke folder baru.";
+
+/* This is the button in the alert window that shows up when the folder location is not empty. This button allows users to continue anyway */
+"MappingLocationContainsFileContinueButton" = "Gunakan Lokasi Ini";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button allows users to choose a new location */
+"MappingLocationContainsFileChooseButton" = "Pilih Lokasi Baru";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button informs us to automatically create a new folder on behalf of the user. */
+"MappingLocationContainsFileCreateButton" = "Sinkronkan ke Folder Baru";
+
+/* This is on top of the selective sync page in First Run Experience. */
+"FirstRunSelectiveSyncTitle" = "Sinkronkan hanya apa yang Anda inginkan";
+
+/* This is the description right below the title on top of the selective sync page. */
+"FirstRunSelectiveSyncDescription:%@" = "Pilih yang ingin Anda unduh ke folder OneDrive%@ dan akses file tersebut meskipun Anda sedang offline.";
+
+/* This is the text on radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsTitle" = "Semua file dan folder di OneDrive saya";
+
+/* This is the description text next to the radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsDescription" = "Semuanya kecuali file yang dibagikan dengan Anda akan disinkronkan di Mac ini.";
+
+/* This is the text on radio button to choose to sync only some files */
+"FirstRunSelectiveSyncSomeItemsTitle" = "Pilih folder yang akan disinkronisasi";
+
+/* This is the description text next to the radio button to choose to sync only some files. */
+"FirstRunSelectiveSyncSomeItemsDescription" = "Klik \"Selesai\" untuk memilih apa yang akan disinkronkan ke komputer ini.";
+
+/* This is the button text in the selective sync page */
+"FirstRunSelectiveSyncNextButtonText" = "Berikutnya";
+
+/* This is the title text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncTitle" = "Aktifkan File Sesuai Permintaan";
+
+/* This is the description text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncDescription" = "Untuk melihat opsi File Sesuai Permintaan dengan mengklik kanan menu konteks, Anda perlu mengaktifkan Ekstensi OneDrive Finder Synce. Klik Buka Preferensi Ekstensi, kemudian pilih ekstensi OneDrive Finder.";
+
+/* This is the button text in the Enable Finder Sync page for the Enable button */
+"FirstRunEnableFinderSyncEnableButtonText" = "Buka Preferensi Ekstensi";
+
+/* This is the button text in the Enable Finder Sync page for the Skip button */
+"FirstRunEnableFinderSyncSkipButtonText" = "Saya Akan Mengaktifkan Ekstensi Di Lain Waktu";
+
+/* This is on top of the Cloud Files Tutorial page in First Run Experience. */
+"FirstRunCloudFilesTutorialTitle" = "Semua File Anda Sudah Siap dan Dapat Diakses Kapan Saja";
+
+/* This is the description right below the title on top of the Cloud Files Tutorial page. */
+"FirstRunCloudFilesTutorialDescription" = "Dengan File Sesuai Permintaan, Anda dapat menelusuri segala sesuatu dalam OneDrive tanpa menggunakan ruang pada Mac. File akan diunduh sewaktu Anda membutuhkannya.";
+
+/* This is the header text in the Cloud Files Tutorial page for online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFiles" = "File yang hanya tersedia secara online";
+
+/* This is the text in the Cloud Files Tutorial page describing online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFilesDescription" = "File yang hanya tersedia secara online tidak diunduh ke perangkat sampai Anda membukanya.";
+
+/* This is the header text in the Cloud Files Tutorial page for locally available files. */
+"FirstRunCloudFilesTutorialHydratedFiles" = "File yang tersedia secara lokal";
+
+/* This is the text in the Cloud Files Tutorial page describing locally available files. */
+"FirstRunCloudFilesTutorialHydratedFilesDescription" = "File yang Anda buka akan diunduh ke perangkat Anda dan tersedia offline.";
+
+/* This is the header text in the Cloud Files Tutorial page for always available files. */
+"FirstRunCloudFilesTutorialPinnedFiles" = "File selalu tersedia";
+
+/* This is the text in the Cloud Files Tutorial page describing always available files. */
+"FirstRunCloudFilesTutorialPinnedFilesDescription" = "Anda dapat menandai file dan folder yang Anda inginkan agar selalu tersedia, bahkan ketika sedang offline.";
+
+/* This is the button text in the Cloud Files Tutorial page */
+"FirstRunCloudFilesTutorialNextButtonText" = "Berikutnya";
+
+/* This is on top of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunTitle" = "OneDrive Anda Siap Digunakan";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunDescription:%@" = "Kami akan mengunduh file Anda dan membuatnya tetap sinkron di Mac ini. Untuk menambahkan file ke OneDrive, cukup pindahkan file Anda ke folder \"%@\" di Finder.";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience when Cloud Files on. */
+"FirstRunFinishFirstRunCloudFilesDescription:%@" = "OneDrive Anda telah siap digunakan. Untuk menambahkan file ke OneDrive, cukup memindahkannya ke folder \"%@\" di Finder.";
+
+/* This is the text of the Open-at-login checkbox in the Finish First Run page (Done page) in First Run Experience */
+"FirstRunFinishFirstRunOpenAtLoginCheckboxText" = "Buka saat masuk sehingga file saya otomatis disinkronkan";
+
+/* This is the button text in the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunButtonText:%@" = "Buka folder %@ saya";
+
+// Settings folder access error
+
+/* This is the title text for dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorTitle" = "Tidak dapat mengakses folder pengaturan";
+
+/* This is the descrption text for dialog we pop up when we cannot access settings folder {StrContains=\"Application Support\"} */
+"SettingsFolderErrorDescription" = "Pastikan Anda memiliki akses ke folder Application Support.";
+
+/* This is the button to quit for the dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorQuitButtonText" = "Keluar dari OneDrive";
+
+// Cloud device - used by SyncDevice.mm
+
+/* The name of the online storage */
+"CloudDevice" = "Penyimpanan tersinkron OneDrive";
+
+
+// Folder status - used by ModelExtensions.mm
+
+/* Text shown on status menu when everything is in sync */
+"FolderStatusInSync" = "OneDrive sudah terbarui"; // Up to date
+
+/* Local folder convergence status against a remote folder is not known */
+"FolderStatusUnknown" = "Tidak dikenal";
+
+/* Uploading and downloading files. "Files" will always be plural. */
+"FolderStatusSendAndReceive:%@" = "Mentransfer %@ file...";
+
+/* Uploading one file from a remote folder. We show the file name. */
+"FolderStatusSendingSingular:%@" = "Mengunggah %@...";
+
+/* Uploading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusSendingPlural:%@" = "Mengunggah %@ file...";
+
+/* Downloading one file from a remote folder. We show the file name. */
+"FolderStatusReceivingSingular:%@" = "Mengunduh %@...";
+
+/* Downloading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusReceivingPlural:%@" = "Mengunduh %@ file...";
+
+/* Processing downloaded files to be created in a local folder */
+"FolderStatusRealizing" = "Memproses file yang diunduh...";
+
+/* Processing local file changes to be uploaded */
+"FolderStatusHashing" = "Memproses perubahan...";
+
+/* Scanning file changes in a folder */
+"FolderStatusScanning" = "Memindai file...";
+
+/* Scanning file changes in a folde */
+"FolderStatusScanningExtended:%@" = "Memindai %@...";
+
+/* Processing changes to files */
+"FolderStatusMetadataXfer" = "Memproses file...";
+
+/* Waiting to resume file transfers (upload/download) */
+"FolderStatusBlocked" = "Menunggu untuk sinkronisasi";
+
+/* Status for a folder that is not syncing*/
+"FolderStatusUnmapped" = "OneDrive Anda tidak dikonfigurasi";
+
+/* Waiting to resume donwloading of a single file. We show the file name. */
+"FolderStatusBlockedSingular:%@" = "Menunggu untuk menerima %@...";
+
+/* Waiting to resume donwloading files */
+"FolderStatusBlockedPlural:%@" = "Menunggu untuk menerima %@ file";
+
+/* Upload+Download Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB */
+"FolderStatusTransferProgress:%@,%@,%@,%@" = "%@ %@ dari %@ %@";
+
+/* Upload+Download+Rate Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB The third number shows the current transfer rate followed by its unit. */
+"FolderStatusTransferProgressNew:%@,%@,%@,%@,%@,%@" = "%@ %@ dari %@ %@ di %@ %@";
+
+/* Improve upload performance */
+"FasterUploadOption" = "Tingkatkan kecepatan unggah dengan mengunggah dalam batch.\r\nOpsi ini menggunakan lebih banyak bandwidth. Jika Anda menemukan masalah dengan koneksi Internet Anda, jangan mencentang pilihan ini.";
+
+/* Available storage space. Example: 20 GB used out of 200 GB. This is used in the systray. */
+"StorageQuota:%@,%@" = "%1$@ digunakan dari %2$@";
+
+/* Available storage space. Example: 20 GB of 200 GB cloud storage used. This is used in account tab of preference window to show GB on disk for personal account */
+"CloudStorageQuota:%@,%@" = "%1$@ dari %2$@ penyimpanan cloud digunakan";
+
+/* Storage used on Mac. Example: 2 GB used on this Mac. This is used in account tab of preference window to show GB on disk for ODB */
+"StorageOnMac:%@" = "%@ digunakan pada Mac ini";
+
+// Device status - used by ModelExtensions.mm
+
+/* Drive status displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlocked" = "Tidak dapat mengunggah file";
+
+/* Error description displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlockedVerbose" = "File yang bermasalah memblokir semua unggahan";
+
+// Device Location - used by ModelExtensions.mm
+
+/* Local device, i.e. this computer */
+"DeviceLocationLocal" = "Lokal";
+
+/* Remote device, e.g. another computer */
+"DeviceLocationRemote" = "Jarak jauh";
+
+/* Cloud storage device, */
+"DeviceLocationCloud" = "Cloud";
+
+// Sync Issue Window
+
+/* "Problem" is a general term that includes both warnings and errors. Problem is singular. */
+"SyncIssueWindowTitleSingular:%@" = "1 masalah dengan %@ Anda";
+
+/* "Problem" is a general term that includes both warnings and errors. Problems is plural. */
+"SyncIssueWindowTitlePlural:%@,%@" = "%1$@ masalah pada %2$@ Anda";
+
+/* The button is used to clear the issue list */
+"SyncIssueWindowClearButton" = "Hapus";
+
+/* Reveal is showing the item */
+"SyncIssueWindowOpenInFinderToolTip" = "Perlihatkan di Finder";
+
+/* Tool tip for the button that removes an issue from issue window */
+"SyncIssueWindowIgnoreIssueToolTip" = "Abaikan masalah ini";
+
+/* Text on status when there are more than 1 problems. "Problems" is always plural */
+"SyncIssueStatusPlural:%@" = "%@ masalah dengan OneDrive Anda";
+
+/* Text on status when there is a problem. problem is always singular */
+"SyncIssueStatusSingular" = "1 masalah dengan OneDrive Anda";
+
+/* Tool tip for the button that opens issue resolver window */
+"SyncIssueWindowOpenIssueToolTip" = "Atasi masalah ini";
+
+/* Primary text for error dialog with a file conflict for the file name. %@ is a file name */
+"SyncIssueAlertFileOnHoldPrimary:%@" = "Atasi Konflik File untuk \"%@\"";
+
+/* Secondary text for error dialog. %@ is a machine name */
+"SyncIssueAlertFileOnHoldSecondary:%@" = "Anda dapat membuka file di Office untuk menggabungkan perubahan dari kedua versi atau memilih file yang ingin disimpan. Selain itu, Anda dapat menyimpan kedua file dan \"-%@\" akan ditambahkan pada nama file di komputer, serta file online akan diunduh.";
+
+/* Primary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldMainButton" = "Simpan kedua file";
+
+/* Secondary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldSecondaryButton" = "Buka di Office";
+
+// Error description - used by ModelExtensions.mm
+
+/* error description used in issue window {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFilename" = "Harap ubah nama file. Sebagai contoh, pastikan nama tidak dimulai atau diakhiri dengan spasi, diakhiri dengan titik, dimulai dengan dua titik, atau memuat salah satu karakter ini: \\ / : * ? \" < > | ";
+
+/* error description used in issue window  {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFoldername" = "Harap ubah nama folder. Sebagai contoh, pastikan nama tidak dimulai atau diakhiri dengan spasi, diakhiri dengan titik, dimulai dengan dua titik, atau memuat salah satu karakter ini: \\ / : * ? \" < > | ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionFilePathTooLong" = "Jalur file terlalu panjang untuk disimpan di komputer";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionCloudAccessDenied:%@" = "File ini bersifat baca-saja di \"%@\"";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionDocumentCheckedOut" = "File ini telah dilihat oleh orang lain.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionServerFileConflict:%@" = "Item tidak dapat diunggah ke \"%@\"";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionExcludedItem:%@" = "Satu item tidak dapat diunggah ke \"%@\"";
+
+/* error description used in issue window %1$@ is a size like 10 GB, %2$@ is a string like "OneDrive - Microsoft" */
+"SyncErrorShortDescriptionFileTooBig:%@,%@" = "Anda tidak dapat mengunggah file lebih besar dari %1$@ di \"%2$@\"";
+
+/* Use "OneNote" unless there's a localized name for it {Locked=!cs, sk;\"OneNote\"} */
+"SyncErrorShortDescriptionOnenoteDeleted:%@" = "Pintasan ke file OneNote tidak dapat dihapus dari folder \"%@\" Anda. Klik untuk masuk ke OneDrive dan hapus pintasan ini dari web.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionItemCantFitInQuota:%@" = "File atau folder beserta isinya tidak dapat masuk dengan sisa kuota di \"%@\" Anda";
+
+/* item means either folder or file */
+"SyncErrorShortDescriptionItemLimitExceeded:%@" = "Ada terlalu banyak file dalam \"%@\". Hapus file yang tidak Anda butuhkan.";
+
+/* The user choose to unsync files/folders but we are unable to delete it. item means either folder or file */
+"SyncErrorShortDescriptionUnmappedContentPresent:%@" = "File atau folder dengan nama ini sudah ada di lokasi yang sama secara online di \"%@\". Ubah nama file atau folder.";
+
+/* error description used when Office files have edit-edit conflicts and they cannot be merged */
+"SyncErrorShortDescriptionFileOnHold" = "Kami tidak dapat menggabungkan perubahan di file Office. Klik pada ikon panah untuk mengatasinya.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaCritical:%@,%@" = "%1$@ telah %2$@ penuh";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaCritical:%@,%@" = "%1$@ hanya memiliki %2$@ ruang yang tersedia.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaExceeded:%@" = "%@ kehabisan ruang";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaExceeded" = "Agar folder OneDrive Anda tetap tersinkron, dapatkan lebih banyak ruang penyimpanan atau hapus file yang tidak dibutuhkan lagi.";
+
+/* error description used in issue window for business accounts */
+"CloudIssueShortDescriptionQuotaExceeded_Business" = "Hubungi departemen TI Anda untuk informasi selengkapnya, atau kosongkan sebagian ruang dengan menghapus file.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleThrottling" = "OneDrive tidak dapat mentransfer file sekarang";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionThrottling" = "Silakan coba lagi besok.";
+
+// Status menu - used by StatusMenuController.mm
+
+/* No comments provided by engineer */
+"StatusMenuTitle" = "Kelola";
+
+/* The status menu item text that leads to more menu items */
+"StatusMoreMenu" = "Selengkapnya";
+
+/* Text for status menu item that opens the folder containing deleted OneDrive files */
+"StatusMenuItemLaunchRecycleBin" = "Keranjang sampah OneDrive";
+
+/* Status menu item to allow the user to open the dialog for sharing file/folder */
+"StatusMenuItemShare" = "Berbagi file atau folder...";
+
+/* Text for the status menu item which opens the OneDrive folder when clicked*/
+"StatusMenuItemOpenLocalFolder" = "Buka Folder OneDrive";
+
+/* Text for the status menu item which opens the named folder when clicked  */
+"StatusMenuItemOpenNamedFolder: %@" = "Buka Folder %@";
+
+/* Status menu item that opens browser with Upgrade account page */
+"StatusMenuItemUpgrade" = "Mutakhirkan";
+
+/* Text for the status menu item which opens a browser to OneDrive website for storage manage */
+"StatusMenuItemManageStorage" = "Kelola Penyimpanan";
+
+/* Status menu item that when clicked will launch a page with user's premium features */
+"StatusMenuItemManagePremium" = "Fitur Premium Saya";
+
+/* Text for the status menu item which opens a browser to OneDrive website homepage */
+"StatusMenuItemLaunchWebsite" = "Masuk ke OneDrive.com";
+
+/* The status menu item that allows user to open OneDrive help site. It will likely launch a browser to a website */
+"StatusMenuItemLaunchHelp" = "Bantuan";
+
+/* The status menu item that allows user to open OneDrive feedback. It will likely launch a browser to a website */
+"StatusMenuItemFeedback" = "Umpan balik";
+
+/* The status menu item that allows a user to open the Parature support dialog. */
+"StatusMenuItemReportIssue" = "Laporkan Masalah";
+
+/* Status shown on the status menu when everything is up to date */
+"StatusMenuItemUpToDate" = "OneDrive sudah diperbarui";
+
+/* Status shown on the status menu to indicate last updated time in seconds */
+"StatusMenuItemLastUpToDateTimeSecondsAgo" = "Terakhir diperbarui beberapa saat yang lalu";
+
+/* Status shown on the status menu to indicate last updated time was one minute ago */
+"StatusMenuItemLastUpToDateTimeOneMinuteAgo" = "Terakhir diperbarui 1 menit yang lalu";
+
+/* Status shown on the status menu to indicate last updated time was minutes ago */
+"StatusMenuItemLastUpToDateTimeMinutesAgo:%d" = "Terakhir diperbarui %d menit yang lalu";
+
+/* Status shown on the status menu to indicate last updated time was one hour ago */
+"StatusMenuItemLastUpToDateTimeOneHourAgo" = "Terakhir diperbarui 1 jam yang lalu";
+
+/* Status shown on the status menu to indicate last updated time was hours ago */
+"StatusMenuItemLastUpToDateTimeHoursAgo:%d" = "Terakhir diperbarui %d jam yang lalu";
+
+/* Status shown on the status menu to indicate last updated time on a date */
+"StatusMenuItemLastUpToDateTimeDaysAgo:%@" = "Terakhir diperbarui %@";
+
+/* No comments provided by engineer */
+"StatusMenuItemViewActivity" = "Lihat aktivitas terakhir";
+
+/* Status menu entry for opening the issue window */
+"StatusMenuItemViewIssues" = "Klik di sini untuk melihat masalah sinkronisasi";
+
+/* Status shown on the status menu when downloading a file */
+"StatusMenuItemSyncCountSingularDownload: %@" = "Mengunduh %@";
+
+/* Status shown on the status menu when uploading a file */
+"StatusMenuItemSyncCountSingularUpload: %@" = "Mengunggah %@";
+
+/* Status shown on the status menu when downloading or uploading more than one file */
+"StatusMenuItemSyncCount-%d" = "Mentransfer %d item...";
+
+/* Text for status menu item that opens the preference. It should be translated the same way as all app menu's Preferences item. */
+"StatusMenuItemPreferences" = "Preferensi";
+
+/* Text for preference window accessibility label. %1$@ is the current tab name */
+"AccessibilityPreferencesWindowLabel:%@" = "Preferensi %1$@";
+
+/* Text for status menu item that pauses syncing. */
+"StatusMenuItemPause" = "Jeda Sinkronisasi";
+
+/* Text for status menu item that resumes syncing when paused. */
+"StatusMenuItemResume" = "Lanjutkan Sinkronisasi";
+
+/* Text for status menu item that indicates to pause for 1 hour. */
+"StatusMenuItemPauseTimerSingular" = "1 Jam";
+
+/* Text for status menu item that indicates to pause for a number of hours. %1$@ is a number representing hours. */
+"StatusMenuItemPauseTimerPlural" = "%1$@ Jam";
+
+/* Text for status menu item that quits the app */
+"StatusMenuItemQuit" = "Keluar dari OneDrive";
+
+/* Loading user data when signing-in */
+"StatusMenuItemLoading" = "Memuat...";
+
+/* OneDrive is at initial start up */
+"StatusMenuItemStarting" = "Memulai OneDrive";
+
+/* OneDrive is showing first run wizard */
+"StatusMenuItemSetup" = "Siapkan OneDrive";
+
+/* Waiting for user input to migrate their Sandbox data */
+"StatusMenuItemMigration" = "Migrasi data pengguna...";
+
+/* Text for status menu item that signs out the app */
+"StatusMenuItemSignOut" = "Keluar";
+
+/* Launch the application automatically after login to OS */
+"StatusMenuItemOpenAtLogin" = "Buka saat Masuk";
+
+/* Status menu item that when clicked will launch the live sit for the account that is connected */
+"StatusMenuItemViewOnline" = "Lihat secara online";
+
+// Quit Dialog
+
+/* Title text for dialog shown when user is quitting OneDrive */
+"QuitDialogHeader" = "Keluar dari OneDrive?";
+
+/* Body text for dialog shown when user is quitting OneDrive */
+"QuitDialogDescription" = "Jika Anda keluar dari OneDrive, file dalam folder OneDrive tidak akan disinkronkan dengan file online Anda.";
+
+/* Title text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogHeaderUploadsPending" = "Keluar dari OneDrive dan Berhenti Mengunggah File?";
+
+/* Body text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogDescriptionUploadsPending" = "Jika Anda keluar dari OneDrive, unggahan file dalam folder OneDrive tidak akan diselesaikan sampai Anda memulai ulang.";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will quit OneDrive. */
+"QuitDialogButtonDefault" = "Keluar dari OneDrive";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will dismiss dialog. */
+"QuitDialogCancelButton" = "Batal";
+
+// Dock Menu - used by DockMenuController.mm
+
+/* No comments provided by engineer */
+"DockMenuTitle" = "OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemOpenLocalFolder" = "Buka folder OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemLaunchWebsite" = "Masuk ke OneDrive.com";
+
+// Login Failures - used by SignInViewController.mm
+
+/* When we are unable to retrieve a user's tenant name, we will use this to show "OneDrive - Business" */
+"DefaultTenantName" = "Business";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"InvalidUsernameTitleText" = "Tidak dapat masuk ke OneDrive.";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the explaination text in the dialog {StrContains=\"example555@hotmail.com\"} */
+"InvalidUsernameDescriptionText" = "Silakan masukkan Akun Microsoft Anda dalam format ini: example555@hotmail.com.";
+
+/* When we receive an invalid web request, we show this text as the first line of the dialog. */
+"InvalidWebRequestTitle" = "Maaf, kami tidak dapat membuka klien yang sinkron";
+
+/* When we receive an invalid web request, we show this text as the body text of the dialog. */
+"InvalidWebRequestBody" = "Kami tidak dapat memproses URL. Untuk bantuan, hubungi dukungan.";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailTitle" = "Terjadi masalah saat memproses Anda masuk";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailText" = "Terjadi masalah saat memproses Anda masuk. Silakan coba lagi. Pastikan Akun Microsoft dan kata sandi sudah benar, dan komputer Anda tersambung ke Internet.";
+
+/* When we have connectivity error during sign in, we pop up a dialog and this is the first line of the text in the dialog*/
+"SignInConnectivityErrorTitleText" = "Terjadi masalah saat menyambung ke OneDrive";
+
+/* When we have connecctivity error during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInConnectivityErrorDescriptionText" = "Periksa koneksi Internet, lalu coba lagi.";
+
+/* When we fail to access the keychain during sign in, we pop up a dialog and this is the first line of text in the dialog. */
+"SignInKeychainErrorTitleText" = "Terjadi masalah saat mengakses rantai kunci Anda";
+
+/* when we fail to access the keychain during sign in, we pop up a dialog and this is the detailed text in the dialog. */
+"SignInKeychainErrorDescriptionText" = "Silakan periksa bahwa rantai kunci masuk Anda sudah ada dan OneDrive memiliki akses ke dalamnya. Jika diminta, harap perbolehkan akses OneDrive ke rantai kunci Anda.";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the first line of the text in the dialog */
+"SignInCredentialErrorTitleText" = "Terjadi masalah saat menyambung ke OneDrive";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInCredentialErrorDescriptionText" = "Periksa koneksi Internet lalu coba lagi.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SuspendedAccountTitleText" = "Tidak dapat masuk ke OneDrive.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the explaination text in the dialog */
+"SuspendedAccountDescriptionText" = "Akun Anda telah ditangguhkan.";
+
+/* When we get a user using a non-beta enabled account, we show this error title. */
+"SignInNoBetaText" = "Tidak dapat masuk ke OneDrive.";
+
+/* When we get a user using a non-beta enabled account, we show this error description. {StrContains=\"Windows Live\"} */
+"SignInNoBetaDescriptionText" = "Akun ini belum diaktifkan untuk program beta Windows Live.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnknownErrorTitle" = "Terjadi masalah saat memproses Anda masuk";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnknownErrorText" = "Silakan coba beberapa menit lagi.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLError500Title" = "Terjadi masalah saat memproses Anda masuk";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLError500Text" = "Maaf, terjadi masalah dengan OneDrive. Silakan coba beberapa saat lagi.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInterruptedErrorTitle" = "Terjadi masalah saat memproses Anda masuk";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInterruptedErrorText" = "Terjadi masalah dengan akun Anda. Untuk mempelajari cara memperbaiki masalah ini, masuk dengan situs web layanan. Setelah Anda menyelesaikan masalahnya, coba lagi.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnauthorizedErrorTitle" = "Terjadi masalah saat memproses Anda masuk";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnauthorizedErrorText" = "Maaf, terjadi masalah dengan OneDrive. Silakan coba beberapa saat lagi.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidClientErrorTitle" = "Terjadi masalah saat memproses Anda masuk";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidClientErrorText" = "Maaf, terjadi masalah dengan OneDrive. Silakan coba beberapa saat lagi.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidGrantErrorTitle" = "Terjadi masalah saat memproses Anda masuk";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidGrantErrorText" = "Maaf, terjadi masalah dengan OneDrive. Silakan coba beberapa saat lagi.";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the title. */
+"SignInURLSPOUserNotFoundTitle" = "OneDrive Anda belum disiapkan";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the error text. */
+"SignInURLSPOUserNotFoundErrorText" = "Hubungi departemen TI Anda untuk mendapatkan bantuan.";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the title */
+"SignInURLUserThrottledErrorTitle" = "Kami tidak dapat menyiapkan OneDrive pada Mac ini";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the error text. */
+"SignInURLUserThrottledErrorText" = "Maaf, OneDrive mengalami lalu lintas tingkat tinggi. Silakan coba lagi nanti.";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the title. */
+"SignInURLEmailMismatchTitle" = "Agar berhasil menyinkronkan, gunakan alamat email yang sama dengan yang Anda gunakan di web";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the error text. */
+"SignInURLEmailMismatchErrorText:%@" = "Silakan masuk dengan %@ untuk mulai menyinkronkan konten ini.";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to try signing in again. */
+"SignInTryAgainButtonText" = "Coba lagi";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive*/
+"SignInQuitButtonText" = "Keluar dari OneDrive";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive */
+"SignInCloseButtonText" = "Tutup";
+
+/* This text is displayed in sign in dialog while we load signing in page */
+"SignInPageLoadingText" = "Memuat...";
+
+/* This text is used for voice over while we load signing in page */
+"SignInPageLoadingVoiceOverText" = "Silakan tunggu selagi OneDrive sedang dimuat.";
+
+/* This text is displayed in sign in dialog while we are signing in the user */
+"SignInProgressingText" = "Sedang masuk...";
+
+/* This text is used for voice over while we are signing in the user */
+"SignInProgressingVoiceOverText" = "Silakan tunggu selagi OneDrive sedang masuk.";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the title. */
+"SignInDuplicateSyncErrorTitle" = "Anda telah menyinkronkan akun ini";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the text. */
+"SignInDuplicateSyncErrorText:%@" = "Buka folder %@ Anda atau masuk dengan akun yang berbeda.";
+
+/* When the userconnected service returns an error, this is the title */
+"SignInUserConnectedErrorTitle" = "Terjadi masalah saat menyambung ke OneDrive";
+
+/* When the userconnected service returns error: "AccessDenied". This is the error text. */
+"SignInUserConnectedAccessDeniedText" = "Anda tidak memiliki akses ke layanan ini. Untuk mendapatkan bantuan, hubungi departemen TI Anda";
+
+/* When the userconnected service returns error: "AccountSuspended". This is the error text. */
+"SignInUserConnectedAccountSuspendedText" = "Akun Anda diblokir. Untuk mendapatkan bantuan, hubungi departemen TI Anda";
+
+/* When the userconnected service returns error: "InvalidUserData". This is the error text. */
+"SignInUserConnectedInvalidUserDataText" = "Koneksi ke layanan tidak dapat tersambung. Untuk bantuan, hubungi departemen TI Anda";
+
+/* When the userconnected service returns error: "MissingLicense". This is the error text. */
+"SignInUserConnectedMissingLicenseText" = "Anda memerlukan lisensi lain untuk mengakses layanan ini. Untuk bantuan, hubungi departemen TI Anda";
+
+/* When the userconnected service returns error: "ProvisioningFailed". This is the error text. */
+"SignInUserConnectedProvisioningFailedText" = "OneDrive Anda belum disiapkan. Untuk mendapatkan bantuan, hubungi departemen TI Anda";
+
+/* When the userconnected service returns error: "Throttled". This is the error text. */
+"SignInUserConnectedThrottledText" = "Layanan saat ini mengalami permintaan dengan volume tinggi. Coba lagi dalam beberapa menit";
+
+/* When the userconnected service returns error: "Timeout". This is the error text. */
+"SignInUserConnectedTimeoutText" = "Layanan ini terlalu lama merespons. Coba lagi dalam beberapa menit";
+
+/* When the userconnected service returns error: "Unknown". This is the error text. */
+"SignInUserConnectedUnknownText" = "Coba lagi dalam beberapa menit, atau hubungi departemen TI Anda jika masalah tetap berlanjut";
+
+/* When the userconnected service returns error: "UnreachableHost". This is the error text. */
+"SignInUserConnectedUnreachableHostText" = "Layanan tidak tersedia untuk sementara. Coba lagi dalam beberapa menit";
+
+/* When the userconnected service returns error: "UserNotFound". This is the error text. */
+"SignInUserConnectedUserNotFoundText" = "Terjadi masalah dengan akun Anda. Untuk mendapatkan bantuan, hubungi departemen TI Anda";
+
+/* When the userconnected service returns error: "NoTeamSitePermission". This is the error text. */
+"SignInUserConnectedNoTeamSitePermText" = "Anda tidak memiliki akses ke situs SharePoint ini. Hubungi departemen TI Anda untuk mendapatkan bantuan";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error. This is the title. */
+"SignInUserAlreadyLoadedErrorTitle" = "Anda sedang menyinkronkan akun yang berbeda";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error.
+   Depending on whether we know which email the user is signed in with, either show the specific or the generic message below. This is the text. */
+"SignInUserAlreadyLoadedErrorEmailSpecificText:%@" = "Akun yang Anda gunakan untuk masuk tidak cocok dengan akun yang disinkronkan. Berikan kata sandi untuk \"%@\". Untuk menambahkan akun lain, masuk ke Preferensi, klik tab Akun, lalu pilih \"Tambahkan Akun\"";
+
+"SignInUserAlreadyLoadedErrorGenericText" = "Akun yang Anda gunakan untuk masuk tidak cocok dengan akun yang disinkronkan. Untuk menambahkan akun lain, masuk ke Preferensi, klik tab Akun, lalu pilih \"Tambahkan Akun\"";
+
+/* When MSA user is already syncing with account A, and tries to sign in with account B when prompted for creds. Depending on whether the e-mail address is available or not, we show the specific or generic message below. This is the text */
+ "SignInUserAlreadyLoadedErrorMSAEmailSpecificText:%@" = "Akun yang Anda gunakan untuk masuk tidak sesuai dengan akun yang disinkronkan. Silakan berikan kata sandi untuk \"%@\".";
+
+ "SignInUserAlreadyLoadedErrorMSAGenericText" = "Akun yang Anda gunakan untuk masuk tidak sesuai dengan akun yang disinkronkan.";
+
+/* When an unknown error occurs that has not been handled. This is the title. */
+"SignInUnknownErrorTitle" = "Terjadi masalah saat memproses Anda masuk";
+
+/* When an unknown error occurs that has not been handled. This is the text. */
+"SignInUnknownErrorText" = "Coba lagi dalam beberapa menit, atau hubungi departemen TI Anda jika masalah tetap berlanjut";
+
+// Preferences - used by PreferenceController.mm
+
+/* This is the text on preference window toolbar for Preferences. */
+"PreferenceGeneralItem" = "Preferensi";
+
+/* This is the text that encloses General area in preference window. */
+"PreferenceGeneralGroupBoxText" = "Umum";
+
+/* This is the text on preference window check box. When user checks this option, it allows OneDrive to start when user login. */
+"PreferenceStartAtLoginCheckBoxText" = "Buka saat Masuk";
+
+/* This is the description for enable OnPrem telemetry checkbox. */
+"PrivacyCheckBoxText" = "Kirim laporan kesalahan dan statistik penggunaan ke Microsoft";
+
+/* This is the description when OneDrive is at the wrong location. "Applications" should be localized the same way as the OS. */
+"OpenAtLoginDisabledExplaination" = "Untuk membuat pengaturan ini tersedia, keluar dari OneDrive, pindahkan aplikasi OneDrive ke folder Aplikasi, lalu buka OneDrive lagi.";
+
+/* This is the text on preference window check box. When user checks this option, OneDrive icon is removed from the Dock. Note "Dock" is capital D */
+"PreferenceHideDockIconText" = "Sembunyikan ikon Dock";
+
+/* This is the text for a preference window check box. When the user checks this option we will automatically save screenshots any time they take a screenshot. */
+"PreferenceEnableScreenCaptureUpload" = "Simpan tangkapan layar ke OneDrive";
+
+/* This will be displayed when a user running a store build attempts to enable the screen capture
+ * feature. Due to app store limitations, the user is forced to select their desktop folder. This
+ * message will be displayed within the file open dialog in order to help the user understand what
+ * selection they are required to make in the file open dialog. */
+"PreferenceEnableScreenCaptureUploadOpenDialogMessage" = "Untuk menyimpan cuplikan layar ke OneDrive secara otomatis, silakan pilih folder Desktop Anda.";
+
+/* This is the text on preference window check box. When user checks this option, we will not show share/edit notifications */
+"PreferenceDisplayShareEditNotificationsCheckBoxText" = "Tampilkan pemberitahuan tentang berbagi atau pengeditan";
+
+/* This is the text on preference window toolbar for About. */
+"PreferenceAboutItem" = "Tentang";
+
+/* This is the text that encloses about area in preference window. */
+"PreferenceAboutGroupBoxText" = "Tentang Microsoft OneDrive";
+
+/* This is the text that shows version. */
+"PreferenceVersionText:%@" = "Versi %@";
+
+/* This is the text that shows version for standalone. */
+"PreferenceStandaloneVersionText:%@" = "Versi %@ (Mandiri)";
+
+/* This is the text that encloses "more info" area in preference window. */
+"PreferenceMoreInfoGroupBoxText" = "Info Selengkapnya";
+
+/* This is the text that opens help in browser. */
+"PreferenceGetHelpText" = "Dapatkan Bantuan untuk OneDrive";
+
+/* This is the text that opens privacy statement in browser. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"PreferencePrivacyStatementText" = "Privasi & Cookie";
+
+/* This is the text that opens server status in browser. */
+"PreferenceServerStatusText" = "Status Layanan";
+
+/* This is the text that opens Terms of Use in browser. */
+"PreferenceTermsOfUseText" = "Ketentuan Penggunaan";
+
+/* This is the text on the button in preference window that opens the manage storage page on browser */
+"PreferenceManageStorageButtonText" = "Kelola Penyimpanan";
+
+/* This is the text on the button that unlinks OneDrive in preference window. */
+"PreferenceUnlinkButtonText" = "Lepas tautan Mac ini";
+
+/* This is the title text on the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertMessageTitle" = "Lepas tautan Akun pada Mac ini?";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for consumer accounts. */
+"PreferenceUnlinkAlertDetailedMessage" = "File OneDrive Anda akan berhenti menyinkronkan. Salinan file ini akan tetap ada dalam Mac ini.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for business accounts. */
+"PreferenceUnlinkAlertDetailedMessageBusiness:%@" = "Konten bisnis yang terkait dengan akun (%@) akan berhenti menyinkronkan. Salinan file ini akan tetap ada di Mac ini.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for last library unsynced. %1$@ is a folder name, %2$@ is an email address */
+"PreferenceUnlinkLastLibraryAlertDetailedMessage:%@,%@" = "%1$@ adalah folder tersinkron terakhir Anda. Jika Anda berhenti menyinkronkan folder ini, tautan akun %2$@ akan dihapus. Salinan file ini akan tetap berada di Mac ini.";
+
+/* This is the text on the confirm button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertConfirmButton" = "Batalkan Tautan Akun";
+
+/* This is the text on the cancel button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertCancelButton" = "Batal";
+
+/* This is the text on the button that resets OneDrive in preference window. */
+"PreferenceResetButtonText" = "Atur ulang OneDrive";
+
+/* This is the text on preference window toolbar for account. */
+"PreferenceAccountItem" = "Akun";
+
+/* This is the text that tells users how to sync down only selected folders in preference window. */
+"PreferenceSelectiveSyncDescription" = "Folder yang Anda pilih akan tersedia pada Mac ini.";
+
+/* This is the text that encloses "Choose folders" area in preference window. */
+"PreferenceFolderGroupBoxText" = "Pilih Folder";
+
+/* This is the button that opens up advanced selective sync in preference window. */
+"PreferenceSelectFoldersButton" = "Pilih Folder";
+
+/* This is the text on the the preference window toolbar for network. */
+"PreferenceNetworkItem" = "Jaringan";
+
+/* This is the text on the Upload box. */
+"PreferenceUploadBox" = "Laju Unggahan";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceNoLimit" = "Jangan Batasi";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimit" = "Sesuaikan Secara Otomatis";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimitByAdmin" = "Sesuaikan Secara Otomatis (Dikelola oleh Organisasi Anda)";
+
+/* This is the text on the radio button that does limit bandwidth. */
+"PreferenceCustomLimit" = "Batasi untuk:";
+
+/* This is the text on the Download box. */
+"PreferenceDownloadBox" = "Laju Unduhan";
+
+/* This is the text on the box to enable the Files On-Demand feature. */
+"PreferenceCloudFilesEnableBox" = "File Sesuai Permintaan";
+
+/* This is the description for the Files On-Demand box. */
+"PreferenceCloudFilesDescription" = "File Sesuai Permintaan mengosongkan sebagian ruang pada komputer dengan mengunduh file saat Anda menggunakannya.";
+
+/* Button text in Files On-Demand box. Clicking this button turns on the feature. */
+"PreferenceCloudFilesEnable" = "Aktifkan File Sesuai Permintaan";
+
+/* Button text in Files On-Demand box. Clicking this button turns off the feature. */
+"PreferenceCloudFilesDisable" = "Nonaktifkan File Sesuai Permintaan";
+
+/* Link in the Files On-Demand box. Clicking this link will launch a webpage with more information. */
+/* Also resued in local mass delete delete confirmed ACM. */
+"PreferenceCloudFilesMoreInfo" = "Pelajari Selengkapnya";
+
+/* This is the title text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertMessageTitle" = "Nonaktifkan File Sesuai Permintaan?";
+
+/* This is the body text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertDetailedMessage" = "Semua file dan folder OneDrive akan diunduh ke Mac ini.";
+
+/* This is the text on the confirm button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertConfirmButton" = "OK";
+
+/* This is the text on the cancel button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertCancelButton" = "Batal";
+
+/* This is the button text to display the Blocked Applications list. */
+"PreferenceBlockedAppButtonText" = "Kelola Aplikasi";
+
+/* This is the description for the Hydrating Applications pane. */
+"PreferenceHydratingAppDescription" = "Mac dapat otomatis mengunduh file secara online saja dari OneDrive untuk aplikasi yang memintanya.";
+
+/* This is the description for the Blocked Applications box. */
+"PreferenceBlockedAppDescription" = "Aplikasi ini diblokir agar tidak otomatis mengunduh dari OneDrive:";
+
+/* This is the description for the checkbox that allows user to control whether they see a hydration notification toast. */
+"PreferenceNotifyHydratingAppCheckbox" = "Beri tahu saya jika aplikasi sedang mengunduh dari OneDrive";
+
+/* This is the header of the table listing Blocked Applications */
+"PreferenceBlockedAppTableHeader" = "Aplikasi";
+
+/* Label for the button to close the Blocked Applications list */
+"PreferenceBlockedAppCloseButtonLabel" = "Tutup";
+
+/* Prompt for user to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationPrompt" = "Pilih aplikasi yang ingin Anda blokir agar tidak mengunduh file secara otomatis";
+
+/* Header for error when unable to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationErrorHeader" = "Tidak Dapat Menambahkan Pilihan";
+
+/* Body for error when unable to add an application to the Blocked Applications list*/
+"PreferenceBlockedAppAddApplicationErrorBody" = "Hanya aplikasi yang dapat diblokir agar tidak mengunduh file OneDrive secara otomatis. Silakan pilih aplikasi dan coba lagi.";
+
+// Preferences - Advanced Selective Sync Page
+
+/* This is the text on the top of advanced selective sync sheet. */
+"AdvancedSelectiveSyncTitle" = "Sinkronkan File dari OneDrive Anda";
+
+/* This is the text on the top of advanced selective sync sheet when Cloud Files on. */
+"AdvancedSelectiveSyncTitleCloudFiles" = "Pilih Folder";
+
+/* This is the text under the title of advanced selective sync sheet. */
+"AdvancedSelectiveSyncDescription:%@" = "Pilih item yang ingin diunduh ke folder \"%@\" Anda. Anda bisa mendapatkan item-item tersebut meskipun sedang offline.";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page. */
+"AdvancedSelectiveSyncDescriptionPreferences" = "File yang Anda sinkronkan akan memenuhi ruang pada Mac ini";
+
+/* This is the text in advanced selective sync sheet to sync everything. */
+"AdvancedSelectiveSyncAll" = "Sinkronkan semua file dan folder di OneDrive saya";
+
+/* This is the text in advanced selective sync sheet to sync everything under a team site. */
+"AdvancedSelectiveSyncAllTeamSite:%@" = "Sinkronkan semua file dan folder di %@";
+
+/* This is the text in advanced selective sync sheet to sync only some files. */
+"AdvancedSelectiveSyncSome" = "Atau sinkronkan folder ini saja:";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page and Cloud Files enabled. */
+"AdvancedSelectiveSyncDescriptionCloudFiles" = "Pilih apa yang Anda inginkan agar tersedia pada folder \"%@\". File ini akan tersedia sesuai permintaan. Folder yang tidak dipilih akan disembunyikan dari Pencari.";
+
+/* This is the text in advanced selective sync sheet to sync everything when Cloud Files is enabled. */
+"AdvancedSelectiveSyncAllCloudFiles" = "Jadikan semua file tersedia";
+
+/* This is the text in advanced selective sync sheet to sync only some files when Cloud Files is enabled. */
+"AdvancedSelectiveSyncSomeCloudFiles" = "Atau buat folder ini terlihat:";
+
+/* This is the text on the file group item in the tree view. %@ is for folder names. ie "puppies", "Cute Kittens". */
+"AdvancedSelectiveSyncFileGroupItem:%@" = "File dalam \"%@\"";
+
+/* This is the text on the root's file group item in the tree view. */
+"AdvancedSelectiveSyncFileGroupItemRoot" = "File tidak ada dalam folder";
+
+/* This is the text on the advanced selective sync sheet for the local path on Mac. */
+"AdvancedSelectiveSyncMacLocationText" = "Lokasi di Mac Anda:";
+
+/* This is the button text on the advanced selective sync sheet for start sync. */
+"AdvancedSelectiveSyncStartSyncButtonText" = "Mulai Sinkronisasi";
+
+/* This is the button text on the advanced selective sync sheet for confirmation. */
+"AdvancedSelectiveSyncConfirmButtonText" = "OK";
+
+/* This is the button text on the advanced selective sync sheet for cancelling out. */
+"AdvancedSelectiveSyncCancelButtonText" = "Batal";
+
+/* This is the text at the middle of advanced selective sync sheet when loading. */
+"AdvancedSelectiveSyncLoading" = "Memuat...";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoading:%@" = "Kami tidak bisa mendapatkan daftar folder di %@.\nTutup dialog ini dan coba lagi.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders during FRE. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoadingFRE" = "Terjadi masalah saat menampilkan daftar folder. Jika Anda melanjutkan, kami akan menyinkronkan semua file dan folder untuk saat ini, tetapi Anda dapat mengubahnya nanti di Preferensi.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to provision error. */
+"AdvancedSelectiveSyncFailedLoadingWithProvisionError" = "Maaf, tidak dapat menampilkan daftar folder karena kami masih menyiapkan akun Anda. Kami akan menyinkronkan semua file dan folder, tetapi Anda dapat mengubahnya nanti di Preferensi.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to offline error*/
+"AdvancedSelectiveSyncFailedLoadingWithOfflineError" = "Kami tidak dapat menampilkan daftar folder karena tidak dapat tersambung ke OneDrive. Periksa koneksi Internet, lalu coba lagi.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to auth error. */
+"AdvancedSelectiveSyncFailedLoadingWithAuthError" = "Daftar folder tidak dapat ditampilkan karena terjadi masalah dengan akun Anda. Silakan keluar dari OneDrive, lalu masuk lagi.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to having no files and folders. */
+"AdvancedSelectiveSyncFailedLoadingWithNoFileError" = "OneDrive Anda masih kosong. Untuk menyinkronkan file yang akan ditambahkanke OneDrive nanti, pilih \"Semua file dan folder di OneDrive saya.\"";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnote" = "Jika Anda berhenti menyinkronkan file atau folder, mereka akan tetap berada di OneDrive tetapi tidak pada Mac ini. Jika file dan folder tersebut sudah ada di Mac, maka akan dihapus.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnoteCloudFiles" = "Jika Anda menyembunyikan folder ini pada Mac, file akan tetap berada di OneDrive tetapi tidak akan tersedia di Mac ini. Setiap item dalam folder ini akan dihapus dari Mac ini.";
+    
+/* This is the title text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingTitle" = "Maaf, terjadi kesalahan saat menerapkan perubahan Anda";
+
+/* This is the description text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingDescription:%@" = "Kami tidak dapat menyimpan daftar folder yang dipilih untuk disinkronkan ke %@. Silakan coba lagi.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingConfirm" = "Tutup";
+
+/* This is the title text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingTitle" = "Maaf, terjadi masalah dalam mengubah folder yang akan disinkronkan pada Mac ini";
+
+/* This is the description text in the alert sheet after we fail to set selective sync because syncengine is busy*/
+"AdvancedSelectiveSyncBusySettingDescription" = "Sebagian item yang akan dihentikan sinkronisasinya belum ada di OneDrive. Silakan tunggu hingga pengunggahan selesai, atasi masalah sinkronisasi yang terjadi, lalu coba lakukan perubahan lagi nanti.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingConfirm" = "Tutup";
+
+/* This is the text indicating the total size of all selected files and folders. The placeholder is the size and the unit.
+ Examples: Selected: 20 MB */
+"AdvancedSelectiveSyncFilesSelected:%@" = "Dipilih: %@";
+
+/* This is the text indicating the remaining space on disk. The first item is the disk. The second item is the size and the unit.
+ Examples: Remaining space on Macintosh HD: 20 GB */
+"AdvancedSelectiveSyncAvailableSpace:%@,%@" = "Sisa ruang di %1$@: %2$@";
+
+/* This is the description text for selectively syncing folders */
+"AdvancedSelectiveSyncSyncOnlyTheseFolderTitle" = "Sinkronkan folder ini saja";
+
+/* This is the text shown when calculating the selected and remaining disk space */
+"AdvancedSelectiveSyncLoadingTitle" = "Menghitung...";
+
+/* This is the text shown when content already syncing */
+"AdvancedSelectiveSyncAlreadySyncingWarning" = "Anda telah menyinkronkan konten ini.";
+
+/* This is the text shown when the teamsite that will be synced is read-only. */
+"AdvancedSelectiveSyncReadOnlyWarning" = "Situs ini bersifat baca-saja. Anda tidak dapat membuat perubahan pada file atau folder di situs ini.";
+
+/* This is the text for add an account button in the account tab of preference window */
+"AddAccountButtonText" = "Tambahkan Akun";
+
+/* This is the text for teamsite box in account tab of preference window (singular) */
+"PreferenceTeamSiteGroupBoxText" = "1 Lokasi Sedang Menyinkronkan";
+
+/* This is the text for teamsite box in account tab of preference window (plural) */
+"PreferenceTeamSiteGroupBoxText:%d" = "%d Lokasi Sedang Menyinkronkan";
+
+/* This is the text shown when not syncing ODB in account tab of preference window */
+"PreferenceNotSyncingQuotaText" = "Tidak menyinkronkan";
+
+/* This is the text for start sync button for ODB in account tab of preference window */
+"PreferenceStartSyncButton" = "Mulai Sinkronisasi";
+
+/* This is the text for stop sync button for each team site library in account tab of preference window */
+"PreferenceStopSyncButton" = "Berhenti Sinkronisasi";
+
+/* This is the title text in the dialog that stops syncing a teamsite in preference window. */
+"PreferenceStopSyncAlertMessageTitle:%@" = "Berhenti Menyinkronkan %@?";
+
+/* This is the body text in the dialog that unlinks OneDrive in preference window. */
+"PreferenceStopSyncAlertDetailedMessage:%@" = "%@ akan berhenti menyinkronkan. Salinan file ini akan tetap ada pada Mac ini.";
+
+/* This is the text on the confirm button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertConfirmButton" = "Berhenti Menyinkronkan";
+
+/* This is the text on the cancel button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertCancelButton" = "Batal";
+
+/* This is the title of the notifications we show after a team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationTitle:%@" = "Anda sedang menyinkronkan \"%1$@\"";
+
+/* This is the body of the notification we show after a read-only team site has been succesfully connected (initial sync). */
+"TeamSiteNotificationReadOnlyBody" = "Situs ini bersifat baca-saja. Klik di sini untuk melihat file Anda.";
+
+/* This is the body of the notification we show after an editable team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationEditableBody:%@" = "Anda dapat mengedit file di \"%1$@\". Klik di sini untuk melihat file.";
+
+/* This is the title of the notification we show after a previously connected, editable team site has become read-only. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingReadOnlyTitle:%@" = "\"%1$@\" kini bersifat baca-saja.";
+
+/* This is the body of the notification we show after a previously connected, editable team site has become read-only. */
+"TeamSiteNotificationAlreadySyncingReadOnlyBody" = "Anda sudah tidak dapat mengedit file atau folder karena izin situs telah berubah.";
+
+/* This is the title of the notification we show after a previously connected, read-only team site has become editable. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingEditableTitle:%@" = "Kini Anda dapat membuat perubahan dalam \"%1$@\"";
+
+/* This is the body of the notification we show after a previously connected, read-only team site has become editable. */
+"TeamSiteNotificationAlreadySyncingEditableBody" = "Setiap perubahan akan diunggah ke situs.";
+
+/* This is the body of the notification we show after a team site has been succesfully connected. Permissions of the site are not indicated for this toast. %1$@ is a folder name. */
+"TeamSiteMountNotificationBody:%@" = "File \"%1$@\" Anda sedang disinkronkan ke Mac ini. Klik di sini untuk melihat file Anda.";
+
+/* This is the title of the notifications we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingHeader:%@" = "Anda sudah menyinkronkan \"%1$@\"";
+
+/* This is the body of the notification we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingBody:%@" = "\"%1$@\" telah disinkronkan pada perangkat ini. Klik di sini untuk melihat file Anda.";
+
+/* Error dialog title for dialogs that stop the user from syncing On Prem because the front door URL is missing or ramp is off. */
+"CannotSyncOnPremTitle" = "Maaf, kami tidak dapat menyinkronkan folder ini";
+
+/* Body text for when we can't sync on Prem because its ramped off. */
+"OnPremSyncNotEnabledBody" = "Sinkronisasi folder lokal SharePoint tidak didukung.";
+
+/* Body text for when we can't sync On Prem because the front door URL is not configured. */
+"OnPremFrontDoorUrlNotSetBody" = "Hubungi administrator TI Anda guna mengonfigurasi OneDrive untuk menyinkronkan folder lokal SharePoint.";
+
+/* Title text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfiguredTitle" = "OneDrive Tidak Dapat Masuk";
+
+/* Body text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfigured" = "Terdapat masalah dengan kredensial Anda. Coba luncurkan aplikasi Penampil Tiket, kemudian tambahkan identitas Anda, atau masuk kembali. Hubungi departemen TI Anda untuk mendapatkan bantuan.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. */
+"NewHostMountConsentTitle" = "Izinkan OneDrive untuk melakukan Sinkronisasi?";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. %1$@ is the mount point's domain and %2$@ is the user's username. */
+"NewHostMountConsentMessage:%@,%@" = "Anda sedang mencoba untuk menyinkronkan dari lokasi baru (%1$@) dengan akun %2$@. Anda sebaiknya hanya menyinkronkan file jika Anda memercayai lokasi ini.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, give consent */
+"NewHostMountConsentGiveConsentButton" = "Izinkan";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, deny consent */
+"NewHostMountConsentDenyConsentButton" = "Batal";
+
+// Sync Engine errors - used by coreController.mm. These are built manually, so straight searching won't work.
+
+/* This is the title text shown on the popup dialog when we detect a new version of the client is available */
+"SyncEngineError:OldClientVersion Title" = "Versi OneDrive ini sudah kedaluwarsa.";
+
+/* This is the text shown on the popup dialog when we detect a new version of the client is available*/
+"SyncEngineError:OldClientVersion Message" = "Silakan kunjungi Mac App Store dan perbarui versi terbaru OneDrive untuk Mac.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:OldClientVersion DefaultButton" = "Keluar";
+
+/* No comments provided by engineer */
+"SyncEngineError:PUIDFlip Title" = "Kami mengalami kesulitan dalam mengidentifikasi perangkat Anda.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:PUIDFlip Message" = "Cadangkan semua file dalam folder tersinkronkan Anda. Lalu kunjungi http://g.live.com/0ELHP_MEREN/266 untuk melaporkan masalah ini di forum OneDrive. Harap sertakan teks kesalahan ini di postingan forum Anda.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:PUIDFlip DefaultButton" = "Keluar";
+
+/* No comments provided by engineer */
+"SyncEngineError:DiskFull Title" = "Hard disk hampir penuh.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:DiskFull Message" = "Harap buat lebih banyak ruang tersedia untuk terus menggunakan OneDrive.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:DiskFull DefaultButton" = "Keluar";
+
+/* This is shown when resign-in is required for MSA account*/
+"SyncEngineError:ForceSignIn Title" = "Anda belum masuk";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn Message" = "File Anda mungkin bukan yang terbaru. Masukkan kembali kredensial Anda untuk memulai sinkronisasi lagi.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn DefaultButton" = "OK";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Title" = "Mungkin terjadi masalah dengan koneksi Internet Anda.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Message" = "Pastikan komputer Anda tersambung ke Internet, lalu coba lagi.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure DefaultButton" = "OK";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Title" = "Maaf, terjadi masalah dengan OneDrive.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Message" = "Silakan mulai ulang OneDrive.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:TerminateCore DefaultButton" = "Keluar";
+
+/* No comments provided by engineer*/
+"SyncEngineError:ServerError Title" = "Maaf, terjadi masalah pada server OneDrive.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ServerError Message" = "Silakan coba beberapa menit lagi.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:ServerError DefaultButton" = "Keluar";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Title" = "Maaf, sepertinya terjadi masalah dengan akun Anda. Untuk mempelajari cara memperbaiki masalah ini, kunjungi OneDrive.com, dan masuk. Coba lagi setelah masalah diperbaiki";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Message" = "Hubungi dukungan pelanggan.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:AccessDenied DefaultButton" = "Keluar";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Title" = "Maaf, terjadi masalah dengan OneDrive.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Message" = "Silakan keluar dari OneDrive, pastikan komputer Anda tersambung ke Internet, lalu mulai ulang aplikasi.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:Unknown DefaultButton" = "Keluar";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid %1$@ is a library name. */
+"SyncEngineError:RootScopeNotFound Title:%@" = "Pustaka \"%1$@\" Anda telah dibuat ulang di web";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid*/
+"SyncEngineError:RootScopeNotFound Message" = "Klik \"Konfigurasi ulang OneDrive\" untuk menyiapkan lagi pustaka di Mac ini.";
+
+/* Text for button in error dialog to reconfigure OneDrive*/
+"SyncEngineError:ButtonText ReconfigureButton" = "Konfigurasikan ulang OneDrive";
+
+/* Message title in error dialog when a folder not found and drive is present. %1$@ is a folder name, %2$@ is its local path */
+"SyncError:MissingFolder Title:%@,%@" = "Kami tidak dapat menemukan folder \"%1$@\" Anda di %2$@";
+
+/* Message in error dialog when the root folder is deleted. %@ is a folder name. */
+"SyncError:RootFolderDeleted Message:%@" = "Klik \"Keluar dari OneDrive,\" atau klik \"Siapkan OneDrive\" untuk menyiapkan folder \"%@\" Anda lagi.";
+
+/* Message in error dialog when folder is not found while re-mapping and drive is present */
+"SyncError:MissingFolder Message" = "Pastikan folder ini masih berada di lokasi ini lalu klik \"Coba Lagi\", atau klik \"Hentikan Sinkronisasi\" untuk berhenti menyinkronkan folder ini.";
+
+/* Message in error dialog when mounted folder not found while re-mapping. %@ is an email address */
+"SyncError:MissingMountedFolder SetUpMessage:%@" = "Pastikan folder masih ada di lokasi ini lalu klik \"Coba Lagi\", atau klik \"Siapkan OneDrive\" untuk menyiapkan akun %@ Anda lagi.";
+
+/* Message title in error dialog when there's a problem with the root folder */
+"SyncError:RootFolderError Title:%@" = "Kami tidak dapat menemukan folder %@.";
+
+/* Message in error dialog when there's a problem with the root folder. %@ is a folder name. */
+"SyncError:RootFolderError Message:%@" = "Klik \"Keluar dari OneDrive,\" atau klik \"Siapkan OneDrive\" untuk menyiapkan folder \"%@\" Anda lagi.";
+
+/* Text for button in error dialog to restart application when there's a problem with the root folder */
+"SyncError:RootFolderError DefaultButton" = "Mulai ulang OneDrive";
+
+/* Message title in error dialog when OD found but creation doesn't match the DB. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:FolderMismatch Title:%@,%@" = "Folder \"%1$@\" di %2$@ bukan folder \"%1$@\" Anda yang asli";
+
+/* Message in error dialog when OD found but creation doesn't match the DB. %@ is a folder name. */
+"SyncError:RootFolderMismatch Message:%@"= "Kembalikan folder yang asli ke lokasi ini, lalu klik \"Coba Lagi,\" atau klik \"Siapkan OneDrive\" untuk menyiapkan folder \"%@\" Anda lagi.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB */
+"SyncError:MountedFolderMismatch Message" = "Pindahkan folder asli kembali ke lokasi ini lalu klik \"Coba Lagi\", atau klik \"Hentikan Sinkronisasi\" untuk berhenti menyinkronkan folder ini.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB. %@ is an email address */
+"SyncError:MountedFolderMismatch SetUpMessage:%@" = "Kembalikan folder yang asli ke lokasi ini lalu klik \"Coba Lagi\", atau klik \"Siapkan OneDrive\" untuk menyiapkan akun %@ Anda lagi.";
+
+/* Message in error dialog when library is deemed unreachable */
+"SyncError:UnreachableLibrary Title" = "Tidak dapat mengakses pustaka";
+
+/* Message in error dialog when library is deemed unreachable {%@ is library name }*/
+"SyncError:UnreachableLibrary Message:%@" = "%@ sementara tidak tersedia. Silakan periksa koneksi jaringan Anda lalu coba lagi dalam beberapa menit, atau hubungi administrator TI Anda.";
+
+/* Message title in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Title" = "Kami tidak dapat menyinkronkan item ini karena jalur terlalu panjang";
+
+/* Message in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Message:%@" = "File atau folder tidak dapat diunduh karena jalurnya terlalu panjang. Silakan keluar dari OneDrive, masuk ke OneDrive for Business Anda browser web, dan singkatkan nama atau jalur dari: \r\n\"%@\"\r\n\r\nUntuk menyinkronkan OneDrive ke lokasi berbeda di Mac Anda, klik Jalankan Penyetelan.";
+
+/* Message in error dialog when the max file path limit is reached for a local file */
+"SyncError:LocalMaxPath Message:%@" = "File atau folder tidak dapat diunggah karena jalurnya terlalu panjang. Silakan keluar dari OneDrive, dan singkatkan nama atau jalur dari: \r\n\"%@\"\r\n\r\nUntuk menyinkronkan OneDrive Anda ke lokasi berbeda di Mac, klik Jalankan Penyetelan.";
+
+/* Message used in several error dialogs. %@ is an email address */
+"Error:ExitOrSetUpMessage:%@" = "Klik \"Keluar dari OneDrive,\" atau klik \"Siapkan OneDrive\" untuk menyiapkan akun %@ Anda lagi.";
+
+/* Text for button in error dialog to exit application when max path length is reached */
+"SyncError:MaxPathLength DefaultButton" = "Keluar dari OneDrive";
+
+/* Text for button in error dialog to run FRE when max path length is reached */
+"SyncError:MaxPathLength AlternateButton" = "Jalankan Penyetelan";
+
+/* Message title in error dialog when the root folder volume is removed. %@ is a folder name.  */
+"SyncError:DriveVolumeRemovedNoVolume Title:%@" = "Kami tidak dapat menemukan folder \"%@\" Anda";
+
+/* Message in error dialog when the root folder volume is removed. %@ is a folder name. */
+"SyncError:DriveVolumeRemovedNoVolume Message:%@" = "Kami tidak dapat menemukan lokasi folder \"%@\" Anda. Pastikan Anda belum menghapusnya. Jika folder OneDrive Anda berada di drive eksternal, pastikan drive tersebut terlampir.";
+
+/* Text for button in error dialog to restart application when the root folder volume is removed */
+"SyncError:DriveVolumeRemoved DefaultButton" = "Mulai ulang OneDrive";
+
+/* Message title in error dialog when drive containing OD could not be found. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:MissingDrive Title:%@,%@" = "Kami tidak dapat mengakses folder \"%1$@\" Anda di %2$@";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingNoneRemovableDrive Message:%@" = "Pastikan drive %1$@ Anda masih tersedia di Finder lalu klik \"Coba Lagi,\" atau klik \"Hentikan Sinkronisasi\" untuk berhenti menyinkronkan folder ini.";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingNoneRemovableDrive SetUpMessage:%@,%@" = "Pastikan drive %1$@ Anda masih tersedia di Finder lalu klik \"Coba Lagi,\" atau klik \"Siapkan OneDrive\" untuk menyiapkan akun %2$@ Anda lagi.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingRemovableDrive Message:%@" = "%@ adalah drive yang dapat dilepas. Pastikan drive ini tersambung dan tersedia di Finder lalu klik \"Coba Lagi\", atau klik \"Hentikan Sinkronisasi\" untuk berhenti menyinkronkan folder ini.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingRemovableDrive SetUpMessage:%@,%@" = "Kami perhatikan bahwa %1$@ adalah drive yang dapat dilepas. Pastikan drive ini tersambung dan tersedia di Finder lalu klik \"Coba Lagi\", atau klik \"Siapkan OneDrive\" untuk menyiapkan akun %2$@ Anda lagi.";
+
+/* Message title in error dialog indicating library cannot be synced, used in ClientNotAllowed, UnsupportedLibrary and DisableSync errors */
+"SyncError:LibraryCannotSync:%@" = "Kami tidak dapat menyinkronkan Folder %@";
+
+/* Message in error dialog when sync is disabled because domain is not "whitelisted" */
+"SyncError:ClientNotAllowed Message" = "Departemen TI memerlukan Anda menggunakan komputer yang bergabung dengan domain yang disetujui untuk menyinkronkan folder ini. Hubungi departemen TI Anda untuk mendapatkan bantuan.";
+
+/* Message in error dialog when the library is unsupported */
+"SyncError:UnsupportedLibrary Message" = "Departemen TI membuat perubahan yang mencegah sinkronisasi folder ini. Untuk mengetahui lebih lanjut, hubungi departemen TI Anda.";
+
+/* Message in error dialog when sync is disabled */
+"SyncError:DisableSync Message" = "Organisasi Anda tidak mengizinkan sinkronisasi folder ini. Untuk mengetahui selengkapnya, hubungi departemen TI Anda.";
+
+/* Title in balloon tip for when the folder was removed remotely during mount. %@ is the name of the folder being mounted. */
+"SyncError:FolderRemovedRemotelyDuringMount Title:%@" = "\"%@\" tidak berada di lokasi ini lagi";
+
+/* Message in balloon tip for when the folder was removed remotely during mount */
+"SyncError:FolderRemovedRemotelyDuringMount Message" = "Folder ini mungkin telah dipindahkan atau dihapus.";
+
+/* Title in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them the folder has been deleted. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Title:%@" = "\"%@\" telah dihapus";
+
+/* Message in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them a copy of the files will be left on the Mac. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Message:%@" = "%@ akan berhenti disinkronkan. Salinan file ini akan tetap ada di Mac ini.";
+
+/* Title in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them they no longer have permissions to sync it. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Title:%@" = "Anda tidak lagi memiliki izin untuk menyinkronkan \"%@\"";
+
+/* Message in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them the files have been removed from the Mac. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Message:%@" = "\"%@\" telah dihapus dari Mac Anda.";
+
+/* Title to show if add folder failed. %@ is a folder name. */
+"AddMountedFolderError Title:%@" = "Kami tidak dapat menyinkronkan folder \"%@\" Anda";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorTryAgain:%@" = "Maaf, kami tidak dapat menambahkan folder \"%@\" Anda sekarang. Silakan coba lagi.";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorContactSupport:%@" = "Maaf, kami tidak dapat menambahkan folder \"%@\" Anda sekarang. Silakan hubungi dukungan.";
+
+/* Text for Try Again button, used in error dialogs. */
+"TryAgainButtonText" = "Coba Lagi";
+
+/* Text for Stop Sync button, used in error dialogs. */
+"StopSyncButtonText" = "Hentikan Sinkronisasi";
+
+/* Text for Set Up OneDrive button, used in error dialogs. */
+"SetUpDriveButtonText" = "Siapkan OneDrive";
+
+/* Text for Exit OneDrive button, used in error dialogs. */
+"ExitOneDriveButtonText" = "Keluar dari OneDrive";
+
+// About box - used by coreController.mm
+
+/* Application name displayed in the about dialog */
+"AboutApplicationName" = "Microsoft® OneDrive";
+
+/* Copyright info for the updated about dialog */
+"CopyrightText" = "© 2018 Microsoft Corporation. Hak cipta dilindungi undang-undang.";
+
+/* Third Party Notices */
+"ThirdPartyNotices" = "Pemberitahuan Pihak Ketiga";
+
+// Menu Items
+
+/* Text for menu item to open the online help website */
+"MainMenuOnlineHelpMenuItemText" = "Bantuan Online OneDrive";
+
+/* Text for menu item to open the service agreement website */
+"MainMenuServiceAgreementMenuItemText" = "Ketentuan Penggunaan";
+
+/* Text for menu item to open the private agreement website. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"MainMenuPrivacyAgreementMenuItemText" = "Privasi & Cookie";
+
+/* Text for menu item to open the server status website */
+"MainMenuServerStatusMenuItemText" = "Status Server";
+
+// Manifest failures
+
+/* Main text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureTitle" = "OneDrive tidak dapat memulai";
+
+/* Informative text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureMessage" = "Terjadi masalah dengan file aplikasi. Silakan unduh aplikasi di komputer ini dan coba lagi.";
+
+/* Quit button for the message box which explains the application is corrupt and must exit now */
+"ManifestValidationFailureQuitButton" = "Keluar dari OneDrive";
+
+// Updater
+
+/* Message title in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableTitle" = "OneDrive perlu diperbarui.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableMessage" = "Untuk terus menggunakan OneDrive, Anda perlu menginstal pembaruan.";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreRequiredUpdateAvailableOpenInAppStoreButton" = "Dapatkan Pembaruan";
+
+/* Text in button which quits the application */
+"AppStoreRequiredUpdateAvailableCloseButton" = "Keluar dari OneDrive";
+
+/* Message title in dialog when there is an optional update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableTitle" = "Pembaruan untuk OneDrive telah tersedia.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableMessage" = "Anda ingin mendapatkan pembaruan?";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreOptionalUpdateAvailableOpenInAppStoreButton" = "Dapatkan Pembaruan";
+
+/* Text in button which quits the application */
+"AppStoreOptionalUpdateAvailableCloseButton" = "Tidak, Terima Kasih";
+
+// Standalone migration
+
+/* Title for dialog shown to a user in a Mac App Store (MAS) migration downgrade scenario.
+ (When a user installs a lower version of Standalone on top of a higher version of Store) */
+"MASMigrationDowngradeScenarioTitle" = "OneDrive Tidak Dapat Memindahkan Pengaturan Anda";
+
+/* Message for dialog shown to a user in a MAS migration downgrade scenario, informing them of their options */
+"MASMigrationDowngradeScenarioMessage" = "Kami tidak dapat memindahkan pengaturan, karena aplikasi Anda sudah kedaluwarsa. Harap unduh dan instal versi terbaru. Atau, Anda dapat menyiapkan OneDrive lagi.";
+
+/* Later button for dialog shown to a user in a MAS migration downgrade scenario. The button will exit the client so the user may launch it again to retry the update later */
+"MASMigrationDowngradeScenarioLaterButton" = "Nanti";
+
+/* Download button for dialog shown to a user in a MAS migration downgrade scenario. The button will trigger a download of the latest version of Standalone OneDrive */
+"MASMigrationDowngradeScenarioDownloadButton" = "Unduh dan Instal";
+
+/* Set Up OneDrive button for dialog shown to a user in a MAS migration downgrade scenario. The button will cause OneDrive to drop the user's Store settings and show FRE so the user can re-configure their OneDrive for Standalone */
+"MASMigrationDowngradeScenarioResetupOneDriveButton" = "Siapkan OneDrive";
+
+// Sandbox migration
+
+/* Text in button to select and confirm where the OneDrive folder is */
+"SandboxMigrationConfirmButton" = "Konfirmasi Lokasi";
+
+/* Text in button to quit the OneDrive application */
+"SandboxMigrationQuitButton" = "Keluar dari OneDrive";
+
+/* Bold text summarizing that the user needs to confirm where the OneDrive folder is */
+"SandboxMigrationTitle" = "Harap konfirmasi lokasi folder OneDrive Anda";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationText" = "Sebelum melanjutkan untuk menggunakan OneDrive, Anda harus mengonfirmasi lokasi folder OneDrive Anda saat ini pada Mac Anda.";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationWindowTitle:%@" = "Konfirmasi Lokasi Folder %@";
+
+/* Text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderMessage" = "Silakan konfirmasi folder OneDrive Anda.";
+
+/* Button text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderButton" = "Konfirmasi";
+
+/* Title text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderTitle" = "Anda yakin ingin berhenti menggunakan folder OneDrive yang sudah ada?";
+
+/* Descriptive text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderMessage" = "Untuk memilih lokasi baru, klik Jalankan Penyetelan OneDrive. Segala sesuatu di OneDrive Anda akan diunduh ke folder OneDrive baru. Untuk tetap menggunakan folder OneDrive Anda yang sudah ada, klik Kembali dan pilih folder.";
+
+/* Button text to pick a different folder */
+"SandboxMigrationConfirmDifferentFolderGoBackButton" = "Kembali";
+
+/* Button text to continue on and reconfigure OneDrive */
+"SandboxMigrationConfirmDifferentFolderQuitButton" = "Jalankan Penyetelan OneDrive";
+
+/* Text for alerting invalid app bundle location */
+
+/* Title text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertTitle" = "Aplikasi OneDrive harus berada dalam folder Aplikasi.";
+
+/* Description text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertDescription" = "Silakan keluar dari OneDrive, pindahkan aplikasi OneDrive ke folder Aplikasi, lalu buka OneDrive lagi.";
+
+/* Button text to exit in the invalid app location alert */
+"InvalidBundleLocationAlertButtonText" = "Keluar dari OneDrive";
+
+
+/* ---------------------------- Support Window ------------------- */
+/* OK Button */
+"SupportWindowOkButton" = "OK";
+
+/* Cancel Button*/
+"SupportWindowCancelButton" = "Batal";
+
+/* Try Again Button */
+"SupportWindowTryAgainButton" = "Coba Lagi";
+
+/* Header string for Support Window */
+"SuportWindowReportProblem" = "Laporkan Masalah";
+
+/* Subheading of support window that gives instructions on what to type */
+"SuportWindowTicketSubheading" = "Maaf, sesuatu tidak bekerja dengan OneDrive Anda. Untuk membantu kami mendiagnosa masalah, harap berikan informasi sebanyak mungkin yang Anda bisa mengenai masalahnya dan apa yang Anda lakukan saat masalah terjadi.";
+
+/* Header to the textbox in the support window */
+"SupportWindowDescription" = "Deskripsi:";
+
+/* String at the bottom of the support window - right below the text field where the user types */
+"SupportWindowContactWarning" = "Dengan mengklik \"OK\", berarti Anda mengizinkan Microsoft untuk menghubungi Anda mengenai umpan balik ini.";
+
+/* Link to privacy statement - very bottom of support dialog. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"SupportWindowPrivacyStatement" = "Privasi & Cookie";
+
+/* Text below the progress bar while the support text is being sent */
+"SupportWindowSending" = "Sedang mengirim...";
+
+/* Success message for when the support text was successfully sent */
+"SupportSuccessMessage:%@" = "Terima kasih telah meluangkan waktu untuk memberitahu kami masalah yang Anda alami dengan OneDrive. Periksa email (%@) Anda untuk mengonfirmasi bahwa kami telah menerima pesan Anda.";
+
+/* Error message for when the report was no sucessfully sent. Contains a hyperlink designated by <a> and </a> */
+"SupportErrorMessage" = "Maaf, terjadi masalah saat mengirim pesan Anda. Periksa koneksi Internet Anda dan coba lagi. Anda juga dapat melaporkan masalah Anda dengan <a>menghubungi dukungan.</a>";
+
+/* Text for email text field label shown in the support window */
+"SupportWindowEmailLabel" = "Alamat Email:";
+/* ----------------------------------------------------------------- */
+
+// App store related strings
+
+/* Apple app store description for OneDrive Mac client */
+"StoreDescription" = "OneDrive merupakan satu tempat untuk semua hal dalam hidup Anda. OneDrive memberikan penyimpanan online gratis untuk semua file pribadi, sehingga Anda dapat mengaksesnya dari Mac dan perangkat lain yang digunakan—perangkat iPhone, iPad, PC, Windows Phone atau Android. Dengan OneDrive for Business, Anda juga mendapatkan penyimpanan untuk file kerja sehingga dapat berbagi dan berkolaborasi dengan orang lain di kantor atau sekolah. Aplikasi OneDrive untuk Mac memudahkan Anda bekerja dengan file OneDrive pada Mac Anda:\r\n•Akses file OneDrive Anda langsung dari Finder, termasuk lampiran yang disimpan ke OneDrive dari Outlook.com, dan dokumen serta lembar bentang yang dibuat dari Office Online.\r\n•Bekerja dengan file OneDrive Anda bahkan saat sedang offline. Perubahan akan disinkronkan secara otomatis saat berikutnya Anda online.\r\n•Pilih folder di OneDrive yang ingin disinkronkan pada Mac Anda.\r\n•Tambahkan beberapa file atau folder ke OneDrive sekaligus dengan menyeretnya ke folder OneDrive. Dengan menempatkan file dalam OneDrive, Anda dapat mengaksesnya dari mana saja dan memiliki cadangan jika terjadi sesuatu pada komputer Anda.\r\n•Buka, edit, dan buat dokumen serta file lain secara mudah dalam OneDrive dengan aplikasi seperti Word atau Excel. Tambahkan folder Bersama ke OneDrive dari Daftar bersama di OneDrive.com, lalu sinkronkan pada komputer dan Anda dapat bekerja pada folder tersebut bersama dengan folder milik Anda sendiri.";
+
+/* Pool of generic localized Strings to use for update description */
+"GenericUpdateDescription" = "Perbaikan bug keandalan sinkronisasi. Peningkatan keandalan aplikasi. Peningkatan performa sinkronisasi. Pengurangan konsumsi baterai.";
+
+"GenericStoreUpdate" = "Terima kasih telah menggunakan OneDrive. Kami selalu ingin memperbarui OneDrive guna memberi Anda peningkatan performa terbaru dan perbaikan bug untuk pengalaman terbaik.";
+
+"R16String" = "Khawatir tentang penggunaan bandwidth pada jaringan terukur? Kami telah menambahkan kemampuan untuk Menjeda OneDrive. Anda dapat menemukan opsi jeda pada menu '...'.";
+
+"R18String" = "Terima kasih telah menggunakan OneDrive. Beserta dengan pembaruan biasa kami yang memperkenalkan Anda terhadap penyempurnaan performa dan perbaikan bug terbaru, kami memiliki fitur baru berikut yang secara bertahap akan diluncurkan kepada pengguna:\nOverlay baru telah ditambahkan untuk menunjukkan apakah folder telah dibagikan.\nCuplikan layar sekarang dapat diarahkan ke OneDrive.";
+
+"R19String" = "Terima kasih telah menggunakan OneDrive. Selain pembaruan kami dalam memberikan peningkatan kinerja dan perbaikan bug terbaru seperti biasanya, kami memiliki fitur baru berikut ini yang akan dirilis secara bertahap kepada pengguna:\nSaat Anda membuka dokumen Office yang disinkronkan ke komputer Anda, dokumen akan terbuka untuk kolaborasi real time.\nDokumen Office yang disinkronkan ke komputer dapat dibagikan langsung dari aplikasi Office.\nMengklik kanan cloud OneDrive kini akan membuka menu konteks dalam Pusat Aktivitas.\nNomor versi kini dipindahkan ke tab tentang di preferensi, bukan di jendela tersendiri.";
+
+"R20String" = "Terima kasih telah menggunakan OneDrive. Selain pembaruan yang menyajikan peningkatan kinerja dan perbaikan bug terbaru seperti biasanya, kami memiliki fitur baru berikut yang akan diluncurkan kepada pengguna secara bertahap:\nKetika sinkronisasi dijeda, mengetuk banner akan melanjutkannya.";
+
+"R21String" = "Terima kasih telah menggunakan OneDrive. Selain pembaruan yang menyajikan peningkatan kinerja dan perbaikan bug terbaru seperti biasanya, kami memiliki fitur baru berikut yang akan diluncurkan kepada pengguna secara bertahap:\nKami telah menambahkan kemampuan untuk menyinkronkan Pustaka Dokumen SharePoint yang diaktifkan oleh IRM";
+
+"R22String" = "Terima kasih telah menggunakan OneDrive. Selain pembaruan yang menyajikan peningkatan kinerja dan perbaikan bug terbaru seperti biasanya, kami memiliki fitur baru berikut yang akan diluncurkan kepada pengguna secara bertahap:\nPusat Aktivitas OneDrive telah dimodernisasi untuk meningkatkan kemudahan penggunaan dan pemahaman.\nKami telah mengubah opsi 'Laporkan Masalah' pada menu 'Kirim Umpan Balik'. Silakan beri tahu kami apa yang Anda suka atau tidak suka, atau usulkan fitur yang selalu Anda inginkan di OneDrive. Kami menantikan masukan Anda.";
+
+"R24String" = "Terima kasih telah menggunakan OneDrive. Seiring dengan pembaruan reguler kami untuk memberikan peningkatan kinerja dan perbaikan bug terbaru, kami memiliki fitur baru berikut ini yang akan dirilis secara bertahap ke pengguna:\nOneDrive kini mendukung Mode Gelap macOS Mojave. Ketika Mode Gelap diaktifkan, OneDrive akan beralih ke tema gelap baru yang menawan di seluruh UI!";
+
+"R26String" = "Terima kasih telah menggunakan OneDrive. Bersama dengan pembaruan ini, kami menghadirkan peningkatan kinerja terbaru dan perbaikan bug, kami memiliki fitur baru berikut yang akan dirilis ke pengguna secara bertahap:\nTema gelap telah ditambahkan ke dialog berbagi!\nKami telah membuat serangkaian perubahan untuk membantu meningkatkan kinerja dan menurunkan penggunaan CPU. Beri tahu kami jika Anda masih mengalami beberapa masalah.";
+
+"R32String" = "Terima kasih telah menggunakan OneDrive. Bersama dengan pembaruan reguler kami untuk memberikan Anda peningkatan kinerja dan perbaikan bug terbaru, kami memiliki fitur baru berikut yang akan dirilis secara bertahap ke pengguna:\nMenambahkan dukungan untuk penyiapan multi-layar guna menampilkan Pusat Aktivitas pada layar yang dipilih.";
+
+/* Files On-Demand is the name of a feature that is already available on OneDrive on Windows already. */ 
+"R29String" = "Dengan pembaruan terbaru ini, File OneDrive Sesuai Permintaan kini telah tersedia! File OneDrive Sesuai Permintaan membantu Anda mengakses semua file di OneDrive tanpa perlu mengunduh semua file dan menggunakan ruang penyimpanan pada perangkat. File yang baru dibuat secara online atau pada perangkat yang lain muncul sebagai file online-saja, yang tidak akan memakai ruang pada perangkat. Jika Anda terhubung ke Internet, Anda akan dapat menggunakan file seperti semua file lainnya pada perangkat.\nUntuk menggunakan file Sesuai Permintaan, Anda perlu menjalankan macOS Mojave terbaru (10.14.2 atau yang lebih tinggi). File Sesuai Permintaan dapat diaktifkan di tab umum menu preferensi OneDrive.";
+
+// Finder sync extension commands
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will copy a shareable link to their keyboard */
+"MenuItemShareCommand" = "Bagikan tautan OneDrive";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will open a web browser and display the selected file in the web interface */
+"MenuItemViewOnlineCommand" = "Lihat secara online";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a selective sync window. */
+"MenuItemSelectiveSyncCommand" = "Pilih folder OneDrive untuk disinkronkan";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a browser window that displays some detailed sharing options for the file. */
+"MenuItemSharingOptionsCommand" = "Opsi berbagi OneDrive lainnya";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a hosted browser window that OneDrive controls. This browser window will load a web page from sharepoint and allow the user to modify sharing options from the file. This is different from just launching the user's default browser. */
+"MenuItemShareBrowserWindowCommand" = "Bagikan";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch the preferences window for the account that the right clicked file belongs to. */
+"MenuItemPreferencesCommand" = "Preferensi";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. */
+"MenuItemPinCommand" = "Selalu simpan di perangkat ini";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. */
+"MenuItemUnpinCommand" = "Kosongkan ruang";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will lock the folder. %@ is a folder name. */
+"MenuItemLockCommand:%@" = "Kunci %@";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will unlock the folder. %@ is a folder name. */
+"MenuItemUnlockCommand:%@" = "Buka kunci %@";
+
+// Finder Sync Extension Tooltips
+
+/* Tooltip for synced / up-to-date icon in Mac Finder */
+"IconOverlaySyncedLabel" = "Terbaru";
+
+/* Tooltip for syncing icon in Mac Finder */
+"IconOverlaySyncingLabel" = "Sinkronisasi";
+
+/* Tooltip for error icon in Mac Finder */
+"IconOverlayErrorLabel" = "Kesalahan";
+
+/* Tooltip for shared folder synced / up-to-date icon in Mac Finder */
+"IconOverlaySharedSyncedLabel" = "Terbaru";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlaySharedSyncingLabel" = "Sinkronisasi";
+
+/* Tooltip for shared folder error icon in Mac Finder */
+"IconOverlaySharedErrorLabel" = "Kesalahan";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlayReadOnlyLabel" = "Terbaru, Baca-Saja";
+
+/* Tooltip for unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedLabel" = "Tersedia pada Perangkat Ini";
+
+/* Tooltip for pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedLabel" = "Selalu Tersedia pada Perangkat Ini";
+
+/* Tooltip for unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedLabel" = "Tersedia Ketika Online";
+
+/* Tooltip for read-only, unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedReadOnlyLabel" = "Tersedia pada Perangkat Ini, Baca Saja";
+
+/* Tooltip for read-only, pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedReadOnlyLabel" = "Selalu Tersedia pada Perangkat Ini, Baca Saja";
+
+/* Tooltip for read-only, unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedReadOnlyLabel" = "Tersedia Ketika Online, Baca Saja";
+
+/* Action center (Toast) notification header for the Icon Overlay feature */
+"IconOverlayToastTitle" = "Lihat ikon status sinkronisasi yang baru";
+
+/* Action center (Toast) notification body for the Icon Overlay feature */
+"IconOverlayToastBody" = "Klik untuk memperbolehkan OneDrive menampilkan status sinkronisasi di Finder.";
+
+/* Preferences Dialog string for enabling icon overlays*/
+"IconOverlayPreferencesLink" = "Perbolehkan OneDrive untuk menampilkan status sinkronisasi di Finder";
+
+// App moniker related strings
+
+/* Text of basic Moniker*/
+"BasicMoniker:%@" = "OneDrive — %@";
+
+/* Text of Moniker with user's first name. %0@ is user's firstname, %1@ is string like 'OneDrive - Personal' */
+"MonikerWithFirstName:%@,%@" = "%1@ %0@";
+
+/* Text of Moniker with user's email. %0@ is string like 'OneDrive - Personal', %1@ is email address */
+"MonikerWithEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text of Moniker with user's first name and email. %0@ is MonikerWithFirstName like Someone's OneDrive - Personal, %1@ is email address */
+"MonikerWithFirstNameAndEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text used in BasicMoniker for personal client */
+"PersonalDisplayMoniker" = "Pribadi";
+
+// Notifications
+
+/* Balloon tip primary text to notify users that the shared folders sync feature is available */
+"SharedFoldersEnabledBaloonTipHeader" = "Baru – Anda dapat menyinkronkan folder bersama!";
+
+/* Balloon tip secondary text describing how to start using the shared folder sync feature */
+"SharedFoldersEnabledBaloonTipBody" = "Klik untuk melihat folder yang dibagikan dengan Anda di OneDrive.com. Kemudian, pilih folder yang dapat Anda edit dan klik \"Tambahkan ke OneDrive saya.\"";
+
+/* Message shown when users try to run different flavors of OneDrive app side by side */
+"DifferentTypesOfAppSideBySide" = "Anda memiliki dua salinan OneDrive pada komputer Anda. Hanya satu yang dapat dijalankan sekaligus. Kami menyarankan Anda menghapus instalan salah satu salinannya. Untuk melihat salinan yang telah Anda buka, klik ikon OneDrive pada bilah menu dan pilih Preferensi > Tentang.";
+
+/* Title for a notification shown when the user copies a link to a file to their pasteboard */
+"CopyFileLinkToPasteboardTitle" = "Tautan Anda siap ditempelkan";
+
+/* Body for a notification shown when the user copies a link toa a file to their pasteboard */
+"CopyFileLinkToPasteboardBody" = "Tautan disimpan ke clipboard Anda. Untuk membagikannya, tempel tautan di pesan atau postingan. Siapa saja yang memiliki tautan akan dapat mengedit file.";
+
+/* Title for a notification shown when a screen capture is saved */
+"ScreenshotSavedTitle" = "Tangkapan Layar Disimpan";
+
+/* Body for a notification shown when a screen capture is saved. Screenshots should be localized and capitolized. */
+"ScreenshotSavedBody" = "Klik di sini untuk membuka folder Tangkapan Layar";
+
+/* Title for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorTitle" = "Kami tidak dapat menyimpan tangkapan layar Anda ke OneDrive";
+
+/* Body for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorBody" = "Untuk menyimpan cuplikan layar, sinkronkan file kerja atau sekolah Anda ke OneDrive. Pilih tab Akun lalu klik Mulai Sinkronisasi";
+
+// Campaign Manager toast notifications
+
+/* Title for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastTitle" = "Aktifkan Buka saat Masuk";
+
+/* Body for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastBody" = "Selalu sinkronkan file Anda.";
+
+/* Title for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastTitle" = "Lihat status sinkronisasi di Finder";
+
+/* Body for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastBody" = "Aktifkan Integrasi Finder.";
+
+/* Title for Placeholders Finder Sync Extension Campaign toast */
+"PlaceholdersFinderSyncCampaignToastTitle" = "Kosongkan Ruang dengan File Sesuai Permintaan";
+
+/* Body for Placeholders Finder Sync Extension Campaign toast*/
+"PlaceholdersFinderSyncCampaignToastBody" = "Klik di sini untuk menyelesaikan penyiapan dengan mengaktifkan ekstensi Finder OneDrive.";
+
+/* Title for Rate Application Campaign toast */
+"RatingsCampaignToastTitle" = "Beri tahu kami pendapat Anda";
+
+/* Body for Rate Application Campaign toast */
+"RatingsCampaignToastBody" = "Beri nilai aplikasi OneDrive atau kirimkan umpan balik.";
+
+// Rate Our Application Window
+
+/* Windows title for rate our application window.
+ There's probably no need to localize this string. */
+"RateApplicationWindowTitle" = "Microsoft OneDrive";
+
+/* Title for Rate Us WindowText on two lines, please keep the \n in translation as a line terminator after "Thank you" */
+"RateApplicationBodyTitle" = "Terima kasih\ntelah menggunakan OneDrive!";
+
+/* Text for Rate us button */
+"RateApplicationWindowRateButton" = "Anda suka? Beri tahu kami lebih banyak!";
+
+/* Text for Tell us how to improve button */
+"RateApplicationWindowSupportbutton" = "Beri tahu kami cara meningkatkannya";
+
+/* Text for Rate Us button - more engaging */
+"RateApplicationWindowRateButtonEngage" = "Berikan bintang 5!";
+
+/*Text for Rate Us button - with question */
+"RateApplicationWindowRateButtonQuestion" = "Menyukainya? Berikan bintang 5!";
+
+/* ---------------------------- Activity Center ------------------- */
+
+/* Text shown in title bar of Activity Center when we're up to date */
+"ActivityCenterHeaderUpToDate" = "Versi OneDrive sudah terkini";
+
+/* Text shown in title bar of Activity Center when files are syncing */
+"ActivityCenterHeaderUpdatingFiles" = "OneDrive sedang memperbarui file...";
+
+/* Text shown in title bar of Activity Center when there are sync problems */
+"ActivityCenterHeaderNeedsAttention" = "OneDrive memerlukan perhatian Anda";
+
+/* Text shown in title bar of Activity Center when we're paused */
+"ActivityCenterHeaderPaused" = "OneDrive dijeda";
+
+/* Text shown in title bar of Activity Center when we're offline */
+"ActivityCenterHeaderOffline" = "OneDrive sedang offline";
+
+/* Text shown in title bar of Activity Center when we aren't signed in */
+"ActivityCenterHeaderNotConnected" = "OneDrive tidak terhubung";
+
+/* Text shown in the header of Activity Center when OneDrive is being reset */
+"ActivityCenterHeaderResetting" = "OneDrive sedang diatur ulang...";
+
+/* Primary text shown in the error bar of Activity Center, placeholder is number of items */
+"ActivityCenterFileErrorsItemPrimary" = "%@ item tidak dapat disinkronkan";
+
+/* Primary text shown in the error bar of Activity Center, singular item version  */
+"ActivityCenterFileErrorsItemPrimarySingle" = "1 item tidak dapat disinkronkan";
+
+/* Secondary text shown in the error bar of Activity Center */
+"ActivityCenterFileErrorsItemSecondary" = "Klik untuk info selengkapnya";
+
+/* Up-to-date primary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemPrimary" = "Anda telah siap";
+
+/* Up-to-date secondary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemSelectiveSync" = "Semua file telah sinkron";
+
+/* Up-to-date primary text shown on Activity Center while paused */
+"ActivityCenterPausedPrimary" = "File Anda saat ini sedang tidak disinkronkan";
+
+/* Up-to-date secondary text shown on Activity Center while paused */
+"ActivityCenterPausedSecondary" = "Klik di sini untuk melanjutkan sinkronisasi dan menjaga file Anda tetap terbaru.";
+
+/* Text showing progress on one item when it's downloading or uploading. Placeholders are numbers and units for file progress. E.g. Uploading - 10 MB of 1 GB" */
+"ActivityCenterItemProgress" = "· %1$@ %2$@ dari %3$@ %4$@";
+
+/* Text showing progress on one item when it's downloading or uploading with differential sync. Placeholder %1$@ is a number, %2$@ is a unit, %3$@ is a number, %4$@ is a unit, %5$@ is a number, %6$@ is a unit E.g. Uploading - 10 MB of 1 GB (100 KB)" */
+"ActivityCenterItemProgressDiffSyncUX" = "· %1$@ %2$@ dari %3$@ %4$@ (%5$@ %6$@)";
+
+/* Text shown on one item when it's uploading. */
+"ActivityCenterItemUploading" = "Mengunggah";
+
+/* Text shown on one item when it's reviewing the file before syncing. This is specific to differential sync */
+"ActivityCenterItemReviewingChanges" = "Bersiap untuk menyinkronkan";
+
+ /* Text shown on one item when it's downloading. */
+"ActivityCenterItemDownloading" = "Mengunduh";
+
+/* Status shown on an item that's finished transfering. */
+"ActivityCenterItemUpdated" = "Diperbarui di OneDrive";
+
+/* Status shown on an item that's been removed. */
+"ActivityCenterItemRemoved" = "Dihapus dari OneDrive";
+
+/* Status shown on an item that's finished uploading. Placeholder %% is a folder name. */
+"ActivityCenterItemUploaded" = "Diunggah ke %%";
+
+/* Status shown on an item that's finished downloading. Placeholder %% is a folder name. */
+"ActivityCenterItemDownloaded" = "Diunduh ke %%";
+
+/* Status shown on an item that's finished moving. Placeholder %% is a folder name. */
+"ActivityCenterItemMoved" = "Dipindahkan ke %%";
+
+/* Status shown on an item that was renamed. Placeholder %% is a folder name. */
+"ActivityCenterItemRenamed" = "Diganti nama di %%";
+
+/* Status shown on an item that represents a placeholder file. Placeholder %% is a folder name. */
+"ActivityCenterItemPlaceholder" = "Tersedia di %%";
+
+/* Timestamp on an item. Placeholders are for time difference and units E.g. 5 minutes ago */
+"ActivityCenterItemTime" = "%1$@ %2$@ yang lalu";
+
+/* Timestamp on an item plus application. Placeholders %1$@ %2$@ are for time difference and units. %3$@ is an application name E.g. 5 minutes ago · Microsoft Word */
+"ActivityCenterItemTimeWithAppName" = "%1$@ %2$@ yang lalu · %3$@";
+
+/* Timestamp on an item plus application. Placeholder %1$@ is for a date. %2$@ is an application name E.g. 8/24/2018 · Microsoft Word */
+"ActivityCenterItemDateWithAppName" = "%1$@ · %2$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncing" = "Menyinkronkan %1$@ file · %2$@ %3$@ dari %4$@ %5$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncingSingle" = "Menyinkronkan 1 file · %1$@ %2$@ dari %3$@ %4$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing changes */
+"ActivityCenterSummaryProcessingChanges" = "Memproses perubahan";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing a single change */
+"ActivityCenterSummaryProcessingChangesCountSingle" = "Memproses perubahan";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing multiple changes. The placeholder %1$@ indicates the number of changes */
+"ActivityCenterSummaryProcessingChangesCount" = "Memproses %1$@ perubahan";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're looking for file system changes */
+"ActivityCenterSummaryLooking" = "Mencari perubahan";
+
+/* Text read aloud when list of recent files is selected */
+"ActivityCenterHistoryListAccessibleText" = "File terbaru";
+
+/* time units used in activity center on timestamps. E.g. 1 second ago */
+"ActivityCenterSecondSingle" = "detik";
+
+/* time units used in activity center on timestamps. E.g. N seconds ago */
+"ActivityCenterSecondsMultiple" = "detik";
+
+/* time units used in activity center on timestamps. E.g. 1 minute ago */
+"ActivityCenterMinuteSingle" = "menit";
+
+/* time units used in activity center on timestamps. E.g. N minutes ago */
+"ActivityCenterMinutesMultiple" = "menit";
+
+/* time units used in activity center on timestamps. E.g. 1 hour ago */
+"ActivityCenterHourSingle" = "jam";
+
+/* time units used in activity center on timestamps. E.g. N hours ago */
+"ActivityCenterHoursMultiple" = "jam";
+
+/* Text shown on a button in the Activity Center that takes the user to the Upgrade storage page on OneDrive */
+"ActivityCenterQuotaButtonGetMoreStorage" = "Penyimpanan lebih banyak";
+
+/* Text shown on a link in the Activity Center that takes the user to the Free up space page on OneDrive */
+"ActivityCenterQuotaButtonFreeUpSpace" = "Kosongkan ruang";
+
+/* Primary text shown in the Activity Center when the user's quota is nearing maximum or in a critical state. The placeholders are the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso") and the percentage of space occupied, e.g Your OneDrive is 98% full */
+"ActivityCenterQuotaCriticalTitle, %@ %@" = "%1$@ Anda %2$@%% penuh";
+
+/* Secondart text shown in the Activity Center when the user is approaching critical quota. The placeholders are size and units remaining. E.g. You have only 10 MB of available space */
+"ActivityCenterQuotaLeftText, %@ %@" = "Anda hanya memiliki %1$@ %2$@ ruang tersedia";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive. */
+"ActivityCenterQuotaReachedBody" = "Dapatkan penyimpanan lebih banyak untuk melanjutkan sinkronisasi file baru.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for Office 365 users. */
+"ActivityCenterQuotaReachedBody1TB" = "Untuk mengosongkan sebagian ruang, hapus file yang tidak diperlukan lagi.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for business users. */
+"ActivityCenterQuotaReachedBodyBusiness" = "Hubungi departemen TI Anda untuk informasi selengkapnya, atau kosongkan sebagian ruang dengan menghapus file.";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitleBusiness, %@" = "%1$@ Anda kehabisan ruang";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitle, %@" = "%1$@ Anda penuh";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown for 1 week before switching to the normal banner text. */
+"ActivityCenterQuotaUpsellBannerIntroTitle" = "Perkenalkan fitur premium";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalTitle" = "Beli versi premium";
+
+/* Secondary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalBody" = "Dapatkan penyimpanan 1 TB (1000 GB) dan semua aplikasi Office 2016 terbaru.";
+
+/* Part of the secondary text shown in the Activity Center for users without an O365 subscription. This appears in the banner for both upsell states of the banner. */
+"ActivityCenterQuotaUpsellBannerLearnMore" = "Pelajari selengkapnya";
+
+/* The Accessibility text hint for the ACM dismiss button. */
+"ActivityCenterMessageDismissHint" = "Tutup";
+
+/* Primary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInTitle" = "Masuk ke OneDrive untuk memulai";
+
+/* Secondary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInBody" = "Masuk ke OneDrive untuk mengakses dan menyinkronkan file Anda pada perangkat ini.";
+
+/* Button text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInButton" = "Masuk";
+
+/* Text shown in the Activity Center while we are signing the user in. */
+"ActivityCenterSigningIn" = "Sedang masuk";
+
+/* Text shown in the Activity Center while we are signing the user out. */
+"ActivityCenterSigningOut" = "Keluar";
+
+/* Clicking this button will open (action) the OneDrive folder in File Explorer */
+"ActivityCenterFooterButtonOpenFolder" = "Buka Folder";
+
+/* Clicking this button will open (action) a web portal where the user can upgrade their account */
+"ActivityCenterFooterButtonGoPremium" = "Beli Paket Premium";
+
+/* Clicking this button opens the user's (action) OneDrive folder online. ("View" here is an action) */
+"ActivityCenterFooterButtonViewOnline" = "Tampilkan Online";
+
+/* Clicking this button opens (action) a context menu which contains extra actions like pause, settings and quit */
+"ActivityCenterFooterButtonMore" = "Lainnya";
+
+/* Accessibility text for button that will cancel a download */
+"ActivityCenterCancelButtonAccessibleName" = "Batalkan Unduhan";
+
+/* The name "OneDrive" */
+"OneDriveBrandName" = "OneDrive";
+
+/* Primary text shown in the alert of restart after crash */
+"RestartAfterCrashAlertTitle" = "Terdapat Masalah dengan OneDrive";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is enabled */
+"RestartAfterCrashAlertBodyReportAProblemEnabled" = "Maaf jika Anda memiliki masalah dengan OneDrive. Anda dapat memperoleh bantuan dari dukungan dengan melaporkan masalah ini, atau Anda coba atur ulang OneDrive. Untuk mengatur ulang OneDrive, Anda perlu menyiapkan aplikasi OneDrive lagi.";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is disabled */
+"RestartAfterCrashAlertBodyReportAProblemDisabled" = "Maaf jika Anda memiliki masalah dengan OneDrive. Anda dapat memperoleh bantuan dari dukungan dengan melaporkan masalah ini, atau Anda coba atur ulang OneDrive. Untuk mengatur ulang OneDrive, Anda perlu menyiapkan aplikasi OneDrive lagi.";
+
+/* Text for report a problem button shown in the alert of restart after crash */
+"RestartAfterCrashAlertReportAProblemButtonText" = "Laporkan Masalah";
+
+/* Text for reset onedrive button shown in the alert of restart after crash */
+"RestartAfterCrashAlertResetOneDriveButtonText" = "Atur ulang OneDrive";
+
+/* Text for cancel button shown in the alert of restart after crash */
+"RestartAfterCrashAlertCancelButtonText" = "Batal";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared */
+"ShareWebWindowTitle, %@" = "Bagikan %@";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared - this one has quotes around the item name */
+"ShareWebWindowTitleWithQuotes:%@" = "Bagikan \"%@\"";
+
+/* Error primary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorTitleGeneric" = "Terjadi masalah";
+
+/* Error secondary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorSecondaryTextGeneric" = "Item ini tidak dapat dibagikan sekarang. Harap coba lagi nanti.";
+
+/* Error primary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorTitleOffline" = "Sambungkan ke Internet";
+
+/* Error secondary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorSecondaryTextOffline" = "Sepertinya Anda tidak terhubung ke Internet. Coba berbagi lagi setelah Anda online.";
+
+/* Text on error button in the Sharing Web Browser window */
+"ShareWebErrorButtonText" = "Coba lagi";
+
+/* Text shown on the Loading view of the Sharing Web Browser window */
+"ShareWebLoading" = "Memuat";
+
+/* Text read by the Voice Over utility (accessibility) for the Loading spinner on the Sharing Web Browser Window. The placeholder is the name of the file / folder being shared. */
+"ShareWebLoadingNarrator:%@" = "Bersiap-siap untuk berbagi %@";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog title */
+"FoundSameNamesUnderFolderErrorTitle" = "Satu File Tidak Dapat Disinkronkan";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog body. The placeholder is the full path of the file. Please keep "\n" intact. */
+"FoundSameNamesUnderFolderErrorBody:%@" = "File lain di lokasi yang sama memiliki nama yang sama atau kapitalisasi yang berbeda.\n%@\nGanti nama atau pindahkan salah satu file, lalu buka lagi aplikasi OneDrive.";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog OK button */
+"FoundSameNamesUnderFolderErrorButton" = "OK";
+
+/* Primary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedPrimary" = "Pengunggahan dijeda";
+
+/* Secondary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedSecondary" = "File online Anda sedang dipindahkan ke server yang lebih dekat dengan Anda. Perubahan akan segera disinkronkan setelah langkah ini selesai.";
+
+/* Primary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedPrimary" = "Sinkronisasi file Anda dilanjutkan";
+
+/* Secondary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedSecondary" = "File online telah selesai dipindahkan ke server di lokasi baru Anda.";
+
+/* Primary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantPrimaryText" = "OneDrive tidak dapat disinkronkan";
+
+/* Secondary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantSecondaryText" = "Departemen TI tidak mengizinkan Anda melakukan sinkronisasi file dari lokasi ini ke komputer Anda";
+
+/* Text for SyncError MinorVersionLimitExceeded error dialog body */
+"SyncErrorShortDescriptionMinorVersionExceededItem" = "Anda telah mencapai jumlah maksimum versi minor yang dapat Anda simpan untuk file ini. Terbitkan file di situs SharePoint Anda: Klik kanan file, lalu pilih Lainnya > Terbitkan. Selanjutnya, Anda dapat mulai menyimpan versi minor kembali.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast */
+"FolderRecreatedOnFailedDelete Title" = "Satu folder tidak dapat dihapus.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast where %@ is a folder name */
+"FolderRecreatedOnFailedDelete Message:%@" = "Untuk menghentikan sinkronisasi \"%@\" untuk komputer Anda, klik di sini untuk pergi ke preferensi dan Batalkan pilihan folder ini.";
+
+/* Accessibility text for menu item dropdown button */
+"MenuButtonAccessibleName" = "Opsi lainnya";
+
+/* Text for per item menu dropdown Open option */
+"MenuItemOpen" = "Buka";
+
+/* Text for per item menu dropdown Share option */
+"MenuItemShare" = "Bagikan";
+
+/* Text for per item menu dropdown View online option */
+"MenuItemViewOnline" = "Lihat secara online";
+
+/* Title of Setting dialog tab that provides options for Office file syncing. */
+"OfficeText" = "Office";
+
+/* Title text of groupbox on the Office settings tab that provides settings for syncing and file collaboration. */
+"OfficeFileCollabGroupBox" = "Kolaborasi file";
+
+/* Explanation text in the File collaboration groupbox that explains syncing files with Office. */
+"OfficeFileCollabTextField" = "Kerjakan file Office dengan orang lain secara bersamaan dengan menyinkronkan file dengan Office.";
+
+/* Checkbox text for syncing files with Office 2016. {Locked=!cs, sk;\"Office\"} */
+"OfficeFileCollabCheckBox" = "Gunakan aplikasi Office untuk menyinkronkan file Office yang saya buka";
+
+/* Group box title for the Sync conflicts group box - provides options for how to deal with Office file sync conflicts. */
+"OfficeConflictGroupBox" = "Konflik sinkronisasi";
+
+/* Radio button for the option to merge files using Office. */
+"OfficeConflictRadioButtonMerge" = "Biarkan saya memilih antara menggabungkan perubahan atau menyimpan kedua salinan";
+
+/* Radio button for option to always keep both copies of a file when the file is in an Office conflict. */
+"OfficeConflictRadioButtonFork" = "Selalu simpan kedua salinan (ganti nama salinan di komputer ini)";
+
+/* Message to notify that an item cannot be deleted and it will be recreated at original location. */
+/* Title Text for SyncError DeleteCancelledByEventReceiver toast */
+"ItemCannotBeDeleted Title" = "Item tidak dapat dihapus.";
+
+/* Body Text for SyncError DeleteCancelledByEventReceiver toast where %@ is an item name */
+"ItemCannotBeDeleted Message:%@" = "Untuk menghentikan sinkronisasi \"%@\" pada komputer Anda, klik di sini untuk membuka Preferensi dan batalkan pilihan item ini.";
+
+/* Message to notify that an item cannot be moved from its original location, item moved
+    will be recreated at source and the moved copy will be uploaded from destination. */
+/* Title Text for SyncError UploadFailedOnCannotMoveThickets toast */
+"ItemCannotBeMoved Title" = "Salah satu item Anda tidak dapat dipindahkan.";
+
+/* Body Text for SyncError MoveCancelledByEventReceiver toast where %@ is a item name which cannot be moved. */
+/* Body Text for SyncError MoveFailedOnCannotMoveThickets toast where %@ is a thicket folder name which cannot be moved. */
+"ItemCannotBeMoved Message:%@" = "Sebaliknya, kami menyalin \"%@\" ke lokasi baru dan mengunggah kedua salinan item.";
+
+/* Message to notify that an item cannot be added or changed due to server response of cancelled by event receiver. */
+/* Title Text for SyncError AddOrChangeCancelledByEventReceiver toast */
+"ItemAddOrChangeCancelledByEventReceiver Title" = "Item tidak dapat diunggah.";
+
+/* Body Text for SyncError AddOrChangeCancelledByEventReceiver toast where %@ is an item name */
+"ItemAddOrChangeCancelledByEventReceiver Message:%@" = "Untuk menghentikan sinkronisasi \"%@\" pada komputer Anda, klik di sini untuk membuka Preferensi dan batalkan pilihan item ini.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryClientError" = "Departemen TI mengharuskan Mac Anda untuk bergabung ke domain yang disetujui. Untuk bantuan dalam menghubungkan Mac ke domain, hubungi departemen TI Anda.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryDisabled" = "Organisasi Anda tidak mengizinkan sinkronisasi folder ini. Untuk info selengkapnya, tanyakan kepada pemilik situs.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryCheckOut" = "Cek Keluar diperlukan untuk mengedit item di folder ini. Untuk menyinkronkan folder ini, minta pemilik situs untuk menonaktifkan \"Wajibkan Cek Keluar.\"";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryColumnInvalid" = "Folder memiliki kolom info wajib yang tidak dapat disinkronkan. Minta pemilik situs untuk mengedit kolom tersebut menjadi tidak wajib dan menghapus semua validasi data.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryIrm" = "Folder yang coba Anda sinkronkan dikonfigurasi untuk Manajemen Hak Informasi. Hubungi administrator situs Anda untuk menonaktifkan Manajemen Hak Informasi pada folder ini.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryModeration" = "Item harus disetujui agar dapat ditambahkan ke folder. Untuk menyinkronkan folder ini, minta pemilik situs untuk menonaktifkan \"Persetujuan Konten.\"";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibrary" = "Pengaturan yang baru diubah menghalangi sinkronisasi folder ini. Hubungi departemen TI Anda untuk mendapatkan info.";
+
+/* Resolution message text for LostPermissionsToMountPoint error */
+"LostPermissionsToMountPoint" = "Anda tidak memiliki izin untuk menyinkronkan pustaka ini. Lihat pustaka ini secara online untuk meminta akses, atau klik atau ketuk untuk berhenti menyinkronkan pustaka ini.";
+
+/* Resolution message text for LibraryDeleted error */
+"LibraryDeleted" = "Pustaka ini telah dihapus. Semua file yang disimpan di perangkat ini tidak terpengaruh. Klik atau ketuk untuk berhenti menyinkronkan pustaka ini, atau hubungi pemilik pustaka.";
+
+/* Resolution message text for ServiceBlockedLibrary error */
+"ServiceBlockedLibrary" = "Kami tidak dapat mengakses pustaka ini karena masalah layanan. Mulai ulang OneDrive untuk mencoba lagi.";
+
+/* Resolution message text for LibraryNotFound error */
+"LibraryNotFound" = "Kami tidak dapat menemukan pustaka ini. Klik atau ketuk untuk berhenti menyinkronkan pustaka ini, atau hubungi administrator TI Anda.";
+
+/* Error message text for SyncIrmFileFailed error */
+"SyncIrmFileFailed" = "Kami tidak dapat menyinkronkan file yang dilindungi ini. Silakan hubungi administrator SharePoint mengenai file yang dilindungi ini untuk meminta akses.";
+
+/* Error message text for IrmRejectedItemOnUpload error */
+"IrmRejectedItemOnUpload" = "File ini tidak dapat disinkronkan karena pengaturan pustaka IRM dikonfigurasi untuk memblokir pengguna agar tidak mengunggah dokumen yang tidak mendukung IRM.";
+
+/* Error message text for IrmExtensionChangeBlockedItem error */
+"IrmExtensionChangeBlockedItem" = "Kami tidak dapat menyinkronkan item ini karena kebijakan organisasi Anda tidak mengizinkan penggantian nama ekstensi file. Sambungkan ke internet dan ganti nama ekstensi file kembali ke nama aslinya atau hubungi administrator situs.";
+
+/* Error message text for IrmEncryptFailedToFindProtectorItem error */
+"IrmEncryptFailedToFindProtectorItem" = "Kami tidak dapat menyinkronkan item ini karena kebijakan organisasi Anda tidak mengizinkan penggantian nama ekstensi file. Hubungi administrator situs Anda.";
+
+/* Error message for ItemCantFitOnDisk error. */
+"ItemCantFitOnDisk" = "Tidak ada cukup ruang di komputer ini untuk menyinkronkan file.";
+
+/* Text for menu item to open help center */
+"MainMenuItemHelpCenter" = "Pusat bantuan";
+
+/* Window title used for send feedback.
+ There's probably no need to localize this string. */
+"FeedbackApplicationTitle" = "Microsoft OneDrive";
+
+/* Send feedback menu item label */
+"FeedbackMenuLabel" = "Kirim Umpan Balik";
+
+/* Send feedback window title */
+"FeedbackWindowTitle" = "Kirim Umpan Balik";
+
+/* Link to privacy statement page */
+"FeedbackPrivacyLinkText" = "<a href=\"#\">Privasi Anda penting bagi kami</a>";
+
+/* Link to terms of service page */
+"FeedbackTosLinkText" = "<a href=\"#\">Microsoft</a> mengumpulkan umpan balik Anda dan menggunakannya untuk meningkatkan pengalaman Anda.";
+
+/* Header of the button to send positive feedback */
+"FeedbackSmileChoiceTitle" = "Saya menyukai sesuatu";
+
+/* Explanation for the send positive feedback button */
+"FeedbackSmileChoiceText" = "Kami ingin mendengar pendapat Anda tentang kinerja kami.";
+
+/* Placeholder for the user input field */
+"FeedbackSmileFieldTip" = "Beri tahu kami apa yang Anda sukai";
+
+/* Placeholder for the user input field */
+"FeedbackFrownFieldTip" = "Beri tahu kami apa yang tidak Anda sukai";
+
+/* Header of the send negative feedback button */
+"FeedbackFrownChoiceTitle" = "Saya tidak menyukai sesuatu";
+
+/* Explanation for the send negative feedback button */
+"FeedbackFrownChoiceText" = "Jika terjadi masalah, kami ingin mengetahuinya.";
+
+/* Header of the Send a Suggestion button */
+"FeedbackSuggestionChoiceTitle" = "Saya memiliki saran";
+
+/* Explanation for the Send a Suggestion button */
+"FeedbackSuggestionChoiceText" = "Bagikan ide atau perbaikan.";
+
+/* Checkbox label to opt-in/opt-out of sending log files */
+"FeedbackIncludeLogsLabel" = "Termasuk data diagnostik dan penggunaan";
+
+/* Label for the button to send feedback */
+"FeedbackSendButtonLabel" = "Kirim";
+
+/* Label for the button to resent feedback in the case of sending failure */
+"FeedbackRetryButtonLabel" = "Coba lagi";
+
+/* Label for the button to cancel feedback submission request */
+"FeedbackCancelButtonLabel" = "Batalkan";
+
+/* Label for the button to finish send feedback */
+"FeedbackCloseButtonLabel" = "Tutup";
+
+/* Message shown in the case of feedback submission failure */
+"FeedbackSendFailureText" = "Maaf, ada masalah saat mengirim umpan balik Anda. Silakan periksa koneksi Internet Anda dan coba lagi. Anda juga dapat melaporkan masalah dengan <a href=\"#\">menghubungi dukungan.</a>";
+
+/* Message shown during feedback submission */
+"FeedbackSendingText" = "Mengirim...";
+
+/* Message shown at the end of feedback submission. */
+"FeedbackSendSuccessText" = "Terima kasih atas umpan balik Anda! Komentar Anda akan membantu kami agar lebih baik.";
+
+/* Window title shown at the end of feedback submission. */
+"FeedbackSendSuccessTitle" = "Terima kasih";
+
+/* Label for the button to go back to feedback type selection page. */
+"FeedbackBackButtonLabel" = "Kembali";
+
+/* Title of local mass delete prompt for personal instance. */
+"LocalMassDeletePromptTitlePersonal" = "Hapus file dari OneDrive?";
+
+/* Title of local mass delete prompt for business instance. */
+"LocalMassDeletePromptTitleBusiness" = "Hapus file dari semua lokasi?";
+
+/* Body of local mass delete prompt for personal instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyPersonal:%@" = "Anda baru saja menghapus %@ file dari perangkat ini. Apakah Anda ingin menghapusnya dari OneDrive juga?";
+
+/* Body of local mass delete prompt for business instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyBusiness:%@" = "Anda baru saja menghapus %@ file dari perangkat ini. Apakah Anda juga ingin menghapusnya dari OneDrive dan semua pustaka bersama?";
+
+/* Text of Restore button of local mass delete prompt. */
+"LocalMassDeletePromptRestoreButton" = "Pulihkan File";
+
+/* Text of Delete button of local mass delete prompt. */
+"LocalMassDeletePromptDeleteButton" = "Hapus";
+
+/* Text of Opt out checkbox of local mass delete prompt. */
+"LocalMassDeletePromptOptoutCheckbox" = "Selalu hapus file";
+
+/* Activity center local mass delete per item history description. */
+"ActivityCenterItemPendingRemoval" = "Penghapusan yang tertunda dari OneDrive";
+
+/* Checkbox text to toggle the local mass delete feature in settings dialog. */
+"LocalMassDeleteSettingsCheckbox" = "Peringatkan saya sebelum menghapus file dari cloud";
+
+/* Title text of local mass delete confirmed ACM. */
+"LocalMassDeleteConfirmedTitle" = "Perlu memulihkan file?";
+
+/* Body text of local mass delete confirmed ACM for personal instance. */
+"LocalMassDeleteConfirmedBodyPersonal" = "Menghapus file dalam OneDrive akan menghapusnya di semua perangkat. Anda dapat memulihkan file dari keranjang sampah OneDrive selama 30 hari.";
+
+/* Body text of local mass delete confirmed ACM for business instance. */
+"LocalMassDeleteConfirmedBodyBusiness" = "Menghapus file dalam OneDrive akan menghapusnya dari semua perangkat dan lokasi. Anda dapat memulihkan file dari keranjang sampah di OneDrive atau pustaka bersama selama 93 hari. Klik di bawah ini untuk mengunjungi keranjang sampah yang berisi file yang baru saja dihapus.";
+
+/* Text of recycle bin button of LocalMassDelete confirmed ACM. */
+"LocalMassDeleteRecycleBin" = "Keranjang Sampah";
+
+/* Header text informing user that an application is downloading their files. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeader:%@" = "%@ sedang mengunduh dari OneDrive";
+
+/* Header text informing user that an application is downloading their files. This version is used if many files are downloading. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeaderAboveThreshold:%@" = "%@ sedang mengunduh banyak file dari OneDrive";
+
+/* Body text informing user that an application is downloading their files. Clicking on this toast will open a confirmation dialog. */
+"CloudFilesHydrationToastBody" = "Untuk membatalkan ini dan unduhan selanjutnya, klik di sini.";
+
+/* Header text informing user that an application is downloading their files. %1$@ is an application name. %2$u is a number. */
+"CloudFilesHydrationDialogHeader:%@,%u" = "%1$@ sedang mengunduh %2$u file";
+
+/* Body text informing user that an application is downloading their files. %@ is an application name. */
+"CloudFilesHydrationDialogBody:%@" = "Anda dapat membiarkan aplikasi melanjutkan atau menghentikan unduhan. Pilih \"Blokir Aplikasi\" untuk menghentikan semua unduhan selanjutnya dari %@.";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will continue downloading files. */
+"CloudFilesHydrationDialogContinueButton" = "Lanjutkan Unduhan";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files. */
+"CloudFilesHydrationDialogStopButton" = "Hentikan Unduhan";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files and block this application from future downloads. */
+"CloudFilesHydrationDialogBlockButton" = "Blokir Aplikasi";
+
+// Download And Go
+
+/* Download And Go application friendly name*/
+"DownloadAndGoFriendlyName" = "Peluncur File OneDrive";
+
+/* Download And Go window title when no errors are displayed. %@ is a number. */
+"DownloadAndGoTitle:%@" = "Mengunduh %@ item ke OneDrive";
+
+/* Download And Go downloading message. %@ is a file name. */
+"DownloadAndGoDownloadingMessage:%@" = "Mengunduh \"%@\"";
+
+/* Download And Go progress message for progressing hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoProgressingHydrationProgress: %@ %@" = "%1$@ dari %2$@";
+
+/* Download And Go progress message for queued hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoQueuedHydrationProgress: %@ %@" = "%1$@ dari %2$@ - Unduhan tertunda";
+
+/* Download And Go window title when errors are displayed*/
+"DownloadAndGoErrorsTitle" = "Tidak dapat mengunduh ke OneDrive";
+
+/* Download And Go error message. %@ is file name. %d is a number. */
+"DownloadAndGoErrorMessage: %@ %d" = "OneDrive tidak dapat mengunduh \"%1$@\" (Kode kesalahan %2$d).";
+
+/* Download And Go cancel error button */
+"DownloadAndGoCancelErrorButton" = "Batal";
+
+/* Download And Go try hydration again button */
+"DownloadAndGoTryAgainButton" = "Coba Lagi";
+
+// Finder Sync Extension Activity Center Messages
+
+/* The title of the large ACM used to inform the user about Files On-Demand if the Finder Sync Extension is enabled. */
+"FinderSyncEnabledTitle" = "File Yang Disimpan Online Menghemat Ruang Anda";
+
+/* The body of a large ACM that informs the user about Files On-Demand if the Finder Sync Extension is enabled. "Finder" should be translated the same way as in the Mac OSX. "Always keep on this device" should be translated the same as the MenuItemPinCommand string. */
+"FinderSyncEnabledBody" = "Kini Anda dapat mengakses seluruh OneDrive tanpa menghabiskan ruang disk. Jika Anda perlu sesuatu secara offline, klik kanan item tersebut di Finder lalu pilih \"Selalu simpan pada perangkat ini\".";
+
+/* The first button's text in a large ACM that that informs the user about Files On-Demand. When clicked, the message is dismissed. */
+"FinderSyncOkay" = "OK";
+
+/* The text of a button that opens a URL with more information about Files On-Demand. Used in all Finder Sync ACMs. */
+"FinderSyncLearnMore" = "Pelajari Selengkapnya";
+
+/* The title of the large ACM used to prompt them to enable the Finder Sync Extension. */
+"FinderSyncPromptTitle" = "Dapatkan Hasil Terbaik dari File Sesuai Permintaan";
+
+/* The body of a large ACM that prompts the user to enable the Finder Sync Extension if it is disabled. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptBody" = "File Sesuai Permintaan memungkinkan Anda mengosongkan ruang pada komputer dengan menandai file OneDrive sebagai online-saja. Untuk menandai file sebagai online-saja, Anda perlu mengaktifkan ekstensi Finder OneDrive.";
+
+/* The first button's text in a large ACM that prompts the user to enable the Finder Sync Extension. When clicked, the user's Extensions settings are opened. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptEnableExtension" = "Aktifkan Ekstensi Finder";
+
+/* The title text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpTitle" = "File Sesuai Permintaan Telah Disiapkan";
+
+/* The body text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpBody" = "File Anda tersedia sesuai permintaan untuk menghemat ruang.";
+
+/* The title of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */
+"FinderSyncEnabledWithSelectiveSyncTitle" = "Lihat Semua File Anda";
+
+/* The body of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */ 
+"FinderSyncEnabledWithSelectiveSyncBody" = "Anda gunakan untuk menyinkronkan hanya beberapa file untuk perangkat ini. File On-Demand sekarang memungkinkan Anda melihat semua file Anda pada perangkat ini tanpa menggunakan ruang disk.";
+
+/* The button of an ACM that prompts the user to disable Selective Sync if the Finder Sync Extension is enabled and Files On-Demand is enabled. */
+"FinderSyncEnabledTurnOffSelectiveSyncButton" = "Lihat Semua File";
+
+// Strings for the kext installer helper
+
+/* Window title for the kext installer helper*/
+"KextWizardWindowTitle" = "Microsoft OneDrive";
+
+/* Body header for the kext installer helper */
+"KextWizardBodyHeader" = "Perbarui File Sesuai Permintaan";
+
+/* Body text for the kext installer helper*/
+"KextWizardBodyText" = "Untuk menggunakan File Sesuai Permintaan, Anda perlu mengizinkan ekstensi sistem dari OneDrive. Klik Buka Preferensi Keamanan, kemudian klik Izinkan.";
+
+/* Action button for the kext installer helper */
+"KextWizardOpenSecurityButton" = "Buka Preferensi Keamanan";
+
+// Throttling
+
+/* Individual file gets throttled */
+"FileTransferThrottled" = "Anda mungkin mengalami penundaan sinkronisasi sementara karena tingginya aktivitas layanan. Kami akan segera mencoba memperbarui file tersebut.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that a number of items couldn't be synced. */
+"FileTransferThrottledPrimary" = "Penundaan sinkronisasi";
+
+/* Description text shown on the sub-header of the Activity Center when there are files being throttled. */
+"FileTransferThrottledSecondary" = "Anda mungkin mengalami penundaan sinkronisasi sementara karena tingginya aktivitas layanan";
+
+/* Describes the generic resolution, in the Errors Window, of a file that cannot sync because it is in use by another process. */
+"FilePostponedByClient" = "File ini dibuka oleh program lain dan tidak dapat disinkronkan. Setelah file tersebut ditutup, kami dapat menyinkronkannya";
+
+/* Title text shown in the sub-header of the Activity Center indicating that one file is in use by another application. */
+"FilePostponedByClientSingular" = "File sedang digunakan oleh aplikasi lain";
+
+/* Title text shown in the sub-header of the Activity Center indicating that multiple files are in use by other applications. %@ is a number. */
+"FilePostponedByClientPlural:%@" = "%@ file sedang digunakan oleh aplikasi lain";
+
+// Reset UI strings
+
+/* Window title used for the Reset popup window */
+"ResetApplicationTitle" = "Microsoft OneDrive";
+
+/* Header text for the Reset popup window */
+"ResetHeaderText" = "Atur ulang OneDrive";
+
+/* Description text for what happens during a reset */
+"ResetDescriptionText" = "Jika Anda mengalami masalah dengan sinkronisasi OneDrive, opsi atur ulang mungkin akan membantu mengatasinya. Tindakan Atur ulang akan menghentikan layanan sinkronisasi untuk sementara waktu dan menyinkronkan ulang hierarki file dan konten dari cloud ke komputer lokal Anda. <a href=\"#\">Pelajari selengkapnya.</a>";
+
+/* Checkbox text to ask if the user wants to preserve their selective sync and teamsites settings */
+"ResetSettingsCheckboxText" = "Simpan pengaturan dan konfigurasi file saya (disarankan)";
+
+/* Button text to abort the reset process */
+"ResetCancelButtonLabel" = "Batal";
+
+/* Button text to begin the reset process */
+"ResetConfirmButtonLabel" = "Atur ulang";
+
+/* Title text for reset in progress ACM */
+"ResetInProgressTitle" = "Kami sedang mengatur ulang";
+
+/* Body text for reset in progress ACM */
+"ResetInProgressBody" = "Lanjutkan dan teruskan bekerja pada file Anda sementara kami mengatur ulang. File Anda akan disimpan ke disk lokal dan diunggah ke OneDrive setelah diatur ulang.";
+
+/* Title text for reset successful ACM */
+"ResetSuccessTitle" = "Atur ulang selesai";
+
+/* Body text for reset successful ACM */
+"ResetSuccessBody" = "OneDrive Anda bagus seperti baru.";
+
+/* Title text for reset successful with errors ACM */
+"ResetSuccessWithErrorsTitle" = "Atur ulang selesai, tapi...";
+
+/* Body text for reset successful with errors ACM */
+"ResetSuccessWithErrorsBody" = "OneDrive Anda masih memiliki kesalahan yang tidak bisa menyelesaikan reset. Tekan atau klik untuk melihat mereka.";
+
+/* Title text for reset failed ACM */
+"ResetFailureTitle" = "Tidak dapat mengatur ulang";
+
+/* Body text for reset failed ACM */
+"ResetFailureBody" = "Terjadi kesalahan. <a href=\"#\">Pelajari selengkapnya.</a>";
+
+/* Title text for reset successful history list item */
+"ActivityListHistoryResetSuccessPrimary" = "Atur ulang selesai";
+
+/* Body text for reset successful history list item */
+"ActivityListHistoryResetSuccessSecondary" = "OneDrive Anda bagus seperti baru.";
+
+/* Title text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsPrimary" = "Atur ulang selesai";
+
+/* Body text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsSecondary" = "Anda masih memiliki beberapa kesalahan.";
+
+/* Title text for reset failed history list item */
+"ActivityListHistoryResetFailurePrimary" = "Tidak dapat mengatur ulang";
+
+/* Body text for reset failed history list item */
+"ActivityListHistoryResetFailureSecondary" = "Terjadi kesalahan.";
+
+/* Title text for reset completed toast */
+"ToastResetCompletedTitle" = "Pengaturan ulang OneDrive selesai";
+
+/* Body text for reset completed toast */
+"ToastResetCompletedBody" = "Ketuk atau klik di sini untuk melihat status file Anda.";
+
+/* Title text for reset failed toast */
+"ToastResetFailedTitle" = "OneDrive tidak dapat diatur ulang";
+
+/* Body text for reset failed toast */
+"ToastResetFailedBody" = "Ketuk atau klik di sini untuk melihat langkah berikutnya.";
+
+// End Reset UI strings
+
+/* Resolution message for client access denied. */
+"ClientAccessDeniedErrorsShortDescription" = "Tampaknya Anda tidak memiliki izin akses ke item. Pastikan bahwa Anda memiliki akses yang tepat agar item boleh disinkronkan.";
+
+// Purchase Window Strings
+
+/* Title text show in Purchase Window */
+"PurchaseWindowTitle" = "Microsoft OneDrive";
+
+/* Header text shown in Purchase Window */
+"PurchaseWindowHeader" = "Dapatkan Pengalaman Premium!";
+
+/* Header text shown in Purchase Window after buying the subscription */
+"PurchaseSuccessWindowHeader" = "Selamat!";
+
+/* Header text shown in Purchase Window while buying the subscription */
+"PurchaseWindowLoadingTitle" = "Memuat";
+
+/* Body text shown in the Purchase Window*/
+"PurchaseWindowBody" = "Dapatkan fitur OneDrive premium dengan langganan gratis Office 365 selama satu bulan. Pilih paket yang sesuai dan mulai percobaan gratis Anda.";
+
+/* Body text shown in the Purchase Window after buying the subscription */
+"PurchaseSuccessWindowBody" = "Sekarang Anda memiliki akses ke fitur eksklusif. Kartu Anda akan dikenai biaya secara otomatis setelah 1 bulan periode percobaan.";
+
+/*Link button to skip the window */
+"PurchaseWindowSkipNowLink" = "Lewati dulu";
+
+/* Sub text in product subscription card describing our premium features*/
+"PurchaseCardMainBody" = "Fitur OneDrive Premium";
+
+/* Decribes our product subscription right below a row of images showing the office apps*/
+"PurchaseCardSubBody" = "Aplikasi Office terbaru untuk PC & Mac";
+
+/* Purchase card button text which will start a purchase flow */
+"PurchaseCardButtonText" = "Beli Paket Premium - Gratis untuk Bulan Pertama";
+
+/* Purchase card link text which will launch a learn more campaign */
+"PurchaseCardLinkText" = "Pelajari selengkapnya";
+
+/* Personal subscription card list text. Only for 1 person  */
+"PurchasePersonalList1" = "Untuk Perorangan";
+
+/* Home subscription card list text. Bundle avaiable for 6 people*/
+"PurchaseHomeList1" = "Untuk enam orang";
+
+/* Personal subscription card list text. 1 Terabyte of storage in OneDrive */
+"PurchasePersonalList2" = "Penyimpanan sebesar 1 TB";
+
+/* Home subscription card list text. 6 Terabyte of storage in OneDrive */
+"PurchaseHomeList2" = "Penyimpanan sebesar 6 TB";
+
+/* Common subscription card list text for all bundles. Access advanced security features */
+"PurchaseCommonList3" = "Keamanan tingkat lanjut";
+
+/* Common subscription card list text for all bundles. Access more producitivty tool*/
+"PurchaseCommonList4" = "Alat produktivitas";
+
+/* Price of a yearly subscription. %@ is money symbol followed by a decimal number. Example: $59.99*/
+"PurchasePriceYearConstant:%@" = "%@/tahun";
+
+/* Close the window */
+"PurchaseCloseButtonText" = "Tutup";
+
+/* Accessible name for a list of Microsoft Office Products*/
+"PurchaseIconAccessibleName" = "Produk Microsoft Office";
+
+/* Accessible name for a list of details concerning a Office Subscription.*/
+"PurchaseListBodyAccessibleName" = "Daftar fitur";
+
+/* Error title of purchase window*/
+"PurchaseWindowErrorTitle" = "Terjadi Kesalahan";
+
+/* Error body of purchase window. Receipt is already in use*/
+"PurchaseErrorReceiptInUse" = "Pembelian Office 365 Anda diklaim oleh akun Microsoft yang berbeda.";
+
+/* Error body of purchase window. Transient Error that automatically might resolve*/
+"PurchaseErrorTransientIssue" = "Anda berhasil membeli Office 365, tapi kami tidak dapat menerapkan langganan ke akun Microsoft Anda. Harap coba lagi nanti, Anda tidak akan dikenakan biaya lagi. Jika masalah ini berlanjut setelah 24 Jam, silakan hubungi dukungan.";
+
+/* Error body of purchase window. Error that we are unable to resolve.*/
+"PurchaseErrorUnableToResolve" = "Anda berhasil membeli Office 365, tapi kami tidak dapat menerapkan langganan ke akun Microsoft. Silakan hubungi dukungan.";
+
+/* Terms of Use title for purchasing a subscription */
+"PurchaseSubscriptionTermsTitle" = "Detail Langganan";
+
+/* Terms of Use body for purchasing a subscription */
+"PurchaseSubscriptionTermsBody" = "Biaya langganan Office 365 yang dibeli akan dibebankan ke akun iTunes Anda dan akan otomatis diperpanjang dalam waktu 24 jam sebelum periode langganan saat ini berakhir, kecuali jika perpanjangan otomatis dinonaktifkan sebelumnya. Untuk mengelola langganan Anda atau untuk menonaktifkan perpanjangan otomatis, buka pengaturan akun iTunes. Langganan tidak dapat dibatalkan selama periode langganan aktif. Bagian masa percobaan gratis yang tidak terpakai, jika ditawarkan, akan hangus jika pengguna membeli langganan ke publikasi tersebut, jika berlaku.";
+
+/* Text that will link to a web page describing the Microsoft terms of use */
+"PurchaseSubscriptionTermsOfUseLink" = "Ketentuan Penggunaan";
+
+/* Text that will link to a web page describing the terms of privacy */
+"PurchaseSubscriptionPrivacyLink" = "Privasi";
+
+// End Purchase window strings
+
+// Get Help window strings
+
+/* Get Help window title */
+"GetHelpWindowTitle" = "Hubungi Dukungan";
+
+/* Placeholder for the Get Help user input field */
+"GetHelpFieldTip" = "Jelaskan masalah Anda di sini.";
+
+/* Window title shown at the end of get help submission succeeded. */
+"GetHelpSendSuccessTitle" = "Permintaan Dukungan Terkirim";
+
+/* Message shown at the end of get help submission - %1$@ is user email. */
+"GetHelpSendSuccessText:%@" = "Agen OneDrive akan menghubungi Anda di %1$@.";
+
+/* Window title shown at the end of get help submission failure. */
+"GetHelpSendFailureTitle" = "Permintaan Dukungan Gagal";
+
+/* Message shown in the case of feedback submission failure */
+"GetHelpSendFailureText" = "Maaf, ada masalah mengirimkan permintaan dukungan Anda. Silakan periksa koneksi Internet Anda dan coba lagi nanti.";
+
+// End Get Help window strings

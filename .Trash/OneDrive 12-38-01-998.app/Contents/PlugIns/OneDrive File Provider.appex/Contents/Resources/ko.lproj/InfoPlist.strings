@@ -1,0 +1,35 @@
+/* 
+  Strings for the File Provider extension's info.plist
+ 
+  NOTE: All strings should go in Localizable.Strings except for Badge and Root folder tooltips
+*/
+
+/* Tooltip for files and folders in the pinned state */
+"BadgeTooltip_Pinned" = "이 장치에서 항상 사용 가능";
+
+/* Tooltip for files and folders which are shared with other users. */
+"BadgeTooltip_Shared" = "공유";
+
+/* Tooltip for files and folders which are shared AND in the pinned state. */
+"BadgeTooltip_PinnedShared" = "이 장치에서 공유 및 항상 사용 가능";
+
+/* Tooltip for files excluded from syncing. Ex: HVEL, LVEL and ODIgnored */
+"BadgeTooltip_Ignored" = "동기화에서 제외됨";
+
+/* A tooltip for a custom icon on a team site folder. */
+"RootTooltip_TeamSite" = "공유 라이브러리";
+
+/* A tooltip for a custom icon on an added/shortcut folder. */
+"RootTooltip_Shortcut" = "바로 가기";
+
+/* Title bar text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_Title" = "폴더를 이동할 수 없음";
+
+/* Description text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_SubTitle" = "이 폴더는 Mac으로 이동할 수 없습니다.";
+
+/* Title bar text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_Title" = "항목을 이동할 수 없음";
+
+/* Description text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_SubTitle" = "이 항목은 Mac으로 이동할 수 없습니다.";

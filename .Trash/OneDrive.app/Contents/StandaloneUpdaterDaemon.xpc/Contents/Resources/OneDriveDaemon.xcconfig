@@ -1,0 +1,32 @@
+//
+//  OneDriveDaemon.xcconfig
+//  Foldershare
+//
+//  Created by SaKoo on 8/18/16.
+//  Copyright © 2016 Microsoft Corporation. All rights reserved.
+//
+
+PROJECT_ROOT = $(SRCROOT)/../../../../../..
+#include "../../../../../build/MacBuild.xcconfig"
+#include "Foldershare_base.xcconfig"
+
+EXECUTABLE_NAME = OneDriveUpdaterDaemon
+PRODUCT_NAME = $(EXECUTABLE_NAME)
+
+INFOPLIST_FILE = $(PROJECT_DIR)/Source/UpdaterDaemon/UpdaterDaemon-Info.plist
+ENTITLEMENTS_FILE = $(EXECUTABLE_NAME)
+
+// **************************************************************************
+// * Begin Compiler Section
+// **************************************************************************
+
+// Set the precompiled header file to nothing, since we don't need it here.
+GCC_PREFIX_HEADER =
+GCC_PFE_FILE_C_DIALECTS = c++ objective-c++
+OTHER_CFLAGS = -Wno-unknown-warning-option -Wno-undefined-var-template -Wno-nonportable-include-path -Wstack-protector -fstack-protector-all -D_FORTIFY_SOURCE=2
+OTHER_LDFLAGS =
+HEADER_SEARCH_PATHS = $(BRANCH_HEADER_SEARCH_PATHS) $(SE_ROOT)/mac/Common/Source/Updater $(PRODUCT_ROOT)/Filter/Inc $(PRODUCT_ROOT)/Filter/User/Inc $(PRODUCT_ROOT)/Filter/User/Bootstrap $(PRODUCT_ROOT)/Common/Inc
+CLANG_ENABLE_OBJC_ARC = YES
+
+// warning overrides
+GCC_WARN_NON_VIRTUAL_DESTRUCTOR = NO

@@ -1,0 +1,2575 @@
+// Misc
+
+// File Size Units
+
+/* The lowest unit for file sizes */
+"byteText" = "バイト";
+
+/* Unit for file sizes. */
+"KiloByteAbbrv" = "KB";
+
+/* Unit for file sizes. */
+"MegaByteAbbrv" = "MB";
+
+/* Unit for file sizes. */
+"GigaByteAbbrv" = "GB";
+
+/* Unit for file sizes. */
+"TeraByteAbbrv" = "TB";
+
+/* Unit for file transfer speed. */
+"KiloBytePerSecond" = "KB/秒";
+
+/* Unit for file transfer speed. */
+"MegaBytePerSecond" = "MB/秒";
+
+
+// First run - used by FirstRunWindowController.mm and its views
+
+/* Windows title used to welcome a user running the application.
+ There's probably no need to localize this string. */
+"FirstRunWindowTitle" = "Microsoft OneDrive";
+
+/* Title of the welcome page when running for the first time */
+"FirstRunText" = "OneDrive を設定";
+
+/* Short explaination about what OneDrive does when running for the first time */
+"FirstRunDescriptiveText" = "OneDrive にファイルに保存すると、どのデバイスからもアクセスできます。";
+
+/* Button to sign into a personal instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomePersonalButton" = "個人用";
+
+/* Button to sign into a business instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomeBusinessButton" = "職場または学校";
+
+/* Button to start email hrd sign in flow on the first run experience in welcome page */
+"FirstRunEmailSignInButton" = "サインイン";
+
+/* Placeholder text for the email input box on the first run experience in welcome page */
+"FirstRunEmailInputPlaceholderText" = "メール アドレスを入力してください";
+
+/* Errors shown when there is a problem with the users email address on the first run experience in welcome page */
+"FirstRunWelcomeErrorPersonalAlreadySyncing" = "このコンピューター上の個人用 OneDrive は既に同期しています。新しい同期を追加するには、そのアカウントのリンクを解除してください。";
+"FirstRunWelcomeErrorEmailIsMSAAndAAD" = "このメール アドレスは、OneDrive と OneDrive for Business の両方に使われています。最初にどちらにサインインしますか?";
+"FirstRunWelcomeErrorEmailIsNotKnown" = "認識できないメール アドレスです。";
+"FirstRunWelcomeErrorEmailAdminDisabled" = "このコンピューターの個人用 OneDrive の同期は、組織で許可されていません。";
+
+/* first run wizard progress text for screen readers */
+"FirstRunProgress0" = "OneDrive のセットアップは 0% 完了しました";
+"FirstRunProgress50" = "OneDrive のセットアップは 50% 完了しました";
+"FirstRunProgress75" = "OneDrive のセットアップは 75% 完了しました";
+"FirstRunProgress100" = "OneDrive のセットアップは 100% 完了しました";
+
+/* Title of the page that introduces OneDrive folder when running for the first time */
+"FirstRunIntroduceText" = "これは OneDrive フォルダーです";
+
+/* Title of the page that prompts for required folder when mounting for the first time */
+"FirstRunIntroduceRequiredPathText" = "フォルダーの場所の確認";
+
+/* Title of the page that introduces OneDrive folder when running for the first time. "Finder" should be translated the same way as in the Mac OSX */
+"FirstRunIntroduceDescriptiveText" = "ここにファイルを追加してください。この Mac にファイルを保管したまま、他のデバイスからファイルにアクセスできるようになります。";
+
+/* Title of the adminstrative error that will be attached to the FirstRunIntroduceDescriptiveText */
+"FirstRunIntroduceDescriptiveTextWithError" = "ここにファイルを追加すると、他のデバイスからもアクセスでき、この Mac 上にも保存されます。管理者により、この場所に OneDrive フォルダーを設定するよう要求されています";
+
+/* Title of the page that prompts for access to required folder. */
+"SelectRequiredPathDescriptiveText:%@" = "これらのファイルを同期するには、フォルダー %@ へのアクセス許可を与えてください";
+
+/* This is for the button that allows users to change the root folder path. When clicked, it opens a browse window for users to select the root folder. */
+"FirstRunBrowseButtonText" = "場所の変更";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"FirstRunDoneIntroductionButtonText" = "次へ";
+
+/* This is for the button when user has never selected a root folder. */
+"FirstRunSelectFolderButtonText" = "OneDrive フォルダーの場所を選択";
+
+/* This is for the button when user has not yet confirmed our required folder. */
+"FirstRunSelectRequiredFolderButtonText" = "フォルダーの場所の確認";
+
+/* This is a prompt displayed in the file browse dialog. */
+"SelectRootFolderMessage" = "OneDrive フォルダーの場所を選びます";
+
+/* This is a prompt displayed in the file browse dialog to confirm required location. */
+"SelectRequiredFolderMessage" = "選択したフォルダーを使用し、[場所の確認] をクリックします。";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"CreateRootFolderButton" = "この場所を選択";
+
+/* This is for the confirmation button when user is done confirming the required folder. */
+"CreateRequiredFolderButton" = "場所の確認";
+
+/* This is for the text field to show currently selected root folder path. */
+"FirstRunShowFolderPathText:%@" = "%@ フォルダーの場所:";
+
+/* This is the alert dialog title when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootTitle:%@" = "%@ フォルダーの場所が見つかりませんでした";
+
+/* This is the alert dialog body when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootMessage" = "OneDrive フォルダーが削除されている可能性があります。また、OneDrive フォルダーが外部ドライブにある場合、そのドライブが切断されている可能性があります。OneDrive フォルダーを再構成するには、[OK] をクリックしてください。";
+
+/* This is the alert dialog button that allows user to reconfigure */
+"FirstRunUnconfiguredRootReconfigureButton" = "OK";
+
+/* This is the alert dialog button that allows user to quit the application */
+"FirstRunUnconfiguredRootQuitButton" = "OneDrive を終了";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is invalid */
+"InvalidMappingLocationMessageTitle" = "選択した場所に OneDrive フォルダーを作成することができません";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid. */
+"InvalidMappingLocationDetailedMessage" = "別の場所を試してみてください。リムーバブル ドライブや、大文字と小文字が区別されるフォーマットのディスクを選ばないように注意してください。";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location can't be used */
+"InvalidMappingLocationInUseTitle" = "この場所には、OneDrive フォルダーを作成できません。";
+
+/* This is a detailed explanation in the alert window telling users the selected folder is already used by another OneDrive account. */
+"InvalidMappingLocationInUseDetailedMessage" = "この場所には、別の OneDrive フォルダーが既に存在します。別の場所を選択してください。";
+
+/* This is a short text above detailed explaination in the alert window telling users to select the required path */
+"InvalidMappingRequiredPathMessageTitle" = "選択したフォルダーの場所を確認すると、同期を続行できます";
+
+/* This is a detailed explaination in the alert window telling users the selected location is not the required path. */
+"InvalidMappingRequiredPathDetailedMessage" = "選択した場所を保持してください。検索で [確認の場所] をクリックしてください。";
+
+/* This is the button in the alert window that shows up when current location is not the required path. The button allows users to choose a new location */
+"InvalidMappingRequiredPathContinueButton" = "続行";
+
+/* This is the button in the alert window that shows up when current location is invalid. The button allows users to choose a new location */
+"InvalidMappingLocationChooseButton" = "新しい場所を選択";
+
+/* This is the button in the alert window that shows up when current location is invalid. This button allows users to close the alert */
+"InvalidMappingLocationCancelButton" = "キャンセル";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty */
+"MappingLocationContainsFileMessageTitle" = "このフォルダーにはコンテンツが既に存在します";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessage:%@" = "\"%@\" フォルダーとしてこの場所を選択すると、このフォルダー内のコンテンツは OneDrive に統合されます。選択した場所を使用することも、選択した別の場所をそのまま使用することもできます";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessageWithDefaultFolder:%@" = "\"%@\" フォルダーとしてこの場所を選択すると、このフォルダー内のコンテンツは OneDrive に統合されます。";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty {%1$@ is a folder name and %2$@ is its parent folder name } */
+"LibraryFolderMappingLocationContainsFileMessageTitle:%@,%@" = "\"%1$@\" フォルダーは \"%2$@\" フォルダーに既に存在します";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is not empty. { %1$@ is a folder name } */
+"LibraryFolderMappingLocationContainsFileDetailedMessage:%@" = "\"%1$@\" フォルダーとしてこの場所を選択すると、このフォルダー内のファイルはクラウド内のファイルと統合されます。選択した場所を使用することも、新しいフォルダーに同期させることもできます。";
+
+/* This is the button in the alert window that shows up when the folder location is not empty. This button allows users to continue anyway */
+"MappingLocationContainsFileContinueButton" = "この場所を使用";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button allows users to choose a new location */
+"MappingLocationContainsFileChooseButton" = "新しい場所を選択";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button informs us to automatically create a new folder on behalf of the user. */
+"MappingLocationContainsFileCreateButton" = "新しいフォルダーへの同期";
+
+/* This is on top of the selective sync page in First Run Experience. */
+"FirstRunSelectiveSyncTitle" = "必要なものだけを同期";
+
+/* This is the description right below the title on top of the selective sync page. */
+"FirstRunSelectiveSyncDescription:%@" = "OneDrive%@ フォルダーにダウンロードするものを選びます。ダウンロードするとオフラインでもアクセスできます。";
+
+/* This is the text on radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsTitle" = "OneDrive 上のすべてのファイルとフォルダー";
+
+/* This is the description text next to the radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsDescription" = "共有しているファイル以外のすべてのアイテムが、この Mac と同期します。";
+
+/* This is the text on radio button to choose to sync only some files */
+"FirstRunSelectiveSyncSomeItemsTitle" = "同期するフォルダーの選択";
+
+/* This is the description text next to the radio button to choose to sync only some files. */
+"FirstRunSelectiveSyncSomeItemsDescription" = "このコンピューターと同期するフォルダーを選択するには、[完了] をクリックします。";
+
+/* This is the button text in the selective sync page */
+"FirstRunSelectiveSyncNextButtonText" = "次へ";
+
+/* This is the title text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncTitle" = "ファイル オンデマンドを有効にする";
+
+/* This is the description text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncDescription" = "右クリックのコンテキスト メニューでファイル オンデマンドのオプションを表示するには、OneDrive Finder 同期拡張機能を有効にする必要があります。[拡張機能の設定を開く] をクリックして、OneDrive Finder 拡張機能を選択します。";
+
+/* This is the button text in the Enable Finder Sync page for the Enable button */
+"FirstRunEnableFinderSyncEnableButtonText" = "拡張機能の設定を開く";
+
+/* This is the button text in the Enable Finder Sync page for the Skip button */
+"FirstRunEnableFinderSyncSkipButtonText" = "後で拡張機能を有効にします";
+
+/* This is on top of the Cloud Files Tutorial page in First Run Experience. */
+"FirstRunCloudFilesTutorialTitle" = "すべてのファイルをオンデマンドで利用できます";
+
+/* This is the description right below the title on top of the Cloud Files Tutorial page. */
+"FirstRunCloudFilesTutorialDescription" = "ファイル オンデマンドでは、Mac の領域を使用することなく、OneDrive ですべてのアイテムを参照できます。ファイルは必要に応じてダウンロードされます。";
+
+/* This is the header text in the Cloud Files Tutorial page for online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFiles" = "オンライン専用のファイル";
+
+/* This is the text in the Cloud Files Tutorial page describing online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFilesDescription" = "オンライン専用のファイルは、そのファイルを開くまではデバイスにダウンロードされません。";
+
+/* This is the header text in the Cloud Files Tutorial page for locally available files. */
+"FirstRunCloudFilesTutorialHydratedFiles" = "ローカルで利用可能なファイル";
+
+/* This is the text in the Cloud Files Tutorial page describing locally available files. */
+"FirstRunCloudFilesTutorialHydratedFilesDescription" = "開いたファイルはデバイスにダウンロードされ、オフラインで使用できます。";
+
+/* This is the header text in the Cloud Files Tutorial page for always available files. */
+"FirstRunCloudFilesTutorialPinnedFiles" = "常に利用可能なファイル";
+
+/* This is the text in the Cloud Files Tutorial page describing always available files. */
+"FirstRunCloudFilesTutorialPinnedFilesDescription" = "ファイルやフォルダーを、オフラインでも常に使用できるようにマークすることができます。";
+
+/* This is the button text in the Cloud Files Tutorial page */
+"FirstRunCloudFilesTutorialNextButtonText" = "次へ";
+
+/* This is on top of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunTitle" = "OneDrive の準備ができました";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunDescription:%@" = "ファイルがダウンロードされ、この Mac と同期します。ファイルを OneDrive に追加するには、Finder で \"%@\" フォルダーに移動するだけです。";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience when Cloud Files on. */
+"FirstRunFinishFirstRunCloudFilesDescription:%@" = "OneDrive の準備が整いました。ファイルを OneDrive に追加するには、ファイルを Finder で \"%@\" フォルダーに移動するだけです。";
+
+/* This is the text of the Open-at-login checkbox in the Finish First Run page (Done page) in First Run Experience */
+"FirstRunFinishFirstRunOpenAtLoginCheckboxText" = "ファイルが自動的に同期するようにログイン時に開く";
+
+/* This is the button text in the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunButtonText:%@" = "%@ フォルダーを開く";
+
+// Settings folder access error
+
+/* This is the title text for dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorTitle" = "設定フォルダーにアクセスできません";
+
+/* This is the descrption text for dialog we pop up when we cannot access settings folder {StrContains=\"Application Support\"} */
+"SettingsFolderErrorDescription" = "Application Support フォルダーにアクセスできることを確認してください。";
+
+/* This is the button to quit for the dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorQuitButtonText" = "OneDrive を終了";
+
+// Cloud device - used by SyncDevice.mm
+
+/* The name of the online storage */
+"CloudDevice" = "OneDrive 同期ストレージ";
+
+
+// Folder status - used by ModelExtensions.mm
+
+/* Text shown on status menu when everything is in sync */
+"FolderStatusInSync" = "OneDrive は最新です"; // Up to date
+
+/* Local folder convergence status against a remote folder is not known */
+"FolderStatusUnknown" = "不明";
+
+/* Uploading and downloading files. "Files" will always be plural. */
+"FolderStatusSendAndReceive:%@" = "%@ ファイルの転送中...";
+
+/* Uploading one file from a remote folder. We show the file name. */
+"FolderStatusSendingSingular:%@" = "%@ のアップロード中...";
+
+/* Uploading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusSendingPlural:%@" = "%@ ファイルのアップロード中...";
+
+/* Downloading one file from a remote folder. We show the file name. */
+"FolderStatusReceivingSingular:%@" = "%@ のダウンロード中...";
+
+/* Downloading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusReceivingPlural:%@" = "%@ ファイルのダウンロード中...";
+
+/* Processing downloaded files to be created in a local folder */
+"FolderStatusRealizing" = "ダウンロードされたファイルの処理中...";
+
+/* Processing local file changes to be uploaded */
+"FolderStatusHashing" = "変更の処理中...";
+
+/* Scanning file changes in a folder */
+"FolderStatusScanning" = "ファイルのスキャン中...";
+
+/* Scanning file changes in a folde */
+"FolderStatusScanningExtended:%@" = "%@ のスキャン中...";
+
+/* Processing changes to files */
+"FolderStatusMetadataXfer" = "ファイルの処理中...";
+
+/* Waiting to resume file transfers (upload/download) */
+"FolderStatusBlocked" = "同期待ち";
+
+/* Status for a folder that is not syncing*/
+"FolderStatusUnmapped" = "OneDrive が構成されていません";
+
+/* Waiting to resume donwloading of a single file. We show the file name. */
+"FolderStatusBlockedSingular:%@" = "%@ の受信待ち...";
+
+/* Waiting to resume donwloading files */
+"FolderStatusBlockedPlural:%@" = "%@ ファイルの受信待ち";
+
+/* Upload+Download Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB */
+"FolderStatusTransferProgress:%@,%@,%@,%@" = "%@ %@ (%@ %@ 中)";
+
+/* Upload+Download+Rate Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB The third number shows the current transfer rate followed by its unit. */
+"FolderStatusTransferProgressNew:%@,%@,%@,%@,%@,%@" = "%@ %@ / %@ %@ 速度 %@ %@";
+
+/* Improve upload performance */
+"FasterUploadOption" = "アップロードをバッチで行うことで、アップロード速度を向上させます。\r\nこのオプションではより多くの帯域幅を使用します。インターネット接続に問題がある場合は、このオプションをオフにしてください。";
+
+/* Available storage space. Example: 20 GB used out of 200 GB. This is used in the systray. */
+"StorageQuota:%@,%@" = "%1$@ を使用中 (%2$@ 中)";
+
+/* Available storage space. Example: 20 GB of 200 GB cloud storage used. This is used in account tab of preference window to show GB on disk for personal account */
+"CloudStorageQuota:%@,%@" = "%1$@/%2$@ のクラウド ストレージを使用中";
+
+/* Storage used on Mac. Example: 2 GB used on this Mac. This is used in account tab of preference window to show GB on disk for ODB */
+"StorageOnMac:%@" = "%@ がこの Mac で使用中";
+
+// Device status - used by ModelExtensions.mm
+
+/* Drive status displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlocked" = "ファイルをアップロードできません";
+
+/* Error description displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlockedVerbose" = "ファイルに問題があるため、すべてのアップロードはブロックされています";
+
+// Device Location - used by ModelExtensions.mm
+
+/* Local device, i.e. this computer */
+"DeviceLocationLocal" = "ローカル";
+
+/* Remote device, e.g. another computer */
+"DeviceLocationRemote" = "リモート";
+
+/* Cloud storage device, */
+"DeviceLocationCloud" = "クラウド";
+
+// Sync Issue Window
+
+/* "Problem" is a general term that includes both warnings and errors. Problem is singular. */
+"SyncIssueWindowTitleSingular:%@" = "1 件の問題 (%@)";
+
+/* "Problem" is a general term that includes both warnings and errors. Problems is plural. */
+"SyncIssueWindowTitlePlural:%@,%@" = "%1$@ 件の問題 (%2$@)";
+
+/* The button is used to clear the issue list */
+"SyncIssueWindowClearButton" = "クリア";
+
+/* Reveal is showing the item */
+"SyncIssueWindowOpenInFinderToolTip" = "Finder で表示";
+
+/* Tool tip for the button that removes an issue from issue window */
+"SyncIssueWindowIgnoreIssueToolTip" = "この問題を無視";
+
+/* Text on status when there are more than 1 problems. "Problems" is always plural */
+"SyncIssueStatusPlural:%@" = "OneDrive に %@ 個の問題があります";
+
+/* Text on status when there is a problem. problem is always singular */
+"SyncIssueStatusSingular" = "OneDrive に 1 個の問題があります";
+
+/* Tool tip for the button that opens issue resolver window */
+"SyncIssueWindowOpenIssueToolTip" = "この問題を解決する";
+
+/* Primary text for error dialog with a file conflict for the file name. %@ is a file name */
+"SyncIssueAlertFileOnHoldPrimary:%@" = "\"%@\" のファイルの競合を解決する";
+
+/* Secondary text for error dialog. %@ is a machine name */
+"SyncIssueAlertFileOnHoldSecondary:%@" = "Office でファイルを開いて、両方のバージョンの変更をマージしたり、または保持するファイルを選択したりすることができます。または、両方のファイルを保持することもできます。コンピューター上のファイル名には \"-%@\" が追加され、オンライン ファイルはダウンロードされます。";
+
+/* Primary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldMainButton" = "両方のファイルを保持する";
+
+/* Secondary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldSecondaryButton" = "Office で開く";
+
+// Error description - used by ModelExtensions.mm
+
+/* error description used in issue window {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFilename" = "ファイル名を変更してください。たとえば、ファイル名の先頭または末尾にスペース、末尾にピリオド、先頭に 2 つのピリオドは使用できません。また、次の文字も使用できません: \\ / : * ? \" < > | ";
+
+/* error description used in issue window  {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFoldername" = "フォルダー名を変更してください。たとえば、フォルダー名の先頭または末尾にスペース、末尾にピリオド、先頭に 2 つのピリオドは使用できません。また、次の文字も使用できません: \\ / : * ? \" < > | ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionFilePathTooLong" = "ファイル パスが長すぎてコンピューターに保存できません";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionCloudAccessDenied:%@" = "このファイルは \"%@\" では読み取り専用です";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionDocumentCheckedOut" = "このファイルは、他のユーザーがチェックアウトしています。";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionServerFileConflict:%@" = "アイテムを \"%@\" にアップロードできませんでした";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionExcludedItem:%@" = "アイテムを \"%@\" にアップロードできませんでした";
+
+/* error description used in issue window %1$@ is a size like 10 GB, %2$@ is a string like "OneDrive - Microsoft" */
+"SyncErrorShortDescriptionFileTooBig:%@,%@" = "%1$@ よりも大きいファイルを \"%2$@\" にアップロードすることはできません";
+
+/* Use "OneNote" unless there's a localized name for it {Locked=!cs, sk;\"OneNote\"} */
+"SyncErrorShortDescriptionOnenoteDeleted:%@" = "OneNote ファイルへのショートカットを \"%@\" から削除することはできません。クリックして OneDrive に移動し、これを Web から削除します。";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionItemCantFitInQuota:%@" = "ファイルまたはフォルダー、およびそのコンテンツは、\"%@\" 内の残りの割り当てに収まりません";
+
+/* item means either folder or file */
+"SyncErrorShortDescriptionItemLimitExceeded:%@" = "\"%@\" 内のファイルが多すぎます。不要なファイルを削除してください。";
+
+/* The user choose to unsync files/folders but we are unable to delete it. item means either folder or file */
+"SyncErrorShortDescriptionUnmappedContentPresent:%@" = "この名前のファイルまたはフォルダーが \"%@\" の同じオンラインの場所に既に存在します。ファイルまたはフォルダーの名前を変更してください。";
+
+/* error description used when Office files have edit-edit conflicts and they cannot be merged */
+"SyncErrorShortDescriptionFileOnHold" = "Office ファイルの変更をマージすることができませんでした。解決するには、矢印のアイコンをクリックします。";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaCritical:%@,%@" = "%1$@ は %2$@ フルです";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaCritical:%@,%@" = "%1$@ には使用可能な領域が %2$@ しかありません。";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaExceeded:%@" = "%@ には空き領域がありません";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaExceeded" = "OneDrive フォルダーを同期するには、保存容量を増やすか、不要になったファイルを削除します。";
+
+/* error description used in issue window for business accounts */
+"CloudIssueShortDescriptionQuotaExceeded_Business" = "詳細について IT 部門にお問い合わせいただくか、またはファイルを削除して空き領域を増やしてください。";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleThrottling" = "現在、OneDrive はファイルを転送できません";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionThrottling" = "明日もう一度やり直してください。";
+
+// Status menu - used by StatusMenuController.mm
+
+/* No comments provided by engineer */
+"StatusMenuTitle" = "管理";
+
+/* The status menu item text that leads to more menu items */
+"StatusMoreMenu" = "その他";
+
+/* Text for status menu item that opens the folder containing deleted OneDrive files */
+"StatusMenuItemLaunchRecycleBin" = "OneDrive ごみ箱";
+
+/* Status menu item to allow the user to open the dialog for sharing file/folder */
+"StatusMenuItemShare" = "ファイルまたはフォルダーを共有...";
+
+/* Text for the status menu item which opens the OneDrive folder when clicked*/
+"StatusMenuItemOpenLocalFolder" = "OneDrive フォルダーを開く";
+
+/* Text for the status menu item which opens the named folder when clicked  */
+"StatusMenuItemOpenNamedFolder: %@" = "%@ フォルダーを開く";
+
+/* Status menu item that opens browser with Upgrade account page */
+"StatusMenuItemUpgrade" = "アップグレード";
+
+/* Text for the status menu item which opens a browser to OneDrive website for storage manage */
+"StatusMenuItemManageStorage" = "容量の管理";
+
+/* Status menu item that when clicked will launch a page with user's premium features */
+"StatusMenuItemManagePremium" = "プレミアム機能";
+
+/* Text for the status menu item which opens a browser to OneDrive website homepage */
+"StatusMenuItemLaunchWebsite" = "OneDrive.com に移動";
+
+/* The status menu item that allows user to open OneDrive help site. It will likely launch a browser to a website */
+"StatusMenuItemLaunchHelp" = "ヘルプ";
+
+/* The status menu item that allows user to open OneDrive feedback. It will likely launch a browser to a website */
+"StatusMenuItemFeedback" = "ご意見ご感想";
+
+/* The status menu item that allows a user to open the Parature support dialog. */
+"StatusMenuItemReportIssue" = "問題を報告する";
+
+/* Status shown on the status menu when everything is up to date */
+"StatusMenuItemUpToDate" = "OneDrive は最新です";
+
+/* Status shown on the status menu to indicate last updated time in seconds */
+"StatusMenuItemLastUpToDateTimeSecondsAgo" = "最終更新: 数秒前";
+
+/* Status shown on the status menu to indicate last updated time was one minute ago */
+"StatusMenuItemLastUpToDateTimeOneMinuteAgo" = "最終更新: 1 分前";
+
+/* Status shown on the status menu to indicate last updated time was minutes ago */
+"StatusMenuItemLastUpToDateTimeMinutesAgo:%d" = "最終更新: %d 分前";
+
+/* Status shown on the status menu to indicate last updated time was one hour ago */
+"StatusMenuItemLastUpToDateTimeOneHourAgo" = "最終更新: 1 時間前";
+
+/* Status shown on the status menu to indicate last updated time was hours ago */
+"StatusMenuItemLastUpToDateTimeHoursAgo:%d" = "最終更新: %d 時間前";
+
+/* Status shown on the status menu to indicate last updated time on a date */
+"StatusMenuItemLastUpToDateTimeDaysAgo:%@" = "最終更新: %@";
+
+/* No comments provided by engineer */
+"StatusMenuItemViewActivity" = "最近のアクティビティの表示";
+
+/* Status menu entry for opening the issue window */
+"StatusMenuItemViewIssues" = "同期の問題を表示するにはここをクリックします";
+
+/* Status shown on the status menu when downloading a file */
+"StatusMenuItemSyncCountSingularDownload: %@" = "%@ のダウンロード中";
+
+/* Status shown on the status menu when uploading a file */
+"StatusMenuItemSyncCountSingularUpload: %@" = "%@ のアップロード中";
+
+/* Status shown on the status menu when downloading or uploading more than one file */
+"StatusMenuItemSyncCount-%d" = "%d 項目を転送中...";
+
+/* Text for status menu item that opens the preference. It should be translated the same way as all app menu's Preferences item. */
+"StatusMenuItemPreferences" = "基本設定";
+
+/* Text for preference window accessibility label. %1$@ is the current tab name */
+"AccessibilityPreferencesWindowLabel:%@" = "環境設定 %1$@";
+
+/* Text for status menu item that pauses syncing. */
+"StatusMenuItemPause" = "同期の一時停止";
+
+/* Text for status menu item that resumes syncing when paused. */
+"StatusMenuItemResume" = "同期の再開";
+
+/* Text for status menu item that indicates to pause for 1 hour. */
+"StatusMenuItemPauseTimerSingular" = "1 時間";
+
+/* Text for status menu item that indicates to pause for a number of hours. %1$@ is a number representing hours. */
+"StatusMenuItemPauseTimerPlural" = "%1$@ 時間";
+
+/* Text for status menu item that quits the app */
+"StatusMenuItemQuit" = "OneDrive を終了";
+
+/* Loading user data when signing-in */
+"StatusMenuItemLoading" = "読み込み中...";
+
+/* OneDrive is at initial start up */
+"StatusMenuItemStarting" = "OneDrive を開始";
+
+/* OneDrive is showing first run wizard */
+"StatusMenuItemSetup" = "OneDrive を設定";
+
+/* Waiting for user input to migrate their Sandbox data */
+"StatusMenuItemMigration" = "ユーザー データを移行しています...";
+
+/* Text for status menu item that signs out the app */
+"StatusMenuItemSignOut" = "サインアウト";
+
+/* Launch the application automatically after login to OS */
+"StatusMenuItemOpenAtLogin" = "ログイン時に開く";
+
+/* Status menu item that when clicked will launch the live sit for the account that is connected */
+"StatusMenuItemViewOnline" = "オンラインで表示";
+
+// Quit Dialog
+
+/* Title text for dialog shown when user is quitting OneDrive */
+"QuitDialogHeader" = "OneDrive を終了しますか?";
+
+/* Body text for dialog shown when user is quitting OneDrive */
+"QuitDialogDescription" = "OneDrive を終了すると、OneDrive フォルダー内のファイルはオンラインで同期されなくなります。";
+
+/* Title text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogHeaderUploadsPending" = "OneDrive を終了し、ファイルのアップロードを停止しますか?";
+
+/* Body text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogDescriptionUploadsPending" = "OneDrive を終了すると、OneDrive フォルダー内のファイルは再起動するまでアップロードが完了しません。";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will quit OneDrive. */
+"QuitDialogButtonDefault" = "OneDrive を終了";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will dismiss dialog. */
+"QuitDialogCancelButton" = "キャンセル";
+
+// Dock Menu - used by DockMenuController.mm
+
+/* No comments provided by engineer */
+"DockMenuTitle" = "OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemOpenLocalFolder" = "OneDrive フォルダーを開く";
+
+/* No comments provided by engineer */
+"DockMenuItemLaunchWebsite" = "OneDrive.com に移動";
+
+// Login Failures - used by SignInViewController.mm
+
+/* When we are unable to retrieve a user's tenant name, we will use this to show "OneDrive - Business" */
+"DefaultTenantName" = "ビジネス";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"InvalidUsernameTitleText" = "OneDrive にサインインできません。";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the explaination text in the dialog {StrContains=\"example555@hotmail.com\"} */
+"InvalidUsernameDescriptionText" = "Microsoft アカウントは次の形式で入力してください: example555@hotmail.com";
+
+/* When we receive an invalid web request, we show this text as the first line of the dialog. */
+"InvalidWebRequestTitle" = "申し訳ございません、同期クライアントを開けませんでした";
+
+/* When we receive an invalid web request, we show this text as the body text of the dialog. */
+"InvalidWebRequestBody" = "URL を処理できませんでした。詳細については、サポートにお問い合わせください";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailTitle" = "サインインするときに問題が発生しました";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailText" = "サインインするときに問題が発生しました。もう一度やり直してください。Microsoft アカウントとパスワードが正しいこと、コンピューターがインターネットに接続していることを確認してください。";
+
+/* When we have connectivity error during sign in, we pop up a dialog and this is the first line of the text in the dialog*/
+"SignInConnectivityErrorTitleText" = "OneDrive に接続するときに問題が発生しました";
+
+/* When we have connecctivity error during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInConnectivityErrorDescriptionText" = "インターネット接続を確認し、もう一度やり直してください。";
+
+/* When we fail to access the keychain during sign in, we pop up a dialog and this is the first line of text in the dialog. */
+"SignInKeychainErrorTitleText" = "キーチェーンへアクセスするときに問題が発生しました";
+
+/* when we fail to access the keychain during sign in, we pop up a dialog and this is the detailed text in the dialog. */
+"SignInKeychainErrorDescriptionText" = "ログイン キーチェーンが存在し、OneDrive からアクセスできることを確認してください。確認メッセージが表示されたら、OneDrive からキーチェーンへのアクセスを許可してください。";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the first line of the text in the dialog */
+"SignInCredentialErrorTitleText" = "OneDrive に接続するときに問題が発生しました";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInCredentialErrorDescriptionText" = "インターネット接続を確認し、もう一度やり直してください。";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SuspendedAccountTitleText" = "OneDrive にサインインできません。";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the explaination text in the dialog */
+"SuspendedAccountDescriptionText" = "お使いのアカウントは停止されています。";
+
+/* When we get a user using a non-beta enabled account, we show this error title. */
+"SignInNoBetaText" = "OneDrive にサインインできません。";
+
+/* When we get a user using a non-beta enabled account, we show this error description. {StrContains=\"Windows Live\"} */
+"SignInNoBetaDescriptionText" = "このアカウントは Windows Live ベータ プログラム用に有効になっていません。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnknownErrorTitle" = "サインインするときに問題が発生しました";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnknownErrorText" = "数分後にもう一度やり直してください。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLError500Title" = "サインインするときに問題が発生しました";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLError500Text" = "OneDrive で問題が発生しました。数分後にもう一度やり直してください。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInterruptedErrorTitle" = "サインインするときに問題が発生しました";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInterruptedErrorText" = "お使いのアカウントに問題があります。この問題の解決方法を調べるには、サービスの Web サイトにサインインしてください。問題を解決してから、もう一度やり直してください。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnauthorizedErrorTitle" = "サインインするときに問題が発生しました";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnauthorizedErrorText" = "OneDrive で問題が発生しました。数分後にもう一度やり直してください。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidClientErrorTitle" = "サインインするときに問題が発生しました";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidClientErrorText" = "OneDrive で問題が発生しました。数分後にもう一度やり直してください。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidGrantErrorTitle" = "サインインするときに問題が発生しました";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidGrantErrorText" = "OneDrive で問題が発生しました。数分後にもう一度やり直してください。";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the title. */
+"SignInURLSPOUserNotFoundTitle" = "OneDrive がセットアップされていません";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the error text. */
+"SignInURLSPOUserNotFoundErrorText" = "詳細については、IT 部門にお問い合わせください。";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the title */
+"SignInURLUserThrottledErrorTitle" = "この Mac に OneDrive をセットアップできませんでした";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the error text. */
+"SignInURLUserThrottledErrorText" = "申し訳ありません。OneDrive に大量のトラフィックが発生しています。後でもう一度お試しください。";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the title. */
+"SignInURLEmailMismatchTitle" = "正常に同期するには、Web で使用したものと同じメール アドレスを使用してください";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the error text. */
+"SignInURLEmailMismatchErrorText:%@" = "このコンテンツの同期を開始するには、%@ を使用してサインインしてください。";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to try signing in again. */
+"SignInTryAgainButtonText" = "もう一度試す";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive*/
+"SignInQuitButtonText" = "OneDrive を終了";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive */
+"SignInCloseButtonText" = "閉じる";
+
+/* This text is displayed in sign in dialog while we load signing in page */
+"SignInPageLoadingText" = "読み込み中...";
+
+/* This text is used for voice over while we load signing in page */
+"SignInPageLoadingVoiceOverText" = "OneDrive が読み込まれるまでお待ちください。";
+
+/* This text is displayed in sign in dialog while we are signing in the user */
+"SignInProgressingText" = "サインインしています...";
+
+/* This text is used for voice over while we are signing in the user */
+"SignInProgressingVoiceOverText" = "OneDrive がサインインするまでお待ちください。";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the title. */
+"SignInDuplicateSyncErrorTitle" = "このアカウントは既に同期しています";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the text. */
+"SignInDuplicateSyncErrorText:%@" = "%@ フォルダーを開くか、別のアカウントでサインインしてください。";
+
+/* When the userconnected service returns an error, this is the title */
+"SignInUserConnectedErrorTitle" = "OneDrive に接続するときに問題が発生しました";
+
+/* When the userconnected service returns error: "AccessDenied". This is the error text. */
+"SignInUserConnectedAccessDeniedText" = "このサービスへのアクセス権がありません。詳細については、IT 部門にお問い合わせください";
+
+/* When the userconnected service returns error: "AccountSuspended". This is the error text. */
+"SignInUserConnectedAccountSuspendedText" = "お使いのアカウントがブロックされています。詳細については、IT 部門にお問い合わせください";
+
+/* When the userconnected service returns error: "InvalidUserData". This is the error text. */
+"SignInUserConnectedInvalidUserDataText" = "サービスへの接続を確立できませんでした。詳細については、IT 部門にお問い合わせください";
+
+/* When the userconnected service returns error: "MissingLicense". This is the error text. */
+"SignInUserConnectedMissingLicenseText" = "このサービスにアクセスするには別のライセンスが必要です。詳細については、IT 部門にお問い合わせください";
+
+/* When the userconnected service returns error: "ProvisioningFailed". This is the error text. */
+"SignInUserConnectedProvisioningFailedText" = "OneDrive が設定されていません。詳細については、IT 部門にお問い合わせください";
+
+/* When the userconnected service returns error: "Throttled". This is the error text. */
+"SignInUserConnectedThrottledText" = "現在、サービスで大量のリクエストが発生しています。数分してから、もう一度お試しください";
+
+/* When the userconnected service returns error: "Timeout". This is the error text. */
+"SignInUserConnectedTimeoutText" = "サービスは、応答に時間がかかっています。数分してから、もう一度お試しください";
+
+/* When the userconnected service returns error: "Unknown". This is the error text. */
+"SignInUserConnectedUnknownText" = "引き続き問題が発生する場合は、数分してからやり直すか、IT 部門にお問い合わせください";
+
+/* When the userconnected service returns error: "UnreachableHost". This is the error text. */
+"SignInUserConnectedUnreachableHostText" = "サービスが一時的に利用できません。数分してから、もう一度お試しください";
+
+/* When the userconnected service returns error: "UserNotFound". This is the error text. */
+"SignInUserConnectedUserNotFoundText" = "アカウントに問題があります。詳細については、IT 部門にお問い合わせください";
+
+/* When the userconnected service returns error: "NoTeamSitePermission". This is the error text. */
+"SignInUserConnectedNoTeamSitePermText" = "この SharePoint サイトへのアクセス許可がありません。詳細については、IT 部門にお問い合わせください";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error. This is the title. */
+"SignInUserAlreadyLoadedErrorTitle" = "別のアカウントを同期しています";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error.
+   Depending on whether we know which email the user is signed in with, either show the specific or the generic message below. This is the text. */
+"SignInUserAlreadyLoadedErrorEmailSpecificText:%@" = "サインインに使用したアカウントが、同期しているアカウントと一致しません。\"%@\" のパスワードを入力してください。別のアカウントを追加する場合は、[基本設定] に移動し、[アカウント] タブをクリックして [アカウントの追加] を選択します。";
+
+"SignInUserAlreadyLoadedErrorGenericText" = "サインインに使用したアカウントが、同期しているアカウントと一致しません。別のアカウントを追加する場合は、[基本設定] に移動し、[アカウント] タブをクリックして [アカウントの追加] を選択します。";
+
+/* When MSA user is already syncing with account A, and tries to sign in with account B when prompted for creds. Depending on whether the e-mail address is available or not, we show the specific or generic message below. This is the text */
+ "SignInUserAlreadyLoadedErrorMSAEmailSpecificText:%@" = "サインインに使用したアカウントは、同期しているアカウントと一致しません。\"%@\" のパスワードを入力してください。";
+
+ "SignInUserAlreadyLoadedErrorMSAGenericText" = "サインインに使用したアカウントは、同期しているアカウントと一致しません。";
+
+/* When an unknown error occurs that has not been handled. This is the title. */
+"SignInUnknownErrorTitle" = "サインインするときに問題が発生しました";
+
+/* When an unknown error occurs that has not been handled. This is the text. */
+"SignInUnknownErrorText" = "引き続き問題が発生する場合は、数分してからやり直すか、IT 部門にお問い合わせください";
+
+// Preferences - used by PreferenceController.mm
+
+/* This is the text on preference window toolbar for Preferences. */
+"PreferenceGeneralItem" = "基本設定";
+
+/* This is the text that encloses General area in preference window. */
+"PreferenceGeneralGroupBoxText" = "全般";
+
+/* This is the text on preference window check box. When user checks this option, it allows OneDrive to start when user login. */
+"PreferenceStartAtLoginCheckBoxText" = "ログイン時に開く";
+
+/* This is the description for enable OnPrem telemetry checkbox. */
+"PrivacyCheckBoxText" = "エラー レポートと使用状況に関する統計情報を Microsoft に送信する";
+
+/* This is the description when OneDrive is at the wrong location. "Applications" should be localized the same way as the OS. */
+"OpenAtLoginDisabledExplaination" = "この設定を有効にするには、OneDrive を終了し、OneDrive アプリケーションをアプリケーション フォルダーに移動して、もう一度 OneDrive を開きます。";
+
+/* This is the text on preference window check box. When user checks this option, OneDrive icon is removed from the Dock. Note "Dock" is capital D */
+"PreferenceHideDockIconText" = "Dock アイコンを隠す";
+
+/* This is the text for a preference window check box. When the user checks this option we will automatically save screenshots any time they take a screenshot. */
+"PreferenceEnableScreenCaptureUpload" = "スクリーンショットを OneDrive に保存";
+
+/* This will be displayed when a user running a store build attempts to enable the screen capture
+ * feature. Due to app store limitations, the user is forced to select their desktop folder. This
+ * message will be displayed within the file open dialog in order to help the user understand what
+ * selection they are required to make in the file open dialog. */
+"PreferenceEnableScreenCaptureUploadOpenDialogMessage" = "OneDrive にスクリーン ショットを自動的に保存するには、デスクトップ フォルダーを選択してください。";
+
+/* This is the text on preference window check box. When user checks this option, we will not show share/edit notifications */
+"PreferenceDisplayShareEditNotificationsCheckBoxText" = "共有および編集についての通知を表示する";
+
+/* This is the text on preference window toolbar for About. */
+"PreferenceAboutItem" = "バージョン情報";
+
+/* This is the text that encloses about area in preference window. */
+"PreferenceAboutGroupBoxText" = "Microsoft OneDrive のバージョン情報";
+
+/* This is the text that shows version. */
+"PreferenceVersionText:%@" = "バージョン %@";
+
+/* This is the text that shows version for standalone. */
+"PreferenceStandaloneVersionText:%@" = "バージョン %@ (スタンドアロン)";
+
+/* This is the text that encloses "more info" area in preference window. */
+"PreferenceMoreInfoGroupBoxText" = "詳細情報";
+
+/* This is the text that opens help in browser. */
+"PreferenceGetHelpText" = "OneDrive についてのヘルプを表示";
+
+/* This is the text that opens privacy statement in browser. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"PreferencePrivacyStatementText" = "プライバシーと Cookie";
+
+/* This is the text that opens server status in browser. */
+"PreferenceServerStatusText" = "サービスの状態";
+
+/* This is the text that opens Terms of Use in browser. */
+"PreferenceTermsOfUseText" = "使用条件";
+
+/* This is the text on the button in preference window that opens the manage storage page on browser */
+"PreferenceManageStorageButtonText" = "ストレージの管理";
+
+/* This is the text on the button that unlinks OneDrive in preference window. */
+"PreferenceUnlinkButtonText" = "この Mac のリンクを解除";
+
+/* This is the title text on the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertMessageTitle" = "この Mac 上のアカウントのリンクを解除しますか?";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for consumer accounts. */
+"PreferenceUnlinkAlertDetailedMessage" = "お使いの OneDrive ファイルは同期されなくなります。ファイルのコピーはこの Mac 上に残ります。";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for business accounts. */
+"PreferenceUnlinkAlertDetailedMessageBusiness:%@" = "アカウント (%@) に関連付けられたビジネス コンテンツの同期が停止されます。これらのファイルのコピーはこの Mac 上に残ります。";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for last library unsynced. %1$@ is a folder name, %2$@ is an email address */
+"PreferenceUnlinkLastLibraryAlertDetailedMessage:%@,%@" = "%1$@ は最後の同期フォルダーです。このフォルダーの同期を停止すると、アカウント %2$@ のリンクが解除されます。これらのファイルのコピーは、この Mac 上に残ります。";
+
+/* This is the text on the confirm button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertConfirmButton" = "アカウントのリンク解除";
+
+/* This is the text on the cancel button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertCancelButton" = "キャンセル";
+
+/* This is the text on the button that resets OneDrive in preference window. */
+"PreferenceResetButtonText" = "OneDrive のリセット";
+
+/* This is the text on preference window toolbar for account. */
+"PreferenceAccountItem" = "アカウント";
+
+/* This is the text that tells users how to sync down only selected folders in preference window. */
+"PreferenceSelectiveSyncDescription" = "選択したフォルダーは、この Mac 上で使用可能です。";
+
+/* This is the text that encloses "Choose folders" area in preference window. */
+"PreferenceFolderGroupBoxText" = "フォルダーの選択";
+
+/* This is the button that opens up advanced selective sync in preference window. */
+"PreferenceSelectFoldersButton" = "フォルダーの選択";
+
+/* This is the text on the the preference window toolbar for network. */
+"PreferenceNetworkItem" = "ネットワーク";
+
+/* This is the text on the Upload box. */
+"PreferenceUploadBox" = "アップロード速度";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceNoLimit" = "制限しない";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimit" = "自動的に調整";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimitByAdmin" = "自動的に調整 (管理者によって管理)";
+
+/* This is the text on the radio button that does limit bandwidth. */
+"PreferenceCustomLimit" = "制限:";
+
+/* This is the text on the Download box. */
+"PreferenceDownloadBox" = "ダウンロード速度";
+
+/* This is the text on the box to enable the Files On-Demand feature. */
+"PreferenceCloudFilesEnableBox" = "ファイル オンデマンド";
+
+/* This is the description for the Files On-Demand box. */
+"PreferenceCloudFilesDescription" = "ファイル オンデマンドは、ファイルを使用するときにダウンロードすることで、コンピューターの空き領域を増やします。";
+
+/* Button text in Files On-Demand box. Clicking this button turns on the feature. */
+"PreferenceCloudFilesEnable" = "ファイル オンデマンドを有効にする";
+
+/* Button text in Files On-Demand box. Clicking this button turns off the feature. */
+"PreferenceCloudFilesDisable" = "ファイル オンデマンドを無効にする";
+
+/* Link in the Files On-Demand box. Clicking this link will launch a webpage with more information. */
+/* Also resued in local mass delete delete confirmed ACM. */
+"PreferenceCloudFilesMoreInfo" = "詳細情報";
+
+/* This is the title text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertMessageTitle" = "ファイル オンデマンドを無効にしますか?";
+
+/* This is the body text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertDetailedMessage" = "すべての OneDrive ファイルとフォルダーが、この Mac にダウンロードされます。";
+
+/* This is the text on the confirm button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertConfirmButton" = "OK";
+
+/* This is the text on the cancel button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertCancelButton" = "キャンセル";
+
+/* This is the button text to display the Blocked Applications list. */
+"PreferenceBlockedAppButtonText" = "アプリの管理";
+
+/* This is the description for the Hydrating Applications pane. */
+"PreferenceHydratingAppDescription" = "Mac では、OneDrive のオンライン専用のファイルを要求するアプリのために、それらのファイルを OneDrive から自動的にダウンロードできます。";
+
+/* This is the description for the Blocked Applications box. */
+"PreferenceBlockedAppDescription" = "次のアプリケーションは、OneDrive からの自動ダウンロードがブロックされています:";
+
+/* This is the description for the checkbox that allows user to control whether they see a hydration notification toast. */
+"PreferenceNotifyHydratingAppCheckbox" = "OneDrive からアプリをダウンロードするときに通知します";
+
+/* This is the header of the table listing Blocked Applications */
+"PreferenceBlockedAppTableHeader" = "アプリケーション";
+
+/* Label for the button to close the Blocked Applications list */
+"PreferenceBlockedAppCloseButtonLabel" = "閉じる";
+
+/* Prompt for user to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationPrompt" = "自動的にファイルをダウンロードしないアプリケーションを選択します";
+
+/* Header for error when unable to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationErrorHeader" = "選択内容を追加できませんでした";
+
+/* Body for error when unable to add an application to the Blocked Applications list*/
+"PreferenceBlockedAppAddApplicationErrorBody" = "アプリケーションのみ、自動的に OneDrive ファイルをダウンロードしないようにすることができます。アプリケーションを選択して、もう一度お試しください。";
+
+// Preferences - Advanced Selective Sync Page
+
+/* This is the text on the top of advanced selective sync sheet. */
+"AdvancedSelectiveSyncTitle" = "OneDrive 内のファイルの同期";
+
+/* This is the text on the top of advanced selective sync sheet when Cloud Files on. */
+"AdvancedSelectiveSyncTitleCloudFiles" = "フォルダーの選択";
+
+/* This is the text under the title of advanced selective sync sheet. */
+"AdvancedSelectiveSyncDescription:%@" = "\"%@\" フォルダーにダウンロードするアイテムを選んでください。ダウンロードしたアイテムには、オフラインでもアクセスできるようになります。";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page. */
+"AdvancedSelectiveSyncDescriptionPreferences" = "同期するファイルはこの Mac 上の領域を使用します";
+
+/* This is the text in advanced selective sync sheet to sync everything. */
+"AdvancedSelectiveSyncAll" = "OneDrive 上のすべてのファイルとフォルダーを同期";
+
+/* This is the text in advanced selective sync sheet to sync everything under a team site. */
+"AdvancedSelectiveSyncAllTeamSite:%@" = "%@ のすべてのファイルとフォルダーを同期";
+
+/* This is the text in advanced selective sync sheet to sync only some files. */
+"AdvancedSelectiveSyncSome" = "または次のフォルダーのみを同期:";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page and Cloud Files enabled. */
+"AdvancedSelectiveSyncDescriptionCloudFiles" = "\"%@\" フォルダーで使用できるようにするファイルを選択します。これらのファイルはオンデマンドで使用できます。フォルダーの選択を解除すると、Finder では非表示になります。";
+
+/* This is the text in advanced selective sync sheet to sync everything when Cloud Files is enabled. */
+"AdvancedSelectiveSyncAllCloudFiles" = "すべてのファイルを使用できるようにする";
+
+/* This is the text in advanced selective sync sheet to sync only some files when Cloud Files is enabled. */
+"AdvancedSelectiveSyncSomeCloudFiles" = "または、これらのフォルダーが表示されるようにする:";
+
+/* This is the text on the file group item in the tree view. %@ is for folder names. ie "puppies", "Cute Kittens". */
+"AdvancedSelectiveSyncFileGroupItem:%@" = "\"%@\" のファイル";
+
+/* This is the text on the root's file group item in the tree view. */
+"AdvancedSelectiveSyncFileGroupItemRoot" = "フォルダーに格納されていないファイル";
+
+/* This is the text on the advanced selective sync sheet for the local path on Mac. */
+"AdvancedSelectiveSyncMacLocationText" = "Mac 上の場所:";
+
+/* This is the button text on the advanced selective sync sheet for start sync. */
+"AdvancedSelectiveSyncStartSyncButtonText" = "同期の開始";
+
+/* This is the button text on the advanced selective sync sheet for confirmation. */
+"AdvancedSelectiveSyncConfirmButtonText" = "OK";
+
+/* This is the button text on the advanced selective sync sheet for cancelling out. */
+"AdvancedSelectiveSyncCancelButtonText" = "キャンセル";
+
+/* This is the text at the middle of advanced selective sync sheet when loading. */
+"AdvancedSelectiveSyncLoading" = "読み込み中...";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoading:%@" = "%@ 内のフォルダーのリストを取得できませんでした。\nこのダイアログ ボックスを閉じて、もう一度やり直してください。";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders during FRE. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoadingFRE" = "フォルダーの一覧を表示するときに問題が発生しました。操作を続けると、この時点ではすべてのファイルとフォルダーが同期されますが、後でこの同期を [基本設定] で変更できます。";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to provision error. */
+"AdvancedSelectiveSyncFailedLoadingWithProvisionError" = "アカウントのセットアップが完了していないため、フォルダーの一覧を表示できませんでした。すべてのファイルとフォルダーが同期されますが、後でこの同期を [基本設定] で変更できます。";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to offline error*/
+"AdvancedSelectiveSyncFailedLoadingWithOfflineError" = "OneDrive に接続できなかったため、フォルダーの一覧を表示できませんでした。インターネット接続を確認し、もう一度やり直してください。";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to auth error. */
+"AdvancedSelectiveSyncFailedLoadingWithAuthError" = "アカウントに問題があるため、フォルダーの一覧を表示できませんでした。OneDrive を終了してから、もう一度サインインしてください。";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to having no files and folders. */
+"AdvancedSelectiveSyncFailedLoadingWithNoFileError" = "OneDrive が空です。後で OneDrive に追加したファイルを同期するには、[OneDrive 上のすべてのファイルとフォルダー] をクリックしてください。";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnote" = "ファイルまたはフォルダーは、同期を中止すると OneDrive 上には残りますが、この Mac には残りません。これらのファイルまたはフォルダーがこの Mac に既にある場合は、削除されます。";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnoteCloudFiles" = "お使いの Mac でこれらのフォルダーを非表示にすると、ファイルは OneDrive に残っていますが、この Mac 上にはなくなります。このフォルダー内のアイテムはこの Mac から削除されます。";
+    
+/* This is the title text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingTitle" = "申し訳ございません、変更の適用中に問題が発生しました";
+
+/* This is the description text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingDescription:%@" = "%@ と同期するよう選択したフォルダーのリストを保存できませんでした。もう一度やり直してください。";
+
+/* This is the button text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingConfirm" = "閉じる";
+
+/* This is the title text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingTitle" = "この Mac で同期するフォルダーを変更するときに問題が発生しました";
+
+/* This is the description text in the alert sheet after we fail to set selective sync because syncengine is busy*/
+"AdvancedSelectiveSyncBusySettingDescription" = "同期を中止しようとしたアイテムの一部はまだ OneDrive にありません。これらのアイテムのアップロードが完了してから同期の問題を解決し、その後でもう一度変更を行ってください。";
+
+/* This is the button text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingConfirm" = "閉じる";
+
+/* This is the text indicating the total size of all selected files and folders. The placeholder is the size and the unit.
+ Examples: Selected: 20 MB */
+"AdvancedSelectiveSyncFilesSelected:%@" = "選択済み: %@";
+
+/* This is the text indicating the remaining space on disk. The first item is the disk. The second item is the size and the unit.
+ Examples: Remaining space on Macintosh HD: 20 GB */
+"AdvancedSelectiveSyncAvailableSpace:%@,%@" = "%1$@ の残りの領域: %2$@";
+
+/* This is the description text for selectively syncing folders */
+"AdvancedSelectiveSyncSyncOnlyTheseFolderTitle" = "次のフォルダーのみを同期";
+
+/* This is the text shown when calculating the selected and remaining disk space */
+"AdvancedSelectiveSyncLoadingTitle" = "計算しています...";
+
+/* This is the text shown when content already syncing */
+"AdvancedSelectiveSyncAlreadySyncingWarning" = "このコンテンツは既に同期されています。";
+
+/* This is the text shown when the teamsite that will be synced is read-only. */
+"AdvancedSelectiveSyncReadOnlyWarning" = "このサイトは読み取り専用です。このサイトのファイルまたはフォルダーへの変更を行うことはできません。";
+
+/* This is the text for add an account button in the account tab of preference window */
+"AddAccountButtonText" = "アカウントの追加";
+
+/* This is the text for teamsite box in account tab of preference window (singular) */
+"PreferenceTeamSiteGroupBoxText" = "1 つの場所を同期しています";
+
+/* This is the text for teamsite box in account tab of preference window (plural) */
+"PreferenceTeamSiteGroupBoxText:%d" = "%d つの場所を同期しています";
+
+/* This is the text shown when not syncing ODB in account tab of preference window */
+"PreferenceNotSyncingQuotaText" = "同期していません";
+
+/* This is the text for start sync button for ODB in account tab of preference window */
+"PreferenceStartSyncButton" = "同期の開始";
+
+/* This is the text for stop sync button for each team site library in account tab of preference window */
+"PreferenceStopSyncButton" = "同期の停止";
+
+/* This is the title text in the dialog that stops syncing a teamsite in preference window. */
+"PreferenceStopSyncAlertMessageTitle:%@" = "%@ の同期を停止しますか?";
+
+/* This is the body text in the dialog that unlinks OneDrive in preference window. */
+"PreferenceStopSyncAlertDetailedMessage:%@" = "%@ の同期は停止されます。ファイルのコピーは Mac 上に残ります。";
+
+/* This is the text on the confirm button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertConfirmButton" = "同期を停止";
+
+/* This is the text on the cancel button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertCancelButton" = "キャンセル";
+
+/* This is the title of the notifications we show after a team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationTitle:%@" = "\"%1$@\" を同期しています";
+
+/* This is the body of the notification we show after a read-only team site has been succesfully connected (initial sync). */
+"TeamSiteNotificationReadOnlyBody" = "このサイトは読み取り専用です。ファイルを表示するにはここをクリックします。";
+
+/* This is the body of the notification we show after an editable team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationEditableBody:%@" = "\"%1$@!\" 内のファイルを編集できます。ファイルを表示するにはここをクリックします。";
+
+/* This is the title of the notification we show after a previously connected, editable team site has become read-only. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingReadOnlyTitle:%@" = "\"%1$@\" は現在読み取り専用です。";
+
+/* This is the body of the notification we show after a previously connected, editable team site has become read-only. */
+"TeamSiteNotificationAlreadySyncingReadOnlyBody" = "サイトのアクセス許可が変更されたため、フォルダーまたはファイルを編集できなくなりました。";
+
+/* This is the title of the notification we show after a previously connected, read-only team site has become editable. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingEditableTitle:%@" = "\"%1$@\" を変更できます";
+
+/* This is the body of the notification we show after a previously connected, read-only team site has become editable. */
+"TeamSiteNotificationAlreadySyncingEditableBody" = "すべての変更はサイトにアップロードされます。";
+
+/* This is the body of the notification we show after a team site has been succesfully connected. Permissions of the site are not indicated for this toast. %1$@ is a folder name. */
+"TeamSiteMountNotificationBody:%@" = "\"%1$@\" ファイルをこの Mac と同期しています。ファイルを表示するには、ここをクリックします。";
+
+/* This is the title of the notifications we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingHeader:%@" = "すでに \"%1$@\" を同期しています";
+
+/* This is the body of the notification we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingBody:%@" = "\"%1$@\" はこのデバイスで既に同期しています。ファイルを表示するにはここをクリックします。";
+
+/* Error dialog title for dialogs that stop the user from syncing On Prem because the front door URL is missing or ramp is off. */
+"CannotSyncOnPremTitle" = "申し訳ございません。このフォルダーを同期できませんでした";
+
+/* Body text for when we can't sync on Prem because its ramped off. */
+"OnPremSyncNotEnabledBody" = "SharePoint のオンプレミスのフォルダーの同期はサポートされていません。";
+
+/* Body text for when we can't sync On Prem because the front door URL is not configured. */
+"OnPremFrontDoorUrlNotSetBody" = "SharePoint のオンプレミスのフォルダーを同期するよう OneDrive を構成するには、IT 管理者にお問い合わせください。";
+
+/* Title text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfiguredTitle" = "OneDrive にログインできませんでした";
+
+/* Body text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfigured" = "資格情報に問題があります。チケット ビューアー アプリケーションを起動して、ID を追加するか、もう一度サインインしてみてください。詳細については、IT 部門にお問い合わせください。";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. */
+"NewHostMountConsentTitle" = "OneDrive に同期を許可しますか?";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. %1$@ is the mount point's domain and %2$@ is the user's username. */
+"NewHostMountConsentMessage:%@,%@" = "%2$@アカウントで新しい場所 (%1$@) から同期しようとしています。この場所を信頼する場合にのみ、ファイルを同期してください。";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, give consent */
+"NewHostMountConsentGiveConsentButton" = "許可";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, deny consent */
+"NewHostMountConsentDenyConsentButton" = "キャンセル";
+
+// Sync Engine errors - used by coreController.mm. These are built manually, so straight searching won't work.
+
+/* This is the title text shown on the popup dialog when we detect a new version of the client is available */
+"SyncEngineError:OldClientVersion Title" = "このバージョンの OneDrive は最新ではありません。";
+
+/* This is the text shown on the popup dialog when we detect a new version of the client is available*/
+"SyncEngineError:OldClientVersion Message" = "Mac App Store に移動して、最新版の Mac 向け OneDrive に更新してください。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:OldClientVersion DefaultButton" = "終了";
+
+/* No comments provided by engineer */
+"SyncEngineError:PUIDFlip Title" = "デバイスを特定する際に問題が生じました。";
+
+/* No comments provided by engineer*/
+"SyncEngineError:PUIDFlip Message" = "同期済みフォルダーのすべてのファイルをバックアップしてください。次に、http://g.live.com/0ELHP_MEREN/266 に移動して OneDrive フォーラムでこの問題を報告してください。フォーラムへの投稿にはこのエラー テキストを含めてください。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:PUIDFlip DefaultButton" = "終了";
+
+/* No comments provided by engineer */
+"SyncEngineError:DiskFull Title" = "ハード ディスクがほとんどいっぱいです。";
+
+/* No comments provided by engineer*/
+"SyncEngineError:DiskFull Message" = "使用可能な領域を増やして OneDrive の使用を続けてください。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:DiskFull DefaultButton" = "終了";
+
+/* This is shown when resign-in is required for MSA account*/
+"SyncEngineError:ForceSignIn Title" = "サインインしていません";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn Message" = "ファイルが最新ではない可能性があります。資格情報をもう一度入力して、同期を再開してください。";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn DefaultButton" = "OK";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Title" = "インターネット接続に問題がある可能性があります。";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Message" = "コンピューターがインターネットに接続されていることを確認して、もう一度やり直してください。";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure DefaultButton" = "OK";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Title" = "OneDrive で問題が発生しました。";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Message" = "OneDrive を再起動してください。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:TerminateCore DefaultButton" = "終了";
+
+/* No comments provided by engineer*/
+"SyncEngineError:ServerError Title" = "OneDrive サーバーで問題が発生しました。";
+
+/* No comments provided by engineer */
+"SyncEngineError:ServerError Message" = "数分後にやり直してください。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:ServerError DefaultButton" = "終了";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Title" = "申し訳ありません、アカウントに問題が発生しました。この問題を解決する方法については、OneDrive.com に移動し、サインインします。問題が解決した後、もう一度お試しください";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Message" = "カスタマー サポートにお問い合わせください。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:AccessDenied DefaultButton" = "終了";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Title" = "OneDrive で問題が発生しました。";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Message" = "OneDrive を終了し、コンピューターがインターネットに接続されていることを確認して、アプリケーションを再起動してください。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:Unknown DefaultButton" = "終了";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid %1$@ is a library name. */
+"SyncEngineError:RootScopeNotFound Title:%@" = "\"%1$@\" ライブラリが Web 上で再作成されました";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid*/
+"SyncEngineError:RootScopeNotFound Message" = "[OneDrive の再設定] をクリックして、この Mac 上のライブラリをもう一度設定してください。";
+
+/* Text for button in error dialog to reconfigure OneDrive*/
+"SyncEngineError:ButtonText ReconfigureButton" = "OneDrive の再設定";
+
+/* Message title in error dialog when a folder not found and drive is present. %1$@ is a folder name, %2$@ is its local path */
+"SyncError:MissingFolder Title:%@,%@" = "%2$@ に \"%1$@\" フォルダーは見つかりませんでした";
+
+/* Message in error dialog when the root folder is deleted. %@ is a folder name. */
+"SyncError:RootFolderDeleted Message:%@" = "[OneDrive の終了] をクリックするか、[OneDrive の設定] をクリックしてもう一度 \"%@\" フォルダーを設定してください。";
+
+/* Message in error dialog when folder is not found while re-mapping and drive is present */
+"SyncError:MissingFolder Message" = "この場所にこのフォルダーが存在するかどうかを確認して、[再試行] をクリックするか、[同期の停止] をクリックしてこのフォルダーの同期を停止してください。";
+
+/* Message in error dialog when mounted folder not found while re-mapping. %@ is an email address */
+"SyncError:MissingMountedFolder SetUpMessage:%@" = "この場所にこのフォルダーが存在するかどうかを確認して [再試行] をクリックするか、または [OneDrive の設定] をクリックしてもう一度 %@ アカウントを設定してください。";
+
+/* Message title in error dialog when there's a problem with the root folder */
+"SyncError:RootFolderError Title:%@" = "%@ フォルダーが見つかりません。";
+
+/* Message in error dialog when there's a problem with the root folder. %@ is a folder name. */
+"SyncError:RootFolderError Message:%@" = "[OneDrive の終了] をクリックするか、[OneDrive の設定] をクリックしてもう一度 \"%@\" フォルダーを設定してください。";
+
+/* Text for button in error dialog to restart application when there's a problem with the root folder */
+"SyncError:RootFolderError DefaultButton" = "OneDrive を再起動";
+
+/* Message title in error dialog when OD found but creation doesn't match the DB. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:FolderMismatch Title:%@,%@" = "%2$@ の \"%1$@\" フォルダーは、元の \"%1$@\" フォルダーではありません";
+
+/* Message in error dialog when OD found but creation doesn't match the DB. %@ is a folder name. */
+"SyncError:RootFolderMismatch Message:%@"= "元のフォルダーをこの場所に戻して [再試行] をクリックするか、[OneDrive の設定] をクリックしてもう一度 \"%@\" フォルダーを設定してください。";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB */
+"SyncError:MountedFolderMismatch Message" = "元のフォルダーをこの場所に戻して、[再試行] をクリックするか、[同期の停止] をクリックしてこのフォルダーの同期を停止してください。";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB. %@ is an email address */
+"SyncError:MountedFolderMismatch SetUpMessage:%@" = "元のフォルダーをこの場所に移動して [再試行] をクリックするか、または [OneDrive の設定] をクリックしてもう一度 %@ アカウントを設定してください。";
+
+/* Message in error dialog when library is deemed unreachable */
+"SyncError:UnreachableLibrary Title" = "ライブラリにアクセスできません";
+
+/* Message in error dialog when library is deemed unreachable {%@ is library name }*/
+"SyncError:UnreachableLibrary Message:%@" = "%@ は一時的に使用できません。ネットワーク接続を確認して数分後にもう一度試すか、IT 管理者にお問い合わせください。";
+
+/* Message title in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Title" = "パスが長すぎるため、このアイテムを同期できません";
+
+/* Message in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Message:%@" = "パスが長すぎるため、ファイルまたはフォルダーをダウンロードできません。OneDrive を終了し、Web ブラウザーで OneDrive for Business にアクセスして、次のパスの名前を短くしてください。\r\n\"%@\"\r\n\r\nOneDrive を Mac の別の場所と同期する場合は、[セットアップの実行] をクリックしてください。";
+
+/* Message in error dialog when the max file path limit is reached for a local file */
+"SyncError:LocalMaxPath Message:%@" = "パスが長すぎるため、ファイルまたはフォルダーをアップロードできません。OneDrive を終了して、次の項目の名前またはパスを短くしてください: \r\n\"%@\"\r\n\r\nOneDrive を Mac の別の場所と同期する場合は、[セットアップの実行] をクリックしてください。";
+
+/* Message used in several error dialogs. %@ is an email address */
+"Error:ExitOrSetUpMessage:%@" = "\"OneDrive の終了\" をクリックするか、\"OneDrive の設定\" をクリックしてもう一度 %@ アカウントを設定してください。";
+
+/* Text for button in error dialog to exit application when max path length is reached */
+"SyncError:MaxPathLength DefaultButton" = "OneDrive を終了";
+
+/* Text for button in error dialog to run FRE when max path length is reached */
+"SyncError:MaxPathLength AlternateButton" = "セットアップの実行";
+
+/* Message title in error dialog when the root folder volume is removed. %@ is a folder name.  */
+"SyncError:DriveVolumeRemovedNoVolume Title:%@" = "\"%@\" フォルダーが見つかりません";
+
+/* Message in error dialog when the root folder volume is removed. %@ is a folder name. */
+"SyncError:DriveVolumeRemovedNoVolume Message:%@" = "\"%@\" フォルダーの場所が見つかりませんでした。フォルダーを削除していないことをご確認ください。外部ドライブに OneDrive フォルダーがある場合は、ドライブが接続されていることをご確認ください。";
+
+/* Text for button in error dialog to restart application when the root folder volume is removed */
+"SyncError:DriveVolumeRemoved DefaultButton" = "OneDrive を再起動";
+
+/* Message title in error dialog when drive containing OD could not be found. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:MissingDrive Title:%@,%@" = "%2$@ の \"%1$@\" フォルダーにアクセスできません";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingNoneRemovableDrive Message:%@" = "[検索] で %1$@ ドライブが引き続き使用できることを確認し、[再試行] をクリックするか、[同期の停止] をクリックしてこのフォルダーの同期を停止してください。";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingNoneRemovableDrive SetUpMessage:%@,%@" = "[検索] で %1$@ ドライブが引き続き使用できることを確認し、[再試行] をクリックするか、[OneDrive を設定] をクリックして %2$@ アカウントをもう一度設定してください。";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingRemovableDrive Message:%@" = "%@ はリムーバブル ドライブです。このドライブが接続され検索で使用できることを確認して、[再試行] をクリックするか、[同期の停止] をクリックしてこのフォルダーの同期を停止してください。";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingRemovableDrive SetUpMessage:%@,%@" = "%1$@ はリムーバブル ドライブです。このドライブが接続され、検索で使用できることを確認して [再試行] をクリックするか、[OneDrive を設定] をクリックして %2$@ アカウントをもう一度設定してください。";
+
+/* Message title in error dialog indicating library cannot be synced, used in ClientNotAllowed, UnsupportedLibrary and DisableSync errors */
+"SyncError:LibraryCannotSync:%@" = "フォルダー %@ を同期できません";
+
+/* Message in error dialog when sync is disabled because domain is not "whitelisted" */
+"SyncError:ClientNotAllowed Message" = "IT 部門は、このフォルダーを同期するために、承認済みドメインに参加しているコンピューターをユーザーが使用することを必要としています。詳細については、IT 部門にお問い合わせください。";
+
+/* Message in error dialog when the library is unsupported */
+"SyncError:UnsupportedLibrary Message" = "IT 部門が行った変更により、このフォルダーを同期できなくなりました。詳しくは、IT 部門にお問い合わせください。";
+
+/* Message in error dialog when sync is disabled */
+"SyncError:DisableSync Message" = "組織によってこのフォルダーの同期が禁止されています。詳しくは、IT 部門にお問い合わせください。";
+
+/* Title in balloon tip for when the folder was removed remotely during mount. %@ is the name of the folder being mounted. */
+"SyncError:FolderRemovedRemotelyDuringMount Title:%@" = "\"%@\" はこの場所に存在しません";
+
+/* Message in balloon tip for when the folder was removed remotely during mount */
+"SyncError:FolderRemovedRemotelyDuringMount Message" = "このフォルダーは移動または削除された可能性があります。";
+
+/* Title in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them the folder has been deleted. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Title:%@" = "\"%@\" は削除されました";
+
+/* Message in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them a copy of the files will be left on the Mac. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Message:%@" = "\"%@\" の同期は停止されます。ファイルのコピーは Mac 上に残ります。";
+
+/* Title in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them they no longer have permissions to sync it. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Title:%@" = "\"%@\" を同期するためのアクセス権がありません";
+
+/* Message in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them the files have been removed from the Mac. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Message:%@" = "\"%@\" は Mac から削除されました。";
+
+/* Title to show if add folder failed. %@ is a folder name. */
+"AddMountedFolderError Title:%@" = "\"%@\" フォルダーを同期できません";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorTryAgain:%@" = "申し訳ございません、現在 \"%@\" フォルダーを追加できません。もう一度やり直してください。";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorContactSupport:%@" = "申し訳ございません。現在 \"%@\" フォルダーを追加できません。サポートにお問い合わせください。";
+
+/* Text for Try Again button, used in error dialogs. */
+"TryAgainButtonText" = "再試行";
+
+/* Text for Stop Sync button, used in error dialogs. */
+"StopSyncButtonText" = "同期の停止";
+
+/* Text for Set Up OneDrive button, used in error dialogs. */
+"SetUpDriveButtonText" = "OneDrive の設定";
+
+/* Text for Exit OneDrive button, used in error dialogs. */
+"ExitOneDriveButtonText" = "OneDrive の終了";
+
+// About box - used by coreController.mm
+
+/* Application name displayed in the about dialog */
+"AboutApplicationName" = "Microsoft® OneDrive";
+
+/* Copyright info for the updated about dialog */
+"CopyrightText" = "© 2018 Microsoft Corporation. All rights reserved.";
+
+/* Third Party Notices */
+"ThirdPartyNotices" = "サード パーティに関する通知";
+
+// Menu Items
+
+/* Text for menu item to open the online help website */
+"MainMenuOnlineHelpMenuItemText" = "OneDrive オンライン ヘルプ";
+
+/* Text for menu item to open the service agreement website */
+"MainMenuServiceAgreementMenuItemText" = "使用条件";
+
+/* Text for menu item to open the private agreement website. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"MainMenuPrivacyAgreementMenuItemText" = "プライバシーと Cookie";
+
+/* Text for menu item to open the server status website */
+"MainMenuServerStatusMenuItemText" = "サーバーの状態";
+
+// Manifest failures
+
+/* Main text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureTitle" = "OneDrive を起動できません";
+
+/* Informative text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureMessage" = "アプリケーション ファイルに問題があります。このコンピューターでアプリケーションをダウンロードして、もう一度やり直してください。";
+
+/* Quit button for the message box which explains the application is corrupt and must exit now */
+"ManifestValidationFailureQuitButton" = "OneDrive を終了";
+
+// Updater
+
+/* Message title in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableTitle" = "OneDrive を更新する必要があります。";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableMessage" = "OneDrive の使用を続けるには、更新プログラムをインストールする必要があります。";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreRequiredUpdateAvailableOpenInAppStoreButton" = "更新プログラムを入手";
+
+/* Text in button which quits the application */
+"AppStoreRequiredUpdateAvailableCloseButton" = "OneDrive を終了";
+
+/* Message title in dialog when there is an optional update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableTitle" = "OneDrive 用の更新プログラムがあります。";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableMessage" = "更新プログラムを入手しますか?";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreOptionalUpdateAvailableOpenInAppStoreButton" = "更新プログラムを入手";
+
+/* Text in button which quits the application */
+"AppStoreOptionalUpdateAvailableCloseButton" = "キャンセル";
+
+// Standalone migration
+
+/* Title for dialog shown to a user in a Mac App Store (MAS) migration downgrade scenario.
+ (When a user installs a lower version of Standalone on top of a higher version of Store) */
+"MASMigrationDowngradeScenarioTitle" = "OneDrive では設定を移動できません";
+
+/* Message for dialog shown to a user in a MAS migration downgrade scenario, informing them of their options */
+"MASMigrationDowngradeScenarioMessage" = "アプリが期限切れのため、設定を移動できません。最新バージョンをダウンロードしてインストールしてください。または、OneDrive をもう一度セットアップしてください。";
+
+/* Later button for dialog shown to a user in a MAS migration downgrade scenario. The button will exit the client so the user may launch it again to retry the update later */
+"MASMigrationDowngradeScenarioLaterButton" = "後で";
+
+/* Download button for dialog shown to a user in a MAS migration downgrade scenario. The button will trigger a download of the latest version of Standalone OneDrive */
+"MASMigrationDowngradeScenarioDownloadButton" = "ダウンロードしてインストール";
+
+/* Set Up OneDrive button for dialog shown to a user in a MAS migration downgrade scenario. The button will cause OneDrive to drop the user's Store settings and show FRE so the user can re-configure their OneDrive for Standalone */
+"MASMigrationDowngradeScenarioResetupOneDriveButton" = "OneDrive を設定する";
+
+// Sandbox migration
+
+/* Text in button to select and confirm where the OneDrive folder is */
+"SandboxMigrationConfirmButton" = "場所の確認";
+
+/* Text in button to quit the OneDrive application */
+"SandboxMigrationQuitButton" = "OneDrive を終了";
+
+/* Bold text summarizing that the user needs to confirm where the OneDrive folder is */
+"SandboxMigrationTitle" = "OneDrive フォルダーの場所を確認してください";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationText" = "OneDrive の使用を続ける前に、お使いの Mac で OneDrive フォルダーが現在置かれている場所を確認してください。";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationWindowTitle:%@" = "%@ フォルダーの場所を確認する";
+
+/* Text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderMessage" = "OneDrive フォルダーを確認してください。";
+
+/* Button text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderButton" = "確認";
+
+/* Title text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderTitle" = "現在の OneDrive フォルダーの使用をやめますか?";
+
+/* Descriptive text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderMessage" = "新しい場所を選ぶには、[OneDrive セットアップの実行] をクリックします。OneDrive の内容はすべて、新しい OneDrive フォルダーにダウンロードされます。現在の OneDrive フォルダーの使用を続けるには、[戻る] をクリックしてフォルダーを選びます。";
+
+/* Button text to pick a different folder */
+"SandboxMigrationConfirmDifferentFolderGoBackButton" = "戻る";
+
+/* Button text to continue on and reconfigure OneDrive */
+"SandboxMigrationConfirmDifferentFolderQuitButton" = "OneDrive セットアップの実行";
+
+/* Text for alerting invalid app bundle location */
+
+/* Title text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertTitle" = "OneDrive アプリケーションはアプリケーション フォルダーに置く必要があります。";
+
+/* Description text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertDescription" = "OneDrive を終了し、OneDrive アプリケーションをアプリケーション フォルダーに移動して、もう一度 OneDrive を開いてください。";
+
+/* Button text to exit in the invalid app location alert */
+"InvalidBundleLocationAlertButtonText" = "OneDrive を終了";
+
+
+/* ---------------------------- Support Window ------------------- */
+/* OK Button */
+"SupportWindowOkButton" = "OK";
+
+/* Cancel Button*/
+"SupportWindowCancelButton" = "キャンセル";
+
+/* Try Again Button */
+"SupportWindowTryAgainButton" = "再試行";
+
+/* Header string for Support Window */
+"SuportWindowReportProblem" = "問題の報告";
+
+/* Subheading of support window that gives instructions on what to type */
+"SuportWindowTicketSubheading" = "申し訳ございません。お使いの OneDrive で問題が発生しています。この問題の診断に役立てるために、問題発生時にどのような操作をしていたかなど、できるだけ多くの情報をお知らせください。";
+
+/* Header to the textbox in the support window */
+"SupportWindowDescription" = "説明:";
+
+/* String at the bottom of the support window - right below the text field where the user types */
+"SupportWindowContactWarning" = "[OK] をクリックすると、このフィードバックについて Microsoft から連絡を差し上げることに同意したものと見なされます。";
+
+/* Link to privacy statement - very bottom of support dialog. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"SupportWindowPrivacyStatement" = "プライバシーと Cookie";
+
+/* Text below the progress bar while the support text is being sent */
+"SupportWindowSending" = "送信しています...";
+
+/* Success message for when the support text was successfully sent */
+"SupportSuccessMessage:%@" = "OneDrive の問題についてお知らせいただき、ありがとうございました。メッセージの受領確認をお送りしましたので、メール (%@) をご確認ください。";
+
+/* Error message for when the report was no sucessfully sent. Contains a hyperlink designated by <a> and </a> */
+"SupportErrorMessage" = "メッセージを送信できませんでした。インターネット接続を確認してから、もう一度お試しください。この問題についてご報告いただける場合は、<a>サポートにご連絡ください</a>。";
+
+/* Text for email text field label shown in the support window */
+"SupportWindowEmailLabel" = "メール アドレス:";
+/* ----------------------------------------------------------------- */
+
+// App store related strings
+
+/* Apple app store description for OneDrive Mac client */
+"StoreDescription" = "OneDrive は日常で使うあらゆるものを 1 か所にまとめて置ける場所です。個人用のファイルすべてを無料のオンライン ストレージに保管して、Mac、iPhone、iPad、PC、Windows Phone、Android デバイスなど普段使っているあらゆるデバイスからアクセスできます。OneDrive for Business では、作業ファイル用のストレージを使用できるので、職場や学校の他のユーザーとファイルを共有して共同作業することができます。Mac 向け OneDrive アプリを使うと、OneDrive のファイルに Mac から簡単にアクセスできます。\r\n• Outlook.com から OneDrive に保存した添付ファイル、Office Online で作成したドキュメントやスプレッドシートなどの OneDrive のファイルに Finder から直接アクセスできます。\r\n• オフラインでも OneDrive のファイルを操作できます。変更内容は、次回オンラインになったときに自動的に同期されます。\r\n• OneDrive のフォルダーのうち Mac で同期するものを選ぶことができます。\r\n• 複数のファイルやフォルダーを OneDrive のフォルダーにドラッグして、一度に OneDrive に追加できます。ファイルを OneDrive に保存して、どこからでもアクセスできます。コンピューターに問題が発生したときのためのバックアップにもなります。\r\n• OneDrive のドキュメントやその他のファイルを、Word や Excel などのアプリで簡単に開き、編集や作成することができます。共有フォルダーを OneDrive.com の共有リストから OneDrive に追加し、それをコンピューター上で同期して、自分のフォルダーと並べて作業できます。";
+
+/* Pool of generic localized Strings to use for update description */
+"GenericUpdateDescription" = "同期の信頼性に関する不具合を修正しました。アプリケーションの信頼性を強化しました。同期パフォーマンスを向上しました。バッテリー使用量を削減しました。";
+
+"GenericStoreUpdate" = "OneDrive をご利用いただき、ありがとうございます。最新のパフォーマンスの改善とバグ修正を最大限に活用できるよう、常に OneDrive を更新しています。";
+
+"R16String" = "従量課金制ネットワークで帯域を使用していることを心配していますか? [OneDrive の一時停止] 機能が追加されました。[...] メニューに一時停止オプションが表示されます。";
+
+"R18String" = "OneDrive をご利用いただき、ありがとうございます。最新のパフォーマンス改善とバグ修正を適用するための通常の更新に加えて、ユーザーに段階的に展開される以下の新機能を利用できます。\nフォルダーが共有されたかどうかを示すために新しいオーバーレイが追加されました。\nスクリーンショットを OneDrive へリダイレクトできるようになりました。";
+
+"R19String" = "OneDrive をご利用いただき、ありがとうございます。最新のパフォーマンス向上とバグ修正をお届けする通常の更新プログラムに加え、次の新しい機能を段階的にお客様にロールアウトします。\nコンピューターと同期している Office ドキュメントを開くと、リアルタイムで共同作業できるように開きます。\nコンピューターと同期している Office ドキュメントを、Office アプリケーション内から共有できます。\nOneDrive クラウドを右クリックすると、アクティビティ センター内でコンテキスト メニューが開きます。\nバージョン番号が、そのウィンドウではなく、[環境設定] タブの [バージョン情報] タブに移動されました。";
+
+"R20String" = "OneDrive をご利用いただきありがとうございます。最新のパフォーマンス強化やバグ修正をお届けする通常の更新プログラムに加え、次の新しい機能を段階的にお客様に展開します。\n同期の一時停止中にバナーをタップすると、同期が再開します。";
+
+"R21String" = "OneDrive をご利用いただき、ありがとうございます。最新のパフォーマンス強化やバグ修正をお届けする通常の更新プログラムに加え、次の新しい機能を段階的にお客様に展開します。\nIRM 対応の SharePoint ドキュメント ライブラリとの同期機能を追加しました";
+
+"R22String" = "OneDrive をご利用いただき、ありがとうございます。最新のパフォーマンスの改善やバグ修正をお届けする通常の更新プログラムに加え、次のような新機能を段階的にお届けします。\nOneDrive アクティビティ センターが強化され、簡単に使用して理解できるようになりました。\nメニューの [問題を報告する] オプションを [フィードバックの送信] に変更しました。ご意見やご感想、および OneDrive に必要だと思われる推奨機能を送信することができます。ご意見をお待ちしております。";
+
+"R24String" = "OneDrive を使用していただきありがとうございます。最新のパフォーマンス改善やバグ修正をお届けする通常の更新プログラムに加え、次のような新機能を段階的にお客様に展開します:\nOneDrive は、macOS Mojave ダーク モードをサポートするようになりました。ダーク モードが有効になると、OneDrive のすべての UI が、新しくすばらしいダーク テーマに切り替わります。";
+
+"R26String" = "OneDrive をご利用いただき、ありがとうございます。最新のパフォーマンス改善とバグ修正をお届けするいつもの更新プログラムに加え、次の新しい機能を段階的にお客様に展開します。\n濃色テーマが共有ダイアログに追加されました。\nパフォーマンスの改善と CPU 使用率の低減につながる変更をいくつか加えました。引き続き問題が発生する場合はお知らせください。";
+
+"R32String" = "OneDrive をご利用いただき、ありがとうございます。最新のパフォーマンスの改善やバグ修正をお届けする通常の更新プログラムに加え、次のような新機能をユーザーに段階的にロールアウトしています:\n対象の画面でアクティビティ センターを表示できるよう、複数ディスプレイのセットアップがサポートされます。";
+
+/* Files On-Demand is the name of a feature that is already available on OneDrive on Windows already. */ 
+"R29String" = "この最新の更新プログラムでは、OneDrive ファイル オンデマンドを利用できるようになりました。OneDrive ファイル オンデマンドは、OneDrive 内のファイルをダウンロードすることなく、またデバイスのストレージ領域を使用することなく、すべてのファイルにアクセスすることができます。オンラインまたは別のデバイスで作成された新しいファイルは、オンライン専用ファイルとして表示されます。これは、デバイスの領域を使用しません。インターネットに接続すると、デバイス上のファイルと同じようにファイルを使用できます。\nファイル オンデマンドを使用するには、最新の macOS Mojave (10.14.2 以降) を実行している必要があります。ファイル オンデマンドは、OneDrive の環境設定メニューの [全般] タブで有効にできます。";
+
+// Finder sync extension commands
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will copy a shareable link to their keyboard */
+"MenuItemShareCommand" = "OneDrive リンクの共有";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will open a web browser and display the selected file in the web interface */
+"MenuItemViewOnlineCommand" = "オンラインで表示";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a selective sync window. */
+"MenuItemSelectiveSyncCommand" = "同期する OneDrive のフォルダーを選択";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a browser window that displays some detailed sharing options for the file. */
+"MenuItemSharingOptionsCommand" = "その他の OneDrive 共有オプション";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a hosted browser window that OneDrive controls. This browser window will load a web page from sharepoint and allow the user to modify sharing options from the file. This is different from just launching the user's default browser. */
+"MenuItemShareBrowserWindowCommand" = "共有";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch the preferences window for the account that the right clicked file belongs to. */
+"MenuItemPreferencesCommand" = "基本設定";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. */
+"MenuItemPinCommand" = "このデバイス上で常に保持する";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. */
+"MenuItemUnpinCommand" = "空き領域を増やす";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will lock the folder. %@ is a folder name. */
+"MenuItemLockCommand:%@" = "%@ のロック";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will unlock the folder. %@ is a folder name. */
+"MenuItemUnlockCommand:%@" = "%@ のロックを解除";
+
+// Finder Sync Extension Tooltips
+
+/* Tooltip for synced / up-to-date icon in Mac Finder */
+"IconOverlaySyncedLabel" = "同期済み";
+
+/* Tooltip for syncing icon in Mac Finder */
+"IconOverlaySyncingLabel" = "同期中...";
+
+/* Tooltip for error icon in Mac Finder */
+"IconOverlayErrorLabel" = "エラー";
+
+/* Tooltip for shared folder synced / up-to-date icon in Mac Finder */
+"IconOverlaySharedSyncedLabel" = "同期済み";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlaySharedSyncingLabel" = "同期中...";
+
+/* Tooltip for shared folder error icon in Mac Finder */
+"IconOverlaySharedErrorLabel" = "エラー";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlayReadOnlyLabel" = "最新、読み取り専用";
+
+/* Tooltip for unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedLabel" = "このデバイスで利用できます";
+
+/* Tooltip for pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedLabel" = "このデバイスで常に利用できます";
+
+/* Tooltip for unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedLabel" = "オンラインのときに利用できます";
+
+/* Tooltip for read-only, unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedReadOnlyLabel" = "このデバイスで利用できます。読み取り専用です";
+
+/* Tooltip for read-only, pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedReadOnlyLabel" = "このデバイスで常に利用できます。読み取り専用です";
+
+/* Tooltip for read-only, unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedReadOnlyLabel" = "オンラインのときに利用できます。読み取り専用です";
+
+/* Action center (Toast) notification header for the Icon Overlay feature */
+"IconOverlayToastTitle" = "新しい同期状態アイコンをご覧ください";
+
+/* Action center (Toast) notification body for the Icon Overlay feature */
+"IconOverlayToastBody" = "検索内に同期状態が表示されるよう OneDrive を設定する場合に、クリックしてください。";
+
+/* Preferences Dialog string for enabling icon overlays*/
+"IconOverlayPreferencesLink" = "検索内に同期状態が表示されるよう OneDrive を設定します";
+
+// App moniker related strings
+
+/* Text of basic Moniker*/
+"BasicMoniker:%@" = "OneDrive - %@";
+
+/* Text of Moniker with user's first name. %0@ is user's firstname, %1@ is string like 'OneDrive - Personal' */
+"MonikerWithFirstName:%@,%@" = "%0@' の %1@";
+
+/* Text of Moniker with user's email. %0@ is string like 'OneDrive - Personal', %1@ is email address */
+"MonikerWithEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text of Moniker with user's first name and email. %0@ is MonikerWithFirstName like Someone's OneDrive - Personal, %1@ is email address */
+"MonikerWithFirstNameAndEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text used in BasicMoniker for personal client */
+"PersonalDisplayMoniker" = "個人用";
+
+// Notifications
+
+/* Balloon tip primary text to notify users that the shared folders sync feature is available */
+"SharedFoldersEnabledBaloonTipHeader" = "新規 – 共有フォルダーを同期できます!";
+
+/* Balloon tip secondary text describing how to start using the shared folder sync feature */
+"SharedFoldersEnabledBaloonTipBody" = "クリックすると、OneDrive.com 上で共有されているフォルダーが表示されます。次に、編集できる任意のフォルダーを選択して、[自分の OneDrive に追加] をクリックします。";
+
+/* Message shown when users try to run different flavors of OneDrive app side by side */
+"DifferentTypesOfAppSideBySide" = "お使いのコンピューター上に 2 つの OneDrive のコピーがあります。一度に 1 つだけ実行できます。コピーのいずれかをアンインストールすることをお勧めします。開いているコピーを表示するには、メニュー バーの [OneDrive] アイコンをクリックして、[環境設定]、[バージョン情報] を選びます。";
+
+/* Title for a notification shown when the user copies a link to a file to their pasteboard */
+"CopyFileLinkToPasteboardTitle" = "リンクを貼り付けることができます";
+
+/* Body for a notification shown when the user copies a link toa a file to their pasteboard */
+"CopyFileLinkToPasteboardBody" = "リンクは、クリップボードに保存されました。それを共有するには、メッセージに貼り付けることまたは、投稿します。ファイルを編集するリンクを使用してすべてのユーザーができます。";
+
+/* Title for a notification shown when a screen capture is saved */
+"ScreenshotSavedTitle" = "スクリーンショットを保存しました";
+
+/* Body for a notification shown when a screen capture is saved. Screenshots should be localized and capitolized. */
+"ScreenshotSavedBody" = "ここをクリックしてスクリーンショット フォルダーを開きます";
+
+/* Title for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorTitle" = "OneDrive にスクリーンショットを保存できません";
+
+/* Body for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorBody" = "スクリーンショットを保存するには、職場または学校のファイルを OneDrive と同期します。[アカウント] タブを選択し、[同期の開始] をクリックします";
+
+// Campaign Manager toast notifications
+
+/* Title for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastTitle" = "ログイン時に開くを有効にする";
+
+/* Body for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastBody" = "ファイルを常に同期した状態にします。";
+
+/* Title for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastTitle" = "Finder で同期の状態を表示する";
+
+/* Body for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastBody" = "Finder 統合を有効にします。";
+
+/* Title for Placeholders Finder Sync Extension Campaign toast */
+"PlaceholdersFinderSyncCampaignToastTitle" = "ファイル オンデマンドで空き領域を増やす";
+
+/* Body for Placeholders Finder Sync Extension Campaign toast*/
+"PlaceholdersFinderSyncCampaignToastBody" = "ここをクリックして、OneDrive Finder 拡張機能を有効にして、セットアップを完了します。";
+
+/* Title for Rate Application Campaign toast */
+"RatingsCampaignToastTitle" = "ご意見やご感想をお聞かせください";
+
+/* Body for Rate Application Campaign toast */
+"RatingsCampaignToastBody" = "OneDrive アプリケーションを評価し、フィードバックを送信してください。";
+
+// Rate Our Application Window
+
+/* Windows title for rate our application window.
+ There's probably no need to localize this string. */
+"RateApplicationWindowTitle" = "Microsoft OneDrive";
+
+/* Title for Rate Us WindowText on two lines, please keep the \n in translation as a line terminator after "Thank you" */
+"RateApplicationBodyTitle" = "OneDrive をご利用いただき\nありがとうございます。";
+
+/* Text for Rate us button */
+"RateApplicationWindowRateButton" = "気に入っていただけましたか? 詳しくお聞かせください。";
+
+/* Text for Tell us how to improve button */
+"RateApplicationWindowSupportbutton" = "改善点についてお聞かせください";
+
+/* Text for Rate Us button - more engaging */
+"RateApplicationWindowRateButtonEngage" = "5 つ星で評価してください!";
+
+/*Text for Rate Us button - with question */
+"RateApplicationWindowRateButtonQuestion" = "ご満足いただけましたか? 5 つ星で評価してください";
+
+/* ---------------------------- Activity Center ------------------- */
+
+/* Text shown in title bar of Activity Center when we're up to date */
+"ActivityCenterHeaderUpToDate" = "OneDrive は最新です";
+
+/* Text shown in title bar of Activity Center when files are syncing */
+"ActivityCenterHeaderUpdatingFiles" = "OneDrive はファイルを更新しています...";
+
+/* Text shown in title bar of Activity Center when there are sync problems */
+"ActivityCenterHeaderNeedsAttention" = "OneDrive をご確認ください";
+
+/* Text shown in title bar of Activity Center when we're paused */
+"ActivityCenterHeaderPaused" = "OneDrive は一時停止しています";
+
+/* Text shown in title bar of Activity Center when we're offline */
+"ActivityCenterHeaderOffline" = "OneDrive はオフラインです";
+
+/* Text shown in title bar of Activity Center when we aren't signed in */
+"ActivityCenterHeaderNotConnected" = "OneDrive が接続されていません";
+
+/* Text shown in the header of Activity Center when OneDrive is being reset */
+"ActivityCenterHeaderResetting" = "OneDrive をリセットしています...";
+
+/* Primary text shown in the error bar of Activity Center, placeholder is number of items */
+"ActivityCenterFileErrorsItemPrimary" = "%@ 個のアイテムを同期できません";
+
+/* Primary text shown in the error bar of Activity Center, singular item version  */
+"ActivityCenterFileErrorsItemPrimarySingle" = "1 個のアイテムを同期できません";
+
+/* Secondary text shown in the error bar of Activity Center */
+"ActivityCenterFileErrorsItemSecondary" = "クリックして詳細を表示";
+
+/* Up-to-date primary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemPrimary" = "すべて完了しました";
+
+/* Up-to-date secondary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemSelectiveSync" = "すべてのファイルが同期しています";
+
+/* Up-to-date primary text shown on Activity Center while paused */
+"ActivityCenterPausedPrimary" = "ファイルは現在同期していません";
+
+/* Up-to-date secondary text shown on Activity Center while paused */
+"ActivityCenterPausedSecondary" = "ここをクリックすると、同期が再開し、ファイルを常に最新の状態に保ちます。";
+
+/* Text showing progress on one item when it's downloading or uploading. Placeholders are numbers and units for file progress. E.g. Uploading - 10 MB of 1 GB" */
+"ActivityCenterItemProgress" = "· %1$@ %2$@/%3$@ %4$@";
+
+/* Text showing progress on one item when it's downloading or uploading with differential sync. Placeholder %1$@ is a number, %2$@ is a unit, %3$@ is a number, %4$@ is a unit, %5$@ is a number, %6$@ is a unit E.g. Uploading - 10 MB of 1 GB (100 KB)" */
+"ActivityCenterItemProgressDiffSyncUX" = "· %1$@ %2$@/%3$@ %4$@ (%5$@ %6$@)";
+
+/* Text shown on one item when it's uploading. */
+"ActivityCenterItemUploading" = "アップロード中";
+
+/* Text shown on one item when it's reviewing the file before syncing. This is specific to differential sync */
+"ActivityCenterItemReviewingChanges" = "同期の準備中です";
+
+ /* Text shown on one item when it's downloading. */
+"ActivityCenterItemDownloading" = "ダウンロード中";
+
+/* Status shown on an item that's finished transfering. */
+"ActivityCenterItemUpdated" = "OneDrive で更新";
+
+/* Status shown on an item that's been removed. */
+"ActivityCenterItemRemoved" = "OneDrive から削除";
+
+/* Status shown on an item that's finished uploading. Placeholder %% is a folder name. */
+"ActivityCenterItemUploaded" = "%% にアップロード";
+
+/* Status shown on an item that's finished downloading. Placeholder %% is a folder name. */
+"ActivityCenterItemDownloaded" = "%% にダウンロード";
+
+/* Status shown on an item that's finished moving. Placeholder %% is a folder name. */
+"ActivityCenterItemMoved" = "%% に移動";
+
+/* Status shown on an item that was renamed. Placeholder %% is a folder name. */
+"ActivityCenterItemRenamed" = "%% で名前の変更";
+
+/* Status shown on an item that represents a placeholder file. Placeholder %% is a folder name. */
+"ActivityCenterItemPlaceholder" = "%% にあります";
+
+/* Timestamp on an item. Placeholders are for time difference and units E.g. 5 minutes ago */
+"ActivityCenterItemTime" = "%1$@ %2$@ 前";
+
+/* Timestamp on an item plus application. Placeholders %1$@ %2$@ are for time difference and units. %3$@ is an application name E.g. 5 minutes ago · Microsoft Word */
+"ActivityCenterItemTimeWithAppName" = "%1$@ %2$@前 · %3$@";
+
+/* Timestamp on an item plus application. Placeholder %1$@ is for a date. %2$@ is an application name E.g. 8/24/2018 · Microsoft Word */
+"ActivityCenterItemDateWithAppName" = "%1$@ · %2$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncing" = "%1$@ 個のファイルを同期中 · %2$@ %3$@/%4$@ %5$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncingSingle" = "1 個のファイルを同期中 · %1$@ %2$@/%3$@ %4$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing changes */
+"ActivityCenterSummaryProcessingChanges" = "変更の処理中";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing a single change */
+"ActivityCenterSummaryProcessingChangesCountSingle" = "変更を処理しています";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing multiple changes. The placeholder %1$@ indicates the number of changes */
+"ActivityCenterSummaryProcessingChangesCount" = "%1$@ 件の変更を処理しています";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're looking for file system changes */
+"ActivityCenterSummaryLooking" = "変更内容を探しています";
+
+/* Text read aloud when list of recent files is selected */
+"ActivityCenterHistoryListAccessibleText" = "最近使ったファイル";
+
+/* time units used in activity center on timestamps. E.g. 1 second ago */
+"ActivityCenterSecondSingle" = "秒";
+
+/* time units used in activity center on timestamps. E.g. N seconds ago */
+"ActivityCenterSecondsMultiple" = "秒";
+
+/* time units used in activity center on timestamps. E.g. 1 minute ago */
+"ActivityCenterMinuteSingle" = "分";
+
+/* time units used in activity center on timestamps. E.g. N minutes ago */
+"ActivityCenterMinutesMultiple" = "分";
+
+/* time units used in activity center on timestamps. E.g. 1 hour ago */
+"ActivityCenterHourSingle" = "時間";
+
+/* time units used in activity center on timestamps. E.g. N hours ago */
+"ActivityCenterHoursMultiple" = "時間";
+
+/* Text shown on a button in the Activity Center that takes the user to the Upgrade storage page on OneDrive */
+"ActivityCenterQuotaButtonGetMoreStorage" = "容量を追加する";
+
+/* Text shown on a link in the Activity Center that takes the user to the Free up space page on OneDrive */
+"ActivityCenterQuotaButtonFreeUpSpace" = "空き領域を増やす";
+
+/* Primary text shown in the Activity Center when the user's quota is nearing maximum or in a critical state. The placeholders are the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso") and the percentage of space occupied, e.g Your OneDrive is 98% full */
+"ActivityCenterQuotaCriticalTitle, %@ %@" = "%1$@ は %2$@%% いっぱいです";
+
+/* Secondart text shown in the Activity Center when the user is approaching critical quota. The placeholders are size and units remaining. E.g. You have only 10 MB of available space */
+"ActivityCenterQuotaLeftText, %@ %@" = "%1$@ %2$@ の空き領域しかありません";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive. */
+"ActivityCenterQuotaReachedBody" = "新しいファイルの同期を続けるには、追加の容量を取得してください。";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for Office 365 users. */
+"ActivityCenterQuotaReachedBody1TB" = "空き領域を増やすには、不要になったファイルを削除します。";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for business users. */
+"ActivityCenterQuotaReachedBodyBusiness" = "詳細について IT 部門にお問い合わせいただくか、またはファイルを削除して空き領域を増やしてください。";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitleBusiness, %@" = "%1$@ には空き領域がありません";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitle, %@" = "%1$@ はいっぱいです";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown for 1 week before switching to the normal banner text. */
+"ActivityCenterQuotaUpsellBannerIntroTitle" = "プレミアム機能の概要";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalTitle" = "プレミアムに移行";
+
+/* Secondary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalBody" = "1 TB (1,000 GB) のストレージとすべてが新しい Office 2016 アプリケーションを入手しましょう。";
+
+/* Part of the secondary text shown in the Activity Center for users without an O365 subscription. This appears in the banner for both upsell states of the banner. */
+"ActivityCenterQuotaUpsellBannerLearnMore" = "詳細情報";
+
+/* The Accessibility text hint for the ACM dismiss button. */
+"ActivityCenterMessageDismissHint" = "閉じる";
+
+/* Primary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInTitle" = "今すぐ OneDrive にサインインして使い始める";
+
+/* Secondary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInBody" = "OneDrive にサインインし、ファイルにアクセスしてこのデバイスで同期しましょう。";
+
+/* Button text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInButton" = "サインイン";
+
+/* Text shown in the Activity Center while we are signing the user in. */
+"ActivityCenterSigningIn" = "サインインしています";
+
+/* Text shown in the Activity Center while we are signing the user out. */
+"ActivityCenterSigningOut" = "サインアウトしています";
+
+/* Clicking this button will open (action) the OneDrive folder in File Explorer */
+"ActivityCenterFooterButtonOpenFolder" = "フォルダーを開く";
+
+/* Clicking this button will open (action) a web portal where the user can upgrade their account */
+"ActivityCenterFooterButtonGoPremium" = "プレミアムに移行";
+
+/* Clicking this button opens the user's (action) OneDrive folder online. ("View" here is an action) */
+"ActivityCenterFooterButtonViewOnline" = "オンラインで表示";
+
+/* Clicking this button opens (action) a context menu which contains extra actions like pause, settings and quit */
+"ActivityCenterFooterButtonMore" = "その他";
+
+/* Accessibility text for button that will cancel a download */
+"ActivityCenterCancelButtonAccessibleName" = "ダウンロードをキャンセル";
+
+/* The name "OneDrive" */
+"OneDriveBrandName" = "OneDrive";
+
+/* Primary text shown in the alert of restart after crash */
+"RestartAfterCrashAlertTitle" = "OneDrive に問題が発生しました";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is enabled */
+"RestartAfterCrashAlertBodyReportAProblemEnabled" = "申し訳ございません、OneDrive で問題が発生しました。この問題を報告してサポートを受けるか、または OneDrive をリセットしてみてください。OneDrive をリセットすると、OneDrive アプリケーションを再設定する必要があります。";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is disabled */
+"RestartAfterCrashAlertBodyReportAProblemDisabled" = "申し訳ございません、OneDrive で問題が発生しました。この問題を報告してサポートを受けるか、または OneDrive をリセットしてみてください。OneDrive をリセットすると、OneDrive アプリケーションを再設定する必要があります。";
+
+/* Text for report a problem button shown in the alert of restart after crash */
+"RestartAfterCrashAlertReportAProblemButtonText" = "問題の報告";
+
+/* Text for reset onedrive button shown in the alert of restart after crash */
+"RestartAfterCrashAlertResetOneDriveButtonText" = "OneDrive のリセット";
+
+/* Text for cancel button shown in the alert of restart after crash */
+"RestartAfterCrashAlertCancelButtonText" = "キャンセル";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared */
+"ShareWebWindowTitle, %@" = "%@ の共有";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared - this one has quotes around the item name */
+"ShareWebWindowTitleWithQuotes:%@" = "\"%@\" の共有";
+
+/* Error primary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorTitleGeneric" = "問題が発生しました";
+
+/* Error secondary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorSecondaryTextGeneric" = "このアイテムは現在共有できません。後でもう一度お試しください。";
+
+/* Error primary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorTitleOffline" = "インターネットに接続";
+
+/* Error secondary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorSecondaryTextOffline" = "インターネットに接続されていないようです。オンラインの状態でもう一度共有してみてください。";
+
+/* Text on error button in the Sharing Web Browser window */
+"ShareWebErrorButtonText" = "再試行";
+
+/* Text shown on the Loading view of the Sharing Web Browser window */
+"ShareWebLoading" = "読み込み中";
+
+/* Text read by the Voice Over utility (accessibility) for the Loading spinner on the Sharing Web Browser Window. The placeholder is the name of the file / folder being shared. */
+"ShareWebLoadingNarrator:%@" = "%@ の共有の準備をする";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog title */
+"FoundSameNamesUnderFolderErrorTitle" = "ファイルを同期できません";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog body. The placeholder is the full path of the file. Please keep "\n" intact. */
+"FoundSameNamesUnderFolderErrorBody:%@" = "同じ場所に、同じ名前または大文字小文字が異なる別のファイルが存在します。\n%@\nファイルの名前を変更するか、またはファイルを移動して、OneDrive アプリをもう一度開いてください。";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog OK button */
+"FoundSameNamesUnderFolderErrorButton" = "OK";
+
+/* Primary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedPrimary" = "アップロードを一時停止しました";
+
+/* Secondary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedSecondary" = "オンライン ファイルはお近くのサーバーに移動されました。変更内容は移動が完了するとすぐに同期されます。";
+
+/* Primary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedPrimary" = "ファイルの同期が再開しました";
+
+/* Secondary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedSecondary" = "オンライン ファイルを新しい場所のサーバーに移動しました。";
+
+/* Primary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantPrimaryText" = "OneDrive を同期できません";
+
+/* Secondary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantSecondaryText" = "IT 部門により、この場所からコンピューターへのファイルの同期が許可されていません";
+
+/* Text for SyncError MinorVersionLimitExceeded error dialog body */
+"SyncErrorShortDescriptionMinorVersionExceededItem" = "このファイルを保存できるマイナー バージョンの最大数に達しました。次のようにしてファイルを SharePoint サイト上に発行します。ファイルを右クリックし、[その他] > [発行] を選択します。これでマイナー バージョンをもう一度保存できるようになります。";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast */
+"FolderRecreatedOnFailedDelete Title" = "フォルダーは削除できません。";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast where %@ is a folder name */
+"FolderRecreatedOnFailedDelete Message:%@" = "\"%@\" とコンピューターとの同期を停止するには、ここをクリックして [設定] に移動し、このフォルダーの選択を解除します。";
+
+/* Accessibility text for menu item dropdown button */
+"MenuButtonAccessibleName" = "その他のオプション";
+
+/* Text for per item menu dropdown Open option */
+"MenuItemOpen" = "開く";
+
+/* Text for per item menu dropdown Share option */
+"MenuItemShare" = "共有";
+
+/* Text for per item menu dropdown View online option */
+"MenuItemViewOnline" = "オンラインで表示";
+
+/* Title of Setting dialog tab that provides options for Office file syncing. */
+"OfficeText" = "Office";
+
+/* Title text of groupbox on the Office settings tab that provides settings for syncing and file collaboration. */
+"OfficeFileCollabGroupBox" = "ファイルの共同作業";
+
+/* Explanation text in the File collaboration groupbox that explains syncing files with Office. */
+"OfficeFileCollabTextField" = "ファイルを Office と同期して、Office のファイルを他のユーザーと同時に作業します。";
+
+/* Checkbox text for syncing files with Office 2016. {Locked=!cs, sk;\"Office\"} */
+"OfficeFileCollabCheckBox" = "Office アプリケーションを使用して、開いている Office ファイルを同期する";
+
+/* Group box title for the Sync conflicts group box - provides options for how to deal with Office file sync conflicts. */
+"OfficeConflictGroupBox" = "同期の競合";
+
+/* Radio button for the option to merge files using Office. */
+"OfficeConflictRadioButtonMerge" = "変更をマージするか両方のコピーを維持するかを選択する";
+
+/* Radio button for option to always keep both copies of a file when the file is in an Office conflict. */
+"OfficeConflictRadioButtonFork" = "常に両方のコピーを保持 (このコンピューターのコピーの名前を変更)";
+
+/* Message to notify that an item cannot be deleted and it will be recreated at original location. */
+/* Title Text for SyncError DeleteCancelledByEventReceiver toast */
+"ItemCannotBeDeleted Title" = "アイテムは削除できません。";
+
+/* Body Text for SyncError DeleteCancelledByEventReceiver toast where %@ is an item name */
+"ItemCannotBeDeleted Message:%@" = "\"%@\" とコンピューターとの同期を停止するには、ここをクリックして [設定] に移動し、このアイテムの選択を解除します。";
+
+/* Message to notify that an item cannot be moved from its original location, item moved
+    will be recreated at source and the moved copy will be uploaded from destination. */
+/* Title Text for SyncError UploadFailedOnCannotMoveThickets toast */
+"ItemCannotBeMoved Title" = "アイテムの 1 つを移動できません。";
+
+/* Body Text for SyncError MoveCancelledByEventReceiver toast where %@ is a item name which cannot be moved. */
+/* Body Text for SyncError MoveFailedOnCannotMoveThickets toast where %@ is a thicket folder name which cannot be moved. */
+"ItemCannotBeMoved Message:%@" = "代わりに、\"%@\" を新しい場所にコピーし、両方のアイテムのコピーをアップロードしました。";
+
+/* Message to notify that an item cannot be added or changed due to server response of cancelled by event receiver. */
+/* Title Text for SyncError AddOrChangeCancelledByEventReceiver toast */
+"ItemAddOrChangeCancelledByEventReceiver Title" = "アイテムをアップロードできません。";
+
+/* Body Text for SyncError AddOrChangeCancelledByEventReceiver toast where %@ is an item name */
+"ItemAddOrChangeCancelledByEventReceiver Message:%@" = "\"%@\" とコンピューターとの同期を停止するには、ここをクリックして [設定] に移動し、このアイテムの選択を解除します。";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryClientError" = "IT 部門により、Mac を承認済みドメインに参加させるよう要求されています。Mac をドメインに参加させる方法については、IT 部門にお問い合わせください。";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryDisabled" = "組織では、このフォルダーの同期は許可されていません。詳細については、サイトの所有者にお問い合わせください。";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryCheckOut" = "このフォルダー内のアイテムを編集するにはチェックアウトする必要があります。このフォルダーを同期するには、サイトの所有者に \"チェックアウトを要求する\" をオフにするよう依頼してください。";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryColumnInvalid" = "フォルダーには、同期できない必須情報列があります。サイトの所有者に、列が必須にならないように編集し、データ入力規則を解除するよう依頼してください。";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryIrm" = "同期しようとしているフォルダーは、Informatiion Rights Management 用に構成されています。サイトの管理者に、このフォルダーの Information Rights Management を無効にするよう依頼してください。";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryModeration" = "アイテムをフォルダーに追加するには承認する必要があります。このフォルダーを同期するには、\"コンテンツの承認\" をオフにするようサイトの所有者に依頼してください。";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibrary" = "最近変更した設定により、このフォルダーを同期できません。詳細については、IT 部門にお問い合わせください。";
+
+/* Resolution message text for LostPermissionsToMountPoint error */
+"LostPermissionsToMountPoint" = "このライブラリを同期するためのアクセス許可がありません。このライブラリをオンラインで表示してアクセス権を要求するか、クリックまたはタップしてこのライブラリの同期を停止してください。";
+
+/* Resolution message text for LibraryDeleted error */
+"LibraryDeleted" = "このライブラリは削除されました。このデバイスに保存されたファイルは削除されません。クリックまたはタップしてこのライブラリの同期を停止するか、ライブラリの所有者にお問い合わせください。";
+
+/* Resolution message text for ServiceBlockedLibrary error */
+"ServiceBlockedLibrary" = "サービスに問題があるため、このライブラリにアクセスできません。OneDrive を再起動して、もう一度お試しください。";
+
+/* Resolution message text for LibraryNotFound error */
+"LibraryNotFound" = "このライブラリは見つかりません。クリックしてまたはタップしてこのライブラリの同期を停止するか、IT 管理者にお問い合わせください。";
+
+/* Error message text for SyncIrmFileFailed error */
+"SyncIrmFileFailed" = "この保護されているファイルを同期できませんでした。このファイルの SharePoint 管理者に連絡してアクセス権を要求してください。";
+
+/* Error message text for IrmRejectedItemOnUpload error */
+"IrmRejectedItemOnUpload" = "このファイルは同期できません。IRM をサポートしないドキュメントのアップロードを禁止するように IRM ライブラリの設定が構成されているためです。";
+
+/* Error message text for IrmExtensionChangeBlockedItem error */
+"IrmExtensionChangeBlockedItem" = "組織のポリシーでファイル拡張子名の変更が許可されていないため、このアイテムは同期できません。オンラインに移動してファイルの拡張子名を元の名前に戻すか、サイト管理者にお問い合わせください。";
+
+/* Error message text for IrmEncryptFailedToFindProtectorItem error */
+"IrmEncryptFailedToFindProtectorItem" = "組織のポリシーでファイル拡張子名の変更が許可されていないため、このアイテムは同期できません。サイト管理者にお問い合わせください。";
+
+/* Error message for ItemCantFitOnDisk error. */
+"ItemCantFitOnDisk" = "このファイルを同期するには、このコンピューターに十分な空き領域がありません。";
+
+/* Text for menu item to open help center */
+"MainMenuItemHelpCenter" = "ヘルプ センター";
+
+/* Window title used for send feedback.
+ There's probably no need to localize this string. */
+"FeedbackApplicationTitle" = "Microsoft OneDrive";
+
+/* Send feedback menu item label */
+"FeedbackMenuLabel" = "フィードバックの送信";
+
+/* Send feedback window title */
+"FeedbackWindowTitle" = "フィードバックの送信";
+
+/* Link to privacy statement page */
+"FeedbackPrivacyLinkText" = "<a href=\"#\">お客様のプライバシーは、Microsoft にとって重要です</a>";
+
+/* Link to terms of service page */
+"FeedbackTosLinkText" = "<a href=\"#\">Microsoft</a> はお客様からのフィードバックを収集し、お客様のエクスペリエンスを向上させるために使用します。";
+
+/* Header of the button to send positive feedback */
+"FeedbackSmileChoiceTitle" = "気に入ったこと";
+
+/* Explanation for the send positive feedback button */
+"FeedbackSmileChoiceText" = "気に入った点をお聞かせください。";
+
+/* Placeholder for the user input field */
+"FeedbackSmileFieldTip" = "気に入った点をお聞かせください";
+
+/* Placeholder for the user input field */
+"FeedbackFrownFieldTip" = "気に入らない点をお聞かせください";
+
+/* Header of the send negative feedback button */
+"FeedbackFrownChoiceTitle" = "不満があること";
+
+/* Explanation for the send negative feedback button */
+"FeedbackFrownChoiceText" = "正しく動作しない場合は、それについてお聞かせください。";
+
+/* Header of the Send a Suggestion button */
+"FeedbackSuggestionChoiceTitle" = "提案があります";
+
+/* Explanation for the Send a Suggestion button */
+"FeedbackSuggestionChoiceText" = "アイデアや改善点を共有します。";
+
+/* Checkbox label to opt-in/opt-out of sending log files */
+"FeedbackIncludeLogsLabel" = "診断および利用状況データを含める";
+
+/* Label for the button to send feedback */
+"FeedbackSendButtonLabel" = "送信";
+
+/* Label for the button to resent feedback in the case of sending failure */
+"FeedbackRetryButtonLabel" = "再試行";
+
+/* Label for the button to cancel feedback submission request */
+"FeedbackCancelButtonLabel" = "キャンセル";
+
+/* Label for the button to finish send feedback */
+"FeedbackCloseButtonLabel" = "閉じる";
+
+/* Message shown in the case of feedback submission failure */
+"FeedbackSendFailureText" = "申し訳ございません、フィードバックの送信中に問題が発生しました。インターネット接続を確認して、もう一度お試しください。または、<a href=\"#\">サポートに連絡</a>して問題を報告することもできます";
+
+/* Message shown during feedback submission */
+"FeedbackSendingText" = "送信中...";
+
+/* Message shown at the end of feedback submission. */
+"FeedbackSendSuccessText" = "お客様からのフィードバックをお待ちしています。お客様のご意見は改善に役立ちます。";
+
+/* Window title shown at the end of feedback submission. */
+"FeedbackSendSuccessTitle" = "ありがとうございます";
+
+/* Label for the button to go back to feedback type selection page. */
+"FeedbackBackButtonLabel" = "戻る";
+
+/* Title of local mass delete prompt for personal instance. */
+"LocalMassDeletePromptTitlePersonal" = "OneDrive からファイルを削除しますか?";
+
+/* Title of local mass delete prompt for business instance. */
+"LocalMassDeletePromptTitleBusiness" = "すべての場所からファイルを削除しますか?";
+
+/* Body of local mass delete prompt for personal instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyPersonal:%@" = "%@ 個のファイルをこのデバイスから最近削除しました。OneDrive からも削除しますか?";
+
+/* Body of local mass delete prompt for business instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyBusiness:%@" = "%@ 個のファイルをこのデバイスから最近削除しました。OneDrive とすべての共有ライブラリからも削除しますか?";
+
+/* Text of Restore button of local mass delete prompt. */
+"LocalMassDeletePromptRestoreButton" = "ファイルの復元";
+
+/* Text of Delete button of local mass delete prompt. */
+"LocalMassDeletePromptDeleteButton" = "削除";
+
+/* Text of Opt out checkbox of local mass delete prompt. */
+"LocalMassDeletePromptOptoutCheckbox" = "常にファイルを削除する";
+
+/* Activity center local mass delete per item history description. */
+"ActivityCenterItemPendingRemoval" = "OneDrive からの削除を保留中です";
+
+/* Checkbox text to toggle the local mass delete feature in settings dialog. */
+"LocalMassDeleteSettingsCheckbox" = "クラウドからファイルを削除する前に警告を表示する";
+
+/* Title text of local mass delete confirmed ACM. */
+"LocalMassDeleteConfirmedTitle" = "ファイルを復元する必要がある場合";
+
+/* Body text of local mass delete confirmed ACM for personal instance. */
+"LocalMassDeleteConfirmedBodyPersonal" = "OneDrive 内のファイルを削除すると、すべてのデバイスのファイルが削除されます。30 日間は OneDrive のごみ箱からファイルを復元することができます。";
+
+/* Body text of local mass delete confirmed ACM for business instance. */
+"LocalMassDeleteConfirmedBodyBusiness" = "OneDrive 内のファイルを削除すると、すべてのデバイスや場所から削除されます。ファイルは、OneDrive または共有ライブラリ内のごみ箱から 93 日間は元に戻すことができます。以下をクリックして、最近削除されたファイルが含まれているごみ箱にアクセスします。";
+
+/* Text of recycle bin button of LocalMassDelete confirmed ACM. */
+"LocalMassDeleteRecycleBin" = "ごみ箱";
+
+/* Header text informing user that an application is downloading their files. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeader:%@" = "%@ が OneDrive からダウンロードしています";
+
+/* Header text informing user that an application is downloading their files. This version is used if many files are downloading. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeaderAboveThreshold:%@" = "%@ が OneDrive から多数のファイルをダウンロードしています";
+
+/* Body text informing user that an application is downloading their files. Clicking on this toast will open a confirmation dialog. */
+"CloudFilesHydrationToastBody" = "現在と今後のダウンロードをキャンセルするには、ここをクリックしてください。";
+
+/* Header text informing user that an application is downloading their files. %1$@ is an application name. %2$u is a number. */
+"CloudFilesHydrationDialogHeader:%@,%u" = "%1$@ が %2$u 個のファイルをダウンロードしています";
+
+/* Body text informing user that an application is downloading their files. %@ is an application name. */
+"CloudFilesHydrationDialogBody:%@" = "アプリによるダウンロードを継続するか、ダウンロードを停止することができます。%@ からの今後のダウンロードをすべて停止する場合は、[アプリをブロックする] を選択してください。";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will continue downloading files. */
+"CloudFilesHydrationDialogContinueButton" = "ダウンロードを継続する";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files. */
+"CloudFilesHydrationDialogStopButton" = "ダウンロードを停止する";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files and block this application from future downloads. */
+"CloudFilesHydrationDialogBlockButton" = "アプリをブロックする";
+
+// Download And Go
+
+/* Download And Go application friendly name*/
+"DownloadAndGoFriendlyName" = "OneDrive ファイル起動ツール";
+
+/* Download And Go window title when no errors are displayed. %@ is a number. */
+"DownloadAndGoTitle:%@" = "%@ 個のアイテムを OneDrive にダウンロードしています";
+
+/* Download And Go downloading message. %@ is a file name. */
+"DownloadAndGoDownloadingMessage:%@" = "\"%@\" をダウンロードしています";
+
+/* Download And Go progress message for progressing hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoProgressingHydrationProgress: %@ %@" = "%1$@/%2$@";
+
+/* Download And Go progress message for queued hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoQueuedHydrationProgress: %@ %@" = "%1$@/%2$@ - ダウンロードを保留中です";
+
+/* Download And Go window title when errors are displayed*/
+"DownloadAndGoErrorsTitle" = "OneDrive にダウンロードできませんでした";
+
+/* Download And Go error message. %@ is file name. %d is a number. */
+"DownloadAndGoErrorMessage: %@ %d" = "OneDrive で \"%1$@\" をダウンロードできませんでした (エラー コード %2$d)。";
+
+/* Download And Go cancel error button */
+"DownloadAndGoCancelErrorButton" = "キャンセル";
+
+/* Download And Go try hydration again button */
+"DownloadAndGoTryAgainButton" = "再試行";
+
+// Finder Sync Extension Activity Center Messages
+
+/* The title of the large ACM used to inform the user about Files On-Demand if the Finder Sync Extension is enabled. */
+"FinderSyncEnabledTitle" = "オンラインのファイルで容量を節約";
+
+/* The body of a large ACM that informs the user about Files On-Demand if the Finder Sync Extension is enabled. "Finder" should be translated the same way as in the Mac OSX. "Always keep on this device" should be translated the same as the MenuItemPinCommand string. */
+"FinderSyncEnabledBody" = "ディスク領域を消費することなく、OneDrive 全体にアクセスできます。オフラインのものが必要な場合は、Finder 内で右クリックし、[このデバイス上で常に保持する] を選択します。";
+
+/* The first button's text in a large ACM that that informs the user about Files On-Demand. When clicked, the message is dismissed. */
+"FinderSyncOkay" = "OK";
+
+/* The text of a button that opens a URL with more information about Files On-Demand. Used in all Finder Sync ACMs. */
+"FinderSyncLearnMore" = "詳細情報";
+
+/* The title of the large ACM used to prompt them to enable the Finder Sync Extension. */
+"FinderSyncPromptTitle" = "ファイル オンデマンドを最大限に活用する";
+
+/* The body of a large ACM that prompts the user to enable the Finder Sync Extension if it is disabled. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptBody" = "ファイル オンデマンドを使用すると、OneDrive のファイルをオンライン専用としてマークし、コンピューターの空き容量を増やすことができます。オンライン専用としてファイルをマークするには、OneDrive Finder 拡張機能を有効にする必要があります。";
+
+/* The first button's text in a large ACM that prompts the user to enable the Finder Sync Extension. When clicked, the user's Extensions settings are opened. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptEnableExtension" = "Finder 拡張機能を有効にする";
+
+/* The title text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpTitle" = "ファイル オンデマンドの設定が完了しました";
+
+/* The body text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpBody" = "ファイルはオンデマンドで使用でき、容量を節約できます。";
+
+/* The title of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */
+"FinderSyncEnabledWithSelectiveSyncTitle" = "すべてのファイルを表示";
+
+/* The body of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */ 
+"FinderSyncEnabledWithSelectiveSyncBody" = "一部のファイルのみをこのデバイスと同期しています。ファイル オンデマンドを使用すると、ディスク領域を使用することなくこのデバイスのすべてのファイルを表示できます。";
+
+/* The button of an ACM that prompts the user to disable Selective Sync if the Finder Sync Extension is enabled and Files On-Demand is enabled. */
+"FinderSyncEnabledTurnOffSelectiveSyncButton" = "すべてのファイルを表示";
+
+// Strings for the kext installer helper
+
+/* Window title for the kext installer helper*/
+"KextWizardWindowTitle" = "Microsoft OneDrive";
+
+/* Body header for the kext installer helper */
+"KextWizardBodyHeader" = "ファイル オンデマンドの更新";
+
+/* Body text for the kext installer helper*/
+"KextWizardBodyText" = "ファイル オンデマンドを使用するには、システムの拡張機能を OneDrive から許可する必要があります。[セキュリティ設定を開く] をクリックして、[許可] をクリックします。";
+
+/* Action button for the kext installer helper */
+"KextWizardOpenSecurityButton" = "セキュリティ設定を開く";
+
+// Throttling
+
+/* Individual file gets throttled */
+"FileTransferThrottled" = "サービスのアクティビティが高い状態のため、一時的な同期の遅延が発生している可能性があります。後でもう一度ファイルの更新を試みます。";
+
+/* Title text shown in the sub-header of the Activity Center indicating that a number of items couldn't be synced. */
+"FileTransferThrottledPrimary" = "同期の遅延";
+
+/* Description text shown on the sub-header of the Activity Center when there are files being throttled. */
+"FileTransferThrottledSecondary" = "サービスのアクティビティが高い状態のため、一時的な同期の遅延が発生している可能性があります";
+
+/* Describes the generic resolution, in the Errors Window, of a file that cannot sync because it is in use by another process. */
+"FilePostponedByClient" = "このファイルは、別のプログラムによって開かれており、同期できません。ファイルを閉じると、同期することができます。";
+
+/* Title text shown in the sub-header of the Activity Center indicating that one file is in use by another application. */
+"FilePostponedByClientSingular" = "ファイルは別のアプリケーションで使用中です";
+
+/* Title text shown in the sub-header of the Activity Center indicating that multiple files are in use by other applications. %@ is a number. */
+"FilePostponedByClientPlural:%@" = "%@ ファイルは別のアプリケーションで使用中です";
+
+// Reset UI strings
+
+/* Window title used for the Reset popup window */
+"ResetApplicationTitle" = "Microsoft OneDrive";
+
+/* Header text for the Reset popup window */
+"ResetHeaderText" = "OneDrive のリセット";
+
+/* Description text for what happens during a reset */
+"ResetDescriptionText" = "OneDrive の同期で問題が発生している場合、リセットが役に立つ場合があります。リセット操作では同期サービスが一時的に停止し、ファイル階層とコンテンツがクラウドからローカル マシンに再同期されます。<a href=\"#\">詳細情報。</a>";
+
+/* Checkbox text to ask if the user wants to preserve their selective sync and teamsites settings */
+"ResetSettingsCheckboxText" = "ファイルの設定と構成を保持する (推奨)";
+
+/* Button text to abort the reset process */
+"ResetCancelButtonLabel" = "キャンセル";
+
+/* Button text to begin the reset process */
+"ResetConfirmButtonLabel" = "リセット";
+
+/* Title text for reset in progress ACM */
+"ResetInProgressTitle" = "リセットしています";
+
+/* Body text for reset in progress ACM */
+"ResetInProgressBody" = "リセット中もファイルで作業を続行することができます。ファイルはローカル ディスクに保存され、リセットした後に OneDrive にアップロードされます。";
+
+/* Title text for reset successful ACM */
+"ResetSuccessTitle" = "リセットが完了しました";
+
+/* Body text for reset successful ACM */
+"ResetSuccessBody" = "OneDrive が新しくなりました。";
+
+/* Title text for reset successful with errors ACM */
+"ResetSuccessWithErrorsTitle" = "リセットは完了しましたが...";
+
+/* Body text for reset successful with errors ACM */
+"ResetSuccessWithErrorsBody" = "OneDrive にはリセットで解決できないエラーがまだあります。タップまたはクリックしてご確認ください。";
+
+/* Title text for reset failed ACM */
+"ResetFailureTitle" = "リセットできませんでした";
+
+/* Body text for reset failed ACM */
+"ResetFailureBody" = "問題が発生しました。<a href=\"#\">詳細情報。</a>";
+
+/* Title text for reset successful history list item */
+"ActivityListHistoryResetSuccessPrimary" = "リセットが完了しました";
+
+/* Body text for reset successful history list item */
+"ActivityListHistoryResetSuccessSecondary" = "OneDrive が新しくなりました。";
+
+/* Title text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsPrimary" = "リセットが完了しました";
+
+/* Body text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsSecondary" = "まだいくつかのエラーがあります。";
+
+/* Title text for reset failed history list item */
+"ActivityListHistoryResetFailurePrimary" = "リセットできませんでした";
+
+/* Body text for reset failed history list item */
+"ActivityListHistoryResetFailureSecondary" = "問題が発生しました。";
+
+/* Title text for reset completed toast */
+"ToastResetCompletedTitle" = "OneDrive のリセットが完了しました";
+
+/* Body text for reset completed toast */
+"ToastResetCompletedBody" = "ここをタップまたはクリックして、ファイルの状態を確認してください。";
+
+/* Title text for reset failed toast */
+"ToastResetFailedTitle" = "OneDrive をリセットできませんでした";
+
+/* Body text for reset failed toast */
+"ToastResetFailedBody" = "ここをタップするかクリックして、次の手順をご確認ください。";
+
+// End Reset UI strings
+
+/* Resolution message for client access denied. */
+"ClientAccessDeniedErrorsShortDescription" = "アイテムへのアクセス許可がないようです。アイテムを同期するための適切なアクセス許可があることを確認してください。";
+
+// Purchase Window Strings
+
+/* Title text show in Purchase Window */
+"PurchaseWindowTitle" = "Microsoft OneDrive";
+
+/* Header text shown in Purchase Window */
+"PurchaseWindowHeader" = "プレミアム機能を手に入れましょう。";
+
+/* Header text shown in Purchase Window after buying the subscription */
+"PurchaseSuccessWindowHeader" = "おめでとうございます。";
+
+/* Header text shown in Purchase Window while buying the subscription */
+"PurchaseWindowLoadingTitle" = "読み込み中";
+
+/* Body text shown in the Purchase Window*/
+"PurchaseWindowBody" = "Office 365 の 1 か月無料のサブスクリプションで、プレミアム版 OneDrive の機能を利用できます。お客様に合ったプランを選択して、無料試用を開始してください。";
+
+/* Body text shown in the Purchase Window after buying the subscription */
+"PurchaseSuccessWindowBody" = "特別な機能にアクセスできるようになりました。1 か月の試用期間後は、お客様のカードに自動的に課金されます。";
+
+/*Link button to skip the window */
+"PurchaseWindowSkipNowLink" = "今はスキップする";
+
+/* Sub text in product subscription card describing our premium features*/
+"PurchaseCardMainBody" = "OneDrive のプレミアム機能";
+
+/* Decribes our product subscription right below a row of images showing the office apps*/
+"PurchaseCardSubBody" = "PC および Mac 用の最新の Office アプリ";
+
+/* Purchase card button text which will start a purchase flow */
+"PurchaseCardButtonText" = "プレミアムに移行 - 最初の 1 か月無料";
+
+/* Purchase card link text which will launch a learn more campaign */
+"PurchaseCardLinkText" = "詳細情報";
+
+/* Personal subscription card list text. Only for 1 person  */
+"PurchasePersonalList1" = "個人向け";
+
+/* Home subscription card list text. Bundle avaiable for 6 people*/
+"PurchaseHomeList1" = "6 ユーザー";
+
+/* Personal subscription card list text. 1 Terabyte of storage in OneDrive */
+"PurchasePersonalList2" = "1 TB のストレージ";
+
+/* Home subscription card list text. 6 Terabyte of storage in OneDrive */
+"PurchaseHomeList2" = "6 TB のストレージ";
+
+/* Common subscription card list text for all bundles. Access advanced security features */
+"PurchaseCommonList3" = "高度なセキュリティ";
+
+/* Common subscription card list text for all bundles. Access more producitivty tool*/
+"PurchaseCommonList4" = "生産性向上ツール";
+
+/* Price of a yearly subscription. %@ is money symbol followed by a decimal number. Example: $59.99*/
+"PurchasePriceYearConstant:%@" = "%@/年";
+
+/* Close the window */
+"PurchaseCloseButtonText" = "閉じる";
+
+/* Accessible name for a list of Microsoft Office Products*/
+"PurchaseIconAccessibleName" = "Microsoft Office の製品";
+
+/* Accessible name for a list of details concerning a Office Subscription.*/
+"PurchaseListBodyAccessibleName" = "機能一覧";
+
+/* Error title of purchase window*/
+"PurchaseWindowErrorTitle" = "問題が発生しました";
+
+/* Error body of purchase window. Receipt is already in use*/
+"PurchaseErrorReceiptInUse" = "お客様の Office 365 の購入は別の Microsoft アカウントで申請されました。";
+
+/* Error body of purchase window. Transient Error that automatically might resolve*/
+"PurchaseErrorTransientIssue" = "正常に Office 365 を購入しましたが、Microsoft アカウントにサブスクリプションを適用できませんでした。後でもう一度お試しください。再度請求されることはありません。24 時間後もこの問題が解決しない場合は、サポートにお問い合わせください。";
+
+/* Error body of purchase window. Error that we are unable to resolve.*/
+"PurchaseErrorUnableToResolve" = "正常に Office 365 を購入しましたが、Microsoft アカウントにサブスクリプションを適用できませんでした。サポートにお問い合わせください。";
+
+/* Terms of Use title for purchasing a subscription */
+"PurchaseSubscriptionTermsTitle" = "サブスクリプションの詳細";
+
+/* Terms of Use body for purchasing a subscription */
+"PurchaseSubscriptionTermsBody" = "購入した Office 365 サブスクリプションは iTunes アカウントに課金され、事前に自動更新が無効になっていない限り、現在のサブスクリプションが終了する 24 時間前までに自動的に更新されます。サブスクリプションを管理する、または自動更新を無効にするには、iTunes アカウントの設定に移動します。サブスクリプションは、有効なサブスクリプション期間中にキャンセルすることはできません。無料試用期間の未使用部分については、ユーザーが対象のサブスクリプションを購入すると失効します。";
+
+/* Text that will link to a web page describing the Microsoft terms of use */
+"PurchaseSubscriptionTermsOfUseLink" = "使用条件";
+
+/* Text that will link to a web page describing the terms of privacy */
+"PurchaseSubscriptionPrivacyLink" = "プライバシー";
+
+// End Purchase window strings
+
+// Get Help window strings
+
+/* Get Help window title */
+"GetHelpWindowTitle" = "サポートへのお問い合わせ";
+
+/* Placeholder for the Get Help user input field */
+"GetHelpFieldTip" = "問題の説明をここに入力します。";
+
+/* Window title shown at the end of get help submission succeeded. */
+"GetHelpSendSuccessTitle" = "サポート要求を送信しました";
+
+/* Message shown at the end of get help submission - %1$@ is user email. */
+"GetHelpSendSuccessText:%@" = "OneDrive エージェントが %1$@ に返信します。";
+
+/* Window title shown at the end of get help submission failure. */
+"GetHelpSendFailureTitle" = "サポート要求に失敗しました";
+
+/* Message shown in the case of feedback submission failure */
+"GetHelpSendFailureText" = "申し訳ありませんが、サポート リクエストの送信で問題が発生しました。インターネット接続を確認した後でもう一度やり直してください。";
+
+// End Get Help window strings

@@ -1,0 +1,408 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-WindowsUXHost-Log" />
+  <provider guid="{4710c6bb-00ef-436e-8206-8ace790dba6a}" symbol="SurveyCampaignsCrossPlatformUXLogsProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" tags="TelemetryQos" symbol="FloodgateSurveyControllerSubmissionResult_v1" message="FloodgateSurveyController request submitted" value="1347079629" version="1">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="UnicodeString" name="CampaignId" />
+          <data type="UnicodeString" name="SessionId" />
+          <data type="Int64" name="Response" />
+          <data type="AnsiString" name="UserInfo" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UInt32" name="HttpCode" />
+          <data type="Int64" name="NumAttempts" />
+          <data type="Int64" name="Duration" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryQos" symbol="FloodgateSurveyControllerSubmissionResult_v2" message="FloodgateSurveyController request submitted" value="1347079629" version="2">
+        <template>
+          <!-- Required fields -->
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UInt32" name="HttpCode" />
+          <data type="Int64" name="Duration" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <!-- Extra fields -->
+          <data type="AnsiString" name="CampaignId" />
+          <data type="AnsiString" name="SessionId" />
+          <data type="Int64" name="Response" />
+          <data type="Int64" name="NumAttempts" />
+          <data type="AnsiString" name="HasFilesOnDemand" />
+          <data type="AnsiString" name="IsPerMachineInstall" />
+          <data type="AnsiString" name="IsKfmOptIn" />
+          <data type="AnsiString" name="IsSSO" />
+          <data type="AnsiString" name="HasMadeFirstUpload" />
+          <data type="AnsiString" name="IsFRECompleted" />
+          <data type="AnsiString" name="IsPremiumUser" />
+          <data type="AnsiString" name="QuotaState" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryQos" symbol="FloodgateSurveyControllerSubmissionResult_v3" message="FloodgateSurveyController request submitted" value="1347079629" version="3">
+        <template>
+          <!-- Required fields -->
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UInt32" name="HttpCode" />
+          <data type="Int64" name="Duration" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <!-- Extra fields -->
+          <data type="AnsiString" name="CampaignId" />
+          <data type="AnsiString" name="SessionId" />
+          <data type="Int64" name="Response" />
+          <data type="Int64" name="NumAttempts" />
+          <data type="AnsiString" name="HasFilesOnDemand" />
+          <data type="AnsiString" name="IsPerMachineInstall" />
+          <data type="AnsiString" name="IsKfmOptIn" />
+          <data type="AnsiString" name="IsSSO" />
+          <data type="AnsiString" name="HasMadeFirstUpload" />
+          <data type="AnsiString" name="IsFRECompleted" />
+          <data type="AnsiString" name="IsPremiumUser" />
+          <data type="AnsiString" name="QuotaState" />
+          <data type="AnsiString" name="ExtraData1" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryQos" symbol="FloodgateSurveyControllerSubmissionResult_v4" message="FloodgateSurveyController request submitted" value="1347079629" version="4">
+        <template>
+          <!-- Required fields -->
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UInt32" name="HttpCode" />
+          <data type="Int64" name="Duration" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <!-- Extra fields -->
+          <data type="AnsiString" name="CampaignId" />
+          <data type="AnsiString" name="SessionId" />
+          <data type="Int64" name="Response" />
+          <data type="Int64" name="NumAttempts" />
+          <data type="AnsiString" name="HasFilesOnDemand" />
+          <data type="AnsiString" name="IsPerMachineInstall" />
+          <data type="AnsiString" name="IsKfmOptIn" />
+          <data type="AnsiString" name="IsSSO" />
+          <data type="AnsiString" name="HasMadeFirstUpload" />
+          <data type="AnsiString" name="IsFRECompleted" />
+          <data type="AnsiString" name="IsPremiumUser" />
+          <data type="AnsiString" name="QuotaState" />
+          <data type="AnsiString" name="ExtraData1" />
+          <data type="AnsiString" name="ExtraData2" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryQos" symbol="FloodgateSurveyControllerSubmissionResult_v5" message="FloodgateSurveyController request submitted" value="1347079629" version="5">
+        <template>
+          <!-- Required fields -->
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UInt32" name="HttpCode" />
+          <data type="Int64" name="Duration" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <!-- Extra fields -->
+          <data type="Boolean" name="IsSurveyManager" />
+          <data type="AnsiString" name="CampaignId" />
+          <data type="AnsiString" name="SessionId" />
+          <data type="Int64" name="Response" />
+          <data type="Int64" name="NumAttempts" />
+          <data type="AnsiString" name="HasFilesOnDemand" />
+          <data type="AnsiString" name="IsPerMachineInstall" />
+          <data type="AnsiString" name="IsKfmOptIn" />
+          <data type="AnsiString" name="IsSSO" />
+          <data type="AnsiString" name="HasMadeFirstUpload" />
+          <data type="AnsiString" name="IsFRECompleted" />
+          <data type="AnsiString" name="IsPremiumUser" />
+          <data type="AnsiString" name="QuotaState" />
+          <data type="AnsiString" name="ExtraData1" />
+          <data type="AnsiString" name="ExtraData2" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryQos" symbol="FloodgateSurveyControllerSubmissionResult" message="FloodgateSurveyController request submitted" value="1347079629" version="6">
+        <template>
+          <!-- Required fields -->
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UInt32" name="HttpCode" />
+          <data type="Int64" name="Duration" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <!-- Extra fields -->
+          <data type="Boolean" name="IsSurveyManager" />
+          <data type="AnsiString" name="CampaignId" />
+          <data type="AnsiString" name="SessionId" />
+          <data type="Int64" name="Response" />
+          <data type="Int64" name="NumAttempts" />
+          <data type="AnsiString" name="HasFilesOnDemand" />
+          <data type="AnsiString" name="IsPerMachineInstall" />
+          <data type="AnsiString" name="IsKfmOptIn" />
+          <data type="AnsiString" name="IsSSO" />
+          <data type="AnsiString" name="HasMadeFirstUpload" />
+          <data type="AnsiString" name="IsFRECompleted" />
+          <data type="AnsiString" name="IsPremiumUser" />
+          <data type="AnsiString" name="QuotaState" />
+          <data type="AnsiString" name="ExtraData1" />
+          <data type="AnsiString" name="ExtraData2" />
+          <data type="AnsiString" name="ExtraData3" />
+        </template>
+      </event>
+      <event level="Informational" symbol="FloodgateSurveyControllerSubmissionAttempt_v1" message="Floodgate survey submission for campaign [%CampaignId], response: %Response, attempt number: %AttemptNum" value="1454533711" version="1">
+        <template>
+          <data type="UnicodeString" name="CampaignId" />
+          <data type="Int64" name="Response" />
+          <data type="Int64" name="AttemptNum" />
+          <data type="UnicodeString" name="SessionId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="FloodgateSurveyControllerSubmissionAttempt" message="Floodgate survey submission for campaign [%CampaignId], response: %Response, attempt number: %AttemptNum" value="1454533711" version="2">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+          <data type="Int64" name="Response" />
+          <data type="Int64" name="AttemptNum" />
+          <data type="AnsiString" name="SessionId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="FloodgateSurveyControllerPrivacyStatement" message="Privacy statement link was clicked" value="2813853296">
+      </event>
+      <event level="Informational" symbol="FloodgateSurveyControllerSurveyCanceled_v1" message="Floodgate survey [%CampaignId] closed with no response" value="3569196619" version="1">
+        <template>
+          <data type="UnicodeString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="FloodgateSurveyControllerSurveyCanceled" message="Floodgate survey [%CampaignId] closed with no response" value="3569196619" version="2">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="FloodgateSurveyControllerNewSurvey_v1" message="New Floodgate survey launched [%CampaignId]" value="3857881277" version="1">
+        <template>
+          <data type="UnicodeString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="FloodgateSurveyControllerNewSurvey" message="New Floodgate survey launched [%CampaignId]" value="3857881277" version="2">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="BaseCampaignMissingString" message="BaseCampaign survey string not found" value="984326491">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+          <data type="Int64" name="SurveyString" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="BaseCampaignDeserializeCampaignFailed" message="BaseCampaign deserialization failed" value="2794103369">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+          <data type="Int64" name="DeserializeCampaignResult" />
+        </template>
+      </event>
+      <event level="Informational" symbol="BaseCampaignDeserializeCampaignResult" message="BaseCampaign state deserialized" value="217423727">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+          <data type="Int64" name="DeserializeCampaignResult" />
+        </template>
+      </event>
+      <event level="Informational" symbol="BaseCampaignEventThresholdMet_v1" message="BaseCampaign event threshold met" value="868050205" version="1">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+          <data type="AnsiString" name="EventName" />
+          <data type="Int64" name="RemainingEvents" />
+        </template>
+      </event>
+      <event level="Informational" symbol="BaseCampaignEventThresholdMet" message="BaseCampaign event threshold met" value="868050205" version="2">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+          <data type="AnsiString" name="GroupName" />
+          <data type="AnsiString" name="EventName" />
+          <data type="Int64" name="RemainingEvents" />
+        </template>
+      </event>
+      <event level="Informational" symbol="BaseCampaignNoEventsRemaining" message="BaseCampaign all event thresholds met" value="3946312078">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="BaseCampaignEventReceivedWithNoneRemaining" message="BaseCampaign event recieved even though all trigger events already met" value="1851211630" />
+      <event level="Informational" symbol="BaseCampaignTrackedEventOccurred_v1" message="BaseCampaign tracked event occurred, counter incremented" value="2812217890" version="1">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+          <data type="AnsiString" name="EventName" />
+          <data type="Int64" name="EventCount" />
+          <data type="Int64" name="EventThreshold" />
+        </template>
+      </event>
+      <event level="Informational" symbol="BaseCampaignTrackedEventOccurred" message="BaseCampaign tracked event occurred, counter incremented" value="2812217890" version="2">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+          <data type="AnsiString" name="GroupName" />
+          <data type="AnsiString" name="EventName" />
+          <data type="Int64" name="EventCount" />
+          <data type="Int64" name="EventThreshold" />
+        </template>
+      </event>
+      <event level="Informational" symbol="BaseCampaignSurveyLaunchedAfterDeserialization" message="BaseCampaign survey launched as a result of all trigger events being loaded during deserialization" value="3635781133" deprecated="yes">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="BaseCampaignSurveyWouldHaveBeenLaunchedByDeserializationButLoweredCount" message="BaseCampaign survey would have been triggered by deserialization, so final event count was set one under threshold" value="318853601">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+          <data type="AnsiString" name="GroupName" />
+          <data type="Int64" name="EventCount" />
+          <data type="Int64" name="EventThreshold" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryQos" symbol="SurveyManagerDeserializeStateResult" message="SurveyManager state deserialized" value="1734995777">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="Int64" name="DeserializeStateResult" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="SurveyManagerNewCampaignNomination" message="SurveyManager nominated the user for a new campaign" value="516578413" deprecated="yes">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="SurveyManagerCampaignTriggered" message="User triggered a SurveyManager campaign" value="1672436066" deprecated="yes">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="SurveyManagerCampaignToastSent" message="User sent campaign toast" value="1649246943" deprecated="yes">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="SurveyManagerCampaignSurveyShown" message="Campaign survey being shown" value="488897853" deprecated="yes">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="SurveyManagerCampaignFunnel" message="Campaign [%CampaignId] advanced to funnel level [%FunnelLevel]" value="523360148">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+          <data type="Int64" name="FunnelLevel" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SurveyManagerCampaignsRegistered" message="SurveyManager finished registering campaigns" value="2246950337">
+        <template>
+          <data type="Int64" name="NumCampaigns" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SurveyManagerStarted" message="SurveyManager started" value="495894726" />
+      <event level="Informational" symbol="SurveyManagerStopped" message="SurveyManager stopped" value="763537281" />
+      <event level="Informational" symbol="SurveyManagerShowCampaignSurvey" message="SurveyManager showing campaign survey" value="914150715">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SurveyManagerFailedToOpenFileStreamToLoadState" message="SurveyManager failed to open file stream to load state from disk" value="2309814675">
+        <template>
+          <data type="PrivateInfo" name="FilePath" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SurveyManagerFinishedDeserializingCampaigns" message="SurveyManager finished deserializing campaigns from disk" value="860619720">
+        <template>
+          <data type="Int64" name="NumCampaigns" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SurveyManagerFinishedSerializingCampaigns" message="SurveyManager finished serializing campaigns to write to disk" value="3057732033">
+        <template>
+          <data type="Int64" name="NumCampaigns" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SurveyManagerStateFilePathRetrieved" message="SurveyManager state file path retrieved" value="2217392930">
+        <template>
+          <data type="PrivateInfo" name="FilePath" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SurveyManagerBeginProcessingCampaigns" message="SurveyManager begin processing campaigns" value="781224872">
+        <template>
+          <data type="Int64" name="CurrentTime" />
+          <data type="Int64" name="LastSurveyShownTime" />
+          <data type="Int64" name="GlobalCooldownDuration" />
+          <data type="Int64" name="NumActiveCampaigns" />
+          <data type="Int64" name="NumCampaigns" />
+          <data type="Boolean" name="IsInCooldown" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SurveyManagerTransitioningOutOfCooldown" message="SurveyManager transitioning out of cooldown" value="3090646625" />
+      <event level="Informational" symbol="SurveyManagerTransitioningToCooldown" message="SurveyManager transitioning to cooldown" value="3896555497" />
+      <event level="Informational" symbol="SurveyManagerFinishedProcessingCampaigns" message="SurveyManager finished processing campaigns" value="910516715">
+        <template>
+          <data type="Int64" name="NumActiveCampaigns" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SurveyManagerActiveCampaignExpired" message="SurveyManager campaign duration elapsed without triggering" value="39896420">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SurveyManagerStateNotLoadedBeforeTeardown" message="SurveyManager is being torn down before state finished loading, skipping write state" value="2525266923" />
+      <event level="Informational" symbol="SurveyManagerCampaignTransitionedToCooldown" message="SurveyManager campaign transition to cooldown after being triggered locally, but not shown due to governance" value="2183224705">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+          <data type="Int64" name="NumRemainingActiveCampaigns" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AppNpsOfficialCampaignFailedToRetrieveClientFirstSignInTimestamp" message="AppNpsOfficialCampaign failed to retrieve client first sign in timestamp, will not be enabled" value="1822420115" />
+      <event level="Informational" symbol="AppNpsOfficialCampaignDeserializeExtraDataResult" message="AppNpsOfficialCampaign deserialize extra data result" value="3580313563">
+        <template>
+          <data type="AnsiString" name="Result" />
+          <data type="Int64" name="NumEvents" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KfmFpsCampaignExtraData" message="KfmFpsCampaign extra data fields" value="2350312632">
+        <template>
+          <data type="AnsiString" name="TimeSinceKfmBucket" />
+          <data type="AnsiString" name="LastKnownKfmLaunchSource" />
+          <data type="AnsiString" name="OobeState" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KfmFpsCampaignIsCampaignEnabled" message="KfmFpsCampaign is campaign enabled result" value="3113403692">
+        <template>
+          <data type="Boolean" name="IsRampEnabled" />
+          <data type="Boolean" name="IsKfmActive" />
+          <data type="Boolean" name="HasEnoughTimePassed" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KfmFpsCampaignRootFolderPathNotSetSoCampaignIsDisabled" message="KfmFpsCampaign could not determine if the user is eligible since the root folder path is not set" value="3682211700" />
+    </events>
+  </provider>
+</manifest>

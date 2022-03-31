@@ -1,0 +1,106 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-WindowsUXHost-Log" />
+  <provider guid="{4710c6bb-00ef-436e-8206-8ace790dba6a}" symbol="SurveyCampaignsCrossPlatformUXLogsProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="DiagnosticOptional" privacyCategory="ProductUsage">
+      <event level="Informational" tags="TelemetryUsage" symbol="FloodgateSurveyControllerAction" message="FloodgateSurveyController action" value="3099804679">
+        <template>
+          <data type="UnicodeString" name="Scenario" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryQos" symbol="GlobalGovernerUserInfoRequest" message="Request sent to UserInfo APIs" value="2333123809">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="Boolean" name="SurveyShown" />
+          <data type="UnicodeString" name="FailureStep" />
+          <data type="UInt32" name="HttpCode" />
+          <data type="Int64" name="Duration" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GlobalGovernerGetUserInfoRequestSent" message="GetUserInfo request sent for campaignId: %CampaignId" value="220687688">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GlobalGovernerSetUserInfoRequestSent" message="SetUserInfo request sent for campaignId: %CampaignId" value="4232234582">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GlobalGovernerConsumerStartGovernance" message="Governance initiated for campaignId: %CampaignId" value="3894841365">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GlobalGovernerConsumerStatusFound" message="Survey status already exists, checking if conflict: %CampaignId" value="3320562393">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GlobalGovernerConsumerCurrentStatusConflict" message="Survey status has conflict? %IsConflict. For campaign: %CampaignId" value="2016502850">
+        <template>
+          <data type="Boolean" name="IsConflict" />
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GlobalGovernerConsumerStartSetUserInfoRequest" message="Start set user info request: %CampaignId" value="3151566393">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GlobalGovernerBusinessStartGovernance" message="Governance initiated for campaignId: %CampaignId" value="417554110">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GlobalGovernerBusinessNoSurveyStatusNode" message="No surveyStatus_oneDrive root node, creating one for new survey status" value="2553878484">
+      </event>
+      <event level="Informational" symbol="GlobalGovernerBusinessNoStatusFound" message="Survey status does not yet exist, creating new node: %CampaignId" value="1220984977">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GlobalGovernerBusinessStatusFound" message="Survey status already exists, checking if conflict: %CampaignId" value="2228805198">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GlobalGovernerBusinessCurrentStatusConflict" message="Survey status has conflict? %IsConflict. For campaign: %CampaignId" value="62054291">
+        <template>
+          <data type="Boolean" name="IsConflict" />
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GlobalGovernerBusinessStartSetUserInfoRequest" message="Start set user info request: %CampaignId" value="2414403592">
+        <template>
+          <data type="AnsiString" name="CampaignId" />
+        </template>
+      </event>
+    </events>
+  </provider>
+</manifest>

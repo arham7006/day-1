@@ -1,0 +1,120 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-DownloadAndGo-Log" />
+  <provider guid="{64303FC5-347B-4532-9284-03C579DCDAD7}" symbol="DownloadAndGoLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default">
+      <event level="Error" symbol="GetPlaceholderHydratorFailed" message="Failed to get a Placeholder Hydrator with status= %status" value="4050791130">
+        <template>
+          <data type="Int32" name="status" />
+        </template>
+      </event>
+      <event level="Error" symbol="PlaceholderHydratorConnectionFailed" message="Failed to connect the placeholder hydrator with status= %status" value="3340626212">
+        <template>
+          <data type="Int32" name="status" />
+        </template>
+      </event>
+      <event level="Error" symbol="DispatchGroupCreationFailed" message="Failed to create a dispatch group" value="990893571" />
+      <event level="Error" symbol="DispatchQueueCreationFailed" message="Failed to create a dispatch queue" value="2031383126" />
+      <event level="Error" symbol="GetFSIDFailed" message="Failed to get FSID with status= %status" value="358566047">
+        <template>
+          <data type="Int32" name="status" />
+        </template>
+      </event>
+      <event level="Error" symbol="FilterFailedHydratingFile_v1" message="Filter failed while hydrating a file. fileId=%fsid status=%status" value="1340279382">
+        <template>
+          <data type="AnsiString" name="fsid" />
+          <data type="Int32" name="status" />
+        </template>
+      </event>
+      <event level="Error" symbol="FilterFailedHydratingFile" message="Filter failed while hydrating a file. fileId=%fsid status=%status hydstatus=%hydstatus" version="2" value="1340279382">
+        <template>
+          <data type="AnsiString" name="fsid" />
+          <data type="Int32" name="status" />
+          <data type="Int32" name="hydstatus" />
+        </template>
+      </event>
+      <event level="Error" symbol="DownloadAndGoIsDefaultApp" message="Download and Go is the default app for file with extension ext='%ext'" value="2709971913">
+        <template>
+          <data type="UnicodeString" name="ext" />
+        </template>
+      </event>
+      <event level="Error" symbol="FileHydrationFailed" message="Failed to hydrate a file with fileId=%fsid status=%status" value="3741598479">
+        <template>
+          <data type="AnsiString" name="fsid" />
+          <data type="Int32" name="status" />
+        </template>
+      </event>
+      <event level="Error" symbol="BytesCompletedMoreThanTotalBytes" message="Progress for file with fileId=%fsid has more bytesCompleted=%bytesCompleted than totalBytes=%totalBytes" value="261609923">
+        <template>
+          <data type="AnsiString" name="fsid" />
+          <data type="UInt64" name="bytesCompleted" />
+          <data type="UInt64" name="totalBytes" />
+        </template>
+      </event>
+      <event level="Telemetry" symbol="TableViewNotUpdated" message="Table view could not update progress while hydrating %hydrationCount files" value="2013872954">
+        <template>
+          <data type="UInt64" name="hydrationCount" />
+        </template>
+      </event>
+      <event level="Informational" symbol="DnGRemotePortInitNoRootPaths" message="No root paths found on remote port initialization" value="3404842562" />
+      <event level="Informational" symbol="DnGRemotePortAddServer" message="Add server instance for %instanceId at %path : %success" value="1665345713">
+        <template>
+          <data type="UnicodeString" name="instanceId" />
+          <data type="PrivateInfo" name="path" />
+          <data type="Boolean" name="success" />
+        </template>
+      </event>
+      <event level="Error" symbol="DnGRemotePortAddServerFailedToInit" message="Cannot init port" value="1183006085" />
+      <event level="Informational" symbol="DnGRemotePortGetPortForPathUnsuccessful" message="Possible error: Could not find port for rootpath: %path" value="4191232288">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+      <event level="Informational" symbol="DnGRemotePortCancelHydrationRequest" message="Cancel hydration requested for %path" value="2025242638">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+      <event level="Error" symbol="DnGRemotePortCancelHydrationRequestException" message="Cancel hydration request, exception caught: %error" value="1245900267">
+        <template>
+          <data type="UnicodeString" name="error" />
+        </template>
+      </event>
+      <event level="Informational" symbol="DnGRemotePortBeginHydrationRequest" message="Begin hydration requested for %path" value="1847266183">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+      <event level="Error" symbol="DnGRemotePortBeginHydrationRequestException" message="Begin hydration request, exception caught: %error" value="3199531272">
+        <template>
+          <data type="UnicodeString" name="error" />
+        </template>
+      </event>
+      <event level="Informational" symbol="DnGRemotePortFinishHydrationRequest" message="Finish hydration requested for %path status=%status hydstatus=%hydstatus" value="3139366728">
+        <template>
+          <data type="PrivateInfo" name="path" />
+          <data type="Int32" name="status" />
+          <data type="Int32" name="hydstatus" />
+        </template>
+      </event>
+      <event level="Error" symbol="DnGRemotePortFinishHydrationRequestException" message="Finish hydration request, exception caught: %error" value="1417959990">
+        <template>
+          <data type="UnicodeString" name="error" />
+        </template>
+      </event>
+      <event level="Error" symbol="DnGRemotePortUnableToProcessNotification" message="Error encountered when attempting to processs %data" value="1791720813">
+        <template>
+          <data type="UnicodeString" name="data" />
+        </template>
+      </event>
+    </events>
+  </provider>
+</manifest>

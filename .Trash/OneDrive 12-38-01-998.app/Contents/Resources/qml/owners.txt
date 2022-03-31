@@ -1,0 +1,7 @@
+;For details on ownership specifications, please refer to https://onedrive.visualstudio.com/Sync/_wiki/wikis/Sync.wiki/13878/Code-Ownership
+
+filePattern:KFMDonePage.qml KFM Code Reviewers
+filePattern:KFMScanPage.qml KFM Code Reviewers
+filePattern:KnownFolderItem.qml KFM Code Reviewers
+filePattern:WizardMigrationPage.qml KFM Code Reviewers
+filePattern:Win7KFMDonePage.qml KFM Code Reviewers

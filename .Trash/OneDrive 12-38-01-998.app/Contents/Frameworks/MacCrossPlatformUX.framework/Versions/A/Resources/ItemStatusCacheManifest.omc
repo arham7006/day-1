@@ -1,0 +1,160 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-ItemStatusCache-Log" />
+  <provider guid="{0C308B7E-C9FB-4E2A-940C-515851FFA586}" symbol="ItemStatusCacheLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" symbol="ItemStatusTreeGetStatus" message="Item status tree retrieved status for %path: %status" value="4042077981">
+        <template>
+          <data type="PrivateInfo" name="path" />
+          <data type="Int32" name="status" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusGetStatusMissingTenant" message="Item status manager missing tenant for %path" value="2683829419">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusTreeSetDirtyStatus" message="Item status tree setting dirty status for %path, isFolder: %isFolder" value="171413458">
+        <template>
+          <data type="PrivateInfo" name="path" />
+          <data type="Boolean" name="isFolder" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusTreeSetItemStatus_v1" version="1" message="Item status tree setting item status: %status for %path, isFolder: %isFolder" value="3968616116" deprecated="yes">
+        <template>
+          <data type="Int32" name="status" />
+          <data type="PrivateInfo" name="path" />
+          <data type="Boolean" name="isFolder" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusTreeSetItemStatus" version="2" message="Item status tree setting item status: %status, sharedStatus: %sharedStatus, errortype: %errorType, isBeingFixed: %isBeingFixed for %path, isFolder: %isFolder" value="3968616116">
+        <template>
+          <data type="Int32" name="status" />
+          <data type="Int32" name="sharedStatus" />
+          <data type="Int32" name="errorType" />
+          <data type="Boolean" name="isBeingFixed" />
+          <data type="PrivateInfo" name="path" />
+          <data type="Boolean" name="isFolder" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusTreeRemoveItem" message="Item status tree removing %path, isFolder: %isFolder" value="339050353">
+        <template>
+          <data type="PrivateInfo" name="path" />
+          <data type="Boolean" name="isFolder" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusTreeResetDirtyStatus" message="Item status tree increased current dirty sequence: %dirtySeq" value="547968328">
+        <template>
+          <data type="UInt32" name="dirtySeq" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusTreeFolderNodeGetItemStatus" message="Item status tree folder node getting item status with no child: %noChild numError: %numError numSyncing:%numSyncing dirtySequence: %dirtySeq" value="4091020616">
+        <template>
+          <data type="Boolean" name="noChild" />
+          <data type="UInt32" name="numError" />
+          <data type="UInt32" name="numSyncing" />
+          <data type="UInt32" name="dirtySeq" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusTreePlaceholderFolderNodeGetItemStatus" message="Item status tree PlaceholderFolderNode getting item status. empty:%empty numError:%numError numSyncing:%numSyncing numUnpinned:%numUnpinned numUnspecified:%numUnspecified dirtySequence:%dirtySeq" value="3677350599">
+        <template>
+          <data type="Boolean" name="empty" />
+          <data type="UInt32" name="numError" />
+          <data type="UInt32" name="numSyncing" />
+          <data type="UInt32" name="numUnpinned" />
+          <data type="UInt32" name="numUnspecified" />
+          <data type="UInt32" name="dirtySeq" />
+        </template>
+      </event>
+      <event level="Error" symbol="ItemStatusCacheVisitorInvalidAccess" message="A Visitor in the item status cache tried to proceed 'down' the tree after visiting a filenode." value="144168474" />
+      <event level="Error" symbol="ItemStatusCacheGetItemVisitorCreateNode" message="A GetItemStatusVisitor in the item status cache called IsNextNodeFolder(), which is only ever used when creating a node, which this visitor does not have permission to do." value="2756230895" />
+      <event level="Error" symbol="ItemStatusCacheVisitorIncorrectUpdate" message="A Visitor in the item status cache tried to update item node syncing and error counters while traversing forward (it is only permitted traversing back up the tree)." value="408204137" />
+      <event level="Error" symbol="ItemStatusCacheVisitorForwardPath" message="A Visitor in the item status cache has _onForwardPath toggled off while moving forward down the tree." value="2172139308" />
+      <event level="Error" symbol="ItemStatusCacheRemoveVisitorInFileNode" message="A RemoveItemVisitor visited a filenode, which it should never do." value="462219099" />
+      <event level="Error" symbol="ItemStatusCacheEndObservingFolderVisitorInFileNode" message="An EndObservingFolderVisitor visited a filenode, which it should never do." value="797315130" />
+      <event level="Error" symbol="ItemStatusCacheDirtyFile" message="A SetDirtyItemVisitor visited a filenode, indicating it is dirty, but filenodes cannot be dirty." value="1665828533" />
+      <event level="Informational" symbol="ItemStatusRemoveTenantEntry" message="Removing tenant entry from registry and trees" value="1400937586" />
+      <event level="Informational" symbol="ItemStatusUpdatingEntriesNewTenant_v1" message="Adding tenant entry to registry and trees" value="372139149" version="1" />
+      <event level="Informational" symbol="ItemStatusUpdatingEntriesNewTenant" message="Adding tenant entry to registry and trees: %tenantPath" value="372139149" version="2">
+        <template>
+          <data type="PrivateInfo" name="tenantPath" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusUpdatingEntries" message="Updated folder entries for %numberOfEntries entries, new UpToDate value:%newUpToDateValue" value="2429468312">
+        <template>
+          <data type="UInt32" name="numberOfEntries" />
+          <data type="UInt32" name="newUpToDateValue" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusUpdatingEntriesExistingTenant" message="Adding folder entry to existing tenant, hasFolderEntryAlready: %hasFolderEntryAlready" value="3392673939">
+        <template>
+          <data type="Boolean" name="hasFolderEntryAlready" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusRemoveFolderEntry" message="Removing folder entry, isTenantNameEmpty: %isTenantNameEmpty, Tenant:%tenantName, Folder:%folderName" value="1495049187">
+        <template>
+          <data type="Boolean" name="isTenantNameEmpty" />
+          <data type="PrivateInfo" name="tenantName" />
+          <data type="PrivateInfo" name="folderName" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusUpToDateCounterExpired" message="Up To Date counter expired with value %upToDateCounterValue, expected %expectedUpToDateValue, Tenant:%tenantName, Folder:%folderName" value="1468182642">
+        <template>
+          <data type="UInt32" name="upToDateCounterValue" />
+          <data type="UInt32" name="expectedUpToDateValue" />
+          <data type="PrivateInfo" name="tenantName" />
+          <data type="PrivateInfo" name="folderName" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusCacheDroppedRequestToProcessItemStatusChangeForFileAsItIsUnderAnUnmappedFolder" message="Dropped request to process ItemStatusChange for file %path as it is under an unmapped folder" value="2268042278">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusManagerHandleWarningAdd" message="Adding a warning, file %path, warning %warning, error %error, changeType %changeType" value="647625584">
+        <template>
+          <data type="PrivateInfo" name="path" />
+          <data type="UInt32" name="warning" />
+          <data type="UInt32" name="error" />
+          <data type="UInt32" name="changeType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusManagerHandleWarningRemove" message="Remvoing a warning, file %path, warning %warning, error %error, changeType %changeType" value="1972856307">
+        <template>
+          <data type="PrivateInfo" name="path" />
+          <data type="UInt32" name="warning" />
+          <data type="UInt32" name="error" />
+          <data type="UInt32" name="changeType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusManagerHandleWarningInvalid" message="Invalid warning, file %path, warning %warning, error %error" value="2482293479">
+        <template>
+          <data type="PrivateInfo" name="path" />
+          <data type="UInt32" name="warning" />
+          <data type="UInt32" name="error" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ItemStatusCacheInvalidValueReceived" message="Invalid ItemStatusChange for file %path " value="1349552378">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ItemStatusCacheBatchWarningsCreated" message="ItemStatusManager's batched count of warnings created" value="3974104776">
+        <template>
+          <data type="UnicodeString" name="fileExtension" />
+          <data type="Int64" name="warningCode" />
+          <data type="UInt32" name="count" />
+        </template>
+      </event>
+      <event level="Error" symbol="ItemStatusManagerGetMountedFolderEntryEncounteredNullTreeInfo" message="ItemStatusManager::GetMountedFolderEntryNarrow encountered nullptr tree info result from GetTreeInfoByPath." value="3923313545" />
+    </events>
+  </provider>
+</manifest>

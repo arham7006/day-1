@@ -1,0 +1,2575 @@
+// Misc
+
+// File Size Units
+
+/* The lowest unit for file sizes */
+"byteText" = "bayt";
+
+/* Unit for file sizes. */
+"KiloByteAbbrv" = "KB";
+
+/* Unit for file sizes. */
+"MegaByteAbbrv" = "MB";
+
+/* Unit for file sizes. */
+"GigaByteAbbrv" = "GB";
+
+/* Unit for file sizes. */
+"TeraByteAbbrv" = "TB";
+
+/* Unit for file transfer speed. */
+"KiloBytePerSecond" = "KB/sn";
+
+/* Unit for file transfer speed. */
+"MegaBytePerSecond" = "MB/sn";
+
+
+// First run - used by FirstRunWindowController.mm and its views
+
+/* Windows title used to welcome a user running the application.
+ There's probably no need to localize this string. */
+"FirstRunWindowTitle" = "Microsoft OneDrive";
+
+/* Title of the welcome page when running for the first time */
+"FirstRunText" = "OneDrive'ı ayarla";
+
+/* Short explaination about what OneDrive does when running for the first time */
+"FirstRunDescriptiveText" = "Tüm cihazlardan erişmek için dosyalarınızı OneDrive'a ekleyin.";
+
+/* Button to sign into a personal instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomePersonalButton" = "Kişisel";
+
+/* Button to sign into a business instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomeBusinessButton" = "İş veya okul";
+
+/* Button to start email hrd sign in flow on the first run experience in welcome page */
+"FirstRunEmailSignInButton" = "Oturum açın";
+
+/* Placeholder text for the email input box on the first run experience in welcome page */
+"FirstRunEmailInputPlaceholderText" = "E-posta adresinizi girin";
+
+/* Errors shown when there is a problem with the users email address on the first run experience in welcome page */
+"FirstRunWelcomeErrorPersonalAlreadySyncing" = "Bu bilgisayarda kişisel bir OneDrive hesabını zaten eşitliyorsunuz. Yeni bir hesap eklemek için bu hesabın bağlantısını kaldırın.";
+"FirstRunWelcomeErrorEmailIsMSAAndAAD" = "Bu e-posta adresi hem OneDrive hem de OneDrive İş için kullanılıyor. Önce hangisinde oturum açmak istersiniz?";
+"FirstRunWelcomeErrorEmailIsNotKnown" = "Bu e-posta adresini tanımıyoruz.";
+"FirstRunWelcomeErrorEmailAdminDisabled" = "Kuruluşunuz, kişisel OneDrive hesabınızı bu bilgisayarla eşitlemenize izin vermiyor.";
+
+/* first run wizard progress text for screen readers */
+"FirstRunProgress0" = "OneDrive kurulumu yüzde sıfır oranında tamamlandı";
+"FirstRunProgress50" = "OneDrive kurulumu yüzde elli oranında tamamlandı";
+"FirstRunProgress75" = "OneDrive kurulumu yüzde yetmiş beş oranında tamamlandı";
+"FirstRunProgress100" = "OneDrive kurulumu yüzde yüz oranında tamamlandı";
+
+/* Title of the page that introduces OneDrive folder when running for the first time */
+"FirstRunIntroduceText" = "Bu Sizin OneDrive Klasörünüz";
+
+/* Title of the page that prompts for required folder when mounting for the first time */
+"FirstRunIntroduceRequiredPathText" = "Klasör Konumunu Onaylayın";
+
+/* Title of the page that introduces OneDrive folder when running for the first time. "Finder" should be translated the same way as in the Mac OSX */
+"FirstRunIntroduceDescriptiveText" = "Diğer cihazlardan erişmek ve bu Mac'te de bulundurmaya devam etmek için dosyaları buraya ekleyin.";
+
+/* Title of the adminstrative error that will be attached to the FirstRunIntroduceDescriptiveText */
+"FirstRunIntroduceDescriptiveTextWithError" = "Dosyaları buraya ekleyerek hem bu Mac'te tutmaya devam edin hem de bu dosyalara diğer cihazlardan da erişin. Yöneticiniz OneDrive klasörünün bu konumda olmasını gerektiriyor";
+
+/* Title of the page that prompts for access to required folder. */
+"SelectRequiredPathDescriptiveText:%@" = "Bu dosyaların eşitlenebilmesi için lütfen bu klasöre erişmemize izin verin: %@";
+
+/* This is for the button that allows users to change the root folder path. When clicked, it opens a browse window for users to select the root folder. */
+"FirstRunBrowseButtonText" = "Konumu Değiştir";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"FirstRunDoneIntroductionButtonText" = "İleri";
+
+/* This is for the button when user has never selected a root folder. */
+"FirstRunSelectFolderButtonText" = "OneDrive Klasör Konumunu Seçin";
+
+/* This is for the button when user has not yet confirmed our required folder. */
+"FirstRunSelectRequiredFolderButtonText" = "Klasör Konumunu Onaylayın";
+
+/* This is a prompt displayed in the file browse dialog. */
+"SelectRootFolderMessage" = "OneDrive klasörünüz için bir konum seçin";
+
+/* This is a prompt displayed in the file browse dialog to confirm required location. */
+"SelectRequiredFolderMessage" = "Seçili klasörü kullanın ve \"Konumu onayla\" seçeneğine tıklayın.";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"CreateRootFolderButton" = "Bu konumu seçin";
+
+/* This is for the confirmation button when user is done confirming the required folder. */
+"CreateRequiredFolderButton" = "Konumu onayla";
+
+/* This is for the text field to show currently selected root folder path. */
+"FirstRunShowFolderPathText:%@" = "%@ klasörünüz:";
+
+/* This is the alert dialog title when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootTitle:%@" = "%@ klasörünüzün konumunu bulamadık";
+
+/* This is the alert dialog body when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootMessage" = "OneDrive klasörünüz silinmiş olabilir veya harici bir sürücüdeyse, bu sürücü kaldırılmış olabilir. OneDrive klasörünüzü yeniden yapılandırmak için Tamam'a tıklayın.";
+
+/* This is the alert dialog button that allows user to reconfigure */
+"FirstRunUnconfiguredRootReconfigureButton" = "Tamam";
+
+/* This is the alert dialog button that allows user to quit the application */
+"FirstRunUnconfiguredRootQuitButton" = "OneDrive'dan çık";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is invalid */
+"InvalidMappingLocationMessageTitle" = "OneDrive klasörünüz seçtiğiniz konumda oluşturulamadı";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid. */
+"InvalidMappingLocationDetailedMessage" = "Farklı bir konum deneyin. Konumun, çıkarılabilir bir sürücüde veya büyük/küçük harfe duyarlı biçime sahip bir diskte yer almadığından emin olun.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location can't be used */
+"InvalidMappingLocationInUseTitle" = "OneDrive Klasörünüzü Bu Konumda Oluşturamıyoruz";
+
+/* This is a detailed explanation in the alert window telling users the selected folder is already used by another OneDrive account. */
+"InvalidMappingLocationInUseDetailedMessage" = "Bu konumda zaten başka bir OneDrive klasörü var. Lütfen farklı bir konum seçin.";
+
+/* This is a short text above detailed explaination in the alert window telling users to select the required path */
+"InvalidMappingRequiredPathMessageTitle" = "Eşitlemenin devam etmesi için, seçtiğiniz klasör konumunu onaylayın";
+
+/* This is a detailed explaination in the alert window telling users the selected location is not the required path. */
+"InvalidMappingRequiredPathDetailedMessage" = "Lütfen seçili konumu tutun ve Finder'da \"Konumu onayla\" seçeneğine tıklayın.";
+
+/* This is the button in the alert window that shows up when current location is not the required path. The button allows users to choose a new location */
+"InvalidMappingRequiredPathContinueButton" = "Devam Et";
+
+/* This is the button in the alert window that shows up when current location is invalid. The button allows users to choose a new location */
+"InvalidMappingLocationChooseButton" = "Yeni Konumu Seçin";
+
+/* This is the button in the alert window that shows up when current location is invalid. This button allows users to close the alert */
+"InvalidMappingLocationCancelButton" = "İptal";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty */
+"MappingLocationContainsFileMessageTitle" = "Bu klasörde zaten içerik var";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessage:%@" = "\"%@\" klasörünüz için bu konumu seçerseniz klasördeki içerik, OneDrive'ınızdaki içerikle birleştirilecek. Farklı bir konum seçebilir veya seçtiğiniz konumla devam edebilirsiniz";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessageWithDefaultFolder:%@" = "\"%@\" klasörünüz için bu konumu seçerseniz klasördeki içerik, OneDrive'ınızdaki içerikle birleştirilecek.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty {%1$@ is a folder name and %2$@ is its parent folder name } */
+"LibraryFolderMappingLocationContainsFileMessageTitle:%@,%@" = "\"%2$@\" klasörünüzde \"%1$@\" klasörü zaten var";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is not empty. { %1$@ is a folder name } */
+"LibraryFolderMappingLocationContainsFileDetailedMessage:%@" = "\"%1$@\" klasörünüz için bu konumu seçerseniz bu klasördeki dosyalar, buluttaki dosyalarla birleştirilecek. Eşitleme işlemi için seçili konumu kullanın veya yeni bir klasör belirleyin.";
+
+/* This is the button in the alert window that shows up when the folder location is not empty. This button allows users to continue anyway */
+"MappingLocationContainsFileContinueButton" = "Bu Konumu Kullan";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button allows users to choose a new location */
+"MappingLocationContainsFileChooseButton" = "Yeni Konumu Seçin";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button informs us to automatically create a new folder on behalf of the user. */
+"MappingLocationContainsFileCreateButton" = "Yeni bir Klasöre Eşitle";
+
+/* This is on top of the selective sync page in First Run Experience. */
+"FirstRunSelectiveSyncTitle" = "Yalnızca istediğiniz öğeleri eşitleyin";
+
+/* This is the description right below the title on top of the selective sync page. */
+"FirstRunSelectiveSyncDescription:%@" = "OneDrive%@ klasörünüze indirmek ve çevrimdışı olsanız bile erişmek istediğiniz öğeleri seçin.";
+
+/* This is the text on radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsTitle" = "OneDrive'ımdaki tüm dosyalar ve klasörler";
+
+/* This is the description text next to the radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsDescription" = "Sizinle paylaşılan dosyalar dışındaki tüm öğeler bu Mac ile eşitlenecek.";
+
+/* This is the text on radio button to choose to sync only some files */
+"FirstRunSelectiveSyncSomeItemsTitle" = "Eşitlenecek klasörleri seçin";
+
+/* This is the description text next to the radio button to choose to sync only some files. */
+"FirstRunSelectiveSyncSomeItemsDescription" = "Bu bilgisayarla eşitlenecek öğeleri seçmek için \"Bitti\"ye tıklayın.";
+
+/* This is the button text in the selective sync page */
+"FirstRunSelectiveSyncNextButtonText" = "İleri";
+
+/* This is the title text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncTitle" = "İsteğe Bağlı Dosyaları Etkinleştir";
+
+/* This is the description text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncDescription" = "İsteğe Bağlı Dosyalar seçeneklerini sağ tıklama bağlam menüsünde görüntülemek için OneDrive Finder Eşitleme Uzantısını etkinleştirmeniz gerekir. Uzantı Tercihlerini Aç'a tıklayın ve sonra OneDrive Finder uzantısını seçin.";
+
+/* This is the button text in the Enable Finder Sync page for the Enable button */
+"FirstRunEnableFinderSyncEnableButtonText" = "Uzantı Tercihlerini Aç";
+
+/* This is the button text in the Enable Finder Sync page for the Skip button */
+"FirstRunEnableFinderSyncSkipButtonText" = "Uzantıları Daha Sonra Etkinleştireceğim";
+
+/* This is on top of the Cloud Files Tutorial page in First Run Experience. */
+"FirstRunCloudFilesTutorialTitle" = "Tüm Dosyalarınız Her İstediğinizde Hazır";
+
+/* This is the description right below the title on top of the Cloud Files Tutorial page. */
+"FirstRunCloudFilesTutorialDescription" = "İsteğe Bağlı Dosyalar sayesinde Mac'inizde yer ayırmak zorunda kalmadan her şeye OneDrive'dan göz atabilirsiniz. Dosyalar ihtiyaç duyduğunuzda indirilir.";
+
+/* This is the header text in the Cloud Files Tutorial page for online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFiles" = "Yalnızca çevrimiçi dosyalar";
+
+/* This is the text in the Cloud Files Tutorial page describing online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFilesDescription" = "Yalnızca çevrimiçi dosyalar, siz açmadığınız sürece cihazınıza indirilmez.";
+
+/* This is the header text in the Cloud Files Tutorial page for locally available files. */
+"FirstRunCloudFilesTutorialHydratedFiles" = "Yerel olarak kullanılabilen dosyalar";
+
+/* This is the text in the Cloud Files Tutorial page describing locally available files. */
+"FirstRunCloudFilesTutorialHydratedFilesDescription" = "Açtığınız dosyalar cihazınıza indirildi ve çevrimdışı kullanılabilir.";
+
+/* This is the header text in the Cloud Files Tutorial page for always available files. */
+"FirstRunCloudFilesTutorialPinnedFiles" = "Her zaman kullanılabilen dosyalar";
+
+/* This is the text in the Cloud Files Tutorial page describing always available files. */
+"FirstRunCloudFilesTutorialPinnedFilesDescription" = "Her zaman (çevrimdışıyken bile) kullanmak istediğiniz dosyaları ve klasörleri işaretleyebilirsiniz.";
+
+/* This is the button text in the Cloud Files Tutorial page */
+"FirstRunCloudFilesTutorialNextButtonText" = "İleri";
+
+/* This is on top of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunTitle" = "OneDrive'ınız Hazır";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunDescription:%@" = "Dosyalarınızı indirerek bu Mac ile eşitleyeceğiz. OneDrive'a dosya eklemek için Finder'da dosyaları \"%@\" klasörüne taşımanız yeterlidir.";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience when Cloud Files on. */
+"FirstRunFinishFirstRunCloudFilesDescription:%@" = "OneDrive'ınız tam olarak ayarlandı ve kullanıma hazır. OneDrive'a eklemek için dosyaları Finder'da \"%@\" klasörüne taşımanız yeterlidir.";
+
+/* This is the text of the Open-at-login checkbox in the Finish First Run page (Done page) in First Run Experience */
+"FirstRunFinishFirstRunOpenAtLoginCheckboxText" = "Dosyalarımın otomatik olarak eşitlenmesi için oturum açıldığında başlat";
+
+/* This is the button text in the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunButtonText:%@" = "%@ klasörümü aç";
+
+// Settings folder access error
+
+/* This is the title text for dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorTitle" = "Ayalar klasörüne erişilemiyor";
+
+/* This is the descrption text for dialog we pop up when we cannot access settings folder {StrContains=\"Application Support\"} */
+"SettingsFolderErrorDescription" = "Lütfen Application Support klasörüne erişebildiğinizden emin olun.";
+
+/* This is the button to quit for the dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorQuitButtonText" = "OneDrive'dan çık";
+
+// Cloud device - used by SyncDevice.mm
+
+/* The name of the online storage */
+"CloudDevice" = "Eşitlenen OneDrive depolama alanı";
+
+
+// Folder status - used by ModelExtensions.mm
+
+/* Text shown on status menu when everything is in sync */
+"FolderStatusInSync" = "OneDrive güncel"; // Up to date
+
+/* Local folder convergence status against a remote folder is not known */
+"FolderStatusUnknown" = "Bilinmiyor";
+
+/* Uploading and downloading files. "Files" will always be plural. */
+"FolderStatusSendAndReceive:%@" = "%@ dosya aktarılıyor...";
+
+/* Uploading one file from a remote folder. We show the file name. */
+"FolderStatusSendingSingular:%@" = "%@ karşıya yükleniyor...";
+
+/* Uploading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusSendingPlural:%@" = "%@ dosya karşıya yükleniyor...";
+
+/* Downloading one file from a remote folder. We show the file name. */
+"FolderStatusReceivingSingular:%@" = "%@ indiriliyor...";
+
+/* Downloading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusReceivingPlural:%@" = "%@ dosya indiriliyor...";
+
+/* Processing downloaded files to be created in a local folder */
+"FolderStatusRealizing" = "İndirilen dosyalar işleniyor...";
+
+/* Processing local file changes to be uploaded */
+"FolderStatusHashing" = "Değişiklikler işleniyor...";
+
+/* Scanning file changes in a folder */
+"FolderStatusScanning" = "Dosyalar taranıyor...";
+
+/* Scanning file changes in a folde */
+"FolderStatusScanningExtended:%@" = "%@ taranıyor...";
+
+/* Processing changes to files */
+"FolderStatusMetadataXfer" = "Dosyalar işleniyor...";
+
+/* Waiting to resume file transfers (upload/download) */
+"FolderStatusBlocked" = "Eşitlenmesi bekleniyor";
+
+/* Status for a folder that is not syncing*/
+"FolderStatusUnmapped" = "OneDrive'ınız yapılandırılmamış";
+
+/* Waiting to resume donwloading of a single file. We show the file name. */
+"FolderStatusBlockedSingular:%@" = "%@ dosyasının alınması bekleniyor...";
+
+/* Waiting to resume donwloading files */
+"FolderStatusBlockedPlural:%@" = "%@ dosyanın alınması bekleniyor";
+
+/* Upload+Download Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB */
+"FolderStatusTransferProgress:%@,%@,%@,%@" = "%@ %@/%@ %@";
+
+/* Upload+Download+Rate Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB The third number shows the current transfer rate followed by its unit. */
+"FolderStatusTransferProgressNew:%@,%@,%@,%@,%@,%@" = "%@ %@/%@ %@. Aktarım hızı: %@ %@";
+
+/* Improve upload performance */
+"FasterUploadOption" = "Öğeleri toplu olarak karşıya yükleyerek, karşıya yükleme hızını artırın.\r\nBu seçenek daha fazla bant genişliği kullanır. İnternet bağlantınızla ilgili sorunla karşılaşırsanız bu seçeneğin işaretini kaldırın.";
+
+/* Available storage space. Example: 20 GB used out of 200 GB. This is used in the systray. */
+"StorageQuota:%@,%@" = "Toplam %2$@ alandan kullanılan: %1$@";
+
+/* Available storage space. Example: 20 GB of 200 GB cloud storage used. This is used in account tab of preference window to show GB on disk for personal account */
+"CloudStorageQuota:%@,%@" = "%2$@ bulut depolama alanının %1$@ kadarı kullanılıyor";
+
+/* Storage used on Mac. Example: 2 GB used on this Mac. This is used in account tab of preference window to show GB on disk for ODB */
+"StorageOnMac:%@" = "Bu Mac'te %@ kullanılıyor";
+
+// Device status - used by ModelExtensions.mm
+
+/* Drive status displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlocked" = "Dosyalar karşıya yüklenemiyor";
+
+/* Error description displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlockedVerbose" = "Tüm karşıya yükleme işlemleri bir dosya sorunu nedeniyle engelleniyor";
+
+// Device Location - used by ModelExtensions.mm
+
+/* Local device, i.e. this computer */
+"DeviceLocationLocal" = "Yerel";
+
+/* Remote device, e.g. another computer */
+"DeviceLocationRemote" = "Uzak";
+
+/* Cloud storage device, */
+"DeviceLocationCloud" = "Bulut";
+
+// Sync Issue Window
+
+/* "Problem" is a general term that includes both warnings and errors. Problem is singular. */
+"SyncIssueWindowTitleSingular:%@" = "%@ ile ilgili 1 sorun var";
+
+/* "Problem" is a general term that includes both warnings and errors. Problems is plural. */
+"SyncIssueWindowTitlePlural:%@,%@" = "%2$@ uygulamanızla ilgili %1$@ sorun var";
+
+/* The button is used to clear the issue list */
+"SyncIssueWindowClearButton" = "Temizle";
+
+/* Reveal is showing the item */
+"SyncIssueWindowOpenInFinderToolTip" = "Finder'da Göster";
+
+/* Tool tip for the button that removes an issue from issue window */
+"SyncIssueWindowIgnoreIssueToolTip" = "Bu sorunu yoksay";
+
+/* Text on status when there are more than 1 problems. "Problems" is always plural */
+"SyncIssueStatusPlural:%@" = "OneDrive'ınızla ilgili %@ sorun var";
+
+/* Text on status when there is a problem. problem is always singular */
+"SyncIssueStatusSingular" = "OneDrive'ınızla ilgili 1 sorun var";
+
+/* Tool tip for the button that opens issue resolver window */
+"SyncIssueWindowOpenIssueToolTip" = "Bu sorunu çözün";
+
+/* Primary text for error dialog with a file conflict for the file name. %@ is a file name */
+"SyncIssueAlertFileOnHoldPrimary:%@" = "\"%@\" için Dosya Çakışmasını çöz";
+
+/* Secondary text for error dialog. %@ is a machine name */
+"SyncIssueAlertFileOnHoldSecondary:%@" = "Her iki sürümdeki değişiklikleri birleştirmek veya tutmak istediğiniz dosyayı seçmek için dosyayı Office'te açabilirsiniz. Aksi takdirde her iki dosyayı tutabilirsiniz, bilgisayarınızdaki dosyanın adına \"-%@\" eklenir ve çevrimiçi dosya indirilir.";
+
+/* Primary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldMainButton" = "İki dosyayı da tut";
+
+/* Secondary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldSecondaryButton" = "Office'te aç";
+
+// Error description - used by ModelExtensions.mm
+
+/* error description used in issue window {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFilename" = "Lütfen dosya adını değiştirin. Dosya adı boşlukla başlayamaz veya bitemez, noktayla bitemez, iki tane noktayla başlayamaz veya şu karakterleri içeremez: \\ / : * ? \" < > | ";
+
+/* error description used in issue window  {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFoldername" = "Lütfen klasörün adını değiştirin. Klasör adı boşlukla başlayamaz veya bitemez, noktayla bitemez, iki tane noktayla başlayamaz veya şu karakterleri içeremez: \\ / : * ? \" < > | ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionFilePathTooLong" = "Dosya yolu bilgisayarınızda depolanamayacak kadar uzun";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionCloudAccessDenied:%@" = "Bu dosya \"%@\" konumunda salt okunur";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionDocumentCheckedOut" = "Bu dosya başka biri tarafından kullanıma alınmış.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionServerFileConflict:%@" = "Bir öğe \"%@\" konumuna yüklenemedi";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionExcludedItem:%@" = "Bir öğe \"%@\" konumuna yüklenemedi";
+
+/* error description used in issue window %1$@ is a size like 10 GB, %2$@ is a string like "OneDrive - Microsoft" */
+"SyncErrorShortDescriptionFileTooBig:%@,%@" = "\"%2$@\" konumuna %1$@ boyutundan büyük dosyaları yükleyemezsiniz";
+
+/* Use "OneNote" unless there's a localized name for it {Locked=!cs, sk;\"OneNote\"} */
+"SyncErrorShortDescriptionOnenoteDeleted:%@" = "OneNote dosyalarının kısayolları \"%@\" klasörünüzden silinemiyor. OneDrive'a gidip bunları web'den silmek için tıklayın.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionItemCantFitInQuota:%@" = "\"%@\" uygulamanızda kalan kota, dosya veya klasör ve içeriği için yeterli değil";
+
+/* item means either folder or file */
+"SyncErrorShortDescriptionItemLimitExceeded:%@" = "\"%@\" içinde çok fazla dosya var. Lütfen gerekli olmayan dosyaları kaldırın.";
+
+/* The user choose to unsync files/folders but we are unable to delete it. item means either folder or file */
+"SyncErrorShortDescriptionUnmappedContentPresent:%@" = "Bu ada sahip bir dosya veya klasör, \"%@\" uygulamasında aynı konumda çevrimiçi olarak zaten var. Lütfen dosyayı veya klasörü yeniden adlandırın.";
+
+/* error description used when Office files have edit-edit conflicts and they cannot be merged */
+"SyncErrorShortDescriptionFileOnHold" = "Office dosyasındaki değişiklikler birleştirilemedi. Çözmek için ok simgesine tıklayın.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaCritical:%@,%@" = "%1$@, %2$@ dolu";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaCritical:%@,%@" = "%1$@, yalnızca %2$@ kullanılabilir alana sahip.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaExceeded:%@" = "%@ içinde boş alan yok";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaExceeded" = "OneDrive klasörünüzü eşitlenmiş halde tutmak için daha fazla depolama alanı satın alın veya gerekli olmayan dosyaları silin.";
+
+/* error description used in issue window for business accounts */
+"CloudIssueShortDescriptionQuotaExceeded_Business" = "Daha fazla bilgi için BT bölümünüze başvurun veya dosyaları kaldırarak yer açın.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleThrottling" = "OneDrive şu anda dosyaları aktaramıyor";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionThrottling" = "Lütfen yarın tekrar deneyin.";
+
+// Status menu - used by StatusMenuController.mm
+
+/* No comments provided by engineer */
+"StatusMenuTitle" = "Yönet";
+
+/* The status menu item text that leads to more menu items */
+"StatusMoreMenu" = "Diğer";
+
+/* Text for status menu item that opens the folder containing deleted OneDrive files */
+"StatusMenuItemLaunchRecycleBin" = "OneDrive geri dönüşüm kutusu";
+
+/* Status menu item to allow the user to open the dialog for sharing file/folder */
+"StatusMenuItemShare" = "Dosya veya klasör paylaş...";
+
+/* Text for the status menu item which opens the OneDrive folder when clicked*/
+"StatusMenuItemOpenLocalFolder" = "OneDrive Klasörünü Aç";
+
+/* Text for the status menu item which opens the named folder when clicked  */
+"StatusMenuItemOpenNamedFolder: %@" = "%@ Klasörünü Aç";
+
+/* Status menu item that opens browser with Upgrade account page */
+"StatusMenuItemUpgrade" = "Yükselt";
+
+/* Text for the status menu item which opens a browser to OneDrive website for storage manage */
+"StatusMenuItemManageStorage" = "Depolama Alanını Yönet";
+
+/* Status menu item that when clicked will launch a page with user's premium features */
+"StatusMenuItemManagePremium" = "Premium Özelliklerim";
+
+/* Text for the status menu item which opens a browser to OneDrive website homepage */
+"StatusMenuItemLaunchWebsite" = "OneDrive.com'a Git";
+
+/* The status menu item that allows user to open OneDrive help site. It will likely launch a browser to a website */
+"StatusMenuItemLaunchHelp" = "Yardım";
+
+/* The status menu item that allows user to open OneDrive feedback. It will likely launch a browser to a website */
+"StatusMenuItemFeedback" = "Geri bildirim";
+
+/* The status menu item that allows a user to open the Parature support dialog. */
+"StatusMenuItemReportIssue" = "Sorun Bildir";
+
+/* Status shown on the status menu when everything is up to date */
+"StatusMenuItemUpToDate" = "OneDrive güncel";
+
+/* Status shown on the status menu to indicate last updated time in seconds */
+"StatusMenuItemLastUpToDateTimeSecondsAgo" = "En son birkaç dakika önce güncelleştirildi";
+
+/* Status shown on the status menu to indicate last updated time was one minute ago */
+"StatusMenuItemLastUpToDateTimeOneMinuteAgo" = "En son 1 dakika önce güncelleştirildi";
+
+/* Status shown on the status menu to indicate last updated time was minutes ago */
+"StatusMenuItemLastUpToDateTimeMinutesAgo:%d" = "En son %d dakika önce güncelleştirildi";
+
+/* Status shown on the status menu to indicate last updated time was one hour ago */
+"StatusMenuItemLastUpToDateTimeOneHourAgo" = "En son 1 saat önce güncelleştirildi";
+
+/* Status shown on the status menu to indicate last updated time was hours ago */
+"StatusMenuItemLastUpToDateTimeHoursAgo:%d" = "En son %d saat önce güncelleştirildi";
+
+/* Status shown on the status menu to indicate last updated time on a date */
+"StatusMenuItemLastUpToDateTimeDaysAgo:%@" = "Son güncelleştirme: %@";
+
+/* No comments provided by engineer */
+"StatusMenuItemViewActivity" = "Son etkinliği görüntüle";
+
+/* Status menu entry for opening the issue window */
+"StatusMenuItemViewIssues" = "Eşitleme sorunlarını görüntülemek için buraya tıklayın";
+
+/* Status shown on the status menu when downloading a file */
+"StatusMenuItemSyncCountSingularDownload: %@" = "%@ indiriliyor";
+
+/* Status shown on the status menu when uploading a file */
+"StatusMenuItemSyncCountSingularUpload: %@" = "%@ karşıya yükleniyor";
+
+/* Status shown on the status menu when downloading or uploading more than one file */
+"StatusMenuItemSyncCount-%d" = "%d öğe aktarılıyor...";
+
+/* Text for status menu item that opens the preference. It should be translated the same way as all app menu's Preferences item. */
+"StatusMenuItemPreferences" = "Tercihler";
+
+/* Text for preference window accessibility label. %1$@ is the current tab name */
+"AccessibilityPreferencesWindowLabel:%@" = "Tercihler %1$@";
+
+/* Text for status menu item that pauses syncing. */
+"StatusMenuItemPause" = "Eşitlemeyi Duraklat";
+
+/* Text for status menu item that resumes syncing when paused. */
+"StatusMenuItemResume" = "Eşitlemeyi Sürdür";
+
+/* Text for status menu item that indicates to pause for 1 hour. */
+"StatusMenuItemPauseTimerSingular" = "1 Saat";
+
+/* Text for status menu item that indicates to pause for a number of hours. %1$@ is a number representing hours. */
+"StatusMenuItemPauseTimerPlural" = "%1$@ Saat";
+
+/* Text for status menu item that quits the app */
+"StatusMenuItemQuit" = "OneDrive'dan çık";
+
+/* Loading user data when signing-in */
+"StatusMenuItemLoading" = "Yükleniyor...";
+
+/* OneDrive is at initial start up */
+"StatusMenuItemStarting" = "OneDrive başlatılıyor";
+
+/* OneDrive is showing first run wizard */
+"StatusMenuItemSetup" = "OneDrive'ı ayarla";
+
+/* Waiting for user input to migrate their Sandbox data */
+"StatusMenuItemMigration" = "Kullanıcı verilerinin geçişi yapılıyor...";
+
+/* Text for status menu item that signs out the app */
+"StatusMenuItemSignOut" = "Oturumu Kapat";
+
+/* Launch the application automatically after login to OS */
+"StatusMenuItemOpenAtLogin" = "Oturumu Açıldığında Başlat";
+
+/* Status menu item that when clicked will launch the live sit for the account that is connected */
+"StatusMenuItemViewOnline" = "Çevrimiçi görüntüle";
+
+// Quit Dialog
+
+/* Title text for dialog shown when user is quitting OneDrive */
+"QuitDialogHeader" = "OneDrive'dan çıkılsın mı?";
+
+/* Body text for dialog shown when user is quitting OneDrive */
+"QuitDialogDescription" = "OneDrive'dan çıkarsanız OneDrive klasörünüzdeki dosyalar çevrimiçi dosyalarınızla eşitlenmez.";
+
+/* Title text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogHeaderUploadsPending" = "OneDrive'dan çıkılsın ve Dosyaları Karşıya Yükleme işlemi durdurulsun mu?";
+
+/* Body text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogDescriptionUploadsPending" = "OneDrive'dan çıkarsanız OneDrive klasörünüzdeki dosyaların karşıya yüklenme işlemi, uygulama yeniden başlatılana kadar tamamlanmaz.";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will quit OneDrive. */
+"QuitDialogButtonDefault" = "OneDrive'dan çık";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will dismiss dialog. */
+"QuitDialogCancelButton" = "İptal";
+
+// Dock Menu - used by DockMenuController.mm
+
+/* No comments provided by engineer */
+"DockMenuTitle" = "OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemOpenLocalFolder" = "OneDrive klasörünü aç";
+
+/* No comments provided by engineer */
+"DockMenuItemLaunchWebsite" = "OneDrive.com'a Git";
+
+// Login Failures - used by SignInViewController.mm
+
+/* When we are unable to retrieve a user's tenant name, we will use this to show "OneDrive - Business" */
+"DefaultTenantName" = "İş";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"InvalidUsernameTitleText" = "OneDrive'da oturum açılamıyor.";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the explaination text in the dialog {StrContains=\"example555@hotmail.com\"} */
+"InvalidUsernameDescriptionText" = "Lütfen Microsoft Hesabınızı şu biçimde girin: example555@hotmail.com.";
+
+/* When we receive an invalid web request, we show this text as the first line of the dialog. */
+"InvalidWebRequestTitle" = "Ne yazık ki eşitleme istemcisi açılamadı";
+
+/* When we receive an invalid web request, we show this text as the body text of the dialog. */
+"InvalidWebRequestBody" = "URL işlenemedi. Yardım almak için lütfen desteğe başvurun.";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailTitle" = "Oturumunuz açılırken bir sorun oluştu";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailText" = "Oturumunuz açılırken bir sorun oluştu. Lütfen yeniden deneyin. Microsoft Hesabınızın ve parolanızın doğru olduğundan ve bilgisayarınızın İnternet'e bağlı olduğundan emin olun.";
+
+/* When we have connectivity error during sign in, we pop up a dialog and this is the first line of the text in the dialog*/
+"SignInConnectivityErrorTitleText" = "OneDrive'a bağlanılırken bir sorun oluştu";
+
+/* When we have connecctivity error during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInConnectivityErrorDescriptionText" = "İnternet bağlantınızı denetleyip tekrar deneyin.";
+
+/* When we fail to access the keychain during sign in, we pop up a dialog and this is the first line of text in the dialog. */
+"SignInKeychainErrorTitleText" = "Anahtarlığınıza erişirken bir sorun oluştu";
+
+/* when we fail to access the keychain during sign in, we pop up a dialog and this is the detailed text in the dialog. */
+"SignInKeychainErrorDescriptionText" = "Lütfen oturum açma anahtarlığının mevcut olup olmadığını ve OneDrive'ın buna erişip erişemediğini denetleyin. İstendiğinde OneDrive'ın anahtarlığınıza erişmesine izin verin.";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the first line of the text in the dialog */
+"SignInCredentialErrorTitleText" = "OneDrive'a bağlanılırken bir sorun oluştu";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInCredentialErrorDescriptionText" = "İnternet bağlantınızı denetleyip tekrar deneyin.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SuspendedAccountTitleText" = "OneDrive'da oturum açılamıyor.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the explaination text in the dialog */
+"SuspendedAccountDescriptionText" = "Hesabınız askıya alındı.";
+
+/* When we get a user using a non-beta enabled account, we show this error title. */
+"SignInNoBetaText" = "OneDrive'da oturum açılamıyor.";
+
+/* When we get a user using a non-beta enabled account, we show this error description. {StrContains=\"Windows Live\"} */
+"SignInNoBetaDescriptionText" = "Bu hesap Windows Live beta programı için etkinleştirilmedi.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnknownErrorTitle" = "Oturumunuz açılırken bir sorun oluştu";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnknownErrorText" = "Lütfen birkaç dakika sonra tekrar deneyin.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLError500Title" = "Oturumunuz açılırken bir sorun oluştu";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLError500Text" = "Ne yazık ki OneDrive ile ilgili bir sorun oluştu. Lütfen birkaç dakika sonra tekrar deneyin.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInterruptedErrorTitle" = "Oturumunuz açılırken bir sorun oluştu";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInterruptedErrorText" = "Hesabınızla ilgili bir sorun var. Sorunu nasıl düzetebileceğinizi öğrenmek için lütfen hizmet web sitesinde oturum açın. Sorunu düzelttikten sonra yeniden deneyin.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnauthorizedErrorTitle" = "Oturumunuz açılırken bir sorun oluştu";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnauthorizedErrorText" = "Ne yazık ki OneDrive ile ilgili bir sorun oluştu. Lütfen birkaç dakika sonra tekrar deneyin.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidClientErrorTitle" = "Oturumunuz açılırken bir sorun oluştu";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidClientErrorText" = "Ne yazık ki OneDrive ile ilgili bir sorun oluştu. Lütfen birkaç dakika sonra tekrar deneyin.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidGrantErrorTitle" = "Oturumunuz açılırken bir sorun oluştu";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidGrantErrorText" = "Ne yazık ki OneDrive ile ilgili bir sorun oluştu. Lütfen birkaç dakika sonra tekrar deneyin.";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the title. */
+"SignInURLSPOUserNotFoundTitle" = "OneDrive'ınız ayarlanmadı";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the error text. */
+"SignInURLSPOUserNotFoundErrorText" = "Yardım için BT bölümünüze başvurun.";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the title */
+"SignInURLUserThrottledErrorTitle" = "Bu Mac'te OneDrive'ı ayarlayamadık";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the error text. */
+"SignInURLUserThrottledErrorText" = "Ne yazık ki OneDrive'da yüksek düzeyde veri trafiği var. Lütfen daha sonra yeniden deneyin.";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the title. */
+"SignInURLEmailMismatchTitle" = "Başarıyla eşitlemek için burada web'de kullandığınız e-posta adresini kullanın";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the error text. */
+"SignInURLEmailMismatchErrorText:%@" = "Lütfen bu içeriği eşitlemeye başlamak için %@ ile oturum açın.";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to try signing in again. */
+"SignInTryAgainButtonText" = "Yeniden dene";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive*/
+"SignInQuitButtonText" = "OneDrive'dan çık";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive */
+"SignInCloseButtonText" = "Kapat";
+
+/* This text is displayed in sign in dialog while we load signing in page */
+"SignInPageLoadingText" = "Yükleniyor...";
+
+/* This text is used for voice over while we load signing in page */
+"SignInPageLoadingVoiceOverText" = "OneDrive yüklenirken lütfen bekleyin.";
+
+/* This text is displayed in sign in dialog while we are signing in the user */
+"SignInProgressingText" = "Oturum açılıyor...";
+
+/* This text is used for voice over while we are signing in the user */
+"SignInProgressingVoiceOverText" = "OneDrive'da oturum açılırken lütfen bekleyin.";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the title. */
+"SignInDuplicateSyncErrorTitle" = "Bu hesabı zaten eşitliyorsunuz";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the text. */
+"SignInDuplicateSyncErrorText:%@" = "%@ klasörünüzü açın veya farklı bir hesapla oturum açın.";
+
+/* When the userconnected service returns an error, this is the title */
+"SignInUserConnectedErrorTitle" = "OneDrive'a bağlanılırken bir sorun oluştu";
+
+/* When the userconnected service returns error: "AccessDenied". This is the error text. */
+"SignInUserConnectedAccessDeniedText" = "Bu hizmete erişiminiz yok. Yardım için lütfen BT bölümünüze başvurun";
+
+/* When the userconnected service returns error: "AccountSuspended". This is the error text. */
+"SignInUserConnectedAccountSuspendedText" = "Hesabınız engellenmiş. Yardım için BT bölümünüze başvurun";
+
+/* When the userconnected service returns error: "InvalidUserData". This is the error text. */
+"SignInUserConnectedInvalidUserDataText" = "Hizmet bağlantısı kurulamadı. Yardım için BT bölümünüze başvurun";
+
+/* When the userconnected service returns error: "MissingLicense". This is the error text. */
+"SignInUserConnectedMissingLicenseText" = "Bu hizmete erişmek için farklı bir lisansa ihtiyacınız var. Yardım için BT bölümünüze başvurun";
+
+/* When the userconnected service returns error: "ProvisioningFailed". This is the error text. */
+"SignInUserConnectedProvisioningFailedText" = "OneDrive'ınız ayarlanmamış. Yardım için BT bölümünüze başvurun";
+
+/* When the userconnected service returns error: "Throttled". This is the error text. */
+"SignInUserConnectedThrottledText" = "Hizmet şu anda çok fazla istek alıyor. Lütfen birkaç dakika sonra yeniden deneyin";
+
+/* When the userconnected service returns error: "Timeout". This is the error text. */
+"SignInUserConnectedTimeoutText" = "Hizmetin yanıt vermesi çok uzun sürüyor. Lütfen birkaç dakika sonra yeniden deneyin";
+
+/* When the userconnected service returns error: "Unknown". This is the error text. */
+"SignInUserConnectedUnknownText" = "Lütfen birkaç dakika sonra yeniden deneyin veya sorun devam ederse BT bölümünüze başvurun";
+
+/* When the userconnected service returns error: "UnreachableHost". This is the error text. */
+"SignInUserConnectedUnreachableHostText" = "Hizmet geçici olarak kullanılamıyor. Lütfen birkaç dakika sonra yeniden deneyin";
+
+/* When the userconnected service returns error: "UserNotFound". This is the error text. */
+"SignInUserConnectedUserNotFoundText" = "Hesabınızla ilgili bir sorun var. Yardım için BT bölümünüze başvurun";
+
+/* When the userconnected service returns error: "NoTeamSitePermission". This is the error text. */
+"SignInUserConnectedNoTeamSitePermText" = "Bu SharePoint sitesine erişiminiz yok. Yardım için BT bölümünüze başvurun";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error. This is the title. */
+"SignInUserAlreadyLoadedErrorTitle" = "Farklı bir hesabı eşitliyorsunuz";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error.
+   Depending on whether we know which email the user is signed in with, either show the specific or the generic message below. This is the text. */
+"SignInUserAlreadyLoadedErrorEmailSpecificText:%@" = "Oturum açtığınız hesap, eşitlediğiniz hesapla eşleşmiyor. Lütfen \"%@\" için parolayı girin. Başka bir hesap eklemek için Tercihler bölümüne gidin ve ardından Hesap sekmesine tıklayıp \"Hesap Ekle\" seçeneğini belirleyin";
+
+"SignInUserAlreadyLoadedErrorGenericText" = "Oturum açtığınız hesap, eşitlediğiniz hesapla eşleşmiyor. Başka bir hesap eklemek için Tercihler bölümüne gidin ve ardından Hesap sekmesine tıklayıp \"Hesap Ekle\" seçeneğini belirleyin";
+
+/* When MSA user is already syncing with account A, and tries to sign in with account B when prompted for creds. Depending on whether the e-mail address is available or not, we show the specific or generic message below. This is the text */
+ "SignInUserAlreadyLoadedErrorMSAEmailSpecificText:%@" = "Oturum açtığınız hesap, eşitlediğiniz hesapla eşleşmiyor. Lütfen \"%@\" için parolayı girin.";
+
+ "SignInUserAlreadyLoadedErrorMSAGenericText" = "Oturum açtığınız hesap, eşitlediğiniz hesapla eşleşmiyor.";
+
+/* When an unknown error occurs that has not been handled. This is the title. */
+"SignInUnknownErrorTitle" = "Oturumunuz açılırken bir sorun oluştu";
+
+/* When an unknown error occurs that has not been handled. This is the text. */
+"SignInUnknownErrorText" = "Lütfen birkaç dakika sonra yeniden deneyin veya sorun devam ederse BT bölümünüze başvurun";
+
+// Preferences - used by PreferenceController.mm
+
+/* This is the text on preference window toolbar for Preferences. */
+"PreferenceGeneralItem" = "Tercihler";
+
+/* This is the text that encloses General area in preference window. */
+"PreferenceGeneralGroupBoxText" = "Genel";
+
+/* This is the text on preference window check box. When user checks this option, it allows OneDrive to start when user login. */
+"PreferenceStartAtLoginCheckBoxText" = "Oturumu Açıldığında Başlat";
+
+/* This is the description for enable OnPrem telemetry checkbox. */
+"PrivacyCheckBoxText" = "Hata raporlarını ve kullanım istatistiklerini Microsoft'a gönder";
+
+/* This is the description when OneDrive is at the wrong location. "Applications" should be localized the same way as the OS. */
+"OpenAtLoginDisabledExplaination" = "Bu ayarı kullanabilmek için OneDrive'dan çıkın, OneDrive uygulamasını Uygulamalar klasörünüze taşıyarak OneDrive'ı yeniden açın.";
+
+/* This is the text on preference window check box. When user checks this option, OneDrive icon is removed from the Dock. Note "Dock" is capital D */
+"PreferenceHideDockIconText" = "Dock simgesini gizle";
+
+/* This is the text for a preference window check box. When the user checks this option we will automatically save screenshots any time they take a screenshot. */
+"PreferenceEnableScreenCaptureUpload" = "Ekran görüntülerini OneDrive'a kaydet";
+
+/* This will be displayed when a user running a store build attempts to enable the screen capture
+ * feature. Due to app store limitations, the user is forced to select their desktop folder. This
+ * message will be displayed within the file open dialog in order to help the user understand what
+ * selection they are required to make in the file open dialog. */
+"PreferenceEnableScreenCaptureUploadOpenDialogMessage" = "Ekran görüntülerinizi OneDrive'a otomatik olarak kaydetmek için lütfen Masaüstü klasörünüzü seçin.";
+
+/* This is the text on preference window check box. When user checks this option, we will not show share/edit notifications */
+"PreferenceDisplayShareEditNotificationsCheckBoxText" = "Paylaşma ve düzenlemeyle ilgili bildirimleri görüntüle";
+
+/* This is the text on preference window toolbar for About. */
+"PreferenceAboutItem" = "Hakkında";
+
+/* This is the text that encloses about area in preference window. */
+"PreferenceAboutGroupBoxText" = "Microsoft OneDrive Hakkında";
+
+/* This is the text that shows version. */
+"PreferenceVersionText:%@" = "Sürüm %@";
+
+/* This is the text that shows version for standalone. */
+"PreferenceStandaloneVersionText:%@" = "Sürüm %@ (Tek Başına)";
+
+/* This is the text that encloses "more info" area in preference window. */
+"PreferenceMoreInfoGroupBoxText" = "Daha fazla bilgi";
+
+/* This is the text that opens help in browser. */
+"PreferenceGetHelpText" = "OneDrive için Yardım Alın";
+
+/* This is the text that opens privacy statement in browser. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"PreferencePrivacyStatementText" = "Gizlilik ve Tanımlama Bilgileri";
+
+/* This is the text that opens server status in browser. */
+"PreferenceServerStatusText" = "Hizmet Durumu";
+
+/* This is the text that opens Terms of Use in browser. */
+"PreferenceTermsOfUseText" = "Kullanım Koşulları";
+
+/* This is the text on the button in preference window that opens the manage storage page on browser */
+"PreferenceManageStorageButtonText" = "Depolama Alanını Yönet";
+
+/* This is the text on the button that unlinks OneDrive in preference window. */
+"PreferenceUnlinkButtonText" = "Bu Mac'in bağlantısını kaldır";
+
+/* This is the title text on the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertMessageTitle" = "Bu Mac'te hesabın bağlantısı kaldırılsın mı?";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for consumer accounts. */
+"PreferenceUnlinkAlertDetailedMessage" = "OneDrive dosyalarınız eşitlenmeyecek. Dosyaların bir kopyası bu Mac'te kalacak.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for business accounts. */
+"PreferenceUnlinkAlertDetailedMessageBusiness:%@" = "Hesapla (%@) ilişkilendirilmiş iş içerikleriniz bundan sonra eşitlenmeyecek. Dosyaların bir kopyası bu Mac'te kalacak.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for last library unsynced. %1$@ is a folder name, %2$@ is an email address */
+"PreferenceUnlinkLastLibraryAlertDetailedMessage:%@,%@" = "%1$@, eşitlenen son klasörünüz. Bu klasörün eşitlemesini durdurursanız %2$@ hesabınızın bağlantısı kesilecek. Bu dosyaların bir kopyası bu Mac'te kalacak.";
+
+/* This is the text on the confirm button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertConfirmButton" = "Hesabın Bağlantısını Kaldır";
+
+/* This is the text on the cancel button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertCancelButton" = "İptal";
+
+/* This is the text on the button that resets OneDrive in preference window. */
+"PreferenceResetButtonText" = "OneDrive'ı Sıfırla";
+
+/* This is the text on preference window toolbar for account. */
+"PreferenceAccountItem" = "Hesap";
+
+/* This is the text that tells users how to sync down only selected folders in preference window. */
+"PreferenceSelectiveSyncDescription" = "Seçtiğiniz klasörler bu Mac'te kullanılabilecek.";
+
+/* This is the text that encloses "Choose folders" area in preference window. */
+"PreferenceFolderGroupBoxText" = "Klasör Seçin";
+
+/* This is the button that opens up advanced selective sync in preference window. */
+"PreferenceSelectFoldersButton" = "Klasör Seçin";
+
+/* This is the text on the the preference window toolbar for network. */
+"PreferenceNetworkItem" = "Ağ";
+
+/* This is the text on the Upload box. */
+"PreferenceUploadBox" = "Karşıya Yükleme Hızı";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceNoLimit" = "Sınırlama";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimit" = "Otomatik Olarak Ayarla";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimitByAdmin" = "Otomatik Olarak Ayarla (Kuruluşunuz Tarafından Yönetilir)";
+
+/* This is the text on the radio button that does limit bandwidth. */
+"PreferenceCustomLimit" = "Sınırla:";
+
+/* This is the text on the Download box. */
+"PreferenceDownloadBox" = "İndirme Hızı";
+
+/* This is the text on the box to enable the Files On-Demand feature. */
+"PreferenceCloudFilesEnableBox" = "İsteğe Bağlı Dosyalar";
+
+/* This is the description for the Files On-Demand box. */
+"PreferenceCloudFilesDescription" = "İsteğe Bağlı Dosyalar, dosyaları yalnızca kullandığınızda indirerek bilgisayarınızda yer açmanızı sağlar.";
+
+/* Button text in Files On-Demand box. Clicking this button turns on the feature. */
+"PreferenceCloudFilesEnable" = "İsteğe Bağlı Dosyaları Etkinleştir";
+
+/* Button text in Files On-Demand box. Clicking this button turns off the feature. */
+"PreferenceCloudFilesDisable" = "İsteğe Bağlı Dosyaları Devre Dışı Bırak";
+
+/* Link in the Files On-Demand box. Clicking this link will launch a webpage with more information. */
+/* Also resued in local mass delete delete confirmed ACM. */
+"PreferenceCloudFilesMoreInfo" = "Daha Fazla Bilgi";
+
+/* This is the title text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertMessageTitle" = "İsteğe Bağlı Dosyalar devre dışı bırakılsın mı?";
+
+/* This is the body text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertDetailedMessage" = "Tüm OneDrive dosyaları ve klasörleri bu Mac'e indirilecek.";
+
+/* This is the text on the confirm button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertConfirmButton" = "Tamam";
+
+/* This is the text on the cancel button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertCancelButton" = "İptal";
+
+/* This is the button text to display the Blocked Applications list. */
+"PreferenceBlockedAppButtonText" = "Uygulamaları Yönet";
+
+/* This is the description for the Hydrating Applications pane. */
+"PreferenceHydratingAppDescription" = "Mac, OneDrive'daki yalnızca çevrimiçi olan dosyaları, bu dosyaları isteyen uygulamalar için otomatik olarak indirebilir.";
+
+/* This is the description for the Blocked Applications box. */
+"PreferenceBlockedAppDescription" = "Şu uygulamaların OneDrive'dan otomatik olarak dosya indirmesi engellenir:";
+
+/* This is the description for the checkbox that allows user to control whether they see a hydration notification toast. */
+"PreferenceNotifyHydratingAppCheckbox" = "Bir uygulama OneDrive'dan dosya indirdiğinde bunu bana bildir";
+
+/* This is the header of the table listing Blocked Applications */
+"PreferenceBlockedAppTableHeader" = "Uygulamalar";
+
+/* Label for the button to close the Blocked Applications list */
+"PreferenceBlockedAppCloseButtonLabel" = "Kapat";
+
+/* Prompt for user to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationPrompt" = "Otomatik olarak dosya indirmesini engellemek istediğiniz uygulamaları seçin";
+
+/* Header for error when unable to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationErrorHeader" = "Seçim Eklenemedi";
+
+/* Body for error when unable to add an application to the Blocked Applications list*/
+"PreferenceBlockedAppAddApplicationErrorBody" = "Yalnızca uygulamaların OneDrive dosyalarını otomatik olarak indirmesi engellenebilir. Lütfen bir uygulama seçin ve yeniden deneyin.";
+
+// Preferences - Advanced Selective Sync Page
+
+/* This is the text on the top of advanced selective sync sheet. */
+"AdvancedSelectiveSyncTitle" = "OneDrive'ınızdaki Dosyaları Eşitleyin";
+
+/* This is the text on the top of advanced selective sync sheet when Cloud Files on. */
+"AdvancedSelectiveSyncTitleCloudFiles" = "Klasör Seçin";
+
+/* This is the text under the title of advanced selective sync sheet. */
+"AdvancedSelectiveSyncDescription:%@" = "\"%@\" klasörünüze indirmek istediğiniz öğeleri seçin. Bu öğelere çevrimdışı olsanız bile erişebilirsiniz.";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page. */
+"AdvancedSelectiveSyncDescriptionPreferences" = "Eşitlediğiniz dosyalar bu Mac'te yer kaplayacak";
+
+/* This is the text in advanced selective sync sheet to sync everything. */
+"AdvancedSelectiveSyncAll" = "OneDrive'ımdaki tüm dosyaları ve klasörleri eşitle";
+
+/* This is the text in advanced selective sync sheet to sync everything under a team site. */
+"AdvancedSelectiveSyncAllTeamSite:%@" = "%@ konumundaki tüm dosyaları ve klasörleri eşitle";
+
+/* This is the text in advanced selective sync sheet to sync only some files. */
+"AdvancedSelectiveSyncSome" = "Veya yalnızca şu klasörleri eşitle:";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page and Cloud Files enabled. */
+"AdvancedSelectiveSyncDescriptionCloudFiles" = "\"%@\" klasörünüzde kullanmak istediğiniz dosyaları seçin. Bu dosyalar isteğe bağlı olarak kullanılabilir. Seçilmeyen klasörler Finder'dan gizlenir.";
+
+/* This is the text in advanced selective sync sheet to sync everything when Cloud Files is enabled. */
+"AdvancedSelectiveSyncAllCloudFiles" = "Tüm dosyaları kullanılabilir yap";
+
+/* This is the text in advanced selective sync sheet to sync only some files when Cloud Files is enabled. */
+"AdvancedSelectiveSyncSomeCloudFiles" = "Veya şu klasörleri görünür yap:";
+
+/* This is the text on the file group item in the tree view. %@ is for folder names. ie "puppies", "Cute Kittens". */
+"AdvancedSelectiveSyncFileGroupItem:%@" = "\"%@\" klasöründeki dosyalar";
+
+/* This is the text on the root's file group item in the tree view. */
+"AdvancedSelectiveSyncFileGroupItemRoot" = "Klasörde olmayan dosyalar";
+
+/* This is the text on the advanced selective sync sheet for the local path on Mac. */
+"AdvancedSelectiveSyncMacLocationText" = "Mac'inizdeki konum:";
+
+/* This is the button text on the advanced selective sync sheet for start sync. */
+"AdvancedSelectiveSyncStartSyncButtonText" = "Eşitlemeyi Başlat";
+
+/* This is the button text on the advanced selective sync sheet for confirmation. */
+"AdvancedSelectiveSyncConfirmButtonText" = "Tamam";
+
+/* This is the button text on the advanced selective sync sheet for cancelling out. */
+"AdvancedSelectiveSyncCancelButtonText" = "İptal";
+
+/* This is the text at the middle of advanced selective sync sheet when loading. */
+"AdvancedSelectiveSyncLoading" = "Yükleniyor...";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoading:%@" = "%@ içindeki klasör listesini alamadık.\nBu iletişim kutusunu kapatıp yeniden deneyin.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders during FRE. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoadingFRE" = "Klasör listeniz görüntülenirken bir sorun oluştu. Devam ederseniz tüm dosyalarınızı ve klasörlerinizi şimdilik eşitleyeceğiz, ancak bunu daha sonra Tercihler bölümünden değiştirebilirsiniz.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to provision error. */
+"AdvancedSelectiveSyncFailedLoadingWithProvisionError" = "Hesabınızı ayarlamaya devam ettiğimizden klasör listenizi görüntüleyemiyoruz. Tüm dosyaları ve klasörleri eşitleyeceğiz, ancak bunu daha sonra Tercihler bölümünden değiştirebilirsiniz.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to offline error*/
+"AdvancedSelectiveSyncFailedLoadingWithOfflineError" = "OneDrive'a bağlanılamadığından klasör listeniz görüntülenemedi. İnternet bağlantınızı denetleyip tekrar deneyin.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to auth error. */
+"AdvancedSelectiveSyncFailedLoadingWithAuthError" = "Hesabınızla ilgili bir sorun olduğundan klasör listeniz görüntülenemedi. Lütfen OneDrive'dan çıkış yapın ve tekrar oturum açın.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to having no files and folders. */
+"AdvancedSelectiveSyncFailedLoadingWithNoFileError" = "OneDrive'ınız boş. OneDrive'a daha sonra eklediğiniz dosyaları eşitlemek için \"OneDrive'ımdaki tüm dosyalar ve klasörler\" seçeneğini belirleyin.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnote" = "Eşitlemeyi durdurduğunuzda dosyalarınız veya klasörleriniz OneDrive'da bulunmaya devam eder, ancak bu Mac'te bulunmaz. Dosyalar veya klasörler zaten bu Mac'teyse, silinir.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnoteCloudFiles" = "Mac'inizdeki bu klasörleri gizlerseniz dosyalar OneDrive'da kalır, ancak bu Mac'te kullanılamaz. Bu klasördeki tüm öğeler bu Mac'ten silinir.";
+    
+/* This is the title text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingTitle" = "Değişiklikleriniz uygulanırken bir sorun oluştu";
+
+/* This is the description text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingDescription:%@" = "%@ ile eşitlemek istediğiniz klasör listesini kaydedemedik. Lütfen yeniden deneyin.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingConfirm" = "Kapat";
+
+/* This is the title text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingTitle" = "Ne yazık ki bu Mac'te eşitlenecek klasörleri değiştirirken bir sorun oluştu";
+
+/* This is the description text in the alert sheet after we fail to set selective sync because syncengine is busy*/
+"AdvancedSelectiveSyncBusySettingDescription" = "Eşitlenmesini durdurmaya çalıştığınız öğelerden bazıları henüz OneDrive'da değil. Lütfen bunların karşıya yüklenmesini bekleyin, varsa eşitleme sorunlarını düzeltin ve sonra tekrar değişiklik yapmayı deneyin.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingConfirm" = "Kapat";
+
+/* This is the text indicating the total size of all selected files and folders. The placeholder is the size and the unit.
+ Examples: Selected: 20 MB */
+"AdvancedSelectiveSyncFilesSelected:%@" = "Seçilen: %@";
+
+/* This is the text indicating the remaining space on disk. The first item is the disk. The second item is the size and the unit.
+ Examples: Remaining space on Macintosh HD: 20 GB */
+"AdvancedSelectiveSyncAvailableSpace:%@,%@" = "%1$@ üzerinde kalan alan: %2$@";
+
+/* This is the description text for selectively syncing folders */
+"AdvancedSelectiveSyncSyncOnlyTheseFolderTitle" = "Yalnızca bu klasörleri eşitle";
+
+/* This is the text shown when calculating the selected and remaining disk space */
+"AdvancedSelectiveSyncLoadingTitle" = "Hesaplanıyor...";
+
+/* This is the text shown when content already syncing */
+"AdvancedSelectiveSyncAlreadySyncingWarning" = "Bu içeriği zaten eşitliyorsunuz.";
+
+/* This is the text shown when the teamsite that will be synced is read-only. */
+"AdvancedSelectiveSyncReadOnlyWarning" = "Bu site salt okunur. Bu sitedeki dosya veya klasörlerde değişiklik yapamazsınız.";
+
+/* This is the text for add an account button in the account tab of preference window */
+"AddAccountButtonText" = "Hesap ekle";
+
+/* This is the text for teamsite box in account tab of preference window (singular) */
+"PreferenceTeamSiteGroupBoxText" = "1 Konum Eşitleniyor";
+
+/* This is the text for teamsite box in account tab of preference window (plural) */
+"PreferenceTeamSiteGroupBoxText:%d" = "%d Konum Eşitleniyor";
+
+/* This is the text shown when not syncing ODB in account tab of preference window */
+"PreferenceNotSyncingQuotaText" = "Eşitlenmiyor";
+
+/* This is the text for start sync button for ODB in account tab of preference window */
+"PreferenceStartSyncButton" = "Eşitlemeyi Başlat";
+
+/* This is the text for stop sync button for each team site library in account tab of preference window */
+"PreferenceStopSyncButton" = "Eşitlemeyi Durdur";
+
+/* This is the title text in the dialog that stops syncing a teamsite in preference window. */
+"PreferenceStopSyncAlertMessageTitle:%@" = "%@ Eşitleme işlemi durdurulsun mu?";
+
+/* This is the body text in the dialog that unlinks OneDrive in preference window. */
+"PreferenceStopSyncAlertDetailedMessage:%@" = "%@ eşitlemeyi durduracak. Dosyaların bir kopyası bu Mac'te kalacak.";
+
+/* This is the text on the confirm button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertConfirmButton" = "Eşitlemeyi Durdur";
+
+/* This is the text on the cancel button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertCancelButton" = "İptal";
+
+/* This is the title of the notifications we show after a team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationTitle:%@" = "Şu anda \"%1$@\" klasörünü eşitliyorsunuz";
+
+/* This is the body of the notification we show after a read-only team site has been succesfully connected (initial sync). */
+"TeamSiteNotificationReadOnlyBody" = "Bu site salt okunur. Dosyalarınızı görüntülemek için buraya tıklayın.";
+
+/* This is the body of the notification we show after an editable team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationEditableBody:%@" = "\"%1$@\" klasöründeki dosyaları düzenleyebilirsiniz. Dosyalarınızı görüntülemek için buraya tıklayın.";
+
+/* This is the title of the notification we show after a previously connected, editable team site has become read-only. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingReadOnlyTitle:%@" = "\"%1$@\" artık salt okunur.";
+
+/* This is the body of the notification we show after a previously connected, editable team site has become read-only. */
+"TeamSiteNotificationAlreadySyncingReadOnlyBody" = "Bu sitenin izinleri değiştirildiğinden dosya veya klasörleri düzenleyemezsiniz.";
+
+/* This is the title of the notification we show after a previously connected, read-only team site has become editable. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingEditableTitle:%@" = "Artık \"%1$@\" içinde değişiklik yapabilirsiniz";
+
+/* This is the body of the notification we show after a previously connected, read-only team site has become editable. */
+"TeamSiteNotificationAlreadySyncingEditableBody" = "Değişiklikler siteye yüklenir.";
+
+/* This is the body of the notification we show after a team site has been succesfully connected. Permissions of the site are not indicated for this toast. %1$@ is a folder name. */
+"TeamSiteMountNotificationBody:%@" = "\"%1$@\" dosyalarınız bu Mac ile eşitleniyor. Dosyalarınızı görüntülemek için buraya tıklayın.";
+
+/* This is the title of the notifications we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingHeader:%@" = "Şu anda \"%1$@\" klasörünü zaten eşitliyorsunuz";
+
+/* This is the body of the notification we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingBody:%@" = "\"%1$@\" bu cihazda zaten eşitleniyor. Dosyalarınızı görüntülemek için buraya tıklayın.";
+
+/* Error dialog title for dialogs that stop the user from syncing On Prem because the front door URL is missing or ramp is off. */
+"CannotSyncOnPremTitle" = "Ne yazık ki bu klasörü eşitleyemedik";
+
+/* Body text for when we can't sync on Prem because its ramped off. */
+"OnPremSyncNotEnabledBody" = "Şirket içi SharePoint klasörlerini eşitlemeyi desteklemiyoruz.";
+
+/* Body text for when we can't sync On Prem because the front door URL is not configured. */
+"OnPremFrontDoorUrlNotSetBody" = "BT yöneticinizle iletişime geçerek, şirket içi SharePoint klasörlerinin eşitlenmesi için OneDrive'ı yapılandırmasını isteyin.";
+
+/* Title text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfiguredTitle" = "OneDrive Oturumu Açılamadı";
+
+/* Body text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfigured" = "Kimlik bilgilerinizle ilgili bir sorun var. Ticket Viewer uygulamasını başlatmayı ve sonra kimliğinizi eklemeyi veya yeniden oturum açmayı deneyin. Yardım için BT bölümünüzle iletişim kurun.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. */
+"NewHostMountConsentTitle" = "OneDrive'ın Eşitlenmesine İzin Verilsin mi?";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. %1$@ is the mount point's domain and %2$@ is the user's username. */
+"NewHostMountConsentMessage:%@,%@" = "%2$@ hesabınızla yeni bir konumdan (%1$@) eşitlemeye çalışıyorsunuz. Yalnızca bu konuma güveniyorsanız dosyaları eşitleyin.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, give consent */
+"NewHostMountConsentGiveConsentButton" = "İzin ver";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, deny consent */
+"NewHostMountConsentDenyConsentButton" = "İptal";
+
+// Sync Engine errors - used by coreController.mm. These are built manually, so straight searching won't work.
+
+/* This is the title text shown on the popup dialog when we detect a new version of the client is available */
+"SyncEngineError:OldClientVersion Title" = "Bu OneDrive sürümü güncel değil.";
+
+/* This is the text shown on the popup dialog when we detect a new version of the client is available*/
+"SyncEngineError:OldClientVersion Message" = "Lütfen Mac App Store'u ziyaret ederek Mac için OneDrive'ı en son sürüme güncelleştirin.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:OldClientVersion DefaultButton" = "Çık";
+
+/* No comments provided by engineer */
+"SyncEngineError:PUIDFlip Title" = "Cihazınızı tanımlayamıyoruz.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:PUIDFlip Message" = "Lütfen eşitlenen klasörlerinizdeki tüm dosyaları yedekleyin. Ardından bu sorunu OneDrive forumlarında bildirmek için http://g.live.com/0ELHP_MEREN/266 sayfasını ziyaret edin. Bu hata metnini forum gönderinize ekleyin.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:PUIDFlip DefaultButton" = "Çık";
+
+/* No comments provided by engineer */
+"SyncEngineError:DiskFull Title" = "Sabit diskiniz dolmak üzere.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:DiskFull Message" = "OneDrive'ı kullanmaya devam etmek için lütfen daha fazla alan boşaltın.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:DiskFull DefaultButton" = "Çık";
+
+/* This is shown when resign-in is required for MSA account*/
+"SyncEngineError:ForceSignIn Title" = "Oturum açmadınız";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn Message" = "Dosyalarınız güncel olmayabilir. Eşitlemeyi tekrar başlatmak için kimlik bilgilerinizi yeniden girin.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn DefaultButton" = "Tamam";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Title" = "İnternet bağlantınızla ilgili bir sorun olabilir.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Message" = "Bilgisayarınızın İnternet'e bağlı olduğundan emin olun ve yeniden deneyin.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure DefaultButton" = "Tamam";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Title" = "Ne yazık ki OneDrive ile ilgili bir sorun oluştu.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Message" = "Lütfen OneDrive'ı yeniden başlatın.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:TerminateCore DefaultButton" = "Çık";
+
+/* No comments provided by engineer*/
+"SyncEngineError:ServerError Title" = "Ne yazık ki OneDrive sunucularında bir sorun var.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ServerError Message" = "Lütfen birkaç dakika sonra tekrar deneyin.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:ServerError DefaultButton" = "Çık";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Title" = "Ne yazık ki hesabınızla ilgili bir sorun var gibi görünüyor. Bu sorunu nasıl düzeltebileceğinizi öğrenmek için OneDrive.com'a gidip oturum açın. Sorunu düzelttikten sonra yeniden deneyin";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Message" = "Lütfen müşteri desteğine başvurun.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:AccessDenied DefaultButton" = "Çık";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Title" = "Ne yazık ki OneDrive ile ilgili bir sorun oluştu.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Message" = "Lütfen OneDrive'dan çıkın, bilgisayarınızın İnternet'e bağlı olduğundan emin olun ve ardından uygulamayı yeniden başlatın.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:Unknown DefaultButton" = "Çık";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid %1$@ is a library name. */
+"SyncEngineError:RootScopeNotFound Title:%@" = "\"%1$@\" kitaplığınız web üzerinde yeniden oluşturuldu";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid*/
+"SyncEngineError:RootScopeNotFound Message" = "Kitaplığı bu Mac'te yeniden ayarlamak için \"OneDrive'ı Yeniden Yapılandır\" seçeneğine tıklayın.";
+
+/* Text for button in error dialog to reconfigure OneDrive*/
+"SyncEngineError:ButtonText ReconfigureButton" = "OneDrive'ı Yeniden Yapılandır";
+
+/* Message title in error dialog when a folder not found and drive is present. %1$@ is a folder name, %2$@ is its local path */
+"SyncError:MissingFolder Title:%@,%@" = "\"%1$@\" klasörünüzü %2$@ konumunda bulamadık";
+
+/* Message in error dialog when the root folder is deleted. %@ is a folder name. */
+"SyncError:RootFolderDeleted Message:%@" = "\"%@\" klasörünüzü yeniden ayarlamak için \"OneDrive'dan Çık\" veya \"OneDrive'ı Ayarla\" seçeneğine tıklayın.";
+
+/* Message in error dialog when folder is not found while re-mapping and drive is present */
+"SyncError:MissingFolder Message" = "Bu klasörün bu konumda bulunduğundan emin olun ve \"Yeniden Dene\" seçeneğine veya bu klasörü eşitlemeyi durdurmak için \"Eşitlemeyi Durdur\" seçeneğine tıklayın.";
+
+/* Message in error dialog when mounted folder not found while re-mapping. %@ is an email address */
+"SyncError:MissingMountedFolder SetUpMessage:%@" = "Klasörün bu konumda bulunduğundan emin olun ve \"Yeniden Dene\" seçeneğine tıklayın. %@ hesabınızı yeniden ayarlamak için \"OneDrive'ı Ayarla\" seçeneğine tıklayın.";
+
+/* Message title in error dialog when there's a problem with the root folder */
+"SyncError:RootFolderError Title:%@" = "%@ klasörü bulunamıyor.";
+
+/* Message in error dialog when there's a problem with the root folder. %@ is a folder name. */
+"SyncError:RootFolderError Message:%@" = "\"%@\" klasörünüzü yeniden ayarlamak için \"OneDrive'dan Çık\" veya \"OneDrive'ı Ayarla\" seçeneğine tıklayın.";
+
+/* Text for button in error dialog to restart application when there's a problem with the root folder */
+"SyncError:RootFolderError DefaultButton" = "OneDrive'ı yeniden başlat";
+
+/* Message title in error dialog when OD found but creation doesn't match the DB. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:FolderMismatch Title:%@,%@" = "%2$@ konumundaki \"%1$@\" klasörü, özgün \"%1$@\" klasörünüz değil";
+
+/* Message in error dialog when OD found but creation doesn't match the DB. %@ is a folder name. */
+"SyncError:RootFolderMismatch Message:%@"= "Özgün klasörü bu tekrar bu konuma taşıyıp \"Yeniden Dene\"seçeneğine tıklayın veya \"%@\" klasörünüzü yeniden ayarlamak için \"OneDrive'ı Ayarla\" seçeneğine tıklayın.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB */
+"SyncError:MountedFolderMismatch Message" = "Özgün klasörü tekrar bu konuma taşıyıp \"Yeniden dene\" seçeneğine veya bu klasörü eşitlemeyi durdurmak için \"Eşitlemeyi durdur\" seçeneğine tıklayın.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB. %@ is an email address */
+"SyncError:MountedFolderMismatch SetUpMessage:%@" = "Özgün klasörü bu yeniden konuma taşıyıp \"Yeniden Dene\" seçeneğine tıklayın. %@ hesabınızı yeniden ayarlamak için \"OneDrive'ı Ayarla\" seçeneğine tıklayın.";
+
+/* Message in error dialog when library is deemed unreachable */
+"SyncError:UnreachableLibrary Title" = "Kitaplığa erişilemiyor";
+
+/* Message in error dialog when library is deemed unreachable {%@ is library name }*/
+"SyncError:UnreachableLibrary Message:%@" = "%@ geçici olarak kullanılamıyor. Lütfen ağ bağlantınızı denetleyin ve birkaç dakika sonra yeniden deneyin veya BT yöneticinizle iletişim kurun.";
+
+/* Message title in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Title" = "Yolu çok uzun olduğundan bu öğeyi eşitleyemiyoruz";
+
+/* Message in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Message:%@" = "Yol çok uzun olduğundan dosya veya klasör indirilemiyor. Lütfen OneDrive'dan çıkarak web tarayıcısında OneDrive İş'e gidin ve ardından adı veya yolu kısaltın: \r\n\"%@\"\r\n\r\nOneDrive'ınızı Mac'inizde farklı bir konumda eşitlemek için Kurulumu Çalıştır'a tıklayın.";
+
+/* Message in error dialog when the max file path limit is reached for a local file */
+"SyncError:LocalMaxPath Message:%@" = "Yol çok uzun olduğundan dosya veya klasör karşıya yüklenemiyor. Lütfen OneDrive'dan çıkın ve ardından adı veya yolu kısaltın:\r\n\"%@\"\r\n\r\nOneDrive'ınızı Mac'inizde farklı bir konumda eşitlemek için Kurulumu Çalıştır'a tıklayın.";
+
+/* Message used in several error dialogs. %@ is an email address */
+"Error:ExitOrSetUpMessage:%@" = "\"OneDrive'dan Çık\" seçeneğine veya %@ hesabınızı yeniden ayarlamak için \"OneDrive'ı Ayarla\" seçeneğine tıklayın.";
+
+/* Text for button in error dialog to exit application when max path length is reached */
+"SyncError:MaxPathLength DefaultButton" = "OneDrive'dan çık";
+
+/* Text for button in error dialog to run FRE when max path length is reached */
+"SyncError:MaxPathLength AlternateButton" = "Kurulumu Çalıştır";
+
+/* Message title in error dialog when the root folder volume is removed. %@ is a folder name.  */
+"SyncError:DriveVolumeRemovedNoVolume Title:%@" = "\"%@\" klasörünüz bulunamıyor";
+
+/* Message in error dialog when the root folder volume is removed. %@ is a folder name. */
+"SyncError:DriveVolumeRemovedNoVolume Message:%@" = "\"%@\" klasörünüzün konumu bulunamadı. Lütfen klasörü silmediğinizden emin olun. OneDrive klasörünüz harici bir sürücüdeyse, bu sürücünün bağlı olduğundan emin olun.";
+
+/* Text for button in error dialog to restart application when the root folder volume is removed */
+"SyncError:DriveVolumeRemoved DefaultButton" = "OneDrive'ı yeniden başlat";
+
+/* Message title in error dialog when drive containing OD could not be found. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:MissingDrive Title:%@,%@" = "%2$@ konumundaki \"%1$@\" klasörünüze erişemiyoruz";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingNoneRemovableDrive Message:%@" = "%1$@ sürücünüzün Finder'da kullanılabildiğinden emin olun ve \"Yeniden Dene\" seçeneğine veya bu klasörü eşitlemeyi durdurmak için \"Eşitlemeyi Durdur\" seçeneğine tıklayın.";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingNoneRemovableDrive SetUpMessage:%@,%@" = "%2$@ hesabınızı yeniden ayarlamak için %1$@ sürücünüzün Finder'da kullanılabildiğinden emin olun ve sonra \"Yeniden Dene\" veya \"OneDrive'ı Ayarla\" seçeneğine tıklayın.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingRemovableDrive Message:%@" = "%@ sürücüsünün çıkarılabilir bir sürücü olduğunu algıladık. Sürücünün bağlı olduğundan ve Finder'da kullanılabildiğinden emin olun, \"Yeniden Dene\" seçeneğine veya bu klasörü eşitlemeyi durdurmak için \"Eşitlemeyi Durdur\" seçeneğine tıklayın.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingRemovableDrive SetUpMessage:%@,%@" = "%1$@ sürücüsünün çıkarılabilir bir sürücü olduğunu algıladık. %2$@ hesabınızı yeniden ayarlamak için sürücünün bağlı olduğundan ve Finder'da kullanılabildiğinden emin olun, sonra \"Yeniden Dene\" veya \"OneDrive'ı Ayarla\" seçeneğine tıklayın.";
+
+/* Message title in error dialog indicating library cannot be synced, used in ClientNotAllowed, UnsupportedLibrary and DisableSync errors */
+"SyncError:LibraryCannotSync:%@" = "%@ Klasörünüzü eşitleyemiyoruz";
+
+/* Message in error dialog when sync is disabled because domain is not "whitelisted" */
+"SyncError:ClientNotAllowed Message" = "BT Bölümünüz, bu klasörü eşitlemek için, onaylanmış etki alanına katılmış bir bilgisayar kullanmanızı istiyor. Yardım almak için BT bölümünüze başvurun.";
+
+/* Message in error dialog when the library is unsupported */
+"SyncError:UnsupportedLibrary Message" = "BT bölümünüz bu klasörü eşitlemenizi engelleyen bir değişiklik yaptı. Daha fazla bilgi edinmek için lütfen BT bölümünüze başvurun.";
+
+/* Message in error dialog when sync is disabled */
+"SyncError:DisableSync Message" = "Kuruluşunuz bu klasörün eşitlenmesine izin vermiyor. Daha fazla bilgi edinmek için BT bölümünüze başvurun.";
+
+/* Title in balloon tip for when the folder was removed remotely during mount. %@ is the name of the folder being mounted. */
+"SyncError:FolderRemovedRemotelyDuringMount Title:%@" = "\"%@\" artık bu konumda yok";
+
+/* Message in balloon tip for when the folder was removed remotely during mount */
+"SyncError:FolderRemovedRemotelyDuringMount Message" = "Bu klasör taşınmış veya silinmiş olabilir.";
+
+/* Title in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them the folder has been deleted. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Title:%@" = "\"%@\" silinmiş";
+
+/* Message in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them a copy of the files will be left on the Mac. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Message:%@" = "\"%@\" klasörünün eşitlenmesi durdurulacak. Dosyaların bir kopyası bu Mac'te kalacak.";
+
+/* Title in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them they no longer have permissions to sync it. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Title:%@" = "Artık \"%@\" klasörünü eşitlemek için izniniz yok";
+
+/* Message in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them the files have been removed from the Mac. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Message:%@" = "\"%@\", Mac'inizden kaldırılmış.";
+
+/* Title to show if add folder failed. %@ is a folder name. */
+"AddMountedFolderError Title:%@" = "\"%@\" klasörünüzü eşitleyemiyoruz";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorTryAgain:%@" = "Şu anda \"%@\" klasörünüzü ekleyemiyoruz. Lütfen yeniden deneyin.";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorContactSupport:%@" = "Şu anda \"%@\" klasörünüzü ekleyemiyoruz. Lütfen desteğe başvurun.";
+
+/* Text for Try Again button, used in error dialogs. */
+"TryAgainButtonText" = "Yeniden Dene";
+
+/* Text for Stop Sync button, used in error dialogs. */
+"StopSyncButtonText" = "Eşitlemeyi Durdur";
+
+/* Text for Set Up OneDrive button, used in error dialogs. */
+"SetUpDriveButtonText" = "OneDrive'ı Ayarla";
+
+/* Text for Exit OneDrive button, used in error dialogs. */
+"ExitOneDriveButtonText" = "OneDrive'dan çık";
+
+// About box - used by coreController.mm
+
+/* Application name displayed in the about dialog */
+"AboutApplicationName" = "Microsoft® OneDrive";
+
+/* Copyright info for the updated about dialog */
+"CopyrightText" = "© 2018 Microsoft Corporation. Tüm hakları saklıdır.";
+
+/* Third Party Notices */
+"ThirdPartyNotices" = "Üçüncü Taraf Bildirimleri";
+
+// Menu Items
+
+/* Text for menu item to open the online help website */
+"MainMenuOnlineHelpMenuItemText" = "OneDrive Çevrimiçi Yardım";
+
+/* Text for menu item to open the service agreement website */
+"MainMenuServiceAgreementMenuItemText" = "Kullanım Koşulları";
+
+/* Text for menu item to open the private agreement website. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"MainMenuPrivacyAgreementMenuItemText" = "Gizlilik ve Tanımlama Bilgileri";
+
+/* Text for menu item to open the server status website */
+"MainMenuServerStatusMenuItemText" = "Sunucu Durumu";
+
+// Manifest failures
+
+/* Main text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureTitle" = "OneDrive başlatılamıyor";
+
+/* Informative text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureMessage" = "Uygulama dosyalarınızla ilgili bir sorun var. Lütfen uygulamayı bu bilgisayara indirerek yeniden deneyin.";
+
+/* Quit button for the message box which explains the application is corrupt and must exit now */
+"ManifestValidationFailureQuitButton" = "OneDrive'dan çık";
+
+// Updater
+
+/* Message title in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableTitle" = "OneDrive'ın güncelleştirilmesi gerekiyor.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableMessage" = "OneDrive'ı kullanmaya devam etmek için bir güncelleştirme yüklemeniz gerekiyor.";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreRequiredUpdateAvailableOpenInAppStoreButton" = "Güncelleştirmeyi edinin";
+
+/* Text in button which quits the application */
+"AppStoreRequiredUpdateAvailableCloseButton" = "OneDrive'dan çık";
+
+/* Message title in dialog when there is an optional update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableTitle" = "OneDrive için bir güncelleştirme var.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableMessage" = "Güncelleştirmeyi indirmek ister misiniz?";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreOptionalUpdateAvailableOpenInAppStoreButton" = "Güncelleştirmeyi edinin";
+
+/* Text in button which quits the application */
+"AppStoreOptionalUpdateAvailableCloseButton" = "Hayır, Teşekkürler";
+
+// Standalone migration
+
+/* Title for dialog shown to a user in a Mac App Store (MAS) migration downgrade scenario.
+ (When a user installs a lower version of Standalone on top of a higher version of Store) */
+"MASMigrationDowngradeScenarioTitle" = "OneDrive Ayarlarınızı Taşıyamıyor";
+
+/* Message for dialog shown to a user in a MAS migration downgrade scenario, informing them of their options */
+"MASMigrationDowngradeScenarioMessage" = "Uygulamanız güncel olmadığından ayarlarınız taşınamıyor. Lütfen en son sürümü indirip yükleyin. Diğer bir seçenek olarak OneDrive'ı yeniden ayarlayabilirsiniz.";
+
+/* Later button for dialog shown to a user in a MAS migration downgrade scenario. The button will exit the client so the user may launch it again to retry the update later */
+"MASMigrationDowngradeScenarioLaterButton" = "Daha Sonra";
+
+/* Download button for dialog shown to a user in a MAS migration downgrade scenario. The button will trigger a download of the latest version of Standalone OneDrive */
+"MASMigrationDowngradeScenarioDownloadButton" = "İndir ve Yükle";
+
+/* Set Up OneDrive button for dialog shown to a user in a MAS migration downgrade scenario. The button will cause OneDrive to drop the user's Store settings and show FRE so the user can re-configure their OneDrive for Standalone */
+"MASMigrationDowngradeScenarioResetupOneDriveButton" = "OneDrive'ı Ayarla";
+
+// Sandbox migration
+
+/* Text in button to select and confirm where the OneDrive folder is */
+"SandboxMigrationConfirmButton" = "Konumu Onaylayın";
+
+/* Text in button to quit the OneDrive application */
+"SandboxMigrationQuitButton" = "OneDrive'dan çık";
+
+/* Bold text summarizing that the user needs to confirm where the OneDrive folder is */
+"SandboxMigrationTitle" = "Lütfen OneDrive klasörünüzün konumunu onaylayın";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationText" = "OneDrive'ı kullanmaya devam etmek için OneDrive klasörünüzün Mac'inizdeki konumunu onaylamanız gerekir.";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationWindowTitle:%@" = "%@ Klasörünün Konumunu Doğrulayın";
+
+/* Text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderMessage" = "Lütfen OneDrive klasörünüzü onaylayın.";
+
+/* Button text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderButton" = "Onayla";
+
+/* Title text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderTitle" = "Mevcut OneDrive klasörünüzü kullanmayı durdurmak istediğinizden emin misiniz?";
+
+/* Descriptive text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderMessage" = "Yeni bir konum seçmek için OneDrive Kurulumunu Çalıştır'a tıklayın. OneDrive'ınızdaki tüm öğeler yeni bir OneDrive klasörüne indirilir. Mevcut OneDrive klasörünüzü kullanmaya devam etmek için, Geri Git'e tıklayın ve klasörü seçin.";
+
+/* Button text to pick a different folder */
+"SandboxMigrationConfirmDifferentFolderGoBackButton" = "Geri Dön";
+
+/* Button text to continue on and reconfigure OneDrive */
+"SandboxMigrationConfirmDifferentFolderQuitButton" = "OneDrive Kurulumunu Çalıştır";
+
+/* Text for alerting invalid app bundle location */
+
+/* Title text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertTitle" = "OneDrive uygulamasının Uygulamalar klasöründe bulunması gerekiyor.";
+
+/* Description text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertDescription" = "Lütfen OneDrive'dan çıkın, OneDrive uygulamasını Uygulamalar klasörünüze taşıyarak OneDrive'ı yeniden açın.";
+
+/* Button text to exit in the invalid app location alert */
+"InvalidBundleLocationAlertButtonText" = "OneDrive'dan çık";
+
+
+/* ---------------------------- Support Window ------------------- */
+/* OK Button */
+"SupportWindowOkButton" = "Tamam";
+
+/* Cancel Button*/
+"SupportWindowCancelButton" = "İptal";
+
+/* Try Again Button */
+"SupportWindowTryAgainButton" = "Yeniden Dene";
+
+/* Header string for Support Window */
+"SuportWindowReportProblem" = "Sorun Bildir";
+
+/* Subheading of support window that gives instructions on what to type */
+"SuportWindowTicketSubheading" = "OneDrive'ınızla ilgili bir sorunla karşılaştığınız için özür dileriz. Sorunu tanılamamıza yardımcı olmak için lütfen sorunla ve sorun oluştuğunda yaptığınız işlemlerle ilgili mümkün olduğu kadar bilgi verin.";
+
+/* Header to the textbox in the support window */
+"SupportWindowDescription" = "Açıklama:";
+
+/* String at the bottom of the support window - right below the text field where the user types */
+"SupportWindowContactWarning" = "\"Tamam\"a tıklayarak Microsoft'un sizinle bu geri bildirim hakkında iletişim kurmasına izin vermiş olursunuz.";
+
+/* Link to privacy statement - very bottom of support dialog. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"SupportWindowPrivacyStatement" = "Gizlilik ve Tanımlama Bilgileri";
+
+/* Text below the progress bar while the support text is being sent */
+"SupportWindowSending" = "Gönderiliyor...";
+
+/* Success message for when the support text was successfully sent */
+"SupportSuccessMessage:%@" = "Zaman ayırarak, OneDrive'da karşılaştığınız sorunu bize bildirdiğiniz için teşekkür ederiz. E-postanızı (%@), iletinizi aldığımıza ilişkin onay için denetleyin.";
+
+/* Error message for when the report was no sucessfully sent. Contains a hyperlink designated by <a> and </a> */
+"SupportErrorMessage" = "Ne yazık ki iletiniz gönderilirken bir sorun oluştu. Lütfen İnternet bağlantınızı denetleyin ve tekrar deneyin. Ayrıca <a>desteğe başvurarak</a> sorununuzu bildirebilirsiniz.";
+
+/* Text for email text field label shown in the support window */
+"SupportWindowEmailLabel" = "E-posta Adresi:";
+/* ----------------------------------------------------------------- */
+
+// App store related strings
+
+/* Apple app store description for OneDrive Mac client */
+"StoreDescription" = "OneDrive ile hayatınızdaki her şey tek bir yerde. OneDrive, tüm kişisel dosyalarınız için ücretsiz çevrimiçi depolama alanı sunar, böylece dosyalara Mac'inizden veya kullandığınız diğer cihazlardan (iPhone, iPad, PC, Windows Phone veya Android cihaz) erişebilirsiniz. OneDrive İş ile iş dosyalarınız için de depolama alanına sahip olursunuz, böylece dosyalarınızı paylaşabilir ve dosyalar üzerinde iş yerindeki veya okuldaki diğer kullanıcılarla işbirliği yapabilirsiniz. Mac için OneDrive uygulaması, Mac'inizde OneDrive dosyalarınız üzerinde kolayca çalışmanızı sağlar:\r\n•Outlook.com'dan OneDrive'a kaydettiğiniz ekler ile Office Online'da oluşturduğunuz belgeler ve elektronik tablolar dahil tüm OneDrive dosyalarınıza doğrudan Finder'dan erişin.\r\n•Çevrimdışıyken bile OneDrive dosyalarınızla çalışın. Çevrimiçi olduğunuzda değişiklikleriniz otomatik olarak eşitlenir.\r\n•OneDrive'dan, Mac'inizle eşitlemek istediğiniz klasörleri seçin.\r\n•OneDrive klasörüne sürükleyerek aynı anda birden çok dosya veya klasörü OneDrive'a ekleyin. Dosyalarınızı OneDrive'da depolayarak, bunlara her yerden erişme olanağı elde eder ve bilgisayarınızla ilgili bir sorun olduğunda dosyaların yedeğine sahip olursunuz.\r\n•OneDrive'daki belgeleri ve diğer dosyaları Word veya Excel gibi uygulamalardan kolayca açın, düzenleyin ve oluşturun. Paylaşılan klasörleri OneDrive.com'daki Paylaşılan listesinden OneDrive'ınıza ekleyin ve sonra bunları bilgisayarınızla eşitleyip kendi klasörlerinizle birlikte üzerlerinde çalışın.";
+
+/* Pool of generic localized Strings to use for update description */
+"GenericUpdateDescription" = "Eşitleme güvenilirliğiyle ilgili hatalar düzeltildi. Uygulama güvenilirliği iyileştirildi. Eşitleme performansı iyileştirildi. Pil tüketimi iyileştirildi.";
+
+"GenericStoreUpdate" = "OneDrive'ı kullandığınız için teşekkürler. En iyi deneyimi sağlamak üzere son performans iyileştirmelerini ve hata düzeltmelerini sunmak için OneDrive'ı her zaman güncelleştirmeye çalışıyoruz.";
+
+"R16String" = "Tarifeli ağda bant genişliği kullanımı konusunda endişeli misiniz? OneDrive'ı Duraklatma özelliği eklendi. Duraklatma seçeneğine '...' menüsünden erişebilirsiniz.";
+
+"R18String" = "OneDrive'ı kullandığınız için teşekkür ederiz. En son performans iyileştirmeleri ve hata düzeltmelerini sağlayan her zamanki güncelleştirmelerimizin yanı sıra, kullanıcılarımıza aşamalı olarak sunacağımız yeni özellikler şunlardır:\nKlasörün paylaşılıp paylaşılmadığını belirten yeni yer paylaşımları.\nEkran görüntüsü artık OneDrive'a yönlendirilebilir.";
+
+"R19String" = "OneDrive'ı kullandığınız için teşekkür ederiz. En son performans iyileştirmeleri ve hata düzeltmelerini sağlayan her zamanki güncelleştirmelerimizin yanı sıra, kullanıcılarımıza aşamalı olarak sunacağımız yeni özellikler şunlardır:\nBilgisayarınızla eşitlenmiş bir Office belgesi açtığınızda, belge gerçek zamanlı işbirliğine hazır olur.\nBilgisayarla eşitlenmiş Office belgeleri, Office uygulamalarının içinden paylaşılabilir.\nArtık OneDrive bulutuna sağ tıklandığında bağlam menüsü Etkinlik Merkezi içinde açılır.\nSürüm numarası kendi penceresinden Tercihler'deki Hakkında sekmesine taşındı.";
+
+"R20String" = "OneDrive'ı kullandığınız için teşekkür ederiz. En son performans iyileştirmeleri ve hata düzeltmelerini sağlayan her zamanki güncelleştirmelerimizin yanı sıra, kullanıcılarımıza aşamalı olarak sunacağımız yeni özellikler şunlardır:\nEşitleme duraklatıldığında başlığa dokunulursa eşitleme sürdürülür.";
+
+"R21String" = "OneDrive'ı kullandığınız için teşekkür ederiz. En son performans iyileştirmeleri ve hata düzeltmelerini sağlayan her zamanki güncelleştirmelerimizin yanı sıra, kullanıcılarımıza aşamalı olarak sunacağımız yeni özellikler şunlardır:\nIRM etkin SharePoint Belge Kitaplıklarını eşitleme özelliği ekledik";
+
+"R22String" = "OneDrive'ı kullandığınız için teşekkür ederiz. En son performans iyileştirmeleri ve hata düzeltmelerini sağlayan her zamanki güncelleştirmelerimizin yanı sıra, kullanıcılarımıza aşamalı olarak sunacağımız yeni özellikler şunlardır:\nOneDrive Etkinlik Merkezi daha kolay ve anlaşılır bir kullanım deneyimi sunan modern bir tasarıma sahip oldu.\nMenüdeki 'Sorun Bildir' seçeneği 'Geri Bildirim Gönder' olarak değiştirildi. Artık beğendiğiniz veya beğenmediğiniz şeyleri bize bildirebilir ya da OneDrive'da bulunmasını istediğiniz bir özelliği önerebilirsiniz. Görüşlerinizi bekliyoruz!";
+
+"R24String" = "OneDrive kullandığınız için teşekkürler. En son performans iyileştirmelerini ve hata düzeltmelerini sunduğumuz her zamanki güncelleştirmelerimizin yanı sıra şu özellikleri de kullanıcılara aşamalı olarak sunacağız:\nOneDrive artık macOS Mojave Koyu Modu destekliyor. Koyu Mod etkinleştirildiğinde OneDrive tüm kullanıcı arabiriminde harika görünen koyu temaya geçiş yapar.";
+
+"R26String" = "OneDrive'ı kullandığınız için teşekkür ederiz. En son performans iyileştirmelerini ve hata düzeltmelerini sunduğumuz her zamanki güncelleştirmelerimizin yanı sıra şu özellikleri de kullanıcılara aşamalı olarak sunacağız:\nPaylaşım iletişim kutusuna koyu tema eklendi!\nPerformansı artırmaya ve CPU kullanımını azaltmaya yardımcı olan bazı değişiklikler yapıldı. Sorun yaşamaya devam ediyorsanız bize bildirin.";
+
+"R32String" = "OneDrive'ı kullandığınız için teşekkür ederiz. En son performans iyileştirmelerini ve hata düzeltmelerini sağlayan her zamanki güncelleştirmelerimizin yanı sıra, kullanıcılarımıza aşamalı olarak sunacağımız yeni özellikler şunlardır:\nEtkinlik Merkezi'ni seçili ekranda görüntülemek için çoklu ekran kullanımına yönelik destek eklendi.";
+
+/* Files On-Demand is the name of a feature that is already available on OneDrive on Windows already. */ 
+"R29String" = "Bu son güncelleştirmede OneDrive İsteğe Bağlı Dosyalar kullanıma sunuldu! OneDrive İsteğe Bağlı Dosyalar, OneDrive'daki dosyalarınızı indirmek zorunda kalmadan tümüne erişmenize ve cihazınızdaki depolama alanını kullanmanıza yardımcı olur. Çevrimiçi olarak veya başka bir cihazda oluşturulan yeni dosyalar, yalnızca çevrimiçi dosyalar olarak görüntülenir ve cihazınızda yer tutmaz. İnternet'e bağlandığınızda bu dosyaları, cihazınızdaki herhangi bir dosya gibi kullanabilirsiniz.\nİsteğe Bağlı Dosyalar özelliğini kullanmak için en son macOS Mojave (10.14.2 veya sonraki bir sürümü) sürümünü yüklemeniz gerekir. İsteğe Bağlı Dosyalar'ı, OneDrive'ın tercihler menüsünün Genel sekmesinden etkinleştirebilirsiniz.";
+
+// Finder sync extension commands
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will copy a shareable link to their keyboard */
+"MenuItemShareCommand" = "OneDrive bağlantısı paylaş";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will open a web browser and display the selected file in the web interface */
+"MenuItemViewOnlineCommand" = "Çevrimiçi görüntüle";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a selective sync window. */
+"MenuItemSelectiveSyncCommand" = "Eşitlenecek OneDrive klasörlerini seçin";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a browser window that displays some detailed sharing options for the file. */
+"MenuItemSharingOptionsCommand" = "Daha fazla OneDrive paylaşma seçeneği";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a hosted browser window that OneDrive controls. This browser window will load a web page from sharepoint and allow the user to modify sharing options from the file. This is different from just launching the user's default browser. */
+"MenuItemShareBrowserWindowCommand" = "Paylaş";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch the preferences window for the account that the right clicked file belongs to. */
+"MenuItemPreferencesCommand" = "Tercihler";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. */
+"MenuItemPinCommand" = "Her zaman bu cihazda tut";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. */
+"MenuItemUnpinCommand" = "Yer açın";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will lock the folder. %@ is a folder name. */
+"MenuItemLockCommand:%@" = "%@ klasörünü kilitle";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will unlock the folder. %@ is a folder name. */
+"MenuItemUnlockCommand:%@" = "%@ klasörünün kilidini aç";
+
+// Finder Sync Extension Tooltips
+
+/* Tooltip for synced / up-to-date icon in Mac Finder */
+"IconOverlaySyncedLabel" = "Güncel";
+
+/* Tooltip for syncing icon in Mac Finder */
+"IconOverlaySyncingLabel" = "Eşitleme";
+
+/* Tooltip for error icon in Mac Finder */
+"IconOverlayErrorLabel" = "Hata";
+
+/* Tooltip for shared folder synced / up-to-date icon in Mac Finder */
+"IconOverlaySharedSyncedLabel" = "Güncel";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlaySharedSyncingLabel" = "Eşitleme";
+
+/* Tooltip for shared folder error icon in Mac Finder */
+"IconOverlaySharedErrorLabel" = "Hata";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlayReadOnlyLabel" = "Güncel, Salt Okunur";
+
+/* Tooltip for unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedLabel" = "Bu Cihazda kullanılabilir";
+
+/* Tooltip for pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedLabel" = "Bu Cihazda Her Zaman Kullanılabilir";
+
+/* Tooltip for unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedLabel" = "Çevrimiçiyken Kullanılabilir";
+
+/* Tooltip for read-only, unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedReadOnlyLabel" = "Bu Cihazda Kullanılabilir, Salt Okunur";
+
+/* Tooltip for read-only, pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedReadOnlyLabel" = "Bu Cihazda Her Zaman Kullanılabilir, Salt Okunur";
+
+/* Tooltip for read-only, unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedReadOnlyLabel" = "Çevrimiçiyken Kullanılabilir, Salt Okunur";
+
+/* Action center (Toast) notification header for the Icon Overlay feature */
+"IconOverlayToastTitle" = "Yeni eşitleme simgelerine göz atın";
+
+/* Action center (Toast) notification body for the Icon Overlay feature */
+"IconOverlayToastBody" = "OneDrive'ın eşitleme durumunu Finder'da görüntülemesine izin vermek için tıklayın.";
+
+/* Preferences Dialog string for enabling icon overlays*/
+"IconOverlayPreferencesLink" = "OneDrive'ın eşitleme durumunu Finder'da görüntülemesine izin verin";
+
+// App moniker related strings
+
+/* Text of basic Moniker*/
+"BasicMoniker:%@" = "OneDrive — %@";
+
+/* Text of Moniker with user's first name. %0@ is user's firstname, %1@ is string like 'OneDrive - Personal' */
+"MonikerWithFirstName:%@,%@" = "%0@ kişisine ait %1@";
+
+/* Text of Moniker with user's email. %0@ is string like 'OneDrive - Personal', %1@ is email address */
+"MonikerWithEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text of Moniker with user's first name and email. %0@ is MonikerWithFirstName like Someone's OneDrive - Personal, %1@ is email address */
+"MonikerWithFirstNameAndEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text used in BasicMoniker for personal client */
+"PersonalDisplayMoniker" = "Kişisel";
+
+// Notifications
+
+/* Balloon tip primary text to notify users that the shared folders sync feature is available */
+"SharedFoldersEnabledBaloonTipHeader" = "Yeni: Artık paylaşılan klasörleri eşitleyebilirsiniz!";
+
+/* Balloon tip secondary text describing how to start using the shared folder sync feature */
+"SharedFoldersEnabledBaloonTipBody" = "OneDrive.com'da sizinle paylaşılan klasörleri görmek için tıklayın. Daha sonra, düzenleyebileceğiniz bir klasörü seçin ve \"OneDrive'ıma ekle\"ye tıklayın.";
+
+/* Message shown when users try to run different flavors of OneDrive app side by side */
+"DifferentTypesOfAppSideBySide" = "Bilgisayarınızda iki OneDrive kopyası var. Aynı anda yalnızca biri çalışabilir. Bir kopyayı kaldırmanızı öneririz. Açık kopyayı görmek için menü çubuğundan OneDrive simgesine tıklayıp Tercihler > Hakkında seçeneğini belirleyin.";
+
+/* Title for a notification shown when the user copies a link to a file to their pasteboard */
+"CopyFileLinkToPasteboardTitle" = "Bağlantınız yapıştırma için hazır";
+
+/* Body for a notification shown when the user copies a link toa a file to their pasteboard */
+"CopyFileLinkToPasteboardBody" = "Bağlantı, panonuza kaydedildi. Paylaşmak için, bağlantıyı iletiye veya gönderiye yapıştırın. Bağlantıya sahip olan herkes dosyayı düzenleyebilir.";
+
+/* Title for a notification shown when a screen capture is saved */
+"ScreenshotSavedTitle" = "Ekran Görüntüsü Kaydedildi";
+
+/* Body for a notification shown when a screen capture is saved. Screenshots should be localized and capitolized. */
+"ScreenshotSavedBody" = "Ekran Görüntüleri klasörünüzü açmak için buraya tıklayın";
+
+/* Title for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorTitle" = "Ekran görüntüleriniz OneDrive'a kaydedilemiyor";
+
+/* Body for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorBody" = "Ekran görüntülerinizi kaydetmek için iş veya okul dosyalarınızı OneDrive ile eşitleyin. Hesap sekmesini seçip Eşitlemeyi Başlat'a tıklayın";
+
+// Campaign Manager toast notifications
+
+/* Title for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastTitle" = "Oturum Açıldığında Başlatmayı Etkinleştir";
+
+/* Body for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastBody" = "Dosyalarınız her zaman eşitlenmiş durumda olsun.";
+
+/* Title for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastTitle" = "Finder'da eşitleme durumunuzu görüntüleyin";
+
+/* Body for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastBody" = "Finder Tümleştirmesini etkinleştirin.";
+
+/* Title for Placeholders Finder Sync Extension Campaign toast */
+"PlaceholdersFinderSyncCampaignToastTitle" = "İsteğe Bağlı Dosyalar ile Boş Alan Kazanın";
+
+/* Body for Placeholders Finder Sync Extension Campaign toast*/
+"PlaceholdersFinderSyncCampaignToastBody" = "OneDrive Finder uzantısını etkinleştirerek kurulumu bitirmek için buraya tıklayın.";
+
+/* Title for Rate Application Campaign toast */
+"RatingsCampaignToastTitle" = "Ne düşündüğünüzü bize bildirin";
+
+/* Body for Rate Application Campaign toast */
+"RatingsCampaignToastBody" = "OneDrive uygulamasını değerlendirin veya geri bildirim gönderin.";
+
+// Rate Our Application Window
+
+/* Windows title for rate our application window.
+ There's probably no need to localize this string. */
+"RateApplicationWindowTitle" = "Microsoft OneDrive";
+
+/* Title for Rate Us WindowText on two lines, please keep the \n in translation as a line terminator after "Thank you" */
+"RateApplicationBodyTitle" = "OneDrive'ı\nkullandığınız için teşekkürler!";
+
+/* Text for Rate us button */
+"RateApplicationWindowRateButton" = "Uygulamayı beğendiniz mi? Bize daha fazla bilgi verin!";
+
+/* Text for Tell us how to improve button */
+"RateApplicationWindowSupportbutton" = "Uygulamayı geliştirmemize yardımcı olun";
+
+/* Text for Rate Us button - more engaging */
+"RateApplicationWindowRateButtonEngage" = "Bize 5 yıldız verin!";
+
+/*Text for Rate Us button - with question */
+"RateApplicationWindowRateButtonQuestion" = "Uygulamayı beğendiniz mi? Bize 5 yıldız verin!";
+
+/* ---------------------------- Activity Center ------------------- */
+
+/* Text shown in title bar of Activity Center when we're up to date */
+"ActivityCenterHeaderUpToDate" = "OneDrive güncel";
+
+/* Text shown in title bar of Activity Center when files are syncing */
+"ActivityCenterHeaderUpdatingFiles" = "OneDrive dosyaları güncelleştiriliyor...";
+
+/* Text shown in title bar of Activity Center when there are sync problems */
+"ActivityCenterHeaderNeedsAttention" = "OneDrive ile ilgilenmeniz gerekiyor";
+
+/* Text shown in title bar of Activity Center when we're paused */
+"ActivityCenterHeaderPaused" = "OneDrive duraklatıldı";
+
+/* Text shown in title bar of Activity Center when we're offline */
+"ActivityCenterHeaderOffline" = "OneDrive çevrimdışı";
+
+/* Text shown in title bar of Activity Center when we aren't signed in */
+"ActivityCenterHeaderNotConnected" = "OneDrive bağlı değil";
+
+/* Text shown in the header of Activity Center when OneDrive is being reset */
+"ActivityCenterHeaderResetting" = "OneDrive sıfırlanıyor...";
+
+/* Primary text shown in the error bar of Activity Center, placeholder is number of items */
+"ActivityCenterFileErrorsItemPrimary" = "%@ öğe eşitlenemiyor";
+
+/* Primary text shown in the error bar of Activity Center, singular item version  */
+"ActivityCenterFileErrorsItemPrimarySingle" = "1 öğe eşitlenemiyor";
+
+/* Secondary text shown in the error bar of Activity Center */
+"ActivityCenterFileErrorsItemSecondary" = "Daha fazla bilgi için tıklayın";
+
+/* Up-to-date primary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemPrimary" = "Artık hazırsınız";
+
+/* Up-to-date secondary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemSelectiveSync" = "Tüm dosyalar eşitlendi";
+
+/* Up-to-date primary text shown on Activity Center while paused */
+"ActivityCenterPausedPrimary" = "Dosyalarınız şu anda eşitlenmiyor";
+
+/* Up-to-date secondary text shown on Activity Center while paused */
+"ActivityCenterPausedSecondary" = "Eşitlemeye devam etmek ve dosyalarınızı güncel tutmak için buraya tıklayın.";
+
+/* Text showing progress on one item when it's downloading or uploading. Placeholders are numbers and units for file progress. E.g. Uploading - 10 MB of 1 GB" */
+"ActivityCenterItemProgress" = "· %1$@ %2$@ / %3$@ %4$@";
+
+/* Text showing progress on one item when it's downloading or uploading with differential sync. Placeholder %1$@ is a number, %2$@ is a unit, %3$@ is a number, %4$@ is a unit, %5$@ is a number, %6$@ is a unit E.g. Uploading - 10 MB of 1 GB (100 KB)" */
+"ActivityCenterItemProgressDiffSyncUX" = "· %1$@ %2$@ / %3$@ %4$@ (%5$@ %6$@)";
+
+/* Text shown on one item when it's uploading. */
+"ActivityCenterItemUploading" = "Karşıya yükleniyor";
+
+/* Text shown on one item when it's reviewing the file before syncing. This is specific to differential sync */
+"ActivityCenterItemReviewingChanges" = "Eşitlemeye hazırlanıyor";
+
+ /* Text shown on one item when it's downloading. */
+"ActivityCenterItemDownloading" = "İndiriliyor";
+
+/* Status shown on an item that's finished transfering. */
+"ActivityCenterItemUpdated" = "OneDrive'da güncelleştirildi";
+
+/* Status shown on an item that's been removed. */
+"ActivityCenterItemRemoved" = "OneDrive'dan kaldırıldı";
+
+/* Status shown on an item that's finished uploading. Placeholder %% is a folder name. */
+"ActivityCenterItemUploaded" = "%% klasörüne yüklendi";
+
+/* Status shown on an item that's finished downloading. Placeholder %% is a folder name. */
+"ActivityCenterItemDownloaded" = "%% klasörüne indirildi";
+
+/* Status shown on an item that's finished moving. Placeholder %% is a folder name. */
+"ActivityCenterItemMoved" = "%% klasörüne taşındı";
+
+/* Status shown on an item that was renamed. Placeholder %% is a folder name. */
+"ActivityCenterItemRenamed" = "%% klasöründe yeniden adlandırıldı";
+
+/* Status shown on an item that represents a placeholder file. Placeholder %% is a folder name. */
+"ActivityCenterItemPlaceholder" = "%% klasöründe kullanılabilir";
+
+/* Timestamp on an item. Placeholders are for time difference and units E.g. 5 minutes ago */
+"ActivityCenterItemTime" = "%1$@ %2$@ önce";
+
+/* Timestamp on an item plus application. Placeholders %1$@ %2$@ are for time difference and units. %3$@ is an application name E.g. 5 minutes ago · Microsoft Word */
+"ActivityCenterItemTimeWithAppName" = "%1$@ %2$@ önce · %3$@";
+
+/* Timestamp on an item plus application. Placeholder %1$@ is for a date. %2$@ is an application name E.g. 8/24/2018 · Microsoft Word */
+"ActivityCenterItemDateWithAppName" = "%1$@ · %2$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncing" = "%1$@ dosya eşitleniyor · %2$@ %3$@ / %4$@ %5$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncingSingle" = "1 dosya eşitleniyor · %1$@ %2$@ of %3$@ %4$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing changes */
+"ActivityCenterSummaryProcessingChanges" = "Değişiklikler işleniyor";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing a single change */
+"ActivityCenterSummaryProcessingChangesCountSingle" = "Değişiklik işleniyor";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing multiple changes. The placeholder %1$@ indicates the number of changes */
+"ActivityCenterSummaryProcessingChangesCount" = "%1$@ değişiklik işleniyor";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're looking for file system changes */
+"ActivityCenterSummaryLooking" = "Değişiklikler aranıyor";
+
+/* Text read aloud when list of recent files is selected */
+"ActivityCenterHistoryListAccessibleText" = "Son kullanılan dosyalar";
+
+/* time units used in activity center on timestamps. E.g. 1 second ago */
+"ActivityCenterSecondSingle" = "saniye";
+
+/* time units used in activity center on timestamps. E.g. N seconds ago */
+"ActivityCenterSecondsMultiple" = "saniye";
+
+/* time units used in activity center on timestamps. E.g. 1 minute ago */
+"ActivityCenterMinuteSingle" = "dakika";
+
+/* time units used in activity center on timestamps. E.g. N minutes ago */
+"ActivityCenterMinutesMultiple" = "dakika";
+
+/* time units used in activity center on timestamps. E.g. 1 hour ago */
+"ActivityCenterHourSingle" = "saat";
+
+/* time units used in activity center on timestamps. E.g. N hours ago */
+"ActivityCenterHoursMultiple" = "saat";
+
+/* Text shown on a button in the Activity Center that takes the user to the Upgrade storage page on OneDrive */
+"ActivityCenterQuotaButtonGetMoreStorage" = "Daha fazla depolama alanı edinin";
+
+/* Text shown on a link in the Activity Center that takes the user to the Free up space page on OneDrive */
+"ActivityCenterQuotaButtonFreeUpSpace" = "Yer açın";
+
+/* Primary text shown in the Activity Center when the user's quota is nearing maximum or in a critical state. The placeholders are the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso") and the percentage of space occupied, e.g Your OneDrive is 98% full */
+"ActivityCenterQuotaCriticalTitle, %@ %@" = "%1$@ depolama alanınız %%%2$@ dolu";
+
+/* Secondart text shown in the Activity Center when the user is approaching critical quota. The placeholders are size and units remaining. E.g. You have only 10 MB of available space */
+"ActivityCenterQuotaLeftText, %@ %@" = "Yalnızca %1$@ %2$@ kullanılabilir alanınız kaldı";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive. */
+"ActivityCenterQuotaReachedBody" = "Yeni dosyaları eşitlemeye devam etmek için daha fazla depolama alanı edinin.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for Office 365 users. */
+"ActivityCenterQuotaReachedBody1TB" = "Yer açmak için, artık gerekli olmayan dosyaları kaldırın.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for business users. */
+"ActivityCenterQuotaReachedBodyBusiness" = "Daha fazla bilgi için BT bölümünüze başvurun veya dosyaları kaldırarak yer açın.";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitleBusiness, %@" = "%1$@ depolama alanınızda yer kalmadı";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitle, %@" = "%1$@ depolama alanınız dolu";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown for 1 week before switching to the normal banner text. */
+"ActivityCenterQuotaUpsellBannerIntroTitle" = "Premium özelliklerle tanışın";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalTitle" = "Premium'a geçin";
+
+/* Secondary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalBody" = "1 TB (1000 GB) depolama alanına ve yepyeni Office 2016 uygulamalarına sahip olun.";
+
+/* Part of the secondary text shown in the Activity Center for users without an O365 subscription. This appears in the banner for both upsell states of the banner. */
+"ActivityCenterQuotaUpsellBannerLearnMore" = "Daha fazla bilgi";
+
+/* The Accessibility text hint for the ACM dismiss button. */
+"ActivityCenterMessageDismissHint" = "Kapat";
+
+/* Primary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInTitle" = "Kullanmaya başlamak için OneDrive'da oturum açın";
+
+/* Secondary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInBody" = "Dosyalarınızı almak ve bu cihazda eşitlemek için OneDrive'da oturum açın.";
+
+/* Button text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInButton" = "Oturum Açın";
+
+/* Text shown in the Activity Center while we are signing the user in. */
+"ActivityCenterSigningIn" = "Oturum açılıyor";
+
+/* Text shown in the Activity Center while we are signing the user out. */
+"ActivityCenterSigningOut" = "Oturum kapatılıyor";
+
+/* Clicking this button will open (action) the OneDrive folder in File Explorer */
+"ActivityCenterFooterButtonOpenFolder" = "Klasörü Aç";
+
+/* Clicking this button will open (action) a web portal where the user can upgrade their account */
+"ActivityCenterFooterButtonGoPremium" = "Premium'a Geçin";
+
+/* Clicking this button opens the user's (action) OneDrive folder online. ("View" here is an action) */
+"ActivityCenterFooterButtonViewOnline" = "Çevrimiçi Görüntüle";
+
+/* Clicking this button opens (action) a context menu which contains extra actions like pause, settings and quit */
+"ActivityCenterFooterButtonMore" = "Diğer";
+
+/* Accessibility text for button that will cancel a download */
+"ActivityCenterCancelButtonAccessibleName" = "İndirmeyi İptal Et";
+
+/* The name "OneDrive" */
+"OneDriveBrandName" = "OneDrive";
+
+/* Primary text shown in the alert of restart after crash */
+"RestartAfterCrashAlertTitle" = "OneDrive ile ilgili bir Sorun oluştu.";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is enabled */
+"RestartAfterCrashAlertBodyReportAProblemEnabled" = "OneDrive ile sorun yaşadığınıza üzüldük. Bu sorunu bildirerek destek biriminden yardım alabilir veya OneDrive'ı sıfırlamayı deneyebilirsiniz. OneDrive'ı sıfırladığınızda, OneDrive uygulamanızı yeniden ayarlamanız gerekir.";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is disabled */
+"RestartAfterCrashAlertBodyReportAProblemDisabled" = "OneDrive ile sorun yaşadığınıza üzüldük. Bu sorunu bildirerek destek biriminden yardım alabilir veya OneDrive'ı sıfırlamayı deneyebilirsiniz. OneDrive'ı sıfırladığınızda, OneDrive uygulamanızı yeniden ayarlamanız gerekir.";
+
+/* Text for report a problem button shown in the alert of restart after crash */
+"RestartAfterCrashAlertReportAProblemButtonText" = "Sorun Bildir";
+
+/* Text for reset onedrive button shown in the alert of restart after crash */
+"RestartAfterCrashAlertResetOneDriveButtonText" = "OneDrive'ı Sıfırla";
+
+/* Text for cancel button shown in the alert of restart after crash */
+"RestartAfterCrashAlertCancelButtonText" = "İptal";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared */
+"ShareWebWindowTitle, %@" = "%@ öğesini paylaş";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared - this one has quotes around the item name */
+"ShareWebWindowTitleWithQuotes:%@" = "\"%@\" öğesini paylaş";
+
+/* Error primary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorTitleGeneric" = "Bir sorun oluştu";
+
+/* Error secondary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorSecondaryTextGeneric" = "Bu öğe şu anda paylaşılamıyor. Daha sonra yeniden deneyin.";
+
+/* Error primary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorTitleOffline" = "İnternet'e bağlanın";
+
+/* Error secondary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorSecondaryTextOffline" = "İnternet bağlantınız yok gibi görünüyor. Çevrimiçi olduğunuzda yeniden paylaşmayı deneyin.";
+
+/* Text on error button in the Sharing Web Browser window */
+"ShareWebErrorButtonText" = "Yeniden dene";
+
+/* Text shown on the Loading view of the Sharing Web Browser window */
+"ShareWebLoading" = "Yükleniyor";
+
+/* Text read by the Voice Over utility (accessibility) for the Loading spinner on the Sharing Web Browser Window. The placeholder is the name of the file / folder being shared. */
+"ShareWebLoadingNarrator:%@" = "%@ paylaşılmaya hazırlanıyor";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog title */
+"FoundSameNamesUnderFolderErrorTitle" = "Bir Dosya Eşitlenemiyor";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog body. The placeholder is the full path of the file. Please keep "\n" intact. */
+"FoundSameNamesUnderFolderErrorBody:%@" = "Aynı konumdaki başka bir dosya aynı ada veya farklı bir büyük harfle yazıma sahip.\n%@\nDosyalardan birini yeniden adlandırın veya taşıyın ve sonra OneDrive uygulamasını yeniden açın.";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog OK button */
+"FoundSameNamesUnderFolderErrorButton" = "Tamam";
+
+/* Primary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedPrimary" = "Karşıya yükleme duraklatıldı";
+
+/* Secondary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedSecondary" = "Çevrimiçi dosyalarınız size daha yakın olan sunuculara taşınıyor. Taşıma işlemi tamamlandığında değişiklikleriniz eşitlenecek.";
+
+/* Primary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedPrimary" = "Dosyalarınızı eşitleme işlemi sürdürülüyor";
+
+/* Secondary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedSecondary" = "Çevrimiçi dosyalarınızı yeni konumunuzdaki sunuculara taşıma işlemi tamamlandı.";
+
+/* Primary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantPrimaryText" = "OneDrive eşitleyemiyor";
+
+/* Secondary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantSecondaryText" = "BT bölümünüz bu konumdaki dosyaları bilgisayarınızla eşitlemenize izin vermiyor";
+
+/* Text for SyncError MinorVersionLimitExceeded error dialog body */
+"SyncErrorShortDescriptionMinorVersionExceededItem" = "Bu dosya için kaydedebileceğiniz en fazla ikincil sürüm sayısına ulaştınız. Dosyayı SharePoint sitenizde yayımlayın: Dosyaya sağ tıklayın ve Diğer > Yayımla'yı seçin. Sonra, ikincil sürümleri yeniden kaydetmeye başlayabilirsiniz.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast */
+"FolderRecreatedOnFailedDelete Title" = "Bir klasör silinemiyor.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast where %@ is a folder name */
+"FolderRecreatedOnFailedDelete Message:%@" = "Eşitlemeyi durdurmak için \"%@\" bilgisayarınıza tercihleri gidin ve bu klasörü seçimini kaldırmak için burayı tıklatın.";
+
+/* Accessibility text for menu item dropdown button */
+"MenuButtonAccessibleName" = "Diğer seçenekler";
+
+/* Text for per item menu dropdown Open option */
+"MenuItemOpen" = "Aç";
+
+/* Text for per item menu dropdown Share option */
+"MenuItemShare" = "Paylaş";
+
+/* Text for per item menu dropdown View online option */
+"MenuItemViewOnline" = "Çevrimiçi görüntüle";
+
+/* Title of Setting dialog tab that provides options for Office file syncing. */
+"OfficeText" = "Office";
+
+/* Title text of groupbox on the Office settings tab that provides settings for syncing and file collaboration. */
+"OfficeFileCollabGroupBox" = "Dosya işbirliği";
+
+/* Explanation text in the File collaboration groupbox that explains syncing files with Office. */
+"OfficeFileCollabTextField" = "Dosyalarınızı Office ile eşitleyerek Office dosyaları üzerinde başkalarıyla birlikte aynı anda çalışın.";
+
+/* Checkbox text for syncing files with Office 2016. {Locked=!cs, sk;\"Office\"} */
+"OfficeFileCollabCheckBox" = "Açtığım Office dosyalarını eşitlemek için Office uygulamalarını kullan";
+
+/* Group box title for the Sync conflicts group box - provides options for how to deal with Office file sync conflicts. */
+"OfficeConflictGroupBox" = "Eşitleme çakışmaları";
+
+/* Radio button for the option to merge files using Office. */
+"OfficeConflictRadioButtonMerge" = "Değişiklikleri birleştirmeyi ya da her iki kopyayı da saklamayı seçmeme izin ver";
+
+/* Radio button for option to always keep both copies of a file when the file is in an Office conflict. */
+"OfficeConflictRadioButtonFork" = "Her zaman iki kopyayı da sakla (bu bilgisayardaki kopyayı yeniden adlandır)";
+
+/* Message to notify that an item cannot be deleted and it will be recreated at original location. */
+/* Title Text for SyncError DeleteCancelledByEventReceiver toast */
+"ItemCannotBeDeleted Title" = "Öğe silinemiyor.";
+
+/* Body Text for SyncError DeleteCancelledByEventReceiver toast where %@ is an item name */
+"ItemCannotBeDeleted Message:%@" = "\"%@\" öğesinin bilgisayarınızla eşitlenmesini durdurmak için Tercihler'e gidin ve bu öğenin seçimini kaldırın.";
+
+/* Message to notify that an item cannot be moved from its original location, item moved
+    will be recreated at source and the moved copy will be uploaded from destination. */
+/* Title Text for SyncError UploadFailedOnCannotMoveThickets toast */
+"ItemCannotBeMoved Title" = "Öğelerinizden biri taşınamıyor.";
+
+/* Body Text for SyncError MoveCancelledByEventReceiver toast where %@ is a item name which cannot be moved. */
+/* Body Text for SyncError MoveFailedOnCannotMoveThickets toast where %@ is a thicket folder name which cannot be moved. */
+"ItemCannotBeMoved Message:%@" = "Bunun yerine, \"%@\" yeni konuma kopyalandı ve öğenin her iki kopyası da karşıya yüklendi.";
+
+/* Message to notify that an item cannot be added or changed due to server response of cancelled by event receiver. */
+/* Title Text for SyncError AddOrChangeCancelledByEventReceiver toast */
+"ItemAddOrChangeCancelledByEventReceiver Title" = "Öğe karşıya yüklenemiyor.";
+
+/* Body Text for SyncError AddOrChangeCancelledByEventReceiver toast where %@ is an item name */
+"ItemAddOrChangeCancelledByEventReceiver Message:%@" = "\"%@\" öğesinin bilgisayarınızla eşitlenmesini durdurmak için Tercihler'e gidin ve bu öğenin seçimini kaldırın.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryClientError" = "BT bölümünüz, Mac'inizin onaylanmış bir etki alanına katılmasını istiyor. Mac'inizin etki alanına katılması hakkında yardım almak için BT bölümünüzle iletişim kurun.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryDisabled" = "Kuruluşunuz bu klasörün eşitlenmesine izin vermiyor. Daha fazla bilgi için site sahibiyle iletişim kurun.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryCheckOut" = "Bu klasördeki öğeleri düzenlemek için kullanıma almanız gerekir. Klasörü eşitlemek için site sahibinden \"Kullanıma Alma Gerektir\" ayarını devre dışı bırakmasını isteyin.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryColumnInvalid" = "Klasörde, eşitlenemeyen gerekli bir bilgi sütunu var. Site sahibinden sütunları, artık gerekli olmayacak şekilde düzenlemesini ve veri doğrulamasını kaldırmasını isteyin.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryIrm" = "Eşitlemeye çalıştığınız klasör, Bilgi Hakları Yönetimi için yapılandırılmış. Bu klasör için Bilgi Hakları Yönetimini devre dışı bırakması için site yöneticinizle iletişim kurun.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryModeration" = "Öğelerin klasöre eklenmesi için onaylanması gerekir. Bu klasörü eşitlemek için site sahibinden \"İçerik Onayı\"nı devre dışı bırakmasını isteyin.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibrary" = "Yakın zamanda değiştirilen bir ayar bu klasörün eşitlenmesini engelliyor. Bilgi edinmek için BT bölümünüzle iletişim kurun.";
+
+/* Resolution message text for LostPermissionsToMountPoint error */
+"LostPermissionsToMountPoint" = "Bu kitaplığı eşitlemek için izniniz yok. Erişim isteğinde bulunmak için bu kitaplığı çevrimiçi görüntüleyin veya kitaplığın eşitlemesini durdurmak için tıklayın ya da dokunun.";
+
+/* Resolution message text for LibraryDeleted error */
+"LibraryDeleted" = "Bu kitaplık kaldırıldı. Bu cihaza kaydedilmiş dosyalar, cihazda kalmaya devam eder. Tıklayarak veya dokunarak bu kitaplığı eşitlemeyi durdurun ya da kitaplık sahibi ile iletişim kurun.";
+
+/* Resolution message text for ServiceBlockedLibrary error */
+"ServiceBlockedLibrary" = "Bir hizmet sorunu nedeniyle bu kitaplığa erişilemiyor. Tekrar denemek için OneDrive'ı yeniden başlatın.";
+
+/* Resolution message text for LibraryNotFound error */
+"LibraryNotFound" = "Bu kitaplık bulunamıyor. Tıklayarak veya dokunarak kitaplığı eşitlemeyi durdurun ya da BT yöneticinizle iletişim kurun.";
+
+/* Error message text for SyncIrmFileFailed error */
+"SyncIrmFileFailed" = "Bu korumalı dosya eşitlenemiyor. Erişim izni istemek için lütfen bu korumalı dosyanın SharePoint yöneticisiyle iletişim kurun.";
+
+/* Error message text for IrmRejectedItemOnUpload error */
+"IrmRejectedItemOnUpload" = "IRM kitaplığı ayarları, kullanıcıların IRM'yi desteklemeyen belgeleri yüklemesini engelleyecek şekilde yapılandırıldığından bu dosya eşitlenemiyor.";
+
+/* Error message text for IrmExtensionChangeBlockedItem error */
+"IrmExtensionChangeBlockedItem" = "Kuruluşunuzun ilkesi dosya uzantılarının yeniden adlandırılmasına izin vermediğinden bu öğe eşitlenemiyor. Lütfen çevrimiçi olun ve dosya uzantısını özgün adıyla yeniden adlandırın veya site yöneticinizle iletişim kurun.";
+
+/* Error message text for IrmEncryptFailedToFindProtectorItem error */
+"IrmEncryptFailedToFindProtectorItem" = "Kuruluşunuzun ilkesi dosya uzantılarının yeniden adlandırılmasına izin vermediğinden bu öğe eşitlenemiyor. Lütfen site yöneticinizle iletişim kurun.";
+
+/* Error message for ItemCantFitOnDisk error. */
+"ItemCantFitOnDisk" = "Bu bilgisayarda dosyayı eşitlemek için yeterli alan yok.";
+
+/* Text for menu item to open help center */
+"MainMenuItemHelpCenter" = "Yardım merkezi";
+
+/* Window title used for send feedback.
+ There's probably no need to localize this string. */
+"FeedbackApplicationTitle" = "Microsoft OneDrive";
+
+/* Send feedback menu item label */
+"FeedbackMenuLabel" = "Geri Bildirim Gönder";
+
+/* Send feedback window title */
+"FeedbackWindowTitle" = "Geri Bildirim Gönder";
+
+/* Link to privacy statement page */
+"FeedbackPrivacyLinkText" = "<a href=\"#\">Gizliliğiniz bizim için önemlidir</a>";
+
+/* Link to terms of service page */
+"FeedbackTosLinkText" = "<a href=\"#\">Microsoft</a>, geri bildirimlerinizi toplar ve bunları deneyiminizi iyileştirmek için kullanır.";
+
+/* Header of the button to send positive feedback */
+"FeedbackSmileChoiceTitle" = "Beğendiğim şeyler var";
+
+/* Explanation for the send positive feedback button */
+"FeedbackSmileChoiceText" = "Neleri beğendiğinizi öğrenmek istiyoruz.";
+
+/* Placeholder for the user input field */
+"FeedbackSmileFieldTip" = "Neleri beğendiğinizi bize bildirin";
+
+/* Placeholder for the user input field */
+"FeedbackFrownFieldTip" = "Neleri beğenmediğinizi bize bildirin";
+
+/* Header of the send negative feedback button */
+"FeedbackFrownChoiceTitle" = "Beğenmediğim şeyler var";
+
+/* Explanation for the send negative feedback button */
+"FeedbackFrownChoiceText" = "Neleri beğendiğinizi öğrenmek istiyoruz.";
+
+/* Header of the Send a Suggestion button */
+"FeedbackSuggestionChoiceTitle" = "Bir önerim var";
+
+/* Explanation for the Send a Suggestion button */
+"FeedbackSuggestionChoiceText" = "Fikir veya geliştirme önerisi paylaşın.";
+
+/* Checkbox label to opt-in/opt-out of sending log files */
+"FeedbackIncludeLogsLabel" = "Tanılama ve kullanım verilerini ekle";
+
+/* Label for the button to send feedback */
+"FeedbackSendButtonLabel" = "Gönder";
+
+/* Label for the button to resent feedback in the case of sending failure */
+"FeedbackRetryButtonLabel" = "Yeniden dene";
+
+/* Label for the button to cancel feedback submission request */
+"FeedbackCancelButtonLabel" = "İptal";
+
+/* Label for the button to finish send feedback */
+"FeedbackCloseButtonLabel" = "Kapat";
+
+/* Message shown in the case of feedback submission failure */
+"FeedbackSendFailureText" = "Ne yazık ki geri bildiriminiz gönderilirken bir sorun oluştu. Lütfen İnternet bağlantınızı denetleyin ve yeniden deneyin. Sorununuzu <a href=\"#\">destekle iletişim kurarak</a> da bildirebilirsiniz.";
+
+/* Message shown during feedback submission */
+"FeedbackSendingText" = "Gönderiliyor...";
+
+/* Message shown at the end of feedback submission. */
+"FeedbackSendSuccessText" = "Geri bildirim gönderdiğiniz için teşekkür ederiz! Yorumlarınız uygulamayı geliştirmemize yardımcı olacak.";
+
+/* Window title shown at the end of feedback submission. */
+"FeedbackSendSuccessTitle" = "Teşekkür ederiz";
+
+/* Label for the button to go back to feedback type selection page. */
+"FeedbackBackButtonLabel" = "Geri";
+
+/* Title of local mass delete prompt for personal instance. */
+"LocalMassDeletePromptTitlePersonal" = "Dosyalar OneDrive'dan kaldırılsın mı?";
+
+/* Title of local mass delete prompt for business instance. */
+"LocalMassDeletePromptTitleBusiness" = "Dosyalar tüm konumlardan kaldırılsın mı?";
+
+/* Body of local mass delete prompt for personal instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyPersonal:%@" = "Yakın zamanda bu cihazdan %@ dosya sildiniz. Bunları OneDrive'dan da kaldırmak istiyor musunuz?";
+
+/* Body of local mass delete prompt for business instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyBusiness:%@" = "Yakın zamanda bu cihazdan %@ dosya sildiniz. Bunları OneDrive'dan ve tüm paylaşılan kitaplıklardan kaldırmak istiyor musunuz?";
+
+/* Text of Restore button of local mass delete prompt. */
+"LocalMassDeletePromptRestoreButton" = "Dosyaları Geri Yükle";
+
+/* Text of Delete button of local mass delete prompt. */
+"LocalMassDeletePromptDeleteButton" = "Kaldır";
+
+/* Text of Opt out checkbox of local mass delete prompt. */
+"LocalMassDeletePromptOptoutCheckbox" = "Dosyaları her zaman kaldır";
+
+/* Activity center local mass delete per item history description. */
+"ActivityCenterItemPendingRemoval" = "OneDrive'dan kaldırma işlemi bekleniyor";
+
+/* Checkbox text to toggle the local mass delete feature in settings dialog. */
+"LocalMassDeleteSettingsCheckbox" = "Dosyaları buluttan kaldırmadan önce beni uyar";
+
+/* Title text of local mass delete confirmed ACM. */
+"LocalMassDeleteConfirmedTitle" = "Dosyaları geri yüklemeniz mi gerekiyor?";
+
+/* Body text of local mass delete confirmed ACM for personal instance. */
+"LocalMassDeleteConfirmedBodyPersonal" = "Dosyalar OneDrive'da silindiğinde, tüm cihazlardan da silinir. Dosyaları 30 gün içinde OneDrive geri dönüşüm kutusundan geri yükleyebilirsiniz.";
+
+/* Body text of local mass delete confirmed ACM for business instance. */
+"LocalMassDeleteConfirmedBodyBusiness" = "Dosyalar OneDrive'da silindiğinde, tüm cihazlardan ve konumlardan da silinir. Dosyaları 93 gün içinde OneDrive'daki veya paylaşılan kitaplıktaki geri dönüşüm kutusundan geri yükleyebilirsiniz. En son silinen dosyanın bulunduğu geri dönüşüm kutusuna gitmek için aşağıya tıklayın.";
+
+/* Text of recycle bin button of LocalMassDelete confirmed ACM. */
+"LocalMassDeleteRecycleBin" = "Geri Dönüşüm Kutusu";
+
+/* Header text informing user that an application is downloading their files. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeader:%@" = "%@, OneDrive'dan dosya indiriyor";
+
+/* Header text informing user that an application is downloading their files. This version is used if many files are downloading. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeaderAboveThreshold:%@" = "%@, OneDrive'dan çok sayıda dosya indiriyor";
+
+/* Body text informing user that an application is downloading their files. Clicking on this toast will open a confirmation dialog. */
+"CloudFilesHydrationToastBody" = "Bunu ve gelecekteki indirmeleri iptal etmek için buraya tıklayın.";
+
+/* Header text informing user that an application is downloading their files. %1$@ is an application name. %2$u is a number. */
+"CloudFilesHydrationDialogHeader:%@,%u" = "%1$@, %2$u dosya indiriyor";
+
+/* Body text informing user that an application is downloading their files. %@ is an application name. */
+"CloudFilesHydrationDialogBody:%@" = "Uygulamanın dosya indirmeye devam etmesine izin verebilir veya indirmeyi durdurabilirsiniz. %@ uygulamasının gelecekteki tüm indirme işlemlerini durdurmak için \"Uygulamayı Engelle\"yi seçin.";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will continue downloading files. */
+"CloudFilesHydrationDialogContinueButton" = "İndirmeye Devam Et";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files. */
+"CloudFilesHydrationDialogStopButton" = "İndirmeyi Durdur";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files and block this application from future downloads. */
+"CloudFilesHydrationDialogBlockButton" = "Uygulamayı Engelle";
+
+// Download And Go
+
+/* Download And Go application friendly name*/
+"DownloadAndGoFriendlyName" = "OneDrive Dosya Başlatıcısı";
+
+/* Download And Go window title when no errors are displayed. %@ is a number. */
+"DownloadAndGoTitle:%@" = "%@ öğe OneDrive'a indiriliyor";
+
+/* Download And Go downloading message. %@ is a file name. */
+"DownloadAndGoDownloadingMessage:%@" = "\"%@\" indiriliyor";
+
+/* Download And Go progress message for progressing hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoProgressingHydrationProgress: %@ %@" = "%1$@ / %2$@";
+
+/* Download And Go progress message for queued hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoQueuedHydrationProgress: %@ %@" = "%1$@/%2$@ - İndirme beklemede";
+
+/* Download And Go window title when errors are displayed*/
+"DownloadAndGoErrorsTitle" = "OneDrive'a indirilemedi";
+
+/* Download And Go error message. %@ is file name. %d is a number. */
+"DownloadAndGoErrorMessage: %@ %d" = "OneDrive, \"%1$@\" dosyasını indiremedi (Hata kodu: %2$d).";
+
+/* Download And Go cancel error button */
+"DownloadAndGoCancelErrorButton" = "İptal";
+
+/* Download And Go try hydration again button */
+"DownloadAndGoTryAgainButton" = "Yeniden Dene";
+
+// Finder Sync Extension Activity Center Messages
+
+/* The title of the large ACM used to inform the user about Files On-Demand if the Finder Sync Extension is enabled. */
+"FinderSyncEnabledTitle" = "Çevrimiçi Dosyalar Depolama Alanınızdan Tasarruf Etmenizi Sağlar";
+
+/* The body of a large ACM that informs the user about Files On-Demand if the Finder Sync Extension is enabled. "Finder" should be translated the same way as in the Mac OSX. "Always keep on this device" should be translated the same as the MenuItemPinCommand string. */
+"FinderSyncEnabledBody" = "Artık, disk alanınızı doldurmadan OneDrive'ınızın tamamına erişebilirsiniz. Çevrimdışı kullanmak istediğiniz öğeye Finder'da sağ tıklayıp \"Her zaman bu cihazda tut\" seçeneğini belirleyin.";
+
+/* The first button's text in a large ACM that that informs the user about Files On-Demand. When clicked, the message is dismissed. */
+"FinderSyncOkay" = "Tamam";
+
+/* The text of a button that opens a URL with more information about Files On-Demand. Used in all Finder Sync ACMs. */
+"FinderSyncLearnMore" = "Daha Fazla Bilgi";
+
+/* The title of the large ACM used to prompt them to enable the Finder Sync Extension. */
+"FinderSyncPromptTitle" = "İsteğe Bağlı Dosyalardan En İyi Şekilde Yararlanın";
+
+/* The body of a large ACM that prompts the user to enable the Finder Sync Extension if it is disabled. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptBody" = "İsteğe Bağlı Dosyalar, OneDrive dosyalarınızı yalnızca çevrimiçi olarak işaretleyerek bilgisayarınızda depolama alanı açmanıza olanak sağlar. Dosyaları yalnızca çevrimiçi olarak işaretlemek için OneDrive Finder uzantısını etkinleştirmeniz gerekir.";
+
+/* The first button's text in a large ACM that prompts the user to enable the Finder Sync Extension. When clicked, the user's Extensions settings are opened. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptEnableExtension" = "Finder Uzantısını Etkinleştir";
+
+/* The title text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpTitle" = "İsteğe Bağlı Dosyalar Ayarlandı";
+
+/* The body text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpBody" = "Alan tasarrufu için dosyalarınız isteğe bağlı olarak kullanılabilir.";
+
+/* The title of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */
+"FinderSyncEnabledWithSelectiveSyncTitle" = "Tüm Dosyalarınızı Görüntüleyin";
+
+/* The body of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */ 
+"FinderSyncEnabledWithSelectiveSyncBody" = "Dosyalarınızın yalnızca bazılarını bu cihazla eşitliyorsunuz. İsteğe Bağlı Dosyalar artık disk alanı kullanmadan bu cihazdaki tüm dosyalarınızı görüntülemenize olanak sağlar.";
+
+/* The button of an ACM that prompts the user to disable Selective Sync if the Finder Sync Extension is enabled and Files On-Demand is enabled. */
+"FinderSyncEnabledTurnOffSelectiveSyncButton" = "Tüm Dosyaları Göster";
+
+// Strings for the kext installer helper
+
+/* Window title for the kext installer helper*/
+"KextWizardWindowTitle" = "Microsoft OneDrive";
+
+/* Body header for the kext installer helper */
+"KextWizardBodyHeader" = "İsteğe Bağlı Dosyaları Güncelleştirme";
+
+/* Body text for the kext installer helper*/
+"KextWizardBodyText" = "İsteğe Bağlı Dosyaları kullanmak için OneDrive'dan bir sistem uzantısına izin vermeniz gerekiyor. Önce Güvenlik Tercihlerini Aç'a ve sonra İzin ver'e tıklayın.";
+
+/* Action button for the kext installer helper */
+"KextWizardOpenSecurityButton" = "Güvenlik Tercihlerini Aç";
+
+// Throttling
+
+/* Individual file gets throttled */
+"FileTransferThrottled" = "Yüksek hizmet etkinliği nedeniyle geçici bir eşitleme gecikmesiyle karşılaşabilirsiniz. Daha sonra dosyayı yeniden güncelleştirmeyi deneyeceğiz.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that a number of items couldn't be synced. */
+"FileTransferThrottledPrimary" = "Eşitleme gecikmesi";
+
+/* Description text shown on the sub-header of the Activity Center when there are files being throttled. */
+"FileTransferThrottledSecondary" = "Yüksek hizmet etkinliği nedeniyle geçici bir eşitleme gecikmesiyle karşılaşıyor olabilirsiniz";
+
+/* Describes the generic resolution, in the Errors Window, of a file that cannot sync because it is in use by another process. */
+"FilePostponedByClient" = "Bu dosya başka bir program tarafından açıldığından eşitlenemiyor. Dosya kapatıldığında eşitlenebilir";
+
+/* Title text shown in the sub-header of the Activity Center indicating that one file is in use by another application. */
+"FilePostponedByClientSingular" = "Dosya başka bir uygulama tarafından kullanılıyor";
+
+/* Title text shown in the sub-header of the Activity Center indicating that multiple files are in use by other applications. %@ is a number. */
+"FilePostponedByClientPlural:%@" = "%@ dosya diğer uygulamalar tarafından kullanılıyor";
+
+// Reset UI strings
+
+/* Window title used for the Reset popup window */
+"ResetApplicationTitle" = "Microsoft OneDrive";
+
+/* Header text for the Reset popup window */
+"ResetHeaderText" = "OneDrive'ı Sıfırla";
+
+/* Description text for what happens during a reset */
+"ResetDescriptionText" = "OneDrive'ınızı eşitlemeyle ilgili sorunla karşılaşıyorsanız uygulamayı sıfırlamak yardımcı olabilir. Sıfırlama işlemi eşitleme hizmetini geçici olarak durdurur, dosya hiyerarşisini ve içeriğini buluttan yerel makinenize yeniden eşitler. <a href=\"#\">Daha fazla bilgi.</a>";
+
+/* Checkbox text to ask if the user wants to preserve their selective sync and teamsites settings */
+"ResetSettingsCheckboxText" = "Dosya ayarlarımı ve yapılandırmalarımı koru (önerilen)";
+
+/* Button text to abort the reset process */
+"ResetCancelButtonLabel" = "İptal";
+
+/* Button text to begin the reset process */
+"ResetConfirmButtonLabel" = "Sıfırla";
+
+/* Title text for reset in progress ACM */
+"ResetInProgressTitle" = "Sıfırlanıyor";
+
+/* Body text for reset in progress ACM */
+"ResetInProgressBody" = "Sıfırlanırken dosyalarınızda çalışmaya devam edebilirsiniz. Dosyalarınız yerel diskinize kaydedilir ve sıfırlama işleminden sonra OneDrive'a yüklenir.";
+
+/* Title text for reset successful ACM */
+"ResetSuccessTitle" = "Sıfırlama tamamlandı";
+
+/* Body text for reset successful ACM */
+"ResetSuccessBody" = "OneDrive'ınız başarıyla sıfırlandı.";
+
+/* Title text for reset successful with errors ACM */
+"ResetSuccessWithErrorsTitle" = "Sıfırlama tamamlandı, ancak...";
+
+/* Body text for reset successful with errors ACM */
+"ResetSuccessWithErrorsBody" = "OneDrive'ınızda, sıfırlama işlemiyle düzeltilemeyen hatalar var. Hataları görmek için dokunun veya tıklayın.";
+
+/* Title text for reset failed ACM */
+"ResetFailureTitle" = "Sıfırlanamadı";
+
+/* Body text for reset failed ACM */
+"ResetFailureBody" = "Bir sorun oluştu. <a href=\"#\">Daha fazla bilgi edinin.</a>";
+
+/* Title text for reset successful history list item */
+"ActivityListHistoryResetSuccessPrimary" = "Sıfırlama tamamlandı";
+
+/* Body text for reset successful history list item */
+"ActivityListHistoryResetSuccessSecondary" = "OneDrive'ınız başarıyla sıfırlandı.";
+
+/* Title text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsPrimary" = "Sıfırlama tamamlandı";
+
+/* Body text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsSecondary" = "Hala bazı hatalar var.";
+
+/* Title text for reset failed history list item */
+"ActivityListHistoryResetFailurePrimary" = "Sıfırlanamadı";
+
+/* Body text for reset failed history list item */
+"ActivityListHistoryResetFailureSecondary" = "Bir sorun oluştu.";
+
+/* Title text for reset completed toast */
+"ToastResetCompletedTitle" = "OneDrive'ı sıfırlama işlemi tamamlandı";
+
+/* Body text for reset completed toast */
+"ToastResetCompletedBody" = "Dosya durumunuzu görmek için buraya dokunun veya tıklayın.";
+
+/* Title text for reset failed toast */
+"ToastResetFailedTitle" = "OneDrive sıfırlanamadı";
+
+/* Body text for reset failed toast */
+"ToastResetFailedBody" = "Sonraki adımları görmek için buraya dokunun veya tıklayın.";
+
+// End Reset UI strings
+
+/* Resolution message for client access denied. */
+"ClientAccessDeniedErrorsShortDescription" = "Öğeye erişim izniniz yok gibi görünüyor. Öğenin eşitlenmesine izin vermek için doğru izinlere sahip olduğunuzdan emin olun.";
+
+// Purchase Window Strings
+
+/* Title text show in Purchase Window */
+"PurchaseWindowTitle" = "Microsoft OneDrive";
+
+/* Header text shown in Purchase Window */
+"PurchaseWindowHeader" = "Premium Deneyimini edinin!";
+
+/* Header text shown in Purchase Window after buying the subscription */
+"PurchaseSuccessWindowHeader" = "Tebrikler!";
+
+/* Header text shown in Purchase Window while buying the subscription */
+"PurchaseWindowLoadingTitle" = "Yükleniyor";
+
+/* Body text shown in the Purchase Window*/
+"PurchaseWindowBody" = "Bir aylık ücretsiz Office 365 aboneliği ile premium OneDrive özelliklerinin tadını çıkarın. Size uygun bir plan seçin ve ücretsiz denemenizi başlatın.";
+
+/* Body text shown in the Purchase Window after buying the subscription */
+"PurchaseSuccessWindowBody" = "Artık yalnızca abonelere sunulan özelliklere erişebilirsiniz. 1 aylık denemeden sonra otomatik olarak kartınızdan ücret alınır.";
+
+/*Link button to skip the window */
+"PurchaseWindowSkipNowLink" = "Şimdilik atla";
+
+/* Sub text in product subscription card describing our premium features*/
+"PurchaseCardMainBody" = "Premium OneDrive Özellikleri";
+
+/* Decribes our product subscription right below a row of images showing the office apps*/
+"PurchaseCardSubBody" = "PC ve Mac için en yeni Office uygulamaları";
+
+/* Purchase card button text which will start a purchase flow */
+"PurchaseCardButtonText" = "Premium'a Geçin - İlk Ay Ücretsiz";
+
+/* Purchase card link text which will launch a learn more campaign */
+"PurchaseCardLinkText" = "Daha fazla bilgi";
+
+/* Personal subscription card list text. Only for 1 person  */
+"PurchasePersonalList1" = "Bireysel Kullanım İçin";
+
+/* Home subscription card list text. Bundle avaiable for 6 people*/
+"PurchaseHomeList1" = "Altı kişi için";
+
+/* Personal subscription card list text. 1 Terabyte of storage in OneDrive */
+"PurchasePersonalList2" = "1 TB depolama alanı";
+
+/* Home subscription card list text. 6 Terabyte of storage in OneDrive */
+"PurchaseHomeList2" = "6 TB depolama alanı";
+
+/* Common subscription card list text for all bundles. Access advanced security features */
+"PurchaseCommonList3" = "Gelişmiş güvenlik";
+
+/* Common subscription card list text for all bundles. Access more producitivty tool*/
+"PurchaseCommonList4" = "Üretkenlik araçları";
+
+/* Price of a yearly subscription. %@ is money symbol followed by a decimal number. Example: $59.99*/
+"PurchasePriceYearConstant:%@" = "%@/yıl";
+
+/* Close the window */
+"PurchaseCloseButtonText" = "Kapat";
+
+/* Accessible name for a list of Microsoft Office Products*/
+"PurchaseIconAccessibleName" = "Microsoft Office ürünleri";
+
+/* Accessible name for a list of details concerning a Office Subscription.*/
+"PurchaseListBodyAccessibleName" = "Özellik listesi";
+
+/* Error title of purchase window*/
+"PurchaseWindowErrorTitle" = "Bir Sorun Oluştu";
+
+/* Error body of purchase window. Receipt is already in use*/
+"PurchaseErrorReceiptInUse" = "Office 365 satın alma işleminiz farklı bir Microsoft hesabı tarafından kullanıldı.";
+
+/* Error body of purchase window. Transient Error that automatically might resolve*/
+"PurchaseErrorTransientIssue" = "Office 365'i başarıyla satın aldınız, ancak aboneliği Microsoft hesabınıza uygulayamadık. Lütfen daha sonra yeniden deneyin, yeniden ücret alınmayacak. 24 saat sonra sorun devam ediyorsa lütfen destek birimine başvurun.";
+
+/* Error body of purchase window. Error that we are unable to resolve.*/
+"PurchaseErrorUnableToResolve" = "Office 365'i başarıyla satın aldınız, ancak aboneliği Microsoft hesabınıza uygulayamadık. Lütfen destek birimine başvurun.";
+
+/* Terms of Use title for purchasing a subscription */
+"PurchaseSubscriptionTermsTitle" = "Abonelik Ayrıntıları";
+
+/* Terms of Use body for purchasing a subscription */
+"PurchaseSubscriptionTermsBody" = "Satın alınan Office 365 abonelikleri, iTunes hesabınızda ücretlendirilir ve otomatik yenileme önceden devre dışı bırakılmadığı takdirde geçerli abonelik süresi dolmadan 24 saat önce otomatik olarak yenilenir. Aboneliklerinizi yönetmek veya otomatik yenilemeyi devre dışı bırakmak için, iTunes hesabınızın ayarlarına gidin. Abonelik, etkin abonelik süresi boyunca iptal edilemez. Kullanıcı, bu yayım için bir abonelik satın aldığında, teklif edilmiş olan ücretsiz deneme süresinin kullanılmamış kısmı geçerliliğini yitirir.";
+
+/* Text that will link to a web page describing the Microsoft terms of use */
+"PurchaseSubscriptionTermsOfUseLink" = "Kullanım Koşulları";
+
+/* Text that will link to a web page describing the terms of privacy */
+"PurchaseSubscriptionPrivacyLink" = "Gizlilik";
+
+// End Purchase window strings
+
+// Get Help window strings
+
+/* Get Help window title */
+"GetHelpWindowTitle" = "Desteğe Başvurun";
+
+/* Placeholder for the Get Help user input field */
+"GetHelpFieldTip" = "Burada sorununuzu açıklayın.";
+
+/* Window title shown at the end of get help submission succeeded. */
+"GetHelpSendSuccessTitle" = "Destek İsteği Gönderildi";
+
+/* Message shown at the end of get help submission - %1$@ is user email. */
+"GetHelpSendSuccessText:%@" = "OneDrive temsilcisi %1$@ adresinden sizinle iletişim kuracak.";
+
+/* Window title shown at the end of get help submission failure. */
+"GetHelpSendFailureTitle" = "Destek İsteği Başarısız Oldu";
+
+/* Message shown in the case of feedback submission failure */
+"GetHelpSendFailureText" = "Üzgünüm, destek isteği göndererek bir sorun vardı. Lütfen Internet bağlantınızı denetleyin ve sonra yeniden deneyin.";
+
+// End Get Help window strings

@@ -1,0 +1,35 @@
+/* 
+  Strings for the File Provider extension's info.plist
+ 
+  NOTE: All strings should go in Localizable.Strings except for Badge and Root folder tooltips
+*/
+
+/* Tooltip for files and folders in the pinned state */
+"BadgeTooltip_Pinned" = "Aina käytettävissä tässä laitteessa";
+
+/* Tooltip for files and folders which are shared with other users. */
+"BadgeTooltip_Shared" = "Jaettu";
+
+/* Tooltip for files and folders which are shared AND in the pinned state. */
+"BadgeTooltip_PinnedShared" = "Jaettu ja aina käytettävissä tässä laitteessa";
+
+/* Tooltip for files excluded from syncing. Ex: HVEL, LVEL and ODIgnored */
+"BadgeTooltip_Ignored" = "Jätetty pois synkronoinnista";
+
+/* A tooltip for a custom icon on a team site folder. */
+"RootTooltip_TeamSite" = "Jaettu kirjasto";
+
+/* A tooltip for a custom icon on an added/shortcut folder. */
+"RootTooltip_Shortcut" = "Pikakuvake";
+
+/* Title bar text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_Title" = "Kansiota ei voida siirtää";
+
+/* Description text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_SubTitle" = "Tätä kansiota ei voida siirtää tähän Maciin.";
+
+/* Title bar text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_Title" = "Kohteita ei voida siirtää";
+
+/* Description text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_SubTitle" = "Näitä kohteita ei voida siirtää tähän Maciin.";

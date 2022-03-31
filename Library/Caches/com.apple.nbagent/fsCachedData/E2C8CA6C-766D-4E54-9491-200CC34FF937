@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<installer-gui-script minSpecVersion="1">
+    <options type="config-data" hostArchitectures="i386,x86_64" customize="never"/>
+    <title>SU_TITLE</title>
+    <script/>
+    <volume-check script="VolumeCheck()"/>
+    <platforms>
+        <client arch="i386"/>
+        <server arch="i386"/>
+    </platforms>
+    <choices-outline ui="SoftwareUpdate">
+        <line choice="su"/>
+    </choices-outline>
+    <choices-outline>
+        <line choice="su"/>
+    </choices-outline>
+    <choice id="su" description-mime-type="text/html" secondaryDescription="SU_SERVERCOMMENT" suDisabledGroupID="Upgrade to macOS 10.14" start_selected="true" versStr="SU_VERS" description="SU_DESCRIPTION" title="Upgrade to macOS 10.14">
+        <pkg-ref id="com.apple.pkg.10.14NoticeboardNotification.16U1627" auth="Root" packageIdentifier="com.apple.pkg.10.14NoticeboardNotification.16U1627">10.14NoticeboardNotification.pkg</pkg-ref>
+    </choice>
+    <script>
+function VolumeCheck(prefix) {
+	var myTargetSystemVersion = (my.target.systemVersion || system.files.plistAtPath(my.target.mountpoint + "/System/Library/CoreServices/SystemVersion.plist"));
+	my.result.message = system.localizedString('ERROR_ABA5BBB51F');
+	if (!LogicalOr0(my.target.mountpoint)) {
+		my.result.type = 'Fatal';
+		return false;
+	}
+	return true;
+}
+function LogicalOr0(prefix) {
+	if (LogicalAnd1(prefix) || PlistCheck7(prefix) || PlistCheck8(prefix) || PlistCheck9(prefix) || PlistCheck10(prefix) || PlistCheck11(prefix) || PlistCheck12(prefix) || PlistCheck13(prefix) || PlistCheck14(prefix) || PlistCheck15(prefix) || PlistCheck16(prefix) || PlistCheck17(prefix) || PlistCheck18(prefix) || PlistCheck19(prefix)) {
+		return true;
+	}
+	return false;
+}
+function LogicalAnd1(prefix) {
+	if (PlistCheck2(prefix) &amp;&amp; Not3(prefix) &amp;&amp; Not5(prefix)) {
+		return true;
+	}
+	return false;
+}
+function PlistCheck2(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.6') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Not3(prefix) {
+	if (!(BundleCheck4(prefix))) {
+		return true;
+	}
+	return false;
+}
+function BundleCheck4(prefix) {
+	var bundle = system.files.bundleAtPath(prefix + '/Applications/App Store.app');
+	if (!bundle) {
+		return false;
+	}
+	var bundleKeyValue = bundle['CFBundleVersion'];
+	if (!bundleKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(bundleKeyValue, '464') &lt; 0) {
+		return false;
+	}
+	return true;
+}
+function Not5(prefix) {
+	if (!(BundleCheck6(prefix))) {
+		return true;
+	}
+	return false;
+}
+function BundleCheck6(prefix) {
+	var bundle = system.files.bundleAtPath(prefix + '/System/Library/PrivateFrameworks/CommerceKit.Framework');
+	if (!bundle) {
+		return false;
+	}
+	var bundleKeyValue = bundle['CFBundleVersion'];
+	if (!bundleKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(bundleKeyValue, '464') &lt; 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck7(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.10') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck8(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.9') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.10') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck9(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.1') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck10(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.1') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.2') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck11(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.2') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.3') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck12(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.3') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.4') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck13(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.4') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.5') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck14(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.1') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck15(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.1') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.2') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck16(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.2') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.3') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck17(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.3') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.4') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck18(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.4') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.5') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function PlistCheck19(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.5') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.6') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+</script>
+    <localization>
+        <strings language="English">"SU_TITLE" = "Upgrade to macOS 10.14";
+"SU_VERS" = "1.0";
+"SU_SERVERCOMMENT" = "For Desktop and Server systems";
+"SU_DESCRIPTION" = '&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;&lt;/body&gt;
+&lt;/html&gt;
+';
+</strings>
+    </localization>
+    <pkg-ref id="com.apple.pkg.10.14NoticeboardNotification.16U1627" installKBytes="2518" version="1.0.0.0.1.1539837307"/>
+</installer-gui-script>

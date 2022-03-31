@@ -1,0 +1,62 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-WebRequest-Log" />
+  <provider guid="{81ca0c6e-4af9-40b5-baef-75f7d828e8f2}" symbol="WebRequestLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default">
+      <event level="Informational" symbol="FailedToGetAuthToken" message="WebRequest failed to get auth token, hr: %result" value="3573673628">
+        <template>
+          <data type="HResult" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WebRequestSentSuccessfully" message="WebRequest sent successfully, hr: %result" value="1193881552">
+        <template>
+          <data type="HResult" name="result" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WebRequestFailed" message="WebRequest failed to send, hr: %result" value="3989941479">
+        <template>
+          <data type="HResult" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WebRequestGetHostName" message="WebRequest getting host name, hr: %result" value="2409895724">
+        <template>
+          <data type="HResult" name="result" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WebRequestFailedGetHostName" message="WebRequest failed to get host name, hr: %result" value="4105355078">
+        <template>
+          <data type="HResult" name="result" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WebRequestComplete" message="WebRequest completed, source:%requestSource, sId:%scenarioIdentifier hr: %result, status:%httpStatus, cookie:%cookie, headers:%headerSize, content:%contentLength" value="1455921218">
+        <template>
+          <data type="Int32" name="requestSource" />
+          <data type="Int32" name="scenarioIdentifier" />
+          <data type="HResult" name="result" />
+          <data type="UInt32" name="httpStatus" />
+          <data type="Int32" name="cookie" />
+          <data type="UInt32" name="headerSize" />
+          <data type="UInt32" name="contentLength" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WebRequestFailedToCreateDataRequest" message="WebRequest failed to create data, hr: %result" value="689539003">
+        <template>
+          <data type="HResult" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddAuthHeaderComplete" message="Adding auth header complete, hr: %result" value="3045286627">
+        <template>
+          <data type="HResult" name="result" />
+        </template>
+      </event>
+    </events>
+  </provider>
+</manifest>

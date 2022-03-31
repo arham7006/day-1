@@ -1,0 +1,24 @@
+{
+    "siri_allowlist" : [
+        {
+            "app_bundle_id" : "com.appleinternal.ecar",
+            "model_ids" : [
+                0,
+                1,
+                2,
+                3,
+                4,
+                4194304,
+                8388608,
+                12582912,
+                16777216
+            ]
+        },
+     ],
+     "iap2_allowlist" : [
+         16777217,
+         16777218
+     ],
+     "iap2_denylist" : [
+     ]
+}

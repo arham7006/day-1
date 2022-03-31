@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B660A4A3-E1A6-4E29-B97D-B46E3930EFFA}</ProjectGuid>
+    <RootNamespace>AuthShared</RootNamespace>
+  </PropertyGroup>
+  <Import Project="..\AuthCommon.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(inetroot)\client\onedrive\build\CppProjectEx.props" />
+  <PropertyGroup>
+    <TargetName>AuthShared</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>
+        $(OneAuthMDInclude);
+        $(PalIncludePath);
+        $(ProductAuthPath)PAL;
+        $(ProductAuthPath)PAL\lib\$(O);
+        $(ProductAuthPath)Platform;
+        $(ProductPalPath)EmailHRD;
+        $(ProductPalPath)Sessions\api;
+        $(UpdateRingSettingsApiPath);
+        $(ProductCommonPath)EventMachine\inc;
+        $(ProductCommonPath)Properties;
+        %(AdditionalIncludeDirectories)
+      </AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>AuthShared-pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Auth.h" />
+    <ClInclude Include="IAuth.h" />
+    <ClInclude Include="IAuthAPI.h" />
+    <ClInclude Include="AuthShared-pch.h" />
+    <ClInclude Include="INetworkAuthenticateable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Auth.cpp" />
+    <ClCompile Include="IAuthAPI.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(ProductAuthPath)PAL\lib\AuthLib.vcxproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <Project>{f7fa52d6-e321-41f8-8bd2-f0ba764d6f55}</Project>
+    </ProjectReference>
+    <ProjectReference Include="$(ProductPalPath)pal\lib\Platypus.vcxproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <Project>{69ab4f6f-da97-4f2a-a743-f692077b2ae9}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(inetroot)\client\onedrive\build\CppProject.targets" />
+</Project>

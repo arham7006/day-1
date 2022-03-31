@@ -1,0 +1,2575 @@
+// Misc
+
+// File Size Units
+
+/* The lowest unit for file sizes */
+"byteText" = "bytes";
+
+/* Unit for file sizes. */
+"KiloByteAbbrv" = "KB";
+
+/* Unit for file sizes. */
+"MegaByteAbbrv" = "MB";
+
+/* Unit for file sizes. */
+"GigaByteAbbrv" = "GB";
+
+/* Unit for file sizes. */
+"TeraByteAbbrv" = "TB";
+
+/* Unit for file transfer speed. */
+"KiloBytePerSecond" = "KB/s";
+
+/* Unit for file transfer speed. */
+"MegaBytePerSecond" = "MB/s";
+
+
+// First run - used by FirstRunWindowController.mm and its views
+
+/* Windows title used to welcome a user running the application.
+ There's probably no need to localize this string. */
+"FirstRunWindowTitle" = "Microsoft OneDrive";
+
+/* Title of the welcome page when running for the first time */
+"FirstRunText" = "Configurar o OneDrive";
+
+/* Short explaination about what OneDrive does when running for the first time */
+"FirstRunDescriptiveText" = "Coloque seus arquivos no OneDrive para acessá-los de qualquer dispositivo.";
+
+/* Button to sign into a personal instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomePersonalButton" = "Pessoal";
+
+/* Button to sign into a business instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomeBusinessButton" = "Trabalho ou escola";
+
+/* Button to start email hrd sign in flow on the first run experience in welcome page */
+"FirstRunEmailSignInButton" = "Entrar";
+
+/* Placeholder text for the email input box on the first run experience in welcome page */
+"FirstRunEmailInputPlaceholderText" = "Insira o seu endereço de email";
+
+/* Errors shown when there is a problem with the users email address on the first run experience in welcome page */
+"FirstRunWelcomeErrorPersonalAlreadySyncing" = "Você já está sincronizando uma conta pessoal do OneDrive neste computador. Desvincule essa conta para adicionar uma nova.";
+"FirstRunWelcomeErrorEmailIsMSAAndAAD" = "Este endereço de email é usado para o OneDrive e para o OneDrive for Business. Qual você gostaria de acessar primeiro?";
+"FirstRunWelcomeErrorEmailIsNotKnown" = "Não reconhecemos esse endereço de email.";
+"FirstRunWelcomeErrorEmailAdminDisabled" = "A sua organização não permite que você sincronize a sua conta pessoal do OneDrive neste computador.";
+
+/* first run wizard progress text for screen readers */
+"FirstRunProgress0" = "A instalação do OneDrive está 0% concluída";
+"FirstRunProgress50" = "A instalação do OneDrive está 50% concluída";
+"FirstRunProgress75" = "A instalação do OneDrive está 75% concluída";
+"FirstRunProgress100" = "A instalação do OneDrive está 100% concluída";
+
+/* Title of the page that introduces OneDrive folder when running for the first time */
+"FirstRunIntroduceText" = "Esta É sua Pasta do OneDrive";
+
+/* Title of the page that prompts for required folder when mounting for the first time */
+"FirstRunIntroduceRequiredPathText" = "Confirmar Local da Pasta";
+
+/* Title of the page that introduces OneDrive folder when running for the first time. "Finder" should be translated the same way as in the Mac OSX */
+"FirstRunIntroduceDescriptiveText" = "Adicione arquivos aqui para que você possa acessá-los de outros dispositivos e ainda tê-los neste Mac.";
+
+/* Title of the adminstrative error that will be attached to the FirstRunIntroduceDescriptiveText */
+"FirstRunIntroduceDescriptiveTextWithError" = "Se você escolher este local para a sua pasta do \"%@\", o conteúdo desta pasta será mesclado com o seu OneDrive. Você pode escolher outro local ou manter o local selecionado";
+
+/* Title of the page that prompts for access to required folder. */
+"SelectRequiredPathDescriptiveText:%@" = "Para sincronizar estes arquivos, conceda-nos permissão para acessar esta pasta: %@";
+
+/* This is for the button that allows users to change the root folder path. When clicked, it opens a browse window for users to select the root folder. */
+"FirstRunBrowseButtonText" = "Alterar Local";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"FirstRunDoneIntroductionButtonText" = "Avançar";
+
+/* This is for the button when user has never selected a root folder. */
+"FirstRunSelectFolderButtonText" = "Escolher local da pasta do OneDrive";
+
+/* This is for the button when user has not yet confirmed our required folder. */
+"FirstRunSelectRequiredFolderButtonText" = "Confirmar Local da Pasta";
+
+/* This is a prompt displayed in the file browse dialog. */
+"SelectRootFolderMessage" = "Escolha um local para sua pasta do OneDrive";
+
+/* This is a prompt displayed in the file browse dialog to confirm required location. */
+"SelectRequiredFolderMessage" = "Use a pasta selecionada e clique em \"Confirmar local\".";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"CreateRootFolderButton" = "Escolher este local";
+
+/* This is for the confirmation button when user is done confirming the required folder. */
+"CreateRequiredFolderButton" = "Confirmar local";
+
+/* This is for the text field to show currently selected root folder path. */
+"FirstRunShowFolderPathText:%@" = "Sua pasta %@ está em";
+
+/* This is the alert dialog title when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootTitle:%@" = "Não foi possível encontrar o local de sua pasta %@";
+
+/* This is the alert dialog body when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootMessage" = "A sua pasta do OneDrive pode ter sido excluída ou, se ela estiver em uma unidade externa, a unidade pode ter sido removida. Clique em OK para reconfigurar a pasta do OneDrive.";
+
+/* This is the alert dialog button that allows user to reconfigure */
+"FirstRunUnconfiguredRootReconfigureButton" = "OK";
+
+/* This is the alert dialog button that allows user to quit the application */
+"FirstRunUnconfiguredRootQuitButton" = "Encerrar o OneDrive";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is invalid */
+"InvalidMappingLocationMessageTitle" = "Não é possível criar a sua pasta do OneDrive no local selecionado";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid. */
+"InvalidMappingLocationDetailedMessage" = "Tente outro local. Verifique se o local não está em um disco removível ou em um disco com um formato que diferencia maiúsculas de minúsculas.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location can't be used */
+"InvalidMappingLocationInUseTitle" = "Não é possível criar a sua pasta do OneDrive neste local";
+
+/* This is a detailed explanation in the alert window telling users the selected folder is already used by another OneDrive account. */
+"InvalidMappingLocationInUseDetailedMessage" = "Outra pasta do OneDrive já existe neste local. Escolha um local diferente.";
+
+/* This is a short text above detailed explaination in the alert window telling users to select the required path */
+"InvalidMappingRequiredPathMessageTitle" = "Confirmar o local selecionado da pasta para continuar com a sincronização";
+
+/* This is a detailed explaination in the alert window telling users the selected location is not the required path. */
+"InvalidMappingRequiredPathDetailedMessage" = "Mantenha o local selecionado e clique em \"Confirmar local\" no Localizador.";
+
+/* This is the button in the alert window that shows up when current location is not the required path. The button allows users to choose a new location */
+"InvalidMappingRequiredPathContinueButton" = "Continuar";
+
+/* This is the button in the alert window that shows up when current location is invalid. The button allows users to choose a new location */
+"InvalidMappingLocationChooseButton" = "Escolher novo local";
+
+/* This is the button in the alert window that shows up when current location is invalid. This button allows users to close the alert */
+"InvalidMappingLocationCancelButton" = "Cancelar";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty */
+"MappingLocationContainsFileMessageTitle" = "Já existe conteúdo nesta pasta";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessage:%@" = "Se você escolher este local para a sua pasta do \"%@\", o conteúdo nesta pasta será mesclado com o seu OneDrive. Você pode escolher outro local ou manter o local selecionado";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessageWithDefaultFolder:%@" = "Se você escolher este local para a sua pasta do \"%@\", o conteúdo nesta pasta será mesclado com o seu OneDrive.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty {%1$@ is a folder name and %2$@ is its parent folder name } */
+"LibraryFolderMappingLocationContainsFileMessageTitle:%@,%@" = "Uma pasta do \"%1$@\" já existe em sua pasta \"%2$@\"";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is not empty. { %1$@ is a folder name } */
+"LibraryFolderMappingLocationContainsFileDetailedMessage:%@" = "Se você escolher este local para a sua pasta do \"%1$@\", os arquivos na pasta serão mesclados com os arquivos na nuvem. Você pode usar o local selecionado ou sincronizar para a nova pasta.";
+
+/* This is the button in the alert window that shows up when the folder location is not empty. This button allows users to continue anyway */
+"MappingLocationContainsFileContinueButton" = "Usar este local";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button allows users to choose a new location */
+"MappingLocationContainsFileChooseButton" = "Escolher novo local";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button informs us to automatically create a new folder on behalf of the user. */
+"MappingLocationContainsFileCreateButton" = "Sincronizar para uma Nova Pasta";
+
+/* This is on top of the selective sync page in First Run Experience. */
+"FirstRunSelectiveSyncTitle" = "Sincronizar apenas o desejado";
+
+/* This is the description right below the title on top of the selective sync page. */
+"FirstRunSelectiveSyncDescription:%@" = "Escolha o que deseja baixar para sua pasta do OneDrive%@ e acesse-a mesmo quando estiver offline.";
+
+/* This is the text on radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsTitle" = "Todos os arquivos e as pastas no meu OneDrive";
+
+/* This is the description text next to the radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsDescription" = "Tudo, menos os arquivos compartilhados com você, será sincronizado neste Mac.";
+
+/* This is the text on radio button to choose to sync only some files */
+"FirstRunSelectiveSyncSomeItemsTitle" = "Escolher pastas para sincronizar";
+
+/* This is the description text next to the radio button to choose to sync only some files. */
+"FirstRunSelectiveSyncSomeItemsDescription" = "Clique em \"Concluído\" para selecionar o que será sincronizado com este computador.";
+
+/* This is the button text in the selective sync page */
+"FirstRunSelectiveSyncNextButtonText" = "Avançar";
+
+/* This is the title text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncTitle" = "Ativar Arquivos sob Demanda";
+
+/* This is the description text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncDescription" = "Para ver as opções de Arquivos sob Demanda no menu de contexto de clique com o botão direito do mouse, você precisa habilitar a Extensão de Sincronização do Localizador do OneDrive. Clique em Abrir Preferências de Extensões e, em seguida, selecione a extensão do Localizador do OneDrive.";
+
+/* This is the button text in the Enable Finder Sync page for the Enable button */
+"FirstRunEnableFinderSyncEnableButtonText" = "Abrir Preferências de Extensão";
+
+/* This is the button text in the Enable Finder Sync page for the Skip button */
+"FirstRunEnableFinderSyncSkipButtonText" = "Habilitarei as Extensões Mais Tarde";
+
+/* This is on top of the Cloud Files Tutorial page in First Run Experience. */
+"FirstRunCloudFilesTutorialTitle" = "Todos os seus Arquivos, Prontos e Sob Demanda";
+
+/* This is the description right below the title on top of the Cloud Files Tutorial page. */
+"FirstRunCloudFilesTutorialDescription" = "Com os Arquivos sob Demanda, você pode procurar tudo no seu OneDrive sem ocupar espaço no Mac. Os arquivos são baixados conforme necessário.";
+
+/* This is the header text in the Cloud Files Tutorial page for online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFiles" = "Arquivos somente online";
+
+/* This is the text in the Cloud Files Tutorial page describing online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFilesDescription" = "Os arquivos somente online não são baixados para seu dispositivo até que você os abra.";
+
+/* This is the header text in the Cloud Files Tutorial page for locally available files. */
+"FirstRunCloudFilesTutorialHydratedFiles" = "Arquivos disponíveis localmente";
+
+/* This is the text in the Cloud Files Tutorial page describing locally available files. */
+"FirstRunCloudFilesTutorialHydratedFilesDescription" = "Os arquivos que você abrir serão baixados para seu dispositivo e ficarão disponíveis offline.";
+
+/* This is the header text in the Cloud Files Tutorial page for always available files. */
+"FirstRunCloudFilesTutorialPinnedFiles" = "Arquivos sempre disponíveis";
+
+/* This is the text in the Cloud Files Tutorial page describing always available files. */
+"FirstRunCloudFilesTutorialPinnedFilesDescription" = "Você pode marcar arquivos e pastas que deseja que estejam sempre disponíveis, até offline.";
+
+/* This is the button text in the Cloud Files Tutorial page */
+"FirstRunCloudFilesTutorialNextButtonText" = "Avançar";
+
+/* This is on top of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunTitle" = "Seu OneDrive Está Pronto";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunDescription:%@" = "Baixaremos os seus arquivos e os manteremos sincronizados neste Mac. Para adicionar arquivos ao OneDrive, basta movê-los para a sua pasta do %@ no Finder.";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience when Cloud Files on. */
+"FirstRunFinishFirstRunCloudFilesDescription:%@" = "O OneDrive está configurado e pronto para ser usado. Para adicionar arquivos ao OneDrive, basta movê-los para a pasta \"%@\" no Localizador.";
+
+/* This is the text of the Open-at-login checkbox in the Finish First Run page (Done page) in First Run Experience */
+"FirstRunFinishFirstRunOpenAtLoginCheckboxText" = "Abrir ao fazer logon para que meus arquivos sejam sincronizados automaticamente";
+
+/* This is the button text in the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunButtonText:%@" = "Abrir minha pasta do %@";
+
+// Settings folder access error
+
+/* This is the title text for dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorTitle" = "Não é possível acessar a pasta de configurações";
+
+/* This is the descrption text for dialog we pop up when we cannot access settings folder {StrContains=\"Application Support\"} */
+"SettingsFolderErrorDescription" = "Verifique se você tem acesso à pasta Application Support.";
+
+/* This is the button to quit for the dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorQuitButtonText" = "Encerrar o OneDrive";
+
+// Cloud device - used by SyncDevice.mm
+
+/* The name of the online storage */
+"CloudDevice" = "Armazenamento sincronizado do OneDrive";
+
+
+// Folder status - used by ModelExtensions.mm
+
+/* Text shown on status menu when everything is in sync */
+"FolderStatusInSync" = "O OneDrive está atualizado"; // Up to date
+
+/* Local folder convergence status against a remote folder is not known */
+"FolderStatusUnknown" = "Desconhecido";
+
+/* Uploading and downloading files. "Files" will always be plural. */
+"FolderStatusSendAndReceive:%@" = "Transferindo %@ arquivos...";
+
+/* Uploading one file from a remote folder. We show the file name. */
+"FolderStatusSendingSingular:%@" = "Carregando %@...";
+
+/* Uploading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusSendingPlural:%@" = "Carregando %@ arquivos...";
+
+/* Downloading one file from a remote folder. We show the file name. */
+"FolderStatusReceivingSingular:%@" = "Baixando %@...";
+
+/* Downloading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusReceivingPlural:%@" = "Baixando %@ arquivos...";
+
+/* Processing downloaded files to be created in a local folder */
+"FolderStatusRealizing" = "Processando arquivos baixados...";
+
+/* Processing local file changes to be uploaded */
+"FolderStatusHashing" = "Processando alterações...";
+
+/* Scanning file changes in a folder */
+"FolderStatusScanning" = "Examinando arquivos...";
+
+/* Scanning file changes in a folde */
+"FolderStatusScanningExtended:%@" = "Examinando %@...";
+
+/* Processing changes to files */
+"FolderStatusMetadataXfer" = "Processando arquivos...";
+
+/* Waiting to resume file transfers (upload/download) */
+"FolderStatusBlocked" = "Aguardando sincronização";
+
+/* Status for a folder that is not syncing*/
+"FolderStatusUnmapped" = "O OneDrive não está configurado";
+
+/* Waiting to resume donwloading of a single file. We show the file name. */
+"FolderStatusBlockedSingular:%@" = "Aguardando o recebimento de %@...";
+
+/* Waiting to resume donwloading files */
+"FolderStatusBlockedPlural:%@" = "Aguardando o recebimento de %@ arquivos";
+
+/* Upload+Download Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB */
+"FolderStatusTransferProgress:%@,%@,%@,%@" = "%@ %@ of %@ %@";
+
+/* Upload+Download+Rate Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB The third number shows the current transfer rate followed by its unit. */
+"FolderStatusTransferProgressNew:%@,%@,%@,%@,%@,%@" = "%@ %@ de %@ %@ a %@ %@";
+
+/* Improve upload performance */
+"FasterUploadOption" = "Melhore a velocidade de carregamento carregando em lotes.\r\nEssa opção usa mais largura de banda. Se você notar problemas com sua conexão de Internet, desmarque essa opção.";
+
+/* Available storage space. Example: 20 GB used out of 200 GB. This is used in the systray. */
+"StorageQuota:%@,%@" = "%1$@ usados de %2$@";
+
+/* Available storage space. Example: 20 GB of 200 GB cloud storage used. This is used in account tab of preference window to show GB on disk for personal account */
+"CloudStorageQuota:%@,%@" = "%1$@ de %2$@ do armazenamento em nuvem usado";
+
+/* Storage used on Mac. Example: 2 GB used on this Mac. This is used in account tab of preference window to show GB on disk for ODB */
+"StorageOnMac:%@" = "%@ usados neste Mac";
+
+// Device status - used by ModelExtensions.mm
+
+/* Drive status displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlocked" = "Não é possível carregar arquivos";
+
+/* Error description displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlockedVerbose" = "Um problema de arquivo está bloqueando todos os carregamentos";
+
+// Device Location - used by ModelExtensions.mm
+
+/* Local device, i.e. this computer */
+"DeviceLocationLocal" = "Local";
+
+/* Remote device, e.g. another computer */
+"DeviceLocationRemote" = "Remoto";
+
+/* Cloud storage device, */
+"DeviceLocationCloud" = "Nuvem";
+
+// Sync Issue Window
+
+/* "Problem" is a general term that includes both warnings and errors. Problem is singular. */
+"SyncIssueWindowTitleSingular:%@" = "1 problema com o seu %@";
+
+/* "Problem" is a general term that includes both warnings and errors. Problems is plural. */
+"SyncIssueWindowTitlePlural:%@,%@" = "%1$@ problemas com o seu %2$@";
+
+/* The button is used to clear the issue list */
+"SyncIssueWindowClearButton" = "Limpar";
+
+/* Reveal is showing the item */
+"SyncIssueWindowOpenInFinderToolTip" = "Revelar no Localizador";
+
+/* Tool tip for the button that removes an issue from issue window */
+"SyncIssueWindowIgnoreIssueToolTip" = "Ignorar este problema";
+
+/* Text on status when there are more than 1 problems. "Problems" is always plural */
+"SyncIssueStatusPlural:%@" = "%@ problemas com o OneDrive";
+
+/* Text on status when there is a problem. problem is always singular */
+"SyncIssueStatusSingular" = "1 problema com o OneDrive";
+
+/* Tool tip for the button that opens issue resolver window */
+"SyncIssueWindowOpenIssueToolTip" = "Resolver este problema";
+
+/* Primary text for error dialog with a file conflict for the file name. %@ is a file name */
+"SyncIssueAlertFileOnHoldPrimary:%@" = "Resolver o Conflito do Arquivo para \"%@\"";
+
+/* Secondary text for error dialog. %@ is a machine name */
+"SyncIssueAlertFileOnHoldSecondary:%@" = "Você pode abrir o arquivo no Office para mesclar alterações de ambas as versões ou selecionar o arquivo que deseja manter. Caso contrário, você pode manter os dois arquivos, o arquivo no seu computador terá um \"-%@\" adicionado ao seu nome e o arquivo online será baixado.";
+
+/* Primary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldMainButton" = "Manter ambos os arquivos";
+
+/* Secondary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldSecondaryButton" = "Abrir no Office";
+
+// Error description - used by ModelExtensions.mm
+
+/* error description used in issue window {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFilename" = "Altere o nome do arquivo. Por exemplo, certifique-se de que ele não comece ou termine com um espaço, termine com um ponto, inicie com dois pontos, ou inclua algum destes caracteres: \\ / : * ? \" < > | ";
+
+/* error description used in issue window  {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFoldername" = "Altere o nome da pasta. Por exemplo, certifique-se de que ela não comece ou termine com um espaço, termine com um ponto, inicie com dois pontos, ou inclua algum destes caracteres: \\ / : * ? \" < > | ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionFilePathTooLong" = "O caminho de arquivos é muito extenso para armazenar no computador";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionCloudAccessDenied:%@" = "Este arquivo é somente leitura em \"%@\"";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionDocumentCheckedOut" = "Outro usuário fez o check-out deste arquivo.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionServerFileConflict:%@" = "Não foi possível carregar um item para \"%@\"";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionExcludedItem:%@" = "Não foi possível carregar um item no \"%@\"";
+
+/* error description used in issue window %1$@ is a size like 10 GB, %2$@ is a string like "OneDrive - Microsoft" */
+"SyncErrorShortDescriptionFileTooBig:%@,%@" = "Você não pode carregar arquivos maiores do que %1$@ em \"%2$@\"";
+
+/* Use "OneNote" unless there's a localized name for it {Locked=!cs, sk;\"OneNote\"} */
+"SyncErrorShortDescriptionOnenoteDeleted:%@" = "Não é possível excluir atalhos para os arquivos do OneNote de sua pasta \"%@\". Clique para acessar o OneDrive e exclua isto da Web.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionItemCantFitInQuota:%@" = "O arquivo ou pasta e seu conteúdo não se ajustam à cota restante em seu \"%@\"";
+
+/* item means either folder or file */
+"SyncErrorShortDescriptionItemLimitExceeded:%@" = "Há muitos arquivos em \"%@\". Remova os arquivos que não são necessários.";
+
+/* The user choose to unsync files/folders but we are unable to delete it. item means either folder or file */
+"SyncErrorShortDescriptionUnmappedContentPresent:%@" = "Um arquivo ou pasta com este nome já existe no mesmo local online em \"%@\". Renomeie o arquivo ou a pasta.";
+
+/* error description used when Office files have edit-edit conflicts and they cannot be merged */
+"SyncErrorShortDescriptionFileOnHold" = "Não é possível mesclar as alterações em um arquivo do Office. Clique no ícone de seta para resolver.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaCritical:%@,%@" = "O %1$@ está %2$@ cheio";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaCritical:%@,%@" = "%1$@ tem apenas %2$@ de espaço disponível.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaExceeded:%@" = "%@ está sem espaço";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaExceeded" = "Para manter sua pasta do OneDrive sincronizada, obtenha mais espaço de armazenamento ou exclua arquivos desnecessários.";
+
+/* error description used in issue window for business accounts */
+"CloudIssueShortDescriptionQuotaExceeded_Business" = "Contate o seu departamento de TI para obter mais informações ou libere espaço removendo arquivos.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleThrottling" = "O OneDrive não pode transferir arquivos agora";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionThrottling" = "Tente novamente amanhã.";
+
+// Status menu - used by StatusMenuController.mm
+
+/* No comments provided by engineer */
+"StatusMenuTitle" = "Gerenciar";
+
+/* The status menu item text that leads to more menu items */
+"StatusMoreMenu" = "Mais";
+
+/* Text for status menu item that opens the folder containing deleted OneDrive files */
+"StatusMenuItemLaunchRecycleBin" = "Lixeira do OneDrive";
+
+/* Status menu item to allow the user to open the dialog for sharing file/folder */
+"StatusMenuItemShare" = "Compartilhar um arquivo ou pasta...";
+
+/* Text for the status menu item which opens the OneDrive folder when clicked*/
+"StatusMenuItemOpenLocalFolder" = "Abrir Pasta do OneDrive";
+
+/* Text for the status menu item which opens the named folder when clicked  */
+"StatusMenuItemOpenNamedFolder: %@" = "Abrir Pasta %@";
+
+/* Status menu item that opens browser with Upgrade account page */
+"StatusMenuItemUpgrade" = "Atualizar";
+
+/* Text for the status menu item which opens a browser to OneDrive website for storage manage */
+"StatusMenuItemManageStorage" = "Gerenciar Armazenamento";
+
+/* Status menu item that when clicked will launch a page with user's premium features */
+"StatusMenuItemManagePremium" = "Meus Recursos Premium";
+
+/* Text for the status menu item which opens a browser to OneDrive website homepage */
+"StatusMenuItemLaunchWebsite" = "Ir para o OneDrive.com";
+
+/* The status menu item that allows user to open OneDrive help site. It will likely launch a browser to a website */
+"StatusMenuItemLaunchHelp" = "Ajuda";
+
+/* The status menu item that allows user to open OneDrive feedback. It will likely launch a browser to a website */
+"StatusMenuItemFeedback" = "Comentários";
+
+/* The status menu item that allows a user to open the Parature support dialog. */
+"StatusMenuItemReportIssue" = "Relatar um Problema";
+
+/* Status shown on the status menu when everything is up to date */
+"StatusMenuItemUpToDate" = "O OneDrive está atualizado";
+
+/* Status shown on the status menu to indicate last updated time in seconds */
+"StatusMenuItemLastUpToDateTimeSecondsAgo" = "Última atualização há alguns instantes";
+
+/* Status shown on the status menu to indicate last updated time was one minute ago */
+"StatusMenuItemLastUpToDateTimeOneMinuteAgo" = "Última atualização há 1 minuto";
+
+/* Status shown on the status menu to indicate last updated time was minutes ago */
+"StatusMenuItemLastUpToDateTimeMinutesAgo:%d" = "Última atualização há %d minutos";
+
+/* Status shown on the status menu to indicate last updated time was one hour ago */
+"StatusMenuItemLastUpToDateTimeOneHourAgo" = "Última atualização há 1 hora";
+
+/* Status shown on the status menu to indicate last updated time was hours ago */
+"StatusMenuItemLastUpToDateTimeHoursAgo:%d" = "Última atualização há %d horas";
+
+/* Status shown on the status menu to indicate last updated time on a date */
+"StatusMenuItemLastUpToDateTimeDaysAgo:%@" = "Última atualização em %@";
+
+/* No comments provided by engineer */
+"StatusMenuItemViewActivity" = "Exibir atividade recente";
+
+/* Status menu entry for opening the issue window */
+"StatusMenuItemViewIssues" = "Clique aqui para exibir problemas de sincronização";
+
+/* Status shown on the status menu when downloading a file */
+"StatusMenuItemSyncCountSingularDownload: %@" = "Baixando %@";
+
+/* Status shown on the status menu when uploading a file */
+"StatusMenuItemSyncCountSingularUpload: %@" = "Carregando %@";
+
+/* Status shown on the status menu when downloading or uploading more than one file */
+"StatusMenuItemSyncCount-%d" = "Transferindo %d itens...";
+
+/* Text for status menu item that opens the preference. It should be translated the same way as all app menu's Preferences item. */
+"StatusMenuItemPreferences" = "Preferências";
+
+/* Text for preference window accessibility label. %1$@ is the current tab name */
+"AccessibilityPreferencesWindowLabel:%@" = "Preferências de %1$@";
+
+/* Text for status menu item that pauses syncing. */
+"StatusMenuItemPause" = "Pausar Sincronização";
+
+/* Text for status menu item that resumes syncing when paused. */
+"StatusMenuItemResume" = "Retomar Sincronização";
+
+/* Text for status menu item that indicates to pause for 1 hour. */
+"StatusMenuItemPauseTimerSingular" = "1 Hora";
+
+/* Text for status menu item that indicates to pause for a number of hours. %1$@ is a number representing hours. */
+"StatusMenuItemPauseTimerPlural" = "%1$@ Horas";
+
+/* Text for status menu item that quits the app */
+"StatusMenuItemQuit" = "Encerrar o OneDrive";
+
+/* Loading user data when signing-in */
+"StatusMenuItemLoading" = "Carregando...";
+
+/* OneDrive is at initial start up */
+"StatusMenuItemStarting" = "Iniciando o OneDrive";
+
+/* OneDrive is showing first run wizard */
+"StatusMenuItemSetup" = "Configurar o OneDrive";
+
+/* Waiting for user input to migrate their Sandbox data */
+"StatusMenuItemMigration" = "Migrando dados do usuário...";
+
+/* Text for status menu item that signs out the app */
+"StatusMenuItemSignOut" = "Sair";
+
+/* Launch the application automatically after login to OS */
+"StatusMenuItemOpenAtLogin" = "Abrir no Logon";
+
+/* Status menu item that when clicked will launch the live sit for the account that is connected */
+"StatusMenuItemViewOnline" = "Exibir online";
+
+// Quit Dialog
+
+/* Title text for dialog shown when user is quitting OneDrive */
+"QuitDialogHeader" = "Encerrar o OneDrive?";
+
+/* Body text for dialog shown when user is quitting OneDrive */
+"QuitDialogDescription" = "Se encerrar o OneDrive, os arquivos em sua pasta do OneDrive não serão sincronizados com os arquivos online.";
+
+/* Title text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogHeaderUploadsPending" = "Encerrar o OneDrive e Parar de Carregar Arquivos?";
+
+/* Body text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogDescriptionUploadsPending" = "Se encerrar o OneDrive, o carregamento dos arquivos em sua pasta do OneDrive só será concluído quando você reiniciar.";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will quit OneDrive. */
+"QuitDialogButtonDefault" = "Encerrar o OneDrive";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will dismiss dialog. */
+"QuitDialogCancelButton" = "Cancelar";
+
+// Dock Menu - used by DockMenuController.mm
+
+/* No comments provided by engineer */
+"DockMenuTitle" = "OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemOpenLocalFolder" = "Abrir a pasta do OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemLaunchWebsite" = "Ir para o OneDrive.com";
+
+// Login Failures - used by SignInViewController.mm
+
+/* When we are unable to retrieve a user's tenant name, we will use this to show "OneDrive - Business" */
+"DefaultTenantName" = "Business";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"InvalidUsernameTitleText" = "Não é possível entrar no OneDrive.";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the explaination text in the dialog {StrContains=\"example555@hotmail.com\"} */
+"InvalidUsernameDescriptionText" = "Insira sua Conta Microsoft neste formato: example555@hotmail.com.";
+
+/* When we receive an invalid web request, we show this text as the first line of the dialog. */
+"InvalidWebRequestTitle" = "Não foi possível abrir o cliente de sincronização";
+
+/* When we receive an invalid web request, we show this text as the body text of the dialog. */
+"InvalidWebRequestBody" = "Não foi possível processar a URL. Para obter ajuda, contate o suporte.";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailTitle" = "Problema ao conectá-lo";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailText" = "Houve um problema ao entrar. Tente novamente. Verifique se a Conta Microsoft e a senha estão corretas e se o computador está conectado à Internet.";
+
+/* When we have connectivity error during sign in, we pop up a dialog and this is the first line of the text in the dialog*/
+"SignInConnectivityErrorTitleText" = "Problema ao conectar ao OneDrive";
+
+/* When we have connecctivity error during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInConnectivityErrorDescriptionText" = "Verifique a conexão com a Internet e tente novamente.";
+
+/* When we fail to access the keychain during sign in, we pop up a dialog and this is the first line of text in the dialog. */
+"SignInKeychainErrorTitleText" = "Houve um problema ao acessar as chaves";
+
+/* when we fail to access the keychain during sign in, we pop up a dialog and this is the detailed text in the dialog. */
+"SignInKeychainErrorDescriptionText" = "Verifique se as chaves de logon existem e se o OneDrive tem acesso a elas. Se solicitado, permita o acesso do OneDrive às chaves.";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the first line of the text in the dialog */
+"SignInCredentialErrorTitleText" = "Problema ao conectar ao OneDrive";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInCredentialErrorDescriptionText" = "Verifique a conexão com a Internet e tente novamente.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SuspendedAccountTitleText" = "Não é possível entrar no OneDrive.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the explaination text in the dialog */
+"SuspendedAccountDescriptionText" = "Sua conta foi suspensa.";
+
+/* When we get a user using a non-beta enabled account, we show this error title. */
+"SignInNoBetaText" = "Não é possível entrar no OneDrive.";
+
+/* When we get a user using a non-beta enabled account, we show this error description. {StrContains=\"Windows Live\"} */
+"SignInNoBetaDescriptionText" = "Esta conta não foi habilitada para o programa Windows Live beta.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnknownErrorTitle" = "Problema ao conectá-lo";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnknownErrorText" = "Tente novamente em alguns minutos.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLError500Title" = "Problema ao conectá-lo";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLError500Text" = "Problema com o OneDrive. Tente novamente em alguns minutos.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInterruptedErrorTitle" = "Problema ao conectá-lo";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInterruptedErrorText" = "Problema com a sua conta. Para saber como corrigir o problema, acesse o OneDrive.com e entre. Após corrigir o problema, tente novamente.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnauthorizedErrorTitle" = "Problema ao conectá-lo";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnauthorizedErrorText" = "Problema com o OneDrive. Tente novamente em alguns minutos.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidClientErrorTitle" = "Problema ao conectá-lo";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidClientErrorText" = "Problema com o OneDrive. Tente novamente em alguns minutos.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidGrantErrorTitle" = "Problema ao conectá-lo";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidGrantErrorText" = "Problema com o OneDrive. Tente novamente em alguns minutos.";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the title. */
+"SignInURLSPOUserNotFoundTitle" = "Seu OneDrive não foi instalado";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the error text. */
+"SignInURLSPOUserNotFoundErrorText" = "Para obter ajuda, contate seu departamento de TI.";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the title */
+"SignInURLUserThrottledErrorTitle" = "Não foi possível configurar o OneDrive neste Mac";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the error text. */
+"SignInURLUserThrottledErrorText" = "O OneDrive está com um alto nível de tráfego. Tente novamente mais tarde.";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the title. */
+"SignInURLEmailMismatchTitle" = "Para sincronizar com êxito, use o mesmo endereço de email que você usou na Web";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the error text. */
+"SignInURLEmailMismatchErrorText:%@" = "Entre com %@ para iniciar a sincronização deste conteúdo.";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to try signing in again. */
+"SignInTryAgainButtonText" = "Tente novamente";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive*/
+"SignInQuitButtonText" = "Encerrar o OneDrive";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive */
+"SignInCloseButtonText" = "Fechar";
+
+/* This text is displayed in sign in dialog while we load signing in page */
+"SignInPageLoadingText" = "Carregando...";
+
+/* This text is used for voice over while we load signing in page */
+"SignInPageLoadingVoiceOverText" = "Aguarde enquanto o OneDrive está sendo carregado.";
+
+/* This text is displayed in sign in dialog while we are signing in the user */
+"SignInProgressingText" = "Entrando...";
+
+/* This text is used for voice over while we are signing in the user */
+"SignInProgressingVoiceOverText" = "Aguarde enquanto o OneDrive está se conectando.";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the title. */
+"SignInDuplicateSyncErrorTitle" = "Você já está sincronizando esta conta";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the text. */
+"SignInDuplicateSyncErrorText:%@" = "Abra a sua pasta do %@ ou entre com uma conta diferente.";
+
+/* When the userconnected service returns an error, this is the title */
+"SignInUserConnectedErrorTitle" = "Problema ao conectar ao OneDrive";
+
+/* When the userconnected service returns error: "AccessDenied". This is the error text. */
+"SignInUserConnectedAccessDeniedText" = "Você não tem acesso a este serviço. Para obter ajuda, contate seu departamento de TI";
+
+/* When the userconnected service returns error: "AccountSuspended". This is the error text. */
+"SignInUserConnectedAccountSuspendedText" = "Sua conta está bloqueada. Para obter ajuda, contate seu departamento de TI";
+
+/* When the userconnected service returns error: "InvalidUserData". This is the error text. */
+"SignInUserConnectedInvalidUserDataText" = "Não foi possível estabelecer uma conexão com o servidor. Para obter ajuda, contate seu departamento de TI";
+
+/* When the userconnected service returns error: "MissingLicense". This is the error text. */
+"SignInUserConnectedMissingLicenseText" = "Você precisa de uma licença diferente para acessar este serviço. Para obter ajuda, contate seu departamento de TI";
+
+/* When the userconnected service returns error: "ProvisioningFailed". This is the error text. */
+"SignInUserConnectedProvisioningFailedText" = "Seu OneDrive não está configurado. Para obter ajuda, contate seu departamento de TI";
+
+/* When the userconnected service returns error: "Throttled". This is the error text. */
+"SignInUserConnectedThrottledText" = "O serviço está com um grande volume de solicitações neste momento. Tente novamente em alguns minutos";
+
+/* When the userconnected service returns error: "Timeout". This is the error text. */
+"SignInUserConnectedTimeoutText" = "O serviço está levando muito tempo para responder. Tente novamente em alguns minutos";
+
+/* When the userconnected service returns error: "Unknown". This is the error text. */
+"SignInUserConnectedUnknownText" = "Tente novamente em alguns minutos ou contate seu departamento de TI se o problema persistir";
+
+/* When the userconnected service returns error: "UnreachableHost". This is the error text. */
+"SignInUserConnectedUnreachableHostText" = "O serviço está temporariamente indisponível. Tente novamente em alguns minutos";
+
+/* When the userconnected service returns error: "UserNotFound". This is the error text. */
+"SignInUserConnectedUserNotFoundText" = "Houve um problema com sua conta. Para obter ajuda, contate seu departamento de TI";
+
+/* When the userconnected service returns error: "NoTeamSitePermission". This is the error text. */
+"SignInUserConnectedNoTeamSitePermText" = "Você não tem acesso a este site do SharePoint. Para obter ajuda, contate seu departamento de TI";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error. This is the title. */
+"SignInUserAlreadyLoadedErrorTitle" = "Você está sincronizando uma conta diferente";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error.
+   Depending on whether we know which email the user is signed in with, either show the specific or the generic message below. This is the text. */
+"SignInUserAlreadyLoadedErrorEmailSpecificText:%@" = "A conta com a qual você entrou não corresponde à conta que você está sincronizando. Forneça a senha de \"%@\". Para adicionar outra conta, vá para Preferências, clique na guia Conta e selecione \"Adicionar uma Conta\"";
+
+"SignInUserAlreadyLoadedErrorGenericText" = "A conta com a qual você entrou não corresponde à conta que você está sincronizando. Para adicionar outra conta, vá para Preferências, clique na guia Conta e selecione \"Adicionar uma Conta\"";
+
+/* When MSA user is already syncing with account A, and tries to sign in with account B when prompted for creds. Depending on whether the e-mail address is available or not, we show the specific or generic message below. This is the text */
+ "SignInUserAlreadyLoadedErrorMSAEmailSpecificText:%@" = "A conta com a qual você está conectado não coincide com a conta que você está sincronizando. Forneça a senha para \"%@\".";
+
+ "SignInUserAlreadyLoadedErrorMSAGenericText" = "A conta com a qual você está conectado não coincide com a conta que você está sincronizando.";
+
+/* When an unknown error occurs that has not been handled. This is the title. */
+"SignInUnknownErrorTitle" = "Problema ao conectá-lo";
+
+/* When an unknown error occurs that has not been handled. This is the text. */
+"SignInUnknownErrorText" = "Tente novamente em alguns minutos ou contate seu departamento de TI se o problema persistir";
+
+// Preferences - used by PreferenceController.mm
+
+/* This is the text on preference window toolbar for Preferences. */
+"PreferenceGeneralItem" = "Preferências";
+
+/* This is the text that encloses General area in preference window. */
+"PreferenceGeneralGroupBoxText" = "Geral";
+
+/* This is the text on preference window check box. When user checks this option, it allows OneDrive to start when user login. */
+"PreferenceStartAtLoginCheckBoxText" = "Abrir no Logon";
+
+/* This is the description for enable OnPrem telemetry checkbox. */
+"PrivacyCheckBoxText" = "Enviar relatórios de erros e estatísticas de uso para a Microsoft";
+
+/* This is the description when OneDrive is at the wrong location. "Applications" should be localized the same way as the OS. */
+"OpenAtLoginDisabledExplaination" = "Para disponibilizar essa configuração, feche o OneDrive, mova o aplicativo do OneDrive para sua pasta Aplicativos e abra o OneDrive novamente.";
+
+/* This is the text on preference window check box. When user checks this option, OneDrive icon is removed from the Dock. Note "Dock" is capital D */
+"PreferenceHideDockIconText" = "Ocultar ícone do Dock";
+
+/* This is the text for a preference window check box. When the user checks this option we will automatically save screenshots any time they take a screenshot. */
+"PreferenceEnableScreenCaptureUpload" = "Salvar as capturas de tela no OneDrive";
+
+/* This will be displayed when a user running a store build attempts to enable the screen capture
+ * feature. Due to app store limitations, the user is forced to select their desktop folder. This
+ * message will be displayed within the file open dialog in order to help the user understand what
+ * selection they are required to make in the file open dialog. */
+"PreferenceEnableScreenCaptureUploadOpenDialogMessage" = "Para salvar as capturas de tela no OneDrive automaticamente, selecione a pasta da Área de Trabalho.";
+
+/* This is the text on preference window check box. When user checks this option, we will not show share/edit notifications */
+"PreferenceDisplayShareEditNotificationsCheckBoxText" = "Mostrar notificações sobre compartilhamento ou edição";
+
+/* This is the text on preference window toolbar for About. */
+"PreferenceAboutItem" = "Sobre";
+
+/* This is the text that encloses about area in preference window. */
+"PreferenceAboutGroupBoxText" = "Sobre o Microsoft OneDrive";
+
+/* This is the text that shows version. */
+"PreferenceVersionText:%@" = "Version %@";
+
+/* This is the text that shows version for standalone. */
+"PreferenceStandaloneVersionText:%@" = "Versão %@ (Autônomo)";
+
+/* This is the text that encloses "more info" area in preference window. */
+"PreferenceMoreInfoGroupBoxText" = "Mais informações";
+
+/* This is the text that opens help in browser. */
+"PreferenceGetHelpText" = "Obter ajuda com o OneDrive";
+
+/* This is the text that opens privacy statement in browser. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"PreferencePrivacyStatementText" = "Política de Privacidade";
+
+/* This is the text that opens server status in browser. */
+"PreferenceServerStatusText" = "Status do serviço";
+
+/* This is the text that opens Terms of Use in browser. */
+"PreferenceTermsOfUseText" = "Termos de Uso";
+
+/* This is the text on the button in preference window that opens the manage storage page on browser */
+"PreferenceManageStorageButtonText" = "Gerenciar Armazenamento";
+
+/* This is the text on the button that unlinks OneDrive in preference window. */
+"PreferenceUnlinkButtonText" = "Desvincular este Mac";
+
+/* This is the title text on the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertMessageTitle" = "Desvincular Conta neste Mac?";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for consumer accounts. */
+"PreferenceUnlinkAlertDetailedMessage" = "A sincronização dos seus arquivos do OneDrive será interrompida. Uma cópia desses arquivos ficará neste Mac.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for business accounts. */
+"PreferenceUnlinkAlertDetailedMessageBusiness:%@" = "Seu conteúdo comercial associado à conta (%@) terá a sincronização interrompida. Uma cópia desses arquivos ficará neste Mac.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for last library unsynced. %1$@ is a folder name, %2$@ is an email address */
+"PreferenceUnlinkLastLibraryAlertDetailedMessage:%@,%@" = "%1$@ é sua última pasta sincronizada. Se você parar a sincronização desta conta, sua conta do %2$@ será desvinculada. Uma cópia dos arquivos ficará neste Mac.";
+
+/* This is the text on the confirm button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertConfirmButton" = "Desvincular Conta";
+
+/* This is the text on the cancel button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertCancelButton" = "Cancelar";
+
+/* This is the text on the button that resets OneDrive in preference window. */
+"PreferenceResetButtonText" = "Redefinir o OneDrive";
+
+/* This is the text on preference window toolbar for account. */
+"PreferenceAccountItem" = "Conta";
+
+/* This is the text that tells users how to sync down only selected folders in preference window. */
+"PreferenceSelectiveSyncDescription" = "As pastas que você escolher ficarão disponíveis neste Mac.";
+
+/* This is the text that encloses "Choose folders" area in preference window. */
+"PreferenceFolderGroupBoxText" = "Escolher Pastas";
+
+/* This is the button that opens up advanced selective sync in preference window. */
+"PreferenceSelectFoldersButton" = "Escolher Pastas";
+
+/* This is the text on the the preference window toolbar for network. */
+"PreferenceNetworkItem" = "Rede";
+
+/* This is the text on the Upload box. */
+"PreferenceUploadBox" = "Taxa de Carregamento";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceNoLimit" = "Não Limitar";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimit" = "Ajustar Automaticamente";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimitByAdmin" = "Ajustar Automaticamente (Gerenciado por sua Organização)";
+
+/* This is the text on the radio button that does limit bandwidth. */
+"PreferenceCustomLimit" = "Limitar a:";
+
+/* This is the text on the Download box. */
+"PreferenceDownloadBox" = "Taxa de Download";
+
+/* This is the text on the box to enable the Files On-Demand feature. */
+"PreferenceCloudFilesEnableBox" = "Arquivos sob Demanda";
+
+/* This is the description for the Files On-Demand box. */
+"PreferenceCloudFilesDescription" = "Arquivos sob Demanda libera espaço no seu computador, baixando os arquivos à medida que você os usa.";
+
+/* Button text in Files On-Demand box. Clicking this button turns on the feature. */
+"PreferenceCloudFilesEnable" = "Ativar Arquivos sob Demanda";
+
+/* Button text in Files On-Demand box. Clicking this button turns off the feature. */
+"PreferenceCloudFilesDisable" = "Desativar Arquivos sob Demanda";
+
+/* Link in the Files On-Demand box. Clicking this link will launch a webpage with more information. */
+/* Also resued in local mass delete delete confirmed ACM. */
+"PreferenceCloudFilesMoreInfo" = "Saiba Mais";
+
+/* This is the title text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertMessageTitle" = "Desativar Arquivos sob Demanda?";
+
+/* This is the body text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertDetailedMessage" = "Todos os arquivos e pastas do OneDrive serão baixados neste Mac.";
+
+/* This is the text on the confirm button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertConfirmButton" = "OK";
+
+/* This is the text on the cancel button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertCancelButton" = "Cancelar";
+
+/* This is the button text to display the Blocked Applications list. */
+"PreferenceBlockedAppButtonText" = "Gerenciar Aplicativos";
+
+/* This is the description for the Hydrating Applications pane. */
+"PreferenceHydratingAppDescription" = "O Mac pode baixar automaticamente arquivos somente online do OneDrive para aplicativos que solicitarem.";
+
+/* This is the description for the Blocked Applications box. */
+"PreferenceBlockedAppDescription" = "Esses aplicativos são bloqueados para o download automático do OneDrive:";
+
+/* This is the description for the checkbox that allows user to control whether they see a hydration notification toast. */
+"PreferenceNotifyHydratingAppCheckbox" = "Notificar-me quando um aplicativo estiver fazendo o download do OneDrive";
+
+/* This is the header of the table listing Blocked Applications */
+"PreferenceBlockedAppTableHeader" = "Aplicativos";
+
+/* Label for the button to close the Blocked Applications list */
+"PreferenceBlockedAppCloseButtonLabel" = "Fechar";
+
+/* Prompt for user to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationPrompt" = "Selecione os aplicativos que você deseja impedir de baixarem arquivos automaticamente";
+
+/* Header for error when unable to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationErrorHeader" = "Não Foi Possível Adicionar a Seleção";
+
+/* Body for error when unable to add an application to the Blocked Applications list*/
+"PreferenceBlockedAppAddApplicationErrorBody" = "Somente aplicativos podem ser impedidos de baixar arquivos do OneDrive automaticamente. Selecione um aplicativo e tente novamente.";
+
+// Preferences - Advanced Selective Sync Page
+
+/* This is the text on the top of advanced selective sync sheet. */
+"AdvancedSelectiveSyncTitle" = "Sincronizar Arquivos do Seu OneDrive";
+
+/* This is the text on the top of advanced selective sync sheet when Cloud Files on. */
+"AdvancedSelectiveSyncTitleCloudFiles" = "Escolher Pastas";
+
+/* This is the text under the title of advanced selective sync sheet. */
+"AdvancedSelectiveSyncDescription:%@" = "Escolha o que deseja baixar para sua pasta do \"%@\". Você pode acessar esses itens mesmo quando estiver offline.";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page. */
+"AdvancedSelectiveSyncDescriptionPreferences" = "Os arquivos que você sincronizar ocuparão espaço neste Mac";
+
+/* This is the text in advanced selective sync sheet to sync everything. */
+"AdvancedSelectiveSyncAll" = "Sincronizar todos os arquivos e as pastas no meu OneDrive";
+
+/* This is the text in advanced selective sync sheet to sync everything under a team site. */
+"AdvancedSelectiveSyncAllTeamSite:%@" = "Sincronizar todos os arquivos e as pastas em %@";
+
+/* This is the text in advanced selective sync sheet to sync only some files. */
+"AdvancedSelectiveSyncSome" = "Ou sincronizar apenas estas pastas:";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page and Cloud Files enabled. */
+"AdvancedSelectiveSyncDescriptionCloudFiles" = "Escolha o que deseja que esteja disponível em sua pasta \"%@\". Esses arquivos estarão disponíveis sob demanda. As pastas não selecionadas serão ocultadas do Localizador.";
+
+/* This is the text in advanced selective sync sheet to sync everything when Cloud Files is enabled. */
+"AdvancedSelectiveSyncAllCloudFiles" = "Disponibilitar todos os arquivos";
+
+/* This is the text in advanced selective sync sheet to sync only some files when Cloud Files is enabled. */
+"AdvancedSelectiveSyncSomeCloudFiles" = "Ou tornar estas pastas visíveis:";
+
+/* This is the text on the file group item in the tree view. %@ is for folder names. ie "puppies", "Cute Kittens". */
+"AdvancedSelectiveSyncFileGroupItem:%@" = "Arquivos em \"%@\"";
+
+/* This is the text on the root's file group item in the tree view. */
+"AdvancedSelectiveSyncFileGroupItemRoot" = "Arquivos que não estão em uma pasta";
+
+/* This is the text on the advanced selective sync sheet for the local path on Mac. */
+"AdvancedSelectiveSyncMacLocationText" = "Local em seu Mac:";
+
+/* This is the button text on the advanced selective sync sheet for start sync. */
+"AdvancedSelectiveSyncStartSyncButtonText" = "Iniciar Sincronização";
+
+/* This is the button text on the advanced selective sync sheet for confirmation. */
+"AdvancedSelectiveSyncConfirmButtonText" = "OK";
+
+/* This is the button text on the advanced selective sync sheet for cancelling out. */
+"AdvancedSelectiveSyncCancelButtonText" = "Cancelar";
+
+/* This is the text at the middle of advanced selective sync sheet when loading. */
+"AdvancedSelectiveSyncLoading" = "Carregando...";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoading:%@" = "Não foi possível obter a lista de pasta em %@.\nFeche esta caixa de diálogo e tente novamente.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders during FRE. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoadingFRE" = "Erro ao exibir a lista de pastas. Se você continuar, nós iremos sincronizar todos os seus arquivos e pastas agora, mas você pode alterar isso mais tarde nas Preferências.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to provision error. */
+"AdvancedSelectiveSyncFailedLoadingWithProvisionError" = "Não conseguimos exibir sua lista de pastas porque ainda estamos configurando a sua conta. Nós vamos sincronizar todos os arquivos e pastas, mas você pode alterar isso mais tarde nas Preferências.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to offline error*/
+"AdvancedSelectiveSyncFailedLoadingWithOfflineError" = "Não conseguimos exibir sua lista de pastas porque não estamos conectados ao OneDrive. Verifique sua conexão com a Internet e tente novamente.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to auth error. */
+"AdvancedSelectiveSyncFailedLoadingWithAuthError" = "Não foi possível exibir sua lista de pastas porque há um problema com a sua conta. Saia do OneDrive e entre novamente.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to having no files and folders. */
+"AdvancedSelectiveSyncFailedLoadingWithNoFileError" = "Seu OneDrive está vazio. Para sincronizar os arquivos que você adicionar mais tarde ao OneDrive, selecione \"Todos os arquivos e pastas no meu OneDrive\".";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnote" = "Se você parar de sincronizar os arquivos ou as pastas, eles continuarão no OneDrive, mas serão excluídos deste Mac. Se eles já estiverem no Mac, serão excluídos.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnoteCloudFiles" = "Se você ocultar essas pastas no seu Mac, os arquivos permanecerão no OneDrive, mas não estarão disponíveis neste Mac. Todos os itens desta pasta serão excluídos deste Mac.";
+    
+/* This is the title text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingTitle" = "Houve um problema ao aplicar suas alterações";
+
+/* This is the description text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingDescription:%@" = "Não foi possível salvar a lista de pastas que você escolheu para sincronizar %@. Tente novamente.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingConfirm" = "Fechar";
+
+/* This is the title text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingTitle" = "Houve um problema ao alterar as pastas a serem sincronizadas neste Mac";
+
+/* This is the description text in the alert sheet after we fail to set selective sync because syncengine is busy*/
+"AdvancedSelectiveSyncBusySettingDescription" = "Alguns dos itens que você tentou parar a sincronização ainda não estão no OneDrive. Espere por eles para terminar de carregar e corrigir quaisquer problemas de sincronização e tente fazer alterações mais tarde.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingConfirm" = "Fechar";
+
+/* This is the text indicating the total size of all selected files and folders. The placeholder is the size and the unit.
+ Examples: Selected: 20 MB */
+"AdvancedSelectiveSyncFilesSelected:%@" = "Selecionado: %@";
+
+/* This is the text indicating the remaining space on disk. The first item is the disk. The second item is the size and the unit.
+ Examples: Remaining space on Macintosh HD: 20 GB */
+"AdvancedSelectiveSyncAvailableSpace:%@,%@" = "Espaço disponível em %1$@: %2$@";
+
+/* This is the description text for selectively syncing folders */
+"AdvancedSelectiveSyncSyncOnlyTheseFolderTitle" = "Sincronizar somente estas pastas";
+
+/* This is the text shown when calculating the selected and remaining disk space */
+"AdvancedSelectiveSyncLoadingTitle" = "Calculando...";
+
+/* This is the text shown when content already syncing */
+"AdvancedSelectiveSyncAlreadySyncingWarning" = "Você já está sincronizando este conteúdo.";
+
+/* This is the text shown when the teamsite that will be synced is read-only. */
+"AdvancedSelectiveSyncReadOnlyWarning" = "Este site é somente leitura. Você não pode fazer alterações a arquivos ou pastas neste site.";
+
+/* This is the text for add an account button in the account tab of preference window */
+"AddAccountButtonText" = "Adicionar uma Conta";
+
+/* This is the text for teamsite box in account tab of preference window (singular) */
+"PreferenceTeamSiteGroupBoxText" = "1 Local está sendo Sincronizado";
+
+/* This is the text for teamsite box in account tab of preference window (plural) */
+"PreferenceTeamSiteGroupBoxText:%d" = "%d Locais estão sendo Sincronizados";
+
+/* This is the text shown when not syncing ODB in account tab of preference window */
+"PreferenceNotSyncingQuotaText" = "Não está sincronizando";
+
+/* This is the text for start sync button for ODB in account tab of preference window */
+"PreferenceStartSyncButton" = "Iniciar Sincronização";
+
+/* This is the text for stop sync button for each team site library in account tab of preference window */
+"PreferenceStopSyncButton" = "Interromper Sincronização";
+
+/* This is the title text in the dialog that stops syncing a teamsite in preference window. */
+"PreferenceStopSyncAlertMessageTitle:%@" = "Interromper Sincronização do %@?";
+
+/* This is the body text in the dialog that unlinks OneDrive in preference window. */
+"PreferenceStopSyncAlertDetailedMessage:%@" = "O %@ interromperá a sincronização. Uma cópia destes arquivos ficará neste Mac.";
+
+/* This is the text on the confirm button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertConfirmButton" = "Interromper Sincronização";
+
+/* This is the text on the cancel button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertCancelButton" = "Cancelar";
+
+/* This is the title of the notifications we show after a team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationTitle:%@" = "No momento, você está sincronizando \"%1$@\"";
+
+/* This is the body of the notification we show after a read-only team site has been succesfully connected (initial sync). */
+"TeamSiteNotificationReadOnlyBody" = "Este site é somente leitura. Clique aqui para exibir os arquivos.";
+
+/* This is the body of the notification we show after an editable team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationEditableBody:%@" = "Você pode editar os arquivos no \"%1$@\". Clique aqui para exibir os arquivos.";
+
+/* This is the title of the notification we show after a previously connected, editable team site has become read-only. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingReadOnlyTitle:%@" = "\"%1$@\" agora é somente leitura.";
+
+/* This is the body of the notification we show after a previously connected, editable team site has become read-only. */
+"TeamSiteNotificationAlreadySyncingReadOnlyBody" = "Você não pode editar arquivos ou pastas porque as permissões do site foram alteradas.";
+
+/* This is the title of the notification we show after a previously connected, read-only team site has become editable. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingEditableTitle:%@" = "Agora você pode fazer alterações em \"%1$@\"";
+
+/* This is the body of the notification we show after a previously connected, read-only team site has become editable. */
+"TeamSiteNotificationAlreadySyncingEditableBody" = "Qualquer alteração será carregada para o site.";
+
+/* This is the body of the notification we show after a team site has been succesfully connected. Permissions of the site are not indicated for this toast. %1$@ is a folder name. */
+"TeamSiteMountNotificationBody:%@" = "Seus arquivos de \"%1$@\" estão sendo sincronizados com este Mac. Clique aqui para visualizar seus arquivos.";
+
+/* This is the title of the notifications we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingHeader:%@" = "Você já está sincronizando \"%1$@\"";
+
+/* This is the body of the notification we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingBody:%@" = "\"%1$@\" já está sendo sincronizado neste dispositivo. Clique aqui para exibir os arquivos.";
+
+/* Error dialog title for dialogs that stop the user from syncing On Prem because the front door URL is missing or ramp is off. */
+"CannotSyncOnPremTitle" = "Não foi possível sincronizar esta pasta";
+
+/* Body text for when we can't sync on Prem because its ramped off. */
+"OnPremSyncNotEnabledBody" = "Não h[a para sincronização de pastas locais do SharePoint.";
+
+/* Body text for when we can't sync On Prem because the front door URL is not configured. */
+"OnPremFrontDoorUrlNotSetBody" = "Contate o administrador de TI para configurar o OneDrive para sincronizar pastas locais do SharePoint.";
+
+/* Title text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfiguredTitle" = "OneDrive não conseguiu entrar";
+
+/* Body text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfigured" = "Há um problema com suas credenciais. Tente iniciar o aplicativo Ticket Viewer e adicione sua identidade, ou então entre novamente. Para obter ajuda, contate o departamento de TI.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. */
+"NewHostMountConsentTitle" = "Permitir a sincronização do OneDrive?";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. %1$@ is the mount point's domain and %2$@ is the user's username. */
+"NewHostMountConsentMessage:%@,%@" = "Você está tentando sincronizar a partir de um novo local (%1$@) com sua %2$@ conta. Você deve sincronizar apenas arquivos se confiar neste local.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, give consent */
+"NewHostMountConsentGiveConsentButton" = "Permitir";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, deny consent */
+"NewHostMountConsentDenyConsentButton" = "Cancelar";
+
+// Sync Engine errors - used by coreController.mm. These are built manually, so straight searching won't work.
+
+/* This is the title text shown on the popup dialog when we detect a new version of the client is available */
+"SyncEngineError:OldClientVersion Title" = "Esta versão do OneDrive está desatualizada.";
+
+/* This is the text shown on the popup dialog when we detect a new version of the client is available*/
+"SyncEngineError:OldClientVersion Message" = "Acesse a Mac App Store e atualize para a versão mais recente do OneDrive para Mac.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:OldClientVersion DefaultButton" = "Sair";
+
+/* No comments provided by engineer */
+"SyncEngineError:PUIDFlip Title" = "Problema ao identificar o dispositivo.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:PUIDFlip Message" = "Faça backup de todos os arquivos em suas pastas sincronizadas. Visite o site http://g.live.com/0ELHP_MEREN/266 para relatar este problema nos fóruns do OneDrive. Inclua o texto deste erro na postagem de fórum.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:PUIDFlip DefaultButton" = "Sair";
+
+/* No comments provided by engineer */
+"SyncEngineError:DiskFull Title" = "O disco rígido está quase cheio.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:DiskFull Message" = "Libere mais espaço para continuar usando o OneDrive.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:DiskFull DefaultButton" = "Sair";
+
+/* This is shown when resign-in is required for MSA account*/
+"SyncEngineError:ForceSignIn Title" = "Você não está conectado";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn Message" = "Seus arquivos podem não estar atualizados. Insira novamente suas credenciais para iniciar a sincronização outra vez.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn DefaultButton" = "OK";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Title" = "Possível problema na conexão à Internet.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Message" = "Verifique se o computador está conectado à Internet e tente novamente.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure DefaultButton" = "OK";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Title" = "Há um problema com o OneDrive.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Message" = "Reinicie o OneDrive.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:TerminateCore DefaultButton" = "Sair";
+
+/* No comments provided by engineer*/
+"SyncEngineError:ServerError Title" = "Há um problema com os servidores do OneDrive.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ServerError Message" = "Tente novamente em alguns minutos.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:ServerError DefaultButton" = "Sair";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Title" = "Parece que há um problema na sua conta. Para saber como corrigir esse problema, acesse OneDrive.com e entre. Depois de corrigir o problema, tente novamente";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Message" = "Contate o atendimento ao cliente.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:AccessDenied DefaultButton" = "Sair";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Title" = "Há um problema com o OneDrive.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Message" = "Saia do OneDrive, verifique se seu computador está conectado à Internet e reinicie o aplicativo.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:Unknown DefaultButton" = "Sair";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid %1$@ is a library name. */
+"SyncEngineError:RootScopeNotFound Title:%@" = "Sua biblioteca do \"%1$@\" foi recriada na Web";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid*/
+"SyncEngineError:RootScopeNotFound Message" = "Clique em \"Reconfigurar o OneDrive\" para definir esta biblioteca neste Mac novamente.";
+
+/* Text for button in error dialog to reconfigure OneDrive*/
+"SyncEngineError:ButtonText ReconfigureButton" = "Reconfigurar o OneDrive";
+
+/* Message title in error dialog when a folder not found and drive is present. %1$@ is a folder name, %2$@ is its local path */
+"SyncError:MissingFolder Title:%@,%@" = "Não foi possível encontrar a sua pasta \"%1$@\" em %2$@";
+
+/* Message in error dialog when the root folder is deleted. %@ is a folder name. */
+"SyncError:RootFolderDeleted Message:%@" = "Clique em \"Sair do OneDrive\" ou clique em \"Configurar o OneDrive\" para configurar sua pasta do \"%@\" novamente.";
+
+/* Message in error dialog when folder is not found while re-mapping and drive is present */
+"SyncError:MissingFolder Message" = "Verifique se esta pasta ainda existe neste local e clique em \"Tentar Novamente\" ou clique em \"Parar Sincronização\" para interromper a sincronização desta pasta.";
+
+/* Message in error dialog when mounted folder not found while re-mapping. %@ is an email address */
+"SyncError:MissingMountedFolder SetUpMessage:%@" = "Verifique se esta pasta ainda existe neste local e clique em \"Tentar Novamente\" ou clique em \"Configurar o OneDrive\" para começar a sincronizar a conta %@ novamente.";
+
+/* Message title in error dialog when there's a problem with the root folder */
+"SyncError:RootFolderError Title:%@" = "Não é possível localizar a pasta do %@.";
+
+/* Message in error dialog when there's a problem with the root folder. %@ is a folder name. */
+"SyncError:RootFolderError Message:%@" = "Clique em \"Sair do OneDrive\" ou clique em \"Configurar o OneDrive\" para configurar sua pasta do \"%@\" novamente.";
+
+/* Text for button in error dialog to restart application when there's a problem with the root folder */
+"SyncError:RootFolderError DefaultButton" = "Reiniciar o OneDrive";
+
+/* Message title in error dialog when OD found but creation doesn't match the DB. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:FolderMismatch Title:%@,%@" = "A pasta \"%1$@\" em %2$@ não é sua pasta \"%1$@\" original";
+
+/* Message in error dialog when OD found but creation doesn't match the DB. %@ is a folder name. */
+"SyncError:RootFolderMismatch Message:%@"= "Mova a pasta original para este local e clique em \"Tentar Novamente\" ou clique em \"Configurar o OneDrive\" para configurar a pasta do \"%@\" novamente.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB */
+"SyncError:MountedFolderMismatch Message" = "Mova a pasta original para este local e clique em \"Tentar Novamente\" ou clique em \"Parar Sincronização\" para interromper a sincronização desta pasta.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB. %@ is an email address */
+"SyncError:MountedFolderMismatch SetUpMessage:%@" = "Mova a pasta original para este local e clique em \"Tentar Novamente\" ou clique em \"Configurar o OneDrive\" para configurar sua conta %@ novamente.";
+
+/* Message in error dialog when library is deemed unreachable */
+"SyncError:UnreachableLibrary Title" = "Não é possível acessar a biblioteca";
+
+/* Message in error dialog when library is deemed unreachable {%@ is library name }*/
+"SyncError:UnreachableLibrary Message:%@" = "%@ está temporariamente indisponível. Verifique sua conexão de rede e tente novamente em alguns minutos ou contate o administrador de TI.";
+
+/* Message title in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Title" = "Não é possível sincronizar este item porque o caminho é muito longo";
+
+/* Message in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Message:%@" = "Não é possível baixar um arquivo ou uma pasta porque o caminho é muito longo. Saia do OneDrive, vá para seu OneDrive for Business em um navegador e encurte o nome ou o caminho de: \r\n\"%@\"\r\n\r\nPara sincronizar seu OneDrive com um local diferente no seu Mac, clique em Executar Instalação.";
+
+/* Message in error dialog when the max file path limit is reached for a local file */
+"SyncError:LocalMaxPath Message:%@" = "Não é possível carregar um arquivo ou uma pasta porque o caminho é muito longo. Saia do OneDrive e encurte o nome ou o caminho de: \r\n\"%@\"\r\n\r\nPara sincronizar seu OneDrive para um local diferente em seu Mac, clique em \"Executar Instalação\".";
+
+/* Message used in several error dialogs. %@ is an email address */
+"Error:ExitOrSetUpMessage:%@" = "Clique em \"Sair do OneDrive\" ou clique em \"Configurar o OneDrive\" para configurar sua conta do %@ novamente.";
+
+/* Text for button in error dialog to exit application when max path length is reached */
+"SyncError:MaxPathLength DefaultButton" = "Sair do OneDrive";
+
+/* Text for button in error dialog to run FRE when max path length is reached */
+"SyncError:MaxPathLength AlternateButton" = "Executar Instalação";
+
+/* Message title in error dialog when the root folder volume is removed. %@ is a folder name.  */
+"SyncError:DriveVolumeRemovedNoVolume Title:%@" = "Não é possível localizar a sua pasta do \"%@\"";
+
+/* Message in error dialog when the root folder volume is removed. %@ is a folder name. */
+"SyncError:DriveVolumeRemovedNoVolume Message:%@" = "Não foi possível encontrar a localização da pasta do “%@”. Verifique se ela não foi excluída. Se a sua pasta do OneDrive estiver em um drive externo, verifique se ele está anexado.";
+
+/* Text for button in error dialog to restart application when the root folder volume is removed */
+"SyncError:DriveVolumeRemoved DefaultButton" = "Reiniciar o OneDrive";
+
+/* Message title in error dialog when drive containing OD could not be found. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:MissingDrive Title:%@,%@" = "Não é possível acessar sua pasta \"%1$@\" em %2$@";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingNoneRemovableDrive Message:%@" = "Verifique se sua unidade %1$@ ainda está disponível no Finder e clique em \"Tentar Novamente\" ou clique em \"Parar Sincronização\" para interromper a sincronização desta pasta.";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingNoneRemovableDrive SetUpMessage:%@,%@" = "Verifique se sua unidade %1$@ ainda está disponível no Finder e clique em \"Tentar Novamente\" ou clique em \"Configurar o OneDrive\" para configurar a sua conta do %2$@ novamente.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingRemovableDrive Message:%@" = "Notamos que %@ era uma unidade removível. Verifique se essa unidade está conectada e disponível no Finder e clique em \"Tentar Novamente\" ou clique em \"Parar Sincronização\" para interromper a sincronização desta pasta.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingRemovableDrive SetUpMessage:%@,%@" = "Notamos que %1$@ era uma unidade removível. Verifique se essa unidade está conectada e disponível no Finder e clique em \"Tentar Novamente\" ou clique em \"Configurar o OneDrive\" para configurar sua conta %2$@ novamente.";
+
+/* Message title in error dialog indicating library cannot be synced, used in ClientNotAllowed, UnsupportedLibrary and DisableSync errors */
+"SyncError:LibraryCannotSync:%@" = "Não é possível sincronizar sua Pasta %@";
+
+/* Message in error dialog when sync is disabled because domain is not "whitelisted" */
+"SyncError:ClientNotAllowed Message" = "Seu departamento de TI exige que você use um computador que tenha ingressado em um domínio aprovado para sincronizar esta pasta. Para obter assistência, contate seu departamento de TI.";
+
+/* Message in error dialog when the library is unsupported */
+"SyncError:UnsupportedLibrary Message" = "Seu departamento de TI fez uma alteração que impede a sincronização desta pasta. Para saber mais, contate seu departamento de TI.";
+
+/* Message in error dialog when sync is disabled */
+"SyncError:DisableSync Message" = "Sua organização não permite a sincronização desta pasta. Para saber mais, contate seu departamento de TI.";
+
+/* Title in balloon tip for when the folder was removed remotely during mount. %@ is the name of the folder being mounted. */
+"SyncError:FolderRemovedRemotelyDuringMount Title:%@" = "\"%@\" não existe mais neste local";
+
+/* Message in balloon tip for when the folder was removed remotely during mount */
+"SyncError:FolderRemovedRemotelyDuringMount Message" = "A pasta deve ter sido movida ou excluída.";
+
+/* Title in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them the folder has been deleted. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Title:%@" = "\"%@\" foi excluída";
+
+/* Message in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them a copy of the files will be left on the Mac. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Message:%@" = "\"%@\" interromperá a sincronização. Uma cópia destes arquivos ficará neste Mac.";
+
+/* Title in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them they no longer have permissions to sync it. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Title:%@" = "Você não tem mais permissões para sincronizar \"%@\"";
+
+/* Message in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them the files have been removed from the Mac. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Message:%@" = "\"%@\" foi removido deste Mac.";
+
+/* Title to show if add folder failed. %@ is a folder name. */
+"AddMountedFolderError Title:%@" = "Não é possível sincronizar sua pasta do \"%@\"";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorTryAgain:%@" = "Não é possível adicionar sua pasta do \"%@\" neste momento. Tente novamente.";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorContactSupport:%@" = "Não é possível adicionar sua pasta do \"%@\" neste momento. Contate o suporte.";
+
+/* Text for Try Again button, used in error dialogs. */
+"TryAgainButtonText" = "Tentar Novamente";
+
+/* Text for Stop Sync button, used in error dialogs. */
+"StopSyncButtonText" = "Parar Sincronização";
+
+/* Text for Set Up OneDrive button, used in error dialogs. */
+"SetUpDriveButtonText" = "Configurar o OneDrive";
+
+/* Text for Exit OneDrive button, used in error dialogs. */
+"ExitOneDriveButtonText" = "Sair do OneDrive";
+
+// About box - used by coreController.mm
+
+/* Application name displayed in the about dialog */
+"AboutApplicationName" = "Microsoft® OneDrive";
+
+/* Copyright info for the updated about dialog */
+"CopyrightText" = "© 2018 Microsoft Corporation. Todos os direitos reservados.";
+
+/* Third Party Notices */
+"ThirdPartyNotices" = "Avisos de Terceiros";
+
+// Menu Items
+
+/* Text for menu item to open the online help website */
+"MainMenuOnlineHelpMenuItemText" = "Ajuda Online do OneDrive";
+
+/* Text for menu item to open the service agreement website */
+"MainMenuServiceAgreementMenuItemText" = "Termos de Uso";
+
+/* Text for menu item to open the private agreement website. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"MainMenuPrivacyAgreementMenuItemText" = "Política de Privacidade";
+
+/* Text for menu item to open the server status website */
+"MainMenuServerStatusMenuItemText" = "Status do servidor";
+
+// Manifest failures
+
+/* Main text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureTitle" = "Não é possível iniciar o OneDrive";
+
+/* Informative text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureMessage" = "Há um problema com os arquivos do aplicativo. Baixe o aplicativo neste computador e tente novamente.";
+
+/* Quit button for the message box which explains the application is corrupt and must exit now */
+"ManifestValidationFailureQuitButton" = "Fechar o OneDrive";
+
+// Updater
+
+/* Message title in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableTitle" = "O OneDrive precisa ser atualizado.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableMessage" = "Para continuar usando o OneDrive, é necessário instalar uma atualização.";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreRequiredUpdateAvailableOpenInAppStoreButton" = "Obter a Atualização";
+
+/* Text in button which quits the application */
+"AppStoreRequiredUpdateAvailableCloseButton" = "Encerrar o OneDrive";
+
+/* Message title in dialog when there is an optional update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableTitle" = "Uma atualização para o OneDrive está disponível.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableMessage" = "Deseja obter a atualização?";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreOptionalUpdateAvailableOpenInAppStoreButton" = "Obter a Atualização";
+
+/* Text in button which quits the application */
+"AppStoreOptionalUpdateAvailableCloseButton" = "Não, obrigado";
+
+// Standalone migration
+
+/* Title for dialog shown to a user in a Mac App Store (MAS) migration downgrade scenario.
+ (When a user installs a lower version of Standalone on top of a higher version of Store) */
+"MASMigrationDowngradeScenarioTitle" = "O OneDrive Não Pode Mover Suas Configurações";
+
+/* Message for dialog shown to a user in a MAS migration downgrade scenario, informing them of their options */
+"MASMigrationDowngradeScenarioMessage" = "Não é possível mover suas configurações, pois o aplicativo está desatualizado. Baixe e instale a versão mais recente. Ou, você pode configurar o OneDrive novamente.";
+
+/* Later button for dialog shown to a user in a MAS migration downgrade scenario. The button will exit the client so the user may launch it again to retry the update later */
+"MASMigrationDowngradeScenarioLaterButton" = "Mais tarde";
+
+/* Download button for dialog shown to a user in a MAS migration downgrade scenario. The button will trigger a download of the latest version of Standalone OneDrive */
+"MASMigrationDowngradeScenarioDownloadButton" = "Baixar e Instalar";
+
+/* Set Up OneDrive button for dialog shown to a user in a MAS migration downgrade scenario. The button will cause OneDrive to drop the user's Store settings and show FRE so the user can re-configure their OneDrive for Standalone */
+"MASMigrationDowngradeScenarioResetupOneDriveButton" = "Configurar o OneDrive";
+
+// Sandbox migration
+
+/* Text in button to select and confirm where the OneDrive folder is */
+"SandboxMigrationConfirmButton" = "Confirmar local";
+
+/* Text in button to quit the OneDrive application */
+"SandboxMigrationQuitButton" = "Fechar o OneDrive";
+
+/* Bold text summarizing that the user needs to confirm where the OneDrive folder is */
+"SandboxMigrationTitle" = "Confirme o local de sua pasta do OneDrive";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationText" = "Antes de continuar a usar o OneDrive, você precisa confirmar onde sua pasta do OneDrive está localizada atualmente no seu Mac.";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationWindowTitle:%@" = "Confirmar o Local da Pasta %@";
+
+/* Text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderMessage" = "Confirme sua pasta do OneDrive.";
+
+/* Button text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderButton" = "Confirmar";
+
+/* Title text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderTitle" = "Tem certeza de que deseja parar de usar a pasta do OneDrive existente?";
+
+/* Descriptive text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderMessage" = "Para escolher um novo local, clique em Executar instalação do OneDrive. Todos os arquivos do seu OneDrive serão baixados para uma nova pasta do OneDrive. Para continuar usando sua pasta do OneDrive existente, clique em Voltar e selecione a pasta.";
+
+/* Button text to pick a different folder */
+"SandboxMigrationConfirmDifferentFolderGoBackButton" = "Voltar";
+
+/* Button text to continue on and reconfigure OneDrive */
+"SandboxMigrationConfirmDifferentFolderQuitButton" = "Executar instalação do OneDrive";
+
+/* Text for alerting invalid app bundle location */
+
+/* Title text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertTitle" = "O aplicativo OneDrive deve estar na pasta Aplicativos.";
+
+/* Description text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertDescription" = "Feche o OneDrive, mova o aplicativo OneDrive para a pasta Aplicativos e abra o OneDrive novamente.";
+
+/* Button text to exit in the invalid app location alert */
+"InvalidBundleLocationAlertButtonText" = "Fechar o OneDrive";
+
+
+/* ---------------------------- Support Window ------------------- */
+/* OK Button */
+"SupportWindowOkButton" = "OK";
+
+/* Cancel Button*/
+"SupportWindowCancelButton" = "Cancelar";
+
+/* Try Again Button */
+"SupportWindowTryAgainButton" = "Tentar Novamente";
+
+/* Header string for Support Window */
+"SuportWindowReportProblem" = "Relatar um Problema";
+
+/* Subheading of support window that gives instructions on what to type */
+"SuportWindowTicketSubheading" = "Lamentamos que algo não esteja funcionando no seu OneDrive. Para nos ajudar a diagnosticar o problema, forneça o máximo de informações possível sobre o problema e o que você estava fazendo quando ele ocorreu.";
+
+/* Header to the textbox in the support window */
+"SupportWindowDescription" = "Descrição:";
+
+/* String at the bottom of the support window - right below the text field where the user types */
+"SupportWindowContactWarning" = "Ao clicar em \"OK\", você permite que a Microsoft o contate para falar sobre este comentário.";
+
+/* Link to privacy statement - very bottom of support dialog. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"SupportWindowPrivacyStatement" = "Política de Privacidade";
+
+/* Text below the progress bar while the support text is being sent */
+"SupportWindowSending" = "Enviando...";
+
+/* Success message for when the support text was successfully sent */
+"SupportSuccessMessage:%@" = "Obrigado por dedicar um tempo para nos informar sobre o problema que está ocorrendo com o OneDrive. Procure no seu email (%@) a confirmação de que recebemos a sua mensagem.";
+
+/* Error message for when the report was no sucessfully sent. Contains a hyperlink designated by <a> and </a> */
+"SupportErrorMessage" = "Ocorreu um problema ao enviar a sua mensagem. Verifique a sua conexão com a Internet e tente novamente. Você também pode reportar o seu problema ao <a>contatar o suporte</a>.";
+
+/* Text for email text field label shown in the support window */
+"SupportWindowEmailLabel" = "Endereço de Email:";
+/* ----------------------------------------------------------------- */
+
+// App store related strings
+
+/* Apple app store description for OneDrive Mac client */
+"StoreDescription" = "O OneDrive é um lugar único para tudo em sua vida. Ele oferece armazenamento gratuito online para todos os seus arquivos pessoais, para que você possa acessá-los em seu Mac e em outros dispositivos que usa: iPhone, iPad, PC, Windows Phone ou Android. Com o OneDrive for Business, você também obtém armazenamento para os seus arquivos de trabalho, para que possa compartilhar e colaborar com outras pessoas em seu trabalho ou escola. Com o aplicativo OneDrive para Mac, você pode facilmente trabalhar com arquivos do OneDrive no seu Mac.\r\n•Acesse os seus arquivos do OneDrive diretamente do Finder, incluindo anexos salvos no OneDrive por meio do Outlook.com, e planilhas e documentos criados por você no Office Online.\r\n•Trabalhe com os seus arquivos do OneDrive mesmo quando estiver offline. As suas alterações serão sincronizadas automaticamente na próxima vez em que você ficar online.\r\n•Escolha as pastas no OneDrive que deseja sincronizar com o Mac.\r\n•Adicione vários arquivos ou pastas ao OneDrive de uma só vez, arrastando-os para a pasta do OneDrive. Ao colocar os seus arquivos no OneDrive, você pode ter acesso a eles de qualquer lugar e ter uma cópia em backup se algo acontecer com o seu computador.\r\n•Abra, edite e crie documentos e outros arquivos de aplicativos como Word ou Excel facilmente no OneDrive. Adicione pastas compartilhadas ao seu OneDrive por meio da lista Compartilhada no OneDrive.com, sincronize-as no seu computador e trabalhe com elas em conjunto com suas próprias pastas.";
+
+/* Pool of generic localized Strings to use for update description */
+"GenericUpdateDescription" = "Bugs de confiabilidade de sincronização corrigidos. Confiabilidade do aplicativo aprimorada. Desempenho de sincronização aprimorado. Consumo de bateria reduzido.";
+
+"GenericStoreUpdate" = "Obrigado por usar o OneDrive. Estamos sempre tentando atualizar o OneDrive para trazer os mais recentes aprimoramentos de desempenho e correções de bugs para uma melhor experiência.";
+
+"R16String" = "Preocupado com uso da largura de banda em uma rede limitada? Adicionamos a capacidade de Pausar o OneDrive. Você pode encontrar a opção de pausa no menu \"...\".";
+
+"R18String" = "Obrigado por usar o OneDrive. Com nossas atualizações usuais para proporcionar a você os mais recentes aprimoramentos de desempenho e correções de bugs, temos os seguintes novos recursos que serão implementados gradualmente para os usuários:\nSobreposições novas foram adicionadas para indicar se uma pasta foi compartilhada.\nA captura de tela agora pode ser redirecionada para o OneDrive.";
+
+"R19String" = "Obrigado por usar o OneDrive. Com nossas atualizações usuais para proporcionar a você os mais recentes aprimoramentos de desempenho e correções de bugs, temos os seguintes novos recursos que estarão gradualmente disponíveis aos usuários:\n Quando você abrir um documento do Office que é sincronizado com o seu computador, ele será aberto pronto para colaboração em tempo real.\nDocumentos do Office que são sincronizados com um computador podem ser compartilhados de dentro de aplicativos do Office.\nClicar com o botão direito do mouse na nuvem do OneDrive agora abre o menu de contexto dentro do Centro de Atividades.\nO número de versão agora foi movido para a guia Preferências, em vez de sua própria janela.";
+
+"R20String" = "Obrigado por usar o OneDrive. Em conjunto com nossas atualizações habituais para proporcionar a você as mais recentes melhorias de desempenho e correções de bugs, temos os seguintes novos recursos que serão implantados gradualmente para os usuários:\nQuando a sincronização for pausada, tocar na faixa retomará a sincronização.";
+
+"R21String" = "Obrigado por usar o OneDrive. Em conjunto com nossas atualizações habituais para proporcionar a você as mais recentes melhorias de desempenho e correções de bugs, temos os seguintes novos recursos que serão implantados gradualmente para os usuários:\nAdicionamos a capacidade de sincronizar as Bibliotecas de Documentos do SharePoint habilitadas para IRM";
+
+"R22String" = "Obrigado por usar o OneDrive. Em conjunto com nossas atualizações habituais para proporcionar a você as mais recentes melhorias de desempenho e correções de bugs, temos os seguintes novos recursos que serão implantados gradualmente para os usuários:\nO Centro de Atividades do OneDrive foi modernizando para melhorar a facilidade de uso e a compreensão.\nAlteramos a opção \"Relatar um Problema\" no menu \"Enviar Comentários\". Agora é possível nos dizer o que você gosta ou não gosta, ou sugerir um recurso que você sempre quis no OneDrive. Estamos ouvindo!";
+
+"R24String" = "Obrigado por usar o OneDrive. Juntamente com nossas atualizações usuais para oferecer as mais recentes melhorias de desempenho e correções de bugs, temos os novos recursos a seguir que serão implantados gradualmente para os usuários:\no OneDrive agora dá suporte ao Modo Escuro do macOS Mojave. Quando o Modo Escuro estiver habilitado, o OneDrive mudará para um novo tema escuro em toda a interface do usuário!";
+
+"R26String" = "Obrigado por usar o OneDrive. Juntamente com nossas atualizações usuais para oferecer as mais recentes melhorias de desempenho e correções de bugs, temos os seguintes novos recursos que serão implantados gradualmente para os usuários:\nAdição de um tema escuro à caixa de diálogo de compartilhamento!\nRealizamos um conjunto de alterações para ajudar a melhorar o desempenho e reduzir o uso da CPU. Informe-nos se ainda estiver ocorrendo problemas.";
+
+"R32String" = "Obrigado por usar o OneDrive. Juntamente com nossas atualizações usuais para oferecer as mais recentes melhorias de desempenho e correções de bugs, temos os novos recursos a seguir que serão implantados gradualmente para os usuários:\nSuporte adicionado para configurações de várias telas para exibir o centro de atividades na tela selecionada.";
+
+/* Files On-Demand is the name of a feature that is already available on OneDrive on Windows already. */ 
+"R29String" = "Com esta atualização mais recente, os Arquivos do OneDrive sob Demanda agora estão disponíveis! Os Arquivos do OneDrive sob Demanda ajudam você a acessar todos os arquivos no OneDrive sem precisar baixá-los e usar o espaço de armazenamento em seu dispositivo. Novos arquivos criados online ou em outro dispositivo aparecem como arquivos somente online, o que não ocupa espaço em seu dispositivo. Quando estiver conectado à Internet, poderá usar os arquivos como todos os outros arquivos no seu dispositivo.\nPara usar Arquivos sob Demanda, é necessário estar executando o macOS Mojave mais recente (10.14.2 ou superior). Você pode habilitar os Arquivos sob Demanda na guia Geral do menu Preferências do OneDrive.";
+
+// Finder sync extension commands
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will copy a shareable link to their keyboard */
+"MenuItemShareCommand" = "Compartilhar um link do OneDrive";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will open a web browser and display the selected file in the web interface */
+"MenuItemViewOnlineCommand" = "Exibir online";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a selective sync window. */
+"MenuItemSelectiveSyncCommand" = "Escolher as pastas do OneDrive para sincronizar";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a browser window that displays some detailed sharing options for the file. */
+"MenuItemSharingOptionsCommand" = "Mais opções de compartilhamento do OneDrive";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a hosted browser window that OneDrive controls. This browser window will load a web page from sharepoint and allow the user to modify sharing options from the file. This is different from just launching the user's default browser. */
+"MenuItemShareBrowserWindowCommand" = "Compartilhar";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch the preferences window for the account that the right clicked file belongs to. */
+"MenuItemPreferencesCommand" = "Preferências";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. */
+"MenuItemPinCommand" = "Sempre manter neste dispositivo";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. */
+"MenuItemUnpinCommand" = "Liberar espaço";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will lock the folder. %@ is a folder name. */
+"MenuItemLockCommand:%@" = "Bloquear %@";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will unlock the folder. %@ is a folder name. */
+"MenuItemUnlockCommand:%@" = "Desbloquear %@";
+
+// Finder Sync Extension Tooltips
+
+/* Tooltip for synced / up-to-date icon in Mac Finder */
+"IconOverlaySyncedLabel" = "Atualizado";
+
+/* Tooltip for syncing icon in Mac Finder */
+"IconOverlaySyncingLabel" = "Sincronizando";
+
+/* Tooltip for error icon in Mac Finder */
+"IconOverlayErrorLabel" = "Erro";
+
+/* Tooltip for shared folder synced / up-to-date icon in Mac Finder */
+"IconOverlaySharedSyncedLabel" = "Atualizado";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlaySharedSyncingLabel" = "Sincronizando";
+
+/* Tooltip for shared folder error icon in Mac Finder */
+"IconOverlaySharedErrorLabel" = "Erro";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlayReadOnlyLabel" = "Atualizada, Somente Leitura";
+
+/* Tooltip for unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedLabel" = "Disponível Neste Dispositivo";
+
+/* Tooltip for pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedLabel" = "Sempre Disponível Neste Dispositivo";
+
+/* Tooltip for unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedLabel" = "Disponível Quando Online";
+
+/* Tooltip for read-only, unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedReadOnlyLabel" = "Disponível Neste Dispositivo, Somente Leitura";
+
+/* Tooltip for read-only, pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedReadOnlyLabel" = "Sempre Disponível Neste Dispositivo, Somente Leitura";
+
+/* Tooltip for read-only, unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedReadOnlyLabel" = "Disponível Quando Online, Somente Leitura";
+
+/* Action center (Toast) notification header for the Icon Overlay feature */
+"IconOverlayToastTitle" = "Consulte os novos ícones de status de sincronização";
+
+/* Action center (Toast) notification body for the Icon Overlay feature */
+"IconOverlayToastBody" = "Clique para permitir ao OneDrive exibir o status de sincronização no Finder.";
+
+/* Preferences Dialog string for enabling icon overlays*/
+"IconOverlayPreferencesLink" = "Permitir ao OneDrive mostrar o status de sincronização no Finder";
+
+// App moniker related strings
+
+/* Text of basic Moniker*/
+"BasicMoniker:%@" = "OneDrive — %@";
+
+/* Text of Moniker with user's first name. %0@ is user's firstname, %1@ is string like 'OneDrive - Personal' */
+"MonikerWithFirstName:%@,%@" = "%1@ de %0@";
+
+/* Text of Moniker with user's email. %0@ is string like 'OneDrive - Personal', %1@ is email address */
+"MonikerWithEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text of Moniker with user's first name and email. %0@ is MonikerWithFirstName like Someone's OneDrive - Personal, %1@ is email address */
+"MonikerWithFirstNameAndEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text used in BasicMoniker for personal client */
+"PersonalDisplayMoniker" = "Pessoal";
+
+// Notifications
+
+/* Balloon tip primary text to notify users that the shared folders sync feature is available */
+"SharedFoldersEnabledBaloonTipHeader" = "Novo – você pode sincronizar pastas compartilhadas!";
+
+/* Balloon tip secondary text describing how to start using the shared folder sync feature */
+"SharedFoldersEnabledBaloonTipBody" = "Clique para ver as pastas compartilhadas com você no OneDrive.com. Em seguida, selecione uma pasta que você pode editar e clique em \"Adicionar ao meu OneDrive\".";
+
+/* Message shown when users try to run different flavors of OneDrive app side by side */
+"DifferentTypesOfAppSideBySide" = "Você tem duas cópias do OneDrive em seu computador. Só é possível executar uma por vez. Recomendamos que desinstale uma delas. Para ver qual cópia está aberta, clique no ícone do OneDrive na barra de menus e escolha Preferências > Sobre.";
+
+/* Title for a notification shown when the user copies a link to a file to their pasteboard */
+"CopyFileLinkToPasteboardTitle" = "Seu link está pronto para ser colado";
+
+/* Body for a notification shown when the user copies a link toa a file to their pasteboard */
+"CopyFileLinkToPasteboardBody" = "O link foi salvo na área de transferência. Para compartilhá-lo, Cole-o em uma mensagem ou postagem. Qualquer pessoa com o link poderá editar o arquivo.";
+
+/* Title for a notification shown when a screen capture is saved */
+"ScreenshotSavedTitle" = "Captura de Tela Salva";
+
+/* Body for a notification shown when a screen capture is saved. Screenshots should be localized and capitolized. */
+"ScreenshotSavedBody" = "Clique aqui para abrir sua pasta de Capturas de Tela";
+
+/* Title for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorTitle" = "Não é possível salvar suas capturas de tela no OneDrive";
+
+/* Body for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorBody" = "Para salvar as capturas de tela, sincronize os arquivos corporativos ou de estudantes para o OneDrive. Selecione a guia Conta e, em seguida, clique em Iniciar Sincronização";
+
+// Campaign Manager toast notifications
+
+/* Title for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastTitle" = "Habilitar Abertura no Logon";
+
+/* Body for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastBody" = "Sempre mantenha os arquivos sincronizados.";
+
+/* Title for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastTitle" = "Consulte o status de sincronização no Localizador";
+
+/* Body for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastBody" = "Habilitar Integração com o Localizador.";
+
+/* Title for Placeholders Finder Sync Extension Campaign toast */
+"PlaceholdersFinderSyncCampaignToastTitle" = "Libere Espaço com os Arquivos sob Demanda";
+
+/* Body for Placeholders Finder Sync Extension Campaign toast*/
+"PlaceholdersFinderSyncCampaignToastBody" = "Clique aqui para concluir a instalação ativando a extensão do Localizador do OneDrive.";
+
+/* Title for Rate Application Campaign toast */
+"RatingsCampaignToastTitle" = "Dê a sua opinião";
+
+/* Body for Rate Application Campaign toast */
+"RatingsCampaignToastBody" = "Classifique o aplicativo OneDrive ou envie seus comentários.";
+
+// Rate Our Application Window
+
+/* Windows title for rate our application window.
+ There's probably no need to localize this string. */
+"RateApplicationWindowTitle" = "Microsoft OneDrive";
+
+/* Title for Rate Us WindowText on two lines, please keep the \n in translation as a line terminator after "Thank you" */
+"RateApplicationBodyTitle" = "Obrigado por usar\n o OneDrive!";
+
+/* Text for Rate us button */
+"RateApplicationWindowRateButton" = "Gostou? Conte-nos mais!";
+
+/* Text for Tell us how to improve button */
+"RateApplicationWindowSupportbutton" = "Diga-nos como melhorar";
+
+/* Text for Rate Us button - more engaging */
+"RateApplicationWindowRateButtonEngage" = "Dê-nos 5 estrelas!";
+
+/*Text for Rate Us button - with question */
+"RateApplicationWindowRateButtonQuestion" = "Gostou? Dê-nos 5 estrelas!";
+
+/* ---------------------------- Activity Center ------------------- */
+
+/* Text shown in title bar of Activity Center when we're up to date */
+"ActivityCenterHeaderUpToDate" = "O OneDrive está atualizado";
+
+/* Text shown in title bar of Activity Center when files are syncing */
+"ActivityCenterHeaderUpdatingFiles" = "O OneDrive está atualizando arquivos...";
+
+/* Text shown in title bar of Activity Center when there are sync problems */
+"ActivityCenterHeaderNeedsAttention" = "O OneDrive precisa da sua atenção";
+
+/* Text shown in title bar of Activity Center when we're paused */
+"ActivityCenterHeaderPaused" = "O OneDrive está em pausa";
+
+/* Text shown in title bar of Activity Center when we're offline */
+"ActivityCenterHeaderOffline" = "O OneDrive está offline";
+
+/* Text shown in title bar of Activity Center when we aren't signed in */
+"ActivityCenterHeaderNotConnected" = "O OneDrive não está conectado";
+
+/* Text shown in the header of Activity Center when OneDrive is being reset */
+"ActivityCenterHeaderResetting" = "O OneDrive está sendo redefinido...";
+
+/* Primary text shown in the error bar of Activity Center, placeholder is number of items */
+"ActivityCenterFileErrorsItemPrimary" = "Não é possível sincronizar %@ itens";
+
+/* Primary text shown in the error bar of Activity Center, singular item version  */
+"ActivityCenterFileErrorsItemPrimarySingle" = "Não é possível sincronizar 1 item";
+
+/* Secondary text shown in the error bar of Activity Center */
+"ActivityCenterFileErrorsItemSecondary" = "Clique para obter mais informações";
+
+/* Up-to-date primary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemPrimary" = "Você está pronto";
+
+/* Up-to-date secondary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemSelectiveSync" = "Todos os arquivos estão sincronizados";
+
+/* Up-to-date primary text shown on Activity Center while paused */
+"ActivityCenterPausedPrimary" = "Os arquivos não estão sendo sincronizados";
+
+/* Up-to-date secondary text shown on Activity Center while paused */
+"ActivityCenterPausedSecondary" = "Clique aqui para retomar a sincronização e manter os arquivos atualizados.";
+
+/* Text showing progress on one item when it's downloading or uploading. Placeholders are numbers and units for file progress. E.g. Uploading - 10 MB of 1 GB" */
+"ActivityCenterItemProgress" = "· %1$@ %2$@ de %3$@ %4$@";
+
+/* Text showing progress on one item when it's downloading or uploading with differential sync. Placeholder %1$@ is a number, %2$@ is a unit, %3$@ is a number, %4$@ is a unit, %5$@ is a number, %6$@ is a unit E.g. Uploading - 10 MB of 1 GB (100 KB)" */
+"ActivityCenterItemProgressDiffSyncUX" = "· %1$@ %2$@ de %3$@ %4$@ (%5$@ %6$@)";
+
+/* Text shown on one item when it's uploading. */
+"ActivityCenterItemUploading" = "Carregando";
+
+/* Text shown on one item when it's reviewing the file before syncing. This is specific to differential sync */
+"ActivityCenterItemReviewingChanges" = "Preparando para sincronizar";
+
+ /* Text shown on one item when it's downloading. */
+"ActivityCenterItemDownloading" = "Baixando";
+
+/* Status shown on an item that's finished transfering. */
+"ActivityCenterItemUpdated" = "Atualizado no OneDrive";
+
+/* Status shown on an item that's been removed. */
+"ActivityCenterItemRemoved" = "Removido do OneDrive";
+
+/* Status shown on an item that's finished uploading. Placeholder %% is a folder name. */
+"ActivityCenterItemUploaded" = "Carregado para %%";
+
+/* Status shown on an item that's finished downloading. Placeholder %% is a folder name. */
+"ActivityCenterItemDownloaded" = "Baixado para %%";
+
+/* Status shown on an item that's finished moving. Placeholder %% is a folder name. */
+"ActivityCenterItemMoved" = "Movido para %%";
+
+/* Status shown on an item that was renamed. Placeholder %% is a folder name. */
+"ActivityCenterItemRenamed" = "Renomeado em %%";
+
+/* Status shown on an item that represents a placeholder file. Placeholder %% is a folder name. */
+"ActivityCenterItemPlaceholder" = "Disponível em %%";
+
+/* Timestamp on an item. Placeholders are for time difference and units E.g. 5 minutes ago */
+"ActivityCenterItemTime" = "Há %1$@ %2$@";
+
+/* Timestamp on an item plus application. Placeholders %1$@ %2$@ are for time difference and units. %3$@ is an application name E.g. 5 minutes ago · Microsoft Word */
+"ActivityCenterItemTimeWithAppName" = "Há %1$@ %2$@ · %3$@";
+
+/* Timestamp on an item plus application. Placeholder %1$@ is for a date. %2$@ is an application name E.g. 8/24/2018 · Microsoft Word */
+"ActivityCenterItemDateWithAppName" = "%1$@ · %2$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncing" = "Sincronizando %1$@ arquivos · %2$@ %3$@ de %4$@ %5$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncingSingle" = "Sincronizando 1 arquivo · %1$@ %2$@ de %3$@ %4$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing changes */
+"ActivityCenterSummaryProcessingChanges" = "Processando alterações";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing a single change */
+"ActivityCenterSummaryProcessingChangesCountSingle" = "Processando alteração";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing multiple changes. The placeholder %1$@ indicates the number of changes */
+"ActivityCenterSummaryProcessingChangesCount" = "Processando %1$@ alterações";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're looking for file system changes */
+"ActivityCenterSummaryLooking" = "Procurando alterações";
+
+/* Text read aloud when list of recent files is selected */
+"ActivityCenterHistoryListAccessibleText" = "Arquivos recentes";
+
+/* time units used in activity center on timestamps. E.g. 1 second ago */
+"ActivityCenterSecondSingle" = "segundo";
+
+/* time units used in activity center on timestamps. E.g. N seconds ago */
+"ActivityCenterSecondsMultiple" = "segundos";
+
+/* time units used in activity center on timestamps. E.g. 1 minute ago */
+"ActivityCenterMinuteSingle" = "minuto";
+
+/* time units used in activity center on timestamps. E.g. N minutes ago */
+"ActivityCenterMinutesMultiple" = "minutos";
+
+/* time units used in activity center on timestamps. E.g. 1 hour ago */
+"ActivityCenterHourSingle" = "hora";
+
+/* time units used in activity center on timestamps. E.g. N hours ago */
+"ActivityCenterHoursMultiple" = "horas";
+
+/* Text shown on a button in the Activity Center that takes the user to the Upgrade storage page on OneDrive */
+"ActivityCenterQuotaButtonGetMoreStorage" = "Obter mais espaço";
+
+/* Text shown on a link in the Activity Center that takes the user to the Free up space page on OneDrive */
+"ActivityCenterQuotaButtonFreeUpSpace" = "Liberar espaço";
+
+/* Primary text shown in the Activity Center when the user's quota is nearing maximum or in a critical state. The placeholders are the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso") and the percentage of space occupied, e.g Your OneDrive is 98% full */
+"ActivityCenterQuotaCriticalTitle, %@ %@" = "Seu %1$@ está %2$@%% cheio";
+
+/* Secondart text shown in the Activity Center when the user is approaching critical quota. The placeholders are size and units remaining. E.g. You have only 10 MB of available space */
+"ActivityCenterQuotaLeftText, %@ %@" = "Você tem somente %1$@ %2$@ de espaço disponível";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive. */
+"ActivityCenterQuotaReachedBody" = "Obtenha mais armazenamento para continuar sincronizando novos arquivos.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for Office 365 users. */
+"ActivityCenterQuotaReachedBody1TB" = "Para obter espaço livre, remova os arquivos que não são mais necessários.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for business users. */
+"ActivityCenterQuotaReachedBodyBusiness" = "Contate o seu departamento de TI para obter mais informações ou libere espaço removendo arquivos.";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitleBusiness, %@" = "Seu %1$@ está sem espaço";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitle, %@" = "Seu %1$@ está cheio";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown for 1 week before switching to the normal banner text. */
+"ActivityCenterQuotaUpsellBannerIntroTitle" = "Apresentando os recursos premium";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalTitle" = "Torne-se Premium";
+
+/* Secondary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalBody" = "Obtenha 1 TB (1000 GB) de armazenamento e todos os novos aplicativos do Office 2016.";
+
+/* Part of the secondary text shown in the Activity Center for users without an O365 subscription. This appears in the banner for both upsell states of the banner. */
+"ActivityCenterQuotaUpsellBannerLearnMore" = "Saiba mais";
+
+/* The Accessibility text hint for the ACM dismiss button. */
+"ActivityCenterMessageDismissHint" = "Ignorar";
+
+/* Primary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInTitle" = "Entre no OneDrive para começar";
+
+/* Secondary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInBody" = "Entre no OneDrive para acessar os seus arquivos e sincronizá-los neste dispositivo.";
+
+/* Button text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInButton" = "Entrar";
+
+/* Text shown in the Activity Center while we are signing the user in. */
+"ActivityCenterSigningIn" = "Entrando";
+
+/* Text shown in the Activity Center while we are signing the user out. */
+"ActivityCenterSigningOut" = "Saindo";
+
+/* Clicking this button will open (action) the OneDrive folder in File Explorer */
+"ActivityCenterFooterButtonOpenFolder" = "Abrir Pasta";
+
+/* Clicking this button will open (action) a web portal where the user can upgrade their account */
+"ActivityCenterFooterButtonGoPremium" = "Tornar-se Premium";
+
+/* Clicking this button opens the user's (action) OneDrive folder online. ("View" here is an action) */
+"ActivityCenterFooterButtonViewOnline" = "Exibir Online";
+
+/* Clicking this button opens (action) a context menu which contains extra actions like pause, settings and quit */
+"ActivityCenterFooterButtonMore" = "Mais";
+
+/* Accessibility text for button that will cancel a download */
+"ActivityCenterCancelButtonAccessibleName" = "Cancelar Download";
+
+/* The name "OneDrive" */
+"OneDriveBrandName" = "OneDrive";
+
+/* Primary text shown in the alert of restart after crash */
+"RestartAfterCrashAlertTitle" = "Ocorreu um Problema com o OneDrive";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is enabled */
+"RestartAfterCrashAlertBodyReportAProblemEnabled" = "Lamentamos que você esteja enfrentando problemas com o OneDrive. Relate este problema para obter ajuda do suporte ou tente reiniciar o OneDrive. A reinicialização do OneDrive exigirá que você configure o aplicativo OneDrive novamente.";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is disabled */
+"RestartAfterCrashAlertBodyReportAProblemDisabled" = "Lamentamos que você esteja enfrentando problemas com o OneDrive. Relate este problema para obter ajuda do suporte ou tente reiniciar o OneDrive. A reinicialização do OneDrive exigirá que você configure o aplicativo OneDrive novamente.";
+
+/* Text for report a problem button shown in the alert of restart after crash */
+"RestartAfterCrashAlertReportAProblemButtonText" = "Relatar um Problema";
+
+/* Text for reset onedrive button shown in the alert of restart after crash */
+"RestartAfterCrashAlertResetOneDriveButtonText" = "Reiniciar o OneDrive";
+
+/* Text for cancel button shown in the alert of restart after crash */
+"RestartAfterCrashAlertCancelButtonText" = "Cancelar";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared */
+"ShareWebWindowTitle, %@" = "Compartilhar %@";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared - this one has quotes around the item name */
+"ShareWebWindowTitleWithQuotes:%@" = "Compartilhar \"%@\"";
+
+/* Error primary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorTitleGeneric" = "Algo aconteceu";
+
+/* Error secondary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorSecondaryTextGeneric" = "Não é possível compartilhar este item neste momento. Tente novamente mais tarde.";
+
+/* Error primary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorTitleOffline" = "Conecte-se à Internet";
+
+/* Error secondary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorSecondaryTextOffline" = "Parece que você não está conectado com a Internet. Tente compartilhar novamente quando você estiver online.";
+
+/* Text on error button in the Sharing Web Browser window */
+"ShareWebErrorButtonText" = "Tentar novamente";
+
+/* Text shown on the Loading view of the Sharing Web Browser window */
+"ShareWebLoading" = "Carregando";
+
+/* Text read by the Voice Over utility (accessibility) for the Loading spinner on the Sharing Web Browser Window. The placeholder is the name of the file / folder being shared. */
+"ShareWebLoadingNarrator:%@" = "Preparando para compartilhar %@";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog title */
+"FoundSameNamesUnderFolderErrorTitle" = "Não é Possível Sincronizar Um Arquivo";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog body. The placeholder is the full path of the file. Please keep "\n" intact. */
+"FoundSameNamesUnderFolderErrorBody:%@" = "Outro arquivo no mesmo local tem o mesmo nome ou possui capitalização diferente.\n%@\nRenomeie ou mova um dos arquivos e, em seguida, abra o aplicativo OneDrive novamente.";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog OK button */
+"FoundSameNamesUnderFolderErrorButton" = "OK";
+
+/* Primary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedPrimary" = "O carregamento está em pausa";
+
+/* Secondary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedSecondary" = "Os arquivos online estão sendo movidos para servidores mais perto de você. Suas alterações serão sincronizadas assim que a movimentação for concluída.";
+
+/* Primary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedPrimary" = "Reiniciamos a sincronização de seus arquivos";
+
+/* Secondary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedSecondary" = "Terminamos de mover seus arquivos online para os servidores em seu novo local.";
+
+/* Primary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantPrimaryText" = "O OneDrive não pode sincronizar";
+
+/* Secondary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantSecondaryText" = "O departamento de TI não permite que você sincronize arquivos deste local para seu computador";
+
+/* Text for SyncError MinorVersionLimitExceeded error dialog body */
+"SyncErrorShortDescriptionMinorVersionExceededItem" = "Você atingiu o número máximo de versões secundárias que pode salvar deste arquivo. Publique o arquivo em seu site do SharePoint: clique com o botão direito do mouse no arquivo e selecione Mais > Publicar. Em seguida, você pode começar a salvar versões secundárias novamente.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast */
+"FolderRecreatedOnFailedDelete Title" = "Não é possível excluir uma pasta.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast where %@ is a folder name */
+"FolderRecreatedOnFailedDelete Message:%@" = "Para interromper a sincronização de \"%@\" para o seu computador, clique aqui para navegar para preferências e desmarcar esta pasta.";
+
+/* Accessibility text for menu item dropdown button */
+"MenuButtonAccessibleName" = "Mais opções";
+
+/* Text for per item menu dropdown Open option */
+"MenuItemOpen" = "Abrir";
+
+/* Text for per item menu dropdown Share option */
+"MenuItemShare" = "Compartilhar";
+
+/* Text for per item menu dropdown View online option */
+"MenuItemViewOnline" = "Exibir online";
+
+/* Title of Setting dialog tab that provides options for Office file syncing. */
+"OfficeText" = "Office";
+
+/* Title text of groupbox on the Office settings tab that provides settings for syncing and file collaboration. */
+"OfficeFileCollabGroupBox" = "Colaboração de arquivos";
+
+/* Explanation text in the File collaboration groupbox that explains syncing files with Office. */
+"OfficeFileCollabTextField" = "Trabalhe em arquivos do Office com outras pessoas ao mesmo tempo sincronizando os arquivos com o Office.";
+
+/* Checkbox text for syncing files with Office 2016. {Locked=!cs, sk;\"Office\"} */
+"OfficeFileCollabCheckBox" = "Usar os aplicativos do Office para sincronizar os arquivos do Office que eu abrir";
+
+/* Group box title for the Sync conflicts group box - provides options for how to deal with Office file sync conflicts. */
+"OfficeConflictGroupBox" = "Conflitos de sincronização";
+
+/* Radio button for the option to merge files using Office. */
+"OfficeConflictRadioButtonMerge" = "Deixar que eu escolha mesclar alterações ou manter ambas as cópias";
+
+/* Radio button for option to always keep both copies of a file when the file is in an Office conflict. */
+"OfficeConflictRadioButtonFork" = "Manter sempre ambas as cópias (renomear a cópia neste computador)";
+
+/* Message to notify that an item cannot be deleted and it will be recreated at original location. */
+/* Title Text for SyncError DeleteCancelledByEventReceiver toast */
+"ItemCannotBeDeleted Title" = "Não é possível excluir um item.";
+
+/* Body Text for SyncError DeleteCancelledByEventReceiver toast where %@ is an item name */
+"ItemCannotBeDeleted Message:%@" = "Para interromper a sincronização de \"%@\" com o seu computador, clique aqui para ir para Preferências e desmarcar este item.";
+
+/* Message to notify that an item cannot be moved from its original location, item moved
+    will be recreated at source and the moved copy will be uploaded from destination. */
+/* Title Text for SyncError UploadFailedOnCannotMoveThickets toast */
+"ItemCannotBeMoved Title" = "Não é possível mover um dos seus itens.";
+
+/* Body Text for SyncError MoveCancelledByEventReceiver toast where %@ is a item name which cannot be moved. */
+/* Body Text for SyncError MoveFailedOnCannotMoveThickets toast where %@ is a thicket folder name which cannot be moved. */
+"ItemCannotBeMoved Message:%@" = "Em vez disso, copiamos \"%@\" para o novo local e carregamos ambas as cópias do item.";
+
+/* Message to notify that an item cannot be added or changed due to server response of cancelled by event receiver. */
+/* Title Text for SyncError AddOrChangeCancelledByEventReceiver toast */
+"ItemAddOrChangeCancelledByEventReceiver Title" = "Não é possível carregar um item.";
+
+/* Body Text for SyncError AddOrChangeCancelledByEventReceiver toast where %@ is an item name */
+"ItemAddOrChangeCancelledByEventReceiver Message:%@" = "Para interromper a sincronização de \"%@\" com o seu computador, clique aqui para ir para Preferências e desmarcar este item.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryClientError" = "O departamento de TI requer que o seu Mac esteja associado a um domínio aprovado. Para obter ajuda sobre como associar o Mac a um domínio, contate o departamento de TI.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryDisabled" = "Sua organização não permite a sincronização desta pasta. Para saber mais, fale com o proprietário do site.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryCheckOut" = "É necessário fazer check-out para editar itens nesta pasta. Para sincronizar esta pasta, peça ao proprietário do site para desativar \"Exigir Check-Out\".";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryColumnInvalid" = "A pasta tem uma coluna de informações obrigatória que não pode ser sincronizada. Peça ao proprietário do site para editar as colunas de modo que não sejam mais obrigatórias e remova qualquer validação de dados.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryIrm" = "A pasta que você está tentando sincronizar está configurada para o Gerenciamento de Direitos de Informação. Contate o administrador do site para desabilitar o Gerenciamento de Direitos de Informação nessa pasta.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryModeration" = "Os itens devem ser aprovados para serem adicionados à pasta. Para sincronizar esta pasta, peça ao proprietário do site para desativar \"Aprovação de Conteúdo\".";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibrary" = "Uma configuração alterada recentemente impede a sincronização desta pasta. Para obter informações, contate o departamento de TI.";
+
+/* Resolution message text for LostPermissionsToMountPoint error */
+"LostPermissionsToMountPoint" = "Você não tem permissão para sincronizar essa biblioteca. Exiba esta biblioteca online para solicitar acesso, ou clique ou toque para interromper a sincronização desta biblioteca.";
+
+/* Resolution message text for LibraryDeleted error */
+"LibraryDeleted" = "Esta biblioteca foi removida. Todos os arquivos foram salvos neste dispositivo foram preservados. Clique ou toque para interromper a sincronização desta biblioteca, ou contate o proprietário da biblioteca.";
+
+/* Resolution message text for ServiceBlockedLibrary error */
+"ServiceBlockedLibrary" = "Não é possível acessar essa biblioteca devido a um problema de serviço. Reinicie o OneDrive para tentar novamente.";
+
+/* Resolution message text for LibraryNotFound error */
+"LibraryNotFound" = "Não foi possível encontrar esta biblioteca. Clique ou toque para interromper a sincronização desta biblioteca, ou contate o administrador de TI.";
+
+/* Error message text for SyncIrmFileFailed error */
+"SyncIrmFileFailed" = "Não foi possível sincronizar este arquivo protegido. Contate o administrador do SharePoint deste arquivo protegido para solicitar acesso.";
+
+/* Error message text for IrmRejectedItemOnUpload error */
+"IrmRejectedItemOnUpload" = "Não é possível sincronizar este arquivo porque as definições da biblioteca do IRM estão configuradas para impedir que os usuários carreguem documentos que não dão suporte ao IRM.";
+
+/* Error message text for IrmExtensionChangeBlockedItem error */
+"IrmExtensionChangeBlockedItem" = "Não podemos sincronizar este item porque a política de sua organização não permite que as  extensões de arquivo sejam renomeadas. Renomeie a extensão do arquivo de volta para o nome original, ou então entre em contato com o administrador do site.";
+
+/* Error message text for IrmEncryptFailedToFindProtectorItem error */
+"IrmEncryptFailedToFindProtectorItem" = "Não podemos sincronizar este item porque a política de sua organização não permite que extensões de arquivo sejam renomeadas. Entre em contato com o administrador do site.";
+
+/* Error message for ItemCantFitOnDisk error. */
+"ItemCantFitOnDisk" = "Não há espaço suficiente neste computador para sincronizar este arquivo.";
+
+/* Text for menu item to open help center */
+"MainMenuItemHelpCenter" = "Central de ajuda";
+
+/* Window title used for send feedback.
+ There's probably no need to localize this string. */
+"FeedbackApplicationTitle" = "Microsoft OneDrive";
+
+/* Send feedback menu item label */
+"FeedbackMenuLabel" = "Enviar Comentários";
+
+/* Send feedback window title */
+"FeedbackWindowTitle" = "Enviar Comentários";
+
+/* Link to privacy statement page */
+"FeedbackPrivacyLinkText" = "<a href=\"#\">Sua privacidade é importante para nós</a>";
+
+/* Link to terms of service page */
+"FeedbackTosLinkText" = "<a href=\"#\">A Microsoft</a> coleta seus comentários e os usa para melhorar a sua experiência.";
+
+/* Header of the button to send positive feedback */
+"FeedbackSmileChoiceTitle" = "Gosto de algo";
+
+/* Explanation for the send positive feedback button */
+"FeedbackSmileChoiceText" = "Gostamos de ficar sabendo o que estamos fazendo certo.";
+
+/* Placeholder for the user input field */
+"FeedbackSmileFieldTip" = "Conte-nos o que você deseja";
+
+/* Placeholder for the user input field */
+"FeedbackFrownFieldTip" = "Diga-nos do que você não gostou";
+
+/* Header of the send negative feedback button */
+"FeedbackFrownChoiceTitle" = "Não gosto de algo";
+
+/* Explanation for the send negative feedback button */
+"FeedbackFrownChoiceText" = "Se algo não estiver correto, gostaríamos de ficar sabendo disso.";
+
+/* Header of the Send a Suggestion button */
+"FeedbackSuggestionChoiceTitle" = "Tenho uma sugestão";
+
+/* Explanation for the Send a Suggestion button */
+"FeedbackSuggestionChoiceText" = "Compartilhe uma ideia ou melhoria.";
+
+/* Checkbox label to opt-in/opt-out of sending log files */
+"FeedbackIncludeLogsLabel" = "Incluir dados de uso e diagnóstico";
+
+/* Label for the button to send feedback */
+"FeedbackSendButtonLabel" = "Enviar";
+
+/* Label for the button to resent feedback in the case of sending failure */
+"FeedbackRetryButtonLabel" = "Tente novamente";
+
+/* Label for the button to cancel feedback submission request */
+"FeedbackCancelButtonLabel" = "Cancelar";
+
+/* Label for the button to finish send feedback */
+"FeedbackCloseButtonLabel" = "Fechar";
+
+/* Message shown in the case of feedback submission failure */
+"FeedbackSendFailureText" = "Ocorreu um problema ao enviar seus comentários. Verifique sua conexão com a Internet e tente novamente. Você também pode relatar o problema <a href=\"#\">contatando o suporte.</a>";
+
+/* Message shown during feedback submission */
+"FeedbackSendingText" = "Enviando...";
+
+/* Message shown at the end of feedback submission. */
+"FeedbackSendSuccessText" = "Agradecemos seus comentários! Eles nos ajudarão a melhorar.";
+
+/* Window title shown at the end of feedback submission. */
+"FeedbackSendSuccessTitle" = "Obrigado";
+
+/* Label for the button to go back to feedback type selection page. */
+"FeedbackBackButtonLabel" = "Voltar";
+
+/* Title of local mass delete prompt for personal instance. */
+"LocalMassDeletePromptTitlePersonal" = "Remover arquivos do OneDrive?";
+
+/* Title of local mass delete prompt for business instance. */
+"LocalMassDeletePromptTitleBusiness" = "Remover arquivos de todos os locais?";
+
+/* Body of local mass delete prompt for personal instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyPersonal:%@" = "Recentemente você excluiu %@ arquivos deste dispositivo. Também deseja removê-los do OneDrive?";
+
+/* Body of local mass delete prompt for business instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyBusiness:%@" = "Recentemente você excluiu %@ arquivos deste dispositivo. Também deseja removê-los do OneDrive e de todas as bibliotecas compartilhadas?";
+
+/* Text of Restore button of local mass delete prompt. */
+"LocalMassDeletePromptRestoreButton" = "Restaurar Arquivos";
+
+/* Text of Delete button of local mass delete prompt. */
+"LocalMassDeletePromptDeleteButton" = "Remover";
+
+/* Text of Opt out checkbox of local mass delete prompt. */
+"LocalMassDeletePromptOptoutCheckbox" = "Sempre remover arquivos";
+
+/* Activity center local mass delete per item history description. */
+"ActivityCenterItemPendingRemoval" = "Remoção pendente do OneDrive";
+
+/* Checkbox text to toggle the local mass delete feature in settings dialog. */
+"LocalMassDeleteSettingsCheckbox" = "Avisar antes de remover arquivos da nuvem";
+
+/* Title text of local mass delete confirmed ACM. */
+"LocalMassDeleteConfirmedTitle" = "Precisa restaurar os arquivos?";
+
+/* Body text of local mass delete confirmed ACM for personal instance. */
+"LocalMassDeleteConfirmedBodyPersonal" = "A exclusão de arquivos no OneDrive os exclui em todos os dispositivos. Você tem 30 dias para restaurar arquivos da lixeira do OneDrive.";
+
+/* Body text of local mass delete confirmed ACM for business instance. */
+"LocalMassDeleteConfirmedBodyBusiness" = "Excluir arquivos no OneDrive os exclui de todos os dispositivos e locais. Você pode restaurá-los da lixeira no OneDrive ou em uma biblioteca compartilhada em até 93 dias. Clique abaixo para visitar a lixeira que contém o arquivo excluído mais recentemente.";
+
+/* Text of recycle bin button of LocalMassDelete confirmed ACM. */
+"LocalMassDeleteRecycleBin" = "Lixeira";
+
+/* Header text informing user that an application is downloading their files. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeader:%@" = "O %@ está baixando do OneDrive";
+
+/* Header text informing user that an application is downloading their files. This version is used if many files are downloading. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeaderAboveThreshold:%@" = "O %@ está baixando muitos arquivos do OneDrive";
+
+/* Body text informing user that an application is downloading their files. Clicking on this toast will open a confirmation dialog. */
+"CloudFilesHydrationToastBody" = "Para cancelar este e futuros downloads, clique aqui.";
+
+/* Header text informing user that an application is downloading their files. %1$@ is an application name. %2$u is a number. */
+"CloudFilesHydrationDialogHeader:%@,%u" = "O %1$@ está baixando %2$u arquivos";
+
+/* Body text informing user that an application is downloading their files. %@ is an application name. */
+"CloudFilesHydrationDialogBody:%@" = "Você pode deixar o aplicativo baixando ou parar o download. Selecione \"Bloquear Aplicativo\" para interromper todos os downloads futuros do %@.";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will continue downloading files. */
+"CloudFilesHydrationDialogContinueButton" = "Continuar o Download";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files. */
+"CloudFilesHydrationDialogStopButton" = "Parar Download";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files and block this application from future downloads. */
+"CloudFilesHydrationDialogBlockButton" = "Bloquear Aplicativo";
+
+// Download And Go
+
+/* Download And Go application friendly name*/
+"DownloadAndGoFriendlyName" = "Inicializador do Arquivo do OneDrive";
+
+/* Download And Go window title when no errors are displayed. %@ is a number. */
+"DownloadAndGoTitle:%@" = "Baixando %@ itens para o OneDrive";
+
+/* Download And Go downloading message. %@ is a file name. */
+"DownloadAndGoDownloadingMessage:%@" = "Baixando \"%@\"";
+
+/* Download And Go progress message for progressing hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoProgressingHydrationProgress: %@ %@" = "%1$@ de %2$@";
+
+/* Download And Go progress message for queued hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoQueuedHydrationProgress: %@ %@" = "%1$@ de %2$@ – download pendente";
+
+/* Download And Go window title when errors are displayed*/
+"DownloadAndGoErrorsTitle" = "Não foi possível baixar para o OneDrive";
+
+/* Download And Go error message. %@ is file name. %d is a number. */
+"DownloadAndGoErrorMessage: %@ %d" = "O OneDrive não conseguiu baixar \"%1$@\" (Código de erro %2$d).";
+
+/* Download And Go cancel error button */
+"DownloadAndGoCancelErrorButton" = "Cancelar";
+
+/* Download And Go try hydration again button */
+"DownloadAndGoTryAgainButton" = "Tentar Novamente";
+
+// Finder Sync Extension Activity Center Messages
+
+/* The title of the large ACM used to inform the user about Files On-Demand if the Finder Sync Extension is enabled. */
+"FinderSyncEnabledTitle" = "Os Arquivos Online Estão Economizando Espaço";
+
+/* The body of a large ACM that informs the user about Files On-Demand if the Finder Sync Extension is enabled. "Finder" should be translated the same way as in the Mac OSX. "Always keep on this device" should be translated the same as the MenuItemPinCommand string. */
+"FinderSyncEnabledBody" = "Agora você pode acessar seu OneDrive inteiro sem ocupar espaço em disco. Se precisar de algo offline, clique com o botão direito do mouse em Localizador e escolha \"Sempre manter neste dispositivo\".";
+
+/* The first button's text in a large ACM that that informs the user about Files On-Demand. When clicked, the message is dismissed. */
+"FinderSyncOkay" = "OK";
+
+/* The text of a button that opens a URL with more information about Files On-Demand. Used in all Finder Sync ACMs. */
+"FinderSyncLearnMore" = "Saiba Mais";
+
+/* The title of the large ACM used to prompt them to enable the Finder Sync Extension. */
+"FinderSyncPromptTitle" = "Aproveite ao Máximo os Arquivos sob Demanda";
+
+/* The body of a large ACM that prompts the user to enable the Finder Sync Extension if it is disabled. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptBody" = "Os Arquivos sob Demanda permitem que você libere espaço em seu computador, marcando os arquivos do OneDrive como somente online. Para marcar arquivos como somente online, você precisa ativar a extensão do Localizador do OneDrive.";
+
+/* The first button's text in a large ACM that prompts the user to enable the Finder Sync Extension. When clicked, the user's Extensions settings are opened. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptEnableExtension" = "Ativar Extensão do Localizador";
+
+/* The title text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpTitle" = "Todos Os Arquivos sob Demanda Estão Configurados";
+
+/* The body text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpBody" = "Seus arquivos estão disponíveis sob demanda para economizar espaço.";
+
+/* The title of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */
+"FinderSyncEnabledWithSelectiveSyncTitle" = "Ver Todos os Seus Arquivos";
+
+/* The body of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */ 
+"FinderSyncEnabledWithSelectiveSyncBody" = "Você está sincronizando somente alguns dos seus arquivos neste dispositivo. Os arquivos sob demanda agora permitem que você veja todos os arquivos neste dispositivo sem usar o espaço em disco.";
+
+/* The button of an ACM that prompts the user to disable Selective Sync if the Finder Sync Extension is enabled and Files On-Demand is enabled. */
+"FinderSyncEnabledTurnOffSelectiveSyncButton" = "Ver Todos os Arquivos";
+
+// Strings for the kext installer helper
+
+/* Window title for the kext installer helper*/
+"KextWizardWindowTitle" = "Microsoft OneDrive";
+
+/* Body header for the kext installer helper */
+"KextWizardBodyHeader" = "Atualizar os Arquivos Sob Demanda";
+
+/* Body text for the kext installer helper*/
+"KextWizardBodyText" = "Para usar os Arquivos Sob Demanda, você precisará permitir uma extensão do sistema do OneDrive. Clique em Abrir Preferências de Segurança e clique em Permitir.";
+
+/* Action button for the kext installer helper */
+"KextWizardOpenSecurityButton" = "Abrir Preferências de Segurança";
+
+// Throttling
+
+/* Individual file gets throttled */
+"FileTransferThrottled" = "Você pode estar enfrentando um atraso de sincronização temporário devido à alta atividade do serviço. Tentaremos atualizar o arquivo novamente em breve.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that a number of items couldn't be synced. */
+"FileTransferThrottledPrimary" = "Atraso de sincronização";
+
+/* Description text shown on the sub-header of the Activity Center when there are files being throttled. */
+"FileTransferThrottledSecondary" = "Você pode estar enfrentando um atraso de sincronização temporário devido à alta atividade do serviço";
+
+/* Describes the generic resolution, in the Errors Window, of a file that cannot sync because it is in use by another process. */
+"FilePostponedByClient" = "Este arquivo está aberto em outro programa e não pode ser sincronizado. Depois que o arquivo for fechado, será possível sincronizá-lo";
+
+/* Title text shown in the sub-header of the Activity Center indicating that one file is in use by another application. */
+"FilePostponedByClientSingular" = "Um arquivo está em uso por outro aplicativo";
+
+/* Title text shown in the sub-header of the Activity Center indicating that multiple files are in use by other applications. %@ is a number. */
+"FilePostponedByClientPlural:%@" = "%@ arquivos estão em uso por outros aplicativos";
+
+// Reset UI strings
+
+/* Window title used for the Reset popup window */
+"ResetApplicationTitle" = "Microsoft OneDrive";
+
+/* Header text for the Reset popup window */
+"ResetHeaderText" = "Redefinir o OneDrive";
+
+/* Description text for what happens during a reset */
+"ResetDescriptionText" = "Se você estiver tendo problemas ao sincronizar o OneDrive, redefini-lo pode ajudar. A ação Redefinir interromperá temporariamente o serviço de sincronização e sincronizará novamente o conteúdo e a hierarquia de arquivos da nuvem com sua máquina local. <a href=\"#\">Saiba mais.</a>";
+
+/* Checkbox text to ask if the user wants to preserve their selective sync and teamsites settings */
+"ResetSettingsCheckboxText" = "Manter minhas definições e configurações de arquivo (recomendado)";
+
+/* Button text to abort the reset process */
+"ResetCancelButtonLabel" = "Cancelar";
+
+/* Button text to begin the reset process */
+"ResetConfirmButtonLabel" = "Redefinir";
+
+/* Title text for reset in progress ACM */
+"ResetInProgressTitle" = "Estamos redefinindo";
+
+/* Body text for reset in progress ACM */
+"ResetInProgressBody" = "Prossiga e continue a trabalhar nos seus arquivos enquanto redefinimos. Seus arquivos serão salvos no disco local e serão carregados no OneDrive após a redefinição.";
+
+/* Title text for reset successful ACM */
+"ResetSuccessTitle" = "Redefinição concluída";
+
+/* Body text for reset successful ACM */
+"ResetSuccessBody" = "Seu OneDrive está como novo.";
+
+/* Title text for reset successful with errors ACM */
+"ResetSuccessWithErrorsTitle" = "Redefinição concluída, mas...";
+
+/* Body text for reset successful with errors ACM */
+"ResetSuccessWithErrorsBody" = "O OneDrive ainda apresenta erros que não puderam ser resolvidos por uma redefinição. Toque ou clique para vê-los.";
+
+/* Title text for reset failed ACM */
+"ResetFailureTitle" = "Não foi possível redefinir";
+
+/* Body text for reset failed ACM */
+"ResetFailureBody" = "Algo deu errado. <a href=\"#\">Saiba mais.</a>";
+
+/* Title text for reset successful history list item */
+"ActivityListHistoryResetSuccessPrimary" = "Redefinição concluída";
+
+/* Body text for reset successful history list item */
+"ActivityListHistoryResetSuccessSecondary" = "Seu OneDrive está como novo.";
+
+/* Title text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsPrimary" = "Redefinição concluída";
+
+/* Body text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsSecondary" = "Ainda há alguns erros.";
+
+/* Title text for reset failed history list item */
+"ActivityListHistoryResetFailurePrimary" = "Não foi possível redefinir";
+
+/* Body text for reset failed history list item */
+"ActivityListHistoryResetFailureSecondary" = "Algo deu errado.";
+
+/* Title text for reset completed toast */
+"ToastResetCompletedTitle" = "A redefinição do OneDrive foi concluída";
+
+/* Body text for reset completed toast */
+"ToastResetCompletedBody" = "Toque ou clique aqui para ver o status do arquivo.";
+
+/* Title text for reset failed toast */
+"ToastResetFailedTitle" = "Não foi possível redefinir o OneDrive";
+
+/* Body text for reset failed toast */
+"ToastResetFailedBody" = "Toque ou clique aqui para ver as próximas etapas.";
+
+// End Reset UI strings
+
+/* Resolution message for client access denied. */
+"ClientAccessDeniedErrorsShortDescription" = "Parece que você não tem permissões de acesso ao item. Verifique se você tem as permissões corretas para sincronizar o item.";
+
+// Purchase Window Strings
+
+/* Title text show in Purchase Window */
+"PurchaseWindowTitle" = "Microsoft OneDrive";
+
+/* Header text shown in Purchase Window */
+"PurchaseWindowHeader" = "Obtenha a Experiência Premium!";
+
+/* Header text shown in Purchase Window after buying the subscription */
+"PurchaseSuccessWindowHeader" = "Parabéns!";
+
+/* Header text shown in Purchase Window while buying the subscription */
+"PurchaseWindowLoadingTitle" = "Carregando";
+
+/* Body text shown in the Purchase Window*/
+"PurchaseWindowBody" = "Aproveite os recursos premium do OneDrive com uma assinatura gratuita de um mês para o Office 365. Selecione um plano adequado para você e inicie sua avaliação gratuita.";
+
+/* Body text shown in the Purchase Window after buying the subscription */
+"PurchaseSuccessWindowBody" = "Agora você tem acesso a recursos exclusivos. A cobrança será feita automaticamente em seu cartão após a avaliação de 1 mês.";
+
+/*Link button to skip the window */
+"PurchaseWindowSkipNowLink" = "Ignorar por enquanto";
+
+/* Sub text in product subscription card describing our premium features*/
+"PurchaseCardMainBody" = "Recursos Premium do OneDrive";
+
+/* Decribes our product subscription right below a row of images showing the office apps*/
+"PurchaseCardSubBody" = "Aplicativos mais recentes do Office para PC e Mac";
+
+/* Purchase card button text which will start a purchase flow */
+"PurchaseCardButtonText" = "Torne-se Premium – 1º Mês Grátis";
+
+/* Purchase card link text which will launch a learn more campaign */
+"PurchaseCardLinkText" = "Saiba mais";
+
+/* Personal subscription card list text. Only for 1 person  */
+"PurchasePersonalList1" = "Para Indivíduos";
+
+/* Home subscription card list text. Bundle avaiable for 6 people*/
+"PurchaseHomeList1" = "Para seis pessoas";
+
+/* Personal subscription card list text. 1 Terabyte of storage in OneDrive */
+"PurchasePersonalList2" = "1 TB de armazenamento";
+
+/* Home subscription card list text. 6 Terabyte of storage in OneDrive */
+"PurchaseHomeList2" = "6 TB de armazenamento";
+
+/* Common subscription card list text for all bundles. Access advanced security features */
+"PurchaseCommonList3" = "Segurança avançada";
+
+/* Common subscription card list text for all bundles. Access more producitivty tool*/
+"PurchaseCommonList4" = "Ferramentas de produtividade";
+
+/* Price of a yearly subscription. %@ is money symbol followed by a decimal number. Example: $59.99*/
+"PurchasePriceYearConstant:%@" = "%@/ano";
+
+/* Close the window */
+"PurchaseCloseButtonText" = "Fechar";
+
+/* Accessible name for a list of Microsoft Office Products*/
+"PurchaseIconAccessibleName" = "Produtos do Microsoft Office";
+
+/* Accessible name for a list of details concerning a Office Subscription.*/
+"PurchaseListBodyAccessibleName" = "Lista de recursos";
+
+/* Error title of purchase window*/
+"PurchaseWindowErrorTitle" = "Algo Deu Errado";
+
+/* Error body of purchase window. Receipt is already in use*/
+"PurchaseErrorReceiptInUse" = "Sua compra do Office 365 foi reivindicada por uma conta Microsoft diferente.";
+
+/* Error body of purchase window. Transient Error that automatically might resolve*/
+"PurchaseErrorTransientIssue" = "Você adquiriu o Office 365 com êxito, mas não foi possível aplicar a assinatura à sua conta Microsoft. Tente novamente mais tarde. Você não será cobrado novamente. Se o problema persistir após 24 horas, contate o suporte.";
+
+/* Error body of purchase window. Error that we are unable to resolve.*/
+"PurchaseErrorUnableToResolve" = "Você adquiriu o Office 365 com êxito, mas não foi possível aplicar a assinatura à sua conta Microsoft. Contate o suporte.";
+
+/* Terms of Use title for purchasing a subscription */
+"PurchaseSubscriptionTermsTitle" = "Detalhes da Assinatura";
+
+/* Terms of Use body for purchasing a subscription */
+"PurchaseSubscriptionTermsBody" = "As assinaturas do Office 365 adquiridas serão cobradas na sua conta do iTunes e renovadas automaticamente dentro de 24 horas antes do final do período da assinatura atual, a menos que a renovação automática tenha sido desabilitada antecipadamente. Para gerenciar suas assinaturas ou desabilitar a renovação automática, acesse as configurações da conta do iTunes. Não é possível cancelar uma assinatura durante o período de assinatura ativa. Qualquer parte não usada de um período de avaliação gratuita, se oferecido, será perdida quando um usuário comprar uma assinatura para a publicação, onde aplicável.";
+
+/* Text that will link to a web page describing the Microsoft terms of use */
+"PurchaseSubscriptionTermsOfUseLink" = "Termos de Uso";
+
+/* Text that will link to a web page describing the terms of privacy */
+"PurchaseSubscriptionPrivacyLink" = "Privacidade";
+
+// End Purchase window strings
+
+// Get Help window strings
+
+/* Get Help window title */
+"GetHelpWindowTitle" = "Contatar o Suporte";
+
+/* Placeholder for the Get Help user input field */
+"GetHelpFieldTip" = "Descreva o problema aqui.";
+
+/* Window title shown at the end of get help submission succeeded. */
+"GetHelpSendSuccessTitle" = "Solicitação de Suporte Enviada";
+
+/* Message shown at the end of get help submission - %1$@ is user email. */
+"GetHelpSendSuccessText:%@" = "Um agente do OneDrive entrará em contato com você em %1$@.";
+
+/* Window title shown at the end of get help submission failure. */
+"GetHelpSendFailureTitle" = "Falha na Solicitação de Suporte";
+
+/* Message shown in the case of feedback submission failure */
+"GetHelpSendFailureText" = "Ocorreu um problema ao enviar sua solicitação de suporte. Verifique sua conexão com a Internet e tente novamente mais tarde.";
+
+// End Get Help window strings

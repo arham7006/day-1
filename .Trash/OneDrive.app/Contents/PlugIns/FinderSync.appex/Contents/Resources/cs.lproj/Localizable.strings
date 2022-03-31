@@ -1,0 +1,2575 @@
+// Misc
+
+// File Size Units
+
+/* The lowest unit for file sizes */
+"byteText" = "B";
+
+/* Unit for file sizes. */
+"KiloByteAbbrv" = "kB";
+
+/* Unit for file sizes. */
+"MegaByteAbbrv" = "MB";
+
+/* Unit for file sizes. */
+"GigaByteAbbrv" = "GB";
+
+/* Unit for file sizes. */
+"TeraByteAbbrv" = "TB";
+
+/* Unit for file transfer speed. */
+"KiloBytePerSecond" = "kB/s";
+
+/* Unit for file transfer speed. */
+"MegaBytePerSecond" = "MB/s";
+
+
+// First run - used by FirstRunWindowController.mm and its views
+
+/* Windows title used to welcome a user running the application.
+ There's probably no need to localize this string. */
+"FirstRunWindowTitle" = "Microsoft OneDrive";
+
+/* Title of the welcome page when running for the first time */
+"FirstRunText" = "Nastavte si OneDrive";
+
+/* Short explaination about what OneDrive does when running for the first time */
+"FirstRunDescriptiveText" = "Dejte si soubory na OneDrive a dostanete se k nim z jakéhokoliv zařízení.";
+
+/* Button to sign into a personal instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomePersonalButton" = "Osobní";
+
+/* Button to sign into a business instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomeBusinessButton" = "Pracovní nebo školní";
+
+/* Button to start email hrd sign in flow on the first run experience in welcome page */
+"FirstRunEmailSignInButton" = "Přihlásit se";
+
+/* Placeholder text for the email input box on the first run experience in welcome page */
+"FirstRunEmailInputPlaceholderText" = "Zadejte e-mailovou adresu.";
+
+/* Errors shown when there is a problem with the users email address on the first run experience in welcome page */
+"FirstRunWelcomeErrorPersonalAlreadySyncing" = "Na tomto počítači už synchronizujete svůj osobní OneDrive. Pokud chcete přidat nový účet, propojení tohoto účtu zrušte.";
+"FirstRunWelcomeErrorEmailIsMSAAndAAD" = "Tato adresa se používá pro OneDrive i pro OneDrive pro firmy. Kam se chcete přihlásit nejdříve?";
+"FirstRunWelcomeErrorEmailIsNotKnown" = "Tuto e-mailovou adresu jsme nerozpoznali.";
+"FirstRunWelcomeErrorEmailAdminDisabled" = "Vaše organizace nepovoluje synchronizaci vašeho osobního OneDrivu na tomto počítači.";
+
+/* first run wizard progress text for screen readers */
+"FirstRunProgress0" = "Instalace OneDrivu je dokončená z nula procent.";
+"FirstRunProgress50" = "Instalace OneDrivu je dokončená z padesáti procent.";
+"FirstRunProgress75" = "Instalace OneDrivu je dokončená ze sedmdesáti pěti procent.";
+"FirstRunProgress100" = "Instalace OneDrivu je dokončená na sto procent.";
+
+/* Title of the page that introduces OneDrive folder when running for the first time */
+"FirstRunIntroduceText" = "Toto je vaše složka OneDrive";
+
+/* Title of the page that prompts for required folder when mounting for the first time */
+"FirstRunIntroduceRequiredPathText" = "Potvrdit umístění složky";
+
+/* Title of the page that introduces OneDrive folder when running for the first time. "Finder" should be translated the same way as in the Mac OSX */
+"FirstRunIntroduceDescriptiveText" = "Pokud si soubory přidáte sem, budete je mít na tomto počítači Mac a zároveň se na ně dostanete i z jiných zařízení.";
+
+/* Title of the adminstrative error that will be attached to the FirstRunIntroduceDescriptiveText */
+"FirstRunIntroduceDescriptiveTextWithError" = "Přidejte si sem soubory, abyste k nim měli přístup z jiných zařízení a přitom je měli stále k dispozici na tomto Macu. Váš správce vyžaduje, aby byla složka OneDrive v tomto umístění.";
+
+/* Title of the page that prompts for access to required folder. */
+"SelectRequiredPathDescriptiveText:%@" = "Pokud chcete synchronizovat tyto soubory, udělte nám prosím oprávnění k přístupu k této složce: %@";
+
+/* This is for the button that allows users to change the root folder path. When clicked, it opens a browse window for users to select the root folder. */
+"FirstRunBrowseButtonText" = "Změnit umístění";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"FirstRunDoneIntroductionButtonText" = "Další";
+
+/* This is for the button when user has never selected a root folder. */
+"FirstRunSelectFolderButtonText" = "Zvolit umístění složky OneDrive";
+
+/* This is for the button when user has not yet confirmed our required folder. */
+"FirstRunSelectRequiredFolderButtonText" = "Potvrdit umístění složky";
+
+/* This is a prompt displayed in the file browse dialog. */
+"SelectRootFolderMessage" = "Zvolte umístění složky OneDrive.";
+
+/* This is a prompt displayed in the file browse dialog to confirm required location. */
+"SelectRequiredFolderMessage" = "Použijte vybranou složku a klikněte na Potvrdit umístění.";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"CreateRootFolderButton" = "Zvolit toto umístění";
+
+/* This is for the confirmation button when user is done confirming the required folder. */
+"CreateRequiredFolderButton" = "Potvrdit umístění";
+
+/* This is for the text field to show currently selected root folder path. */
+"FirstRunShowFolderPathText:%@" = "Vaše složka %@ je:";
+
+/* This is the alert dialog title when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootTitle:%@" = "Nepovedlo se nám najít umístění vaší složky %@.";
+
+/* This is the alert dialog body when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootMessage" = "Vaše složka OneDrive se pravděpodobně odstranila. Pokud ji máte na externí jednotce, mohlo dojít k odebrání této jednotky. Po kliknutí na OK můžete změnit konfiguraci složky OneDrive.";
+
+/* This is the alert dialog button that allows user to reconfigure */
+"FirstRunUnconfiguredRootReconfigureButton" = "OK";
+
+/* This is the alert dialog button that allows user to quit the application */
+"FirstRunUnconfiguredRootQuitButton" = "Ukončit OneDrive";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is invalid */
+"InvalidMappingLocationMessageTitle" = "Složku OneDrive vám nemůžeme vytvořit v umístění, které jste vybrali";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid. */
+"InvalidMappingLocationDetailedMessage" = "Vyzkoušejte jiné umístění. Zkontrolujte, že dané umístění není na vyměnitelné jednotce nebo na disku, který má formát rozlišující velká a malá písmena.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location can't be used */
+"InvalidMappingLocationInUseTitle" = "V tomto umístění vám nemůžeme vytvořit složku OneDrive";
+
+/* This is a detailed explanation in the alert window telling users the selected folder is already used by another OneDrive account. */
+"InvalidMappingLocationInUseDetailedMessage" = "V tomto umístění už je jiná složka OneDrive. Zvolte prosím jiné umístění.";
+
+/* This is a short text above detailed explaination in the alert window telling users to select the required path */
+"InvalidMappingRequiredPathMessageTitle" = "Potvrďte umístění vybrané složky, aby bylo možné pokračovat v synchronizaci";
+
+/* This is a detailed explaination in the alert window telling users the selected location is not the required path. */
+"InvalidMappingRequiredPathDetailedMessage" = "Zachovejte prosím vybrané umístění a ve Finderu klikněte na Potvrdit umístění.";
+
+/* This is the button in the alert window that shows up when current location is not the required path. The button allows users to choose a new location */
+"InvalidMappingRequiredPathContinueButton" = "Pokračovat";
+
+/* This is the button in the alert window that shows up when current location is invalid. The button allows users to choose a new location */
+"InvalidMappingLocationChooseButton" = "Zvolit nové umístění";
+
+/* This is the button in the alert window that shows up when current location is invalid. This button allows users to close the alert */
+"InvalidMappingLocationCancelButton" = "Zrušit";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty */
+"MappingLocationContainsFileMessageTitle" = "V této složce už nějaký obsah je";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessage:%@" = "Pokud pro složku %@ zvolíte toto umístění, její obsah se sloučí s vaším OneDrivem. Můžete zvolit jiné umístění nebo nechat nastavené to, které jste vybrali.";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessageWithDefaultFolder:%@" = "Pokud pro složku %@ zvolíte toto umístění, její obsah se vám sloučí s OneDrivem.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty {%1$@ is a folder name and %2$@ is its parent folder name } */
+"LibraryFolderMappingLocationContainsFileMessageTitle:%@,%@" = "Složka %1$@ už ve vaší složce %2$@ existuje.";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is not empty. { %1$@ is a folder name } */
+"LibraryFolderMappingLocationContainsFileDetailedMessage:%@" = "Pokud zvolíte toto umístění pro složku %1$@, soubory v ní se sloučí se soubory v cloudu. Můžete použít vybrané umístění nebo soubory synchronizovat do nové složky.";
+
+/* This is the button in the alert window that shows up when the folder location is not empty. This button allows users to continue anyway */
+"MappingLocationContainsFileContinueButton" = "Použít toto umístění";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button allows users to choose a new location */
+"MappingLocationContainsFileChooseButton" = "Zvolit nové umístění";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button informs us to automatically create a new folder on behalf of the user. */
+"MappingLocationContainsFileCreateButton" = "Synchronizovat do nové složky";
+
+/* This is on top of the selective sync page in First Run Experience. */
+"FirstRunSelectiveSyncTitle" = "Synchronizujte jenom to, co chcete";
+
+/* This is the description right below the title on top of the selective sync page. */
+"FirstRunSelectiveSyncDescription:%@" = "Zvolte, co si chcete stáhnout do složky OneDrive%@ a k čemu chcete mít přístup i offline.";
+
+/* This is the text on radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsTitle" = "Všechny soubory a složky na mém OneDrivu";
+
+/* This is the description text next to the radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsDescription" = "Na tomto počítači Mac se bude synchronizovat všechno s výjimkou souborů, které vám nasdílel někdo jiný.";
+
+/* This is the text on radio button to choose to sync only some files */
+"FirstRunSelectiveSyncSomeItemsTitle" = "Zvolit složky pro synchronizaci";
+
+/* This is the description text next to the radio button to choose to sync only some files. */
+"FirstRunSelectiveSyncSomeItemsDescription" = "Klikněte na Hotovo a vyberte, které položky se budou synchronizovat s tímto počítačem.";
+
+/* This is the button text in the selective sync page */
+"FirstRunSelectiveSyncNextButtonText" = "Další";
+
+/* This is the title text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncTitle" = "Zapněte si funkci Soubory na vyžádání";
+
+/* This is the description text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncDescription" = "Pokud chcete v místní nabídce po kliknutí pravým tlačítkem myši vidět možnost Soubory na vyžádání, musíte povolit synchronizační rozšíření Finderu pro OneDrive. Klikněte na Otevřít předvolby rozšíření a vyberte rozšíření Finderu pro OneDrive.";
+
+/* This is the button text in the Enable Finder Sync page for the Enable button */
+"FirstRunEnableFinderSyncEnableButtonText" = "Otevřít předvolby rozšíření";
+
+/* This is the button text in the Enable Finder Sync page for the Skip button */
+"FirstRunEnableFinderSyncSkipButtonText" = "Povolím rozšíření později";
+
+/* This is on top of the Cloud Files Tutorial page in First Run Experience. */
+"FirstRunCloudFilesTutorialTitle" = "Všechny vaše soubory, připravené a na vyžádání";
+
+/* This is the description right below the title on top of the Cloud Files Tutorial page. */
+"FirstRunCloudFilesTutorialDescription" = "Díky funkci Soubory na vyžádání můžete na svém OneDrivu prohledávat všechny položky, aniž by vám zabíraly místo na vašem Macu. Soubory se stáhnou až v okamžiku, kdy je budete potřebovat.";
+
+/* This is the header text in the Cloud Files Tutorial page for online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFiles" = "Soubory dostupné jen online";
+
+/* This is the text in the Cloud Files Tutorial page describing online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFilesDescription" = "Soubory, které jsou dostupné jen online, se vám nestáhnou do zařízení, dokud je neotevřete.";
+
+/* This is the header text in the Cloud Files Tutorial page for locally available files. */
+"FirstRunCloudFilesTutorialHydratedFiles" = "Místně dostupné soubory";
+
+/* This is the text in the Cloud Files Tutorial page describing locally available files. */
+"FirstRunCloudFilesTutorialHydratedFilesDescription" = "Soubory, které otevřete, se stáhnou do zařízení a budou k dispozici offline.";
+
+/* This is the header text in the Cloud Files Tutorial page for always available files. */
+"FirstRunCloudFilesTutorialPinnedFiles" = "Nepřetržitě dostupné soubory";
+
+/* This is the text in the Cloud Files Tutorial page describing always available files. */
+"FirstRunCloudFilesTutorialPinnedFilesDescription" = "Můžete označit soubory a složky, které chcete mít vždy k dispozici, dokonce i offline.";
+
+/* This is the button text in the Cloud Files Tutorial page */
+"FirstRunCloudFilesTutorialNextButtonText" = "Další";
+
+/* This is on top of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunTitle" = "OneDrive máte připravený";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunDescription:%@" = "Stáhneme vaše soubory a budeme je na tomto Macu synchronizovat. Pokud budete chtít přidat soubory na OneDrive, stačí je přesunout do složky %@ ve Finderu.";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience when Cloud Files on. */
+"FirstRunFinishFirstRunCloudFilesDescription:%@" = "OneDrive máte nastavený a můžete ho začít používat. Když na něj budete chtít přidat soubory, stačí je ve Finderu přesunout do složky %@.";
+
+/* This is the text of the Open-at-login checkbox in the Finish First Run page (Done page) in First Run Experience */
+"FirstRunFinishFirstRunOpenAtLoginCheckboxText" = "Otevřít při přihlášení, aby se mi soubory automaticky synchronizovaly";
+
+/* This is the button text in the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunButtonText:%@" = "Otevřít moji složku %@";
+
+// Settings folder access error
+
+/* This is the title text for dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorTitle" = "Nejde získat přístup ke složce nastavení";
+
+/* This is the descrption text for dialog we pop up when we cannot access settings folder {StrContains=\"Application Support\"} */
+"SettingsFolderErrorDescription" = "Zajistěte prosím, abyste měli přístup do složky Application Support.";
+
+/* This is the button to quit for the dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorQuitButtonText" = "Ukončit OneDrive";
+
+// Cloud device - used by SyncDevice.mm
+
+/* The name of the online storage */
+"CloudDevice" = "Synchronizované úložiště OneDrive";
+
+
+// Folder status - used by ModelExtensions.mm
+
+/* Text shown on status menu when everything is in sync */
+"FolderStatusInSync" = "OneDrive je aktuální."; // Up to date
+
+/* Local folder convergence status against a remote folder is not known */
+"FolderStatusUnknown" = "Neznámý";
+
+/* Uploading and downloading files. "Files" will always be plural. */
+"FolderStatusSendAndReceive:%@" = "Přenáší se soubory (%@)...";
+
+/* Uploading one file from a remote folder. We show the file name. */
+"FolderStatusSendingSingular:%@" = "Nahrává se: %@...";
+
+/* Uploading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusSendingPlural:%@" = "Nahrávají se soubory (%@)...";
+
+/* Downloading one file from a remote folder. We show the file name. */
+"FolderStatusReceivingSingular:%@" = "Stahuje se: %@...";
+
+/* Downloading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusReceivingPlural:%@" = "Stahují se soubory (%@)...";
+
+/* Processing downloaded files to be created in a local folder */
+"FolderStatusRealizing" = "Zpracovávání stažených souborů...";
+
+/* Processing local file changes to be uploaded */
+"FolderStatusHashing" = "Zpracovávají se změny...";
+
+/* Scanning file changes in a folder */
+"FolderStatusScanning" = "Kontrolují se soubory...";
+
+/* Scanning file changes in a folde */
+"FolderStatusScanningExtended:%@" = "Kontroluje se: %@...";
+
+/* Processing changes to files */
+"FolderStatusMetadataXfer" = "Zpracovávání souborů...";
+
+/* Waiting to resume file transfers (upload/download) */
+"FolderStatusBlocked" = "Čeká se na synchronizaci.";
+
+/* Status for a folder that is not syncing*/
+"FolderStatusUnmapped" = "Nemáte nakonfigurovaný OneDrive.";
+
+/* Waiting to resume donwloading of a single file. We show the file name. */
+"FolderStatusBlockedSingular:%@" = "Čeká se na příjem souboru %@...";
+
+/* Waiting to resume donwloading files */
+"FolderStatusBlockedPlural:%@" = "Čeká se na příjem souborů (%@).";
+
+/* Upload+Download Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB */
+"FolderStatusTransferProgress:%@,%@,%@,%@" = "%@ %@ z %@ %@";
+
+/* Upload+Download+Rate Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB The third number shows the current transfer rate followed by its unit. */
+"FolderStatusTransferProgressNew:%@,%@,%@,%@,%@,%@" = "%@ %@ z %@ %@ rychlostí %@ %@";
+
+/* Improve upload performance */
+"FasterUploadOption" = "Nahráváním v dávkách je možné zvýšit rychlost nahrávání.\r\nTato možnost používá větší šířku pásma. Pokud zaznamenáte potíže s připojením k internetu, pak zaškrtnutí tohoto políčka zrušte.";
+
+/* Available storage space. Example: 20 GB used out of 200 GB. This is used in the systray. */
+"StorageQuota:%@,%@" = "Využito %1$@ z %2$@";
+
+/* Available storage space. Example: 20 GB of 200 GB cloud storage used. This is used in account tab of preference window to show GB on disk for personal account */
+"CloudStorageQuota:%@,%@" = "Využito %1$@ z %2$@ cloudového úložiště";
+
+/* Storage used on Mac. Example: 2 GB used on this Mac. This is used in account tab of preference window to show GB on disk for ODB */
+"StorageOnMac:%@" = "Na tomto počítači Mac se využívá: %@";
+
+// Device status - used by ModelExtensions.mm
+
+/* Drive status displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlocked" = "Soubory nejdou nahrát";
+
+/* Error description displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlockedVerbose" = "Problémy se souborem blokují všechna nahrávání.";
+
+// Device Location - used by ModelExtensions.mm
+
+/* Local device, i.e. this computer */
+"DeviceLocationLocal" = "Místní";
+
+/* Remote device, e.g. another computer */
+"DeviceLocationRemote" = "Vzdálené";
+
+/* Cloud storage device, */
+"DeviceLocationCloud" = "Cloud";
+
+// Sync Issue Window
+
+/* "Problem" is a general term that includes both warnings and errors. Problem is singular. */
+"SyncIssueWindowTitleSingular:%@" = "1 problém s vaší složkou %@";
+
+/* "Problem" is a general term that includes both warnings and errors. Problems is plural. */
+"SyncIssueWindowTitlePlural:%@,%@" = "Počet problémů s vaší složkou %2$@: %1$@";
+
+/* The button is used to clear the issue list */
+"SyncIssueWindowClearButton" = "Vymazat";
+
+/* Reveal is showing the item */
+"SyncIssueWindowOpenInFinderToolTip" = "Ukázat ve Finderu";
+
+/* Tool tip for the button that removes an issue from issue window */
+"SyncIssueWindowIgnoreIssueToolTip" = "Ignorovat tento problém";
+
+/* Text on status when there are more than 1 problems. "Problems" is always plural */
+"SyncIssueStatusPlural:%@" = "%@ problémů s vaším OneDrivem";
+
+/* Text on status when there is a problem. problem is always singular */
+"SyncIssueStatusSingular" = "1 problém s vaším OneDrivem";
+
+/* Tool tip for the button that opens issue resolver window */
+"SyncIssueWindowOpenIssueToolTip" = "Vyřešit tento problém";
+
+/* Primary text for error dialog with a file conflict for the file name. %@ is a file name */
+"SyncIssueAlertFileOnHoldPrimary:%@" = "Vyřešit konflikt souborů pro soubor %@";
+
+/* Secondary text for error dialog. %@ is a machine name */
+"SyncIssueAlertFileOnHoldSecondary:%@" = "Soubor můžete otevřít v Office a sloučit změny z obou verzí nebo můžete vybrat soubor, který chcete zachovat. Můžete také zachovat oba soubory. V takovém případě se k názvu souboru na počítači přidá text „–%@“ a online soubor se stáhne.";
+
+/* Primary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldMainButton" = "Zachovat oba soubory";
+
+/* Secondary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldSecondaryButton" = "Otevřít v Office";
+
+// Error description - used by ModelExtensions.mm
+
+/* error description used in issue window {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFilename" = "Změňte prosím název souboru. Název například nesmí začínat ani končit mezerou, nesmí končit tečkou, nesmí začínat dvěma tečkami ani nesmí obsahovat žádné z těchto znaků: \\ / : * ? \" < > | ";
+
+/* error description used in issue window  {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFoldername" = "Změňte prosím název složky. Název například nesmí začínat ani končit mezerou, nesmí končit tečkou, nesmí začínat dvěma tečkami ani nesmí obsahovat žádné z těchto znaků: \\ / : * ? \" < > | ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionFilePathTooLong" = "Cesta k souboru je pro uložení v počítači moc dlouhá.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionCloudAccessDenied:%@" = "Tento soubor je ve službě %@ jen pro čtení.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionDocumentCheckedOut" = "Tento soubor má rezervovaný někdo jiný.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionServerFileConflict:%@" = "Položku se nepovedlo nahrát na %@.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionExcludedItem:%@" = "Položku se nepodařilo nahrát na %@.";
+
+/* error description used in issue window %1$@ is a size like 10 GB, %2$@ is a string like "OneDrive - Microsoft" */
+"SyncErrorShortDescriptionFileTooBig:%@,%@" = "Ve službě %2$@ se nedají nahrávat soubory větší než %1$@.";
+
+/* Use "OneNote" unless there's a localized name for it {Locked=!cs, sk;\"OneNote\"} */
+"SyncErrorShortDescriptionOnenoteDeleted:%@" = "Zástupce onenotových souborů nejde ze složky %@ odstranit. Kliknutím přejděte na OneDrive a položky odstraňte z webu.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionItemCantFitInQuota:%@" = "Zbývající kvóta vaší služby %@ už není dost velká, aby bylo možné soubor nebo složku spolu s obsahem uložit.";
+
+/* item means either folder or file */
+"SyncErrorShortDescriptionItemLimitExceeded:%@" = "V úložišti služby %@ máte moc velký počet souborů. Odeberte prosím soubory, které nepotřebujete.";
+
+/* The user choose to unsync files/folders but we are unable to delete it. item means either folder or file */
+"SyncErrorShortDescriptionUnmappedContentPresent:%@" = "Soubor nebo složka s tímto názvem už ve stejném online umístění ve službě %@ existují. Přejmenujte soubor nebo složku.";
+
+/* error description used when Office files have edit-edit conflicts and they cannot be merged */
+"SyncErrorShortDescriptionFileOnHold" = "Nemohli jsme sloučit změny v souboru Office. Pokud chcete problém vyřešit, klikněte na ikonu šipky.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaCritical:%@,%@" = "Úložiště %1$@ je zaplněné z %2$@.";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaCritical:%@,%@" = "V úložišti %1$@ už je jenom toto volné místo: %2$@.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaExceeded:%@" = "V úložišti %@ dochází volné místo.";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaExceeded" = "Pokud chcete, aby se vám složka OneDrive synchronizovala, zvětšete si úložiště nebo odstraňte soubory, které už nepotřebujete.";
+
+/* error description used in issue window for business accounts */
+"CloudIssueShortDescriptionQuotaExceeded_Business" = "Požádejte o další informace svoje IT oddělení nebo si na OneDrivu uvolněte místo tak, že odeberete soubory.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleThrottling" = "OneDrive právě teď nemůže přenášet soubory";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionThrottling" = "Zkuste to prosím znovu zítra.";
+
+// Status menu - used by StatusMenuController.mm
+
+/* No comments provided by engineer */
+"StatusMenuTitle" = "Spravovat";
+
+/* The status menu item text that leads to more menu items */
+"StatusMoreMenu" = "Další";
+
+/* Text for status menu item that opens the folder containing deleted OneDrive files */
+"StatusMenuItemLaunchRecycleBin" = "Koš OneDrivu";
+
+/* Status menu item to allow the user to open the dialog for sharing file/folder */
+"StatusMenuItemShare" = "Sdílet soubor nebo složku...";
+
+/* Text for the status menu item which opens the OneDrive folder when clicked*/
+"StatusMenuItemOpenLocalFolder" = "Otevřít složku OneDrive";
+
+/* Text for the status menu item which opens the named folder when clicked  */
+"StatusMenuItemOpenNamedFolder: %@" = "Otevřít složku %@";
+
+/* Status menu item that opens browser with Upgrade account page */
+"StatusMenuItemUpgrade" = "Upgradovat";
+
+/* Text for the status menu item which opens a browser to OneDrive website for storage manage */
+"StatusMenuItemManageStorage" = "Správa úložiště";
+
+/* Status menu item that when clicked will launch a page with user's premium features */
+"StatusMenuItemManagePremium" = "Moje prémiové funkce";
+
+/* Text for the status menu item which opens a browser to OneDrive website homepage */
+"StatusMenuItemLaunchWebsite" = "Přejít na OneDrive.com";
+
+/* The status menu item that allows user to open OneDrive help site. It will likely launch a browser to a website */
+"StatusMenuItemLaunchHelp" = "Nápověda";
+
+/* The status menu item that allows user to open OneDrive feedback. It will likely launch a browser to a website */
+"StatusMenuItemFeedback" = "Váš názor";
+
+/* The status menu item that allows a user to open the Parature support dialog. */
+"StatusMenuItemReportIssue" = "Nahlásit problém";
+
+/* Status shown on the status menu when everything is up to date */
+"StatusMenuItemUpToDate" = "OneDrive je aktuální.";
+
+/* Status shown on the status menu to indicate last updated time in seconds */
+"StatusMenuItemLastUpToDateTimeSecondsAgo" = "Poslední aktualizace před chvílí";
+
+/* Status shown on the status menu to indicate last updated time was one minute ago */
+"StatusMenuItemLastUpToDateTimeOneMinuteAgo" = "Poslední aktualizace před 1 minutou";
+
+/* Status shown on the status menu to indicate last updated time was minutes ago */
+"StatusMenuItemLastUpToDateTimeMinutesAgo:%d" = "Poslední aktualizace před %d min.";
+
+/* Status shown on the status menu to indicate last updated time was one hour ago */
+"StatusMenuItemLastUpToDateTimeOneHourAgo" = "Poslední aktualizace před 1 hodinou";
+
+/* Status shown on the status menu to indicate last updated time was hours ago */
+"StatusMenuItemLastUpToDateTimeHoursAgo:%d" = "Poslední aktualizace před %d hod.";
+
+/* Status shown on the status menu to indicate last updated time on a date */
+"StatusMenuItemLastUpToDateTimeDaysAgo:%@" = "Poslední aktualizace: %@";
+
+/* No comments provided by engineer */
+"StatusMenuItemViewActivity" = "Zobrazit poslední aktivitu";
+
+/* Status menu entry for opening the issue window */
+"StatusMenuItemViewIssues" = "Kliknutím sem zobrazíte informace o problémech se synchronizací";
+
+/* Status shown on the status menu when downloading a file */
+"StatusMenuItemSyncCountSingularDownload: %@" = "Stahuje se: %@.";
+
+/* Status shown on the status menu when uploading a file */
+"StatusMenuItemSyncCountSingularUpload: %@" = "Nahrává se: %@.";
+
+/* Status shown on the status menu when downloading or uploading more than one file */
+"StatusMenuItemSyncCount-%d" = "Přenáší se položky (%d)...";
+
+/* Text for status menu item that opens the preference. It should be translated the same way as all app menu's Preferences item. */
+"StatusMenuItemPreferences" = "Předvolby";
+
+/* Text for preference window accessibility label. %1$@ is the current tab name */
+"AccessibilityPreferencesWindowLabel:%@" = "Předvolby – %1$@";
+
+/* Text for status menu item that pauses syncing. */
+"StatusMenuItemPause" = "Pozastavit synchronizaci";
+
+/* Text for status menu item that resumes syncing when paused. */
+"StatusMenuItemResume" = "Pokračovat v synchronizaci";
+
+/* Text for status menu item that indicates to pause for 1 hour. */
+"StatusMenuItemPauseTimerSingular" = "1 h";
+
+/* Text for status menu item that indicates to pause for a number of hours. %1$@ is a number representing hours. */
+"StatusMenuItemPauseTimerPlural" = "%1$@ h";
+
+/* Text for status menu item that quits the app */
+"StatusMenuItemQuit" = "Ukončit OneDrive";
+
+/* Loading user data when signing-in */
+"StatusMenuItemLoading" = "Načítání...";
+
+/* OneDrive is at initial start up */
+"StatusMenuItemStarting" = "Spouští se OneDrive.";
+
+/* OneDrive is showing first run wizard */
+"StatusMenuItemSetup" = "Nastavit OneDrive";
+
+/* Waiting for user input to migrate their Sandbox data */
+"StatusMenuItemMigration" = "Migrují se data uživatele...";
+
+/* Text for status menu item that signs out the app */
+"StatusMenuItemSignOut" = "Odhlásit se";
+
+/* Launch the application automatically after login to OS */
+"StatusMenuItemOpenAtLogin" = "Otevřít při přihlášení";
+
+/* Status menu item that when clicked will launch the live sit for the account that is connected */
+"StatusMenuItemViewOnline" = "Zobrazit online";
+
+// Quit Dialog
+
+/* Title text for dialog shown when user is quitting OneDrive */
+"QuitDialogHeader" = "Chcete ukončit OneDrive?";
+
+/* Body text for dialog shown when user is quitting OneDrive */
+"QuitDialogDescription" = "Pokud OneDrive ukončíte, nebudou se soubory ve složce OneDrive synchronizovat se soubory online.";
+
+/* Title text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogHeaderUploadsPending" = "Chcete ukončit OneDrive a zastavit nahrávání souborů?";
+
+/* Body text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogDescriptionUploadsPending" = "Pokud OneDrive ukončíte, nahrávání souborů ve složce OneDrive se přeruší a dokončí se až po jeho opětovném spuštění.";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will quit OneDrive. */
+"QuitDialogButtonDefault" = "Ukončit OneDrive";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will dismiss dialog. */
+"QuitDialogCancelButton" = "Zrušit";
+
+// Dock Menu - used by DockMenuController.mm
+
+/* No comments provided by engineer */
+"DockMenuTitle" = "OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemOpenLocalFolder" = "Otevřít složku OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemLaunchWebsite" = "Přejít na OneDrive.com";
+
+// Login Failures - used by SignInViewController.mm
+
+/* When we are unable to retrieve a user's tenant name, we will use this to show "OneDrive - Business" */
+"DefaultTenantName" = "firemní";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"InvalidUsernameTitleText" = "Nejde se přihlásit na OneDrive";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the explaination text in the dialog {StrContains=\"example555@hotmail.com\"} */
+"InvalidUsernameDescriptionText" = "Zadejte prosím svůj účet Microsoft v tomto formátu: example555@hotmail.com.";
+
+/* When we receive an invalid web request, we show this text as the first line of the dialog. */
+"InvalidWebRequestTitle" = "Je nám líto, ale nepovedlo se otevřít synchronizačního klienta";
+
+/* When we receive an invalid web request, we show this text as the body text of the dialog. */
+"InvalidWebRequestBody" = "Nepovedlo se zpracovat adresu URL. Kontaktujte prosím podporu.";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailTitle" = "Nepovedlo se vás přihlásit";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailText" = "S vaším přihlášením jsme měli problémy. Zkuste to prosím znovu. Zkontrolujte, že máte správně napsané přihlašovací jméno a heslo účtu Microsoft a počítač je připojený k internetu.";
+
+/* When we have connectivity error during sign in, we pop up a dialog and this is the first line of the text in the dialog*/
+"SignInConnectivityErrorTitleText" = "S připojením k OneDrivu byly problémy";
+
+/* When we have connecctivity error during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInConnectivityErrorDescriptionText" = "Zkontrolujte si připojení k internetu a zkuste to znovu.";
+
+/* When we fail to access the keychain during sign in, we pop up a dialog and this is the first line of text in the dialog. */
+"SignInKeychainErrorTitleText" = "Došlo k problému s přístupem k vaší klíčence";
+
+/* when we fail to access the keychain during sign in, we pop up a dialog and this is the detailed text in the dialog. */
+"SignInKeychainErrorDescriptionText" = "Zkontrolujte prosím, jestli v klíčence existují příslušné přihlašovací údaje a jestli má OneDrive ke klíčence přístup. Pokud se zobrazí výzva, povolte prosím OneDrivu ke své klíčence přístup.";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the first line of the text in the dialog */
+"SignInCredentialErrorTitleText" = "S připojením k OneDrivu byly problémy";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInCredentialErrorDescriptionText" = "Zkontrolujte si připojení k internetu a zkuste to znovu.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SuspendedAccountTitleText" = "Nejde se přihlásit na OneDrive";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the explaination text in the dialog */
+"SuspendedAccountDescriptionText" = "Máte pozastavený přístup k účtu.";
+
+/* When we get a user using a non-beta enabled account, we show this error title. */
+"SignInNoBetaText" = "Nejde se přihlásit na OneDrive";
+
+/* When we get a user using a non-beta enabled account, we show this error description. {StrContains=\"Windows Live\"} */
+"SignInNoBetaDescriptionText" = "Tento účet není povolený pro beta verzi Windows Live.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnknownErrorTitle" = "Nepovedlo se vás přihlásit";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnknownErrorText" = "Zkuste to prosím znovu za několik minut.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLError500Title" = "Nepovedlo se vás přihlásit";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLError500Text" = "Omlouváme se, ale s OneDrivem byly nějaké problémy. Zkuste to prosím znovu za několik minut.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInterruptedErrorTitle" = "Nepovedlo se vás přihlásit";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInterruptedErrorText" = "S vaším účtem byly problémy. Pokud chcete zjistit, jak tento problém vyřešit, přihlaste se prosím na webu služby. Po vyřešení problému to pak zkuste znovu.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnauthorizedErrorTitle" = "Nepovedlo se vás přihlásit";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnauthorizedErrorText" = "Omlouváme se, ale s OneDrivem byly nějaké problémy. Zkuste to prosím znovu za několik minut.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidClientErrorTitle" = "Nepovedlo se vás přihlásit";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidClientErrorText" = "Omlouváme se, ale s OneDrivem byly nějaké problémy. Zkuste to prosím znovu za několik minut.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidGrantErrorTitle" = "Nepovedlo se vás přihlásit";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidGrantErrorText" = "Omlouváme se, ale s OneDrivem byly nějaké problémy. Zkuste to prosím znovu za několik minut.";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the title. */
+"SignInURLSPOUserNotFoundTitle" = "OneDrive máte nastavený";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the error text. */
+"SignInURLSPOUserNotFoundErrorText" = "Pokud potřebujete pomoc, kontaktujte IT oddělení.";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the title */
+"SignInURLUserThrottledErrorTitle" = "Nepovedlo se nám nastavit OneDrive na tomto počítači Mac";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the error text. */
+"SignInURLUserThrottledErrorText" = "Omlouváme se, na OneDrivu je teď velký provoz. Zkuste to prosím znovu později.";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the title. */
+"SignInURLEmailMismatchTitle" = "Aby bylo možné úspěšně synchronizovat obsah, musíte tady použít stejnou e-mailovou adresu jako na webu";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the error text. */
+"SignInURLEmailMismatchErrorText:%@" = "Přihlaste se přes %@ a spusťte synchronizaci tohoto obsahu.";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to try signing in again. */
+"SignInTryAgainButtonText" = "Zkusit znovu";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive*/
+"SignInQuitButtonText" = "Ukončit OneDrive";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive */
+"SignInCloseButtonText" = "Zavřít";
+
+/* This text is displayed in sign in dialog while we load signing in page */
+"SignInPageLoadingText" = "Načítání...";
+
+/* This text is used for voice over while we load signing in page */
+"SignInPageLoadingVoiceOverText" = "Počkejte prosím, načítá se OneDrive.";
+
+/* This text is displayed in sign in dialog while we are signing in the user */
+"SignInProgressingText" = "Přihlašování...";
+
+/* This text is used for voice over while we are signing in the user */
+"SignInProgressingVoiceOverText" = "Počkejte prosím, než se OneDrive přihlásí.";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the title. */
+"SignInDuplicateSyncErrorTitle" = "Tento účet už synchronizujete";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the text. */
+"SignInDuplicateSyncErrorText:%@" = "Otevřete si svoji složku %@ nebo se přihlaste jiným účtem.";
+
+/* When the userconnected service returns an error, this is the title */
+"SignInUserConnectedErrorTitle" = "S připojením k OneDrivu byly problémy";
+
+/* When the userconnected service returns error: "AccessDenied". This is the error text. */
+"SignInUserConnectedAccessDeniedText" = "K této službě nemáte přístup. Požádejte o pomoc IT oddělení.";
+
+/* When the userconnected service returns error: "AccountSuspended". This is the error text. */
+"SignInUserConnectedAccountSuspendedText" = "Váš účet se zablokoval. Požádejte o pomoc IT oddělení.";
+
+/* When the userconnected service returns error: "InvalidUserData". This is the error text. */
+"SignInUserConnectedInvalidUserDataText" = "Ke službě se nepovedlo připojit. Požádejte o pomoc IT oddělení.";
+
+/* When the userconnected service returns error: "MissingLicense". This is the error text. */
+"SignInUserConnectedMissingLicenseText" = "Pro přístup k této službě potřebujete jinou licenci. Požádejte o pomoc IT oddělení.";
+
+/* When the userconnected service returns error: "ProvisioningFailed". This is the error text. */
+"SignInUserConnectedProvisioningFailedText" = "Nemáte nastavený OneDrive. Požádejte o pomoc IT oddělení.";
+
+/* When the userconnected service returns error: "Throttled". This is the error text. */
+"SignInUserConnectedThrottledText" = "Služba momentálně zpracovává velké množství žádostí. Zkuste to prosím znovu za pár minut.";
+
+/* When the userconnected service returns error: "Timeout". This is the error text. */
+"SignInUserConnectedTimeoutText" = "Služba reaguje příliš pomalu. Zkuste to prosím znovu za pár minut.";
+
+/* When the userconnected service returns error: "Unknown". This is the error text. */
+"SignInUserConnectedUnknownText" = "Zkuste to prosím za pár minut znovu, nebo pokud se problém nevyřeší, obraťte se na IT oddělení.";
+
+/* When the userconnected service returns error: "UnreachableHost". This is the error text. */
+"SignInUserConnectedUnreachableHostText" = "Služba je dočasně nedostupná. Zkuste to prosím znovu za pár minut.";
+
+/* When the userconnected service returns error: "UserNotFound". This is the error text. */
+"SignInUserConnectedUserNotFoundText" = "Došlo k problému s vaším účtem. Požádejte o pomoc IT oddělení.";
+
+/* When the userconnected service returns error: "NoTeamSitePermission". This is the error text. */
+"SignInUserConnectedNoTeamSitePermText" = "K tomuto sharepointovému webu nemáte přístup. Požádejte o pomoc IT oddělení.";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error. This is the title. */
+"SignInUserAlreadyLoadedErrorTitle" = "Synchronizujete jiný účet";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error.
+   Depending on whether we know which email the user is signed in with, either show the specific or the generic message below. This is the text. */
+"SignInUserAlreadyLoadedErrorEmailSpecificText:%@" = "Účet, kterým jste se přihlásili, se neshoduje s účtem, který synchronizujete. Zadejte prosím heslo pro: %@. Pokud chcete přidat jiný účet, přejděte na Předvolby, klikněte na kartu Účet a vyberte Přidat účet.";
+
+"SignInUserAlreadyLoadedErrorGenericText" = "Účet, kterým jste se přihlásili, se neshoduje s účtem, který synchronizujete. Pokud chcete přidat jiný účet, přejděte na Předvolby, klikněte na kartu Účet a vyberte Přidat účet.";
+
+/* When MSA user is already syncing with account A, and tries to sign in with account B when prompted for creds. Depending on whether the e-mail address is available or not, we show the specific or generic message below. This is the text */
+ "SignInUserAlreadyLoadedErrorMSAEmailSpecificText:%@" = "Účet, kterým jste se přihlásili, se neshoduje s účtem, který synchronizujete. Zadejte prosím heslo pro: %@.";
+
+ "SignInUserAlreadyLoadedErrorMSAGenericText" = "Účet, kterým jste se přihlásili, se neshoduje s účtem, který synchronizujete.";
+
+/* When an unknown error occurs that has not been handled. This is the title. */
+"SignInUnknownErrorTitle" = "Nepovedlo se vás přihlásit";
+
+/* When an unknown error occurs that has not been handled. This is the text. */
+"SignInUnknownErrorText" = "Zkuste to prosím za pár minut znovu, nebo pokud se problém nevyřeší, obraťte se na IT oddělení.";
+
+// Preferences - used by PreferenceController.mm
+
+/* This is the text on preference window toolbar for Preferences. */
+"PreferenceGeneralItem" = "Předvolby";
+
+/* This is the text that encloses General area in preference window. */
+"PreferenceGeneralGroupBoxText" = "Obecné";
+
+/* This is the text on preference window check box. When user checks this option, it allows OneDrive to start when user login. */
+"PreferenceStartAtLoginCheckBoxText" = "Otevřít při přihlášení";
+
+/* This is the description for enable OnPrem telemetry checkbox. */
+"PrivacyCheckBoxText" = "Posílat Microsoftu zprávy o chybách a statistiky používání";
+
+/* This is the description when OneDrive is at the wrong location. "Applications" should be localized the same way as the OS. */
+"OpenAtLoginDisabledExplaination" = "Pokud chcete toto nastavení zpřístupnit, vypněte OneDrive, přesuňte aplikaci OneDrive do složky Applications a pak OneDrive zase otevřete.";
+
+/* This is the text on preference window check box. When user checks this option, OneDrive icon is removed from the Dock. Note "Dock" is capital D */
+"PreferenceHideDockIconText" = "Skrýt ikonu v Docku";
+
+/* This is the text for a preference window check box. When the user checks this option we will automatically save screenshots any time they take a screenshot. */
+"PreferenceEnableScreenCaptureUpload" = "Ukládat snímky obrazovky na OneDrive";
+
+/* This will be displayed when a user running a store build attempts to enable the screen capture
+ * feature. Due to app store limitations, the user is forced to select their desktop folder. This
+ * message will be displayed within the file open dialog in order to help the user understand what
+ * selection they are required to make in the file open dialog. */
+"PreferenceEnableScreenCaptureUploadOpenDialogMessage" = "Pokud chcete snímky obrazovky automaticky ukládat na OneDrive, vyberte prosím složku Plocha.";
+
+/* This is the text on preference window check box. When user checks this option, we will not show share/edit notifications */
+"PreferenceDisplayShareEditNotificationsCheckBoxText" = "Zobrazovat oznámení o sdílení nebo úpravách";
+
+/* This is the text on preference window toolbar for About. */
+"PreferenceAboutItem" = "Informace";
+
+/* This is the text that encloses about area in preference window. */
+"PreferenceAboutGroupBoxText" = "O Microsoft OneDrivu";
+
+/* This is the text that shows version. */
+"PreferenceVersionText:%@" = "Verze %@";
+
+/* This is the text that shows version for standalone. */
+"PreferenceStandaloneVersionText:%@" = "Verze %@ (samostatná)";
+
+/* This is the text that encloses "more info" area in preference window. */
+"PreferenceMoreInfoGroupBoxText" = "Další informace";
+
+/* This is the text that opens help in browser. */
+"PreferenceGetHelpText" = "Získat nápovědu k OneDrivu";
+
+/* This is the text that opens privacy statement in browser. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"PreferencePrivacyStatementText" = "Ochrana osobních údajů a soubory cookie";
+
+/* This is the text that opens server status in browser. */
+"PreferenceServerStatusText" = "Stav služby";
+
+/* This is the text that opens Terms of Use in browser. */
+"PreferenceTermsOfUseText" = "Podmínky použití";
+
+/* This is the text on the button in preference window that opens the manage storage page on browser */
+"PreferenceManageStorageButtonText" = "Spravovat úložiště";
+
+/* This is the text on the button that unlinks OneDrive in preference window. */
+"PreferenceUnlinkButtonText" = "Zrušit propojení tohoto počítače Mac";
+
+/* This is the title text on the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertMessageTitle" = "Chcete zrušit propojení účtu na tomto počítači Mac?";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for consumer accounts. */
+"PreferenceUnlinkAlertDetailedMessage" = "Vaše soubory na OneDrivu se vám přestanou synchronizovat. Na tomto počítači Mac vám zůstane kopie těchto souborů.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for business accounts. */
+"PreferenceUnlinkAlertDetailedMessageBusiness:%@" = "Obsah vaší firmy přidružený k tomuto účtu (%@) se přestane synchronizovat. Na tomto počítači Mac vám zůstane kopie těchto souborů.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for last library unsynced. %1$@ is a folder name, %2$@ is an email address */
+"PreferenceUnlinkLastLibraryAlertDetailedMessage:%@,%@" = "%1$@ je vaše naposledy synchronizovaná složka. Pokud tuto složku přestanete synchronizovat, zruší se vám propojení účtu %2$@. Na tomto počítači Mac vám zůstane kopie těchto souborů.";
+
+/* This is the text on the confirm button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertConfirmButton" = "Zrušit propojení účtu";
+
+/* This is the text on the cancel button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertCancelButton" = "Zrušit";
+
+/* This is the text on the button that resets OneDrive in preference window. */
+"PreferenceResetButtonText" = "Resetovat OneDrive";
+
+/* This is the text on preference window toolbar for account. */
+"PreferenceAccountItem" = "Účet";
+
+/* This is the text that tells users how to sync down only selected folders in preference window. */
+"PreferenceSelectiveSyncDescription" = "Zvolte složky, které mají být dostupné na tomto počítači Mac.";
+
+/* This is the text that encloses "Choose folders" area in preference window. */
+"PreferenceFolderGroupBoxText" = "Zvolit složky";
+
+/* This is the button that opens up advanced selective sync in preference window. */
+"PreferenceSelectFoldersButton" = "Zvolit složky";
+
+/* This is the text on the the preference window toolbar for network. */
+"PreferenceNetworkItem" = "Síť";
+
+/* This is the text on the Upload box. */
+"PreferenceUploadBox" = "Rychlost nahrávání";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceNoLimit" = "Neomezovat";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimit" = "Automaticky upravit";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimitByAdmin" = "Automaticky upravit (spravováno vaší organizací)";
+
+/* This is the text on the radio button that does limit bandwidth. */
+"PreferenceCustomLimit" = "Omezit na:";
+
+/* This is the text on the Download box. */
+"PreferenceDownloadBox" = "Rychlost stahování";
+
+/* This is the text on the box to enable the Files On-Demand feature. */
+"PreferenceCloudFilesEnableBox" = "Soubory na vyžádání";
+
+/* This is the description for the Files On-Demand box. */
+"PreferenceCloudFilesDescription" = "Funkce Soubory na vyžádání vám uvolní místo v počítači tím, že průběžně stahuje soubory, které používáte.";
+
+/* Button text in Files On-Demand box. Clicking this button turns on the feature. */
+"PreferenceCloudFilesEnable" = "Zapnout funkci Soubory na vyžádání";
+
+/* Button text in Files On-Demand box. Clicking this button turns off the feature. */
+"PreferenceCloudFilesDisable" = "Vypnout funkci Soubory na vyžádání";
+
+/* Link in the Files On-Demand box. Clicking this link will launch a webpage with more information. */
+/* Also resued in local mass delete delete confirmed ACM. */
+"PreferenceCloudFilesMoreInfo" = "Další informace";
+
+/* This is the title text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertMessageTitle" = "Chcete funkci Soubory na vyžádání vypnout?";
+
+/* This is the body text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertDetailedMessage" = "Všechny soubory a složky z OneDrivu se stáhnou na tento Mac.";
+
+/* This is the text on the confirm button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertConfirmButton" = "OK";
+
+/* This is the text on the cancel button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertCancelButton" = "Zrušit";
+
+/* This is the button text to display the Blocked Applications list. */
+"PreferenceBlockedAppButtonText" = "Spravovat aplikace";
+
+/* This is the description for the Hydrating Applications pane. */
+"PreferenceHydratingAppDescription" = "Mac může z OneDrivu automaticky stahovat soubory, které jsou jenom online, pro aplikace, které o ně požádají.";
+
+/* This is the description for the Blocked Applications box. */
+"PreferenceBlockedAppDescription" = "Tyto aplikace mají blokované automatické stahování z OneDrivu:";
+
+/* This is the description for the checkbox that allows user to control whether they see a hydration notification toast. */
+"PreferenceNotifyHydratingAppCheckbox" = "Chci dostat upozornění, pokud aplikace stahuje soubory z OneDrivu";
+
+/* This is the header of the table listing Blocked Applications */
+"PreferenceBlockedAppTableHeader" = "Aplikace";
+
+/* Label for the button to close the Blocked Applications list */
+"PreferenceBlockedAppCloseButtonLabel" = "Zavřít";
+
+/* Prompt for user to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationPrompt" = "Vyberte aplikace, u kterých chcete zablokovat automatické stahování souborů.";
+
+/* Header for error when unable to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationErrorHeader" = "Výběr se nepovedlo přidat";
+
+/* Body for error when unable to add an application to the Blocked Applications list*/
+"PreferenceBlockedAppAddApplicationErrorBody" = "Automatické stahování souborů z OneDrivu jde zablokovat jen u aplikací. Vyberte prosím aplikaci a zkuste to znovu.";
+
+// Preferences - Advanced Selective Sync Page
+
+/* This is the text on the top of advanced selective sync sheet. */
+"AdvancedSelectiveSyncTitle" = "Synchronizovat soubory z vašeho OneDrivu";
+
+/* This is the text on the top of advanced selective sync sheet when Cloud Files on. */
+"AdvancedSelectiveSyncTitleCloudFiles" = "Zvolit složky";
+
+/* This is the text under the title of advanced selective sync sheet. */
+"AdvancedSelectiveSyncDescription:%@" = "Zvolte, co si chcete stáhnout do složky %@. K těmto položkám se dostanete, i když budete offline.";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page. */
+"AdvancedSelectiveSyncDescriptionPreferences" = "Soubory, které synchronizujete, zaberou místo na tomto Macu.";
+
+/* This is the text in advanced selective sync sheet to sync everything. */
+"AdvancedSelectiveSyncAll" = "Synchronizovat všechny soubory a složky na mém OneDrivu";
+
+/* This is the text in advanced selective sync sheet to sync everything under a team site. */
+"AdvancedSelectiveSyncAllTeamSite:%@" = "Synchronizovat všechny soubory a složky na webu %@";
+
+/* This is the text in advanced selective sync sheet to sync only some files. */
+"AdvancedSelectiveSyncSome" = "Synchronizovat jenom tyto složky:";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page and Cloud Files enabled. */
+"AdvancedSelectiveSyncDescriptionCloudFiles" = "Zvolte, co chcete mít dostupné ve složce %@. Tyto soubory budou dostupné na vyžádání. Nevybrané složky budou ve Finderu skryté.";
+
+/* This is the text in advanced selective sync sheet to sync everything when Cloud Files is enabled. */
+"AdvancedSelectiveSyncAllCloudFiles" = "Zpřístupnit všechny soubory";
+
+/* This is the text in advanced selective sync sheet to sync only some files when Cloud Files is enabled. */
+"AdvancedSelectiveSyncSomeCloudFiles" = "Nebo zviditelnit tyto složky:";
+
+/* This is the text on the file group item in the tree view. %@ is for folder names. ie "puppies", "Cute Kittens". */
+"AdvancedSelectiveSyncFileGroupItem:%@" = "Soubory ve složce %@";
+
+/* This is the text on the root's file group item in the tree view. */
+"AdvancedSelectiveSyncFileGroupItemRoot" = "Soubory, které nejsou ve složce";
+
+/* This is the text on the advanced selective sync sheet for the local path on Mac. */
+"AdvancedSelectiveSyncMacLocationText" = "Umístění na počítači Mac:";
+
+/* This is the button text on the advanced selective sync sheet for start sync. */
+"AdvancedSelectiveSyncStartSyncButtonText" = "Spustit synchronizaci";
+
+/* This is the button text on the advanced selective sync sheet for confirmation. */
+"AdvancedSelectiveSyncConfirmButtonText" = "OK";
+
+/* This is the button text on the advanced selective sync sheet for cancelling out. */
+"AdvancedSelectiveSyncCancelButtonText" = "Zrušit";
+
+/* This is the text at the middle of advanced selective sync sheet when loading. */
+"AdvancedSelectiveSyncLoading" = "Načítání...";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoading:%@" = "Nepovedlo se nám získat seznam složek v: %@.\nZavřete prosím toto dialogové okno a zkuste to znovu.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders during FRE. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoadingFRE" = "Se zobrazení seznamu vašich složek byly problémy. Pokud budete pokračovat, budeme vám zatím synchronizovat všechny soubory a složky, můžete to ale v předvolbách změnit.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to provision error. */
+"AdvancedSelectiveSyncFailedLoadingWithProvisionError" = "Omlouváme se, nepovedlo se nám zobrazit seznam vašich složek, protože vám stále ještě nastavujeme účet. Budeme vám synchronizovat všechny soubory a složky, můžete to ale v předvolbách změnit.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to offline error*/
+"AdvancedSelectiveSyncFailedLoadingWithOfflineError" = "Seznam vašich složek nejde zobrazit, protože jsme se nemohli připojit na OneDrive. Zkontrolujte si připojení k internetu a zkuste to znovu.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to auth error. */
+"AdvancedSelectiveSyncFailedLoadingWithAuthError" = "Seznam vašich složek nejde zobrazit, protože došlo k problému s vaším účtem. Zavřete prosím OneDrive a přihlaste se znovu.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to having no files and folders. */
+"AdvancedSelectiveSyncFailedLoadingWithNoFileError" = "OneDrive máte prázdný. Pokud budete chtít synchronizovat soubory, které si později přidáte na OneDrive, vyberte Všechny soubory a složky na mém OneDrivu.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnote" = "Pokud soubory nebo složky přestanete synchronizovat, zůstanou vám na OneDrivu, ale na počítači Mac už je mít nebudete. Pokud už na tomto počítači Mac jsou, odstraní se.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnoteCloudFiles" = "Když tyto složky na Macu skryjete, zůstanou soubory na OneDrivu, ale nebudou na tomto Macu. Všechny položky v této složce budou z tohoto Macu odstraněny.";
+    
+/* This is the title text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingTitle" = "Omlouváme se, ale s aplikováním vašich změn byly problémy";
+
+/* This is the description text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingDescription:%@" = "Nepovedlo se nám uložit seznam složek, které jste se rozhodli synchronizovat s: %@. Zkuste to prosím znovu.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingConfirm" = "Zavřít";
+
+/* This is the title text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingTitle" = "Omlouváme se, ale se změnou nastavení složek, které se mají na tomto počítači Mac synchronizovat, byly problémy";
+
+/* This is the description text in the alert sheet after we fail to set selective sync because syncengine is busy*/
+"AdvancedSelectiveSyncBusySettingDescription" = "Některé z položek, které jste chtěli přestat synchronizovat, ještě nejsou na OneDrivu. Počkejte prosím, až se nahrají, vyřešte případné problémy se synchronizací a pak zkuste změnit nastavení znovu.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingConfirm" = "Zavřít";
+
+/* This is the text indicating the total size of all selected files and folders. The placeholder is the size and the unit.
+ Examples: Selected: 20 MB */
+"AdvancedSelectiveSyncFilesSelected:%@" = "Vybráno: %@";
+
+/* This is the text indicating the remaining space on disk. The first item is the disk. The second item is the size and the unit.
+ Examples: Remaining space on Macintosh HD: 20 GB */
+"AdvancedSelectiveSyncAvailableSpace:%@,%@" = "Zbývající místo na disku %1$@: %2$@";
+
+/* This is the description text for selectively syncing folders */
+"AdvancedSelectiveSyncSyncOnlyTheseFolderTitle" = "Synchronizovat jenom tyto složky";
+
+/* This is the text shown when calculating the selected and remaining disk space */
+"AdvancedSelectiveSyncLoadingTitle" = "Probíhá výpočet...";
+
+/* This is the text shown when content already syncing */
+"AdvancedSelectiveSyncAlreadySyncingWarning" = "Tento obsah už synchronizujete.";
+
+/* This is the text shown when the teamsite that will be synced is read-only. */
+"AdvancedSelectiveSyncReadOnlyWarning" = "Tento web je jen pro čtení. Soubory a složky na tomto webu nemůžete nijak změnit.";
+
+/* This is the text for add an account button in the account tab of preference window */
+"AddAccountButtonText" = "Přidat účet";
+
+/* This is the text for teamsite box in account tab of preference window (singular) */
+"PreferenceTeamSiteGroupBoxText" = "Počet umístění, která se synchronizují: 1";
+
+/* This is the text for teamsite box in account tab of preference window (plural) */
+"PreferenceTeamSiteGroupBoxText:%d" = "Počet umístění, která se synchronizují: %d";
+
+/* This is the text shown when not syncing ODB in account tab of preference window */
+"PreferenceNotSyncingQuotaText" = "Neprobíhá synchronizace.";
+
+/* This is the text for start sync button for ODB in account tab of preference window */
+"PreferenceStartSyncButton" = "Spustit synchronizaci";
+
+/* This is the text for stop sync button for each team site library in account tab of preference window */
+"PreferenceStopSyncButton" = "Přestat synchronizovat";
+
+/* This is the title text in the dialog that stops syncing a teamsite in preference window. */
+"PreferenceStopSyncAlertMessageTitle:%@" = "Chcete týmový web %@ přestat synchronizovat?";
+
+/* This is the body text in the dialog that unlinks OneDrive in preference window. */
+"PreferenceStopSyncAlertDetailedMessage:%@" = "%@ se vám přestane synchronizovat. Na tomto počítači Mac vám zůstane kopie těchto souborů.";
+
+/* This is the text on the confirm button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertConfirmButton" = "Přestat synchronizovat";
+
+/* This is the text on the cancel button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertCancelButton" = "Zrušit";
+
+/* This is the title of the notifications we show after a team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationTitle:%@" = "Teď se synchronizuje: %1$@.";
+
+/* This is the body of the notification we show after a read-only team site has been succesfully connected (initial sync). */
+"TeamSiteNotificationReadOnlyBody" = "Tento web je jen pro čtení. Kliknutím sem zobrazíte svoje soubory.";
+
+/* This is the body of the notification we show after an editable team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationEditableBody:%@" = "Můžete upravovat soubory ve složce %1$@. Kliknutím sem zobrazíte svoje soubory.";
+
+/* This is the title of the notification we show after a previously connected, editable team site has become read-only. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingReadOnlyTitle:%@" = "%1$@ je teď jen pro čtení.";
+
+/* This is the body of the notification we show after a previously connected, editable team site has become read-only. */
+"TeamSiteNotificationAlreadySyncingReadOnlyBody" = "Soubory nebo složky už nemůžete upravovat, protože se změnila oprávnění k webu.";
+
+/* This is the title of the notification we show after a previously connected, read-only team site has become editable. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingEditableTitle:%@" = "Teď můžete ve složce %1$@ provádět změny.";
+
+/* This is the body of the notification we show after a previously connected, read-only team site has become editable. */
+"TeamSiteNotificationAlreadySyncingEditableBody" = "Všechny změny se nahrají na web.";
+
+/* This is the body of the notification we show after a team site has been succesfully connected. Permissions of the site are not indicated for this toast. %1$@ is a folder name. */
+"TeamSiteMountNotificationBody:%@" = "Vaše soubory ve složce %1$@ se synchronizují s tímto Macem. Kliknutím sem můžete soubory zobrazit.";
+
+/* This is the title of the notifications we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingHeader:%@" = "Složku %1$@ už synchronizujete.";
+
+/* This is the body of the notification we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingBody:%@" = "%1$@ se už na tomto zařízení synchronizuje. Kliknutím sem můžete zobrazit soubory.";
+
+/* Error dialog title for dialogs that stop the user from syncing On Prem because the front door URL is missing or ramp is off. */
+"CannotSyncOnPremTitle" = "Omlouváme se, ale tuto složku se nám nepovedlo synchronizovat";
+
+/* Body text for when we can't sync on Prem because its ramped off. */
+"OnPremSyncNotEnabledBody" = "Nepodporujeme synchronizaci místních sharepointových složek.";
+
+/* Body text for when we can't sync On Prem because the front door URL is not configured. */
+"OnPremFrontDoorUrlNotSetBody" = "Požádejte správce IT, aby nakonfiguroval OneDrive na synchronizaci místních sharepointových složek.";
+
+/* Title text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfiguredTitle" = "Přihlášení na OneDrive se nepovedlo";
+
+/* Body text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfigured" = "Došlo k problému s vašimi přihlašovacími údaji. Zkuste spustit aplikaci Ticket Viewer a pak přidejte svoji identitu nebo se znovu přihlaste. Pomoc získáte v IT oddělení.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. */
+"NewHostMountConsentTitle" = "Chcete povolit synchronizaci OneDrivu?";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. %1$@ is the mount point's domain and %2$@ is the user's username. */
+"NewHostMountConsentMessage:%@,%@" = "Snažíte se spustit synchronizaci přes účet %2$@ z nového umístění (%1$@). Soubory byste měli synchronizovat jen v případě, že danému umístění důvěřujete.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, give consent */
+"NewHostMountConsentGiveConsentButton" = "Povolit";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, deny consent */
+"NewHostMountConsentDenyConsentButton" = "Zrušit";
+
+// Sync Engine errors - used by coreController.mm. These are built manually, so straight searching won't work.
+
+/* This is the title text shown on the popup dialog when we detect a new version of the client is available */
+"SyncEngineError:OldClientVersion Title" = "Tato verze OneDrivu je zastaralá";
+
+/* This is the text shown on the popup dialog when we detect a new version of the client is available*/
+"SyncEngineError:OldClientVersion Message" = "Navštivte prosím Mac App Store a aktualizujte si OneDrive pro Mac na nejnovější verzi.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:OldClientVersion DefaultButton" = "Ukončit";
+
+/* No comments provided by engineer */
+"SyncEngineError:PUIDFlip Title" = "Máme problémy s identifikováním vašeho zařízení";
+
+/* No comments provided by engineer*/
+"SyncEngineError:PUIDFlip Message" = "Zazálohujte si prosím všechny soubory ze synchronizovaných složek. Potom přejděte na http://g.live.com/0ELHP_MEREN/266 a nahlaste tento problém na fórech OneDrive. Do příspěvku, který budete publikovat ve fóru, prosím zahrňte text této chybové zprávy.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:PUIDFlip DefaultButton" = "Ukončit";
+
+/* No comments provided by engineer */
+"SyncEngineError:DiskFull Title" = "Pevný disk už máte skoro úplně plný";
+
+/* No comments provided by engineer*/
+"SyncEngineError:DiskFull Message" = "Uvolněte prosím na OneDrivu místo, abyste ho mohli dál používat.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:DiskFull DefaultButton" = "Ukončit";
+
+/* This is shown when resign-in is required for MSA account*/
+"SyncEngineError:ForceSignIn Title" = "Nejste přihlášení";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn Message" = "Vaše soubory možná nejsou aktuální. Zadejte znovu své přihlašovací údaje, aby se opět spustila synchronizace.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn DefaultButton" = "OK";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Title" = "Pravděpodobně jsou problémy s připojením k internetu";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Message" = "Zkontrolujte, že máte počítač připojený k internetu, a zkuste to znovu.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure DefaultButton" = "OK";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Title" = "Omlouváme se, ale s OneDrivem byly problémy";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Message" = "Restartujte prosím OneDrive.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:TerminateCore DefaultButton" = "Ukončit";
+
+/* No comments provided by engineer*/
+"SyncEngineError:ServerError Title" = "Omlouváme se, máme bohužel problémy se servery OneDrivu";
+
+/* No comments provided by engineer */
+"SyncEngineError:ServerError Message" = "Zkuste to prosím znovu za několik minut.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:ServerError DefaultButton" = "Ukončit";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Title" = "Je nám líto, ale vypadá to na problém s vaším účtem. Pokud chcete zjistit, jak tento problém vyřešit, přejděte na OneDrive.com a přihlaste se. Po vyřešení problému to prosím zkuste znovu.";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Message" = "Kontaktujte prosím zákaznickou podporu.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:AccessDenied DefaultButton" = "Ukončit";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Title" = "Omlouváme se, ale s OneDrivem byly problémy";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Message" = "Ukončete prosím OneDrive, zkontrolujte, že máte počítač připojený k internetu, a potom aplikaci zase spusťte.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:Unknown DefaultButton" = "Ukončit";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid %1$@ is a library name. */
+"SyncEngineError:RootScopeNotFound Title:%@" = "Vaše knihovna %1$@ se na tomto webu znovu vytvořila";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid*/
+"SyncEngineError:RootScopeNotFound Message" = "Klikněte na Změnit konfiguraci OneDrivu a znovu si nastavte tuto knihovnu na svém Macu.";
+
+/* Text for button in error dialog to reconfigure OneDrive*/
+"SyncEngineError:ButtonText ReconfigureButton" = "Změnit konfiguraci OneDrivu";
+
+/* Message title in error dialog when a folder not found and drive is present. %1$@ is a folder name, %2$@ is its local path */
+"SyncError:MissingFolder Title:%@,%@" = "Nenašli jsme vaši složku %1$@ v umístění %2$@";
+
+/* Message in error dialog when the root folder is deleted. %@ is a folder name. */
+"SyncError:RootFolderDeleted Message:%@" = "Klikněte na Ukončit OneDrive nebo klikněte na Nastavit OneDrive a nastavte si složku %@ znovu.";
+
+/* Message in error dialog when folder is not found while re-mapping and drive is present */
+"SyncError:MissingFolder Message" = "Zkontrolujte, že tato složka v tomto umístění ještě pořád je, a klikněte na Zkusit znovu nebo klikněte na Přestat synchronizovat a zastavte synchronizaci této složky.";
+
+/* Message in error dialog when mounted folder not found while re-mapping. %@ is an email address */
+"SyncError:MissingMountedFolder SetUpMessage:%@" = "Zkontrolujte, že tato složka v tomto umístění pořád ještě je, a klikněte na Zkusit znovu nebo klikněte na Nastavit OneDrive a nastavte si účet %@ znovu.";
+
+/* Message title in error dialog when there's a problem with the root folder */
+"SyncError:RootFolderError Title:%@" = "Nepovedlo se nám najít složku %@";
+
+/* Message in error dialog when there's a problem with the root folder. %@ is a folder name. */
+"SyncError:RootFolderError Message:%@" = "Klikněte na Ukončit OneDrive nebo klikněte na Nastavit OneDrive a nastavte si složku %@ znovu.";
+
+/* Text for button in error dialog to restart application when there's a problem with the root folder */
+"SyncError:RootFolderError DefaultButton" = "Restartovat OneDrive";
+
+/* Message title in error dialog when OD found but creation doesn't match the DB. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:FolderMismatch Title:%@,%@" = "Složka %1$@ v umístění %2$@ není vaší původní složkou %1$@";
+
+/* Message in error dialog when OD found but creation doesn't match the DB. %@ is a folder name. */
+"SyncError:RootFolderMismatch Message:%@"= "Přesuňte původní složku zpátky do tohoto umístění a klikněte na Zkusit znovu nebo klikněte na Nastavit OneDrive a nastavte si znovu složku %@.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB */
+"SyncError:MountedFolderMismatch Message" = "Přesuňte původní složku zpátky do tohoto umístění a klikněte na Zkusit znovu nebo klikněte na Přestat synchronizovat a zastavte synchronizaci této složky.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB. %@ is an email address */
+"SyncError:MountedFolderMismatch SetUpMessage:%@" = "Přesuňte původní složku zpátky do tohoto umístění a klikněte na Zkusit znovu nebo klikněte na Nastavit OneDrive a nastavte si účet %@ znovu.";
+
+/* Message in error dialog when library is deemed unreachable */
+"SyncError:UnreachableLibrary Title" = "Ke knihovně nejde získat přístup";
+
+/* Message in error dialog when library is deemed unreachable {%@ is library name }*/
+"SyncError:UnreachableLibrary Message:%@" = "Knihovna %@ je dočasně nedostupná. Zkontrolujte si prosím připojení k síti a zkuste to znovu za několik minut nebo se obraťte na správce IT.";
+
+/* Message title in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Title" = "Tuto položku nemůžeme synchronizovat, protože cesta je moc dlouhá";
+
+/* Message in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Message:%@" = "Soubor nebo složku nejde stáhnout, protože cesta je moc dlouhá. Ukončete prosím OneDrive, přejděte na svůj OneDrive pro firmy ve webovém prohlížeči a zkraťte název nebo cestu: \r\n%@\r\n\r\nPokud si chcete OneDrive synchronizovat do jiného umístění na počítači Mac, klikněte na Spustit nastavení.";
+
+/* Message in error dialog when the max file path limit is reached for a local file */
+"SyncError:LocalMaxPath Message:%@" = "Soubor nebo složku nejde nahrát, protože cesta je moc dlouhá. Ukončete prosím OneDrive a zkraťte název nebo cestu: \r\n%@\r\n\r\nPokud si chcete OneDrive synchronizovat do jiného umístění na počítači Mac, klikněte na Spustit nastavení.";
+
+/* Message used in several error dialogs. %@ is an email address */
+"Error:ExitOrSetUpMessage:%@" = "Klikněte na Ukončit OneDrive nebo klikněte na Nastavit OneDrive a nastavte si účet %@ znovu.";
+
+/* Text for button in error dialog to exit application when max path length is reached */
+"SyncError:MaxPathLength DefaultButton" = "Ukončit OneDrive";
+
+/* Text for button in error dialog to run FRE when max path length is reached */
+"SyncError:MaxPathLength AlternateButton" = "Spustit nastavení";
+
+/* Message title in error dialog when the root folder volume is removed. %@ is a folder name.  */
+"SyncError:DriveVolumeRemovedNoVolume Title:%@" = "Nemůžeme najít vaši složku %@";
+
+/* Message in error dialog when the root folder volume is removed. %@ is a folder name. */
+"SyncError:DriveVolumeRemovedNoVolume Message:%@" = "Nepovedlo se nám najít umístění vaší složky %@. Zkontrolujte prosím, že jste ji neodstranili. Pokud je složka OneDrive na externí jednotce, zkontrolujte, že je připojená.";
+
+/* Text for button in error dialog to restart application when the root folder volume is removed */
+"SyncError:DriveVolumeRemoved DefaultButton" = "Restartovat OneDrive";
+
+/* Message title in error dialog when drive containing OD could not be found. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:MissingDrive Title:%@,%@" = "Nemůžeme získat přístup k vaší složce %1$@ v umístění %2$@";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingNoneRemovableDrive Message:%@" = "Zkontrolujte, že jednotka %1$@ stále existuje ve Finderu, a klikněte na Zkusit znovu nebo klikněte na Přestat synchronizovat a zastavte synchronizaci této složky.";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingNoneRemovableDrive SetUpMessage:%@,%@" = "Zkontrolujte, že jednotka %1$@ stále existuje ve Finderu, a klikněte na Zkusit znovu nebo klikněte na Nastavit OneDrive a nastavte si účet %2$@ znovu.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingRemovableDrive Message:%@" = "Všimli jsme si, že %@ byla vyměnitelná jednotka. Zkontrolujte, že je tato jednotka připojená a dostupná ve Finderu, a klikněte na Zkusit znovu nebo klikněte na Přestat synchronizovat a zastavte synchronizaci této složky.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingRemovableDrive SetUpMessage:%@,%@" = "Všimli jsme si, že %1$@ byla vyměnitelná jednotka. Zkontrolujte, že je tato jednotka připojená a dostupná ve Finderu, a klikněte na Zkusit znovu nebo klikněte na Nastavit OneDrive a nastavte si účet %2$@ znovu.";
+
+/* Message title in error dialog indicating library cannot be synced, used in ClientNotAllowed, UnsupportedLibrary and DisableSync errors */
+"SyncError:LibraryCannotSync:%@" = "Nemůže synchronizovat vaši složku %@.";
+
+/* Message in error dialog when sync is disabled because domain is not "whitelisted" */
+"SyncError:ClientNotAllowed Message" = "IT oddělení vyžaduje, abyste použili počítač připojený k doméně, pro kterou je synchronizace této složky schválená. Požádejte o pomoc IT oddělení.";
+
+/* Message in error dialog when the library is unsupported */
+"SyncError:UnsupportedLibrary Message" = "Vaše IT oddělení provedlo změnu, která vám zabraňuje v synchronizaci této složky. Pokud vás k tomu zajímají další informace, kontaktuje IT oddělení.";
+
+/* Message in error dialog when sync is disabled */
+"SyncError:DisableSync Message" = "Vaše organizace nepovoluje synchronizaci této složky. Pokud vás k tomu zajímají další informace, kontaktuje IT oddělení.";
+
+/* Title in balloon tip for when the folder was removed remotely during mount. %@ is the name of the folder being mounted. */
+"SyncError:FolderRemovedRemotelyDuringMount Title:%@" = "%@ už v tomto umístění neexistuje.";
+
+/* Message in balloon tip for when the folder was removed remotely during mount */
+"SyncError:FolderRemovedRemotelyDuringMount Message" = "Tato složka může být přesunutá nebo odstraněná.";
+
+/* Title in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them the folder has been deleted. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Title:%@" = "Složka %@ byla odstraněna.";
+
+/* Message in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them a copy of the files will be left on the Mac. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Message:%@" = "%@ se vám přestane synchronizovat. Na tomto Macu vám zůstane kopie těchto souborů.";
+
+/* Title in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them they no longer have permissions to sync it. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Title:%@" = "Už nemáte oprávnění k synchronizaci složky %@.";
+
+/* Message in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them the files have been removed from the Mac. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Message:%@" = "Složka %@ byla odebrána z vašeho Macu.";
+
+/* Title to show if add folder failed. %@ is a folder name. */
+"AddMountedFolderError Title:%@" = "Nemůžeme synchronizovat vaši složku %@";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorTryAgain:%@" = "Vaši složku %@ teď bohužel nemůžeme přidat. Zkuste to prosím znovu.";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorContactSupport:%@" = "Vaši složku %@ teď bohužel nemůžeme přidat. Obraťte se prosím na podporu.";
+
+/* Text for Try Again button, used in error dialogs. */
+"TryAgainButtonText" = "Zkusit znovu";
+
+/* Text for Stop Sync button, used in error dialogs. */
+"StopSyncButtonText" = "Přestat synchronizovat";
+
+/* Text for Set Up OneDrive button, used in error dialogs. */
+"SetUpDriveButtonText" = "Nastavit OneDrive";
+
+/* Text for Exit OneDrive button, used in error dialogs. */
+"ExitOneDriveButtonText" = "Ukončit OneDrive";
+
+// About box - used by coreController.mm
+
+/* Application name displayed in the about dialog */
+"AboutApplicationName" = "Microsoft® OneDrive";
+
+/* Copyright info for the updated about dialog */
+"CopyrightText" = "© 2018 Microsoft Corporation. Všechna práva vyhrazena.";
+
+/* Third Party Notices */
+"ThirdPartyNotices" = "Oznámení třetích stran";
+
+// Menu Items
+
+/* Text for menu item to open the online help website */
+"MainMenuOnlineHelpMenuItemText" = "Online nápověda pro OneDrive";
+
+/* Text for menu item to open the service agreement website */
+"MainMenuServiceAgreementMenuItemText" = "Podmínky použití";
+
+/* Text for menu item to open the private agreement website. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"MainMenuPrivacyAgreementMenuItemText" = "Ochrana osobních údajů a soubory cookie";
+
+/* Text for menu item to open the server status website */
+"MainMenuServerStatusMenuItemText" = "Stav serveru";
+
+// Manifest failures
+
+/* Main text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureTitle" = "OneDrive nejde spustit";
+
+/* Informative text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureMessage" = "Se soubory aplikace byly problémy. Stáhněte si prosím aplikaci do tohoto počítače a zkuste to znovu.";
+
+/* Quit button for the message box which explains the application is corrupt and must exit now */
+"ManifestValidationFailureQuitButton" = "Ukončit OneDrive";
+
+// Updater
+
+/* Message title in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableTitle" = "OneDrive se musí aktualizovat";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableMessage" = "Abyste mohli dál používat OneDrive, musíte si nainstalovat aktualizaci.";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreRequiredUpdateAvailableOpenInAppStoreButton" = "Získat aktualizaci";
+
+/* Text in button which quits the application */
+"AppStoreRequiredUpdateAvailableCloseButton" = "Ukončit OneDrive";
+
+/* Message title in dialog when there is an optional update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableTitle" = "Je k dispozici aktualizace OneDrivu";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableMessage" = "Chcete si stáhnout aktualizaci?";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreOptionalUpdateAvailableOpenInAppStoreButton" = "Získat aktualizaci";
+
+/* Text in button which quits the application */
+"AppStoreOptionalUpdateAvailableCloseButton" = "Ne, díky";
+
+// Standalone migration
+
+/* Title for dialog shown to a user in a Mac App Store (MAS) migration downgrade scenario.
+ (When a user installs a lower version of Standalone on top of a higher version of Store) */
+"MASMigrationDowngradeScenarioTitle" = "OneDrive nemůže přesunout vaše nastavení";
+
+/* Message for dialog shown to a user in a MAS migration downgrade scenario, informing them of their options */
+"MASMigrationDowngradeScenarioMessage" = "Nemůžeme vám přesunout nastavení, protože máte zastaralou verzi aplikace. Stáhněte a nainstalujte si prosím nejnovější verzi. Můžete také OneDrive nastavit znovu.";
+
+/* Later button for dialog shown to a user in a MAS migration downgrade scenario. The button will exit the client so the user may launch it again to retry the update later */
+"MASMigrationDowngradeScenarioLaterButton" = "Později";
+
+/* Download button for dialog shown to a user in a MAS migration downgrade scenario. The button will trigger a download of the latest version of Standalone OneDrive */
+"MASMigrationDowngradeScenarioDownloadButton" = "Stáhnout a nainstalovat";
+
+/* Set Up OneDrive button for dialog shown to a user in a MAS migration downgrade scenario. The button will cause OneDrive to drop the user's Store settings and show FRE so the user can re-configure their OneDrive for Standalone */
+"MASMigrationDowngradeScenarioResetupOneDriveButton" = "Nastavit OneDrive";
+
+// Sandbox migration
+
+/* Text in button to select and confirm where the OneDrive folder is */
+"SandboxMigrationConfirmButton" = "Potvrdit umístění";
+
+/* Text in button to quit the OneDrive application */
+"SandboxMigrationQuitButton" = "Ukončit OneDrive";
+
+/* Bold text summarizing that the user needs to confirm where the OneDrive folder is */
+"SandboxMigrationTitle" = "Potvrďte prosím umístění složky OneDrive";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationText" = "Než budete pokračovat v používání OneDrivu, musíte potvrdit, kde máte na počítači Mac aktuálně umístěnou složku OneDrive.";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationWindowTitle:%@" = "Potvrdit umístění složky %@";
+
+/* Text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderMessage" = "Potvrďte prosím umístění složky OneDrive.";
+
+/* Button text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderButton" = "Potvrdit";
+
+/* Title text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderTitle" = "Určitě chcete existující složku OneDrive přestat používat?";
+
+/* Descriptive text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderMessage" = "Pokud chcete zvolit nové umístění, klikněte na Spustit nastavení OneDrivu. Všechno, co máte na OneDrivu, se vám stáhne do nové složky OneDrive. Pokud chcete dál používat existující složku OneDrive, klikněte na Přejít zpět a vyberte složku.";
+
+/* Button text to pick a different folder */
+"SandboxMigrationConfirmDifferentFolderGoBackButton" = "Přejít zpátky";
+
+/* Button text to continue on and reconfigure OneDrive */
+"SandboxMigrationConfirmDifferentFolderQuitButton" = "Spustit nastavení OneDrivu";
+
+/* Text for alerting invalid app bundle location */
+
+/* Title text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertTitle" = "Aplikace OneDrive musí být ve složce Applications";
+
+/* Description text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertDescription" = "Ukončete prosím OneDrive, přesuňte aplikaci OneDrive do složky Applications a pak zase OneDrive otevřete.";
+
+/* Button text to exit in the invalid app location alert */
+"InvalidBundleLocationAlertButtonText" = "Ukončit OneDrive";
+
+
+/* ---------------------------- Support Window ------------------- */
+/* OK Button */
+"SupportWindowOkButton" = "OK";
+
+/* Cancel Button*/
+"SupportWindowCancelButton" = "Zrušit";
+
+/* Try Again Button */
+"SupportWindowTryAgainButton" = "Zkusit znovu";
+
+/* Header string for Support Window */
+"SuportWindowReportProblem" = "Nahlásit problém";
+
+/* Subheading of support window that gives instructions on what to type */
+"SuportWindowTicketSubheading" = "Omlouváme se, ale s vaším OneDrivem jsou nějaké problémy. Uveďte prosím co nejvíce informací o problému a o tom, co jste dělali, když k němu došlo. Pomůžete nám tím problém diagnostikovat.";
+
+/* Header to the textbox in the support window */
+"SupportWindowDescription" = "Popis:";
+
+/* String at the bottom of the support window - right below the text field where the user types */
+"SupportWindowContactWarning" = "Když kliknete na OK, souhlasíte s tím, že vás Microsoft může ohledně názoru, který jste poslali, kontaktovat.";
+
+/* Link to privacy statement - very bottom of support dialog. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"SupportWindowPrivacyStatement" = "Ochrana osobních údajů a soubory cookie";
+
+/* Text below the progress bar while the support text is being sent */
+"SupportWindowSending" = "Posílání...";
+
+/* Success message for when the support text was successfully sent */
+"SupportSuccessMessage:%@" = "Děkujeme vám, že jste si udělali čas a dali nám vědět o problémech, které máte s OneDrivem. Na e-mailovou adresu %@ jsme vám poslali e-mail s potvrzením, že jsme vaši zprávu dostali.";
+
+/* Error message for when the report was no sucessfully sent. Contains a hyperlink designated by <a> and </a> */
+"SupportErrorMessage" = "Omlouváme se, ale s odesláním vaší zprávy byly problémy. Zkontrolujte si prosím připojení k internetu a zkuste to znovu. Můžete taky problém nahlásit <a>oddělení podpory</a>.";
+
+/* Text for email text field label shown in the support window */
+"SupportWindowEmailLabel" = "E-mailová adresa:";
+/* ----------------------------------------------------------------- */
+
+// App store related strings
+
+/* Apple app store description for OneDrive Mac client */
+"StoreDescription" = "OneDrive je místo, kde můžete mít všechno, co je pro vás v životě důležité. Nabídne vám bezplatné online úložiště pro všechny vaše osobní soubory, abyste k nim měli přístup jak z počítače Mac, tak i z jiných zařízení, která používáte – iPhonu, iPadu, počítače PC, Windows Phonu nebo zařízení s Androidem. S OneDrivem pro firmy získáte také úložiště pro pracovní soubory, abyste je mohli sdílet a spolupracovat na nich s ostatními lidmi v práci nebo ve škole. Aplikace OneDrive pro Mac usnadňuje práci se soubory z OneDrivu na počítači Mac:\r\n•K souborům na OneDrivu se dostanete přímo z Finderu, včetně příloh, které jste na OneDrive uložili z Outlook.com, a dokumentů a tabulek, které jste si vytvořili v Office Online.\r\n•Se soubory z OneDrivu můžete pracovat, i když jste offline. Změny se automaticky synchronizují, až budete zase online.\r\n•Můžete zvolit, které složky z OneDrivu se vám mají synchronizovat na váš Mac.\r\n•Na OneDrive můžete přidat i několik souborů nebo složek najednou, a to tak, že je do složky OneDrive přetáhnete. Když si soubory dáte na OneDrive, dostanete se k nim prakticky odkudkoliv a navíc budete mít jejich zálohu pro případ, že by se vám něco stalo s počítačem.\r\n•Na OneDrivu můžete snadno otevírat, upravovat a vytvářet dokumenty a další soubory z aplikací, jako je Word a Excel. Přidejte si na svůj OneDrive sdílené složky ze seznamu sdílených na OneDrive.com. Pak se vám budou synchronizovat do počítače a budete s nimi moct pracovat stejně jako se svými vlastními složkami.";
+
+/* Pool of generic localized Strings to use for update description */
+"GenericUpdateDescription" = "Jsou opravené chyby spolehlivosti synchronizace. Vylepšili jsme spolehlivost aplikace. Zvýšili jsme výkon synchronizace. Snížila se spotřeba baterie.";
+
+"GenericStoreUpdate" = "Děkujeme vám za používání OneDrivu. OneDrive se snažíme neustále aktualizovat, abychom vám přinášeli nejnovější vylepšení výkonu a opravy chyb zajišťující spolehlivý výkon.";
+
+"R16String" = "Máte obavy, abyste v síti s měřením dat nevyužívali zbytečně moc velký objem dat? Přidali jsme možnost pozastavit OneDrive. Možnost pozastavení najdete v nabídce označené třemi tečkami (...).";
+
+"R18String" = "Děkujeme vám, že používáte OneDrive. Kromě našich běžných aktualizací, které vám přinášejí nejnovější vylepšení výkonu a opravy chyb, máme také následující nové funkce, které se budou postupně zpřístupňovat uživatelům:\nPřidali jsme nové překryvné ikony, které označují, jestli se složka sdílí.\nSnímek obrazovky se teď dá přesměrovat na OneDrive.";
+
+"R19String" = "Děkujeme, že používáte OneDrive. Kromě běžných aktualizací, díky kterým získáte nejnovější vylepšení výkonu a opravy chyb, pro vás máme tyto nové funkce, které se budou postupně zavádět uživatelům:\nKdyž otevřete dokument Office, který se synchronizuje s vaším počítačem, bude hned při otevření připravený ke spolupráci v reálném čase.\nDokumenty Office, které jsou synchronizované s počítačem, se dají sdílet přímo z aplikací Office.\nPo kliknutí pravým tlačítkem myši na cloud OneDrive se teď otevře místní nabídka v centru aktivit.\nČíslo verze už teď není v samostatném okně, ale je přesunuté na kartu Informace v Předvolbách.";
+
+"R20String" = "Děkujeme, že používáte OneDrive. Kromě běžných aktualizací, díky kterým získáte nejnovější vylepšení výkonu a opravy chyb, pro vás máme tyto nové funkce, které se budou postupně zavádět uživatelům:\nV případě pozastavení se synchronizace obnoví po klepnutí na banner.";
+
+"R21String" = "Děkujeme vám za používání OneDrivu. Kromě běžných aktualizací vylepšujících výkon a odstraňujících chyby pro vás máme tyto nové funkce, které budeme postupně zpřístupňovat uživatelům:\nPřidali jsme funkci pro synchronizaci sharepointových knihoven dokumentů s podporou IRM.";
+
+"R22String" = "Děkujeme vám za používání OneDrivu. Kromě běžných aktualizací vylepšujících výkon a odstraňujících chyby pro vás máme tyto nové funkce, které budeme postupně zpřístupňovat uživatelům:\nCentrum aktivit OneDrivu bylo modernizováno, aby se snadněji používalo a bylo intuitivnější.\nMožnost Nahlásit problém jsme v nabídce změnili na Poslat názor. Teď nám můžete dát vědět, co se vám líbí a co naopak ne, a také navrhnout funkce, které by se podle vás měly na OneDrive přidat. Nasloucháme vám!";
+
+"R24String" = "Děkujeme, že používáte OneDrive. Spolu s našimi obvyklými aktualizacemi zahrnujícími poslední vylepšení v oblasti výkonu a opravy chyb vám přinášíme následující nové funkce, které budou uživatelům postupně k dispozici:\nOneDrive teď podporuje tmavý režim systému macOS Mojave. Pokud je tmavý režim povolený, celé rozhraní OneDrivu se přepne do nádherného nového tmavého motivu!";
+
+"R26String" = "Děkujeme, že používáte OneDrive. Spolu s našimi obvyklými aktualizacemi zahrnujícími poslední vylepšení v oblasti výkonu a opravy chyb vám přinášíme následující nové funkce, které budou uživatelům postupně k dispozici:\nTmavý motiv teď najdete i v dialogovém okně pro sdílení.\nProvedli jsme řadu změn za účelem zlepšení výkonu a snížení zatížení procesoru. Dejte nám vědět, pokud i přesto zjistíte problémy.";
+
+"R32String" = "Děkujeme vám, že používáte OneDrive. Kromě našich obvyklých aktualizací, které vám přinášejí nejnovější vylepšení výkonu a opravy chyb, máme následující nové funkce, které budeme postupně zpřístupňovat uživatelům:\nPřidali jsme podporu pro nastavení více displejů a zobrazení centra aktivit na vybrané obrazovce.";
+
+/* Files On-Demand is the name of a feature that is already available on OneDrive on Windows already. */ 
+"R29String" = "Tato nejnovější aktualizace přináší funkci Onedrivové soubory na vyžádání. Tato funkce vám pomůže dostat se ke všem vašim souborům na OneDrivu, aniž byste si je museli všechny stahovat a zaplňovat jimi úložný prostor ve vašem zařízení. Nové soubory vytvořené online nebo na jiném zařízení se zobrazí jako soubory, které jsou jenom online, a nebudou zabírat místo ve vašem zařízení. Když budete připojení k internetu, budete moct tyto soubory používat jako každý jiný soubor ve vašem zařízení.\nPokud chcete funkci Soubory na vyžádání využívat, musíte mít nejnovější macOS Mojave (10.14.2 nebo vyšší). Funkci můžete aktivovat na kartě Obecné v nabídce předvoleb OneDrivu.";
+
+// Finder sync extension commands
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will copy a shareable link to their keyboard */
+"MenuItemShareCommand" = "Sdílet odkaz na OneDrive";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will open a web browser and display the selected file in the web interface */
+"MenuItemViewOnlineCommand" = "Zobrazit online";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a selective sync window. */
+"MenuItemSelectiveSyncCommand" = "Zvolit složky OneDrivu k synchronizaci";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a browser window that displays some detailed sharing options for the file. */
+"MenuItemSharingOptionsCommand" = "Další možnosti sdílení pro OneDrive";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a hosted browser window that OneDrive controls. This browser window will load a web page from sharepoint and allow the user to modify sharing options from the file. This is different from just launching the user's default browser. */
+"MenuItemShareBrowserWindowCommand" = "Sdílet";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch the preferences window for the account that the right clicked file belongs to. */
+"MenuItemPreferencesCommand" = "Předvolby";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. */
+"MenuItemPinCommand" = "Vždy zachovat na tomto zařízení";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. */
+"MenuItemUnpinCommand" = "Uvolnit místo";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will lock the folder. %@ is a folder name. */
+"MenuItemLockCommand:%@" = "Zamknout složku %@";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will unlock the folder. %@ is a folder name. */
+"MenuItemUnlockCommand:%@" = "Odemknout složku %@";
+
+// Finder Sync Extension Tooltips
+
+/* Tooltip for synced / up-to-date icon in Mac Finder */
+"IconOverlaySyncedLabel" = "Aktuální";
+
+/* Tooltip for syncing icon in Mac Finder */
+"IconOverlaySyncingLabel" = "Synchronizace";
+
+/* Tooltip for error icon in Mac Finder */
+"IconOverlayErrorLabel" = "Chyba";
+
+/* Tooltip for shared folder synced / up-to-date icon in Mac Finder */
+"IconOverlaySharedSyncedLabel" = "Aktuální";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlaySharedSyncingLabel" = "Synchronizace";
+
+/* Tooltip for shared folder error icon in Mac Finder */
+"IconOverlaySharedErrorLabel" = "Chyba";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlayReadOnlyLabel" = "Aktuální, jen pro čtení";
+
+/* Tooltip for unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedLabel" = "K dispozici na tomto zařízení";
+
+/* Tooltip for pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedLabel" = "Vždy k dispozici na tomto zařízení";
+
+/* Tooltip for unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedLabel" = "K dispozici v režimu online";
+
+/* Tooltip for read-only, unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedReadOnlyLabel" = "K dispozici na tomto zařízení, jen pro čtení";
+
+/* Tooltip for read-only, pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedReadOnlyLabel" = "Vždy k dispozici na tomto zařízení, jen pro čtení";
+
+/* Tooltip for read-only, unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedReadOnlyLabel" = "K dispozici v režimu online, jen pro čtení";
+
+/* Action center (Toast) notification header for the Icon Overlay feature */
+"IconOverlayToastTitle" = "Zobrazit nové ikony stavu synchronizace";
+
+/* Action center (Toast) notification body for the Icon Overlay feature */
+"IconOverlayToastBody" = "Kliknutím povolíte OneDrivu zobrazovat stav synchronizace ve Finderu.";
+
+/* Preferences Dialog string for enabling icon overlays*/
+"IconOverlayPreferencesLink" = "Povolit OneDrivu zobrazovat stav synchronizace ve Finderu";
+
+// App moniker related strings
+
+/* Text of basic Moniker*/
+"BasicMoniker:%@" = "OneDrive – %@";
+
+/* Text of Moniker with user's first name. %0@ is user's firstname, %1@ is string like 'OneDrive - Personal' */
+"MonikerWithFirstName:%@,%@" = "%1@ uživatele %0@";
+
+/* Text of Moniker with user's email. %0@ is string like 'OneDrive - Personal', %1@ is email address */
+"MonikerWithEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text of Moniker with user's first name and email. %0@ is MonikerWithFirstName like Someone's OneDrive - Personal, %1@ is email address */
+"MonikerWithFirstNameAndEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text used in BasicMoniker for personal client */
+"PersonalDisplayMoniker" = "Osobní";
+
+// Notifications
+
+/* Balloon tip primary text to notify users that the shared folders sync feature is available */
+"SharedFoldersEnabledBaloonTipHeader" = "Novinka – Můžete synchronizovat sdílené složky!";
+
+/* Balloon tip secondary text describing how to start using the shared folder sync feature */
+"SharedFoldersEnabledBaloonTipBody" = "Po kliknutí můžete zobrazit složky, které s vámi přes OneDrive.com sdílí ostatní. Pak vyberte libovolnou složku, kterou chcete upravit, a klikněte na Přidat na můj OneDrive.";
+
+/* Message shown when users try to run different flavors of OneDrive app side by side */
+"DifferentTypesOfAppSideBySide" = "Na počítači máte dvě kopie OneDrivu. Vždycky může být spuštěná jenom jedna. Doporučujeme jednu z nich odinstalovat. Pokud chcete zjistit, kterou kopii máte otevřenou, klikněte na ikonu OneDrive v řádku nabídek a zvolte Předvolby > Informace.";
+
+/* Title for a notification shown when the user copies a link to a file to their pasteboard */
+"CopyFileLinkToPasteboardTitle" = "Odkaz je připravený k vložení";
+
+/* Body for a notification shown when the user copies a link toa a file to their pasteboard */
+"CopyFileLinkToPasteboardBody" = "Odkaz se uložil do schránky. Pokud ho chcete sdílet, vložte ho do zprávy nebo příspěvku. Každý, kdo odkaz dostane, bude moct soubor upravit.";
+
+/* Title for a notification shown when a screen capture is saved */
+"ScreenshotSavedTitle" = "Snímek obrazovky se uložil";
+
+/* Body for a notification shown when a screen capture is saved. Screenshots should be localized and capitolized. */
+"ScreenshotSavedBody" = "Kliknutím sem otevřete složku se snímky obrazovky.";
+
+/* Title for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorTitle" = "Snímky obrazovky nejdou ukládat na OneDrive";
+
+/* Body for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorBody" = "Pokud chcete uložit svoje snímky obrazovky, synchronizujte si pracovní nebo školní soubory na OneDrive. Vyberte kartu Účet a potom klikněte na Spustit synchronizaci.";
+
+// Campaign Manager toast notifications
+
+/* Title for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastTitle" = "Povolte otevření při přihlášení";
+
+/* Body for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastBody" = "Zajistěte si synchronizaci svých souborů.";
+
+/* Title for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastTitle" = "Zobrazte si stav synchronizace ve Finderu";
+
+/* Body for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastBody" = "Povolte integraci s Finderem.";
+
+/* Title for Placeholders Finder Sync Extension Campaign toast */
+"PlaceholdersFinderSyncCampaignToastTitle" = "Uvolněte si místo díky souborům na vyžádání";
+
+/* Body for Placeholders Finder Sync Extension Campaign toast*/
+"PlaceholdersFinderSyncCampaignToastBody" = "Klikněte sem a dokončete nastavení tak, že zapnete rozšíření Finderu pro OneDrive.";
+
+/* Title for Rate Application Campaign toast */
+"RatingsCampaignToastTitle" = "Dejte nám vědět, co si myslíte";
+
+/* Body for Rate Application Campaign toast */
+"RatingsCampaignToastBody" = "Ohodnoťte aplikaci OneDrive nebo pošlete svůj názor.";
+
+// Rate Our Application Window
+
+/* Windows title for rate our application window.
+ There's probably no need to localize this string. */
+"RateApplicationWindowTitle" = "Microsoft OneDrive";
+
+/* Title for Rate Us WindowText on two lines, please keep the \n in translation as a line terminator after "Thank you" */
+"RateApplicationBodyTitle" = "Děkujeme vám,\nže používáte OneDrive!";
+
+/* Text for Rate us button */
+"RateApplicationWindowRateButton" = "Něco se vám líbí? Řekněte nám více!";
+
+/* Text for Tell us how to improve button */
+"RateApplicationWindowSupportbutton" = "Dejte nám vědět, co můžeme zlepšit";
+
+/* Text for Rate Us button - more engaging */
+"RateApplicationWindowRateButtonEngage" = "Dejte nám 5 hvězdiček.";
+
+/*Text for Rate Us button - with question */
+"RateApplicationWindowRateButtonQuestion" = "Líbila se vám aplikace? Dejte nám 5 hvězdiček.";
+
+/* ---------------------------- Activity Center ------------------- */
+
+/* Text shown in title bar of Activity Center when we're up to date */
+"ActivityCenterHeaderUpToDate" = "OneDrive je aktuální.";
+
+/* Text shown in title bar of Activity Center when files are syncing */
+"ActivityCenterHeaderUpdatingFiles" = "OneDrive aktualizuje soubory...";
+
+/* Text shown in title bar of Activity Center when there are sync problems */
+"ActivityCenterHeaderNeedsAttention" = "OneDrive vyžaduje vaši pozornost.";
+
+/* Text shown in title bar of Activity Center when we're paused */
+"ActivityCenterHeaderPaused" = "OneDrive je pozastavený.";
+
+/* Text shown in title bar of Activity Center when we're offline */
+"ActivityCenterHeaderOffline" = "OneDrive je offline.";
+
+/* Text shown in title bar of Activity Center when we aren't signed in */
+"ActivityCenterHeaderNotConnected" = "OneDrive není připojený";
+
+/* Text shown in the header of Activity Center when OneDrive is being reset */
+"ActivityCenterHeaderResetting" = "Obnovuje se OneDrive...";
+
+/* Primary text shown in the error bar of Activity Center, placeholder is number of items */
+"ActivityCenterFileErrorsItemPrimary" = "Tento počet položek se nedá synchronizovat: %@.";
+
+/* Primary text shown in the error bar of Activity Center, singular item version  */
+"ActivityCenterFileErrorsItemPrimarySingle" = "Tento počet položek se nedá synchronizovat: 1.";
+
+/* Secondary text shown in the error bar of Activity Center */
+"ActivityCenterFileErrorsItemSecondary" = "Kliknutím sem získáte další informace.";
+
+/* Up-to-date primary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemPrimary" = "Můžete začít";
+
+/* Up-to-date secondary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemSelectiveSync" = "Všechny soubory jsou synchronizované";
+
+/* Up-to-date primary text shown on Activity Center while paused */
+"ActivityCenterPausedPrimary" = "Vaše soubory se aktuálně nesynchronizují.";
+
+/* Up-to-date secondary text shown on Activity Center while paused */
+"ActivityCenterPausedSecondary" = "Kliknutím sem obnovíte synchronizaci a zajistíte, že budete mít aktualizované soubory.";
+
+/* Text showing progress on one item when it's downloading or uploading. Placeholders are numbers and units for file progress. E.g. Uploading - 10 MB of 1 GB" */
+"ActivityCenterItemProgress" = "· %1$@ %2$@ z %3$@ %4$@";
+
+/* Text showing progress on one item when it's downloading or uploading with differential sync. Placeholder %1$@ is a number, %2$@ is a unit, %3$@ is a number, %4$@ is a unit, %5$@ is a number, %6$@ is a unit E.g. Uploading - 10 MB of 1 GB (100 KB)" */
+"ActivityCenterItemProgressDiffSyncUX" = "· %1$@ %2$@ z %3$@ %4$@ (%5$@ %6$@)";
+
+/* Text shown on one item when it's uploading. */
+"ActivityCenterItemUploading" = "Nahrávání";
+
+/* Text shown on one item when it's reviewing the file before syncing. This is specific to differential sync */
+"ActivityCenterItemReviewingChanges" = "Připravuje se synchronizace.";
+
+ /* Text shown on one item when it's downloading. */
+"ActivityCenterItemDownloading" = "Stahování";
+
+/* Status shown on an item that's finished transfering. */
+"ActivityCenterItemUpdated" = "Aktualizováno na OneDrivu";
+
+/* Status shown on an item that's been removed. */
+"ActivityCenterItemRemoved" = "Odebráno z OneDrivu";
+
+/* Status shown on an item that's finished uploading. Placeholder %% is a folder name. */
+"ActivityCenterItemUploaded" = "Nahráno do složky %%";
+
+/* Status shown on an item that's finished downloading. Placeholder %% is a folder name. */
+"ActivityCenterItemDownloaded" = "Staženo do složky %%";
+
+/* Status shown on an item that's finished moving. Placeholder %% is a folder name. */
+"ActivityCenterItemMoved" = "Přesunuto do složky %%";
+
+/* Status shown on an item that was renamed. Placeholder %% is a folder name. */
+"ActivityCenterItemRenamed" = "Přejmenováno ve složce %%";
+
+/* Status shown on an item that represents a placeholder file. Placeholder %% is a folder name. */
+"ActivityCenterItemPlaceholder" = "K dispozici ve složce %%";
+
+/* Timestamp on an item. Placeholders are for time difference and units E.g. 5 minutes ago */
+"ActivityCenterItemTime" = "před %1$@ %2$@";
+
+/* Timestamp on an item plus application. Placeholders %1$@ %2$@ are for time difference and units. %3$@ is an application name E.g. 5 minutes ago · Microsoft Word */
+"ActivityCenterItemTimeWithAppName" = "Před %1$@ %2$@ · %3$@";
+
+/* Timestamp on an item plus application. Placeholder %1$@ is for a date. %2$@ is an application name E.g. 8/24/2018 · Microsoft Word */
+"ActivityCenterItemDateWithAppName" = "%1$@ · %2$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncing" = "Synchronizuje se tento počet souborů %1$@ · %2$@ %3$@ z %4$@ %5$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncingSingle" = "Synchronizuje se tento počet souborů: 1 · %1$@ %2$@ z %3$@ %4$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing changes */
+"ActivityCenterSummaryProcessingChanges" = "Zpracovávají se změny.";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing a single change */
+"ActivityCenterSummaryProcessingChangesCountSingle" = "Zpracovává se změna.";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing multiple changes. The placeholder %1$@ indicates the number of changes */
+"ActivityCenterSummaryProcessingChangesCount" = "Zpracovává se tento počet změn: %1$@.";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're looking for file system changes */
+"ActivityCenterSummaryLooking" = "Vyhledávají se změny.";
+
+/* Text read aloud when list of recent files is selected */
+"ActivityCenterHistoryListAccessibleText" = "Poslední soubory";
+
+/* time units used in activity center on timestamps. E.g. 1 second ago */
+"ActivityCenterSecondSingle" = "s";
+
+/* time units used in activity center on timestamps. E.g. N seconds ago */
+"ActivityCenterSecondsMultiple" = "s";
+
+/* time units used in activity center on timestamps. E.g. 1 minute ago */
+"ActivityCenterMinuteSingle" = "min";
+
+/* time units used in activity center on timestamps. E.g. N minutes ago */
+"ActivityCenterMinutesMultiple" = "min";
+
+/* time units used in activity center on timestamps. E.g. 1 hour ago */
+"ActivityCenterHourSingle" = "h";
+
+/* time units used in activity center on timestamps. E.g. N hours ago */
+"ActivityCenterHoursMultiple" = "h";
+
+/* Text shown on a button in the Activity Center that takes the user to the Upgrade storage page on OneDrive */
+"ActivityCenterQuotaButtonGetMoreStorage" = "Získat větší úložiště";
+
+/* Text shown on a link in the Activity Center that takes the user to the Free up space page on OneDrive */
+"ActivityCenterQuotaButtonFreeUpSpace" = "Uvolnit místo";
+
+/* Primary text shown in the Activity Center when the user's quota is nearing maximum or in a critical state. The placeholders are the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso") and the percentage of space occupied, e.g Your OneDrive is 98% full */
+"ActivityCenterQuotaCriticalTitle, %@ %@" = "Váš účet %1$@ je zaplněný z %2$@ %%";
+
+/* Secondart text shown in the Activity Center when the user is approaching critical quota. The placeholders are size and units remaining. E.g. You have only 10 MB of available space */
+"ActivityCenterQuotaLeftText, %@ %@" = "Máte jen %1$@ %2$@ volného místa.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive. */
+"ActivityCenterQuotaReachedBody" = "Pořiďte si větší úložiště, abyste mohli dál synchronizovat nové soubory.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for Office 365 users. */
+"ActivityCenterQuotaReachedBody1TB" = "Místo můžete uvolnit tak, že odeberete soubory, které už nepotřebujete.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for business users. */
+"ActivityCenterQuotaReachedBodyBusiness" = "Požádejte o další informace svoje IT oddělení nebo si na OneDrivu odebráním souborů uvolněte místo.";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitleBusiness, %@" = "Na vašem účtu %1$@ už není místo";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitle, %@" = "Váš účet %1$@ je plný";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown for 1 week before switching to the normal banner text. */
+"ActivityCenterQuotaUpsellBannerIntroTitle" = "Představujeme prémiové funkce";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalTitle" = "Přejít na Premium";
+
+/* Secondary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalBody" = "Získejte 1 TB (1000 GB) úložného prostoru a zbrusu nové aplikace Office 2016.";
+
+/* Part of the secondary text shown in the Activity Center for users without an O365 subscription. This appears in the banner for both upsell states of the banner. */
+"ActivityCenterQuotaUpsellBannerLearnMore" = "Další informace";
+
+/* The Accessibility text hint for the ACM dismiss button. */
+"ActivityCenterMessageDismissHint" = "Zavřít";
+
+/* Primary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInTitle" = "Přihlaste se na OneDrive a můžete začít";
+
+/* Secondary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInBody" = "Přihlaste se na OneDrive, abyste se dostali ke svým souborům a mohli je synchronizovat na tomto zařízení.";
+
+/* Button text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInButton" = "Přihlásit se";
+
+/* Text shown in the Activity Center while we are signing the user in. */
+"ActivityCenterSigningIn" = "Přihlašování";
+
+/* Text shown in the Activity Center while we are signing the user out. */
+"ActivityCenterSigningOut" = "Odhlašování";
+
+/* Clicking this button will open (action) the OneDrive folder in File Explorer */
+"ActivityCenterFooterButtonOpenFolder" = "Otevřít složku";
+
+/* Clicking this button will open (action) a web portal where the user can upgrade their account */
+"ActivityCenterFooterButtonGoPremium" = "Přejít na Premium";
+
+/* Clicking this button opens the user's (action) OneDrive folder online. ("View" here is an action) */
+"ActivityCenterFooterButtonViewOnline" = "Zobrazit online";
+
+/* Clicking this button opens (action) a context menu which contains extra actions like pause, settings and quit */
+"ActivityCenterFooterButtonMore" = "Více";
+
+/* Accessibility text for button that will cancel a download */
+"ActivityCenterCancelButtonAccessibleName" = "Zrušit stahování";
+
+/* The name "OneDrive" */
+"OneDriveBrandName" = "OneDrive";
+
+/* Primary text shown in the alert of restart after crash */
+"RestartAfterCrashAlertTitle" = "Došlo k potížím s OneDrivem.";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is enabled */
+"RestartAfterCrashAlertBodyReportAProblemEnabled" = "Litujeme, že máte potíže s OneDrivem. Když tyto potíže nahlásíte, pomůže vám naše podpora, případně můžete zkusit OneDrive resetovat. Po resetování OneDrivu budete muset znovu nastavit aplikaci OneDrive.";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is disabled */
+"RestartAfterCrashAlertBodyReportAProblemDisabled" = "Litujeme, že máte potíže s OneDrivem. Když tyto potíže nahlásíte, pomůže vám naše podpora, případně můžete zkusit OneDrive resetovat. Po resetování OneDrivu budete muset znovu nastavit aplikaci OneDrive.";
+
+/* Text for report a problem button shown in the alert of restart after crash */
+"RestartAfterCrashAlertReportAProblemButtonText" = "Nahlásit problém";
+
+/* Text for reset onedrive button shown in the alert of restart after crash */
+"RestartAfterCrashAlertResetOneDriveButtonText" = "Resetovat OneDrive";
+
+/* Text for cancel button shown in the alert of restart after crash */
+"RestartAfterCrashAlertCancelButtonText" = "Zrušit";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared */
+"ShareWebWindowTitle, %@" = "Sdílet %@";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared - this one has quotes around the item name */
+"ShareWebWindowTitleWithQuotes:%@" = "Sdílet: %@";
+
+/* Error primary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorTitleGeneric" = "Máme tu problém.";
+
+/* Error secondary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorSecondaryTextGeneric" = "Tuto položku teď nejde sdílet. Zkuste to znovu později.";
+
+/* Error primary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorTitleOffline" = "Připojit k internetu";
+
+/* Error secondary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorSecondaryTextOffline" = "Vypadá to, že nejste připojení k internetu. Zkuste sdílení nastavit znovu, až budete online.";
+
+/* Text on error button in the Sharing Web Browser window */
+"ShareWebErrorButtonText" = "Zkusit znovu";
+
+/* Text shown on the Loading view of the Sharing Web Browser window */
+"ShareWebLoading" = "Načítání";
+
+/* Text read by the Voice Over utility (accessibility) for the Loading spinner on the Sharing Web Browser Window. The placeholder is the name of the file / folder being shared. */
+"ShareWebLoadingNarrator:%@" = "Připravuje se sdílení položky %@.";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog title */
+"FoundSameNamesUnderFolderErrorTitle" = "Soubor nejde synchronizovat";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog body. The placeholder is the full path of the file. Please keep "\n" intact. */
+"FoundSameNamesUnderFolderErrorBody:%@" = "Jiný soubor ve stejném umístění má stejný název nebo má jinou velikost písmen.\n%@\nPřejmenujte nebo přesuňte jeden ze souborů a pak otevřete aplikaci OneDrive znovu.";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog OK button */
+"FoundSameNamesUnderFolderErrorButton" = "OK";
+
+/* Primary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedPrimary" = "Nahrávání se pozastavilo.";
+
+/* Secondary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedSecondary" = "Vaše online soubory jsou přesouvány na servery blíže k vám. Vaše změny se synchronizují hned po dokončení přesunutí.";
+
+/* Primary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedPrimary" = "Obnovili jsme synchronizaci souborů.";
+
+/* Secondary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedSecondary" = "Dokončili jsme přesouvání online souborů na servery v nové lokalitě.";
+
+/* Primary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantPrimaryText" = "OneDrive nemůže provést synchronizaci";
+
+/* Secondary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantSecondaryText" = "Vaše IT oddělení neumožňuje synchronizovat soubory z tohoto umístění do vašeho počítače.";
+
+/* Text for SyncError MinorVersionLimitExceeded error dialog body */
+"SyncErrorShortDescriptionMinorVersionExceededItem" = "Dosáhli jste maximálního počtu podverzí, které je možné pro tento soubor uložit. Publikujte soubor na sharepointovém webu: Klikněte pravým tlačítkem na soubor a vyberte Další > Publikovat. Potom můžete znovu začít ukládat podverze.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast */
+"FolderRecreatedOnFailedDelete Title" = "Složku nejde odstranit.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast where %@ is a folder name */
+"FolderRecreatedOnFailedDelete Message:%@" = "Zastavit synchronizaci \"%@\" do počítače, klepnutím sem přejděte na předvolby a zrušte zaškrtnutí políčka tuto složku.";
+
+/* Accessibility text for menu item dropdown button */
+"MenuButtonAccessibleName" = "Další možnosti";
+
+/* Text for per item menu dropdown Open option */
+"MenuItemOpen" = "Otevřít";
+
+/* Text for per item menu dropdown Share option */
+"MenuItemShare" = "Sdílet";
+
+/* Text for per item menu dropdown View online option */
+"MenuItemViewOnline" = "Zobrazit online";
+
+/* Title of Setting dialog tab that provides options for Office file syncing. */
+"OfficeText" = "Office";
+
+/* Title text of groupbox on the Office settings tab that provides settings for syncing and file collaboration. */
+"OfficeFileCollabGroupBox" = "Spolupráce na souborech";
+
+/* Explanation text in the File collaboration groupbox that explains syncing files with Office. */
+"OfficeFileCollabTextField" = "Synchronizujte soubory Office pomocí Office a pracujte na nich současně s dalšími lidmi.";
+
+/* Checkbox text for syncing files with Office 2016. {Locked=!cs, sk;\"Office\"} */
+"OfficeFileCollabCheckBox" = "Soubory Office, které otevřu, synchronizovat přes aplikace Office";
+
+/* Group box title for the Sync conflicts group box - provides options for how to deal with Office file sync conflicts. */
+"OfficeConflictGroupBox" = "Konflikty synchronizace";
+
+/* Radio button for the option to merge files using Office. */
+"OfficeConflictRadioButtonMerge" = "Dát mi na výběr mezi sloučením změn nebo zachováním obou kopií";
+
+/* Radio button for option to always keep both copies of a file when the file is in an Office conflict. */
+"OfficeConflictRadioButtonFork" = "Vždycky zachovat obě kopie (přejmenovat kopii na tomto počítači)";
+
+/* Message to notify that an item cannot be deleted and it will be recreated at original location. */
+/* Title Text for SyncError DeleteCancelledByEventReceiver toast */
+"ItemCannotBeDeleted Title" = "Položku nejde odstranit";
+
+/* Body Text for SyncError DeleteCancelledByEventReceiver toast where %@ is an item name */
+"ItemCannotBeDeleted Message:%@" = "Pokud chcete položku %@ přestat synchronizovat do počítače, přejděte kliknutím sem na Předvolby a zrušte výběr této položky.";
+
+/* Message to notify that an item cannot be moved from its original location, item moved
+    will be recreated at source and the moved copy will be uploaded from destination. */
+/* Title Text for SyncError UploadFailedOnCannotMoveThickets toast */
+"ItemCannotBeMoved Title" = "Jednu z vašich položek nejde přesunout";
+
+/* Body Text for SyncError MoveCancelledByEventReceiver toast where %@ is a item name which cannot be moved. */
+/* Body Text for SyncError MoveFailedOnCannotMoveThickets toast where %@ is a thicket folder name which cannot be moved. */
+"ItemCannotBeMoved Message:%@" = "Místo toho jsme položku %@ zkopírovali do nového umístění a nahráli jsme obě kopie položky.";
+
+/* Message to notify that an item cannot be added or changed due to server response of cancelled by event receiver. */
+/* Title Text for SyncError AddOrChangeCancelledByEventReceiver toast */
+"ItemAddOrChangeCancelledByEventReceiver Title" = "Položku nejde nahrát";
+
+/* Body Text for SyncError AddOrChangeCancelledByEventReceiver toast where %@ is an item name */
+"ItemAddOrChangeCancelledByEventReceiver Message:%@" = "Pokud chcete položku %@ přestat synchronizovat do počítače, přejděte kliknutím sem na Předvolby a zrušte výběr této položky.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryClientError" = "Vaše IT oddělení vyžaduje, abyste měli Mac připojený do schválené domény. Pokud potřebujete s připojením Macu do domény pomoct, obraťte se na IT oddělení.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryDisabled" = "Vaše organizace nepovoluje synchronizaci této složky. Pokud vás zajímají další informace, obraťte se na vlastníka webu.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryCheckOut" = "Aby bylo možné položky v této složce upravovat, musí se rezervovat. Pokud chcete tuto složku synchronizovat, požádejte vlastníka webu, aby vypnul možnost Vyžadovat rezervaci.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryColumnInvalid" = "Složka obsahuje povinný sloupec s informacemi, které se nedají synchronizovat. Požádejte vlastníka webu, ať sloupce upraví tak, aby už nebyly povinné, a odeberte veškeré ověřování dat.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryIrm" = "Pro složku, kterou se snažíte synchronizovat, je nakonfigurovaná Správa přístupových práv k informacím. Požádejte správce webu, aby pro tuto složku Správu přístupových práv k informacím zakázal.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryModeration" = "Aby bylo možné položky přidat do složky, musí se nejdřív schválit. Pokud chcete synchronizovat tuto složku, požádejte vlastníka webu, aby vypnul možnost schvalování obsahu.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibrary" = "Synchronizaci této složky brání nedávno změněné nastavení. Pokud vás zajímají další informace, obraťte se na IT oddělení.";
+
+/* Resolution message text for LostPermissionsToMountPoint error */
+"LostPermissionsToMountPoint" = "K synchronizaci této knihovny nemáte oprávnění. Zobrazte si tuto knihovnu online a požádejte o přístup. Můžete také kliknutím nebo klepnutím zastavit její synchronizaci. ";
+
+/* Resolution message text for LibraryDeleted error */
+"LibraryDeleted" = "Tato knihovna se odebrala. Všechny soubory, které byly uložené na tomto zařízení, na něm zůstanou. Kliknutím nebo klepnutím zastavte synchronizaci této knihovny nebo se obraťte na vlastníka knihovny.";
+
+/* Resolution message text for ServiceBlockedLibrary error */
+"ServiceBlockedLibrary" = "K této knihovně nemůžeme kvůli problémům se službou získat přístup. Restartujte OneDrive a zkuste to znovu.";
+
+/* Resolution message text for LibraryNotFound error */
+"LibraryNotFound" = "Tuto knihovnu nemůžeme najít. Kliknutím nebo klepnutím můžete zastavit její synchronizaci, případně se můžete obrátit na správce IT.";
+
+/* Error message text for SyncIrmFileFailed error */
+"SyncIrmFileFailed" = "Tento chráněný soubor jsme nemohli synchronizovat. Požádejte prosím o přístup správce SharePointu, který tento chráněný soubor spravuje.";
+
+/* Error message text for IrmRejectedItemOnUpload error */
+"IrmRejectedItemOnUpload" = "Tento soubor nejde synchronizovat, protože nastavení Správy přístupových práv k informacím (IRM) knihovny jsou konfigurovaná tak, aby uživatelům bránila v nahrávání dokumentů, které Správu přístupových práv k informacím nepodporují.";
+
+/* Error message text for IrmExtensionChangeBlockedItem error */
+"IrmExtensionChangeBlockedItem" = "Tuto položku nemůžeme synchronizovat, protože zásada vaší organizace nepovoluje přejmenování přípon souboru. Přejděte prosím na web a přejmenujte příponu souboru znovu na původní název nebo kontaktujte správce webu.";
+
+/* Error message text for IrmEncryptFailedToFindProtectorItem error */
+"IrmEncryptFailedToFindProtectorItem" = "Tuto položku nemůžeme synchronizovat, protože zásada vaší organizace nepovoluje přejmenovávání přípon souboru. Kontaktujte prosím správce webu.";
+
+/* Error message for ItemCantFitOnDisk error. */
+"ItemCantFitOnDisk" = "Na tomto počítači není dost místa k synchronizaci tohoto souboru.";
+
+/* Text for menu item to open help center */
+"MainMenuItemHelpCenter" = "Centrum nápovědy";
+
+/* Window title used for send feedback.
+ There's probably no need to localize this string. */
+"FeedbackApplicationTitle" = "Microsoft OneDrive";
+
+/* Send feedback menu item label */
+"FeedbackMenuLabel" = "Poslat názor";
+
+/* Send feedback window title */
+"FeedbackWindowTitle" = "Poslat názor";
+
+/* Link to privacy statement page */
+"FeedbackPrivacyLinkText" = "<a href=\"#\">Ochrana vašeho soukromí je pro nás důležitá</a>";
+
+/* Link to terms of service page */
+"FeedbackTosLinkText" = "<a href=\"#\">Microsoft</a> shromažďuje vaše názory a používá je k vylepšování vašeho prostředí.";
+
+/* Header of the button to send positive feedback */
+"FeedbackSmileChoiceTitle" = "Něco se mi líbí";
+
+/* Explanation for the send positive feedback button */
+"FeedbackSmileChoiceText" = "Budeme rádi, když nám řeknete, co děláme správně.";
+
+/* Placeholder for the user input field */
+"FeedbackSmileFieldTip" = "Řekněte nám, co se vám líbí";
+
+/* Placeholder for the user input field */
+"FeedbackFrownFieldTip" = "Řekněte nám, co se vám nelíbilo.";
+
+/* Header of the send negative feedback button */
+"FeedbackFrownChoiceTitle" = "Něco se mi nelíbí";
+
+/* Explanation for the send negative feedback button */
+"FeedbackFrownChoiceText" = "Pokud podle vás něco není tak, jak by mělo, rádi bychom o tom věděli.";
+
+/* Header of the Send a Suggestion button */
+"FeedbackSuggestionChoiceTitle" = "Mám návrh";
+
+/* Explanation for the Send a Suggestion button */
+"FeedbackSuggestionChoiceText" = "Podělte se o nápady a návrhy na zlepšení.";
+
+/* Checkbox label to opt-in/opt-out of sending log files */
+"FeedbackIncludeLogsLabel" = "Zahrnout diagnostiku a data o používání";
+
+/* Label for the button to send feedback */
+"FeedbackSendButtonLabel" = "Odeslat";
+
+/* Label for the button to resent feedback in the case of sending failure */
+"FeedbackRetryButtonLabel" = "Zkusit znovu";
+
+/* Label for the button to cancel feedback submission request */
+"FeedbackCancelButtonLabel" = "Zrušit";
+
+/* Label for the button to finish send feedback */
+"FeedbackCloseButtonLabel" = "Zavřít";
+
+/* Message shown in the case of feedback submission failure */
+"FeedbackSendFailureText" = "Omlouváme se, ale při odesílání vašeho názoru došlo k chybě. Zkontrolujte si prosím připojení k internetu a zkuste to znovu. Svůj problém můžete nahlásit i tak, že <a href=\"#\">kontaktujete podporu.</a>";
+
+/* Message shown during feedback submission */
+"FeedbackSendingText" = "Odesílání...";
+
+/* Message shown at the end of feedback submission. */
+"FeedbackSendSuccessText" = "Děkujeme vám za váš názor. Vaše komentáře nám pomáhají s vylepšováním našich produktů a služeb.";
+
+/* Window title shown at the end of feedback submission. */
+"FeedbackSendSuccessTitle" = "Děkujeme";
+
+/* Label for the button to go back to feedback type selection page. */
+"FeedbackBackButtonLabel" = "Zpět";
+
+/* Title of local mass delete prompt for personal instance. */
+"LocalMassDeletePromptTitlePersonal" = "Chcete soubory odebrat z OneDrivu?";
+
+/* Title of local mass delete prompt for business instance. */
+"LocalMassDeletePromptTitleBusiness" = "Chcete soubory odebrat ze všech umístění?";
+
+/* Body of local mass delete prompt for personal instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyPersonal:%@" = "Nedávno jste z tohoto zařízení odstranili tento počet souborů: %@. Chcete je odebrat i z OneDrivu?";
+
+/* Body of local mass delete prompt for business instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyBusiness:%@" = "Nedávno jste z tohoto zařízení odstranili tento počet souborů: %@. Chcete je odebrat i z OneDrivu a všech sdílených knihoven?";
+
+/* Text of Restore button of local mass delete prompt. */
+"LocalMassDeletePromptRestoreButton" = "Obnovit soubory";
+
+/* Text of Delete button of local mass delete prompt. */
+"LocalMassDeletePromptDeleteButton" = "Odebrat";
+
+/* Text of Opt out checkbox of local mass delete prompt. */
+"LocalMassDeletePromptOptoutCheckbox" = "Vždy odebrat soubory";
+
+/* Activity center local mass delete per item history description. */
+"ActivityCenterItemPendingRemoval" = "Čeká se na odebrání z OneDrivu.";
+
+/* Checkbox text to toggle the local mass delete feature in settings dialog. */
+"LocalMassDeleteSettingsCheckbox" = "Upozornit mě před odebráním souborů z cloudu";
+
+/* Title text of local mass delete confirmed ACM. */
+"LocalMassDeleteConfirmedTitle" = "Potřebujete soubory obnovit?";
+
+/* Body text of local mass delete confirmed ACM for personal instance. */
+"LocalMassDeleteConfirmedBodyPersonal" = "Když se soubory odstraní z OneDrivu, odstraní se také ze všech vašich zařízení. V případě potřeby je můžete do 30 dní obnovit z koše OneDrivu.";
+
+/* Body text of local mass delete confirmed ACM for business instance. */
+"LocalMassDeleteConfirmedBodyBusiness" = "Pokud soubory odstraníte z OneDrivu, odstraní se zároveň ze všech zařízení i umístění. Do 93 dnů je budete moct obnovit z koše OneDrivu nebo sdílené knihovny. Po kliknutí v následující části můžete přejít do koše, který obsahuje poslední odstraněný soubor.";
+
+/* Text of recycle bin button of LocalMassDelete confirmed ACM. */
+"LocalMassDeleteRecycleBin" = "Koš";
+
+/* Header text informing user that an application is downloading their files. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeader:%@" = "%@ stahuje soubory z OneDrivu";
+
+/* Header text informing user that an application is downloading their files. This version is used if many files are downloading. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeaderAboveThreshold:%@" = "%@ stahuje z OneDrivu větší počet souborů";
+
+/* Body text informing user that an application is downloading their files. Clicking on this toast will open a confirmation dialog. */
+"CloudFilesHydrationToastBody" = "Pokud chcete zrušit toto a všechna budoucí stahování, klikněte sem.";
+
+/* Header text informing user that an application is downloading their files. %1$@ is an application name. %2$u is a number. */
+"CloudFilesHydrationDialogHeader:%@,%u" = "%1$@ stahuje tento počet souborů: %2$u";
+
+/* Body text informing user that an application is downloading their files. %@ is an application name. */
+"CloudFilesHydrationDialogBody:%@" = "Aplikaci můžete nechat pokračovat ve stahování nebo můžete stahování zastavit. Pokud chcete zastavit všechna budoucí stahování z aplikace %@, vyberte Blokovat aplikaci.";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will continue downloading files. */
+"CloudFilesHydrationDialogContinueButton" = "Pokračovat ve stahování";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files. */
+"CloudFilesHydrationDialogStopButton" = "Zastavit stahování";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files and block this application from future downloads. */
+"CloudFilesHydrationDialogBlockButton" = "Blokovat aplikaci";
+
+// Download And Go
+
+/* Download And Go application friendly name*/
+"DownloadAndGoFriendlyName" = "Spouštěč souborů na OneDrivu";
+
+/* Download And Go window title when no errors are displayed. %@ is a number. */
+"DownloadAndGoTitle:%@" = "Tento počet položek se stahuje na OneDrive: %@.";
+
+/* Download And Go downloading message. %@ is a file name. */
+"DownloadAndGoDownloadingMessage:%@" = "Stahuje se soubor %@.";
+
+/* Download And Go progress message for progressing hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoProgressingHydrationProgress: %@ %@" = "%1$@ z %2$@";
+
+/* Download And Go progress message for queued hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoQueuedHydrationProgress: %@ %@" = "%1$@ z %2$@ – čeká na stažení";
+
+/* Download And Go window title when errors are displayed*/
+"DownloadAndGoErrorsTitle" = "Nepovedlo se stáhnout na OneDrive";
+
+/* Download And Go error message. %@ is file name. %d is a number. */
+"DownloadAndGoErrorMessage: %@ %d" = "OneDrivu se nepovedlo stáhnout soubor %1$@ (kód chyby: %2$d).";
+
+/* Download And Go cancel error button */
+"DownloadAndGoCancelErrorButton" = "Zrušit";
+
+/* Download And Go try hydration again button */
+"DownloadAndGoTryAgainButton" = "Zkusit znovu";
+
+// Finder Sync Extension Activity Center Messages
+
+/* The title of the large ACM used to inform the user about Files On-Demand if the Finder Sync Extension is enabled. */
+"FinderSyncEnabledTitle" = "Online soubory vám šetří volné místo";
+
+/* The body of a large ACM that informs the user about Files On-Demand if the Finder Sync Extension is enabled. "Finder" should be translated the same way as in the Mac OSX. "Always keep on this device" should be translated the same as the MenuItemPinCommand string. */
+"FinderSyncEnabledBody" = "Teď máte přístup k celému svému OneDrivu a nemusíte si zaplňovat místo na disku. Pokud potřebujete jakýkoli soubor offline, klikněte na něj pravým tlačítkem myši ve Finderu a zvolte Vždy zachovat na tomto zařízení.";
+
+/* The first button's text in a large ACM that that informs the user about Files On-Demand. When clicked, the message is dismissed. */
+"FinderSyncOkay" = "OK";
+
+/* The text of a button that opens a URL with more information about Files On-Demand. Used in all Finder Sync ACMs. */
+"FinderSyncLearnMore" = "Další informace";
+
+/* The title of the large ACM used to prompt them to enable the Finder Sync Extension. */
+"FinderSyncPromptTitle" = "Využijte soubory na vyžádání na maximum";
+
+/* The body of a large ACM that prompts the user to enable the Finder Sync Extension if it is disabled. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptBody" = "Soubory na vyžádání vám uvolní místo v počítači, protože si můžete soubory na OneDrivu označit, že budou k dispozici jen online. Pokud to chcete udělat, musíte zapnout rozšíření Finderu pro OneDrive.";
+
+/* The first button's text in a large ACM that prompts the user to enable the Finder Sync Extension. When clicked, the user's Extensions settings are opened. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptEnableExtension" = "Zapnout rozšíření Finderu";
+
+/* The title text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpTitle" = "Soubory na vyžádání jsou nastavené";
+
+/* The body text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpBody" = "Soubory jsou k dispozici na vyžádání. Díky tomu se šetří volné místo.";
+
+/* The title of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */
+"FinderSyncEnabledWithSelectiveSyncTitle" = "Zobrazit všechny vaše soubory";
+
+/* The body of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */ 
+"FinderSyncEnabledWithSelectiveSyncBody" = "Do tohoto zařízení si synchronizujete jenom některé ze svých souborů. Funkce Soubory na vyžádání vám teď umožňuje zobrazit si na tomto zařízení všechny soubory bez použití místa na disku.";
+
+/* The button of an ACM that prompts the user to disable Selective Sync if the Finder Sync Extension is enabled and Files On-Demand is enabled. */
+"FinderSyncEnabledTurnOffSelectiveSyncButton" = "Zobrazit všechny soubory";
+
+// Strings for the kext installer helper
+
+/* Window title for the kext installer helper*/
+"KextWizardWindowTitle" = "Microsoft OneDrive";
+
+/* Body header for the kext installer helper */
+"KextWizardBodyHeader" = "Aktualizace nastavení pro soubory na vyžádání";
+
+/* Body text for the kext installer helper*/
+"KextWizardBodyText" = "Pokud chcete použít funkci Soubory na vyžádání, budete muset povolit systémové rozšíření z OneDrivu. Klikněte na Otevřít předvolby zabezpečení a potom klikněte na Povolit.";
+
+/* Action button for the kext installer helper */
+"KextWizardOpenSecurityButton" = "Otevřít předvolby zabezpečení";
+
+// Throttling
+
+/* Individual file gets throttled */
+"FileTransferThrottled" = "Z důvodu nadměrné aktivity služby může docházet k dočasnému zpoždění synchronizace. Pokusíme se soubor znovu brzy aktualizovat.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that a number of items couldn't be synced. */
+"FileTransferThrottledPrimary" = "Zpoždění synchronizace";
+
+/* Description text shown on the sub-header of the Activity Center when there are files being throttled. */
+"FileTransferThrottledSecondary" = "Může docházet k dočasným zpožděním synchronizace způsobeným vysokou aktivitou ve službě.";
+
+/* Describes the generic resolution, in the Errors Window, of a file that cannot sync because it is in use by another process. */
+"FilePostponedByClient" = "Tento soubor je otevřený v jiné aplikaci a nedá se synchronizovat. Budeme ho moct synchronizovat, jakmile se zavře.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that one file is in use by another application. */
+"FilePostponedByClientSingular" = "Soubor používá jiná aplikace";
+
+/* Title text shown in the sub-header of the Activity Center indicating that multiple files are in use by other applications. %@ is a number. */
+"FilePostponedByClientPlural:%@" = "Některé soubory (celkem %@) používají jiné aplikace";
+
+// Reset UI strings
+
+/* Window title used for the Reset popup window */
+"ResetApplicationTitle" = "Microsoft OneDrive";
+
+/* Header text for the Reset popup window */
+"ResetHeaderText" = "Resetujte OneDrive";
+
+/* Description text for what happens during a reset */
+"ResetDescriptionText" = "Pokud máte problémy se synchronizací OneDrivu, může je vyřešit resetování. Akce Resetovat dočasně zastaví synchronizační službu a znovu spustí synchronizaci hierarchie souborů a obsahu mezi cloudem a místním počítačem. <a href=\"#\">Další informace</a>";
+
+/* Checkbox text to ask if the user wants to preserve their selective sync and teamsites settings */
+"ResetSettingsCheckboxText" = "Zachovat moje možnosti konfigurace a nastavení souborů (doporučeno)";
+
+/* Button text to abort the reset process */
+"ResetCancelButtonLabel" = "Zrušit";
+
+/* Button text to begin the reset process */
+"ResetConfirmButtonLabel" = "Resetovat";
+
+/* Title text for reset in progress ACM */
+"ResetInProgressTitle" = "Provádíme obnovení";
+
+/* Body text for reset in progress ACM */
+"ResetInProgressBody" = "Se soubory můžete dál pracovat i v průběhu obnovování. Uloží se vám na místní pevný disk a po obnovení se nahrají na OneDrive.";
+
+/* Title text for reset successful ACM */
+"ResetSuccessTitle" = "Obnovení bylo dokončeno";
+
+/* Body text for reset successful ACM */
+"ResetSuccessBody" = "OneDrive teď máte jako nový.";
+
+/* Title text for reset successful with errors ACM */
+"ResetSuccessWithErrorsTitle" = "Obnovení bylo dokončeno, ale...";
+
+/* Body text for reset successful with errors ACM */
+"ResetSuccessWithErrorsBody" = "Na OneDrivu jsou stále chyby, které nebylo možné obnovením vyřešit. Klepnutím nebo kliknutím se na ně můžete podívat.";
+
+/* Title text for reset failed ACM */
+"ResetFailureTitle" = "Nepovedlo se resetovat";
+
+/* Body text for reset failed ACM */
+"ResetFailureBody" = "Došlo k nějaké chybě. <a href=\"#\">Další informace</a>";
+
+/* Title text for reset successful history list item */
+"ActivityListHistoryResetSuccessPrimary" = "Obnovení bylo dokončeno";
+
+/* Body text for reset successful history list item */
+"ActivityListHistoryResetSuccessSecondary" = "OneDrive teď máte jako nový.";
+
+/* Title text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsPrimary" = "Obnovení bylo dokončeno";
+
+/* Body text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsSecondary" = "Stále jsou tam nějaké chyby.";
+
+/* Title text for reset failed history list item */
+"ActivityListHistoryResetFailurePrimary" = "Nepovedlo se resetovat";
+
+/* Body text for reset failed history list item */
+"ActivityListHistoryResetFailureSecondary" = "Něco se nepovedlo.";
+
+/* Title text for reset completed toast */
+"ToastResetCompletedTitle" = "Obnovení OneDrivu se dokončilo";
+
+/* Body text for reset completed toast */
+"ToastResetCompletedBody" = "Klepnutím nebo kliknutím sem si můžete zobrazit stav souboru.";
+
+/* Title text for reset failed toast */
+"ToastResetFailedTitle" = "OneDrive se nepovedlo obnovit";
+
+/* Body text for reset failed toast */
+"ToastResetFailedBody" = "Klepnutím nebo kliknutím sem si můžete zobrazit další kroky.";
+
+// End Reset UI strings
+
+/* Resolution message for client access denied. */
+"ClientAccessDeniedErrorsShortDescription" = "Vypadá to, že k položce nemáte oprávnění k přístupu. Zkontrolujte, jestli máte správná oprávnění, která položku umožní synchronizovat.";
+
+// Purchase Window Strings
+
+/* Title text show in Purchase Window */
+"PurchaseWindowTitle" = "Microsoft OneDrive";
+
+/* Header text shown in Purchase Window */
+"PurchaseWindowHeader" = "Získejte prémiové možnosti!";
+
+/* Header text shown in Purchase Window after buying the subscription */
+"PurchaseSuccessWindowHeader" = "Blahopřejeme!";
+
+/* Header text shown in Purchase Window while buying the subscription */
+"PurchaseWindowLoadingTitle" = "Načítání";
+
+/* Body text shown in the Purchase Window*/
+"PurchaseWindowBody" = "Vyzkoušejte prémiové funkce OneDrivu s předplatným Office 365 na jeden měsíc zdarma. Vyberte plán, který vám vyhovuje, a začněte využívat bezplatné zkušební období.";
+
+/* Body text shown in the Purchase Window after buying the subscription */
+"PurchaseSuccessWindowBody" = "Teď máte přístup k exkluzivním funkcím. Poplatky se začnou z vaší karty automaticky strhávat po skončení 1měsíčního zkušebního období.";
+
+/*Link button to skip the window */
+"PurchaseWindowSkipNowLink" = "Teď přeskočit";
+
+/* Sub text in product subscription card describing our premium features*/
+"PurchaseCardMainBody" = "Prémiové funkce OneDrivu";
+
+/* Decribes our product subscription right below a row of images showing the office apps*/
+"PurchaseCardSubBody" = "Nejnovější aplikace Office pro počítače PC a Mac";
+
+/* Purchase card button text which will start a purchase flow */
+"PurchaseCardButtonText" = "Přejděte na Premium – 1. měsíc je zadarmo";
+
+/* Purchase card link text which will launch a learn more campaign */
+"PurchaseCardLinkText" = "Další informace";
+
+/* Personal subscription card list text. Only for 1 person  */
+"PurchasePersonalList1" = "Pro jednotlivce";
+
+/* Home subscription card list text. Bundle avaiable for 6 people*/
+"PurchaseHomeList1" = "Pro šest osob";
+
+/* Personal subscription card list text. 1 Terabyte of storage in OneDrive */
+"PurchasePersonalList2" = "1 TB úložného prostoru";
+
+/* Home subscription card list text. 6 Terabyte of storage in OneDrive */
+"PurchaseHomeList2" = "6 TB úložného prostoru";
+
+/* Common subscription card list text for all bundles. Access advanced security features */
+"PurchaseCommonList3" = "Rozšířené zabezpečení";
+
+/* Common subscription card list text for all bundles. Access more producitivty tool*/
+"PurchaseCommonList4" = "Nástroje pro zvýšení produktivity";
+
+/* Price of a yearly subscription. %@ is money symbol followed by a decimal number. Example: $59.99*/
+"PurchasePriceYearConstant:%@" = "%@/rok";
+
+/* Close the window */
+"PurchaseCloseButtonText" = "Zavřít";
+
+/* Accessible name for a list of Microsoft Office Products*/
+"PurchaseIconAccessibleName" = "Produkty Microsoft Office";
+
+/* Accessible name for a list of details concerning a Office Subscription.*/
+"PurchaseListBodyAccessibleName" = "Seznam funkcí";
+
+/* Error title of purchase window*/
+"PurchaseWindowErrorTitle" = "Něco se nepovedlo";
+
+/* Error body of purchase window. Receipt is already in use*/
+"PurchaseErrorReceiptInUse" = "Váš nákup Office 365 se uplatnil pro jiný účet Microsoft.";
+
+/* Error body of purchase window. Transient Error that automatically might resolve*/
+"PurchaseErrorTransientIssue" = "Úspěšně jste koupili Office 365, ale předplatné se nepovedlo nastavit pro váš účet Microsoft. Zkuste to prosím znovu později. Nebude se vám účtovat žádný další poplatek. Pokud se problém nevyřeší ani po 24 hodinách, kontaktujte prosím podporu.";
+
+/* Error body of purchase window. Error that we are unable to resolve.*/
+"PurchaseErrorUnableToResolve" = "Úspěšně jste koupili Office 365, ale předplatné se nepovedlo nastavit pro váš účet Microsoft. Kontaktujte prosím podporu.";
+
+/* Terms of Use title for purchasing a subscription */
+"PurchaseSubscriptionTermsTitle" = "Podrobnosti předplatného";
+
+/* Terms of Use body for purchasing a subscription */
+"PurchaseSubscriptionTermsBody" = "Zakoupené předplatné Office 365 se vám naúčtuje prostřednictvím vašeho účtu iTunes a do 24 hodin před skončením aktuálního období předplatného se  vám automaticky prodlouží jeho platnost (pokud předtím nebyla možnost automatického prodloužení platnosti vypnuta). Pokud chcete svá předplatná spravovat nebo pokud chcete zakázat možnost automatického prodlužování platnosti, přejděte do nastavení svého účtu iTunes. Předplatné se v době trvání aktivního předplatného nedá zrušit. Platnost jakékoli nevyužité části zkušebního bezplatného období (pokud bylo nabízeno) propadne, pokud si uživatel koupí nabízené předplatné (v odpovídajících případech).";
+
+/* Text that will link to a web page describing the Microsoft terms of use */
+"PurchaseSubscriptionTermsOfUseLink" = "Podmínky použití";
+
+/* Text that will link to a web page describing the terms of privacy */
+"PurchaseSubscriptionPrivacyLink" = "Ochrana osobních údajů";
+
+// End Purchase window strings
+
+// Get Help window strings
+
+/* Get Help window title */
+"GetHelpWindowTitle" = "Kontaktovat oddělení podpory";
+
+/* Placeholder for the Get Help user input field */
+"GetHelpFieldTip" = "Tady popište svůj problém.";
+
+/* Window title shown at the end of get help submission succeeded. */
+"GetHelpSendSuccessTitle" = "Žádost o podporu byla odeslána";
+
+/* Message shown at the end of get help submission - %1$@ is user email. */
+"GetHelpSendSuccessText:%@" = "Pracovník podpory pro OneDrive se vám ozve na adresu %1$@.";
+
+/* Window title shown at the end of get help submission failure. */
+"GetHelpSendFailureTitle" = "Odeslání žádosti o podporu selhalo";
+
+/* Message shown in the case of feedback submission failure */
+"GetHelpSendFailureText" = "Je nám líto, ale došlo k chybě odesílání žádost o podporu. Zkontrolujte připojení k Internetu a opakujte akci později.";
+
+// End Get Help window strings

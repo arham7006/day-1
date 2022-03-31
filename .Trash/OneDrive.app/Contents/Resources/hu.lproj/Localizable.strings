@@ -1,0 +1,2575 @@
+// Misc
+
+// File Size Units
+
+/* The lowest unit for file sizes */
+"byteText" = "bájt";
+
+/* Unit for file sizes. */
+"KiloByteAbbrv" = "KB";
+
+/* Unit for file sizes. */
+"MegaByteAbbrv" = "MB";
+
+/* Unit for file sizes. */
+"GigaByteAbbrv" = "GB";
+
+/* Unit for file sizes. */
+"TeraByteAbbrv" = "TB";
+
+/* Unit for file transfer speed. */
+"KiloBytePerSecond" = "KB/s";
+
+/* Unit for file transfer speed. */
+"MegaBytePerSecond" = "MB/s";
+
+
+// First run - used by FirstRunWindowController.mm and its views
+
+/* Windows title used to welcome a user running the application.
+ There's probably no need to localize this string. */
+"FirstRunWindowTitle" = "Microsoft OneDrive";
+
+/* Title of the welcome page when running for the first time */
+"FirstRunText" = "A OneDrive beállítása";
+
+/* Short explaination about what OneDrive does when running for the first time */
+"FirstRunDescriptiveText" = "Helyezze el fájljait a OneDrive-on, és bármilyen eszközről elérheti őket.";
+
+/* Button to sign into a personal instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomePersonalButton" = "Személyes";
+
+/* Button to sign into a business instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomeBusinessButton" = "Munkahelyi vagy iskolai";
+
+/* Button to start email hrd sign in flow on the first run experience in welcome page */
+"FirstRunEmailSignInButton" = "Bejelentkezés";
+
+/* Placeholder text for the email input box on the first run experience in welcome page */
+"FirstRunEmailInputPlaceholderText" = "Adja meg az e-mail-címét";
+
+/* Errors shown when there is a problem with the users email address on the first run experience in welcome page */
+"FirstRunWelcomeErrorPersonalAlreadySyncing" = "Már szinkronizál egy személyes OneDrive-fiókot ezen a számítógépen. Ha új fiókot szeretne felvenni, válassza le azt a fiókot.";
+"FirstRunWelcomeErrorEmailIsMSAAndAAD" = "Ez az e-mail-cím van megadva a OneDrive-hoz és a OneDrive Vállalati verzióhoz is. Melyikbe szeretne előbb bejelentkezni?";
+"FirstRunWelcomeErrorEmailIsNotKnown" = "A rendszer nem ismeri fel a megadott e-mail-címet.";
+"FirstRunWelcomeErrorEmailAdminDisabled" = "Szervezete nem engedélyezi, hogy ezen a gépen szinkronizálja személyes OneDrive-fiókját.";
+
+/* first run wizard progress text for screen readers */
+"FirstRunProgress0" = "A OneDrive telepítése: nulla százalék kész";
+"FirstRunProgress50" = "A OneDrive telepítése: ötven százalék kész";
+"FirstRunProgress75" = "A OneDrive telepítése: hetvenöt százalék kész";
+"FirstRunProgress100" = "A OneDrive telepítése: száz százalék kész";
+
+/* Title of the page that introduces OneDrive folder when running for the first time */
+"FirstRunIntroduceText" = "Ez az Ön OneDrive mappája";
+
+/* Title of the page that prompts for required folder when mounting for the first time */
+"FirstRunIntroduceRequiredPathText" = "A mappa helyének megerősítése";
+
+/* Title of the page that introduces OneDrive folder when running for the first time. "Finder" should be translated the same way as in the Mac OSX */
+"FirstRunIntroduceDescriptiveText" = "Ha ide felveszi a fájljait, más eszközökről is elérheti őket, de a fájlok a Mac gépén is megmaradnak.";
+
+/* Title of the adminstrative error that will be attached to the FirstRunIntroduceDescriptiveText */
+"FirstRunIntroduceDescriptiveTextWithError" = "Ha ide felveszi a fájljait, más eszközökről is elérheti őket, de a fájlok a Mac gépén is megmaradnak. A rendszergazda előírta, hogy a OneDrive mappa csak itt lehet.";
+
+/* Title of the page that prompts for access to required folder. */
+"SelectRequiredPathDescriptiveText:%@" = "A fájlok szinkronizálásához adjon hozzáférési engedélyt ehhez a mappához: %@";
+
+/* This is for the button that allows users to change the root folder path. When clicked, it opens a browse window for users to select the root folder. */
+"FirstRunBrowseButtonText" = "Hely módosítása";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"FirstRunDoneIntroductionButtonText" = "Tovább";
+
+/* This is for the button when user has never selected a root folder. */
+"FirstRunSelectFolderButtonText" = "A OneDrive mappa helyének kiválasztása";
+
+/* This is for the button when user has not yet confirmed our required folder. */
+"FirstRunSelectRequiredFolderButtonText" = "A mappa helyének megerősítése";
+
+/* This is a prompt displayed in the file browse dialog. */
+"SelectRootFolderMessage" = "A OneDrive-mappa helyének kiválasztása";
+
+/* This is a prompt displayed in the file browse dialog to confirm required location. */
+"SelectRequiredFolderMessage" = "Használja a kijelölt mappát, és kattintson a „Hely megerősítése” elemre.";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"CreateRootFolderButton" = "A hely kiválasztása";
+
+/* This is for the confirmation button when user is done confirming the required folder. */
+"CreateRequiredFolderButton" = "Hely megerősítése";
+
+/* This is for the text field to show currently selected root folder path. */
+"FirstRunShowFolderPathText:%@" = "Az Ön %@-mappája:";
+
+/* This is the alert dialog title when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootTitle:%@" = "Nem sikerült azonosítani a %@ mappa helyét";
+
+/* This is the alert dialog body when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootMessage" = "Előfordulhat, hogy a OneDrive mappa törölve lett, illetve ha a OneDrive mappa külső meghajtón található, a meghajtó esetleg el lett távolítva. Az OK gombra kattintás után újrakonfigurálhatja a OneDrive mappát.";
+
+/* This is the alert dialog button that allows user to reconfigure */
+"FirstRunUnconfiguredRootReconfigureButton" = "OK";
+
+/* This is the alert dialog button that allows user to quit the application */
+"FirstRunUnconfiguredRootQuitButton" = "Kilépés a OneDrive-ból";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is invalid */
+"InvalidMappingLocationMessageTitle" = "A OneDrive-mappa nem hozható létre a megadott helyen";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid. */
+"InvalidMappingLocationDetailedMessage" = "Próbálkozzon egy másik hellyel. Győződjön meg arról, hogy a hely nem egy cserélhető meghajtón, illetve nem egy kis- és nagybetűket megkülönböztető formátumú lemezen található.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location can't be used */
+"InvalidMappingLocationInUseTitle" = "Ezen a helyen nem hozható létre a OneDrive-mappa";
+
+/* This is a detailed explanation in the alert window telling users the selected folder is already used by another OneDrive account. */
+"InvalidMappingLocationInUseDetailedMessage" = "Ezen a helyen már létezik egy másik OneDrive-mappa. Kérjük, válasszon egy másik helyet.";
+
+/* This is a short text above detailed explaination in the alert window telling users to select the required path */
+"InvalidMappingRequiredPathMessageTitle" = "A szinkronizálás folytatásához erősítse meg a kijelölt mappa helyét";
+
+/* This is a detailed explaination in the alert window telling users the selected location is not the required path. */
+"InvalidMappingRequiredPathDetailedMessage" = "Kérjük, hagyja meg a kijelölt helyet, és kattintson a Finderben a „Hely megerősítése” elemre.";
+
+/* This is the button in the alert window that shows up when current location is not the required path. The button allows users to choose a new location */
+"InvalidMappingRequiredPathContinueButton" = "Folytatás";
+
+/* This is the button in the alert window that shows up when current location is invalid. The button allows users to choose a new location */
+"InvalidMappingLocationChooseButton" = "Új hely választása";
+
+/* This is the button in the alert window that shows up when current location is invalid. This button allows users to close the alert */
+"InvalidMappingLocationCancelButton" = "Mégse";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty */
+"MappingLocationContainsFileMessageTitle" = "Ebben a mappában már van tartalom";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessage:%@" = "Ha itt helyezi el a %@-mappáját, az e mappában lévő tartalmat egyesítjük OneDrive-tárhelye tartalmával. Választhat másik helyet, vagy megtarthatja a kiválasztottat.";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessageWithDefaultFolder:%@" = "Ha itt helyezi el a(z) %@ mappát, az e mappában lévő tartalmat egyesítjük OneDrive-tárhelye tartalmával.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty {%1$@ is a folder name and %2$@ is its parent folder name } */
+"LibraryFolderMappingLocationContainsFileMessageTitle:%@,%@" = "Már van egy %1$@ nevű mappa a(z) %2$@ mappában";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is not empty. { %1$@ is a folder name } */
+"LibraryFolderMappingLocationContainsFileDetailedMessage:%@" = "Ha itt helyezi el a(z) %1$@ mappát, az abban lévő fájlokat egyesítjük a felhőbeli fájlokkal. Használhatja a kijelölt mappát, vagy új mappába is végezheti a szinkronizálást.";
+
+/* This is the button in the alert window that shows up when the folder location is not empty. This button allows users to continue anyway */
+"MappingLocationContainsFileContinueButton" = "A kijelölt hely használata";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button allows users to choose a new location */
+"MappingLocationContainsFileChooseButton" = "Új hely választása";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button informs us to automatically create a new folder on behalf of the user. */
+"MappingLocationContainsFileCreateButton" = "Szinkronizálás új mappába";
+
+/* This is on top of the selective sync page in First Run Experience. */
+"FirstRunSelectiveSyncTitle" = "Csak a kívánt elemek szinkronizálása";
+
+/* This is the description right below the title on top of the selective sync page. */
+"FirstRunSelectiveSyncDescription:%@" = "Válassza ki, hogy mit szeretne letölteni a OneDrive%@ mappába. Ezekhez az elemekhez offline módban is hozzáférhet.";
+
+/* This is the text on radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsTitle" = "Minden fájl és mappa a saját OneDrive-omon";
+
+/* This is the description text next to the radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsDescription" = "Az Önnel megosztott fájlokon kívül minden elem szinkronizálódni fog ezen a Mac gépen.";
+
+/* This is the text on radio button to choose to sync only some files */
+"FirstRunSelectiveSyncSomeItemsTitle" = "Szinkronizálandó mappák kiválasztása";
+
+/* This is the description text next to the radio button to choose to sync only some files. */
+"FirstRunSelectiveSyncSomeItemsDescription" = "Kattintson a Kész gombra a számítógépre szinkronizálandó elemek kiválasztásához.";
+
+/* This is the button text in the selective sync page */
+"FirstRunSelectiveSyncNextButtonText" = "Tovább";
+
+/* This is the title text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncTitle" = "Az Igény szerinti fájlok funkció bekapcsolása";
+
+/* This is the description text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncDescription" = "Ha azt szeretné, hogy megjelenjenek az Igény szerinti fájlok funkcióhoz tartozó lehetőségek a helyi menüben, engedélyeznie kell a OneDrive Finder szinkronizáló bővítményt. Kattintson a Bővítménybeállítások megnyitása gombra, és válassza ki a OneDrive Finder bővítményt.";
+
+/* This is the button text in the Enable Finder Sync page for the Enable button */
+"FirstRunEnableFinderSyncEnableButtonText" = "Bővítménybeállítások megnyitása";
+
+/* This is the button text in the Enable Finder Sync page for the Skip button */
+"FirstRunEnableFinderSyncSkipButtonText" = "Később engedélyezem majd a bővítményeket";
+
+/* This is on top of the Cloud Files Tutorial page in First Run Experience. */
+"FirstRunCloudFilesTutorialTitle" = "Minden fájlja azonnal és igény szerint elérhető";
+
+/* This is the description right below the title on top of the Cloud Files Tutorial page. */
+"FirstRunCloudFilesTutorialDescription" = "Az Igény szerinti fájlok funkcióval anélkül böngészheti OneDrive-tárhelye tartalmát, hogy közben helyet használna fel a Mac gépén. Csak akkor töltjük majd le a fájlokat, amikor szüksége van rájuk.";
+
+/* This is the header text in the Cloud Files Tutorial page for online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFiles" = "Csak online használatra szánt fájlok";
+
+/* This is the text in the Cloud Files Tutorial page describing online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFilesDescription" = "A csak online használatra szánt fájlok a megnyitásukkor töltődnek le az eszközére.";
+
+/* This is the header text in the Cloud Files Tutorial page for locally available files. */
+"FirstRunCloudFilesTutorialHydratedFiles" = "Helyileg elérhető fájlok";
+
+/* This is the text in the Cloud Files Tutorial page describing locally available files. */
+"FirstRunCloudFilesTutorialHydratedFilesDescription" = "A megnyitott fájlok letöltődnek az eszközére, és offline módban használhatók.";
+
+/* This is the header text in the Cloud Files Tutorial page for always available files. */
+"FirstRunCloudFilesTutorialPinnedFiles" = "Mindig elérhető fájlok";
+
+/* This is the text in the Cloud Files Tutorial page describing always available files. */
+"FirstRunCloudFilesTutorialPinnedFilesDescription" = "Megjelölheti azokat a fájlokat és mappákat, amelyeket szeretne mindig (még offline módban is) elérhetőként tartani.";
+
+/* This is the button text in the Cloud Files Tutorial page */
+"FirstRunCloudFilesTutorialNextButtonText" = "Tovább";
+
+/* This is on top of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunTitle" = "OneDrive-tárhelye készen áll";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunDescription:%@" = "Letöltjük a fájlokat, és szinkronizáljuk őket ezen a Mac gépen. Ha fájlokat szeretne adni a OneDrive-hoz, csak helyezze át őket a Finderben a %@ mappába.";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience when Cloud Files on. */
+"FirstRunFinishFirstRunCloudFilesDescription:%@" = "Elkészült a OneDrive-tárhelye, használatba is veheti. Ha fájlokat szeretne feltölteni a OneDrive-ra, helyezze át őket a Finder %@ mappájába.";
+
+/* This is the text of the Open-at-login checkbox in the Finish First Run page (Done page) in First Run Experience */
+"FirstRunFinishFirstRunOpenAtLoginCheckboxText" = "Megnyitás bejelentkezéskor a fájlok automatikus szinkronizálásához";
+
+/* This is the button text in the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunButtonText:%@" = "Saját %@ mappa megnyitása";
+
+// Settings folder access error
+
+/* This is the title text for dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorTitle" = "Nem lehet elérni a beállítások mappáját";
+
+/* This is the descrption text for dialog we pop up when we cannot access settings folder {StrContains=\"Application Support\"} */
+"SettingsFolderErrorDescription" = "Ellenőrizze, hogy hozzáfér-e az Application Support mappához.";
+
+/* This is the button to quit for the dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorQuitButtonText" = "Kilépés a OneDrive-ból";
+
+// Cloud device - used by SyncDevice.mm
+
+/* The name of the online storage */
+"CloudDevice" = "Szinkronizált OneDrive-tárhely";
+
+
+// Folder status - used by ModelExtensions.mm
+
+/* Text shown on status menu when everything is in sync */
+"FolderStatusInSync" = "A OneDrive naprakész"; // Up to date
+
+/* Local folder convergence status against a remote folder is not known */
+"FolderStatusUnknown" = "Ismeretlen";
+
+/* Uploading and downloading files. "Files" will always be plural. */
+"FolderStatusSendAndReceive:%@" = "%@-fájlok átvitele...";
+
+/* Uploading one file from a remote folder. We show the file name. */
+"FolderStatusSendingSingular:%@" = "%@ feltöltése...";
+
+/* Uploading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusSendingPlural:%@" = "%@-fájlok feltöltése...";
+
+/* Downloading one file from a remote folder. We show the file name. */
+"FolderStatusReceivingSingular:%@" = "%@ letöltése...";
+
+/* Downloading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusReceivingPlural:%@" = "%@-fájlok letöltése...";
+
+/* Processing downloaded files to be created in a local folder */
+"FolderStatusRealizing" = "Letöltött fájlok feldolgozása...";
+
+/* Processing local file changes to be uploaded */
+"FolderStatusHashing" = "Módosítások feldolgozása...";
+
+/* Scanning file changes in a folder */
+"FolderStatusScanning" = "Fájlok vizsgálata...";
+
+/* Scanning file changes in a folde */
+"FolderStatusScanningExtended:%@" = "%@ vizsgálata...";
+
+/* Processing changes to files */
+"FolderStatusMetadataXfer" = "Fájlok feldolgozása...";
+
+/* Waiting to resume file transfers (upload/download) */
+"FolderStatusBlocked" = "Várakozás a szinkronizálásra";
+
+/* Status for a folder that is not syncing*/
+"FolderStatusUnmapped" = "A OneDrive nincs beállítva";
+
+/* Waiting to resume donwloading of a single file. We show the file name. */
+"FolderStatusBlockedSingular:%@" = "Várakozás a(z) %@ fogadására...";
+
+/* Waiting to resume donwloading files */
+"FolderStatusBlockedPlural:%@" = "Várakozás a(z) %@-fájlok fogadására";
+
+/* Upload+Download Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB */
+"FolderStatusTransferProgress:%@,%@,%@,%@" = "%@ %@/%@ %@";
+
+/* Upload+Download+Rate Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB The third number shows the current transfer rate followed by its unit. */
+"FolderStatusTransferProgressNew:%@,%@,%@,%@,%@,%@" = "%@ %@/%@ %@, %@ %@";
+
+/* Improve upload performance */
+"FasterUploadOption" = "Növelheti a feltöltési sebességet, ha a feltöltést kötegekben végzi.\r\nEz a beállítás nagyobb sávszélességet igényel. Ha problémákat tapasztal az internetkapcsolatban, törölje a beállítás jelölését.";
+
+/* Available storage space. Example: 20 GB used out of 200 GB. This is used in the systray. */
+"StorageQuota:%@,%@" = "%1$@/%2$@ felhasználva";
+
+/* Available storage space. Example: 20 GB of 200 GB cloud storage used. This is used in account tab of preference window to show GB on disk for personal account */
+"CloudStorageQuota:%@,%@" = "%1$@/%2$@ felhőtárterület felhasználva";
+
+/* Storage used on Mac. Example: 2 GB used on this Mac. This is used in account tab of preference window to show GB on disk for ODB */
+"StorageOnMac:%@" = "%@ felhasználva a Mac gépen";
+
+// Device status - used by ModelExtensions.mm
+
+/* Drive status displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlocked" = "Nem sikerült feltölteni a fájlokat";
+
+/* Error description displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlockedVerbose" = "Fájlprobléma miatt nem lehet feltölteni a fájlokat";
+
+// Device Location - used by ModelExtensions.mm
+
+/* Local device, i.e. this computer */
+"DeviceLocationLocal" = "Helyi";
+
+/* Remote device, e.g. another computer */
+"DeviceLocationRemote" = "Távoli";
+
+/* Cloud storage device, */
+"DeviceLocationCloud" = "Felhő";
+
+// Sync Issue Window
+
+/* "Problem" is a general term that includes both warnings and errors. Problem is singular. */
+"SyncIssueWindowTitleSingular:%@" = "1 probléma történt ezzel: %@";
+
+/* "Problem" is a general term that includes both warnings and errors. Problems is plural. */
+"SyncIssueWindowTitlePlural:%@,%@" = "%1$@ probléma történt ezzel: %2$@";
+
+/* The button is used to clear the issue list */
+"SyncIssueWindowClearButton" = "Törlés";
+
+/* Reveal is showing the item */
+"SyncIssueWindowOpenInFinderToolTip" = "Megjelenítés a Finderben";
+
+/* Tool tip for the button that removes an issue from issue window */
+"SyncIssueWindowIgnoreIssueToolTip" = "A probléma mellőzése";
+
+/* Text on status when there are more than 1 problems. "Problems" is always plural */
+"SyncIssueStatusPlural:%@" = "%@ probléma történt a OneDrive-val";
+
+/* Text on status when there is a problem. problem is always singular */
+"SyncIssueStatusSingular" = "1 probléma történt a OneDrive-val";
+
+/* Tool tip for the button that opens issue resolver window */
+"SyncIssueWindowOpenIssueToolTip" = "A probléma megoldása";
+
+/* Primary text for error dialog with a file conflict for the file name. %@ is a file name */
+"SyncIssueAlertFileOnHoldPrimary:%@" = "Fájlütközés feloldása: %@";
+
+/* Secondary text for error dialog. %@ is a machine name */
+"SyncIssueAlertFileOnHoldSecondary:%@" = "Megnyithatja a fájlt az Office-ban, és egyesítheti a két verzióban található módosításokat, vagy kiválaszthatja a megtartani kívánt fájlt. Dönthet úgy is, hogy mindkét fájlt megtartja: ez esetben a gépén lévő fájl neve kiegészül a -%@ taggal, és letöltjük az online fájlt.";
+
+/* Primary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldMainButton" = "Mindkét fájl megtartása";
+
+/* Secondary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldSecondaryButton" = "Megnyitás az Office-ban";
+
+// Error description - used by ModelExtensions.mm
+
+/* error description used in issue window {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFilename" = "Kérjük, módosítsa a fájlnevet. Ügyeljen rá például, hogy ne kezdődjön vagy ne végződjön szóközzel, továbbá ne legyen pont a végén vagy két pont az elején, és ne tartalmazza ezeket a karaktereket se: \\ / : * ? \" < > | ";
+
+/* error description used in issue window  {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFoldername" = "Kérjük, módosítsa a fájlnevet. Ügyeljen rá például, hogy ne kezdődjön vagy ne végződjön szóközzel, továbbá ne legyen pont a végén vagy két pont az elején, és ne tartalmazza ezeket a karaktereket se: \\ / : * ? \" < > | ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionFilePathTooLong" = "A fájl elérési útja túl hosszú a számítógépen való tároláshoz";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionCloudAccessDenied:%@" = "Ez a fájl csak olvasható itt: %@";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionDocumentCheckedOut" = "Ezt a fájlt másvalaki kivette.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionServerFileConflict:%@" = "Nem sikerült egy elem feltöltése ide: %@";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionExcludedItem:%@" = "Nem sikerült egy elem feltöltése ide: %@";
+
+/* error description used in issue window %1$@ is a size like 10 GB, %2$@ is a string like "OneDrive - Microsoft" */
+"SyncErrorShortDescriptionFileTooBig:%@,%@" = "%1$@-nál nagyobb fájlokat nem lehet feltölteni itt: %2$@";
+
+/* Use "OneNote" unless there's a localized name for it {Locked=!cs, sk;\"OneNote\"} */
+"SyncErrorShortDescriptionOnenoteDeleted:%@" = "A OneNote-fájlokra mutató parancsikonok nem törölhetők a(z) %@ mappából. A OneDrive-ot megnyitva törölheti őket.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionItemCantFitInQuota:%@" = "A fájl vagy mappa és annak tartalmai nem férnek el a(z) %@ fennmaradó kvótájában";
+
+/* item means either folder or file */
+"SyncErrorShortDescriptionItemLimitExceeded:%@" = "Túl sok fájl van itt: %@. Kérjük, távolítsa el a felesleges fájlokat.";
+
+/* The user choose to unsync files/folders but we are unable to delete it. item means either folder or file */
+"SyncErrorShortDescriptionUnmappedContentPresent:%@" = "Már létezik egy ilyen nevű fájl vagy mappa ugyanezen a helyen itt: %@. Kérjük, nevezze át a fájlt vagy mappát.";
+
+/* error description used when Office files have edit-edit conflicts and they cannot be merged */
+"SyncErrorShortDescriptionFileOnHold" = "Nem sikerült egyesíteni az egyik Office-fájlban lévő módosításokat. A probléma megoldásához kattintson a nyíl ikonra.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaCritical:%@,%@" = "A(z) %1$@ %2$@-ig megtelt";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaCritical:%@,%@" = "Már csak %2$@ szabad terület van itt: %1$@.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaExceeded:%@" = "A(z) %@ megtelt";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaExceeded" = "Ha továbbra is szinkronizálni szeretné a OneDrive mappát, szerezzen be további tárhelyet, vagy törölje azokat a fájlokat, amelyekre már nincs szüksége.";
+
+/* error description used in issue window for business accounts */
+"CloudIssueShortDescriptionQuotaExceeded_Business" = "OneDrive-tárterülete felől érdeklődjön az informatikai részlegén, vagy fájlok eltávolításával szabadítson fel helyet.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleThrottling" = "A OneDrive most nem tud fájlokat átvinni";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionThrottling" = "Kérjük, próbálkozzon újra holnap.";
+
+// Status menu - used by StatusMenuController.mm
+
+/* No comments provided by engineer */
+"StatusMenuTitle" = "Kezelés";
+
+/* The status menu item text that leads to more menu items */
+"StatusMoreMenu" = "Egyebek";
+
+/* Text for status menu item that opens the folder containing deleted OneDrive files */
+"StatusMenuItemLaunchRecycleBin" = "A OneDrive lomtára";
+
+/* Status menu item to allow the user to open the dialog for sharing file/folder */
+"StatusMenuItemShare" = "Fájl vagy mappa megosztása...";
+
+/* Text for the status menu item which opens the OneDrive folder when clicked*/
+"StatusMenuItemOpenLocalFolder" = "A OneDrive mappa megnyitása";
+
+/* Text for the status menu item which opens the named folder when clicked  */
+"StatusMenuItemOpenNamedFolder: %@" = "A(z) %@ mappa megnyitása";
+
+/* Status menu item that opens browser with Upgrade account page */
+"StatusMenuItemUpgrade" = "Frissítés";
+
+/* Text for the status menu item which opens a browser to OneDrive website for storage manage */
+"StatusMenuItemManageStorage" = "Tárhely kezelése";
+
+/* Status menu item that when clicked will launch a page with user's premium features */
+"StatusMenuItemManagePremium" = "Saját prémiumfunkciók";
+
+/* Text for the status menu item which opens a browser to OneDrive website homepage */
+"StatusMenuItemLaunchWebsite" = "A OneDrive.com megnyitása";
+
+/* The status menu item that allows user to open OneDrive help site. It will likely launch a browser to a website */
+"StatusMenuItemLaunchHelp" = "Súgó";
+
+/* The status menu item that allows user to open OneDrive feedback. It will likely launch a browser to a website */
+"StatusMenuItemFeedback" = "Visszajelzés";
+
+/* The status menu item that allows a user to open the Parature support dialog. */
+"StatusMenuItemReportIssue" = "Probléma bejelentése";
+
+/* Status shown on the status menu when everything is up to date */
+"StatusMenuItemUpToDate" = "A OneDrive naprakész";
+
+/* Status shown on the status menu to indicate last updated time in seconds */
+"StatusMenuItemLastUpToDateTimeSecondsAgo" = "Utoljára frissítve kevesebb, mint 1 perce";
+
+/* Status shown on the status menu to indicate last updated time was one minute ago */
+"StatusMenuItemLastUpToDateTimeOneMinuteAgo" = "Utoljára frissítve 1 perce";
+
+/* Status shown on the status menu to indicate last updated time was minutes ago */
+"StatusMenuItemLastUpToDateTimeMinutesAgo:%d" = "Utoljára frissítve %d perce";
+
+/* Status shown on the status menu to indicate last updated time was one hour ago */
+"StatusMenuItemLastUpToDateTimeOneHourAgo" = "Utoljára frissítve 1 órája";
+
+/* Status shown on the status menu to indicate last updated time was hours ago */
+"StatusMenuItemLastUpToDateTimeHoursAgo:%d" = "Utoljára frissítve %d órája";
+
+/* Status shown on the status menu to indicate last updated time on a date */
+"StatusMenuItemLastUpToDateTimeDaysAgo:%@" = "Utoljára frissítve: %@";
+
+/* No comments provided by engineer */
+"StatusMenuItemViewActivity" = "Legutóbbi tevékenység megtekintése";
+
+/* Status menu entry for opening the issue window */
+"StatusMenuItemViewIssues" = "Ide kattintva megtekintheti a szinkronizálási problémákat";
+
+/* Status shown on the status menu when downloading a file */
+"StatusMenuItemSyncCountSingularDownload: %@" = "%@ letöltése";
+
+/* Status shown on the status menu when uploading a file */
+"StatusMenuItemSyncCountSingularUpload: %@" = "%@ feltöltése";
+
+/* Status shown on the status menu when downloading or uploading more than one file */
+"StatusMenuItemSyncCount-%d" = "%d elem átvitele...";
+
+/* Text for status menu item that opens the preference. It should be translated the same way as all app menu's Preferences item. */
+"StatusMenuItemPreferences" = "Beállítások";
+
+/* Text for preference window accessibility label. %1$@ is the current tab name */
+"AccessibilityPreferencesWindowLabel:%@" = "Beállítások, %1$@";
+
+/* Text for status menu item that pauses syncing. */
+"StatusMenuItemPause" = "Szinkronizálás felfüggesztése";
+
+/* Text for status menu item that resumes syncing when paused. */
+"StatusMenuItemResume" = "Szinkronizálás folytatása";
+
+/* Text for status menu item that indicates to pause for 1 hour. */
+"StatusMenuItemPauseTimerSingular" = "1 óra";
+
+/* Text for status menu item that indicates to pause for a number of hours. %1$@ is a number representing hours. */
+"StatusMenuItemPauseTimerPlural" = "%1$@ óra";
+
+/* Text for status menu item that quits the app */
+"StatusMenuItemQuit" = "Kilépés a OneDrive-ból";
+
+/* Loading user data when signing-in */
+"StatusMenuItemLoading" = "Betöltés...";
+
+/* OneDrive is at initial start up */
+"StatusMenuItemStarting" = "A OneDrive indítása";
+
+/* OneDrive is showing first run wizard */
+"StatusMenuItemSetup" = "A OneDrive beállítása";
+
+/* Waiting for user input to migrate their Sandbox data */
+"StatusMenuItemMigration" = "Felhasználói adatok áttelepítése...";
+
+/* Text for status menu item that signs out the app */
+"StatusMenuItemSignOut" = "Kijelentkezés";
+
+/* Launch the application automatically after login to OS */
+"StatusMenuItemOpenAtLogin" = "Megnyitás bejelentkezéskor";
+
+/* Status menu item that when clicked will launch the live sit for the account that is connected */
+"StatusMenuItemViewOnline" = "Megtekintés a weben";
+
+// Quit Dialog
+
+/* Title text for dialog shown when user is quitting OneDrive */
+"QuitDialogHeader" = "Kilép a OneDrive-ból?";
+
+/* Body text for dialog shown when user is quitting OneDrive */
+"QuitDialogDescription" = "Ha kilép a OneDrive-ból, akkor a OneDrive-mappájában tárolt fájlok nem szinkronizálódnak az online tárolt fájlokkal.";
+
+/* Title text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogHeaderUploadsPending" = "Kilép a OneDrive-ból, és leállítja a fájlok feltöltését?";
+
+/* Body text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogDescriptionUploadsPending" = "Ha kilép a OneDrive-ból, akkor a OneDrive-mappájában tárolt fájlok feltöltése mindaddig nem fejeződik be, amíg újra nem indítja.";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will quit OneDrive. */
+"QuitDialogButtonDefault" = "Kilépés a OneDrive-ból";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will dismiss dialog. */
+"QuitDialogCancelButton" = "Mégse";
+
+// Dock Menu - used by DockMenuController.mm
+
+/* No comments provided by engineer */
+"DockMenuTitle" = "OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemOpenLocalFolder" = "A OneDrive mappa megnyitása";
+
+/* No comments provided by engineer */
+"DockMenuItemLaunchWebsite" = "A OneDrive.com megnyitása";
+
+// Login Failures - used by SignInViewController.mm
+
+/* When we are unable to retrieve a user's tenant name, we will use this to show "OneDrive - Business" */
+"DefaultTenantName" = "Üzleti";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"InvalidUsernameTitleText" = "Nem lehet bejelentkezni a OneDrive-ra.";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the explaination text in the dialog {StrContains=\"example555@hotmail.com\"} */
+"InvalidUsernameDescriptionText" = "Kérjük, adja meg Microsoft-fiókját ebben a formátumban: example555@hotmail.com.";
+
+/* When we receive an invalid web request, we show this text as the first line of the dialog. */
+"InvalidWebRequestTitle" = "Sajnáljuk, nem tudtuk megnyitni a szinkronizáló ügyfélprogramot";
+
+/* When we receive an invalid web request, we show this text as the body text of the dialog. */
+"InvalidWebRequestBody" = "Nem tudtuk feldolgozni az URL-címet. Forduljon az ügyfélszolgálathoz";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailTitle" = "A bejelentkezés nem sikerült";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailText" = "Probléma történt a bejelentkezéskor. Kérjük, próbálkozzon újra. Ellenőrizze, hogy helyesen adta-e meg Microsoft-fiókját és a jelszót, és hogy a számítógép csatlakozik-e az internethez.";
+
+/* When we have connectivity error during sign in, we pop up a dialog and this is the first line of the text in the dialog*/
+"SignInConnectivityErrorTitleText" = "Nem sikerült csatlakozni a OneDrive-hoz";
+
+/* When we have connecctivity error during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInConnectivityErrorDescriptionText" = "Ellenőrizze az internetkapcsolatot, és próbálkozzon újra.";
+
+/* When we fail to access the keychain during sign in, we pop up a dialog and this is the first line of text in the dialog. */
+"SignInKeychainErrorTitleText" = "Nem sikerült a kulcskarika elérése";
+
+/* when we fail to access the keychain during sign in, we pop up a dialog and this is the detailed text in the dialog. */
+"SignInKeychainErrorDescriptionText" = "Kérjük, ellenőrizze, hogy a bejelentkezési kulcskarika létezik-e, és hogy hozzáfér-e a OneDrive. Ha a rendszer arra kéri, kérjük, engedélyezze a OneDrive-nak a kulcskarika elérését.";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the first line of the text in the dialog */
+"SignInCredentialErrorTitleText" = "Nem sikerült csatlakozni a OneDrive-hoz";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInCredentialErrorDescriptionText" = "Ellenőrizze az internetkapcsolatot, és próbálkozzon újra.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SuspendedAccountTitleText" = "Nem lehet bejelentkezni a OneDrive-ra.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the explaination text in the dialog */
+"SuspendedAccountDescriptionText" = "A fiókja fel lett függesztve.";
+
+/* When we get a user using a non-beta enabled account, we show this error title. */
+"SignInNoBetaText" = "Nem lehet bejelentkezni a OneDrive-ra.";
+
+/* When we get a user using a non-beta enabled account, we show this error description. {StrContains=\"Windows Live\"} */
+"SignInNoBetaDescriptionText" = "Ez a fiók nincs engedélyezve a Windows Live bétaprogramhoz.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnknownErrorTitle" = "A bejelentkezés nem sikerült";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnknownErrorText" = "Kérjük, próbálkozzon újra néhány perc múlva.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLError500Title" = "A bejelentkezés nem sikerült";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLError500Text" = "Hiba történt a OneDrive szolgáltatásban. Kérjük, próbálkozzon újra néhány perc múlva.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInterruptedErrorTitle" = "A bejelentkezés nem sikerült";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInterruptedErrorText" = "Hiba történt a fiókjában. A hiba elhárításáról a szolgáltatás webhelyén bejelentkezve tájékozódhat. A hiba kijavítása után próbálkozzon újra.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnauthorizedErrorTitle" = "A bejelentkezés nem sikerült";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnauthorizedErrorText" = "Hiba történt a OneDrive szolgáltatásban. Kérjük, próbálkozzon újra néhány perc múlva.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidClientErrorTitle" = "A bejelentkezés nem sikerült";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidClientErrorText" = "Hiba történt a OneDrive szolgáltatásban. Kérjük, próbálkozzon újra néhány perc múlva.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidGrantErrorTitle" = "A bejelentkezés nem sikerült";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidGrantErrorText" = "Hiba történt a OneDrive szolgáltatásban. Kérjük, próbálkozzon újra néhány perc múlva.";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the title. */
+"SignInURLSPOUserNotFoundTitle" = "OneDrive-tárhelye még nincs beállítva";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the error text. */
+"SignInURLSPOUserNotFoundErrorText" = "Segítségért forduljon az informatikai részleghez.";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the title */
+"SignInURLUserThrottledErrorTitle" = "Nem sikerült beállítani a OneDrive-ot ezen a Mac gépen";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the error text. */
+"SignInURLUserThrottledErrorText" = "Sajnáljuk, a OneDrive-on túl nagy most a forgalom. Kérjük, később próbálkozzon újra.";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the title. */
+"SignInURLEmailMismatchTitle" = "A sikeres szinkronizáláshoz használja itt is ugyanazt az e-mail-címet, mint amit az interneten használt";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the error text. */
+"SignInURLEmailMismatchErrorText:%@" = "A tartalom szinkronizálásának megkezdéséhez, kérjük a következő e-mail-címmel jelentkezzen be: %@.";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to try signing in again. */
+"SignInTryAgainButtonText" = "Újra";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive*/
+"SignInQuitButtonText" = "Kilépés a OneDrive-ból";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive */
+"SignInCloseButtonText" = "Bezárás";
+
+/* This text is displayed in sign in dialog while we load signing in page */
+"SignInPageLoadingText" = "Betöltés...";
+
+/* This text is used for voice over while we load signing in page */
+"SignInPageLoadingVoiceOverText" = "Kérjük, várjon, amíg betöltődik a OneDrive.";
+
+/* This text is displayed in sign in dialog while we are signing in the user */
+"SignInProgressingText" = "Bejelentkezés...";
+
+/* This text is used for voice over while we are signing in the user */
+"SignInProgressingVoiceOverText" = "Kérjük, várjon, amíg a OneDrive bejelentkezik.";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the title. */
+"SignInDuplicateSyncErrorTitle" = "Ön már szinkronizálja ezt a fiókot";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the text. */
+"SignInDuplicateSyncErrorText:%@" = "Nyissa meg a(z) %@ mappát, vagy jelentkezzen be egy másik fiókkal.";
+
+/* When the userconnected service returns an error, this is the title */
+"SignInUserConnectedErrorTitle" = "Nem sikerült csatlakozni a OneDrive-hoz";
+
+/* When the userconnected service returns error: "AccessDenied". This is the error text. */
+"SignInUserConnectedAccessDeniedText" = "Önnek nincs hozzáférési engedélye ehhez a szolgáltatáshoz. Segítségért forduljon az informatikai részleghez";
+
+/* When the userconnected service returns error: "AccountSuspended". This is the error text. */
+"SignInUserConnectedAccountSuspendedText" = "Fiókja jelenleg le van tiltva. Segítségért forduljon az informatikai részleghez";
+
+/* When the userconnected service returns error: "InvalidUserData". This is the error text. */
+"SignInUserConnectedInvalidUserDataText" = "Nem lehet kapcsolatot létesíteni a szolgáltatással. Segítségért forduljon az informatikai részleghez";
+
+/* When the userconnected service returns error: "MissingLicense". This is the error text. */
+"SignInUserConnectedMissingLicenseText" = "A szolgáltatás eléréséhez másféle licencre van szüksége. Segítségért forduljon az informatikai részleghez";
+
+/* When the userconnected service returns error: "ProvisioningFailed". This is the error text. */
+"SignInUserConnectedProvisioningFailedText" = "A OneDrive nincs beállítva. Segítségért forduljon az informatikai részleghez";
+
+/* When the userconnected service returns error: "Throttled". This is the error text. */
+"SignInUserConnectedThrottledText" = "A szolgáltatáshoz jelenleg túl sok kérés érkezik. Kérjük, néhány perc múlva próbálkozzon újra";
+
+/* When the userconnected service returns error: "Timeout". This is the error text. */
+"SignInUserConnectedTimeoutText" = "A szolgáltatás válasza túl sokáig tart. Kérjük, néhány perc múlva próbálkozzon újra";
+
+/* When the userconnected service returns error: "Unknown". This is the error text. */
+"SignInUserConnectedUnknownText" = "Kérjük, próbálkozzon újra néhány perc múlva, és ha a probléma nem szűnik meg, forduljon az informatikai részleghez";
+
+/* When the userconnected service returns error: "UnreachableHost". This is the error text. */
+"SignInUserConnectedUnreachableHostText" = "A szolgáltatás átmenetileg nem érhető el. Kérjük, próbálkozzon újra néhány perc múlva";
+
+/* When the userconnected service returns error: "UserNotFound". This is the error text. */
+"SignInUserConnectedUserNotFoundText" = "Probléma van a fiókjával. Segítségért forduljon az informatikai részleghez";
+
+/* When the userconnected service returns error: "NoTeamSitePermission". This is the error text. */
+"SignInUserConnectedNoTeamSitePermText" = "Nincs hozzáférése ehhez a SharePoint-webhelyhez. Segítségért forduljon az informatikai részleghez.";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error. This is the title. */
+"SignInUserAlreadyLoadedErrorTitle" = "Ön másik fiókot szinkronizál";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error.
+   Depending on whether we know which email the user is signed in with, either show the specific or the generic message below. This is the text. */
+"SignInUserAlreadyLoadedErrorEmailSpecificText:%@" = "Nem a szinkronizálni kívánt fiókba jelentkezett be. Írja be a(z) %@ fiók jelszavát. Ha újabb fiókot szeretne felvenni, válassza a Beállítások > Fiók > Fiók felvétele lehetőséget.";
+
+"SignInUserAlreadyLoadedErrorGenericText" = "Nem a szinkronizálni kívánt fiókba jelentkezett be. Ha újabb fiókot szeretne felvenni, válassza a Beállítások > Fiók > Fiók felvétele lehetőséget.";
+
+/* When MSA user is already syncing with account A, and tries to sign in with account B when prompted for creds. Depending on whether the e-mail address is available or not, we show the specific or generic message below. This is the text */
+ "SignInUserAlreadyLoadedErrorMSAEmailSpecificText:%@" = "Nem a szinkronizálni kívánt fiókba jelentkezett be. Kérjük, írja be a(z) %@ fiók jelszavát.";
+
+ "SignInUserAlreadyLoadedErrorMSAGenericText" = "Nem a szinkronizálni kívánt fiókba jelentkezett be.";
+
+/* When an unknown error occurs that has not been handled. This is the title. */
+"SignInUnknownErrorTitle" = "A bejelentkezés nem sikerült";
+
+/* When an unknown error occurs that has not been handled. This is the text. */
+"SignInUnknownErrorText" = "Kérjük, próbálkozzon újra néhány perc múlva, és ha a probléma nem szűnik meg, forduljon az informatikai részleghez";
+
+// Preferences - used by PreferenceController.mm
+
+/* This is the text on preference window toolbar for Preferences. */
+"PreferenceGeneralItem" = "Beállítások";
+
+/* This is the text that encloses General area in preference window. */
+"PreferenceGeneralGroupBoxText" = "Általános";
+
+/* This is the text on preference window check box. When user checks this option, it allows OneDrive to start when user login. */
+"PreferenceStartAtLoginCheckBoxText" = "Megnyitás bejelentkezéskor";
+
+/* This is the description for enable OnPrem telemetry checkbox. */
+"PrivacyCheckBoxText" = "Hibajelentések és látogatottsági statisztika küldése a Microsoftnak";
+
+/* This is the description when OneDrive is at the wrong location. "Applications" should be localized the same way as the OS. */
+"OpenAtLoginDisabledExplaination" = "Ahhoz, hogy ez a beállítás elérhető legyen, lépjen ki a OneDrive-ból, helyezze át a OneDrive alkalmazást az Alkalmazások mappába, és nyissa meg ismét a OneDrive-ot.";
+
+/* This is the text on preference window check box. When user checks this option, OneDrive icon is removed from the Dock. Note "Dock" is capital D */
+"PreferenceHideDockIconText" = "Dock ikon elrejtése";
+
+/* This is the text for a preference window check box. When the user checks this option we will automatically save screenshots any time they take a screenshot. */
+"PreferenceEnableScreenCaptureUpload" = "Képernyőképek mentése a OneDrive-ra";
+
+/* This will be displayed when a user running a store build attempts to enable the screen capture
+ * feature. Due to app store limitations, the user is forced to select their desktop folder. This
+ * message will be displayed within the file open dialog in order to help the user understand what
+ * selection they are required to make in the file open dialog. */
+"PreferenceEnableScreenCaptureUploadOpenDialogMessage" = "Ha azt szeretné, hogy a program automatikusan a OneDrive-ra mentse a képernyőképeit, kérjük, válassza az Asztal mappát.";
+
+/* This is the text on preference window check box. When user checks this option, we will not show share/edit notifications */
+"PreferenceDisplayShareEditNotificationsCheckBoxText" = "Megosztásról vagy szerkesztésről tájékoztató értesítések megjelenítése";
+
+/* This is the text on preference window toolbar for About. */
+"PreferenceAboutItem" = "Névjegy";
+
+/* This is the text that encloses about area in preference window. */
+"PreferenceAboutGroupBoxText" = "A Microsoft OneDrive névjegye";
+
+/* This is the text that shows version. */
+"PreferenceVersionText:%@" = "Verzió: %@";
+
+/* This is the text that shows version for standalone. */
+"PreferenceStandaloneVersionText:%@" = "Verzió: %@ (különálló)";
+
+/* This is the text that encloses "more info" area in preference window. */
+"PreferenceMoreInfoGroupBoxText" = "További információ";
+
+/* This is the text that opens help in browser. */
+"PreferenceGetHelpText" = "Segítség a OneDrive-hoz";
+
+/* This is the text that opens privacy statement in browser. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"PreferencePrivacyStatementText" = "Adatvédelem és cookie-k";
+
+/* This is the text that opens server status in browser. */
+"PreferenceServerStatusText" = "Szolgáltatás állapota";
+
+/* This is the text that opens Terms of Use in browser. */
+"PreferenceTermsOfUseText" = "Használati feltételek";
+
+/* This is the text on the button in preference window that opens the manage storage page on browser */
+"PreferenceManageStorageButtonText" = "Tárhely kezelése";
+
+/* This is the text on the button that unlinks OneDrive in preference window. */
+"PreferenceUnlinkButtonText" = "A Mac leválasztása";
+
+/* This is the title text on the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertMessageTitle" = "Leválasztja a fiókot erről a Mac gépről?";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for consumer accounts. */
+"PreferenceUnlinkAlertDetailedMessage" = "A OneDrive-fájljai szinkronizálása leáll. A fájlok egy másolata a Mac gépen marad.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for business accounts. */
+"PreferenceUnlinkAlertDetailedMessageBusiness:%@" = "A fiókhoz (%@) társított céges anyagok szinkronizálása leáll. A fájlok egy másolata a Mac gépen marad.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for last library unsynced. %1$@ is a folder name, %2$@ is an email address */
+"PreferenceUnlinkLastLibraryAlertDetailedMessage:%@,%@" = "Legutóbb a(z) %1$@ mappát szinkronizálta. Ha leállítja a mappa szinkronizálását, leválasztjuk %2$@-fiókját. A fájlok egy-egy másolata a Mac gépen marad.";
+
+/* This is the text on the confirm button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertConfirmButton" = "Fiók leválasztása";
+
+/* This is the text on the cancel button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertCancelButton" = "Mégse";
+
+/* This is the text on the button that resets OneDrive in preference window. */
+"PreferenceResetButtonText" = "OneDrive-fiók alaphelyzetbe állítása";
+
+/* This is the text on preference window toolbar for account. */
+"PreferenceAccountItem" = "Fiók";
+
+/* This is the text that tells users how to sync down only selected folders in preference window. */
+"PreferenceSelectiveSyncDescription" = "A kiválasztott mappák elérhetők lesznek ezen a Mac gépen.";
+
+/* This is the text that encloses "Choose folders" area in preference window. */
+"PreferenceFolderGroupBoxText" = "Mappák kiválasztása";
+
+/* This is the button that opens up advanced selective sync in preference window. */
+"PreferenceSelectFoldersButton" = "Mappák kiválasztása";
+
+/* This is the text on the the preference window toolbar for network. */
+"PreferenceNetworkItem" = "Hálózat";
+
+/* This is the text on the Upload box. */
+"PreferenceUploadBox" = "Feltöltési sebesség";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceNoLimit" = "Ne legyen korlátozás";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimit" = "Automatikus módosítás";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimitByAdmin" = "Automatikus módosítás (a szervezet kezeli)";
+
+/* This is the text on the radio button that does limit bandwidth. */
+"PreferenceCustomLimit" = "Korlátozás erre:";
+
+/* This is the text on the Download box. */
+"PreferenceDownloadBox" = "Letöltési sebesség";
+
+/* This is the text on the box to enable the Files On-Demand feature. */
+"PreferenceCloudFilesEnableBox" = "Igény szerinti fájlok";
+
+/* This is the description for the Files On-Demand box. */
+"PreferenceCloudFilesDescription" = "Az Igény szerinti fájlok funkció helyet szabadít fel a gépen azzal, hogy csak az éppen használt fájlokat tölti le.";
+
+/* Button text in Files On-Demand box. Clicking this button turns on the feature. */
+"PreferenceCloudFilesEnable" = "Az Igény szerinti fájlok funkció bekapcsolása";
+
+/* Button text in Files On-Demand box. Clicking this button turns off the feature. */
+"PreferenceCloudFilesDisable" = "Az Igény szerinti fájlok funkció kikapcsolása";
+
+/* Link in the Files On-Demand box. Clicking this link will launch a webpage with more information. */
+/* Also resued in local mass delete delete confirmed ACM. */
+"PreferenceCloudFilesMoreInfo" = "További információ";
+
+/* This is the title text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertMessageTitle" = "Kikapcsolja az Igény szerinti fájlok funkciót?";
+
+/* This is the body text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertDetailedMessage" = "Minden fájl és mappa le fog töltődni erre a Mac gépre a OneDrive-ról.";
+
+/* This is the text on the confirm button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertConfirmButton" = "OK";
+
+/* This is the text on the cancel button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertCancelButton" = "Mégse";
+
+/* This is the button text to display the Blocked Applications list. */
+"PreferenceBlockedAppButtonText" = "Appok kezelése";
+
+/* This is the description for the Hydrating Applications pane. */
+"PreferenceHydratingAppDescription" = "Mac gépe automatikusan le tudja tölteni a csak online elérhető fájlokat a OneDrive-ról az ilyen fájlokat kérő appoknak.";
+
+/* This is the description for the Blocked Applications box. */
+"PreferenceBlockedAppDescription" = "Ezek az appok semmit sem tölthetnek le automatikusan a OneDrive-ról:";
+
+/* This is the description for the checkbox that allows user to control whether they see a hydration notification toast. */
+"PreferenceNotifyHydratingAppCheckbox" = "Értesítést kérek, amikor egy app letölt valamit a OneDrive-ról";
+
+/* This is the header of the table listing Blocked Applications */
+"PreferenceBlockedAppTableHeader" = "Alkalmazások";
+
+/* Label for the button to close the Blocked Applications list */
+"PreferenceBlockedAppCloseButtonLabel" = "Bezárás";
+
+/* Prompt for user to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationPrompt" = "Válassza ki azokat az appokat, amelyeknek meg szeretné tiltani az automatikus fájlletöltést.";
+
+/* Header for error when unable to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationErrorHeader" = "Nem sikerült hozzáadni a kiválasztott appot";
+
+/* Body for error when unable to add an application to the Blocked Applications list*/
+"PreferenceBlockedAppAddApplicationErrorBody" = "Csak appoknak tilthatja meg a OneDrive-on lévő fájlok automatikus letöltését. Kérjük, válasszon egy appot, és próbálkozzon újra.";
+
+// Preferences - Advanced Selective Sync Page
+
+/* This is the text on the top of advanced selective sync sheet. */
+"AdvancedSelectiveSyncTitle" = "Fájlok szinkronizálása a OneDrive-ról";
+
+/* This is the text on the top of advanced selective sync sheet when Cloud Files on. */
+"AdvancedSelectiveSyncTitleCloudFiles" = "Mappák kiválasztása";
+
+/* This is the text under the title of advanced selective sync sheet. */
+"AdvancedSelectiveSyncDescription:%@" = "Válassza ki, hogy mit szeretne letölteni a(z) %@ mappába. Ezekhez az elemekhez offline módban is hozzáférhet.";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page. */
+"AdvancedSelectiveSyncDescriptionPreferences" = "A szinkronizált fájlok helyet foglalnak el a Mac gépen";
+
+/* This is the text in advanced selective sync sheet to sync everything. */
+"AdvancedSelectiveSyncAll" = "Minden fájl és mappa szinkronizálása a OneDrive-tárhelyemről";
+
+/* This is the text in advanced selective sync sheet to sync everything under a team site. */
+"AdvancedSelectiveSyncAllTeamSite:%@" = "Minden fájl és mappa szinkronizálása innen: %@";
+
+/* This is the text in advanced selective sync sheet to sync only some files. */
+"AdvancedSelectiveSyncSome" = "Vagy csak az alábbi mappák szinkronizálása:";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page and Cloud Files enabled. */
+"AdvancedSelectiveSyncDescriptionCloudFiles" = "Válassza ki, hogy mely elemeket szeretné elérhetővé tenni a(z) %@ mappában. Ezek a fájlok igény szerint lesznek elérhetők, és csak a kiválasztott mappák fognak látszani a Finderben.";
+
+/* This is the text in advanced selective sync sheet to sync everything when Cloud Files is enabled. */
+"AdvancedSelectiveSyncAllCloudFiles" = "Az összes fájl legyen elérhető";
+
+/* This is the text in advanced selective sync sheet to sync only some files when Cloud Files is enabled. */
+"AdvancedSelectiveSyncSomeCloudFiles" = "Vagy legyenek láthatók ezek a mappák:";
+
+/* This is the text on the file group item in the tree view. %@ is for folder names. ie "puppies", "Cute Kittens". */
+"AdvancedSelectiveSyncFileGroupItem:%@" = "Fájlok a(z) %@ mappában";
+
+/* This is the text on the root's file group item in the tree view. */
+"AdvancedSelectiveSyncFileGroupItemRoot" = "Mappákon kívüli fájlok";
+
+/* This is the text on the advanced selective sync sheet for the local path on Mac. */
+"AdvancedSelectiveSyncMacLocationText" = "Hely a Mac gépen:";
+
+/* This is the button text on the advanced selective sync sheet for start sync. */
+"AdvancedSelectiveSyncStartSyncButtonText" = "Szinkronizálás indítása";
+
+/* This is the button text on the advanced selective sync sheet for confirmation. */
+"AdvancedSelectiveSyncConfirmButtonText" = "OK";
+
+/* This is the button text on the advanced selective sync sheet for cancelling out. */
+"AdvancedSelectiveSyncCancelButtonText" = "Mégse";
+
+/* This is the text at the middle of advanced selective sync sheet when loading. */
+"AdvancedSelectiveSyncLoading" = "Betöltés folyamatban...";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoading:%@" = "Nem tudtuk beolvasni a mappalistát itt: %@.\nKérjük, zárja be ezt a párbeszédpanelt, és próbálkozzon újra.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders during FRE. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoadingFRE" = "Nem jeleníthető meg a mappalista. Ha folytatja a műveletet, most minden fájl és mappa szinkronizálódni fog, azonban ezek körét később módosíthatja majd a beállítások között.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to provision error. */
+"AdvancedSelectiveSyncFailedLoadingWithProvisionError" = "Nem jeleníthető meg a mappalista, mert még folyamatban van a fiók beállítása. Ennek része az összes fájl és mappa szinkronizálása, azonban ezek körét később módosíthatja majd a beállítások között.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to offline error*/
+"AdvancedSelectiveSyncFailedLoadingWithOfflineError" = "Nem jeleníthető meg a mappalista, mert nem sikerült csatlakozni a OneDrive-hoz. Ellenőrizze az internetkapcsolatot, és próbálkozzon újra.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to auth error. */
+"AdvancedSelectiveSyncFailedLoadingWithAuthError" = "Egy, a fiókját érintő probléma miatt nem lehet megjeleníteni a mappalistát. Lépjen ki a OneDrive-ból, és jelentkezzen be újra.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to having no files and folders. */
+"AdvancedSelectiveSyncFailedLoadingWithNoFileError" = "OneDrive-fiókja üres. Ha szeretné szinkronizálni a OneDrive-ra a jövőben feltöltött fájlokat, válassza a Minden fájl és mappa a OneDrive-on lehetőséget.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnote" = "Ha leállítja a fájlok és mappák szinkronizálását, a OneDrive-on megmaradnak, de erről a Mac gépről törlődnek.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnoteCloudFiles" = "Ha elrejti ezeket a mappákat a Mac gépén, a fájlok a OneDrive-on maradnak ugyan, de ezen a Mac gépen nem lesznek elérhetők. Az ebben a mappában lévő elemeket töröljük erről a Mac gépről.";
+    
+/* This is the title text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingTitle" = "Sajnáljuk, hiba történt a módosítások alkalmazásakor";
+
+/* This is the description text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingDescription:%@" = "Nem sikerült menteni a(z) %@ mappába szinkronizálni kívánt mappák listáját. Kérjük, próbálkozzon újra.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingConfirm" = "Bezárás";
+
+/* This is the title text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingTitle" = "Nem sikerült módosítani a Mac gépen a szinkronizálandó mappák körét";
+
+/* This is the description text in the alert sheet after we fail to set selective sync because syncengine is busy*/
+"AdvancedSelectiveSyncBusySettingDescription" = "A szinkronizálás alól kivonni tervezett fájlok és mappák közül nem mindegyik van még feltöltve a OneDrive-ra. Várja meg ezek feltöltését, javítsa az esetleges szinkronizálási problémákat, és ezek után próbálkozzon meg újra a szinkronizálási beállítások módosításával.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingConfirm" = "Bezárás";
+
+/* This is the text indicating the total size of all selected files and folders. The placeholder is the size and the unit.
+ Examples: Selected: 20 MB */
+"AdvancedSelectiveSyncFilesSelected:%@" = "Kijelölve: %@";
+
+/* This is the text indicating the remaining space on disk. The first item is the disk. The second item is the size and the unit.
+ Examples: Remaining space on Macintosh HD: 20 GB */
+"AdvancedSelectiveSyncAvailableSpace:%@,%@" = "Fennmaradó hely a(z) %1$@ lemezen: %2$@";
+
+/* This is the description text for selectively syncing folders */
+"AdvancedSelectiveSyncSyncOnlyTheseFolderTitle" = "Csak ezen mappák szinkronizálása";
+
+/* This is the text shown when calculating the selected and remaining disk space */
+"AdvancedSelectiveSyncLoadingTitle" = "Számítás...";
+
+/* This is the text shown when content already syncing */
+"AdvancedSelectiveSyncAlreadySyncingWarning" = "Ez a tartalom már szinkronizálás alatt áll.";
+
+/* This is the text shown when the teamsite that will be synced is read-only. */
+"AdvancedSelectiveSyncReadOnlyWarning" = "Ez egy írásvédett webhely, ezért az ott tárolt fájlokat és mappákat nem módosíthatja.";
+
+/* This is the text for add an account button in the account tab of preference window */
+"AddAccountButtonText" = "Fiók hozzáadása";
+
+/* This is the text for teamsite box in account tab of preference window (singular) */
+"PreferenceTeamSiteGroupBoxText" = "1 hely szinkronizálása folyamatban van";
+
+/* This is the text for teamsite box in account tab of preference window (plural) */
+"PreferenceTeamSiteGroupBoxText:%d" = "%d hely szinkronizálása folyamatban van";
+
+/* This is the text shown when not syncing ODB in account tab of preference window */
+"PreferenceNotSyncingQuotaText" = "Nincs szinkronizálás";
+
+/* This is the text for start sync button for ODB in account tab of preference window */
+"PreferenceStartSyncButton" = "Szinkronizálás indítása";
+
+/* This is the text for stop sync button for each team site library in account tab of preference window */
+"PreferenceStopSyncButton" = "Szinkronizálás leállítása";
+
+/* This is the title text in the dialog that stops syncing a teamsite in preference window. */
+"PreferenceStopSyncAlertMessageTitle:%@" = "Leállítja a(z) %@ szinkronizálását?";
+
+/* This is the body text in the dialog that unlinks OneDrive in preference window. */
+"PreferenceStopSyncAlertDetailedMessage:%@" = "A(z) %@ mappa szinkronizálása leáll. A fájlok egy-egy másolata a Mac gépen marad.";
+
+/* This is the text on the confirm button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertConfirmButton" = "Szinkronizálás leállítása";
+
+/* This is the text on the cancel button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertCancelButton" = "Mégse";
+
+/* This is the title of the notifications we show after a team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationTitle:%@" = "A(z) %1$@ csapatwebhely szinkronizálása bekapcsolva.";
+
+/* This is the body of the notification we show after a read-only team site has been succesfully connected (initial sync). */
+"TeamSiteNotificationReadOnlyBody" = "Ez egy írásvédett webhely. Ide kattintva megnézheti a fájljait.";
+
+/* This is the body of the notification we show after an editable team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationEditableBody:%@" = "Szerkesztheti a(z) %1$@ csapatwebhely fájljait. Ide kattintva megnézheti a sajátjait.";
+
+/* This is the title of the notification we show after a previously connected, editable team site has become read-only. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingReadOnlyTitle:%@" = "A(z) %1$@ csapatwebhely mostantól írásvédett.";
+
+/* This is the body of the notification we show after a previously connected, editable team site has become read-only. */
+"TeamSiteNotificationAlreadySyncingReadOnlyBody" = "Már nem szerkeszthet fájlokat és mappákat, mert módosultak a webhelyengedélyek.";
+
+/* This is the title of the notification we show after a previously connected, read-only team site has become editable. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingEditableTitle:%@" = "Most már végezhet módosításokat a(z) %1$@ mappában.";
+
+/* This is the body of the notification we show after a previously connected, read-only team site has become editable. */
+"TeamSiteNotificationAlreadySyncingEditableBody" = "Minden módosítás feltöltődik a webhelyre.";
+
+/* This is the body of the notification we show after a team site has been succesfully connected. Permissions of the site are not indicated for this toast. %1$@ is a folder name. */
+"TeamSiteMountNotificationBody:%@" = "Szinkronizáljuk a(z) %1$@ mappában lévő fájljait erre a Mac gépre. Ide kattintva megtekintheti a fájlokat.";
+
+/* This is the title of the notifications we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingHeader:%@" = "Már be van kapcsolva a(z) %1$@ mappa szinkronizálása";
+
+/* This is the body of the notification we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingBody:%@" = "Már be van kapcsolva a(z) %1$@ mappa szinkronizálása ezen az eszközön. Ide kattintva megnézheti a fájljait.";
+
+/* Error dialog title for dialogs that stop the user from syncing On Prem because the front door URL is missing or ramp is off. */
+"CannotSyncOnPremTitle" = "Sajnáljuk, nem sikerült szinkronizálni a mappát";
+
+/* Body text for when we can't sync on Prem because its ramped off. */
+"OnPremSyncNotEnabledBody" = "A helyszíni SharePoint-mappák nem szinkronizálhatók.";
+
+/* Body text for when we can't sync On Prem because the front door URL is not configured. */
+"OnPremFrontDoorUrlNotSetBody" = "Kérje meg a rendszergazdát, hogy állítsa be a OneDrive-ot a helyszíni SharePoint-mappák szinkronizálásához.";
+
+/* Title text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfiguredTitle" = "A OneDrive nem tudott bejelentkezni";
+
+/* Body text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfigured" = "Probléma adódott a hitelesítő adataival. Az megoldhatja a problémát, ha elindítja a Jegyböngésző alkalmazást, és hozzáadja az identitását, vagy újra bejelentkezik. Segítségért forduljon az informatikai részleghez.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. */
+"NewHostMountConsentTitle" = "Engedélyezi a OneDrive-nak a szinkronizálást?";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. %1$@ is the mount point's domain and %2$@ is the user's username. */
+"NewHostMountConsentMessage:%@,%@" = "Új helyről (%1$@) próbál szinkronizálni a fiókjával (%2$@). Csak akkor szinkronizáljon fájlokat, ha megbízik az új helyben.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, give consent */
+"NewHostMountConsentGiveConsentButton" = "Engedélyezés";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, deny consent */
+"NewHostMountConsentDenyConsentButton" = "Mégse";
+
+// Sync Engine errors - used by coreController.mm. These are built manually, so straight searching won't work.
+
+/* This is the title text shown on the popup dialog when we detect a new version of the client is available */
+"SyncEngineError:OldClientVersion Title" = "A OneDrive e verziója elavult.";
+
+/* This is the text shown on the popup dialog when we detect a new version of the client is available*/
+"SyncEngineError:OldClientVersion Message" = "Kérjük, keresse fel a Mac App Store-t, és frissítsen a Mac OneDrive legújabb verziójára.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:OldClientVersion DefaultButton" = "Kilépés";
+
+/* No comments provided by engineer */
+"SyncEngineError:PUIDFlip Title" = "Nem tudjuk azonosítani az eszközét.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:PUIDFlip Message" = "Kérjük, készítsen biztonsági másolatot minden fájljáról a szinkronizált mappáiban. Ezután látogasson el a http://g.live.com/0ELHP_MEREN/266 weblapra, és jelentse be a problémát a OneDrive fórumaiban. Kérjük, hogy a fórumbeli bejegyzésében szerepeltesse a hiba szövegét.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:PUIDFlip DefaultButton" = "Kilépés";
+
+/* No comments provided by engineer */
+"SyncEngineError:DiskFull Title" = "A merevlemez majdnem megtelt.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:DiskFull Message" = "A OneDrive további zavartalan használata érdekében, kérjük, tegyen szabaddá több helyet.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:DiskFull DefaultButton" = "Kilépés";
+
+/* This is shown when resign-in is required for MSA account*/
+"SyncEngineError:ForceSignIn Title" = "Nincs bejelentkezve";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn Message" = "Lehet, hogy nem naprakészek a fájljai. A szinkronizálás újrakezdéséhez írja be ismét a hitelesítő adatait.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn DefaultButton" = "OK";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Title" = "Előfordulhat, hogy probléma van az internetkapcsolattal.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Message" = "Győződjön meg arról, hogy a számítógép csatlakozik az internethez, és próbálkozzon újra.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure DefaultButton" = "OK";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Title" = "Sajnos probléma történt a OneDrive-val kapcsolatban.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Message" = "Kérjük, indítsa újra a OneDrive-ot.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:TerminateCore DefaultButton" = "Kilépés";
+
+/* No comments provided by engineer*/
+"SyncEngineError:ServerError Title" = "Probléma történt a OneDrive kiszolgálóival kapcsolatban.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ServerError Message" = "Kérjük, próbálkozzon újra néhány perc múlva.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:ServerError DefaultButton" = "Kilépés";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Title" = "Sajnos úgy tűnik, probléma történt a fiókjával kapcsolatban. A hiba elhárításának módjáról a OneDrive.com webhelyre bejelentkezve talál információt. A hiba kijavítása után próbálkozzon újra";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Message" = "Kérjük, forduljon az ügyfélszolgálathoz.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:AccessDenied DefaultButton" = "Kilépés";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Title" = "Sajnos probléma történt a OneDrive-val kapcsolatban.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Message" = "Kérjük, lépjen ki a OneDrive-ból, ellenőrizze, hogy a számítógép csatlakozik-e az internethez, és indítsa újra az alkalmazást.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:Unknown DefaultButton" = "Kilépés";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid %1$@ is a library name. */
+"SyncEngineError:RootScopeNotFound Title:%@" = "A(z) %1$@ tár ismét létre lett hozva a weben";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid*/
+"SyncEngineError:RootScopeNotFound Message" = "„A OneDrive újrakonfigurálása” elemre kattintva ismét beállíthatja ezt a tárat ezen a Mac gépen.";
+
+/* Text for button in error dialog to reconfigure OneDrive*/
+"SyncEngineError:ButtonText ReconfigureButton" = "A OneDrive újrakonfigurálása";
+
+/* Message title in error dialog when a folder not found and drive is present. %1$@ is a folder name, %2$@ is its local path */
+"SyncError:MissingFolder Title:%@,%@" = "Nem található a(z) %1$@ mappa a(z) %2$@ elérési úton";
+
+/* Message in error dialog when the root folder is deleted. %@ is a folder name. */
+"SyncError:RootFolderDeleted Message:%@" = "Kattintson a Kilépés a OneDrive-ból elemre, vagy a(z) %@ mappa újbóli beállításához A OneDrive beállítása elemre.";
+
+/* Message in error dialog when folder is not found while re-mapping and drive is present */
+"SyncError:MissingFolder Message" = "Ellenőrizze, hogy a mappa megtalálható-e még ezen a helyen, majd kattintson az Újra gombra, vagy a mappa szinkronizálásának leállításához kattintson a Szinkronizálás leállítása gombra.";
+
+/* Message in error dialog when mounted folder not found while re-mapping. %@ is an email address */
+"SyncError:MissingMountedFolder SetUpMessage:%@" = "Ellenőrizze, hogy a mappa megtalálható-e még ezen a helyen, majd kattintson az Újra gombra, vagy a(z) %@-fiók ismételt beállításához kattintson A OneDrive beállítása gombra.";
+
+/* Message title in error dialog when there's a problem with the root folder */
+"SyncError:RootFolderError Title:%@" = "A(z) %@ mappa nem található.";
+
+/* Message in error dialog when there's a problem with the root folder. %@ is a folder name. */
+"SyncError:RootFolderError Message:%@" = "Kattintson a Kilépés a OneDrive-ból elemre, vagy a(z) %@ mappa újbóli beállításához A OneDrive beállítása elemre.";
+
+/* Text for button in error dialog to restart application when there's a problem with the root folder */
+"SyncError:RootFolderError DefaultButton" = "A OneDrive újraindítása";
+
+/* Message title in error dialog when OD found but creation doesn't match the DB. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:FolderMismatch Title:%@,%@" = "A(z) %1$@ mappa (%2$@) nem az eredeti %1$@-mappája";
+
+/* Message in error dialog when OD found but creation doesn't match the DB. %@ is a folder name. */
+"SyncError:RootFolderMismatch Message:%@"= "Helyezze vissza az eredeti mappát erre a helyre, majd kattintson az Újra gombra, vagy a(z) %@ mappa ismételt beállításához kattintson A OneDrive beállítása gombra.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB */
+"SyncError:MountedFolderMismatch Message" = "Helyezze vissza az eredeti mappát erre a helyre, majd kattintson az Újra gombra, vagy a mappa szinkronizálásának leállításához kattintson a Szinkronizálás leállítása gombra.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB. %@ is an email address */
+"SyncError:MountedFolderMismatch SetUpMessage:%@" = "Helyezze vissza az eredeti mappát erre a helyre, majd kattintson az Újra gombra, vagy a(z) %@-fiók ismételt beállításához kattintson A OneDrive beállítása gombra.";
+
+/* Message in error dialog when library is deemed unreachable */
+"SyncError:UnreachableLibrary Title" = "Nem érhető el a tár";
+
+/* Message in error dialog when library is deemed unreachable {%@ is library name }*/
+"SyncError:UnreachableLibrary Message:%@" = "Átmenetileg nem érhető el a(z) %@ tár. Kérjük, ellenőrizze a hálózati kapcsolatot, és próbálkozzon újra néhány perc múlva, vagy forduljon a rendszergazdához.";
+
+/* Message title in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Title" = "Ez az elem nem szinkronizálható, mert túl hosszú az elérési útja";
+
+/* Message in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Message:%@" = "Egy fájlt vagy mappát nem lehet letölteni, mert túl hosszú az elérési útja. Kérjük, lépjen ki a OneDrive-ból, nyissa meg a OneDrive Vállalati verziót egy webböngészőben, és rövidítse le a következő nevet vagy elérési utat: \r\n%@\r\n\r\nHa a OneDrive-ot egy másik helyre szeretné szinkronizálni a Mac gépen, kattintson a Telepítő futtatása elemre.";
+
+/* Message in error dialog when the max file path limit is reached for a local file */
+"SyncError:LocalMaxPath Message:%@" = "Egy fájlt vagy mappát nem lehet feltölteni, mert túl hosszú az elérési útja. Kérjük, lépjen ki a OneDrive-ból, és rövidítse le a következő nevet vagy elérési utat: \r\n%@\r\n\r\nHa a OneDrive-ot egy másik helyre szeretné szinkronizálni a Mac gépen, kattintson a Telepítő futtatása elemre.";
+
+/* Message used in several error dialogs. %@ is an email address */
+"Error:ExitOrSetUpMessage:%@" = "Kattintson a Kilépés a OneDrive-ból elemre, vagy a(z) %@-fiók ismételt beállításához kattintson A OneDrive beállítása gombra.";
+
+/* Text for button in error dialog to exit application when max path length is reached */
+"SyncError:MaxPathLength DefaultButton" = "Kilépés a OneDrive-ból";
+
+/* Text for button in error dialog to run FRE when max path length is reached */
+"SyncError:MaxPathLength AlternateButton" = "Telepítő futtatása";
+
+/* Message title in error dialog when the root folder volume is removed. %@ is a folder name.  */
+"SyncError:DriveVolumeRemovedNoVolume Title:%@" = "A(z) %@ mappa nem található";
+
+/* Message in error dialog when the root folder volume is removed. %@ is a folder name. */
+"SyncError:DriveVolumeRemovedNoVolume Message:%@" = "Nem található a(z) %@ mappa helye. Kérjük, győződjön meg arról, hogy nem törölte a mappát. Ha OneDrive-mappája egy külső meghajtón található, ellenőrizze, hogy csatlakoztatva van-e a meghajtó.";
+
+/* Text for button in error dialog to restart application when the root folder volume is removed */
+"SyncError:DriveVolumeRemoved DefaultButton" = "A OneDrive újraindítása";
+
+/* Message title in error dialog when drive containing OD could not be found. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:MissingDrive Title:%@,%@" = "Nem érhető el a(z) %1$@ mappa a(z) %2$@ elérési úton";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingNoneRemovableDrive Message:%@" = "Ellenőrizze, hogy a(z) %1$@ meghajtó elérhető-e még a Finderben, majd kattintson az Újra gombra, vagy a mappa szinkronizálásának leállításához kattintson a Szinkronizálás leállítása gombra.";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingNoneRemovableDrive SetUpMessage:%@,%@" = "Ellenőrizze, hogy a(z) %1$@ meghajtó elérhető-e még a Finderben, majd kattintson az Újra gombra, vagy a(z) %2$@-fiók ismételt beállításához kattintson A OneDrive beállítása gombra.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingRemovableDrive Message:%@" = "Észleltük, hogy a(z) %@ cserélhető meghajtó volt. Ellenőrizze, hogy a meghajtó csatlakoztatva van-e és elérhető-e a Finderben, majd kattintson az Újra gombra, vagy a mappa szinkronizálásának leállításához kattintson a Szinkronizálás leállítása gombra.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingRemovableDrive SetUpMessage:%@,%@" = "Észleltük, hogy a(z) %1$@ cserélhető meghajtó volt. Ellenőrizze, hogy a meghajtó csatlakoztatva van-e és elérhető-e a Finderben, majd kattintson az Újra gombra, vagy a(z) %2$@-fiók ismételt beállításához kattintson A OneDrive beállítása gombra.";
+
+/* Message title in error dialog indicating library cannot be synced, used in ClientNotAllowed, UnsupportedLibrary and DisableSync errors */
+"SyncError:LibraryCannotSync:%@" = "Nem szinkronizálható a(z) %@ mappa";
+
+/* Message in error dialog when sync is disabled because domain is not "whitelisted" */
+"SyncError:ClientNotAllowed Message" = "Az informatikai részleg előírja, hogy a mappa szinkronizálásához egy jóváhagyott tartományhoz csatlakozó számítógépet kell használni. Kérjen segítséget az informatikai részlegtől.";
+
+/* Message in error dialog when the library is unsupported */
+"SyncError:UnsupportedLibrary Message" = "Az informatikai részleg egy olyan módosítást végzett, amely megakadályozza a mappa szinkronizálását. További információt az informatikai részlegtől kaphat.";
+
+/* Message in error dialog when sync is disabled */
+"SyncError:DisableSync Message" = "Szervezete nem engedélyezi e mappa szinkronizálását. További információt az IT-részlegtől kaphat.";
+
+/* Title in balloon tip for when the folder was removed remotely during mount. %@ is the name of the folder being mounted. */
+"SyncError:FolderRemovedRemotelyDuringMount Title:%@" = "Ezen a helyen már nincs %@ nevű mappa";
+
+/* Message in balloon tip for when the folder was removed remotely during mount */
+"SyncError:FolderRemovedRemotelyDuringMount Message" = "Lehet, hogy áthelyezték vagy törölték a mappát.";
+
+/* Title in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them the folder has been deleted. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Title:%@" = "A(z) %@ mappát törölték";
+
+/* Message in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them a copy of the files will be left on the Mac. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Message:%@" = "A(z) %@ mappa szinkronizálása leáll. A fájlok egy-egy másolata a Mac gépen marad.";
+
+/* Title in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them they no longer have permissions to sync it. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Title:%@" = "Már nincs engedélye a(z) %@ mappa szinkronizálására";
+
+/* Message in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them the files have been removed from the Mac. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Message:%@" = "A(z) %@ mappát eltávolították a Mac gépről.";
+
+/* Title to show if add folder failed. %@ is a folder name. */
+"AddMountedFolderError Title:%@" = "A(z) %@ mappa nem szinkronizálható";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorTryAgain:%@" = "Nem sikerült felvenni a(z) %@ mappát. Kérjük, próbálkozzon újra.";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorContactSupport:%@" = "Nem sikerült felvenni a(z) %@ mappát. Kérjük, forduljon a támogatási szolgálathoz.";
+
+/* Text for Try Again button, used in error dialogs. */
+"TryAgainButtonText" = "Újra";
+
+/* Text for Stop Sync button, used in error dialogs. */
+"StopSyncButtonText" = "Szinkronizálás leállítása";
+
+/* Text for Set Up OneDrive button, used in error dialogs. */
+"SetUpDriveButtonText" = "A OneDrive beállítása";
+
+/* Text for Exit OneDrive button, used in error dialogs. */
+"ExitOneDriveButtonText" = "Kilépés a OneDrive-ból";
+
+// About box - used by coreController.mm
+
+/* Application name displayed in the about dialog */
+"AboutApplicationName" = "Microsoft® OneDrive";
+
+/* Copyright info for the updated about dialog */
+"CopyrightText" = "© 2018 Microsoft Corporation. Minden jog fenntartva.";
+
+/* Third Party Notices */
+"ThirdPartyNotices" = "Független gyártókra vonatkozó közlemények";
+
+// Menu Items
+
+/* Text for menu item to open the online help website */
+"MainMenuOnlineHelpMenuItemText" = "A OneDrive online súgója";
+
+/* Text for menu item to open the service agreement website */
+"MainMenuServiceAgreementMenuItemText" = "Használati feltételek";
+
+/* Text for menu item to open the private agreement website. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"MainMenuPrivacyAgreementMenuItemText" = "Adatvédelem és cookie-k";
+
+/* Text for menu item to open the server status website */
+"MainMenuServerStatusMenuItemText" = "Kiszolgáló állapota";
+
+// Manifest failures
+
+/* Main text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureTitle" = "A OneDrive nem indítható el";
+
+/* Informative text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureMessage" = "Probléma merült fel az alkalmazásfájlokkal kapcsolatban. Kérjük, töltse le az alkalmazást a számítógépre, majd próbálkozzon újra.";
+
+/* Quit button for the message box which explains the application is corrupt and must exit now */
+"ManifestValidationFailureQuitButton" = "Kilépés a OneDrive-ból";
+
+// Updater
+
+/* Message title in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableTitle" = "A OneDrive-ot frissíteni kell.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableMessage" = "A OneDrive további használatához telepítenie kell egy frissítést.";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreRequiredUpdateAvailableOpenInAppStoreButton" = "A frissítés letöltése";
+
+/* Text in button which quits the application */
+"AppStoreRequiredUpdateAvailableCloseButton" = "Kilépés a OneDrive-ból";
+
+/* Message title in dialog when there is an optional update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableTitle" = "Elérhető egy frissítés a OneDrive-hoz.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableMessage" = "Le szeretné tölteni a frissítést?";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreOptionalUpdateAvailableOpenInAppStoreButton" = "A frissítés letöltése";
+
+/* Text in button which quits the application */
+"AppStoreOptionalUpdateAvailableCloseButton" = "Nem, köszönöm";
+
+// Standalone migration
+
+/* Title for dialog shown to a user in a Mac App Store (MAS) migration downgrade scenario.
+ (When a user installs a lower version of Standalone on top of a higher version of Store) */
+"MASMigrationDowngradeScenarioTitle" = "A OneDrive nem tudta áthelyezni a beállításokat";
+
+/* Message for dialog shown to a user in a MAS migration downgrade scenario, informing them of their options */
+"MASMigrationDowngradeScenarioMessage" = "Nem sikerült áthelyezni a beállításokat, mert elavult az app. Kérjük, töltse le és telepítse a legújabb verziót, vagy állítsa be újból a OneDrive-ot.";
+
+/* Later button for dialog shown to a user in a MAS migration downgrade scenario. The button will exit the client so the user may launch it again to retry the update later */
+"MASMigrationDowngradeScenarioLaterButton" = "Később";
+
+/* Download button for dialog shown to a user in a MAS migration downgrade scenario. The button will trigger a download of the latest version of Standalone OneDrive */
+"MASMigrationDowngradeScenarioDownloadButton" = "Letöltés és telepítés";
+
+/* Set Up OneDrive button for dialog shown to a user in a MAS migration downgrade scenario. The button will cause OneDrive to drop the user's Store settings and show FRE so the user can re-configure their OneDrive for Standalone */
+"MASMigrationDowngradeScenarioResetupOneDriveButton" = "A OneDrive beállítása";
+
+// Sandbox migration
+
+/* Text in button to select and confirm where the OneDrive folder is */
+"SandboxMigrationConfirmButton" = "Hely megerősítése";
+
+/* Text in button to quit the OneDrive application */
+"SandboxMigrationQuitButton" = "Kilépés a OneDrive-ból";
+
+/* Bold text summarizing that the user needs to confirm where the OneDrive folder is */
+"SandboxMigrationTitle" = "Kérjük, erősítse meg a OneDrive-mappa helyét";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationText" = "A OneDrive használatának folytatásához meg kell erősítenie a OneDrive-mappa jelenlegi helyét a Mac gépen.";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationWindowTitle:%@" = "A %@-mappa helyének megerősítése";
+
+/* Text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderMessage" = "Kérjük, erősítse meg a OneDrive-mappa helyét.";
+
+/* Button text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderButton" = "Megerősítés";
+
+/* Title text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderTitle" = "Biztosan megszakítja a meglévő OneDrive-mappa használatát?";
+
+/* Descriptive text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderMessage" = "Új hely választásához kattintson A OneDrive-telepítő futtatása elemre. A OneDrive-ban lévő minden eleme letöltődik egy új OneDrive-mappába. Ha továbbra is a meglévő OneDrive-mappáját szeretné használni, kattintson a Vissza gombra, és jelölje ki a mappát.";
+
+/* Button text to pick a different folder */
+"SandboxMigrationConfirmDifferentFolderGoBackButton" = "Vissza";
+
+/* Button text to continue on and reconfigure OneDrive */
+"SandboxMigrationConfirmDifferentFolderQuitButton" = "A OneDrive-telepítő futtatása";
+
+/* Text for alerting invalid app bundle location */
+
+/* Title text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertTitle" = "A OneDrive alkalmazásnak az Alkalmazások mappában kell lennie.";
+
+/* Description text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertDescription" = "Kérjük, lépjen ki a OneDrive-ból, helyezze át a OneDrive alkalmazást az Alkalmazások mappába, és nyissa meg ismét a OneDrive-ot.";
+
+/* Button text to exit in the invalid app location alert */
+"InvalidBundleLocationAlertButtonText" = "Kilépés a OneDrive-ból";
+
+
+/* ---------------------------- Support Window ------------------- */
+/* OK Button */
+"SupportWindowOkButton" = "OK";
+
+/* Cancel Button*/
+"SupportWindowCancelButton" = "Mégse";
+
+/* Try Again Button */
+"SupportWindowTryAgainButton" = "Újra";
+
+/* Header string for Support Window */
+"SuportWindowReportProblem" = "Probléma bejelentése";
+
+/* Subheading of support window that gives instructions on what to type */
+"SuportWindowTicketSubheading" = "Elnézést kérünk, de valami nem működik az Ön OneDrive-jában. A probléma feltárása érdekében írjon le mindent, amit tud a problémáról és azt is, hogy mit csinált éppen, amikor az jelentkezett.";
+
+/* Header to the textbox in the support window */
+"SupportWindowDescription" = "Leírás:";
+
+/* String at the bottom of the support window - right below the text field where the user types */
+"SupportWindowContactWarning" = "Az OK gombra kattintva beleegyezik, hogy a Microsoft megkeresse Önt ezzel a visszajelzéssel kapcsolatban.";
+
+/* Link to privacy statement - very bottom of support dialog. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"SupportWindowPrivacyStatement" = "Adatvédelem és cookie-k";
+
+/* Text below the progress bar while the support text is being sent */
+"SupportWindowSending" = "Küldés...";
+
+/* Success message for when the support text was successfully sent */
+"SupportSuccessMessage:%@" = "Köszönjük, hogy időt szánt a OneDrive problémájának leírására. E-mail-címére (%@) visszaigazolást fogunk küldeni arról, hogy megkaptuk az üzenetét.";
+
+/* Error message for when the report was no sucessfully sent. Contains a hyperlink designated by <a> and </a> */
+"SupportErrorMessage" = "Nem sikerült elküldeni az üzenetet. Ellenőrizze az internetkapcsolatot, és próbálkozzon újra. A problémát <a>ügyfélszolgálatunkon</a> is bejelentheti.";
+
+/* Text for email text field label shown in the support window */
+"SupportWindowEmailLabel" = "E-mail-cím:";
+/* ----------------------------------------------------------------- */
+
+// App store related strings
+
+/* Apple app store description for OneDrive Mac client */
+"StoreDescription" = "A OneDrive az Ön mindig elérhető ingyenes online tárhelye. Az oda feltöltött személyes fájljait Mac gépéről és bármely más eszközéről elérheti – iPhone vagy iPad készülékről, PC-ről, Windows Phone-telefonról vagy Android-eszközről. A OneDrive Vállalati verzió a munkafájljainak biztosít tárhelyet, ahol megoszthatja őket, és együtt dolgozhat rajtuk munkatársaival vagy iskolatársaival. A Machez készült OneDrive appal egyszerűen dolgozhat OneDrive-fájljaival Mac gépén:\r\n•OneDrive-fájljaihoz közvetlenül a Finderből férhet hozzá, beleértve az Outlook.com-ról a OneDrive-ra mentett mellékleteket, valamint az Office Online-on létrehozott dokumentumokat és számolótáblákat.\r\n•OneDrive-fájljaival akár offline állapotban is dolgozhat. Az elvégzett módosítások automatikusan szinkronizálódnak a következő alkalommal, amikor online állapotba vált.\r\n•Kiválaszthatja a OneDrive-tárhelyén a Mac gépére szinkronizálandó mappákat.\r\n•Egyszerre több fájlt vagy mappát úgy vehet fel a OneDrive-ra, hogy áthúzza őket a OneDrive mappába. Ha a fájlokat elhelyezi a OneDrive-on, bárhonnan elérheti őket, és biztonsági másolattal rendelkezik róluk arra az esetre, ha valami történne a gépével.\r\n•Egyszerűen nyithat meg, szerkeszthet és készíthet dokumentumokat és más fájlokat a OneDrive-on különböző appokból, például a Wordből vagy az Excelből. Megosztott mappákat is felvehet a OneDrive-ra a OneDrive.com-on lévő Megosztva listáról, majd szinkronizálhatja őket a gépére. Ezeket a mappákat saját mappáival párhuzamosan használhatja.";
+
+/* Pool of generic localized Strings to use for update description */
+"GenericUpdateDescription" = "Kijavítottuk a szinkronizálás megbízhatóságát érintő hibákat. Továbbfejlesztettük az alkalmazás megbízhatóságát. Javítottuk a szinkronizálási teljesítményt. Csökkentettük az akkumulátorfogyasztást.";
+
+"GenericStoreUpdate" = "Köszönjük, hogy a OneDrive-ot használja. Igyekszünk minél gyakrabban frissíteni az appot, hogy a teljesítményt javító legújabb fejlesztések és a hibajavítások révén a lehető legjobb legyen.";
+
+"R16String" = "Forgalmi díjas hálózatot használ, és aggódik a sávszélesség-használat miatt? Ezentúl már fel is függesztheti a OneDrive működését a További beállítások (...) menüből.";
+
+"R18String" = "Köszönjük, hogy a OneDrive-ot használja. A teljesítmény javítását és a programhibák elhárítását célzó legújabb szokásos frissítéseken kívül ezeket az új funkciókat vezetjük majd be fokozatosan:\nÚj rétegekkel jelezzük, hogy megosztott mappáról van-e szó.\nA képernyőképek mostantól átirányíthatók a OneDrive-ra.";
+
+"R19String" = "Köszönjük, hogy a OneDrive-ot használja. A teljesítmény javítását és a programhibák elhárítását célzó legújabb szokásos frissítéseken kívül ezeket az új funkciókat vezetjük majd be fokozatosan:\nA gépére szinkronizált Office-dokumentumok úgy nyílnak meg, hogy valós időben lehessen közösen dolgozni rajtuk.\nA gépére szinkronizált Office-dokumentumok már az Office-appokból is megoszthatók.\nHa a jobb gombbal a OneDrive felhőikonjára kattint, a helyi menü ezentúl a tevékenységközpontban nyílik meg.\nA verziószám átkerült a beállítások között található Névjegy lapra, tehát nem külön ablakban jelenik meg.";
+
+"R20String" = "Köszönjük, hogy a OneDrive-ot használja. A teljesítmény javítását és a programhibák elhárítását célzó legújabb szokásos frissítéseken kívül ezeket az új funkciókat vezetjük majd be fokozatosan:\nHa szünetel a szinkronizálás, a szalagcímre koppintva újból elindítható.";
+
+"R21String" = "Köszönjük, hogy a OneDrive-ot használja. A teljesítmény javítását és a programhibák elhárítását célzó legújabb szokásos frissítéseken kívül ezeket az új funkciókat vezetjük majd be fokozatosan:\nÚj lehetőségként az olyan SharePoint-dokumentumtárak is szinkronizálhatók a kiszolgálóról, amelyekben engedélyezve van a tartalomvédelmi szolgáltatás";
+
+"R22String" = "Köszönjük, hogy a OneDrive-ot használja. A teljesítmény javítását és a programhibák elhárítását célzó legújabb szokásos frissítéseken kívül ezeket az új funkciókat vezetjük majd be fokozatosan:\nA OneDrive Tevékenységközpont korszerűsítésen esett át, mostantól könnyebb lesz használni és átlátni.\nA menü „Probléma bejelentése” parancsát megváltoztattuk, ezentúl a „Visszajelzés küldése” parancs látható a helyén. Elmondhatja nekünk, hogy mi tetszik és mi nem, vagy javasolhat egy olyan funkciót, amelyet régóta hiányol a OneDrive-ból. Odafigyelünk a véleményére!";
+
+"R24String" = "Köszönjük, hogy használja a OneDrive-ot. A szokásos, a teljesítményt fokozó és a hibákat javító frissítéseinken túl most a következő új funkciókat fogjuk fokozatosan bevezetni felhasználóink körében:\nA OneDrive mostantól támogatja a macOS Mojave Sötét üzemmódját. A Sötét üzemmód aktiválása esetén a OneDrive egészének felhasználói felülete gyönyörű sötét külsőt ölt magára.";
+
+"R26String" = "Köszönjük, hogy a OneDrive-ot használja. A teljesítmény javítását és a programhibák elhárítását célzó legújabb szokásos frissítéseken kívül ezeket az új funkciókat vezetjük majd be fokozatosan:\nSötét témával bővült a megosztási párbeszédpanel.\nMódosítottunk néhány dolgot, hogy javuljon a teljesítmény és csökkenjen a processzor igénybevétele. Tudassa velünk, ha továbbra is hibákat tapasztal.";
+
+"R32String" = "Köszönjük, hogy a OneDrive-ot használja. A teljesítmény javítását és a programhibák elhárítását célzó legújabb szokásos frissítéseken kívül ezeket az új funkciókat vezetjük majd be fokozatosan:\nMost már több képernyőn is futhat az app, és a kiválasztott képernyőn jeleníthető meg a tevékenységközpont.";
+
+/* Files On-Demand is the name of a feature that is already available on OneDrive on Windows already. */ 
+"R29String" = "Ez a legújabb frissítés már tartalmazza a OneDrive Igény szerinti fájlok funkcióját, amellyel anélkül férhet hozzá a OneDrive-on tárolt összes fájljához, hogy le kellene töltenie őket eszköze tárterületére. A weben vagy egy másik eszközön létrehozott új fájlok csak online elérhető fájlokként jelennek meg, vagyis nem foglalnak helyet az eszközén. Ha van internetkapcsolat, ugyanúgy használhatja a fájlokat, mint az eszközén lévő bármely másik fájlt.\nAz Igény szerinti fájlok funkció csak a legújabb (10.14.2-es vagy annál újabb) macOS Mojave-verzión futtatható, és a OneDrive Beállítások menüjéből megnyitható Általános lapon engedélyezhető.";
+
+// Finder sync extension commands
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will copy a shareable link to their keyboard */
+"MenuItemShareCommand" = "OneDrive-link megosztása";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will open a web browser and display the selected file in the web interface */
+"MenuItemViewOnlineCommand" = "Megtekintés a weben";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a selective sync window. */
+"MenuItemSelectiveSyncCommand" = "Szinkronizálandó OneDrive-mappák kiválasztása";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a browser window that displays some detailed sharing options for the file. */
+"MenuItemSharingOptionsCommand" = "További megosztási lehetőségek a OneDrive-on";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a hosted browser window that OneDrive controls. This browser window will load a web page from sharepoint and allow the user to modify sharing options from the file. This is different from just launching the user's default browser. */
+"MenuItemShareBrowserWindowCommand" = "Megosztás";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch the preferences window for the account that the right clicked file belongs to. */
+"MenuItemPreferencesCommand" = "Beállítások";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. */
+"MenuItemPinCommand" = "Mindig maradjanak ezen az eszközön";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. */
+"MenuItemUnpinCommand" = "Tárterület felszabadítása";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will lock the folder. %@ is a folder name. */
+"MenuItemLockCommand:%@" = "Mappa (%@) zárolása";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will unlock the folder. %@ is a folder name. */
+"MenuItemUnlockCommand:%@" = "Mappa (%@) zárolásának feloldása";
+
+// Finder Sync Extension Tooltips
+
+/* Tooltip for synced / up-to-date icon in Mac Finder */
+"IconOverlaySyncedLabel" = "Szinkronizálva";
+
+/* Tooltip for syncing icon in Mac Finder */
+"IconOverlaySyncingLabel" = "Szinkronizálás";
+
+/* Tooltip for error icon in Mac Finder */
+"IconOverlayErrorLabel" = "Hiba";
+
+/* Tooltip for shared folder synced / up-to-date icon in Mac Finder */
+"IconOverlaySharedSyncedLabel" = "Szinkronizálva";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlaySharedSyncingLabel" = "Szinkronizálás";
+
+/* Tooltip for shared folder error icon in Mac Finder */
+"IconOverlaySharedErrorLabel" = "Hiba";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlayReadOnlyLabel" = "Naprakész, csak olvasható";
+
+/* Tooltip for unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedLabel" = "Elérhető ezen az eszközön";
+
+/* Tooltip for pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedLabel" = "Mindig elérhető ezen az eszközön";
+
+/* Tooltip for unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedLabel" = "Csak online módban érhető el";
+
+/* Tooltip for read-only, unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedReadOnlyLabel" = "Csak írásvédettként érhető el ezen az eszközön";
+
+/* Tooltip for read-only, pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedReadOnlyLabel" = "Mindig elérhető ezen az eszközön, de csak írásvédettként";
+
+/* Tooltip for read-only, unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedReadOnlyLabel" = "Csak online módban érhető el, és csak írásvédettként";
+
+/* Action center (Toast) notification header for the Icon Overlay feature */
+"IconOverlayToastTitle" = "Új, szinkronizálási állapotot jelző ikonok megtekintése";
+
+/* Action center (Toast) notification body for the Icon Overlay feature */
+"IconOverlayToastBody" = "Kattintson, ha engedélyezni szeretné a OneDrive-nak a szinkronizálási állapot megjelenítését a Finderben.";
+
+/* Preferences Dialog string for enabling icon overlays*/
+"IconOverlayPreferencesLink" = "A OneDrive megjelenítheti a szinkronizálási állapotot a Finderben";
+
+// App moniker related strings
+
+/* Text of basic Moniker*/
+"BasicMoniker:%@" = "OneDrive – %@";
+
+/* Text of Moniker with user's first name. %0@ is user's firstname, %1@ is string like 'OneDrive - Personal' */
+"MonikerWithFirstName:%@,%@" = "%0@ – %1@";
+
+/* Text of Moniker with user's email. %0@ is string like 'OneDrive - Personal', %1@ is email address */
+"MonikerWithEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text of Moniker with user's first name and email. %0@ is MonikerWithFirstName like Someone's OneDrive - Personal, %1@ is email address */
+"MonikerWithFirstNameAndEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text used in BasicMoniker for personal client */
+"PersonalDisplayMoniker" = "Személyes";
+
+// Notifications
+
+/* Balloon tip primary text to notify users that the shared folders sync feature is available */
+"SharedFoldersEnabledBaloonTipHeader" = "Új – szinkronizálhatók a megosztott mappák!";
+
+/* Balloon tip secondary text describing how to start using the shared folder sync feature */
+"SharedFoldersEnabledBaloonTipBody" = "Ide kattintva megtekintheti a OneDrive.com-on Önnel megosztott mappákat. Ezután válasszon egy mappát, amelyhez szerkesztési jogosultsága van, és kattintson a Felvétel a OneDrive-omra elemre.";
+
+/* Message shown when users try to run different flavors of OneDrive app side by side */
+"DifferentTypesOfAppSideBySide" = "A számítógépén a OneDrive két példánya is megtalálható. Egyszerre csak egy példány futtatható. Azt javasoljuk, hogy távolítsa el az egyik példányt. Ha látni szeretné, hogy melyik példányt nyitotta meg, kattintson a OneDrive ikonra a menüsávon, és válassza a Beállítások > Névjegy parancsot.";
+
+/* Title for a notification shown when the user copies a link to a file to their pasteboard */
+"CopyFileLinkToPasteboardTitle" = "A link beilleszthető";
+
+/* Body for a notification shown when the user copies a link toa a file to their pasteboard */
+"CopyFileLinkToPasteboardBody" = "Mentettük a linket a vágólapra, így üzenetbe vagy bejegyzésbe illesztve megoszthatja másokkal. A link birtokában bárki szerkesztheti a fájlt.";
+
+/* Title for a notification shown when a screen capture is saved */
+"ScreenshotSavedTitle" = "Képernyőkép mentve";
+
+/* Body for a notification shown when a screen capture is saved. Screenshots should be localized and capitolized. */
+"ScreenshotSavedBody" = "Ide kattintva megnyithatja a Képernyőképek mappát";
+
+/* Title for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorTitle" = "Nem sikerült a OneDrive-ra menteni a képernyőképeket";
+
+/* Body for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorBody" = "A képernyőképek mentéséhez szinkronizálja a OneDrive-ra munkahelyi vagy iskolai fájljait. Kattintson a Fiók lap Szinkronizálás indítása elemére.";
+
+// Campaign Manager toast notifications
+
+/* Title for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastTitle" = "Megnyitás engedélyezése bejelentkezéskor";
+
+/* Body for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastBody" = "Mindig szinkronban tarthatja a fájlokat.";
+
+/* Title for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastTitle" = "A szinkronizálási állapot megtekintése a Finderben";
+
+/* Body for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastBody" = "Finder-integráció engedélyezése.";
+
+/* Title for Placeholders Finder Sync Extension Campaign toast */
+"PlaceholdersFinderSyncCampaignToastTitle" = "Az Igény szerinti fájlok funkcióval helyet szabadíthat fel";
+
+/* Body for Placeholders Finder Sync Extension Campaign toast*/
+"PlaceholdersFinderSyncCampaignToastBody" = "Ide kattintva befejezheti a beállítást a OneDrive Finder-bővítményének bekapcsolásával.";
+
+/* Title for Rate Application Campaign toast */
+"RatingsCampaignToastTitle" = "Ossza meg velünk a véleményét";
+
+/* Body for Rate Application Campaign toast */
+"RatingsCampaignToastBody" = "A OneDrive app értékelése vagy visszajelzés küldése.";
+
+// Rate Our Application Window
+
+/* Windows title for rate our application window.
+ There's probably no need to localize this string. */
+"RateApplicationWindowTitle" = "Microsoft OneDrive";
+
+/* Title for Rate Us WindowText on two lines, please keep the \n in translation as a line terminator after "Thank you" */
+"RateApplicationBodyTitle" = "Köszönjük,\nhogy a OneDrive-ot használja!";
+
+/* Text for Rate us button */
+"RateApplicationWindowRateButton" = "Tetszik? Kérjük, részletezze!";
+
+/* Text for Tell us how to improve button */
+"RateApplicationWindowSupportbutton" = "Mondja el, mit javítsunk?";
+
+/* Text for Rate Us button - more engaging */
+"RateApplicationWindowRateButtonEngage" = "Adjon rá 5 csillagot!";
+
+/*Text for Rate Us button - with question */
+"RateApplicationWindowRateButtonQuestion" = "Tetszik? Adjon rá 5 csillagot!";
+
+/* ---------------------------- Activity Center ------------------- */
+
+/* Text shown in title bar of Activity Center when we're up to date */
+"ActivityCenterHeaderUpToDate" = "A OneDrive naprakész";
+
+/* Text shown in title bar of Activity Center when files are syncing */
+"ActivityCenterHeaderUpdatingFiles" = "A OneDrive frissíti a fájlokat...";
+
+/* Text shown in title bar of Activity Center when there are sync problems */
+"ActivityCenterHeaderNeedsAttention" = "A OneDrive-on beavatkozásra van szükség";
+
+/* Text shown in title bar of Activity Center when we're paused */
+"ActivityCenterHeaderPaused" = "A OneDrive működése szünetel";
+
+/* Text shown in title bar of Activity Center when we're offline */
+"ActivityCenterHeaderOffline" = "A OneDrive offline állapotban van";
+
+/* Text shown in title bar of Activity Center when we aren't signed in */
+"ActivityCenterHeaderNotConnected" = "Nincs bejelentkezve a OneDrive-ra";
+
+/* Text shown in the header of Activity Center when OneDrive is being reset */
+"ActivityCenterHeaderResetting" = "Alaphelyzetbe állítjuk a OneDrive-tárhelyét...";
+
+/* Primary text shown in the error bar of Activity Center, placeholder is number of items */
+"ActivityCenterFileErrorsItemPrimary" = "%@ elem nem szinkronizálható";
+
+/* Primary text shown in the error bar of Activity Center, singular item version  */
+"ActivityCenterFileErrorsItemPrimarySingle" = "1 elem nem szinkronizálható";
+
+/* Secondary text shown in the error bar of Activity Center */
+"ActivityCenterFileErrorsItemSecondary" = "További információért kattintson ide";
+
+/* Up-to-date primary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemPrimary" = "Elkészültünk";
+
+/* Up-to-date secondary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemSelectiveSync" = "Minden fájl naprakész";
+
+/* Up-to-date primary text shown on Activity Center while paused */
+"ActivityCenterPausedPrimary" = "Szünetel a fájlszinkronizálás.";
+
+/* Up-to-date secondary text shown on Activity Center while paused */
+"ActivityCenterPausedSecondary" = "Ha szeretné, hogy naprakészek legyenek a fájljai, ide kattintva újból elindíthatja a szinkronizálást.";
+
+/* Text showing progress on one item when it's downloading or uploading. Placeholders are numbers and units for file progress. E.g. Uploading - 10 MB of 1 GB" */
+"ActivityCenterItemProgress" = "· %3$@ %4$@/%1$@ %2$@";
+
+/* Text showing progress on one item when it's downloading or uploading with differential sync. Placeholder %1$@ is a number, %2$@ is a unit, %3$@ is a number, %4$@ is a unit, %5$@ is a number, %6$@ is a unit E.g. Uploading - 10 MB of 1 GB (100 KB)" */
+"ActivityCenterItemProgressDiffSyncUX" = "· %3$@ %4$@/%1$@ %2$@ (%5$@ %6$@)";
+
+/* Text shown on one item when it's uploading. */
+"ActivityCenterItemUploading" = "Feltöltés folyamatban";
+
+/* Text shown on one item when it's reviewing the file before syncing. This is specific to differential sync */
+"ActivityCenterItemReviewingChanges" = "Előkészítjük a szinkronizálást";
+
+ /* Text shown on one item when it's downloading. */
+"ActivityCenterItemDownloading" = "Letöltés folyamatban";
+
+/* Status shown on an item that's finished transfering. */
+"ActivityCenterItemUpdated" = "Frissítve a OneDrive-on";
+
+/* Status shown on an item that's been removed. */
+"ActivityCenterItemRemoved" = "Eltávolítva a OneDrive-ról";
+
+/* Status shown on an item that's finished uploading. Placeholder %% is a folder name. */
+"ActivityCenterItemUploaded" = "Feltöltve ide: %%";
+
+/* Status shown on an item that's finished downloading. Placeholder %% is a folder name. */
+"ActivityCenterItemDownloaded" = "Letöltve ide: %%";
+
+/* Status shown on an item that's finished moving. Placeholder %% is a folder name. */
+"ActivityCenterItemMoved" = "Áthelyezve ide: %%";
+
+/* Status shown on an item that was renamed. Placeholder %% is a folder name. */
+"ActivityCenterItemRenamed" = "Átnevezve itt: %%";
+
+/* Status shown on an item that represents a placeholder file. Placeholder %% is a folder name. */
+"ActivityCenterItemPlaceholder" = "Itt érhető el: %%";
+
+/* Timestamp on an item. Placeholders are for time difference and units E.g. 5 minutes ago */
+"ActivityCenterItemTime" = "%1$@ %2$@e";
+
+/* Timestamp on an item plus application. Placeholders %1$@ %2$@ are for time difference and units. %3$@ is an application name E.g. 5 minutes ago · Microsoft Word */
+"ActivityCenterItemTimeWithAppName" = "%1$@ %2$@ · %3$@";
+
+/* Timestamp on an item plus application. Placeholder %1$@ is for a date. %2$@ is an application name E.g. 8/24/2018 · Microsoft Word */
+"ActivityCenterItemDateWithAppName" = "%1$@ · %2$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncing" = "%1$@ fájl szinkronizálása · %2$@ %3$@/%4$@ %5$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncingSingle" = "1 fájl szinkronizálása · %1$@ %2$@/%3$@ %4$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing changes */
+"ActivityCenterSummaryProcessingChanges" = "Módosítások feldolgozása";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing a single change */
+"ActivityCenterSummaryProcessingChangesCountSingle" = "Módosítás feldolgozása folyamatban";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing multiple changes. The placeholder %1$@ indicates the number of changes */
+"ActivityCenterSummaryProcessingChangesCount" = "%1$@ módosítás feldolgozása folyamatban";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're looking for file system changes */
+"ActivityCenterSummaryLooking" = "Módosítások keresése";
+
+/* Text read aloud when list of recent files is selected */
+"ActivityCenterHistoryListAccessibleText" = "Legutóbbi fájlok";
+
+/* time units used in activity center on timestamps. E.g. 1 second ago */
+"ActivityCenterSecondSingle" = "másodperce";
+
+/* time units used in activity center on timestamps. E.g. N seconds ago */
+"ActivityCenterSecondsMultiple" = "másodperce";
+
+/* time units used in activity center on timestamps. E.g. 1 minute ago */
+"ActivityCenterMinuteSingle" = "perce";
+
+/* time units used in activity center on timestamps. E.g. N minutes ago */
+"ActivityCenterMinutesMultiple" = "perce";
+
+/* time units used in activity center on timestamps. E.g. 1 hour ago */
+"ActivityCenterHourSingle" = "órája";
+
+/* time units used in activity center on timestamps. E.g. N hours ago */
+"ActivityCenterHoursMultiple" = "órája";
+
+/* Text shown on a button in the Activity Center that takes the user to the Upgrade storage page on OneDrive */
+"ActivityCenterQuotaButtonGetMoreStorage" = "További tárterület vásárlása";
+
+/* Text shown on a link in the Activity Center that takes the user to the Free up space page on OneDrive */
+"ActivityCenterQuotaButtonFreeUpSpace" = "Tárhely felszabadítása";
+
+/* Primary text shown in the Activity Center when the user's quota is nearing maximum or in a critical state. The placeholders are the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso") and the percentage of space occupied, e.g Your OneDrive is 98% full */
+"ActivityCenterQuotaCriticalTitle, %@ %@" = "Tárhelye (%1$@) %2$@%%-ig megtelt";
+
+/* Secondart text shown in the Activity Center when the user is approaching critical quota. The placeholders are size and units remaining. E.g. You have only 10 MB of available space */
+"ActivityCenterQuotaLeftText, %@ %@" = "Csak %1$@ %2$@ szabad tárhelye van";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive. */
+"ActivityCenterQuotaReachedBody" = "Az új fájlok szinkronizálásának folytatásához vásároljon további tárterületet.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for Office 365 users. */
+"ActivityCenterQuotaReachedBody1TB" = "Terület felszabadításához távolítsa el a feleslegessé vált fájlokat.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for business users. */
+"ActivityCenterQuotaReachedBodyBusiness" = "OneDrive-tárterülete felől érdeklődjön az informatikai részlegén, vagy fájlok eltávolításával szabadítson fel helyet.";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitleBusiness, %@" = "Megtelt a tárhelye a következőn: %1$@";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitle, %@" = "Megtelt a tárterülete a következőn: %1$@";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown for 1 week before switching to the normal banner text. */
+"ActivityCenterQuotaUpsellBannerIntroTitle" = "Bemutatjuk a prémiumfunkciókat";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalTitle" = "Váltás a prémium verzióra";
+
+/* Secondary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalBody" = "1 TB (1000 GB) tárterületet kap, és vadonatúj Office 2016-alkalmazásokhoz juthat hozzá.";
+
+/* Part of the secondary text shown in the Activity Center for users without an O365 subscription. This appears in the banner for both upsell states of the banner. */
+"ActivityCenterQuotaUpsellBannerLearnMore" = "További információ";
+
+/* The Accessibility text hint for the ACM dismiss button. */
+"ActivityCenterMessageDismissHint" = "Bezárás";
+
+/* Primary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInTitle" = "A kezdéshez jelentkezzen be a OneDrive-ra";
+
+/* Secondary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInBody" = "Ha szüksége van a fájljaira, és szinkronizálni szeretné őket erre az eszközre, jelentkezzen be a OneDrive-ra.";
+
+/* Button text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInButton" = "Bejelentkezés";
+
+/* Text shown in the Activity Center while we are signing the user in. */
+"ActivityCenterSigningIn" = "Bejelentkezés folyamatban";
+
+/* Text shown in the Activity Center while we are signing the user out. */
+"ActivityCenterSigningOut" = "Kijelentkezés folyamatban";
+
+/* Clicking this button will open (action) the OneDrive folder in File Explorer */
+"ActivityCenterFooterButtonOpenFolder" = "Mappa megnyitása";
+
+/* Clicking this button will open (action) a web portal where the user can upgrade their account */
+"ActivityCenterFooterButtonGoPremium" = "Váltás a prémium verzióra";
+
+/* Clicking this button opens the user's (action) OneDrive folder online. ("View" here is an action) */
+"ActivityCenterFooterButtonViewOnline" = "Megtekintés a weben";
+
+/* Clicking this button opens (action) a context menu which contains extra actions like pause, settings and quit */
+"ActivityCenterFooterButtonMore" = "Egyebek";
+
+/* Accessibility text for button that will cancel a download */
+"ActivityCenterCancelButtonAccessibleName" = "Letöltés megszakítása";
+
+/* The name "OneDrive" */
+"OneDriveBrandName" = "OneDrive";
+
+/* Primary text shown in the alert of restart after crash */
+"RestartAfterCrashAlertTitle" = "Probléma merült fel a OneDrive-val kapcsolatban";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is enabled */
+"RestartAfterCrashAlertBodyReportAProblemEnabled" = "Sajnáljuk, hogy problémákat tapasztal a OneDrive-val kapcsolatban. A probléma bejelentésével segítséget kérhet a támogatási szolgálattól, vagy megpróbálkozhat a OneDrive visszaállításával. A OneDrive visszaállításához ismét be kell állítania a OneDrive alkalmazást.";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is disabled */
+"RestartAfterCrashAlertBodyReportAProblemDisabled" = "Sajnáljuk, hogy problémákat tapasztal a OneDrive-val kapcsolatban. A probléma bejelentésével segítséget kérhet a támogatási szolgálattól, vagy megpróbálkozhat a OneDrive visszaállításával. A OneDrive visszaállításához ismét be kell állítania a OneDrive alkalmazást.";
+
+/* Text for report a problem button shown in the alert of restart after crash */
+"RestartAfterCrashAlertReportAProblemButtonText" = "Probléma bejelentése";
+
+/* Text for reset onedrive button shown in the alert of restart after crash */
+"RestartAfterCrashAlertResetOneDriveButtonText" = "A OneDrive visszaállítása";
+
+/* Text for cancel button shown in the alert of restart after crash */
+"RestartAfterCrashAlertCancelButtonText" = "Mégse";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared */
+"ShareWebWindowTitle, %@" = "Fájl vagy mappa (%@) megosztása";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared - this one has quotes around the item name */
+"ShareWebWindowTitleWithQuotes:%@" = "Fájl vagy mappa (%@) megosztása";
+
+/* Error primary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorTitleGeneric" = "Valami történt";
+
+/* Error secondary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorSecondaryTextGeneric" = "Most nem tudjuk megosztani ezt az elemet. Próbálkozzon újra később.";
+
+/* Error primary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorTitleOffline" = "Csatlakozzon az internethez";
+
+/* Error secondary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorSecondaryTextOffline" = "Úgy tűnik, nincs internetkapcsolat. Csatlakozzon az internethez, és próbálkozzon úgy a megosztással.";
+
+/* Text on error button in the Sharing Web Browser window */
+"ShareWebErrorButtonText" = "Újra";
+
+/* Text shown on the Loading view of the Sharing Web Browser window */
+"ShareWebLoading" = "Betöltés folyamatban";
+
+/* Text read by the Voice Over utility (accessibility) for the Loading spinner on the Sharing Web Browser Window. The placeholder is the name of the file / folder being shared. */
+"ShareWebLoadingNarrator:%@" = "Előkészítjük a fájlt vagy a mappát (%@) megosztásra";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog title */
+"FoundSameNamesUnderFolderErrorTitle" = "Fájlszinkronizálási hiba";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog body. The placeholder is the full path of the file. Please keep "\n" intact. */
+"FoundSameNamesUnderFolderErrorBody:%@" = "Már van ugyanilyen (vagy legfeljebb a kis- és nagybetűkben különböző) nevű fájl a megadott helyen.\n%@\nNevezze át vagy helyezze át az egyik fájlt, majd nyissa meg újból a OneDrive appot.";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog OK button */
+"FoundSameNamesUnderFolderErrorButton" = "OK";
+
+/* Primary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedPrimary" = "A feltöltés felfüggesztve";
+
+/* Secondary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedSecondary" = "Áthelyezzük az online fájljait Önhöz közelebbi kiszolgálókra. Módosításait az áthelyezés befejezése után szinkronizáljuk majd.";
+
+/* Primary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedPrimary" = "Folytatjuk a fájlok szinkronizálását";
+
+/* Secondary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedSecondary" = "Áthelyeztük az online fájljait az új helyen lévő kiszolgálókra.";
+
+/* Primary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantPrimaryText" = "Nem tud szinkronizálni a OneDrive";
+
+/* Secondary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantSecondaryText" = "Az informatikai részleg megtiltotta az itt tárolt fájlok e gépre történő szinkronizálását.";
+
+/* Text for SyncError MinorVersionLimitExceeded error dialog body */
+"SyncErrorShortDescriptionMinorVersionExceededItem" = "A beállított korlát miatt ehhez a fájlhoz már nem menthet több alverziót. Tegye közzé a fájlt a SharePoint-webhelyén: Kattintson a jobb gombbal a fájlra, és válassza az Egyebek > Közzététel lehetőséget. Ezután újból tud majd alverziókat menteni.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast */
+"FolderRecreatedOnFailedDelete Title" = "Nem sikerült törölni egy mappát.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast where %@ is a folder name */
+"FolderRecreatedOnFailedDelete Message:%@" = "Ha ezentúl nem szeretné a gépére szinkronizálni a(z) %@ mappát, ide kattintva nyissa meg a beállításokat, és törölje a mappa jelölését.";
+
+/* Accessibility text for menu item dropdown button */
+"MenuButtonAccessibleName" = "További beállítások";
+
+/* Text for per item menu dropdown Open option */
+"MenuItemOpen" = "Megnyitás";
+
+/* Text for per item menu dropdown Share option */
+"MenuItemShare" = "Megosztás";
+
+/* Text for per item menu dropdown View online option */
+"MenuItemViewOnline" = "Megtekintés a weben";
+
+/* Title of Setting dialog tab that provides options for Office file syncing. */
+"OfficeText" = "Office";
+
+/* Title text of groupbox on the Office settings tab that provides settings for syncing and file collaboration. */
+"OfficeFileCollabGroupBox" = "Közös munka a fájlokon";
+
+/* Explanation text in the File collaboration groupbox that explains syncing files with Office. */
+"OfficeFileCollabTextField" = "Egy időben dolgozhat másokkal az Office-fájlokon, ha a fájlokat szinkronizálja az Office-szal.";
+
+/* Checkbox text for syncing files with Office 2016. {Locked=!cs, sk;\"Office\"} */
+"OfficeFileCollabCheckBox" = "A megnyitott Office-fájlok szinkronizálása Office-alkalmazásokkal";
+
+/* Group box title for the Sync conflicts group box - provides options for how to deal with Office file sync conflicts. */
+"OfficeConflictGroupBox" = "Szinkronizálási ütközések";
+
+/* Radio button for the option to merge files using Office. */
+"OfficeConflictRadioButtonMerge" = "Szeretnék választani a módosítások egyesítése és mindkét példány megtartása között";
+
+/* Radio button for option to always keep both copies of a file when the file is in an Office conflict. */
+"OfficeConflictRadioButtonFork" = "Mindkét példány megőrzése mindig (a számítógépen lévő példány átnevezésével)";
+
+/* Message to notify that an item cannot be deleted and it will be recreated at original location. */
+/* Title Text for SyncError DeleteCancelledByEventReceiver toast */
+"ItemCannotBeDeleted Title" = "Nem sikerült törölni az egyik elemet.";
+
+/* Body Text for SyncError DeleteCancelledByEventReceiver toast where %@ is an item name */
+"ItemCannotBeDeleted Message:%@" = "Ha a továbbiakban nem szeretné a gépére szinkronizálni a(z) %@ elemet, ide kattintva nyissa meg a beállításokat, és törölje az elem jelölését.";
+
+/* Message to notify that an item cannot be moved from its original location, item moved
+    will be recreated at source and the moved copy will be uploaded from destination. */
+/* Title Text for SyncError UploadFailedOnCannotMoveThickets toast */
+"ItemCannotBeMoved Title" = "Nem sikerült áthelyezni az egyik elemet.";
+
+/* Body Text for SyncError MoveCancelledByEventReceiver toast where %@ is a item name which cannot be moved. */
+/* Body Text for SyncError MoveFailedOnCannotMoveThickets toast where %@ is a thicket folder name which cannot be moved. */
+"ItemCannotBeMoved Message:%@" = "Ehelyett az új helyre másoltuk a(z) %@ mappát, és feltöltöttük mindkét példányát.";
+
+/* Message to notify that an item cannot be added or changed due to server response of cancelled by event receiver. */
+/* Title Text for SyncError AddOrChangeCancelledByEventReceiver toast */
+"ItemAddOrChangeCancelledByEventReceiver Title" = "Nem sikerült feltölteni az egyik elemet.";
+
+/* Body Text for SyncError AddOrChangeCancelledByEventReceiver toast where %@ is an item name */
+"ItemAddOrChangeCancelledByEventReceiver Message:%@" = "Ha a továbbiakban nem szeretné a gépére szinkronizálni a(z) %@ elemet, ide kattintva nyissa meg a beállításokat, és törölje az elem jelölését.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryClientError" = "Az IT-részleg előírása értelmében csak jóváhagyott tartományhoz csatlakoztathatja a Mac gépét. Ha ebben segítségre szorul, forduljon hozzájuk.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryDisabled" = "Szervezete nem engedélyezi e mappa szinkronizálását. További információt a webhely tulajdonosától kérhet.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryCheckOut" = "Az e mappában lévő elemek csak a kivételük után szerkeszthetők. Ha szinkronizálni szeretné a mappát, kérje meg a webhely tulajdonosát, hogy kapcsolja ki a Kivétel megkövetelése beállítást.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryColumnInvalid" = "A mappának van egy kötelező információs oszlopa, amely nem szinkronizálható. Kérje meg a webhely tulajdonosát, hogy módosítsa az oszlopokat úgy, hogy ezentúl ne legyenek kötelezőek, valamint hogy kapcsolja ki az adatok érvényességének ellenőrzését.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryIrm" = "A szinkronizálni próbált mappa tartalomvédelemmel van ellátva. Kérje meg a webhelygazdát, hogy tiltsa le a mappa tartalomvédelmét.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryModeration" = "Csak jóváhagyott elemek vehetők fel a mappába. Ha szinkronizálni szeretné a mappát, kérje meg a webhely tulajdonosát, hogy kapcsolja ki a Tartalom jóváhagyása beállítást.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibrary" = "Egy nemrég módosított beállítás miatt nem tudjuk szinkronizálni a mappát. További információt az IT-részlegtől kérhet.";
+
+/* Resolution message text for LostPermissionsToMountPoint error */
+"LostPermissionsToMountPoint" = "Önnek nincs engedélye a tár szinkronizálására. Nyissa meg a tárt a weben, és kérjen hozzáférést ott, vagy kattintással vagy koppintással állítsa le a tár szinkronizálását.";
+
+/* Resolution message text for LibraryDeleted error */
+"LibraryDeleted" = "Ezt a tárt eltávolították. Az erre az eszközre mentett fájlok továbbra is elérhetők. Kattintással vagy koppintással állítsa le a tár szinkronizálását, vagy lépjen kapcsolatba a tár tulajdonosával.";
+
+/* Resolution message text for ServiceBlockedLibrary error */
+"ServiceBlockedLibrary" = "Szolgáltatáshiba történt, és nem találjuk a tárt. Indítsa újra a OneDrive-ot, és próbálkozzon ismét.";
+
+/* Resolution message text for LibraryNotFound error */
+"LibraryNotFound" = "Nem találjuk a tárt. Kattintással vagy koppintással állítsa le a tár szinkronizálását, vagy forduljon a rendszergazdához.";
+
+/* Error message text for SyncIrmFileFailed error */
+"SyncIrmFileFailed" = "Nem sikerült szinkronizálni ezt a védett fájlt. Kérjük, hogy forduljon a SharePoint-adminisztrátorhoz, és kérjen tőle hozzáférést ehhez a védett fájlhoz.";
+
+/* Error message text for IrmRejectedItemOnUpload error */
+"IrmRejectedItemOnUpload" = "Ez a fájl nem szinkronizálható, mert a tartalomvédelmi szolgáltatás tárbeállításai megakadályozzák, hogy a felhasználók olyan dokumentumot töltsenek fel, amely nem támogatja a tartalomvédelmi szolgáltatást.";
+
+/* Error message text for IrmExtensionChangeBlockedItem error */
+"IrmExtensionChangeBlockedItem" = "Nem tudjuk szinkronizálni ezt az elemet, mert a szervezet házirendje nem engedélyezi a fájlok kiterjesztésének módosítását. Kérjük, hogy nyissa meg a fájlt online, és írja vissza a kiterjesztését az eredetire, vagy forduljon a webhely adminisztrátorához.";
+
+/* Error message text for IrmEncryptFailedToFindProtectorItem error */
+"IrmEncryptFailedToFindProtectorItem" = "Nem tudjuk szinkronizálni ezt az elemet, mert a szervezet házirendje nem engedélyezi a fájlok kiterjesztésének módosítását. Kérjük, forduljon a webhely adminisztrátorához.";
+
+/* Error message for ItemCantFitOnDisk error. */
+"ItemCantFitOnDisk" = "Nincs elég hely a gépen a fájl szinkronizálásához.";
+
+/* Text for menu item to open help center */
+"MainMenuItemHelpCenter" = "Súgóközpont";
+
+/* Window title used for send feedback.
+ There's probably no need to localize this string. */
+"FeedbackApplicationTitle" = "Microsoft OneDrive";
+
+/* Send feedback menu item label */
+"FeedbackMenuLabel" = "Visszajelzés küldése";
+
+/* Send feedback window title */
+"FeedbackWindowTitle" = "Visszajelzés küldése";
+
+/* Link to privacy statement page */
+"FeedbackPrivacyLinkText" = "<a href=\"#\">Adatvédelmi elkötelezettségünk</a>";
+
+/* Link to terms of service page */
+"FeedbackTosLinkText" = "A <a href=\"#\">Microsoft</a> menti a visszajelzést, és felhasználja termékfejlesztési célra.";
+
+/* Header of the button to send positive feedback */
+"FeedbackSmileChoiceTitle" = "Tetszik valami";
+
+/* Explanation for the send positive feedback button */
+"FeedbackSmileChoiceText" = "Örülnénk, ha elmondaná, hogy mit csinálunk jól.";
+
+/* Placeholder for the user input field */
+"FeedbackSmileFieldTip" = "Ossza meg velünk, mi tetszett Önnek";
+
+/* Placeholder for the user input field */
+"FeedbackFrownFieldTip" = "Ossza meg velünk, mi nem tetszett Önnek";
+
+/* Header of the send negative feedback button */
+"FeedbackFrownChoiceTitle" = "Nem tetszik valami";
+
+/* Explanation for the send negative feedback button */
+"FeedbackFrownChoiceText" = "Arról is tudni szeretnénk, ha valami nincs rendben.";
+
+/* Header of the Send a Suggestion button */
+"FeedbackSuggestionChoiceTitle" = "Van egy javaslatom";
+
+/* Explanation for the Send a Suggestion button */
+"FeedbackSuggestionChoiceText" = "Várjuk ötleteit és fejlesztési javaslatait.";
+
+/* Checkbox label to opt-in/opt-out of sending log files */
+"FeedbackIncludeLogsLabel" = "Diagnosztikai és használati adatok belefoglalása";
+
+/* Label for the button to send feedback */
+"FeedbackSendButtonLabel" = "Küldés";
+
+/* Label for the button to resent feedback in the case of sending failure */
+"FeedbackRetryButtonLabel" = "Újra";
+
+/* Label for the button to cancel feedback submission request */
+"FeedbackCancelButtonLabel" = "Mégse";
+
+/* Label for the button to finish send feedback */
+"FeedbackCloseButtonLabel" = "Bezárás";
+
+/* Message shown in the case of feedback submission failure */
+"FeedbackSendFailureText" = "Sajnáljuk, nem sikerült elküldeni a visszajelzést. Kérjük, ellenőrizze az internetkapcsolatot, és próbálkozzon újra. <a href=\"#\">Ügyfélszolgálatunkon keresztül</a> is bejelentheti a problémát.";
+
+/* Message shown during feedback submission */
+"FeedbackSendingText" = "Küldés folyamatban...";
+
+/* Message shown at the end of feedback submission. */
+"FeedbackSendSuccessText" = "Köszönjük a visszajelzést. Észrevételeivel segíti termékeink továbbfejlesztését.";
+
+/* Window title shown at the end of feedback submission. */
+"FeedbackSendSuccessTitle" = "Köszönjük!";
+
+/* Label for the button to go back to feedback type selection page. */
+"FeedbackBackButtonLabel" = "Vissza";
+
+/* Title of local mass delete prompt for personal instance. */
+"LocalMassDeletePromptTitlePersonal" = "Eltávolítja a fájlokat a OneDrive-ról?";
+
+/* Title of local mass delete prompt for business instance. */
+"LocalMassDeletePromptTitleBusiness" = "Mindenhonnan eltávolítja a fájlokat?";
+
+/* Body of local mass delete prompt for personal instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyPersonal:%@" = "%@ fájlt törölt nemrég az eszközről. Eltávolítja őket a OneDrive-ról is?";
+
+/* Body of local mass delete prompt for business instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyBusiness:%@" = "%@ fájlt törölt nemrég az eszközről. Eltávolítja őket a OneDrive-ról és az összes megosztott tárból is?";
+
+/* Text of Restore button of local mass delete prompt. */
+"LocalMassDeletePromptRestoreButton" = "Fájlok visszaállítása";
+
+/* Text of Delete button of local mass delete prompt. */
+"LocalMassDeletePromptDeleteButton" = "Eltávolítás";
+
+/* Text of Opt out checkbox of local mass delete prompt. */
+"LocalMassDeletePromptOptoutCheckbox" = "Fájlok eltávolítása mindig";
+
+/* Activity center local mass delete per item history description. */
+"ActivityCenterItemPendingRemoval" = "OneDrive-ról való eltávolítás függőben";
+
+/* Checkbox text to toggle the local mass delete feature in settings dialog. */
+"LocalMassDeleteSettingsCheckbox" = "Figyelmeztetést kérek a felhőbeli fájlok törlése előtt";
+
+/* Title text of local mass delete confirmed ACM. */
+"LocalMassDeleteConfirmedTitle" = "Vissza szeretné állítani a fájlokat?";
+
+/* Body text of local mass delete confirmed ACM for personal instance. */
+"LocalMassDeleteConfirmedBodyPersonal" = "Ha törli a fájlokat a OneDrive-ból, azzal minden eszközről törli őket. 30 napig visszaállíthatja őket a OneDrive lomtárából.";
+
+/* Body text of local mass delete confirmed ACM for business instance. */
+"LocalMassDeleteConfirmedBodyBusiness" = "A OneDrive-on tárolt fájlok törlésével minden eszközről és helyről törli őket. 93 napig még visszaállíthatja a fájlokat a OneDrive vagy az adott megosztott tár lomtárából. Alább kattintva megnyithatja a legutóbb törölt fájlt tároló lomtárt.";
+
+/* Text of recycle bin button of LocalMassDelete confirmed ACM. */
+"LocalMassDeleteRecycleBin" = "Lomtár";
+
+/* Header text informing user that an application is downloading their files. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeader:%@" = "A(z) %@ éppen fájlokat tölt le a OneDrive-ról";
+
+/* Header text informing user that an application is downloading their files. This version is used if many files are downloading. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeaderAboveThreshold:%@" = "A(z) %@ éppen nagy mennyiségű fájlt tölt le a OneDrive-ról";
+
+/* Body text informing user that an application is downloading their files. Clicking on this toast will open a confirmation dialog. */
+"CloudFilesHydrationToastBody" = "Ide kattintva megszakíthatja a jelenlegi letöltést és a jövőbeli letöltéseket.";
+
+/* Header text informing user that an application is downloading their files. %1$@ is an application name. %2$u is a number. */
+"CloudFilesHydrationDialogHeader:%@,%u" = "A(z) %1$@ éppen %2$u fájlt tölt le a OneDrive-ról";
+
+/* Body text informing user that an application is downloading their files. %@ is an application name. */
+"CloudFilesHydrationDialogBody:%@" = "Engedélyezheti az appnak a letöltés folytatását, vagy leállíthatja a letöltést. Az App letiltása gombot választva kikapcsolhatja az appból (%@) történő jövőbeli letöltéseket.";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will continue downloading files. */
+"CloudFilesHydrationDialogContinueButton" = "Letöltés folytatása";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files. */
+"CloudFilesHydrationDialogStopButton" = "Letöltés leállítása";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files and block this application from future downloads. */
+"CloudFilesHydrationDialogBlockButton" = "App letiltása";
+
+// Download And Go
+
+/* Download And Go application friendly name*/
+"DownloadAndGoFriendlyName" = "OneDrive Fájlindító";
+
+/* Download And Go window title when no errors are displayed. %@ is a number. */
+"DownloadAndGoTitle:%@" = "%@ elem letöltése a OneDrive-ba";
+
+/* Download And Go downloading message. %@ is a file name. */
+"DownloadAndGoDownloadingMessage:%@" = "A(z) %@ letöltése folyamatban";
+
+/* Download And Go progress message for progressing hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoProgressingHydrationProgress: %@ %@" = "%2$@/%1$@";
+
+/* Download And Go progress message for queued hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoQueuedHydrationProgress: %@ %@" = "%2$@/%1$@ – letöltés függőben";
+
+/* Download And Go window title when errors are displayed*/
+"DownloadAndGoErrorsTitle" = "Nem sikerült letölteni a OneDrive-ba";
+
+/* Download And Go error message. %@ is file name. %d is a number. */
+"DownloadAndGoErrorMessage: %@ %d" = "A OneDrive nem tudta letölteni a következőt: %1$@ (hibakód: %2$d).";
+
+/* Download And Go cancel error button */
+"DownloadAndGoCancelErrorButton" = "Mégse";
+
+/* Download And Go try hydration again button */
+"DownloadAndGoTryAgainButton" = "Újra";
+
+// Finder Sync Extension Activity Center Messages
+
+/* The title of the large ACM used to inform the user about Files On-Demand if the Finder Sync Extension is enabled. */
+"FinderSyncEnabledTitle" = "Online fájlokkal helyet takaríthat meg";
+
+/* The body of a large ACM that informs the user about Files On-Demand if the Finder Sync Extension is enabled. "Finder" should be translated the same way as in the Mac OSX. "Always keep on this device" should be translated the same as the MenuItemPinCommand string. */
+"FinderSyncEnabledBody" = "Mostantól a szabad lemezterület felhasználása nélkül férhet hozzá OneDrive-tárhelye egészéhez. Ha offline módban szeretne használni valamit, kattintson rá a jobb gombbal a Finderben, és válassza a Mindig maradjon ezen az eszközön parancsot.";
+
+/* The first button's text in a large ACM that that informs the user about Files On-Demand. When clicked, the message is dismissed. */
+"FinderSyncOkay" = "OK";
+
+/* The text of a button that opens a URL with more information about Files On-Demand. Used in all Finder Sync ACMs. */
+"FinderSyncLearnMore" = "További információ";
+
+/* The title of the large ACM used to prompt them to enable the Finder Sync Extension. */
+"FinderSyncPromptTitle" = "Az Igény szerinti fájlok funkció előnyeinek maximális kihasználása";
+
+/* The body of a large ACM that prompts the user to enable the Finder Sync Extension if it is disabled. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptBody" = "Az Igény szerinti fájlok funkcióval helyet szabadíthat fel a gépén azzal, hogy csak online elérhetőként jelöli meg a OneDrive-on tárolt fájljait. Ehhez be kell kapcsolnia a OneDrive Finder-bővítményét.";
+
+/* The first button's text in a large ACM that prompts the user to enable the Finder Sync Extension. When clicked, the user's Extensions settings are opened. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptEnableExtension" = "A Finder-bővítmény bekapcsolása";
+
+/* The title text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpTitle" = "Beállítottuk az Igény szerinti fájlok funkciót";
+
+/* The body text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpBody" = "Helytakarékossági okokból engedélyeztük fájljai igény szerinti elérését.";
+
+/* The title of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */
+"FinderSyncEnabledWithSelectiveSyncTitle" = "Az összes fájlját megtekintheti";
+
+/* The body of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */ 
+"FinderSyncEnabledWithSelectiveSyncBody" = "Fájljainak csak egy részét szinkronizálja erre az eszközre. Az Igény szerinti fájlok funkcióval ezentúl úgy tekintheti meg az összes fájlját ezen az eszközön, hogy lemezterületet használna fel.";
+
+/* The button of an ACM that prompts the user to disable Selective Sync if the Finder Sync Extension is enabled and Files On-Demand is enabled. */
+"FinderSyncEnabledTurnOffSelectiveSyncButton" = "Az összes fájl megtekintése";
+
+// Strings for the kext installer helper
+
+/* Window title for the kext installer helper*/
+"KextWizardWindowTitle" = "Microsoft OneDrive";
+
+/* Body header for the kext installer helper */
+"KextWizardBodyHeader" = "Frissíteni kell az Igény szerinti fájlok funkciót";
+
+/* Body text for the kext installer helper*/
+"KextWizardBodyText" = "Az Igény szerinti fájlok funkció használatához engedélyeznie kell egy OneDrive-rendszerbővítményt. Kattintson a Biztonsági beállítások megnyitása gombra, és válassza az Engedélyezés elemet.";
+
+/* Action button for the kext installer helper */
+"KextWizardOpenSecurityButton" = "Biztonsági beállítások megnyitása";
+
+// Throttling
+
+/* Individual file gets throttled */
+"FileTransferThrottled" = "Lehet, hogy a szolgáltatás terheltsége miatt átmeneti késés lép fel a szinkronizálás során. Nemsokára újból megpróbáljuk frissíteni a fájlt.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that a number of items couldn't be synced. */
+"FileTransferThrottledPrimary" = "Késik a szinkronizálás";
+
+/* Description text shown on the sub-header of the Activity Center when there are files being throttled. */
+"FileTransferThrottledSecondary" = "Lehet, hogy a szolgáltatás terheltsége miatt átmeneti késés lép majd fel a szinkronizálás során";
+
+/* Describes the generic resolution, in the Errors Window, of a file that cannot sync because it is in use by another process. */
+"FilePostponedByClient" = "Nem sikerült szinkronizálni a fájlt, mert egy másik programban meg van nyitva. Zárja be a fájlt a szinkronizáláshoz.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that one file is in use by another application. */
+"FilePostponedByClientSingular" = "1 fájlt egy másik alkalmazás használ";
+
+/* Title text shown in the sub-header of the Activity Center indicating that multiple files are in use by other applications. %@ is a number. */
+"FilePostponedByClientPlural:%@" = "%@ fájlt egyéb alkalmazások használnak";
+
+// Reset UI strings
+
+/* Window title used for the Reset popup window */
+"ResetApplicationTitle" = "Microsoft OneDrive";
+
+/* Header text for the Reset popup window */
+"ResetHeaderText" = "OneDrive-fiók alaphelyzetbe állítása";
+
+/* Description text for what happens during a reset */
+"ResetDescriptionText" = "Ha problémákat tapasztal a OneDrive-fiókja szinkronizálásával kapcsolatban, az alaphelyzetbe állítás lehet a megoldás. Alaphelyzetbe állításkor átmenetileg leáll a szinkronizáló szolgáltatás, majd újraszinkronizálódik a fájlhierarchia és a tartalom a felhőből a helyi gépére. <a href=\"#\">További információ</a>";
+
+/* Checkbox text to ask if the user wants to preserve their selective sync and teamsites settings */
+"ResetSettingsCheckboxText" = "Saját fájlbeállítások és konfigurációk megtartása (ajánlott)";
+
+/* Button text to abort the reset process */
+"ResetCancelButtonLabel" = "Mégse";
+
+/* Button text to begin the reset process */
+"ResetConfirmButtonLabel" = "Alaphelyzet";
+
+/* Title text for reset in progress ACM */
+"ResetInProgressTitle" = "Alaphelyzetbe állítás folyamatban";
+
+/* Body text for reset in progress ACM */
+"ResetInProgressBody" = "Az alaphelyzetbe állítás közben tovább dolgozhat a fájljain. A művelet során a helyi lemezre mentjük a fájlokat, és ha végeztünk, feltöltjük őket a OneDrive-ra.";
+
+/* Title text for reset successful ACM */
+"ResetSuccessTitle" = "Befejeződött az alaphelyzetbe állítás";
+
+/* Body text for reset successful ACM */
+"ResetSuccessBody" = "Alaphelyzetbe állítottuk a OneDrive-tárhelyét.";
+
+/* Title text for reset successful with errors ACM */
+"ResetSuccessWithErrorsTitle" = "Befejeződött az alaphelyzetbe állítás, de...";
+
+/* Body text for reset successful with errors ACM */
+"ResetSuccessWithErrorsBody" = "Még mindig vannak olyan hibák a OneDrive-tárhelyén, amelyeket alaphelyzetbe állítással sem sikerült elhárítani. Ide koppintva vagy kattintva megnézheti őket.";
+
+/* Title text for reset failed ACM */
+"ResetFailureTitle" = "Sikertelen volt az alaphelyzetbe állítás";
+
+/* Body text for reset failed ACM */
+"ResetFailureBody" = "Hiba történt. <a href=\"#\">További információ</a>";
+
+/* Title text for reset successful history list item */
+"ActivityListHistoryResetSuccessPrimary" = "Befejeződött az alaphelyzetbe állítás";
+
+/* Body text for reset successful history list item */
+"ActivityListHistoryResetSuccessSecondary" = "Alaphelyzetbe állítottuk a OneDrive-tárhelyét.";
+
+/* Title text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsPrimary" = "Befejeződött az alaphelyzetbe állítás";
+
+/* Body text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsSecondary" = "Néhány hibát nem sikerült elhárítani.";
+
+/* Title text for reset failed history list item */
+"ActivityListHistoryResetFailurePrimary" = "Sikertelen volt az alaphelyzetbe állítás";
+
+/* Body text for reset failed history list item */
+"ActivityListHistoryResetFailureSecondary" = "Hiba történt.";
+
+/* Title text for reset completed toast */
+"ToastResetCompletedTitle" = "Befejeződött a OneDrive-tárhely alaphelyzetbe állítása";
+
+/* Body text for reset completed toast */
+"ToastResetCompletedBody" = "A fájl állapotának megtekintéséhez koppintson vagy kattintson ide.";
+
+/* Title text for reset failed toast */
+"ToastResetFailedTitle" = "Nem sikerült alaphelyzetbe állítani a OneDrive-tárhelyét";
+
+/* Body text for reset failed toast */
+"ToastResetFailedBody" = "A következő lépések megtekintéséhez koppintson vagy kattintson ide.";
+
+// End Reset UI strings
+
+/* Resolution message for client access denied. */
+"ClientAccessDeniedErrorsShortDescription" = "Úgy tűnik, Önnek nincs hozzáférése az elemhez. Ha engedélyezni szeretné az elem szinkronizálását, szerezze be a megfelelő hozzáférési engedélyeket.";
+
+// Purchase Window Strings
+
+/* Title text show in Purchase Window */
+"PurchaseWindowTitle" = "Microsoft OneDrive";
+
+/* Header text shown in Purchase Window */
+"PurchaseWindowHeader" = "Érdemes a prémium verzióra váltani!";
+
+/* Header text shown in Purchase Window after buying the subscription */
+"PurchaseSuccessWindowHeader" = "Gratulálunk!";
+
+/* Header text shown in Purchase Window while buying the subscription */
+"PurchaseWindowLoadingTitle" = "Betöltés folyamatban";
+
+/* Body text shown in the Purchase Window*/
+"PurchaseWindowBody" = "A prémiumszintű OneDrive-funkciókat ki is próbálhatja egy egyhónapos ingyenes Office365-előfizetés keretében. Válassza ki a megfelelő csomagot, és megkezdheti az ingyenes próbaidőszakot.";
+
+/* Body text shown in the Purchase Window after buying the subscription */
+"PurchaseSuccessWindowBody" = "Most már hozzáférhet az exkluzív funkciókhoz. Az egyhónapos próbaidőszak letelte után a szoftver automatikusan ráterheli a kártyájára a díjakat.";
+
+/*Link button to skip the window */
+"PurchaseWindowSkipNowLink" = "Kihagyás";
+
+/* Sub text in product subscription card describing our premium features*/
+"PurchaseCardMainBody" = "Prémiumszintű OneDrive-funkciók";
+
+/* Decribes our product subscription right below a row of images showing the office apps*/
+"PurchaseCardSubBody" = "A legújabb Office-appok PC-re és Macre";
+
+/* Purchase card button text which will start a purchase flow */
+"PurchaseCardButtonText" = "Váltás a prémium verzióra (az első hónap ingyenes)";
+
+/* Purchase card link text which will launch a learn more campaign */
+"PurchaseCardLinkText" = "További információ";
+
+/* Personal subscription card list text. Only for 1 person  */
+"PurchasePersonalList1" = "Egyéni használatra";
+
+/* Home subscription card list text. Bundle avaiable for 6 people*/
+"PurchaseHomeList1" = "Hat személynek";
+
+/* Personal subscription card list text. 1 Terabyte of storage in OneDrive */
+"PurchasePersonalList2" = "1 TB tárterület";
+
+/* Home subscription card list text. 6 Terabyte of storage in OneDrive */
+"PurchaseHomeList2" = "6 TB tárterület";
+
+/* Common subscription card list text for all bundles. Access advanced security features */
+"PurchaseCommonList3" = "Speciális biztonság";
+
+/* Common subscription card list text for all bundles. Access more producitivty tool*/
+"PurchaseCommonList4" = "Hatékonyságnövelő eszközök";
+
+/* Price of a yearly subscription. %@ is money symbol followed by a decimal number. Example: $59.99*/
+"PurchasePriceYearConstant:%@" = "%@/év";
+
+/* Close the window */
+"PurchaseCloseButtonText" = "Bezárás";
+
+/* Accessible name for a list of Microsoft Office Products*/
+"PurchaseIconAccessibleName" = "Microsoft Office-termékek";
+
+/* Accessible name for a list of details concerning a Office Subscription.*/
+"PurchaseListBodyAccessibleName" = "Funkciólista";
+
+/* Error title of purchase window*/
+"PurchaseWindowErrorTitle" = "Hiba történt";
+
+/* Error body of purchase window. Receipt is already in use*/
+"PurchaseErrorReceiptInUse" = "Egy másik Microsoft-fiókból igényelték az Office 365-példány megvásárlását.";
+
+/* Error body of purchase window. Transient Error that automatically might resolve*/
+"PurchaseErrorTransientIssue" = "Sikeresen megvásárolta az Office 365-öt, de nem sikerült a Microsoft-fiókjához rendelni az előfizetést. Kérjük, próbálkozzon ismét később, a szolgáltatás díját nem számítjuk fel újra. Ha 24 órán belül nem szűnik meg a probléma, forduljon az ügyfélszolgálathoz.";
+
+/* Error body of purchase window. Error that we are unable to resolve.*/
+"PurchaseErrorUnableToResolve" = "Sikeresen megvásárolta az Office 365-öt, de nem sikerült a Microsoft-fiókjához rendelni az előfizetést. Kérjük, forduljon az ügyfélszolgálathoz.";
+
+/* Terms of Use title for purchasing a subscription */
+"PurchaseSubscriptionTermsTitle" = "Előfizetés részletei";
+
+/* Terms of Use body for purchasing a subscription */
+"PurchaseSubscriptionTermsBody" = "A megvásárolt Office 365-előfizetések díját iTunes-fiókja egyenlegére terheljük. Az érvényben lévő előfizetési időszak lejárta előtt 24 órával az előfizetéseket automatikusan megújítjuk, hacsak ezt korábban le nem tiltotta. iTunes-fiókjának beállításai között a vásárlást követően bármikor megnézheti és módosíthatja az előfizetései adatait, és letilthatja az automatikus megújítást. Az előfizetést csak a lejárta után mondhatja le. Előfizetés vásárlásakor az esetleges ingyenes próbaidőszak fel nem használt része elvész, ha ez máshogyan nincs szabályozva.";
+
+/* Text that will link to a web page describing the Microsoft terms of use */
+"PurchaseSubscriptionTermsOfUseLink" = "Használati feltételek";
+
+/* Text that will link to a web page describing the terms of privacy */
+"PurchaseSubscriptionPrivacyLink" = "Adatvédelem";
+
+// End Purchase window strings
+
+// Get Help window strings
+
+/* Get Help window title */
+"GetHelpWindowTitle" = "Kapcsolatfelvétel az ügyfélszolgálattal";
+
+/* Placeholder for the Get Help user input field */
+"GetHelpFieldTip" = "Itt írhatja le a problémát.";
+
+/* Window title shown at the end of get help submission succeeded. */
+"GetHelpSendSuccessTitle" = "Támogatási kérelem elküldve";
+
+/* Message shown at the end of get help submission - %1$@ is user email. */
+"GetHelpSendSuccessText:%@" = "A OneDrive egyik támogatási szakembere felveszi Önnel a kapcsolatot ezen az e-mail-címen: %1$@.";
+
+/* Window title shown at the end of get help submission failure. */
+"GetHelpSendFailureTitle" = "Nem sikerült elküldeni a támogatási kérelmet";
+
+/* Message shown in the case of feedback submission failure */
+"GetHelpSendFailureText" = "Sajnos nem sikerült a támogatási kérelem benyújtása. Ellenőrizze az internetkapcsolatot, majd próbálja újra.";
+
+// End Get Help window strings

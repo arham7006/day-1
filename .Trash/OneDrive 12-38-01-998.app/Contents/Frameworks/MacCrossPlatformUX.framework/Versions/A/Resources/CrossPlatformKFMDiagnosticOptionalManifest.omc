@@ -1,0 +1,16 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-CrossPlatformKFM-Log" />
+  <provider guid="{4f83483d-4cda-4752-b3bd-c869c43e0fee}" symbol="CrossPlatformKFMLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="DiagnosticOptional" privacyCategory="ProductUsage">
+    </events>
+  </provider>
+</manifest>

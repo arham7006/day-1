@@ -1,0 +1,11 @@
+//
+//  OneDriveDaemon_ship.xcconfig
+//  OneDriveDaemon
+//
+//  Created by SaKoo on 8/18/16.
+//  Copyright (c) 2016 Microsoft Corporation. All rights reserved.
+//
+
+#include "OneDriveDaemon.xcconfig"
+
+GCC_PREPROCESSOR_DEFINITIONS = $(GCC_PREPROCESSOR_DEFINITIONS) BUILD_PRODUCTION

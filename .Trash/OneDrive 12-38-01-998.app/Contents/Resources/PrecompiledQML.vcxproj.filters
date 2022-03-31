@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qml;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Auto-Generated Files">
+      <UniqueIdentifier>{520573F5-C344-47F7-9789-AC838830B751}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtQuickCompile Include="qml\ActivityCenter.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ActivityCenterContextMenu.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ActivityCenterFooter.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ActivityCenterHeader.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ActivityCenterMessage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ActivityCenterMessageMega.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\Colors.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ConfirmDialog.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\CustomCheckBox.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\CustomComboBox.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\CustomMenu.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\CustomMenuButton.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\CustomMenuItem.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ErrorsListItem.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ErrorsView.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ErrorsViewEntryPoint.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\FabricButton.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\FabricDropdown.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\FabricProgressBar.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\FabricRadioButton.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\FloodgateSurvey.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\IconAndTextButton.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\IconWithTextAndDescription.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ImageConfirmDialog.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\InfoBarWithDismissButton.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\KFMDonePage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\KFMScanPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\OfficeIcons.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\QmlLoader.qrc">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ResetWindow.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SelectiveSyncTreeView.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SendFeedback.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SendFeedbackModeItem.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SimpleButton.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportConfirmPane.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportFailurePane.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportLoader.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportOptionsPane.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportPaneHeader.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportSendingPane.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportUserInputPane.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\TaskDialogView.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\TextWithCheck.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\TextWithLink.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\TreeItemCheckBox.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\UserInputField.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\VersionHistoryWindow.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\Win7BackupPromptPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\Win7KFMDonePage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\Win7UnlinkPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardChooseFolderPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardEmailHRDPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardEnableFinderExtension.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardGenericErrorPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardOptionalDiagnosticDataPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardPageHeader.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardPageHeaderWithLink.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardPremiumPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardRequiredDiagnosticDataPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardSelectiveSyncPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialBasicOverview.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialDonePage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialFilesOnDemand.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialMobileAppUpsell.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialPageBase.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialShareFiles.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardVaultAdminRequestPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardVaultIntroPage.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardWindow.qml">
+      <Filter>Resource Files</Filter>
+    </QtQuickCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(O)ActivityCenter.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterContextMenu.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterFooter.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterHeader.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterLoader.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterMessage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterMessageMega.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)Colors.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ConfirmDialog.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)CustomCheckBox.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)CustomComboBox.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)CustomMenu.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)CustomMenuButton.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)CustomMenuItem.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ErrorsListItem.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ErrorsView.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ErrorsViewEntryPoint.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)FabricButton.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)FabricDropdown.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)fabricMdl2.js.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)FabricProgressBar.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)FabricRadioButton.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)FloodgateSurvey.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)HelperFunctions.js.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)IconAndTextButton.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)IconWithTextAndDescription.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ImageConfirmDialog.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)InfoBarWithDismissButton.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)KFMDonePage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)KFMScanPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)KnownFolderItem.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)OfficeIcons.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)palettes.js.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)PurchaseCard.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)PurchaseWindow.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)qmlcache_loader.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ResetWindow.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)ScrollViewWithAcc.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SelectiveSyncTreeView.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SendFeedback.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SendFeedbackModeItem.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SimpleButton.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SimpleButtonLink.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportConfirmPane.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportFailurePane.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportLoader.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportOptionsPane.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportPaneHeader.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportSendingPane.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportUserInputPane.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)TaskDialogView.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)TextWithCheck.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)TextWithLink.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)TreeItemCheckBox.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)UserInputField.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)VersionHistoryWindow.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)Win7BackupPromptPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)Win7KFMDonePage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)Win7UnlinkPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardChooseFolderPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardEmailHRDPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardEnableFinderExtension.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardGenericErrorPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardMigrationPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardOptionalDiagnosticDataPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardPageHeader.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardPageHeaderWithLink.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardPremiumPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardRequiredDiagnosticDataPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardSelectiveSyncPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialBasicOverview.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialDonePage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialFilesOnDemand.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialMobileAppUpsell.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialPageBase.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialShareFiles.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardVaultAdminRequestPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardVaultIntroPage.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardWindow.qml.cpp">
+      <Filter>Auto-Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+/* 
+  Strings for the File Provider extension's info.plist
+ 
+  NOTE: All strings should go in Localizable.Strings except for Badge and Root folder tooltips
+*/
+
+/* Tooltip for files and folders in the pinned state */
+"BadgeTooltip_Pinned" = "Alltid tilgjengelig på denne enheten";
+
+/* Tooltip for files and folders which are shared with other users. */
+"BadgeTooltip_Shared" = "Delt";
+
+/* Tooltip for files and folders which are shared AND in the pinned state. */
+"BadgeTooltip_PinnedShared" = "Delt og alltid tilgjengelig på denne enheten";
+
+/* Tooltip for files excluded from syncing. Ex: HVEL, LVEL and ODIgnored */
+"BadgeTooltip_Ignored" = "Ekskludert fra synkronisering";
+
+/* A tooltip for a custom icon on a team site folder. */
+"RootTooltip_TeamSite" = "Delt bibliotek";
+
+/* A tooltip for a custom icon on an added/shortcut folder. */
+"RootTooltip_Shortcut" = "Snarvei";
+
+/* Title bar text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_Title" = "Kan ikke flytte mappe";
+
+/* Description text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_SubTitle" = "Denne mappen kan ikke flyttes her på denne Mac-maskinen.";
+
+/* Title bar text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_Title" = "Kan ikke flytte elementer";
+
+/* Description text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_SubTitle" = "Disse elementene kan ikke flyttes her på denne Mac-maskinen.";

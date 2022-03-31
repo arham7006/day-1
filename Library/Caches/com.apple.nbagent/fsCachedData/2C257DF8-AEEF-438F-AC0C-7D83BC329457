@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<installer-gui-script minSpecVersion="1">
+    <options customize="never" hostArchitectures="i386,x86_64,arm64e" type="config-data"/>
+    <title>SU_TITLE</title>
+    <script/>
+    <volume-check script="VolumeCheck()"/>
+    <installation-check script="InstallationCheck()"/>
+    <platforms>
+        <client arch="i386"/>
+        <server arch="i386"/>
+    </platforms>
+    <choices-outline ui="SoftwareUpdate">
+        <line choice="su"/>
+    </choices-outline>
+    <choices-outline>
+        <line choice="su"/>
+    </choices-outline>
+    <choice id="su" description-mime-type="text/html" secondaryDescription="SU_SERVERCOMMENT" suDisabledGroupID="Upgrade to macOS Monterey" start_selected="true" versStr="SU_VERS" description="SU_DESCRIPTION" title="SU_TITLE">
+        <pkg-ref id="com.apple.pkg.macOS12NoticeboardNotification.16U2273" auth="Root" packageIdentifier="com.apple.pkg.macOS12NoticeboardNotification.16U2273">macOS12NoticeboardNotification.pkg</pkg-ref>
+    </choice>
+    <script>
+function InstallationCheck(prefix) {
+	var boardIds = ['Mac-35C1E88140C3E6CF','Mac-7DF21CB3ED6977E5','Mac-189A3D4F975D5FFC','Mac-3CBD00234E554E41','Mac-2BD1B31983FE1663','Mac-81E3E92DD6088272','Mac-42FD25EABCABB274','Mac-FA842E06C61E91C5','Mac-BE0E8AC46FE800CC',];
+	var cpuFeatures = system.sysctl( 'machdep.cpu.features' );
+	if (cpuFeatures) {
+		cpuFeatures=cpuFeatures.split(" ");
+		for( var i = 0; i &lt; cpuFeatures.length; i++ ){
+			if( cpuFeatures[i] == "VMM" ){
+				return true;
+			}
+		}
+	}
+	var nonSupportedModels = ['MacBookPro10,2','MacBookPro10,1','iMac13,1','iMac13,3','iMac13,2','MacBookAir5,1','MacBookAir5,2','iMac14,1','iMac14,3','iMac14,2','MacBookPro9,2','MacBookPro9,1','Macmini5,2','Macmini5,1','Macmini5,3','Macmini6,1','Macmini6,2','MacBookPro12,1','Macmini7,1','MacBookPro13,2','MacBookPro14,2','MacBookPro13,3','MacBookPro14,3','MacPro6,1','MacBook9,1','iMac16,2','iMac17,1','MacBookAir7,1','MacBookAir7,2','iMac16,1','MacBook10,1','MacBookPro13,1','MacBookPro14,1','MacBookPro15,2','iMac18,1','iMac18,2','iMac18,3','iMacPro1,1','iMac19,1','iMac19,2','MacBookAir8,2','MacBookAir8,1','MacBookPro11,4','MacBookPro11,5','MacBookPro16,1','MacPro7,1','Macmini8,1','iMac20,1','iMac20,2','MacBookPro15,4','MacBookPro16,2','MacBookPro16,4','MacBookPro16,3','MacBookAir9,1','MacBookPro15,1','MacBookPro15,3','iMac8,1','MacPro4,1','MacPro5,1','MacBookPro7,1','Xserve3,1','MacBookAir3,2','MacBookPro6,1','MacBookPro6,2','MacBookPro5,3','MacBookPro5,4','MacBookPro5,2','MacBookAir4,2','iMac10,1','iMac11,1','MacBookPro5,5','MacBook3,1','MacBook4,1','MacBook5,2','Macmini4,1','iMac9,1','iMac12,1','iMac12,2','iMac11,2','iMac11,3','MacBookAir4,1','MacBook6,1','MacBook7,1','Macmini3,1','MacBookPro8,1','MacBookPro8,2','MacBookPro8,3','MacBookAir3,1','MacBookPro1,1','MacBookPro1,2','iMac4,1','iMac5,1','Macmini1,1','Macmini2,1','MacBook1,1','MacBook2,1','MacPro1,1','MacPro2,1','Xserve1,1','iMac4,2','iMac5,2','iMac6,1','MacBookPro2,1','MacBookPro2,2','Xserve2,1','iMac7,1','MacBookPro3,1','MacBookAir1,1','MacPro3,1','MacBookPro4,1','MacBookAir2,1','MacBook5,1','MacBookPro5,1',];
+	var currentModel = system.sysctl('hw.model');
+	if (nonSupportedModels.indexOf(currentModel) &gt;= 0) {
+		my.result.message = system.localizedString('ERROR_3491501876');
+		my.result.type = 'Fatal';
+		return false;
+	}
+	var boardId = system.ioregistry.fromPath('IOService:/')['board-id'];
+	if (boardId) {
+		if (boardIds.indexOf(boardId) == -1) {
+			my.result.message = system.localizedString('ERROR_3491501876');
+			my.result.type = 'Fatal';
+			return false;
+		}
+	}
+	return true;
+}
+function VolumeCheck(prefix) {
+	var myTargetSystemVersion = (my.target.systemVersion || system.files.plistAtPath(my.target.mountpoint + "/System/Library/CoreServices/SystemVersion.plist"));
+	my.result.message = system.localizedString('ERROR_ABA5BBB51F');
+	if (!Or0(my.target.mountpoint)) {
+		my.result.type = 'Fatal';
+		return false;
+	}
+	return true;
+}
+function Or0(prefix) {
+	if (And1(prefix) || Plist7(prefix) || Plist8(prefix) || Plist9(prefix) || Plist10(prefix) || Plist11(prefix) || Plist12(prefix) || Plist13(prefix) || Plist14(prefix) || Plist15(prefix) || Plist16(prefix) || Plist17(prefix) || Plist18(prefix) || Plist19(prefix)) {
+		return true;
+	}
+	return false;
+}
+function And1(prefix) {
+	if (Plist2(prefix) &amp;&amp; Not3(prefix) &amp;&amp; Not5(prefix)) {
+		return true;
+	}
+	return false;
+}
+function Plist2(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.6') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Not3(prefix) {
+	if (!(Bundle4(prefix))) {
+		return true;
+	}
+	return false;
+}
+function Bundle4(prefix) {
+	var bundle = system.files.bundleAtPath(prefix + '/Applications/App Store.app');
+	if (!bundle) {
+		return false;
+	}
+	var bundleKeyValue = bundle['CFBundleVersion'];
+	if (!bundleKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(bundleKeyValue, '464') &lt; 0) {
+		return false;
+	}
+	return true;
+}
+function Not5(prefix) {
+	if (!(Bundle6(prefix))) {
+		return true;
+	}
+	return false;
+}
+function Bundle6(prefix) {
+	var bundle = system.files.bundleAtPath(prefix + '/System/Library/PrivateFrameworks/CommerceKit.Framework');
+	if (!bundle) {
+		return false;
+	}
+	var bundleKeyValue = bundle['CFBundleVersion'];
+	if (!bundleKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(bundleKeyValue, '464') &lt; 0) {
+		return false;
+	}
+	return true;
+}
+function Plist7(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.10') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist8(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.9') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.10') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist9(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.1') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist10(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.1') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.2') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist11(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.2') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.3') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist12(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.3') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.4') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist13(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.4') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.12.5') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist14(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.1') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist15(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.1') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.2') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist16(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.2') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.3') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist17(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.3') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.4') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist18(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.4') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.5') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+function Plist19(prefix) {
+	var plist = system.files.plistAtPath(prefix + '/System/Library/CoreServices/SystemVersion.plist');
+	if (!plist) {
+		return false;
+	}
+	var plistKeyValue = plist['ProductVersion'];
+	if (!plistKeyValue) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.5') &lt; 0) {
+		return false;
+	}
+	if (system.compareVersions(plistKeyValue, '10.11.6') &gt;= 0) {
+		return false;
+	}
+	return true;
+}
+</script>
+    <localization>
+        <strings language="English">"SU_TITLE" = "Upgrade to macOS Monterey";
+"SU_VERS" = "1.0";
+"SU_SERVERCOMMENT" = "For Desktop and Server systems";
+"SU_DESCRIPTION" = '&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;&lt;/body&gt;
+&lt;/html&gt;
+';
+</strings>
+    </localization>
+    <pkg-ref id="com.apple.pkg.macOS12NoticeboardNotification.16U2273" installKBytes="1750" version="1.0.0.0.1.1645729697"/>
+</installer-gui-script>

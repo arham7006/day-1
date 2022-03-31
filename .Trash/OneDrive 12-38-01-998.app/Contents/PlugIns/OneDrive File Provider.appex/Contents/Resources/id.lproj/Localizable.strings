@@ -1,0 +1,53 @@
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. (action) */
+"ContextMenuAction_Pin" = "Selalu Simpan di Perangkat Ini";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. (action) */
+"ContextMenuAction_Unpin" = "Kosongkan Ruang";
+
+/* A right click context menu option displayed when the user right clicks a file that opens a dialog where the user can share the item with other users (action) */
+"ContextMenuAction_Share" = "Bagikan";
+
+/* A right click context menu option displayed when the user right clicks a file that opens a dialog where the user can restore previous versions of the file (action) */
+"ContextMenuAction_VersionHistory" = "Riwayat Versi";
+
+/* A right click context menu option displayed when the user right clicks a file that opens a browser window with the file on OneDrive.com (action) */
+"ContextMenuAction_ViewOnline" = "Tampilkan Online";
+
+/* A right click context menu option displayed when the user right clicks one or multiple Added Folder shortcuts that OneDrive is syncing. This command will remove the shortcuts and unmount the Added Folder (action) */
+"ContextMenuAction_RemoveShortcut" = "Hapus Pintasan";
+
+/* A tooltip for a file with an error icon in finder */
+"GenericFileErrorTooltip" = "Kesalahan";
+
+/* Title bar text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_Title" = "Tidak dapat memindahkan folder";
+
+/* Description text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_SubTitle" = "Folder ini tidak dapat dipindahkan ke Mac ini.";
+
+/* Title bar text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_Title" = "Tidak dapat memindahkan item";
+
+/* Description text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_SubTitle" = "Item ini tidak dapat dipindahkan ke Mac ini.";
+
+/* Text shown in the Finder when the extension boots up with no database. The resolution is for the user to exit and restart OneDrive. */
+"MacboxDisconnectReasonRestartOneDrive" = "Mulai ulang OneDrive untuk terus menyinkronkan lokasi ini.";
+
+/* Tooltip for files and folders in the pinned state */
+"BadgeTooltip_Pinned" = "Selalu Tersedia pada Perangkat Ini";
+
+/* Tooltip for files and folders which are shared with other users. */
+"BadgeTooltip_Shared" = "Dibagikan";
+
+/* Tooltip for files and folders which are shared AND in the pinned state. */
+"BadgeTooltip_PinnedShared" = "Dibagikan dan Selalu Tersedia pada Perangkat Ini";
+
+/* Tooltip for files excluded from syncing. Ex: HVEL, LVEL and ODIgnored */
+"BadgeTooltip_Ignored" = "Dikecualikan dari sinkronisasi";
+
+/* A tooltip for a custom icon on a team site folder. */
+"RootTooltip_TeamSite" = "Pustaka Bersama";
+
+/* A tooltip for a custom icon on an added/shortcut folder. */
+"RootTooltip_Shortcut" = "Pintasan";

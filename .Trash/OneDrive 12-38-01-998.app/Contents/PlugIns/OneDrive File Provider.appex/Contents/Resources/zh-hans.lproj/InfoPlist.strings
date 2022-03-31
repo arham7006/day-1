@@ -1,0 +1,35 @@
+/* 
+  Strings for the File Provider extension's info.plist
+ 
+  NOTE: All strings should go in Localizable.Strings except for Badge and Root folder tooltips
+*/
+
+/* Tooltip for files and folders in the pinned state */
+"BadgeTooltip_Pinned" = "在此设备上始终可用";
+
+/* Tooltip for files and folders which are shared with other users. */
+"BadgeTooltip_Shared" = "已共享";
+
+/* Tooltip for files and folders which are shared AND in the pinned state. */
+"BadgeTooltip_PinnedShared" = "在此设备上“共享”和“始终可用”";
+
+/* Tooltip for files excluded from syncing. Ex: HVEL, LVEL and ODIgnored */
+"BadgeTooltip_Ignored" = "已从同步排除";
+
+/* A tooltip for a custom icon on a team site folder. */
+"RootTooltip_TeamSite" = "共享的库";
+
+/* A tooltip for a custom icon on an added/shortcut folder. */
+"RootTooltip_Shortcut" = "快捷方式";
+
+/* Title bar text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_Title" = "无法移动文件夹";
+
+/* Description text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_SubTitle" = "无法在此 Mac 上移动此文件夹到此处。";
+
+/* Title bar text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_Title" = "无法移动项目";
+
+/* Description text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_SubTitle" = "无法在此 Mac 上移动这些项目到此处。";

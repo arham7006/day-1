@@ -1,0 +1,5 @@
+ALTER TABLE dbfs_files
+ADD COLUMN marked INTEGER DEFAULT 0;
+
+ALTER TABLE dbfs_files
+ADD COLUMN last_change INTEGER DEFAULT 0;

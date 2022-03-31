@@ -1,0 +1,2575 @@
+// Misc
+
+// File Size Units
+
+/* The lowest unit for file sizes */
+"byteText" = "bytes";
+
+/* Unit for file sizes. */
+"KiloByteAbbrv" = "kB";
+
+/* Unit for file sizes. */
+"MegaByteAbbrv" = "MB";
+
+/* Unit for file sizes. */
+"GigaByteAbbrv" = "GB";
+
+/* Unit for file sizes. */
+"TeraByteAbbrv" = "TB";
+
+/* Unit for file transfer speed. */
+"KiloBytePerSecond" = "kB/s";
+
+/* Unit for file transfer speed. */
+"MegaBytePerSecond" = "MB/s";
+
+
+// First run - used by FirstRunWindowController.mm and its views
+
+/* Windows title used to welcome a user running the application.
+ There's probably no need to localize this string. */
+"FirstRunWindowTitle" = "Microsoft OneDrive";
+
+/* Title of the welcome page when running for the first time */
+"FirstRunText" = "OneDrive instellen";
+
+/* Short explaination about what OneDrive does when running for the first time */
+"FirstRunDescriptiveText" = "Sla uw bestanden op in OneDrive zodat u ze vanaf elk apparaat kunt openen.";
+
+/* Button to sign into a personal instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomePersonalButton" = "Persoonlijk";
+
+/* Button to sign into a business instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomeBusinessButton" = "Werk of school";
+
+/* Button to start email hrd sign in flow on the first run experience in welcome page */
+"FirstRunEmailSignInButton" = "Aanmelden";
+
+/* Placeholder text for the email input box on the first run experience in welcome page */
+"FirstRunEmailInputPlaceholderText" = "E-mailadres invoeren";
+
+/* Errors shown when there is a problem with the users email address on the first run experience in welcome page */
+"FirstRunWelcomeErrorPersonalAlreadySyncing" = "Er wordt al een persoonlijke OneDrive op deze computer gesynchroniseerd. Als u een nieuw account wilt toevoegen, moet u eerst dit account loskoppelen.";
+"FirstRunWelcomeErrorEmailIsMSAAndAAD" = "Dit e-mailadres wordt gebruikt voor zowel OneDrive als voor OneDrive voor Bedrijven. Waar wilt u zich het eerst aanmelden?";
+"FirstRunWelcomeErrorEmailIsNotKnown" = "Dit e-mailadres wordt niet herkend.";
+"FirstRunWelcomeErrorEmailAdminDisabled" = "In uw organisatie is het niet toegestaan om uw persoonlijke OneDrive te synchroniseren op deze computer.";
+
+/* first run wizard progress text for screen readers */
+"FirstRunProgress0" = "OneDrive-installatie is 0% voltooid";
+"FirstRunProgress50" = "OneDrive-installatie is 50% voltooid";
+"FirstRunProgress75" = "OneDrive-installatie is 75% voltooid";
+"FirstRunProgress100" = "OneDrive-installatie is 100% voltooid";
+
+/* Title of the page that introduces OneDrive folder when running for the first time */
+"FirstRunIntroduceText" = "Dit is uw OneDrive-map";
+
+/* Title of the page that prompts for required folder when mounting for the first time */
+"FirstRunIntroduceRequiredPathText" = "Locatie van map bevestigen";
+
+/* Title of the page that introduces OneDrive folder when running for the first time. "Finder" should be translated the same way as in the Mac OSX */
+"FirstRunIntroduceDescriptiveText" = "Voeg hier bestanden toe zodat u ze kunt openen vanaf andere apparaten terwijl ze toch zijn opgeslagen op deze Mac.";
+
+/* Title of the adminstrative error that will be attached to the FirstRunIntroduceDescriptiveText */
+"FirstRunIntroduceDescriptiveTextWithError" = "Voeg hier bestanden toe zodat u ze kunt openen vanaf andere apparaten terwijl ze toch zijn opgeslagen op deze Mac. De beheerder vereist dat de OneDrive-map zich op deze locatie bevindt";
+
+/* Title of the page that prompts for access to required folder. */
+"SelectRequiredPathDescriptiveText:%@" = "Als u deze bestanden wilt synchroniseren, moet u ons toegang verlenen tot deze map: %@";
+
+/* This is for the button that allows users to change the root folder path. When clicked, it opens a browse window for users to select the root folder. */
+"FirstRunBrowseButtonText" = "Locatie wijzigen";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"FirstRunDoneIntroductionButtonText" = "Volgende";
+
+/* This is for the button when user has never selected a root folder. */
+"FirstRunSelectFolderButtonText" = "Locatie van OneDrive-map kiezen";
+
+/* This is for the button when user has not yet confirmed our required folder. */
+"FirstRunSelectRequiredFolderButtonText" = "Locatie van map bevestigen";
+
+/* This is a prompt displayed in the file browse dialog. */
+"SelectRootFolderMessage" = "Geef een locatie op voor uw OneDrive-map";
+
+/* This is a prompt displayed in the file browse dialog to confirm required location. */
+"SelectRequiredFolderMessage" = "Gebruik de geselecteerde map en klik op Locatie bevestigen.";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"CreateRootFolderButton" = "Deze locatie selecteren";
+
+/* This is for the confirmation button when user is done confirming the required folder. */
+"CreateRequiredFolderButton" = "Locatie bevestigen";
+
+/* This is for the text field to show currently selected root folder path. */
+"FirstRunShowFolderPathText:%@" = "Uw %@-map is";
+
+/* This is the alert dialog title when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootTitle:%@" = "De locatie van van de %@-map is niet gevonden";
+
+/* This is the alert dialog body when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootMessage" = "De OneDrive-map is mogelijk verwijderd of, als de OneDrive-map zich op een extern station bevindt, is het station mogelijk verwijderd. Klik op OK om de OneDrive-map opnieuw te configureren.";
+
+/* This is the alert dialog button that allows user to reconfigure */
+"FirstRunUnconfiguredRootReconfigureButton" = "OK";
+
+/* This is the alert dialog button that allows user to quit the application */
+"FirstRunUnconfiguredRootQuitButton" = "OneDrive afsluiten";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is invalid */
+"InvalidMappingLocationMessageTitle" = "De OneDrive-map kan niet worden gemaakt op de geselecteerde locatie";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid. */
+"InvalidMappingLocationDetailedMessage" = "Probeer een andere locatie. Zorg ervoor dat de locatie zich niet op een verwijderbaar station of op een schijf met een hoofdlettergevoelige indeling bevindt.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location can't be used */
+"InvalidMappingLocationInUseTitle" = "Uw OneDrive-map kan niet worden gemaakt op deze locatie";
+
+/* This is a detailed explanation in the alert window telling users the selected folder is already used by another OneDrive account. */
+"InvalidMappingLocationInUseDetailedMessage" = "Er bestaat al een OneDrive-map op deze locatie. Kies een andere locatie.";
+
+/* This is a short text above detailed explaination in the alert window telling users to select the required path */
+"InvalidMappingRequiredPathMessageTitle" = "Bevestig de locatie van de geselecteerde map zodat de synchronisatie kan worden voortgezet";
+
+/* This is a detailed explaination in the alert window telling users the selected location is not the required path. */
+"InvalidMappingRequiredPathDetailedMessage" = "Bewaar de geselecteerde locatie en klik op Locatie bevestigen in Finder.";
+
+/* This is the button in the alert window that shows up when current location is not the required path. The button allows users to choose a new location */
+"InvalidMappingRequiredPathContinueButton" = "Doorgaan";
+
+/* This is the button in the alert window that shows up when current location is invalid. The button allows users to choose a new location */
+"InvalidMappingLocationChooseButton" = "Nieuwe locatie kiezen";
+
+/* This is the button in the alert window that shows up when current location is invalid. This button allows users to close the alert */
+"InvalidMappingLocationCancelButton" = "Annuleren";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty */
+"MappingLocationContainsFileMessageTitle" = "Deze map bevat al inhoud";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessage:%@" = "Als u deze locatie kiest voor de map %@, wordt de inhoud in deze map samengevoegd met uw OneDrive. U kunt een andere locatie kiezen of de geselecteerde locatie behouden.";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessageWithDefaultFolder:%@" = "Als u deze locatie kiest voor de map %@, wordt de inhoud van deze map samengevoegd met uw OneDrive.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty {%1$@ is a folder name and %2$@ is its parent folder name } */
+"LibraryFolderMappingLocationContainsFileMessageTitle:%@,%@" = "Er bestaat al een map %1$@ in de map %2$@";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is not empty. { %1$@ is a folder name } */
+"LibraryFolderMappingLocationContainsFileDetailedMessage:%@" = "Als u deze locatie kiest voor de map %1$@, worden bestanden in deze map samengevoegd met de bestanden in de cloud. U kunt de geselecteerde locaties gebruiken of synchroniseren naar een nieuwe map.";
+
+/* This is the button in the alert window that shows up when the folder location is not empty. This button allows users to continue anyway */
+"MappingLocationContainsFileContinueButton" = "Deze locatie gebruiken";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button allows users to choose a new location */
+"MappingLocationContainsFileChooseButton" = "Nieuwe locatie kiezen";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button informs us to automatically create a new folder on behalf of the user. */
+"MappingLocationContainsFileCreateButton" = "Synchroniseren naar een nieuwe map";
+
+/* This is on top of the selective sync page in First Run Experience. */
+"FirstRunSelectiveSyncTitle" = "Alleen synchroniseren wat u wilt";
+
+/* This is the description right below the title on top of the selective sync page. */
+"FirstRunSelectiveSyncDescription:%@" = "Kies welke items u wilt downloaden naar uw OneDrive%@-map en wilt kunnen openen, zelfs wanneer u offline bent.";
+
+/* This is the text on radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsTitle" = "Alle bestanden en mappen in mijn OneDrive";
+
+/* This is the description text next to the radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsDescription" = "Alle bestanden worden gesynchroniseerd met deze Mac, met uitzondering van gedeelde bestanden.";
+
+/* This is the text on radio button to choose to sync only some files */
+"FirstRunSelectiveSyncSomeItemsTitle" = "Mappen kiezen om te synchroniseren";
+
+/* This is the description text next to the radio button to choose to sync only some files. */
+"FirstRunSelectiveSyncSomeItemsDescription" = "Klik op Gereed om te selecteren wat met deze computer moet worden gesynchroniseerd.";
+
+/* This is the button text in the selective sync page */
+"FirstRunSelectiveSyncNextButtonText" = "Volgende";
+
+/* This is the title text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncTitle" = "Bestanden op aanvraag inschakelen";
+
+/* This is the description text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncDescription" = "Als u de opties voor Bestanden op aanvraag wilt zien in het snelmenu, moet u de extensie voor OneDrive Finder-synchronisatie inschakelen. Klik op Extensievoorkeuren openen en selecteer vervolgens de OneDrive Finder-extensie.";
+
+/* This is the button text in the Enable Finder Sync page for the Enable button */
+"FirstRunEnableFinderSyncEnableButtonText" = "Extensievoorkeuren openen";
+
+/* This is the button text in the Enable Finder Sync page for the Skip button */
+"FirstRunEnableFinderSyncSkipButtonText" = "Ik schakel extensies later in";
+
+/* This is on top of the Cloud Files Tutorial page in First Run Experience. */
+"FirstRunCloudFilesTutorialTitle" = "Al uw bestanden, klaar voor gebruik en op aanvraag beschikbaar";
+
+/* This is the description right below the title on top of the Cloud Files Tutorial page. */
+"FirstRunCloudFilesTutorialDescription" = "Met Bestanden op aanvraag kunt u in alle inhoud in uw OneDrive-account bladeren zonder extra ruimte te gebruiken op uw Mac. Bestanden worden direct gedownload wanneer u ze nodig hebt.";
+
+/* This is the header text in the Cloud Files Tutorial page for online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFiles" = "Alleen-onlinebestanden";
+
+/* This is the text in the Cloud Files Tutorial page describing online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFilesDescription" = "Alleen-onlinebestanden worden pas op uw apparaat gedownload wanneer u ze opent.";
+
+/* This is the header text in the Cloud Files Tutorial page for locally available files. */
+"FirstRunCloudFilesTutorialHydratedFiles" = "Lokaal beschikbare bestanden";
+
+/* This is the text in the Cloud Files Tutorial page describing locally available files. */
+"FirstRunCloudFilesTutorialHydratedFilesDescription" = "Bestanden die u opent, worden gedownload op uw apparaat en zijn offline beschikbaar.";
+
+/* This is the header text in the Cloud Files Tutorial page for always available files. */
+"FirstRunCloudFilesTutorialPinnedFiles" = "Altijd beschikbare bestanden";
+
+/* This is the text in the Cloud Files Tutorial page describing always available files. */
+"FirstRunCloudFilesTutorialPinnedFilesDescription" = "U kunt de bestanden en mappen markeren die altijd beschikbaar moeten zijn, zelfs offline.";
+
+/* This is the button text in the Cloud Files Tutorial page */
+"FirstRunCloudFilesTutorialNextButtonText" = "Volgende";
+
+/* This is on top of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunTitle" = "OneDrive is gereed voor gebruik";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunDescription:%@" = "De bestanden worden gedownload en gesynchroniseerd op deze Mac. Als u bestanden wilt toevoegen in OneDrive, verplaatst u ze naar de map %@ in Finder.";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience when Cloud Files on. */
+"FirstRunFinishFirstRunCloudFilesDescription:%@" = "Uw OneDrive-account is ingesteld en klaar voor gebruik. Als u bestanden wilt toevoegen aan OneDrive, verplaatst u ze gewoon naar de map %@ in Finder.";
+
+/* This is the text of the Open-at-login checkbox in the Finish First Run page (Done page) in First Run Experience */
+"FirstRunFinishFirstRunOpenAtLoginCheckboxText" = "Openen bij aanmelden zodat mijn bestanden automatisch worden gesynchroniseerd";
+
+/* This is the button text in the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunButtonText:%@" = "Mijn %@-map openen";
+
+// Settings folder access error
+
+/* This is the title text for dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorTitle" = "Kan map met instellingen niet openen";
+
+/* This is the descrption text for dialog we pop up when we cannot access settings folder {StrContains=\"Application Support\"} */
+"SettingsFolderErrorDescription" = "Controleer of u toegang hebt tot de map Application Support.";
+
+/* This is the button to quit for the dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorQuitButtonText" = "OneDrive afsluiten";
+
+// Cloud device - used by SyncDevice.mm
+
+/* The name of the online storage */
+"CloudDevice" = "OneDrive - gesynchroniseerde opslag";
+
+
+// Folder status - used by ModelExtensions.mm
+
+/* Text shown on status menu when everything is in sync */
+"FolderStatusInSync" = "OneDrive is up-to-date"; // Up to date
+
+/* Local folder convergence status against a remote folder is not known */
+"FolderStatusUnknown" = "Onbekend";
+
+/* Uploading and downloading files. "Files" will always be plural. */
+"FolderStatusSendAndReceive:%@" = "%@ bestanden overbrengen...";
+
+/* Uploading one file from a remote folder. We show the file name. */
+"FolderStatusSendingSingular:%@" = "%@ uploaden...";
+
+/* Uploading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusSendingPlural:%@" = "%@ bestanden uploaden...";
+
+/* Downloading one file from a remote folder. We show the file name. */
+"FolderStatusReceivingSingular:%@" = "%@ downloaden...";
+
+/* Downloading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusReceivingPlural:%@" = "%@ bestanden downloaden...";
+
+/* Processing downloaded files to be created in a local folder */
+"FolderStatusRealizing" = "Gedownloade bestanden verwerken...";
+
+/* Processing local file changes to be uploaded */
+"FolderStatusHashing" = "Wijzigingen verwerken...";
+
+/* Scanning file changes in a folder */
+"FolderStatusScanning" = "Bestanden scannen...";
+
+/* Scanning file changes in a folde */
+"FolderStatusScanningExtended:%@" = "%@ scannen...";
+
+/* Processing changes to files */
+"FolderStatusMetadataXfer" = "Bestanden verwerken...";
+
+/* Waiting to resume file transfers (upload/download) */
+"FolderStatusBlocked" = "Wachten op synchronisatie";
+
+/* Status for a folder that is not syncing*/
+"FolderStatusUnmapped" = "Uw OneDrive is niet geconfigureerd";
+
+/* Waiting to resume donwloading of a single file. We show the file name. */
+"FolderStatusBlockedSingular:%@" = "Wachten op ontvangst van %@...";
+
+/* Waiting to resume donwloading files */
+"FolderStatusBlockedPlural:%@" = "Wachten op ontvangst van %@ bestanden";
+
+/* Upload+Download Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB */
+"FolderStatusTransferProgress:%@,%@,%@,%@" = "%@ %@ van %@ %@";
+
+/* Upload+Download+Rate Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB The third number shows the current transfer rate followed by its unit. */
+"FolderStatusTransferProgressNew:%@,%@,%@,%@,%@,%@" = "%@ %@ van %@ %@ met snelheid van %@ %@";
+
+/* Improve upload performance */
+"FasterUploadOption" = "Verbeter de uploadsnelheid door te uploaden in batches.\r\nDeze optie gebruikt meer bandbreedte. Als u problemen opmerkt met de internetverbinding, schakelt u deze optie uit.";
+
+/* Available storage space. Example: 20 GB used out of 200 GB. This is used in the systray. */
+"StorageQuota:%@,%@" = "%1$@ van %2$@ gebruikt";
+
+/* Available storage space. Example: 20 GB of 200 GB cloud storage used. This is used in account tab of preference window to show GB on disk for personal account */
+"CloudStorageQuota:%@,%@" = "%1$@ van %2$@ cloudopslag wordt gebruikt";
+
+/* Storage used on Mac. Example: 2 GB used on this Mac. This is used in account tab of preference window to show GB on disk for ODB */
+"StorageOnMac:%@" = "%@ wordt gebruikt op deze Mac";
+
+// Device status - used by ModelExtensions.mm
+
+/* Drive status displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlocked" = "Kan geen bestanden uploaden";
+
+/* Error description displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlockedVerbose" = "Alle uploads zijn geblokkeerd vanwege een probleem met een bestand";
+
+// Device Location - used by ModelExtensions.mm
+
+/* Local device, i.e. this computer */
+"DeviceLocationLocal" = "Lokaal";
+
+/* Remote device, e.g. another computer */
+"DeviceLocationRemote" = "Extern";
+
+/* Cloud storage device, */
+"DeviceLocationCloud" = "Cloud";
+
+// Sync Issue Window
+
+/* "Problem" is a general term that includes both warnings and errors. Problem is singular. */
+"SyncIssueWindowTitleSingular:%@" = "1 probleem met uw %@";
+
+/* "Problem" is a general term that includes both warnings and errors. Problems is plural. */
+"SyncIssueWindowTitlePlural:%@,%@" = "%1$@ problemen met %2$@";
+
+/* The button is used to clear the issue list */
+"SyncIssueWindowClearButton" = "Wissen";
+
+/* Reveal is showing the item */
+"SyncIssueWindowOpenInFinderToolTip" = "Weergeven in Finder";
+
+/* Tool tip for the button that removes an issue from issue window */
+"SyncIssueWindowIgnoreIssueToolTip" = "Dit probleem negeren";
+
+/* Text on status when there are more than 1 problems. "Problems" is always plural */
+"SyncIssueStatusPlural:%@" = "%@ problemen met uw OneDrive";
+
+/* Text on status when there is a problem. problem is always singular */
+"SyncIssueStatusSingular" = "1 probleem met uw OneDrive";
+
+/* Tool tip for the button that opens issue resolver window */
+"SyncIssueWindowOpenIssueToolTip" = "Dit probleem oplossen";
+
+/* Primary text for error dialog with a file conflict for the file name. %@ is a file name */
+"SyncIssueAlertFileOnHoldPrimary:%@" = "Bestandsconflict voor %@ oplossen";
+
+/* Secondary text for error dialog. %@ is a machine name */
+"SyncIssueAlertFileOnHoldSecondary:%@" = "U kunt het bestand openen in Office om de wijzigingen uit beide versies samen te voegen of het bestand kiezen dat u wilt behouden. Anders kunt u beide bestanden behouden. Aan de naam van het bestand op uw computer wordt dan een -%@ toegevoegd, en het onlinebestand wordt gedownload.";
+
+/* Primary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldMainButton" = "Beide bestanden behouden";
+
+/* Secondary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldSecondaryButton" = "Openen in Office";
+
+// Error description - used by ModelExtensions.mm
+
+/* error description used in issue window {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFilename" = "Wijzig de bestandsnaam. Zorg bijvoorbeeld dat deze niet begint of eindigt met een spatie, eindigt met een punt, begint met twee punten of een van de volgende tekens bevat: \\ / : * ? \" < > | ";
+
+/* error description used in issue window  {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFoldername" = "Wijzig de mapnaam. Zorg bijvoorbeeld dat deze niet begint of eindigt met een spatie, eindigt met een punt, begint met twee punten of een van de volgende tekens bevat: \\ / : * ? \" < > | ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionFilePathTooLong" = "Het pad naar het bestand is te lang voor de computer";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionCloudAccessDenied:%@" = "Dit bestand is alleen-lezen in %@";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionDocumentCheckedOut" = "Dit bestand is door iemand anders uitgecheckt.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionServerFileConflict:%@" = "Een item is niet geüpload naar %@";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionExcludedItem:%@" = "Een item is niet geüpload naar %@";
+
+/* error description used in issue window %1$@ is a size like 10 GB, %2$@ is a string like "OneDrive - Microsoft" */
+"SyncErrorShortDescriptionFileTooBig:%@,%@" = "U kunt in %2$@ geen bestanden uploaden die groter zijn dan %1$@";
+
+/* Use "OneNote" unless there's a localized name for it {Locked=!cs, sk;\"OneNote\"} */
+"SyncErrorShortDescriptionOnenoteDeleted:%@" = "Snelkoppelingen naar OneNote-bestanden kunnen niet worden verwijderd uit de map %@. Klik om naar OneDrive te gaan en verwijder ze van het web.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionItemCantFitInQuota:%@" = "Het bestand of de map en de bijbehorende inhoud overschrijden het resterende quotum van uw %@";
+
+/* item means either folder or file */
+"SyncErrorShortDescriptionItemLimitExceeded:%@" = "%@ bevat te veel bestanden. Verwijder de bestanden die u niet nodig hebt.";
+
+/* The user choose to unsync files/folders but we are unable to delete it. item means either folder or file */
+"SyncErrorShortDescriptionUnmappedContentPresent:%@" = "Er bestaat al een bestand of map met deze naam op dezelfde locatie online in %@. Wijzig de naam van het bestand of de map.";
+
+/* error description used when Office files have edit-edit conflicts and they cannot be merged */
+"SyncErrorShortDescriptionFileOnHold" = "De wijzigingen zijn niet samengevoegd in een Office-bestand. Klik op het pijlpictogram om op te lossen.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaCritical:%@,%@" = "%1$@ is %2$@ vol";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaCritical:%@,%@" = "Er is nog maar %2$@ ruimte beschikbaar in %1$@.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaExceeded:%@" = "%@ heeft onvoldoende ruimte";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaExceeded" = "Zorg voor meer opslagruimte of verwijder bestanden die u niet meer nodig hebt om uw OneDrive-map gesynchroniseerd te houden.";
+
+/* error description used in issue window for business accounts */
+"CloudIssueShortDescriptionQuotaExceeded_Business" = "Neem contact op met de IT-afdeling voor meer informatie of maak ruimte vrij door bestanden te verwijderen.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleThrottling" = "OneDrive kan momenteel geen bestanden overbrengen";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionThrottling" = "Probeer het morgen opnieuw.";
+
+// Status menu - used by StatusMenuController.mm
+
+/* No comments provided by engineer */
+"StatusMenuTitle" = "Beheren";
+
+/* The status menu item text that leads to more menu items */
+"StatusMoreMenu" = "Meer";
+
+/* Text for status menu item that opens the folder containing deleted OneDrive files */
+"StatusMenuItemLaunchRecycleBin" = "OneDrive-prullenbak";
+
+/* Status menu item to allow the user to open the dialog for sharing file/folder */
+"StatusMenuItemShare" = "Een bestand of map delen...";
+
+/* Text for the status menu item which opens the OneDrive folder when clicked*/
+"StatusMenuItemOpenLocalFolder" = "OneDrive-map openen";
+
+/* Text for the status menu item which opens the named folder when clicked  */
+"StatusMenuItemOpenNamedFolder: %@" = "Map %@ openen";
+
+/* Status menu item that opens browser with Upgrade account page */
+"StatusMenuItemUpgrade" = "Upgrade uitvoeren";
+
+/* Text for the status menu item which opens a browser to OneDrive website for storage manage */
+"StatusMenuItemManageStorage" = "Opslag beheren";
+
+/* Status menu item that when clicked will launch a page with user's premium features */
+"StatusMenuItemManagePremium" = "Mijn premium-functies";
+
+/* Text for the status menu item which opens a browser to OneDrive website homepage */
+"StatusMenuItemLaunchWebsite" = "Naar OneDrive.com";
+
+/* The status menu item that allows user to open OneDrive help site. It will likely launch a browser to a website */
+"StatusMenuItemLaunchHelp" = "Help";
+
+/* The status menu item that allows user to open OneDrive feedback. It will likely launch a browser to a website */
+"StatusMenuItemFeedback" = "Feedback";
+
+/* The status menu item that allows a user to open the Parature support dialog. */
+"StatusMenuItemReportIssue" = "Probleem melden";
+
+/* Status shown on the status menu when everything is up to date */
+"StatusMenuItemUpToDate" = "OneDrive is up-to-date";
+
+/* Status shown on the status menu to indicate last updated time in seconds */
+"StatusMenuItemLastUpToDateTimeSecondsAgo" = "Laatst bijgewerkt: zojuist";
+
+/* Status shown on the status menu to indicate last updated time was one minute ago */
+"StatusMenuItemLastUpToDateTimeOneMinuteAgo" = "Laat bijgewerkt: 1 minuut geleden";
+
+/* Status shown on the status menu to indicate last updated time was minutes ago */
+"StatusMenuItemLastUpToDateTimeMinutesAgo:%d" = "Laatst bijgewerkt: %d minuten geleden";
+
+/* Status shown on the status menu to indicate last updated time was one hour ago */
+"StatusMenuItemLastUpToDateTimeOneHourAgo" = "Laat bijgewerkt: 1 uur geleden";
+
+/* Status shown on the status menu to indicate last updated time was hours ago */
+"StatusMenuItemLastUpToDateTimeHoursAgo:%d" = "Laat bijgewerkt: %d uur geleden";
+
+/* Status shown on the status menu to indicate last updated time on a date */
+"StatusMenuItemLastUpToDateTimeDaysAgo:%@" = "Laatst bijgewerkt: %@";
+
+/* No comments provided by engineer */
+"StatusMenuItemViewActivity" = "Recente activiteiten weergeven";
+
+/* Status menu entry for opening the issue window */
+"StatusMenuItemViewIssues" = "Klik hier voor synchronisatieproblemen";
+
+/* Status shown on the status menu when downloading a file */
+"StatusMenuItemSyncCountSingularDownload: %@" = "%@ downloaden";
+
+/* Status shown on the status menu when uploading a file */
+"StatusMenuItemSyncCountSingularUpload: %@" = "%@ uploaden";
+
+/* Status shown on the status menu when downloading or uploading more than one file */
+"StatusMenuItemSyncCount-%d" = "%d items overbrengen...";
+
+/* Text for status menu item that opens the preference. It should be translated the same way as all app menu's Preferences item. */
+"StatusMenuItemPreferences" = "Voorkeuren";
+
+/* Text for preference window accessibility label. %1$@ is the current tab name */
+"AccessibilityPreferencesWindowLabel:%@" = "Voorkeuren voor %1$@";
+
+/* Text for status menu item that pauses syncing. */
+"StatusMenuItemPause" = "Synchroniseren onderbreken";
+
+/* Text for status menu item that resumes syncing when paused. */
+"StatusMenuItemResume" = "Synchroniseren hervatten";
+
+/* Text for status menu item that indicates to pause for 1 hour. */
+"StatusMenuItemPauseTimerSingular" = "1 uur";
+
+/* Text for status menu item that indicates to pause for a number of hours. %1$@ is a number representing hours. */
+"StatusMenuItemPauseTimerPlural" = "%1$@ uur";
+
+/* Text for status menu item that quits the app */
+"StatusMenuItemQuit" = "OneDrive afsluiten";
+
+/* Loading user data when signing-in */
+"StatusMenuItemLoading" = "Laden...";
+
+/* OneDrive is at initial start up */
+"StatusMenuItemStarting" = "OneDrive starten";
+
+/* OneDrive is showing first run wizard */
+"StatusMenuItemSetup" = "OneDrive instellen";
+
+/* Waiting for user input to migrate their Sandbox data */
+"StatusMenuItemMigration" = "Gebruikersgegevens migreren...";
+
+/* Text for status menu item that signs out the app */
+"StatusMenuItemSignOut" = "Afmelden";
+
+/* Launch the application automatically after login to OS */
+"StatusMenuItemOpenAtLogin" = "Openen bij aanmelden";
+
+/* Status menu item that when clicked will launch the live sit for the account that is connected */
+"StatusMenuItemViewOnline" = "Online weergeven";
+
+// Quit Dialog
+
+/* Title text for dialog shown when user is quitting OneDrive */
+"QuitDialogHeader" = "OneDrive afsluiten?";
+
+/* Body text for dialog shown when user is quitting OneDrive */
+"QuitDialogDescription" = "Als u OneDrive afsluit, worden de bestanden in de OneDrive-map niet gesynchroniseerd met uw onlinebestanden.";
+
+/* Title text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogHeaderUploadsPending" = "OneDrive afsluiten en stoppen met het uploaden van bestanden?";
+
+/* Body text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogDescriptionUploadsPending" = "Als u OneDrive afsluit, worden de bestanden in de OneDrive-map pas volledig geüpload als u opnieuw start.";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will quit OneDrive. */
+"QuitDialogButtonDefault" = "OneDrive afsluiten";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will dismiss dialog. */
+"QuitDialogCancelButton" = "Annuleren";
+
+// Dock Menu - used by DockMenuController.mm
+
+/* No comments provided by engineer */
+"DockMenuTitle" = "OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemOpenLocalFolder" = "OneDrive-map openen";
+
+/* No comments provided by engineer */
+"DockMenuItemLaunchWebsite" = "Naar OneDrive.com";
+
+// Login Failures - used by SignInViewController.mm
+
+/* When we are unable to retrieve a user's tenant name, we will use this to show "OneDrive - Business" */
+"DefaultTenantName" = "Bedrijven";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"InvalidUsernameTitleText" = "Kan niet aanmelden bij OneDrive.";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the explaination text in the dialog {StrContains=\"example555@hotmail.com\"} */
+"InvalidUsernameDescriptionText" = "Voer uw Microsoft-account in de volgende indeling in: example555@hotmail.com.";
+
+/* When we receive an invalid web request, we show this text as the first line of the dialog. */
+"InvalidWebRequestTitle" = "De synchronisatieclient is niet geopend";
+
+/* When we receive an invalid web request, we show this text as the body text of the dialog. */
+"InvalidWebRequestBody" = "De URL is niet verwerkt. Neem contact op met ondersteuning voor hulp.";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailTitle" = "Er is een probleem opgetreden tijdens de aanmelding";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailText" = "Er is een probleem opgetreden tijdens de aanmelding. Probeer het opnieuw. Controleer of het Microsoft-account en het wachtwoord correct zijn en of de computer verbinding heeft met internet.";
+
+/* When we have connectivity error during sign in, we pop up a dialog and this is the first line of the text in the dialog*/
+"SignInConnectivityErrorTitleText" = "Er is een probleem opgetreden bij het verbinding maken met OneDrive";
+
+/* When we have connecctivity error during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInConnectivityErrorDescriptionText" = "Controleer de internetverbinding en probeer het opnieuw.";
+
+/* When we fail to access the keychain during sign in, we pop up a dialog and this is the first line of text in the dialog. */
+"SignInKeychainErrorTitleText" = "Er is een probleem opgetreden bij het openen van de sleutelhanger";
+
+/* when we fail to access the keychain during sign in, we pop up a dialog and this is the detailed text in the dialog. */
+"SignInKeychainErrorDescriptionText" = "Controleer of de sleutelhanger voor aanmelding bestaat en of OneDrive hiertoe toegang heeft. Geef OneDrive toegang tot de sleutelhanger als u hierom wordt gevraagd.";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the first line of the text in the dialog */
+"SignInCredentialErrorTitleText" = "Er is een probleem opgetreden bij het verbinding maken met OneDrive";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInCredentialErrorDescriptionText" = "Controleer de internetverbinding en probeer het opnieuw.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SuspendedAccountTitleText" = "Kan niet aanmelden bij OneDrive.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the explaination text in the dialog */
+"SuspendedAccountDescriptionText" = "Uw account tijdelijk geblokkeerd.";
+
+/* When we get a user using a non-beta enabled account, we show this error title. */
+"SignInNoBetaText" = "Kan niet aanmelden bij OneDrive.";
+
+/* When we get a user using a non-beta enabled account, we show this error description. {StrContains=\"Windows Live\"} */
+"SignInNoBetaDescriptionText" = "Dit account is niet ingeschakeld voor het Windows Live Beta-programma.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnknownErrorTitle" = "Er is een probleem opgetreden tijdens de aanmelding";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnknownErrorText" = "Probeer het over enkele minuten opnieuw.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLError500Title" = "Er is een probleem opgetreden tijdens de aanmelding";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLError500Text" = "Er is een probleem opgetreden met OneDrive. Probeer het over enkele minuten opnieuw.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInterruptedErrorTitle" = "Er is een probleem opgetreden tijdens de aanmelding";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInterruptedErrorText" = "Er is een probleem opgetreden met uw account. Meld u aan bij de website van de service als u wilt weten hoe u dit probleem oplost. Probeer het opnieuw nadat u het probleem hebt opgelost.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnauthorizedErrorTitle" = "Er is een probleem opgetreden tijdens de aanmelding";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnauthorizedErrorText" = "Er is een probleem opgetreden met OneDrive. Probeer het over enkele minuten opnieuw.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidClientErrorTitle" = "Er is een probleem opgetreden tijdens de aanmelding";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidClientErrorText" = "Er is een probleem opgetreden met OneDrive. Probeer het over enkele minuten opnieuw.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidGrantErrorTitle" = "Er is een probleem opgetreden tijdens de aanmelding";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidGrantErrorText" = "Er is een probleem opgetreden met OneDrive. Probeer het over enkele minuten opnieuw.";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the title. */
+"SignInURLSPOUserNotFoundTitle" = "Uw OneDrive is niet ingesteld";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the error text. */
+"SignInURLSPOUserNotFoundErrorText" = "Neem contact op met uw IT-afdeling voor hulp.";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the title */
+"SignInURLUserThrottledErrorTitle" = "OneDrive is niet ingesteld op deze Mac";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the error text. */
+"SignInURLUserThrottledErrorText" = "Er is momenteel veel verkeer op OneDrive. Probeer het later opnieuw.";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the title. */
+"SignInURLEmailMismatchTitle" = "Gebruik hier hetzelfde e-mailadres dat u op internet hebt gebruikt, om te kunnen synchroniseren";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the error text. */
+"SignInURLEmailMismatchErrorText:%@" = "Meld u aan met %@ om het synchroniseren van deze inhoud te starten.";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to try signing in again. */
+"SignInTryAgainButtonText" = "Opnieuw";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive*/
+"SignInQuitButtonText" = "OneDrive afsluiten";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive */
+"SignInCloseButtonText" = "Sluiten";
+
+/* This text is displayed in sign in dialog while we load signing in page */
+"SignInPageLoadingText" = "Laden...";
+
+/* This text is used for voice over while we load signing in page */
+"SignInPageLoadingVoiceOverText" = "Een ogenblik geduld. OneDrive wordt geladen.";
+
+/* This text is displayed in sign in dialog while we are signing in the user */
+"SignInProgressingText" = "Aanmelden...";
+
+/* This text is used for voice over while we are signing in the user */
+"SignInProgressingVoiceOverText" = "Een ogenblik geduld. U wordt aangemeld bij OneDrive.";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the title. */
+"SignInDuplicateSyncErrorTitle" = "Dit account wordt al gesynchroniseerd";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the text. */
+"SignInDuplicateSyncErrorText:%@" = "Open uw %@-map of meld u aan met een ander account.";
+
+/* When the userconnected service returns an error, this is the title */
+"SignInUserConnectedErrorTitle" = "Er is een probleem opgetreden bij het verbinding maken met OneDrive";
+
+/* When the userconnected service returns error: "AccessDenied". This is the error text. */
+"SignInUserConnectedAccessDeniedText" = "U hebt geen toegang tot deze service. Neem contact op met de IT-afdeling voor hulp";
+
+/* When the userconnected service returns error: "AccountSuspended". This is the error text. */
+"SignInUserConnectedAccountSuspendedText" = "Het account is geblokkeerd. Neem contact op met de IT-afdeling voor hulp";
+
+/* When the userconnected service returns error: "InvalidUserData". This is the error text. */
+"SignInUserConnectedInvalidUserDataText" = "Er is geen verbinding met de service tot stand gebracht. Neem contact op met de IT-afdeling voor hulp";
+
+/* When the userconnected service returns error: "MissingLicense". This is the error text. */
+"SignInUserConnectedMissingLicenseText" = "U hebt een andere licentie nodig om deze service te openen. Neem contact op met de IT-afdeling voor hulp";
+
+/* When the userconnected service returns error: "ProvisioningFailed". This is the error text. */
+"SignInUserConnectedProvisioningFailedText" = "OneDrive is niet ingesteld. Neem contact op met de IT-afdeling voor hulp";
+
+/* When the userconnected service returns error: "Throttled". This is the error text. */
+"SignInUserConnectedThrottledText" = "De service heeft momenteel te maken met een groot aantal aanvragen. Probeer het over enkele minuten opnieuw";
+
+/* When the userconnected service returns error: "Timeout". This is the error text. */
+"SignInUserConnectedTimeoutText" = "Het duurt te lang voordat de service reageert. Probeer het over enkele minuten opnieuw";
+
+/* When the userconnected service returns error: "Unknown". This is the error text. */
+"SignInUserConnectedUnknownText" = "Probeer het over enkele minuten opnieuw of neem contact op met de IT-afdeling als het probleem zich blijft voordoen";
+
+/* When the userconnected service returns error: "UnreachableHost". This is the error text. */
+"SignInUserConnectedUnreachableHostText" = "De service is tijdelijk niet beschikbaar. Probeer het over enkele minuten opnieuw";
+
+/* When the userconnected service returns error: "UserNotFound". This is the error text. */
+"SignInUserConnectedUserNotFoundText" = "Er doet zich een probleem voor met het account. Neem contact op met de IT-afdeling voor hulp";
+
+/* When the userconnected service returns error: "NoTeamSitePermission". This is the error text. */
+"SignInUserConnectedNoTeamSitePermText" = "U hebt geen toegang tot deze SharePoint-site. Neem contact op met de IT-afdeling voor hulp";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error. This is the title. */
+"SignInUserAlreadyLoadedErrorTitle" = "U synchroniseert momenteel een ander account";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error.
+   Depending on whether we know which email the user is signed in with, either show the specific or the generic message below. This is the text. */
+"SignInUserAlreadyLoadedErrorEmailSpecificText:%@" = "Het account waarmee u zich hebt aangemeld, komt niet overeen met het account dat u wilt synchroniseren. Geef het wachtwoord op voor %@. Als u een ander account wilt toevoegen, gaat u naar Voorkeuren, klikt u op het tabblad Account en selecteert u Account toevoegen";
+
+"SignInUserAlreadyLoadedErrorGenericText" = "Het account waarmee u zich hebt aangemeld, komt niet overeen met het account dat u synchroniseert. Als u een ander account wilt toevoegen, gaat u naar Voorkeuren, klikt u op het tabblad Account en selecteert u Account toevoegen";
+
+/* When MSA user is already syncing with account A, and tries to sign in with account B when prompted for creds. Depending on whether the e-mail address is available or not, we show the specific or generic message below. This is the text */
+ "SignInUserAlreadyLoadedErrorMSAEmailSpecificText:%@" = "Het account waarmee u zich hebt aangemeld, komt niet overeen met het account dat u wilt synchroniseren. Geef het wachtwoord op voor %@.";
+
+ "SignInUserAlreadyLoadedErrorMSAGenericText" = "Het account waarmee u zich hebt aangemeld, komt niet overeen met het account dat u wilt synchroniseren.";
+
+/* When an unknown error occurs that has not been handled. This is the title. */
+"SignInUnknownErrorTitle" = "Er is een probleem opgetreden tijdens de aanmelding";
+
+/* When an unknown error occurs that has not been handled. This is the text. */
+"SignInUnknownErrorText" = "Probeer het over enkele minuten opnieuw of neem contact op met de IT-afdeling als het probleem zich blijft voordoen";
+
+// Preferences - used by PreferenceController.mm
+
+/* This is the text on preference window toolbar for Preferences. */
+"PreferenceGeneralItem" = "Voorkeuren";
+
+/* This is the text that encloses General area in preference window. */
+"PreferenceGeneralGroupBoxText" = "Algemeen";
+
+/* This is the text on preference window check box. When user checks this option, it allows OneDrive to start when user login. */
+"PreferenceStartAtLoginCheckBoxText" = "Openen bij aanmelding";
+
+/* This is the description for enable OnPrem telemetry checkbox. */
+"PrivacyCheckBoxText" = "Foutenrapporten en gebruiksstatistieken verzenden naar Microsoft";
+
+/* This is the description when OneDrive is at the wrong location. "Applications" should be localized the same way as the OS. */
+"OpenAtLoginDisabledExplaination" = "Als u deze instelling beschikbaar wilt maken, sluit u OneDrive, verplaatst u de OneDrive-toepassing naar de map Toepassingen en opent u OneDrive opnieuw.";
+
+/* This is the text on preference window check box. When user checks this option, OneDrive icon is removed from the Dock. Note "Dock" is capital D */
+"PreferenceHideDockIconText" = "Pictogram in dock verbergen";
+
+/* This is the text for a preference window check box. When the user checks this option we will automatically save screenshots any time they take a screenshot. */
+"PreferenceEnableScreenCaptureUpload" = "Schermopnamen opslaan in OneDrive";
+
+/* This will be displayed when a user running a store build attempts to enable the screen capture
+ * feature. Due to app store limitations, the user is forced to select their desktop folder. This
+ * message will be displayed within the file open dialog in order to help the user understand what
+ * selection they are required to make in the file open dialog. */
+"PreferenceEnableScreenCaptureUploadOpenDialogMessage" = "Selecteer uw bureaubladmap om schermopnamen automatisch op te slaan in OneDrive.";
+
+/* This is the text on preference window check box. When user checks this option, we will not show share/edit notifications */
+"PreferenceDisplayShareEditNotificationsCheckBoxText" = "Meldingen over delen of bewerken weergeven";
+
+/* This is the text on preference window toolbar for About. */
+"PreferenceAboutItem" = "Info";
+
+/* This is the text that encloses about area in preference window. */
+"PreferenceAboutGroupBoxText" = "Info over Microsoft OneDrive";
+
+/* This is the text that shows version. */
+"PreferenceVersionText:%@" = "Versie %@";
+
+/* This is the text that shows version for standalone. */
+"PreferenceStandaloneVersionText:%@" = "Versie %@ (Standalone)";
+
+/* This is the text that encloses "more info" area in preference window. */
+"PreferenceMoreInfoGroupBoxText" = "Meer informatie";
+
+/* This is the text that opens help in browser. */
+"PreferenceGetHelpText" = "Hulp krijgen met OneDrive";
+
+/* This is the text that opens privacy statement in browser. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"PreferencePrivacyStatementText" = "Privacy en cookies";
+
+/* This is the text that opens server status in browser. */
+"PreferenceServerStatusText" = "Status van service";
+
+/* This is the text that opens Terms of Use in browser. */
+"PreferenceTermsOfUseText" = "Gebruiksvoorwaarden";
+
+/* This is the text on the button in preference window that opens the manage storage page on browser */
+"PreferenceManageStorageButtonText" = "Opslag beheren";
+
+/* This is the text on the button that unlinks OneDrive in preference window. */
+"PreferenceUnlinkButtonText" = "Deze Mac ontkoppelen";
+
+/* This is the title text on the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertMessageTitle" = "Account ontkoppelen op deze Mac?";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for consumer accounts. */
+"PreferenceUnlinkAlertDetailedMessage" = "Uw OneDrive-bestanden worden niet meer gesynchroniseerd. Een kopie van deze bestanden blijft bewaard op deze Mac.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for business accounts. */
+"PreferenceUnlinkAlertDetailedMessageBusiness:%@" = "De zakelijke inhoud die aan het account (%@) is gekoppeld, wordt niet meer gesynchroniseerd. Er blijft een exemplaar van deze bestanden op deze Mac staan.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for last library unsynced. %1$@ is a folder name, %2$@ is an email address */
+"PreferenceUnlinkLastLibraryAlertDetailedMessage:%@,%@" = "%1$@ is de laatst gesynchroniseerde map. Als u stopt met het synchroniseren van deze map, wordt het %2$@-account ontkoppeld. Er blijft een kopie van deze bestanden behouden op deze Mac.";
+
+/* This is the text on the confirm button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertConfirmButton" = "Account ontkoppelen";
+
+/* This is the text on the cancel button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertCancelButton" = "Annuleren";
+
+/* This is the text on the button that resets OneDrive in preference window. */
+"PreferenceResetButtonText" = "OneDrive opnieuw instellen";
+
+/* This is the text on preference window toolbar for account. */
+"PreferenceAccountItem" = "Account";
+
+/* This is the text that tells users how to sync down only selected folders in preference window. */
+"PreferenceSelectiveSyncDescription" = "De mappen die u kiest, zijn vervolgens beschikbaar op deze Mac.";
+
+/* This is the text that encloses "Choose folders" area in preference window. */
+"PreferenceFolderGroupBoxText" = "Mappen kiezen";
+
+/* This is the button that opens up advanced selective sync in preference window. */
+"PreferenceSelectFoldersButton" = "Mappen kiezen";
+
+/* This is the text on the the preference window toolbar for network. */
+"PreferenceNetworkItem" = "Netwerk";
+
+/* This is the text on the Upload box. */
+"PreferenceUploadBox" = "Uploadsnelheid";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceNoLimit" = "Niet beperken";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimit" = "Automatisch aanpassen";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimitByAdmin" = "Automatisch aanpassen (beheerd door uw organisatie)";
+
+/* This is the text on the radio button that does limit bandwidth. */
+"PreferenceCustomLimit" = "Beperken tot:";
+
+/* This is the text on the Download box. */
+"PreferenceDownloadBox" = "Downloadsnelheid";
+
+/* This is the text on the box to enable the Files On-Demand feature. */
+"PreferenceCloudFilesEnableBox" = "Bestanden op aanvraag";
+
+/* This is the description for the Files On-Demand box. */
+"PreferenceCloudFilesDescription" = "Met Bestanden op aanvraag maakt u ruimte vrij op de computer door bestanden te downloaden terwijl u ze gebruikt.";
+
+/* Button text in Files On-Demand box. Clicking this button turns on the feature. */
+"PreferenceCloudFilesEnable" = "Bestanden op aanvraag inschakelen";
+
+/* Button text in Files On-Demand box. Clicking this button turns off the feature. */
+"PreferenceCloudFilesDisable" = "Bestanden op aanvraag uitschakelen";
+
+/* Link in the Files On-Demand box. Clicking this link will launch a webpage with more information. */
+/* Also resued in local mass delete delete confirmed ACM. */
+"PreferenceCloudFilesMoreInfo" = "Meer informatie";
+
+/* This is the title text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertMessageTitle" = "Bestanden op aanvraag uitschakelen?";
+
+/* This is the body text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertDetailedMessage" = "Alle OneDrive-bestanden en -mappen worden gedownload op deze Mac.";
+
+/* This is the text on the confirm button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertConfirmButton" = "OK";
+
+/* This is the text on the cancel button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertCancelButton" = "Annuleren";
+
+/* This is the button text to display the Blocked Applications list. */
+"PreferenceBlockedAppButtonText" = "Apps beheren";
+
+/* This is the description for the Hydrating Applications pane. */
+"PreferenceHydratingAppDescription" = "Op de Mac kunnen OneDrive-bestanden met het kenmerk Alleen-online automatisch worden gedownload voor apps waarvoor deze bestanden zijn vereist.";
+
+/* This is the description for the Blocked Applications box. */
+"PreferenceBlockedAppDescription" = "Voor deze toepassingen is automatisch downloaden uit OneDrive geblokkeerd:";
+
+/* This is the description for the checkbox that allows user to control whether they see a hydration notification toast. */
+"PreferenceNotifyHydratingAppCheckbox" = "Waarschuw mij wanneer een app download uit OneDrive";
+
+/* This is the header of the table listing Blocked Applications */
+"PreferenceBlockedAppTableHeader" = "Toepassingen";
+
+/* Label for the button to close the Blocked Applications list */
+"PreferenceBlockedAppCloseButtonLabel" = "Sluiten";
+
+/* Prompt for user to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationPrompt" = "Selecteer toepassingen waarop u het automatisch downloaden van bestanden wilt blokkeren";
+
+/* Header for error when unable to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationErrorHeader" = "Selectie is niet toegevoegd";
+
+/* Body for error when unable to add an application to the Blocked Applications list*/
+"PreferenceBlockedAppAddApplicationErrorBody" = "Het automatisch downloaden van OneDrive-bestanden kan alleen worden geblokkeerd op toepassingen. Selecteer een toepassing en probeer het opnieuw.";
+
+// Preferences - Advanced Selective Sync Page
+
+/* This is the text on the top of advanced selective sync sheet. */
+"AdvancedSelectiveSyncTitle" = "Bestanden uit uw OneDrive synchroniseren";
+
+/* This is the text on the top of advanced selective sync sheet when Cloud Files on. */
+"AdvancedSelectiveSyncTitleCloudFiles" = "Mappen kiezen";
+
+/* This is the text under the title of advanced selective sync sheet. */
+"AdvancedSelectiveSyncDescription:%@" = "Kies welke items u wilt downloaden naar de map %@. U kunt deze items ook openen wanneer u offline bent.";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page. */
+"AdvancedSelectiveSyncDescriptionPreferences" = "De bestanden die u synchroniseert, nemen ruimte in beslag op deze Mac";
+
+/* This is the text in advanced selective sync sheet to sync everything. */
+"AdvancedSelectiveSyncAll" = "Alle bestanden en mappen in mijn OneDrive synchroniseren";
+
+/* This is the text in advanced selective sync sheet to sync everything under a team site. */
+"AdvancedSelectiveSyncAllTeamSite:%@" = "Alle bestanden en mappen op %@ synchroniseren";
+
+/* This is the text in advanced selective sync sheet to sync only some files. */
+"AdvancedSelectiveSyncSome" = "Of alleen deze mappen synchroniseren:";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page and Cloud Files enabled. */
+"AdvancedSelectiveSyncDescriptionCloudFiles" = "Kies wat u beschikbaar wilt maken in de map %@. Deze bestanden zijn vervolgens op aanvraag beschikbaar. Niet-geselecteerde mappen zijn verborgen in Finder.";
+
+/* This is the text in advanced selective sync sheet to sync everything when Cloud Files is enabled. */
+"AdvancedSelectiveSyncAllCloudFiles" = "Alle bestanden beschikbaar maken";
+
+/* This is the text in advanced selective sync sheet to sync only some files when Cloud Files is enabled. */
+"AdvancedSelectiveSyncSomeCloudFiles" = "Of deze mappen zichtbaar maken:";
+
+/* This is the text on the file group item in the tree view. %@ is for folder names. ie "puppies", "Cute Kittens". */
+"AdvancedSelectiveSyncFileGroupItem:%@" = "Bestanden in '%@'";
+
+/* This is the text on the root's file group item in the tree view. */
+"AdvancedSelectiveSyncFileGroupItemRoot" = "Bestanden die zich niet in een map bevinden";
+
+/* This is the text on the advanced selective sync sheet for the local path on Mac. */
+"AdvancedSelectiveSyncMacLocationText" = "Locatie op uw Mac:";
+
+/* This is the button text on the advanced selective sync sheet for start sync. */
+"AdvancedSelectiveSyncStartSyncButtonText" = "Synchronisatie starten";
+
+/* This is the button text on the advanced selective sync sheet for confirmation. */
+"AdvancedSelectiveSyncConfirmButtonText" = "OK";
+
+/* This is the button text on the advanced selective sync sheet for cancelling out. */
+"AdvancedSelectiveSyncCancelButtonText" = "Annuleren";
+
+/* This is the text at the middle of advanced selective sync sheet when loading. */
+"AdvancedSelectiveSyncLoading" = "Laden...";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoading:%@" = "De lijst met mappen in %@ is niet opgehaald.\nSluit dit dialoogvenster en probeer het opnieuw.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders during FRE. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoadingFRE" = "Fout bij het weergeven van uw mappenlijst. Als u wilt verdergaan, worden al uw bestanden en mappen nu voor u gesynchroniseerd. U kunt dit later wijzigen bij Voorkeuren.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to provision error. */
+"AdvancedSelectiveSyncFailedLoadingWithProvisionError" = "Uw mappenlijst kan niet worden weergegeven, omdat het account nog wordt ingesteld. Al uw bestanden en mappen worden nu voor u gesynchroniseerd. U kunt dit later wijzigen bij Voorkeuren.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to offline error*/
+"AdvancedSelectiveSyncFailedLoadingWithOfflineError" = "Uw mappenlijst kan niet worden weergegeven, omdat we geen verbinding konden maken met OneDrive. Controleer uw internetverbinding en probeer het opnieuw.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to auth error. */
+"AdvancedSelectiveSyncFailedLoadingWithAuthError" = "Uw mappenlijst kan niet worden weergegeven omdat er een probleem is met uw account. Sluit OneDrive af en meld u opnieuw aan.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to having no files and folders. */
+"AdvancedSelectiveSyncFailedLoadingWithNoFileError" = "Uw OneDrive is leeg. Als u bestanden wilt synchroniseren die u later wilt toevoegen aan OneDrive, selecteert u 'Alle bestanden en mappen op mijn OneDrive'.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnote" = "Als u stopt met het synchroniseren van bestanden of mappen, blijven deze op OneDrive staan, maar niet op deze Mac. Als ze al op deze Mac staan, worden deze verwijderd.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnoteCloudFiles" = "Als u deze mappen verbergt op uw Mac, blijven de bestanden opgeslagen in OneDrive, maar zijn ze niet beschikbaar op deze Mac. Alle items in deze map worden verwijderd van deze Mac.";
+    
+/* This is the title text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingTitle" = "Er doet zich een probleem voor bij het toepassen van de wijzigingen";
+
+/* This is the description text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingDescription:%@" = "De lijst met mappen die u wilt synchroniseren, is niet opgeslagen in %@. Probeer het opnieuw.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingConfirm" = "Sluiten";
+
+/* This is the title text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingTitle" = "Kan niet wijzigen welke mappen op deze Mac worden gesynchroniseerd";
+
+/* This is the description text in the alert sheet after we fail to set selective sync because syncengine is busy*/
+"AdvancedSelectiveSyncBusySettingDescription" = "Bepaalde items waarvan u de synchronisatie probeert te stoppen, bevinden zich nog niet op OneDrive. Wacht totdat deze zijn geüpload, los eventuele synchronisatieproblemen op en probeer dan later wijzigingen aan te brengen.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingConfirm" = "Sluiten";
+
+/* This is the text indicating the total size of all selected files and folders. The placeholder is the size and the unit.
+ Examples: Selected: 20 MB */
+"AdvancedSelectiveSyncFilesSelected:%@" = "Geselecteerd: %@";
+
+/* This is the text indicating the remaining space on disk. The first item is the disk. The second item is the size and the unit.
+ Examples: Remaining space on Macintosh HD: 20 GB */
+"AdvancedSelectiveSyncAvailableSpace:%@,%@" = "Resterende ruimte op %1$@: %2$@";
+
+/* This is the description text for selectively syncing folders */
+"AdvancedSelectiveSyncSyncOnlyTheseFolderTitle" = "Alleen deze mappen synchroniseren";
+
+/* This is the text shown when calculating the selected and remaining disk space */
+"AdvancedSelectiveSyncLoadingTitle" = "Berekenen...";
+
+/* This is the text shown when content already syncing */
+"AdvancedSelectiveSyncAlreadySyncingWarning" = "Deze inhoud wordt al gesynchroniseerd.";
+
+/* This is the text shown when the teamsite that will be synced is read-only. */
+"AdvancedSelectiveSyncReadOnlyWarning" = "Deze site is alleen-lezen. U kunt geen wijzigingen aanbrengen aan bestanden of mappen op deze site.";
+
+/* This is the text for add an account button in the account tab of preference window */
+"AddAccountButtonText" = "Account toevoegen";
+
+/* This is the text for teamsite box in account tab of preference window (singular) */
+"PreferenceTeamSiteGroupBoxText" = "Er wordt 1 locatie gesynchroniseerd";
+
+/* This is the text for teamsite box in account tab of preference window (plural) */
+"PreferenceTeamSiteGroupBoxText:%d" = "Er worden %d locaties gesynchroniseerd";
+
+/* This is the text shown when not syncing ODB in account tab of preference window */
+"PreferenceNotSyncingQuotaText" = "Niet synchroniseren";
+
+/* This is the text for start sync button for ODB in account tab of preference window */
+"PreferenceStartSyncButton" = "Synchronisatie starten";
+
+/* This is the text for stop sync button for each team site library in account tab of preference window */
+"PreferenceStopSyncButton" = "Stoppen met synchroniseren";
+
+/* This is the title text in the dialog that stops syncing a teamsite in preference window. */
+"PreferenceStopSyncAlertMessageTitle:%@" = "Synchronisatie van %@ stoppen?";
+
+/* This is the body text in the dialog that unlinks OneDrive in preference window. */
+"PreferenceStopSyncAlertDetailedMessage:%@" = "%@ wordt niet meer gesynchroniseerd. Een kopie van deze bestanden blijft bewaard op deze Mac.";
+
+/* This is the text on the confirm button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertConfirmButton" = "Synchroniseren stoppen";
+
+/* This is the text on the cancel button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertCancelButton" = "Annuleren";
+
+/* This is the title of the notifications we show after a team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationTitle:%@" = "%1$@ wordt nu gesynchroniseerd";
+
+/* This is the body of the notification we show after a read-only team site has been succesfully connected (initial sync). */
+"TeamSiteNotificationReadOnlyBody" = "Deze site is alleen-lezen. Klik hier om de bestanden weer te geven.";
+
+/* This is the body of the notification we show after an editable team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationEditableBody:%@" = "U kunt bestanden in %1$@ bewerken. Klik hier om de bestanden weer te geven.";
+
+/* This is the title of the notification we show after a previously connected, editable team site has become read-only. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingReadOnlyTitle:%@" = "%1$@ is nu alleen-lezen.";
+
+/* This is the body of the notification we show after a previously connected, editable team site has become read-only. */
+"TeamSiteNotificationAlreadySyncingReadOnlyBody" = "U kunt geen bestanden of mappen meer bewerken omdat de machtigingen voor de site zijn gewijzigd.";
+
+/* This is the title of the notification we show after a previously connected, read-only team site has become editable. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingEditableTitle:%@" = "U kunt nu wijzigingen aanbrengen in %1$@";
+
+/* This is the body of the notification we show after a previously connected, read-only team site has become editable. */
+"TeamSiteNotificationAlreadySyncingEditableBody" = "Wijzigingen worden geüpload naar de site.";
+
+/* This is the body of the notification we show after a team site has been succesfully connected. Permissions of the site are not indicated for this toast. %1$@ is a folder name. */
+"TeamSiteMountNotificationBody:%@" = "De bestanden in %1$@ worden gesynchroniseerd met deze Mac. Klik hier om de bestanden weer te geven.";
+
+/* This is the title of the notifications we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingHeader:%@" = "%1$@ wordt al gesynchroniseerd";
+
+/* This is the body of the notification we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingBody:%@" = "%1$@ wordt al gesynchroniseerd op dit apparaat. Klik hier om de bestanden weer te geven.";
+
+/* Error dialog title for dialogs that stop the user from syncing On Prem because the front door URL is missing or ramp is off. */
+"CannotSyncOnPremTitle" = "Deze map is niet gesynchroniseerd";
+
+/* Body text for when we can't sync on Prem because its ramped off. */
+"OnPremSyncNotEnabledBody" = "Synchroniseren van on-premises SharePoint-mappen wordt niet ondersteund.";
+
+/* Body text for when we can't sync On Prem because the front door URL is not configured. */
+"OnPremFrontDoorUrlNotSetBody" = "Neem contact op met de IT-beheerder om OneDrive te configureren zodat u on-premises SharePoint-mappen kunt synchroniseren.";
+
+/* Title text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfiguredTitle" = "Niet aangemeld bij OneDrive";
+
+/* Body text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfigured" = "Er doet zich een probleem voor met uw referenties. Start de Ticket Viewer-toepassing en voeg vervolgens uw identiteit toe of meld u opnieuw aan. Neem contact op met de IT-afdeling voor meer informatie.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. */
+"NewHostMountConsentTitle" = "Synchronisatie met OneDrive toestaan?";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. %1$@ is the mount point's domain and %2$@ is the user's username. */
+"NewHostMountConsentMessage:%@,%@" = "U probeert te synchroniseren vanaf een nieuwe locatie (%1$@) met uw account %2$@. U wordt aangeraden bestanden alleen te synchroniseren als u deze locatie vertrouwt.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, give consent */
+"NewHostMountConsentGiveConsentButton" = "Toestaan";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, deny consent */
+"NewHostMountConsentDenyConsentButton" = "Annuleren";
+
+// Sync Engine errors - used by coreController.mm. These are built manually, so straight searching won't work.
+
+/* This is the title text shown on the popup dialog when we detect a new version of the client is available */
+"SyncEngineError:OldClientVersion Title" = "Deze versie van OneDrive is verouderd.";
+
+/* This is the text shown on the popup dialog when we detect a new version of the client is available*/
+"SyncEngineError:OldClientVersion Message" = "Ga naar de Mac App Store en download de meest recente versie van OneDrive voor Mac.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:OldClientVersion DefaultButton" = "Afsluiten";
+
+/* No comments provided by engineer */
+"SyncEngineError:PUIDFlip Title" = "Er zijn problemen opgetreden bij het identificeren van uw apparaat.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:PUIDFlip Message" = "Maak een back-up van alle bestanden in de gesynchroniseerde mappen. Ga vervolgens naar http://g.live.com/0ELHP_MEREN/266 om het probleem te melden op de OneDrive-forums. Neem deze foutmelding op in de forumpost.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:PUIDFlip DefaultButton" = "Afsluiten";
+
+/* No comments provided by engineer */
+"SyncEngineError:DiskFull Title" = "Uw harde schijf is bijna vol.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:DiskFull Message" = "Maak meer ruimte vrij om OneDrive te blijven gebruiken.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:DiskFull DefaultButton" = "Afsluiten";
+
+/* This is shown when resign-in is required for MSA account*/
+"SyncEngineError:ForceSignIn Title" = "U bent niet aangemeld";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn Message" = "De bestanden zijn mogelijk niet up-to-date. Voer de referenties nog een keer in en start de synchronisatie opnieuw.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn DefaultButton" = "OK";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Title" = "Er is mogelijk een probleem met de internetverbinding.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Message" = "Controleer of de computer is verbonden met internet en probeer het opnieuw.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure DefaultButton" = "OK";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Title" = "Er is een probleem met OneDrive. Excuses voor het ongemak.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Message" = "Start OneDrive opnieuw op.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:TerminateCore DefaultButton" = "Afsluiten";
+
+/* No comments provided by engineer*/
+"SyncEngineError:ServerError Title" = "Er is een probleem met de servers van OneDrive. Excuses voor het ongemak.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ServerError Message" = "Probeer het over een paar minuten opnieuw.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:ServerError DefaultButton" = "Afsluiten";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Title" = "Er doet zich een probleem voor met uw account. Ga naar OneDrive.com en meld u aan voor informatie over het oplossen dan dit probleem. Probeer het opnieuw nadat u het probleem hebt opgelost";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Message" = "Neem contact op met de klantondersteuning.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:AccessDenied DefaultButton" = "Afsluiten";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Title" = "Er is een probleem met OneDrive. Excuses voor het ongemak.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Message" = "Sluit OneDrive af, controleer of de computer verbinding heeft met internet en start de toepassing opnieuw.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:Unknown DefaultButton" = "Afsluiten";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid %1$@ is a library name. */
+"SyncEngineError:RootScopeNotFound Title:%@" = "De bibliotheek %1$@ is opnieuw gemaakt op internet";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid*/
+"SyncEngineError:RootScopeNotFound Message" = "Klik op OneDrive opnieuw configureren om deze bibliotheek opnieuw in te stellen op deze Mac.";
+
+/* Text for button in error dialog to reconfigure OneDrive*/
+"SyncEngineError:ButtonText ReconfigureButton" = "OneDrive opnieuw configureren";
+
+/* Message title in error dialog when a folder not found and drive is present. %1$@ is a folder name, %2$@ is its local path */
+"SyncError:MissingFolder Title:%@,%@" = "De %1$@-map is niet gevonden in %2$@";
+
+/* Message in error dialog when the root folder is deleted. %@ is a folder name. */
+"SyncError:RootFolderDeleted Message:%@" = "Klik op OneDrive afsluiten, of klik op OneDrive instellen om de %@-map opnieuw in te stellen.";
+
+/* Message in error dialog when folder is not found while re-mapping and drive is present */
+"SyncError:MissingFolder Message" = "Controleer of deze map nog bestaat op deze locatie en klik op Opnieuw proberen, of klik op Synchroniseren stoppen om het synchroniseren van deze map te stoppen.";
+
+/* Message in error dialog when mounted folder not found while re-mapping. %@ is an email address */
+"SyncError:MissingMountedFolder SetUpMessage:%@" = "Controleer of deze map nog bestaat op deze locatie en klik op Opnieuw proberen, of klik op OneDrive instellen om het %@-account opnieuw in te stellen.";
+
+/* Message title in error dialog when there's a problem with the root folder */
+"SyncError:RootFolderError Title:%@" = "Kan de map %@ niet vinden.";
+
+/* Message in error dialog when there's a problem with the root folder. %@ is a folder name. */
+"SyncError:RootFolderError Message:%@" = "Klik op OneDrive afsluiten, of klik op OneDrive instellen om de %@-map opnieuw in te stellen.";
+
+/* Text for button in error dialog to restart application when there's a problem with the root folder */
+"SyncError:RootFolderError DefaultButton" = "OneDrive opnieuw starten";
+
+/* Message title in error dialog when OD found but creation doesn't match the DB. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:FolderMismatch Title:%@,%@" = "De %1$@-map op %2$@ is niet de oorspronkelijke %1$@-map";
+
+/* Message in error dialog when OD found but creation doesn't match the DB. %@ is a folder name. */
+"SyncError:RootFolderMismatch Message:%@"= "Zet de oorspronkelijke map terug op deze locatie en klik op Opnieuw proberen, of klik op OneDrive instellen om de %@-map opnieuw in te stellen.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB */
+"SyncError:MountedFolderMismatch Message" = "Zet de oorspronkelijke map terug op deze locatie en klik op Opnieuw proberen, of klik op Synchroniseren stoppen om het synchroniseren van deze map te stoppen.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB. %@ is an email address */
+"SyncError:MountedFolderMismatch SetUpMessage:%@" = "Zet de oorspronkelijke map terug op deze locatie en klik op Opnieuw proberen, of klik op OneDrive instellen om het %@-account opnieuw in te stellen.";
+
+/* Message in error dialog when library is deemed unreachable */
+"SyncError:UnreachableLibrary Title" = "Geen toegang tot de bibliotheek";
+
+/* Message in error dialog when library is deemed unreachable {%@ is library name }*/
+"SyncError:UnreachableLibrary Message:%@" = "%@ is tijdelijk niet beschikbaar. Controleer de netwerkverbinding en probeer het over een paar minuten opnieuw, of neem contact op met de IT-beheerder.";
+
+/* Message title in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Title" = "Kan dit item niet synchroniseren omdat het pad te lang is";
+
+/* Message in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Message:%@" = "Een bestand of map kan niet worden gedownload omdat het pad te lang is. Sluit OneDrive af, ga in een webbrowser naar OneDrive voor Bedrijven en maak de naam of het pad korter voor: \r\n%@\r\n\r\nAls u OneDrive wilt synchroniseren naar een andere locatie op uw Mac, klikt u op Setup uitvoeren.";
+
+/* Message in error dialog when the max file path limit is reached for a local file */
+"SyncError:LocalMaxPath Message:%@" = "Een bestand of map kan niet worden geüpload omdat het pad te lang is. Sluit OneDrive af en maak de naam of het pad korter voor: \r\n%@\r\n\r\nAls u OneDrive wilt synchroniseren naar een andere locatie op uw Mac, klikt u op Setup uitvoeren.";
+
+/* Message used in several error dialogs. %@ is an email address */
+"Error:ExitOrSetUpMessage:%@" = "Klik op OneDrive afsluiten, of klik op OneDrive instellen om het %@-account opnieuw in te stellen.";
+
+/* Text for button in error dialog to exit application when max path length is reached */
+"SyncError:MaxPathLength DefaultButton" = "OneDrive afsluiten";
+
+/* Text for button in error dialog to run FRE when max path length is reached */
+"SyncError:MaxPathLength AlternateButton" = "Setup uitvoeren";
+
+/* Message title in error dialog when the root folder volume is removed. %@ is a folder name.  */
+"SyncError:DriveVolumeRemovedNoVolume Title:%@" = "Kan de map %@ niet vinden.";
+
+/* Message in error dialog when the root folder volume is removed. %@ is a folder name. */
+"SyncError:DriveVolumeRemovedNoVolume Message:%@" = "De locatie van de map %@ is niet gevonden. Controleer of u de map niet hebt verwijderd. Als de OneDrive-map zich op een extern station bevindt, controleert u of dit station is aangesloten.";
+
+/* Text for button in error dialog to restart application when the root folder volume is removed */
+"SyncError:DriveVolumeRemoved DefaultButton" = "OneDrive opnieuw starten";
+
+/* Message title in error dialog when drive containing OD could not be found. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:MissingDrive Title:%@,%@" = "Kan de %1$@-map op %2$@ niet openen";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingNoneRemovableDrive Message:%@" = "Zorg ervoor dat het station %1$@ nog beschikbaar is in Finder en klik op Opnieuw proberen, of klik op Synchroniseren stoppen om het synchroniseren van deze map te stoppen.";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingNoneRemovableDrive SetUpMessage:%@,%@" = "Zorg ervoor dat het %1$@-station nog beschikbaar is in Finder en klik op Opnieuw proberen, of klik op OneDrive instellen om het %2$@-account opnieuw in te stellen.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingRemovableDrive Message:%@" = "%@ is een verwisselbaar station. Zorg ervoor dat dit station is aangesloten en beschikbaar is in Finder en klik op Opnieuw proberen, of klik op Synchroniseren stoppen om het synchroniseren van deze map te stoppen.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingRemovableDrive SetUpMessage:%@,%@" = "%1$@ is een verwisselbaar station. Zorg ervoor dat dit station is aangesloten en beschikbaar is in Finder en klik op Opnieuw proberen, of klik op OneDrive instellen om het %2$@-account opnieuw in te stellen.";
+
+/* Message title in error dialog indicating library cannot be synced, used in ClientNotAllowed, UnsupportedLibrary and DisableSync errors */
+"SyncError:LibraryCannotSync:%@" = "De map %@ kan niet worden gesynchroniseerd";
+
+/* Message in error dialog when sync is disabled because domain is not "whitelisted" */
+"SyncError:ClientNotAllowed Message" = "Uw IT-afdeling vereist het gebruik van een computer die is gekoppeld aan een goedgekeurd domein, om deze map te synchroniseren. Neem contact op met uw IT-afdeling voor hulp.";
+
+/* Message in error dialog when the library is unsupported */
+"SyncError:UnsupportedLibrary Message" = "Uw IT-afdeling heeft een wijziging doorgevoerd, waardoor deze map niet kan worden gesynchroniseerd. Neem contact op met uw IT-afdeling voor meer informatie.";
+
+/* Message in error dialog when sync is disabled */
+"SyncError:DisableSync Message" = "Synchroniseren van deze map is niet toegestaan in uw organisatie. Neem contact op met de IT-afdeling voor meer informatie.";
+
+/* Title in balloon tip for when the folder was removed remotely during mount. %@ is the name of the folder being mounted. */
+"SyncError:FolderRemovedRemotelyDuringMount Title:%@" = "%@ bestaat niet meer op deze locatie";
+
+/* Message in balloon tip for when the folder was removed remotely during mount */
+"SyncError:FolderRemovedRemotelyDuringMount Message" = "Deze map is mogelijk verplaatst of verwijderd.";
+
+/* Title in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them the folder has been deleted. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Title:%@" = "%@ is verwijderd";
+
+/* Message in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them a copy of the files will be left on the Mac. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Message:%@" = "%@ wordt niet meer gesynchroniseerd. Een kopie van deze bestanden blijft bewaard op deze Mac.";
+
+/* Title in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them they no longer have permissions to sync it. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Title:%@" = "U bent niet meer gemachtigd om %@ te synchroniseren";
+
+/* Message in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them the files have been removed from the Mac. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Message:%@" = "%@ is verwijderd van de Mac.";
+
+/* Title to show if add folder failed. %@ is a folder name. */
+"AddMountedFolderError Title:%@" = "Kan de %@-map niet synchroniseren";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorTryAgain:%@" = "Kan de %@-map momenteel niet toevoegen. Probeer het opnieuw.";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorContactSupport:%@" = "Kan de %@-map momenteel niet toevoegen. Neem contact op met ondersteuning.";
+
+/* Text for Try Again button, used in error dialogs. */
+"TryAgainButtonText" = "Opnieuw proberen";
+
+/* Text for Stop Sync button, used in error dialogs. */
+"StopSyncButtonText" = "Synchroniseren stoppen";
+
+/* Text for Set Up OneDrive button, used in error dialogs. */
+"SetUpDriveButtonText" = "OneDrive instellen";
+
+/* Text for Exit OneDrive button, used in error dialogs. */
+"ExitOneDriveButtonText" = "OneDrive afsluiten";
+
+// About box - used by coreController.mm
+
+/* Application name displayed in the about dialog */
+"AboutApplicationName" = "Microsoft® OneDrive";
+
+/* Copyright info for the updated about dialog */
+"CopyrightText" = "© 2018 Microsoft Corporation. Alle rechten voorbehouden.";
+
+/* Third Party Notices */
+"ThirdPartyNotices" = "Kennisgevingen van derden";
+
+// Menu Items
+
+/* Text for menu item to open the online help website */
+"MainMenuOnlineHelpMenuItemText" = "Online-Help van OneDrive";
+
+/* Text for menu item to open the service agreement website */
+"MainMenuServiceAgreementMenuItemText" = "Gebruiksvoorwaarden";
+
+/* Text for menu item to open the private agreement website. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"MainMenuPrivacyAgreementMenuItemText" = "Privacy en cookies";
+
+/* Text for menu item to open the server status website */
+"MainMenuServerStatusMenuItemText" = "Serverstatus";
+
+// Manifest failures
+
+/* Main text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureTitle" = "OneDrive kan niet worden gestart";
+
+/* Informative text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureMessage" = "Er is een probleem opgetreden met de toepassingsbestanden. Download de toepassing op deze computer en probeer het opnieuw.";
+
+/* Quit button for the message box which explains the application is corrupt and must exit now */
+"ManifestValidationFailureQuitButton" = "OneDrive afsluiten";
+
+// Updater
+
+/* Message title in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableTitle" = "OneDrive moet worden bijgewerkt.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableMessage" = "Als u OneDrive wilt blijven gebruiken, moet u een update installeren.";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreRequiredUpdateAvailableOpenInAppStoreButton" = "Update downloaden";
+
+/* Text in button which quits the application */
+"AppStoreRequiredUpdateAvailableCloseButton" = "OneDrive afsluiten";
+
+/* Message title in dialog when there is an optional update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableTitle" = "Er is een update voor OneDrive beschikbaar.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableMessage" = "Wilt u de update downloaden?";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreOptionalUpdateAvailableOpenInAppStoreButton" = "Update downloaden";
+
+/* Text in button which quits the application */
+"AppStoreOptionalUpdateAvailableCloseButton" = "Nee, bedankt";
+
+// Standalone migration
+
+/* Title for dialog shown to a user in a Mac App Store (MAS) migration downgrade scenario.
+ (When a user installs a lower version of Standalone on top of a higher version of Store) */
+"MASMigrationDowngradeScenarioTitle" = "De instellingen kunnen niet worden verplaatst in OneDrive";
+
+/* Message for dialog shown to a user in a MAS migration downgrade scenario, informing them of their options */
+"MASMigrationDowngradeScenarioMessage" = "De instellingen kunnen niet worden verplaatst omdat de app verouderd is. Download en installeer de nieuwste versie, of stel OneDrive opnieuw in.";
+
+/* Later button for dialog shown to a user in a MAS migration downgrade scenario. The button will exit the client so the user may launch it again to retry the update later */
+"MASMigrationDowngradeScenarioLaterButton" = "Later";
+
+/* Download button for dialog shown to a user in a MAS migration downgrade scenario. The button will trigger a download of the latest version of Standalone OneDrive */
+"MASMigrationDowngradeScenarioDownloadButton" = "Downloaden en installeren";
+
+/* Set Up OneDrive button for dialog shown to a user in a MAS migration downgrade scenario. The button will cause OneDrive to drop the user's Store settings and show FRE so the user can re-configure their OneDrive for Standalone */
+"MASMigrationDowngradeScenarioResetupOneDriveButton" = "OneDrive instellen";
+
+// Sandbox migration
+
+/* Text in button to select and confirm where the OneDrive folder is */
+"SandboxMigrationConfirmButton" = "Locatie bevestigen";
+
+/* Text in button to quit the OneDrive application */
+"SandboxMigrationQuitButton" = "OneDrive afsluiten";
+
+/* Bold text summarizing that the user needs to confirm where the OneDrive folder is */
+"SandboxMigrationTitle" = "Bevestig de locatie van uw OneDrive-map";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationText" = "Als u OneDrive wilt blijven gebruiken, moet u bevestigen waar de OneDrive-map zich momenteel bevindt op de Mac.";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationWindowTitle:%@" = "Locatie van de %@-map bevestigen";
+
+/* Text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderMessage" = "Bevestig de OneDrive-map.";
+
+/* Button text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderButton" = "Bevestigen";
+
+/* Title text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderTitle" = "Weet u zeker dat u de bestaande OneDrive-map niet langer wilt gebruiken?";
+
+/* Descriptive text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderMessage" = "Als u een nieuwe locatie wilt kiezen, klikt u op OneDrive Setup uitvoeren. Alles op de OneDrive wordt gedownload naar een nieuwe OneDrive-map. Als u de bestaande OneDrive-map wilt blijven gebruiken, klikt u op Terug en selecteert u de map.";
+
+/* Button text to pick a different folder */
+"SandboxMigrationConfirmDifferentFolderGoBackButton" = "Ga terug";
+
+/* Button text to continue on and reconfigure OneDrive */
+"SandboxMigrationConfirmDifferentFolderQuitButton" = "OneDrive Setup uitvoeren";
+
+/* Text for alerting invalid app bundle location */
+
+/* Title text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertTitle" = "De OneDrive-toepassing moet zich in de map Toepassingen bevinden.";
+
+/* Description text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertDescription" = "Sluit OneDrive, verplaats de OneDrive-toepassing naar de map Toepassingen en open OneDrive opnieuw.";
+
+/* Button text to exit in the invalid app location alert */
+"InvalidBundleLocationAlertButtonText" = "OneDrive afsluiten";
+
+
+/* ---------------------------- Support Window ------------------- */
+/* OK Button */
+"SupportWindowOkButton" = "OK";
+
+/* Cancel Button*/
+"SupportWindowCancelButton" = "Annuleren";
+
+/* Try Again Button */
+"SupportWindowTryAgainButton" = "Opnieuw proberen";
+
+/* Header string for Support Window */
+"SuportWindowReportProblem" = "Probleem melden";
+
+/* Subheading of support window that gives instructions on what to type */
+"SuportWindowTicketSubheading" = "Het is vervelend dat iets niet werkt met uw OneDrive. Geef om ons te helpen een diagnose van het probleem te maken zoveel mogelijk gegevens over het probleem en over wat u aan het doen was toen het probleem optrad.";
+
+/* Header to the textbox in the support window */
+"SupportWindowDescription" = "Beschrijving:";
+
+/* String at the bottom of the support window - right below the text field where the user types */
+"SupportWindowContactWarning" = "Als u op OK klikt, mag Microsoft contact met u opnemen over deze feedback.";
+
+/* Link to privacy statement - very bottom of support dialog. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"SupportWindowPrivacyStatement" = "Privacy en cookies";
+
+/* Text below the progress bar while the support text is being sent */
+"SupportWindowSending" = "Verzenden...";
+
+/* Success message for when the support text was successfully sent */
+"SupportSuccessMessage:%@" = "Bedankt dat u de tijd neemt om ons over het probleem met OneDrive te vertellen. Controleer uw e-mail (%@) voor de bevestiging dat we uw bericht hebben ontvangen.";
+
+/* Error message for when the report was no sucessfully sent. Contains a hyperlink designated by <a> and </a> */
+"SupportErrorMessage" = "Er is een probleem met het verzenden van uw bericht. Controleer uw internetverbinding en probeer het opnieuw. U kunt het probleem ook melden door <a>contact op te nemen met de ondersteuning.</a>";
+
+/* Text for email text field label shown in the support window */
+"SupportWindowEmailLabel" = "E-mailadres:";
+/* ----------------------------------------------------------------- */
+
+// App store related strings
+
+/* Apple app store description for OneDrive Mac client */
+"StoreDescription" = "Met OneDrive regelt u alle zaken op één locatie. U krijgt gratis onlineopslag voor al uw persoonlijke bestanden, zodat u ze kunt openen op uw Mac en op andere apparaten die u gebruikt: iPhone, iPad, pc, Windows Phone of Android-apparaat. Met OneDrive voor Bedrijven krijgt u ook opslag voor uw werkbestanden zodat u deze kunt delen en er met andere personen op uw werk of school aan kunt werken. Met de OneDrive-app voor Mac kunt u eenvoudig op uw Mac werken aan uw OneDrive-bestanden:\r\n•Rechtstreeks toegang tot uw OneDrive-bestanden in de Finder, inclusief bijlagen die u vanaf Outlook.com hebt opgeslagen in OneDrive, en documenten en spreadsheets die u hebt gemaakt met Office Online.\r\n•Werk aan uw OneDrive-bestanden, zelfs als u offline bent. Als u weer online bent, worden de wijzigingen automatisch opgeslagen.\r\n•Kies de mappen in uw OneDrive die u wilt synchroniseren op uw Mac.\r\n•Voeg meerdere bestanden of mappen tegelijkertijd toe aan OneDrive door ze naar de map OneDrive te slepen. Als u uw bestanden in OneDrive opslaat, zijn ze overal toegankelijk en hebt u een back-up voor het geval er iets gebeurt met uw computer.\r\n•Open, bewerk en maak eenvoudig documenten en andere bestanden in OneDrive met apps zoals Word en Excel. Voeg gedeelde mappen vanuit de lijst Gedeeld op OneDrive.com toe aan uw OneDrive, en synchroniseer ze vervolgens op de computer en werk ermee naast uw eigen mappen.";
+
+/* Pool of generic localized Strings to use for update description */
+"GenericUpdateDescription" = "Opgeloste fouten in synchronisatiebetrouwbaarheid. Verbeterde betrouwbaarheid van toepassingen. Verbeterde synchronisatieprestaties. Verminderd accuverbruik.";
+
+"GenericStoreUpdate" = "Hartelijk dank voor het gebruik van OneDrive. We zijn voortdurend bezig met het bijwerken van OneDrive om u steeds de beste versie te kunnen bieden met de nieuwste prestatieverbeteringen en opgeloste fouten.";
+
+"R16String" = "Maakt u zich zorgen over het bandbreedtegebruik op een netwerk naar gebruik? U hebt nu de mogelijkheid om OneDrive te onderbreken. U vindt de optie voor onderbreken in het menu '...'.";
+
+"R18String" = "Hartelijk dank voor het gebruik van OneDrive. Samen met onze gebruikelijke updates met de meest recente verbeteringen en bugfixes, hebben we de volgende nieuwe functies die geleidelijk beschikbaar komen voor gebruikers:\nEr zijn neuwe overlays toegevoegd om aan te geven dat een map is gedeeld.\nScreenshot kan nu worden omgeleid naar OneDrive.";
+
+"R19String" = "Hartelijk dank voor het gebruiken van OneDrive. Naast onze gebruikelijke updates met de nieuwste prestatieverbeteringen en opgeloste fouten zijn de volgende nieuwe functies beschikbaar. Deze worden geleidelijk geïmplementeerd voor gebruikers:\nAls u een Office-document opent dat is gesynchroniseerd op de computer, kan dit document meteen worden gebruikt voor samenwerking in realtime.\nOffice-documenten die zijn gesynchroniseerd met een computer, kunnen worden gedeeld vanuit de Office-toepassingen.\nAls u met de rechtermuisknop op de OneDrive-cloud klikt, wordt het contextmenu geopend in het Activiteitencentrum.\nHet versienummer wordt nu weergegeven op het tabblad Info van de voorkeuren, in plaats van in een apart venster.";
+
+"R20String" = "Hartelijk dank voor uw gebruik van OneDrive. Naast de gewoonlijke updates met de nieuwste prestatieverbeteringen en opgeloste fouten, bieden we nu de volgende nieuwe functies die geleidelijk worden gepubliceerd voor gebruikers:\nAls synchroniseren is gepauzeerd, kunt u op de banner tikken om de synchronisatie te hervatten.";
+
+"R21String" = "Hartelijk dank voor uw gebruik van OneDrive. Naast de gebruikelijke updates met de nieuwste prestatieverbeteringen en opgeloste fouten, bieden we nu de volgende nieuwe functies die geleidelijk worden gepubliceerd voor gebruikers:\nWe hebben de mogelijkheid toegevoegd om SharePoint Document Libraries te synchroniseren waarvoor IRM is geactiveerd";
+
+"R22String" = "Hartelijk dank voor uw gebruik van OneDrive. Naast de gebruikelijke updates met de nieuwste prestatieverbeteringen en opgeloste fouten, bieden we nu de volgende nieuwe functies die geleidelijk worden gepubliceerd voor gebruikers:\nHet OneDrive Activity Center is gemoderniseerd om het gebruiksgemak en het begrip te verbeteren.\nWe hebben de optie 'Een probleem melden' in het menu gewijzigd in 'Feedback verzenden'. U kunt ons nu vertellen wat u wel of niet leuk vindt, of een functie voorstellen die u altijd al hebt willen hebben in OneDrive. We luisteren!";
+
+"R24String" = "Hartelijk dank voor het gebruik van OneDrive. Naast de gebruikelijke updates met de nieuwste prestatieverbeteringen en opgeloste fouten worden de volgende nieuwe functies geleidelijk gepubliceerd voor gebruikers:\nOneDrive biedt nu ondersteuning voor de donkere modus in macOS. Wanneer de donkere modus is ingeschakeld, wordt de hele gebruikersinterface van OneDrive overgeschakeld naar een nieuw prachtig donker thema.";
+
+"R26String" = "Hartelijk dank voor het gebruik van OneDrive. Naast onze gebruikelijke updates met de meest recente prestatieverbeteringen en opgeloste fouten, bieden we de volgende nieuwe functies die geleidelijk worden geïmplementeerd voor gebruikers:\nEr is een donker thema toegevoegd aan het dialoogvenster Delen.\nWe hebben een reeks wijzigingen aangebracht om de prestaties te verbeteren en het CPU-gebruik te verlagen. Laat het ons weten als u nog steeds problemen ondervindt.";
+
+"R32String" = "Hartelijk dank voor het gebruik van OneDrive. Samen met onze gebruikelijke updates zodat je de meest recente verbeteringen en bugfixes, hebben we de volgende nieuwe functies die worden geleidelijk gebruikers rolt zullen:\nOndersteuning voor multi weergave-instellingen weer te geven van het Activity Center op het geselecteerde scherm toegevoegd.";
+
+/* Files On-Demand is the name of a feature that is already available on OneDrive on Windows already. */ 
+"R29String" = "Met deze nieuwste update is nu OneDrive Bestanden op aanvraag beschikbaar! Met OneDrive Bestanden op aanvraag hebt u toegang tot al uw bestanden in OneDrive zonder dat u ze hoeft te downloaden en opslagruimte op uw apparaat hoeft te gebruiken. Nieuwe bestanden die online of op een ander apparaat zijn gemaakt, worden weergegeven als alleen-online en nemen dus geen ruimte in op uw apparaat. Als u bent verbonden met internet, kunt u de bestanden gebruiken als elk ander bestand op uw apparaat.\nAls u Bestanden op aanvraag wilt gebruiken, moet u de nieuwste versie van macOS Mojave (10.14.2 of hoger) uitvoeren. U kunt Bestanden op aanvraag inschakelen op het tabblad Algemeen van het menu Voorkeuren in OneDrive.";
+
+// Finder sync extension commands
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will copy a shareable link to their keyboard */
+"MenuItemShareCommand" = "OneDrive-koppeling delen";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will open a web browser and display the selected file in the web interface */
+"MenuItemViewOnlineCommand" = "Online weergeven";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a selective sync window. */
+"MenuItemSelectiveSyncCommand" = "OneDrive-mappen kiezen om te synchroniseren";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a browser window that displays some detailed sharing options for the file. */
+"MenuItemSharingOptionsCommand" = "Meer opties voor het delen van OneDrive";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a hosted browser window that OneDrive controls. This browser window will load a web page from sharepoint and allow the user to modify sharing options from the file. This is different from just launching the user's default browser. */
+"MenuItemShareBrowserWindowCommand" = "Delen";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch the preferences window for the account that the right clicked file belongs to. */
+"MenuItemPreferencesCommand" = "Voorkeuren";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. */
+"MenuItemPinCommand" = "Altijd behouden op dit apparaat";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. */
+"MenuItemUnpinCommand" = "Ruimte vrijmaken";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will lock the folder. %@ is a folder name. */
+"MenuItemLockCommand:%@" = "%@ vergrendelen";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will unlock the folder. %@ is a folder name. */
+"MenuItemUnlockCommand:%@" = "%@ ontgrendelen";
+
+// Finder Sync Extension Tooltips
+
+/* Tooltip for synced / up-to-date icon in Mac Finder */
+"IconOverlaySyncedLabel" = "Up-to-date";
+
+/* Tooltip for syncing icon in Mac Finder */
+"IconOverlaySyncingLabel" = "Synchroniseren";
+
+/* Tooltip for error icon in Mac Finder */
+"IconOverlayErrorLabel" = "Fout";
+
+/* Tooltip for shared folder synced / up-to-date icon in Mac Finder */
+"IconOverlaySharedSyncedLabel" = "Up-to-date";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlaySharedSyncingLabel" = "Synchroniseren";
+
+/* Tooltip for shared folder error icon in Mac Finder */
+"IconOverlaySharedErrorLabel" = "Fout";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlayReadOnlyLabel" = "Bijgewerkt, alleen-lezen";
+
+/* Tooltip for unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedLabel" = "Beschikbaar op dit apparaat";
+
+/* Tooltip for pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedLabel" = "Altijd beschikbaar op dit apparaat";
+
+/* Tooltip for unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedLabel" = "Online beschikbaar";
+
+/* Tooltip for read-only, unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedReadOnlyLabel" = "Beschikbaar op dit apparaat, alleen-lezen";
+
+/* Tooltip for read-only, pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedReadOnlyLabel" = "Altijd beschikbaar op dit apparaat, alleen-lezen";
+
+/* Tooltip for read-only, unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedReadOnlyLabel" = "Online beschikbaar, alleen-lezen";
+
+/* Action center (Toast) notification header for the Icon Overlay feature */
+"IconOverlayToastTitle" = "Nieuwe pictogrammen voor synchronisatiestatus bekijken";
+
+/* Action center (Toast) notification body for the Icon Overlay feature */
+"IconOverlayToastBody" = "Klik hierop als u wilt toestaan dat de synchronisatiestatus in OneDrive wordt weergegeven in Finder.";
+
+/* Preferences Dialog string for enabling icon overlays*/
+"IconOverlayPreferencesLink" = "Toestaan dat in OneDrive de synchronisatiestatus wordt weergegeven in Finder";
+
+// App moniker related strings
+
+/* Text of basic Moniker*/
+"BasicMoniker:%@" = "OneDrive — %@";
+
+/* Text of Moniker with user's first name. %0@ is user's firstname, %1@ is string like 'OneDrive - Personal' */
+"MonikerWithFirstName:%@,%@" = "%1@ van %0@";
+
+/* Text of Moniker with user's email. %0@ is string like 'OneDrive - Personal', %1@ is email address */
+"MonikerWithEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text of Moniker with user's first name and email. %0@ is MonikerWithFirstName like Someone's OneDrive - Personal, %1@ is email address */
+"MonikerWithFirstNameAndEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text used in BasicMoniker for personal client */
+"PersonalDisplayMoniker" = "Persoonlijk";
+
+// Notifications
+
+/* Balloon tip primary text to notify users that the shared folders sync feature is available */
+"SharedFoldersEnabledBaloonTipHeader" = "Nieuw - u kunt gedeelde mappen synchroniseren!";
+
+/* Balloon tip secondary text describing how to start using the shared folder sync feature */
+"SharedFoldersEnabledBaloonTipBody" = "Klik hier om de mappen te zien die met u worden gedeeld op OneDrive.com. Selecteer vervolgens een map die u kunt bewerken, en klik op Toevoegen aan mijn OneDrive.";
+
+/* Message shown when users try to run different flavors of OneDrive app side by side */
+"DifferentTypesOfAppSideBySide" = "Uw computer bevat twee exemplaren van OneDrive. Er kan slechts één exemplaar tegelijk worden uitgevoerd. U wordt aangeraden een van de twee exemplaren te verwijderen. Klik in de menubalk op het pictogram OneDrive en kies Voorkeuren > Info om te zien welk exemplaar u hebt geopend.";
+
+/* Title for a notification shown when the user copies a link to a file to their pasteboard */
+"CopyFileLinkToPasteboardTitle" = "Uw koppeling kan worden geplakt";
+
+/* Body for a notification shown when the user copies a link toa a file to their pasteboard */
+"CopyFileLinkToPasteboardBody" = "De koppeling is opgeslagen op het klembord. Plak de koppeling in een bericht of post om deze te delen. Iedereen met de koppeling kan het bestand bewerken.";
+
+/* Title for a notification shown when a screen capture is saved */
+"ScreenshotSavedTitle" = "Schermopname is opgeslagen";
+
+/* Body for a notification shown when a screen capture is saved. Screenshots should be localized and capitolized. */
+"ScreenshotSavedBody" = "Klik hier om de map met schermopnamen te openen";
+
+/* Title for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorTitle" = "Uw schermopnamen kunnen niet worden opgeslagen in OneDrive";
+
+/* Body for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorBody" = "Als u de schermopnamen wilt opslaan, synchroniseert u uw werk- of schoolbestanden in OneDrive. Selecteer het tabblad Account en klik op Synchronisatie starten";
+
+// Campaign Manager toast notifications
+
+/* Title for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastTitle" = "Openen bij aanmelding inschakelen";
+
+/* Body for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastBody" = "Zorg ervoor dat uw bestanden altijd zijn gesynchroniseerd.";
+
+/* Title for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastTitle" = "Synchronisatiestatus in Finder bekijken";
+
+/* Body for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastBody" = "Schakel Finder-integratie in.";
+
+/* Title for Placeholders Finder Sync Extension Campaign toast */
+"PlaceholdersFinderSyncCampaignToastTitle" = "Ruimte vrijmaken met Bestanden op aanvraag";
+
+/* Body for Placeholders Finder Sync Extension Campaign toast*/
+"PlaceholdersFinderSyncCampaignToastBody" = "Klik hier om de installatie te voltooien door de OneDrive Finder-extensie in te schakelen.";
+
+/* Title for Rate Application Campaign toast */
+"RatingsCampaignToastTitle" = "Geef ons uw mening";
+
+/* Body for Rate Application Campaign toast */
+"RatingsCampaignToastBody" = "Beoordeel de OneDrive-app of stuur feedback.";
+
+// Rate Our Application Window
+
+/* Windows title for rate our application window.
+ There's probably no need to localize this string. */
+"RateApplicationWindowTitle" = "Microsoft OneDrive";
+
+/* Title for Rate Us WindowText on two lines, please keep the \n in translation as a line terminator after "Thank you" */
+"RateApplicationBodyTitle" = "Bedankt voor\nhet gebruiken van OneDrive.";
+
+/* Text for Rate us button */
+"RateApplicationWindowRateButton" = "Bent u enthousiast? Laat het ons weten.";
+
+/* Text for Tell us how to improve button */
+"RateApplicationWindowSupportbutton" = "Vertel ons wat we kunnen verbeteren";
+
+/* Text for Rate Us button - more engaging */
+"RateApplicationWindowRateButtonEngage" = "Geef ons 5 sterren.";
+
+/*Text for Rate Us button - with question */
+"RateApplicationWindowRateButtonQuestion" = "Tevreden? Geef ons 5 sterren.";
+
+/* ---------------------------- Activity Center ------------------- */
+
+/* Text shown in title bar of Activity Center when we're up to date */
+"ActivityCenterHeaderUpToDate" = "OneDrive is bijgewerkt";
+
+/* Text shown in title bar of Activity Center when files are syncing */
+"ActivityCenterHeaderUpdatingFiles" = "Er worden bestanden bijgewerkt in OneDrive...";
+
+/* Text shown in title bar of Activity Center when there are sync problems */
+"ActivityCenterHeaderNeedsAttention" = "OneDrive heeft uw aandacht nodig";
+
+/* Text shown in title bar of Activity Center when we're paused */
+"ActivityCenterHeaderPaused" = "OneDrive is onderbroken";
+
+/* Text shown in title bar of Activity Center when we're offline */
+"ActivityCenterHeaderOffline" = "OneDrive is offline";
+
+/* Text shown in title bar of Activity Center when we aren't signed in */
+"ActivityCenterHeaderNotConnected" = "OneDrive is niet verbonden";
+
+/* Text shown in the header of Activity Center when OneDrive is being reset */
+"ActivityCenterHeaderResetting" = "OneDrive opnieuw instellen...";
+
+/* Primary text shown in the error bar of Activity Center, placeholder is number of items */
+"ActivityCenterFileErrorsItemPrimary" = "%@ items kunnen niet worden gesynchroniseerd";
+
+/* Primary text shown in the error bar of Activity Center, singular item version  */
+"ActivityCenterFileErrorsItemPrimarySingle" = "1 item kan niet worden gesynchroniseerd";
+
+/* Secondary text shown in the error bar of Activity Center */
+"ActivityCenterFileErrorsItemSecondary" = "Klik hier voor meer informatie";
+
+/* Up-to-date primary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemPrimary" = "Alles is gereed";
+
+/* Up-to-date secondary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemSelectiveSync" = "Alle bestanden zijn gesynchroniseerd";
+
+/* Up-to-date primary text shown on Activity Center while paused */
+"ActivityCenterPausedPrimary" = "Uw bestanden worden momenteel niet gesynchroniseerd";
+
+/* Up-to-date secondary text shown on Activity Center while paused */
+"ActivityCenterPausedSecondary" = "Klik hier om door te gaan met synchroniseren en uw bestanden up-to-date te houden.";
+
+/* Text showing progress on one item when it's downloading or uploading. Placeholders are numbers and units for file progress. E.g. Uploading - 10 MB of 1 GB" */
+"ActivityCenterItemProgress" = "· %1$@ %2$@ van %3$@ %4$@";
+
+/* Text showing progress on one item when it's downloading or uploading with differential sync. Placeholder %1$@ is a number, %2$@ is a unit, %3$@ is a number, %4$@ is a unit, %5$@ is a number, %6$@ is a unit E.g. Uploading - 10 MB of 1 GB (100 KB)" */
+"ActivityCenterItemProgressDiffSyncUX" = "· %1$@ %2$@ van %3$@ %4$@ (%5$@ %6$@)";
+
+/* Text shown on one item when it's uploading. */
+"ActivityCenterItemUploading" = "Uploaden";
+
+/* Text shown on one item when it's reviewing the file before syncing. This is specific to differential sync */
+"ActivityCenterItemReviewingChanges" = "Voorbereiden voor synchronisatie";
+
+ /* Text shown on one item when it's downloading. */
+"ActivityCenterItemDownloading" = "Downloaden";
+
+/* Status shown on an item that's finished transfering. */
+"ActivityCenterItemUpdated" = "Bijgewerkt in OneDrive";
+
+/* Status shown on an item that's been removed. */
+"ActivityCenterItemRemoved" = "Verwijderd uit OneDrive";
+
+/* Status shown on an item that's finished uploading. Placeholder %% is a folder name. */
+"ActivityCenterItemUploaded" = "Geüpload naar %%";
+
+/* Status shown on an item that's finished downloading. Placeholder %% is a folder name. */
+"ActivityCenterItemDownloaded" = "Gedownload naar %%";
+
+/* Status shown on an item that's finished moving. Placeholder %% is a folder name. */
+"ActivityCenterItemMoved" = "Verplaatst naar %%";
+
+/* Status shown on an item that was renamed. Placeholder %% is a folder name. */
+"ActivityCenterItemRenamed" = "Naam gewijzigd in %%";
+
+/* Status shown on an item that represents a placeholder file. Placeholder %% is a folder name. */
+"ActivityCenterItemPlaceholder" = "Beschikbaar in %%";
+
+/* Timestamp on an item. Placeholders are for time difference and units E.g. 5 minutes ago */
+"ActivityCenterItemTime" = "%1$@ %2$@ geleden";
+
+/* Timestamp on an item plus application. Placeholders %1$@ %2$@ are for time difference and units. %3$@ is an application name E.g. 5 minutes ago · Microsoft Word */
+"ActivityCenterItemTimeWithAppName" = "%1$@ %2$@ geleden · %3$@";
+
+/* Timestamp on an item plus application. Placeholder %1$@ is for a date. %2$@ is an application name E.g. 8/24/2018 · Microsoft Word */
+"ActivityCenterItemDateWithAppName" = "%1$@ · %2$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncing" = "%1$@ bestanden synchroniseren · %2$@ %3$@ van %4$@ %5$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncingSingle" = "1 bestand synchroniseren · %1$@ %2$@ van %3$@ %4$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing changes */
+"ActivityCenterSummaryProcessingChanges" = "Wijzigingen verwerken";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing a single change */
+"ActivityCenterSummaryProcessingChangesCountSingle" = "Wijziging verwerken";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing multiple changes. The placeholder %1$@ indicates the number of changes */
+"ActivityCenterSummaryProcessingChangesCount" = "%1$@ wijzigingen verwerken";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're looking for file system changes */
+"ActivityCenterSummaryLooking" = "Zoeken naar wijzigingen";
+
+/* Text read aloud when list of recent files is selected */
+"ActivityCenterHistoryListAccessibleText" = "Recente bestanden";
+
+/* time units used in activity center on timestamps. E.g. 1 second ago */
+"ActivityCenterSecondSingle" = "seconde";
+
+/* time units used in activity center on timestamps. E.g. N seconds ago */
+"ActivityCenterSecondsMultiple" = "seconden";
+
+/* time units used in activity center on timestamps. E.g. 1 minute ago */
+"ActivityCenterMinuteSingle" = "minuut";
+
+/* time units used in activity center on timestamps. E.g. N minutes ago */
+"ActivityCenterMinutesMultiple" = "minuten";
+
+/* time units used in activity center on timestamps. E.g. 1 hour ago */
+"ActivityCenterHourSingle" = "uur";
+
+/* time units used in activity center on timestamps. E.g. N hours ago */
+"ActivityCenterHoursMultiple" = "uur";
+
+/* Text shown on a button in the Activity Center that takes the user to the Upgrade storage page on OneDrive */
+"ActivityCenterQuotaButtonGetMoreStorage" = "Meer opslag krijgen";
+
+/* Text shown on a link in the Activity Center that takes the user to the Free up space page on OneDrive */
+"ActivityCenterQuotaButtonFreeUpSpace" = "Ruimte vrijmaken";
+
+/* Primary text shown in the Activity Center when the user's quota is nearing maximum or in a critical state. The placeholders are the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso") and the percentage of space occupied, e.g Your OneDrive is 98% full */
+"ActivityCenterQuotaCriticalTitle, %@ %@" = "Uw %1$@ is voor %2$@ %% vol";
+
+/* Secondart text shown in the Activity Center when the user is approaching critical quota. The placeholders are size and units remaining. E.g. You have only 10 MB of available space */
+"ActivityCenterQuotaLeftText, %@ %@" = "U hebt nog maar %1$@ %2$@ beschikbare ruimte";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive. */
+"ActivityCenterQuotaReachedBody" = "Zorg voor meer opslag om door te gaan met het synchroniseren van nieuwe bestanden.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for Office 365 users. */
+"ActivityCenterQuotaReachedBody1TB" = "Verwijder bestanden die u niet meer nodig hebt, om ruimte vrij te maken.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for business users. */
+"ActivityCenterQuotaReachedBodyBusiness" = "Neem contact op met de IT-afdeling voor meer informatie of maak ruimte vrij door bestanden te verwijderen.";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitleBusiness, %@" = "Uw %1$@ is vol";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitle, %@" = "Uw %1$@ is vol";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown for 1 week before switching to the normal banner text. */
+"ActivityCenterQuotaUpsellBannerIntroTitle" = "Maak kennis met premium-functies";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalTitle" = "Kies voor Premium";
+
+/* Secondary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalBody" = "Krijg 1 TB (1000 GB) aan opslagruimte en de nieuwe Office 2016-toepassingen.";
+
+/* Part of the secondary text shown in the Activity Center for users without an O365 subscription. This appears in the banner for both upsell states of the banner. */
+"ActivityCenterQuotaUpsellBannerLearnMore" = "Meer informatie";
+
+/* The Accessibility text hint for the ACM dismiss button. */
+"ActivityCenterMessageDismissHint" = "Sluiten";
+
+/* Primary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInTitle" = "Meld u aan bij OneDrive om aan de slag te gaan";
+
+/* Secondary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInBody" = "Meld u aan bij OneDrive om toegang te krijgen tot uw bestanden en deze te synchroniseren op dit apparaat.";
+
+/* Button text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInButton" = "Aanmelden";
+
+/* Text shown in the Activity Center while we are signing the user in. */
+"ActivityCenterSigningIn" = "Aanmelden...";
+
+/* Text shown in the Activity Center while we are signing the user out. */
+"ActivityCenterSigningOut" = "Afmelden...";
+
+/* Clicking this button will open (action) the OneDrive folder in File Explorer */
+"ActivityCenterFooterButtonOpenFolder" = "Map openen";
+
+/* Clicking this button will open (action) a web portal where the user can upgrade their account */
+"ActivityCenterFooterButtonGoPremium" = "Kies voor Premium";
+
+/* Clicking this button opens the user's (action) OneDrive folder online. ("View" here is an action) */
+"ActivityCenterFooterButtonViewOnline" = "Online weergeven";
+
+/* Clicking this button opens (action) a context menu which contains extra actions like pause, settings and quit */
+"ActivityCenterFooterButtonMore" = "Meer";
+
+/* Accessibility text for button that will cancel a download */
+"ActivityCenterCancelButtonAccessibleName" = "Download annuleren";
+
+/* The name "OneDrive" */
+"OneDriveBrandName" = "OneDrive";
+
+/* Primary text shown in the alert of restart after crash */
+"RestartAfterCrashAlertTitle" = "Er is een probleem met OneDrive";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is enabled */
+"RestartAfterCrashAlertBodyReportAProblemEnabled" = "Het spijt ons te horen dat u problemen ondervindt met OneDrive. U kunt hulp krijgen van ondersteuning door dit probleem te melden of u kunt proberen om OneDrive opnieuw in te stellen. Als u OneDrive opnieuw instelt, moet u de OneDrive-toepassing opnieuw instellen.";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is disabled */
+"RestartAfterCrashAlertBodyReportAProblemDisabled" = "Het spijt ons te horen dat u problemen ondervindt met OneDrive. U kunt hulp krijgen van ondersteuning door dit probleem te melden of u kunt proberen om OneDrive opnieuw in te stellen. Als u OneDrive opnieuw instelt, moet u de OneDrive-toepassing opnieuw instellen.";
+
+/* Text for report a problem button shown in the alert of restart after crash */
+"RestartAfterCrashAlertReportAProblemButtonText" = "Probleem melden";
+
+/* Text for reset onedrive button shown in the alert of restart after crash */
+"RestartAfterCrashAlertResetOneDriveButtonText" = "OneDrive opnieuw instellen";
+
+/* Text for cancel button shown in the alert of restart after crash */
+"RestartAfterCrashAlertCancelButtonText" = "Annuleren";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared */
+"ShareWebWindowTitle, %@" = "%@ delen";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared - this one has quotes around the item name */
+"ShareWebWindowTitleWithQuotes:%@" = "%@ delen";
+
+/* Error primary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorTitleGeneric" = "Er is iets misgegaan";
+
+/* Error secondary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorSecondaryTextGeneric" = "Dit item kan momenteel niet worden gedeeld. Probeer het later opnieuw.";
+
+/* Error primary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorTitleOffline" = "Verbinding maken met internet";
+
+/* Error secondary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorSecondaryTextOffline" = "Waarschijnlijk bent u niet verbonden met internet. Deel opnieuw zodra u weer online bent.";
+
+/* Text on error button in the Sharing Web Browser window */
+"ShareWebErrorButtonText" = "Opnieuw";
+
+/* Text shown on the Loading view of the Sharing Web Browser window */
+"ShareWebLoading" = "Laden";
+
+/* Text read by the Voice Over utility (accessibility) for the Loading spinner on the Sharing Web Browser Window. The placeholder is the name of the file / folder being shared. */
+"ShareWebLoadingNarrator:%@" = "Voorbereiden voor het delen van %@";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog title */
+"FoundSameNamesUnderFolderErrorTitle" = "Een bestand kan niet worden gesynchroniseerd";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog body. The placeholder is the full path of the file. Please keep "\n" intact. */
+"FoundSameNamesUnderFolderErrorBody:%@" = "Een ander bestand op dezelfde locatie heeft dezelfde naam of een ander hoofdlettergebruik.\n%@\nGeef een van de bestanden een andere naam of een andere locatie en open de OneDrive-app vervolgens opnieuw.";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog OK button */
+"FoundSameNamesUnderFolderErrorButton" = "OK";
+
+/* Primary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedPrimary" = "Uploaden is onderbroken";
+
+/* Secondary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedSecondary" = "Uw onlinebestanden worden verplaatst naar servers dichter bij u. Wijzigingen worden gesynchroniseerd zodra de verplaatsing is voltooid.";
+
+/* Primary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedPrimary" = "Synchroniseren van uw bestanden is hervat";
+
+/* Secondary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedSecondary" = "Verplaatsen van uw onlinebestanden naar servers op de nieuwe locatie is voltooid.";
+
+/* Primary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantPrimaryText" = "Kan niet synchroniseren met OneDrive";
+
+/* Secondary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantSecondaryText" = "De IT-afdeling staat niet toe dat u bestanden uit deze locatie synchroniseert naar de computer";
+
+/* Text for SyncError MinorVersionLimitExceeded error dialog body */
+"SyncErrorShortDescriptionMinorVersionExceededItem" = "U hebt het maximum aantal secundaire versies bereikt dat u kunt opslaan voor dit bestand. Publiceer het bestand op de SharePoint-site: klik met de rechtermuisknop op het bestand en selecteer Meer > Publiceren. Vervolgens kunt u weer secundaire versies opslaan.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast */
+"FolderRecreatedOnFailedDelete Title" = "Een map kan niet worden verwijderd.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast where %@ is a folder name */
+"FolderRecreatedOnFailedDelete Message:%@" = "Synchroniseren stoppen \"%@\" op uw computer, klik hier om voorkeuren en hef de selectie van deze map.";
+
+/* Accessibility text for menu item dropdown button */
+"MenuButtonAccessibleName" = "Meer opties";
+
+/* Text for per item menu dropdown Open option */
+"MenuItemOpen" = "Openen";
+
+/* Text for per item menu dropdown Share option */
+"MenuItemShare" = "Delen";
+
+/* Text for per item menu dropdown View online option */
+"MenuItemViewOnline" = "Online weergeven";
+
+/* Title of Setting dialog tab that provides options for Office file syncing. */
+"OfficeText" = "Office";
+
+/* Title text of groupbox on the Office settings tab that provides settings for syncing and file collaboration. */
+"OfficeFileCollabGroupBox" = "Bestandssamenwerking";
+
+/* Explanation text in the File collaboration groupbox that explains syncing files with Office. */
+"OfficeFileCollabTextField" = "Werk tegelijkertijd met andere gebruikers aan Office-bestanden door de bestanden met Office te synchroniseren.";
+
+/* Checkbox text for syncing files with Office 2016. {Locked=!cs, sk;\"Office\"} */
+"OfficeFileCollabCheckBox" = "Office-toepassingen gebruiken om Office-bestanden te synchroniseren die ik open";
+
+/* Group box title for the Sync conflicts group box - provides options for how to deal with Office file sync conflicts. */
+"OfficeConflictGroupBox" = "Synchronisatieconflicten";
+
+/* Radio button for the option to merge files using Office. */
+"OfficeConflictRadioButtonMerge" = "Laat me kiezen wijzigingen samen te voegen of beide kopieën te behouden";
+
+/* Radio button for option to always keep both copies of a file when the file is in an Office conflict. */
+"OfficeConflictRadioButtonFork" = "Altijd beide kopieën behouden (naam wijzigen van de kopie op deze computer)";
+
+/* Message to notify that an item cannot be deleted and it will be recreated at original location. */
+/* Title Text for SyncError DeleteCancelledByEventReceiver toast */
+"ItemCannotBeDeleted Title" = "Een item kan niet worden verwijderd.";
+
+/* Body Text for SyncError DeleteCancelledByEventReceiver toast where %@ is an item name */
+"ItemCannotBeDeleted Message:%@" = "Als u het synchroniseren van %@ op de computer wilt stoppen, klikt u hier om naar Voorkeuren te gaan en heft u de selectie van dit item op.";
+
+/* Message to notify that an item cannot be moved from its original location, item moved
+    will be recreated at source and the moved copy will be uploaded from destination. */
+/* Title Text for SyncError UploadFailedOnCannotMoveThickets toast */
+"ItemCannotBeMoved Title" = "Een van de items kan niet worden verplaatst.";
+
+/* Body Text for SyncError MoveCancelledByEventReceiver toast where %@ is a item name which cannot be moved. */
+/* Body Text for SyncError MoveFailedOnCannotMoveThickets toast where %@ is a thicket folder name which cannot be moved. */
+"ItemCannotBeMoved Message:%@" = "In plaats hiervan is %@ gekopieerd naar de nieuwe locatie en zijn beide exemplaren van het item geüpload.";
+
+/* Message to notify that an item cannot be added or changed due to server response of cancelled by event receiver. */
+/* Title Text for SyncError AddOrChangeCancelledByEventReceiver toast */
+"ItemAddOrChangeCancelledByEventReceiver Title" = "Een item kan niet worden geüpload.";
+
+/* Body Text for SyncError AddOrChangeCancelledByEventReceiver toast where %@ is an item name */
+"ItemAddOrChangeCancelledByEventReceiver Message:%@" = "Als u het synchroniseren van %@ op de computer wilt stoppen, klikt u hier om naar Voorkeuren te gaan en heft u de selectie van dit item op.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryClientError" = "De IT-afdeling vereist dat uw Mac is gekoppeld aan een goedgekeurd domein. Neem contact op met de IT-afdeling voor hulp bij het koppelen van uw Mac aan een domein.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryDisabled" = "Synchroniseren van deze map is niet toegestaan in uw organisatie. Neem contact op met de eigenaar van de site voor meer informatie.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryCheckOut" = "Uitchecken is vereist om items in deze map te bewerken. Vraag de eigenaar van de site om Uitchecken vereisen uit te schakelen om deze map te kunnen synchroniseren.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryColumnInvalid" = "De map heeft een vereiste kolom met info die niet kan worden gesynchroniseerd. Vraag de eigenaar van de site om de kolom te bewerken zodat deze niet meer is vereist en eventuele gegevensvalidatie te verwijderen.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryIrm" = "De map die u wilt synchroniseren, is geconfigureerd voor Information Rights Management. Neem contact op met de sitebeheerder om Information Rights Management voor deze map uit te schakelen.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryModeration" = "Items moeten zijn goedgekeurd om te worden toegevoegd aan de map. Vraag de eigenaar van de site om Goedkeuring van inhoud uit te schakelen om deze map te kunnen synchroniseren.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibrary" = "Door een onlangs gewijzigde instelling kan deze map niet worden gesynchroniseerd. Neem contact op met de IT-afdeling voor info.";
+
+/* Resolution message text for LostPermissionsToMountPoint error */
+"LostPermissionsToMountPoint" = "U hebt geen machtiging voor het synchroniseren van deze bibliotheek. Bekijk deze bibliotheek online om toegang aan te vragen, of klik of tik om te stoppen met het synchroniseren van deze bibliotheek.";
+
+/* Resolution message text for LibraryDeleted error */
+"LibraryDeleted" = "Deze bibliotheek is verwijderd. Alle bestanden die zijn opgeslagen op dit apparaat zijn nog aanwezig. Klik of tik om te stoppen met het synchroniseren van deze bibliotheek of neem contact op met de eigenaar van de bibliotheek.";
+
+/* Resolution message text for ServiceBlockedLibrary error */
+"ServiceBlockedLibrary" = "Deze bibliotheek is niet bereikbaar vanwege een serviceprobleem. Start OneDrive opnieuw en probeer het nogmaals.";
+
+/* Resolution message text for LibraryNotFound error */
+"LibraryNotFound" = "We kunnen deze bibliotheek niet vinden. Klik of tik om te stoppen met het synchroniseren van deze bibliotheek of neem contact op met uw IT-beheerder.";
+
+/* Error message text for SyncIrmFileFailed error */
+"SyncIrmFileFailed" = "Dit beveiligde bestand is niet gesynchroniseerd. Neem contact op met de SharePoint-beheerder van dit beveiligde bestand om toegang aan te vragen.";
+
+/* Error message text for IrmRejectedItemOnUpload error */
+"IrmRejectedItemOnUpload" = "Dit bestand kan niet worden gesynchroniseerd omdat bibliotheek-IRM-instellingen zijn geconfigureerd om te verhinderen dat gebruikers documenten zonder IRM uploaden.";
+
+/* Error message text for IrmExtensionChangeBlockedItem error */
+"IrmExtensionChangeBlockedItem" = "Dit item kan niet worden gesynchroniseerd omdat op basis van beleid in uw organisatie de namen van bestandsextensies niet kunnen worden gewijzigd. Wijzig online de naam van de bestandsextensie weer in de oorspronkelijke naam, of neem contact op met de sitebeheerder.";
+
+/* Error message text for IrmEncryptFailedToFindProtectorItem error */
+"IrmEncryptFailedToFindProtectorItem" = "Dit item kan niet worden gesynchroniseerd omdat op basis van beleid in uw organisatie de namen van bestandsextensies niet kunnen worden gewijzigd. Neem contact op met de sitebeheerder.";
+
+/* Error message for ItemCantFitOnDisk error. */
+"ItemCantFitOnDisk" = "Er is onvoldoende ruimte op deze computer om dit bestand te synchroniseren.";
+
+/* Text for menu item to open help center */
+"MainMenuItemHelpCenter" = "Help en ondersteuning";
+
+/* Window title used for send feedback.
+ There's probably no need to localize this string. */
+"FeedbackApplicationTitle" = "Microsoft OneDrive";
+
+/* Send feedback menu item label */
+"FeedbackMenuLabel" = "Feedback verzenden";
+
+/* Send feedback window title */
+"FeedbackWindowTitle" = "Feedback verzenden";
+
+/* Link to privacy statement page */
+"FeedbackPrivacyLinkText" = "<a href=\"#\">Uw privacy is belangrijk voor ons</a>";
+
+/* Link to terms of service page */
+"FeedbackTosLinkText" = "Uw feedback wordt verzameld in <a href=\"#\">Microsoft</a> en gebruikt om uw ervaring te verbeteren.";
+
+/* Header of the button to send positive feedback */
+"FeedbackSmileChoiceTitle" = "Ik vind iets leuk";
+
+/* Explanation for the send positive feedback button */
+"FeedbackSmileChoiceText" = "Wij horen graag wat u goed vindt.";
+
+/* Placeholder for the user input field */
+"FeedbackSmileFieldTip" = "Vertel ons wat u leuk vindt";
+
+/* Placeholder for the user input field */
+"FeedbackFrownFieldTip" = "Vertel ons wat u niet leuk vindt";
+
+/* Header of the send negative feedback button */
+"FeedbackFrownChoiceTitle" = "Er is iets dat ik niet leuk vind";
+
+/* Explanation for the send negative feedback button */
+"FeedbackFrownChoiceText" = "Als er iets niet goed is, willen we dat graag weten.";
+
+/* Header of the Send a Suggestion button */
+"FeedbackSuggestionChoiceTitle" = "Ik heb een suggestie";
+
+/* Explanation for the Send a Suggestion button */
+"FeedbackSuggestionChoiceText" = "Deel een idee of verbetering.";
+
+/* Checkbox label to opt-in/opt-out of sending log files */
+"FeedbackIncludeLogsLabel" = "Diagnostische gegevens en gebruiksgegevens opnemen";
+
+/* Label for the button to send feedback */
+"FeedbackSendButtonLabel" = "Verzenden";
+
+/* Label for the button to resent feedback in the case of sending failure */
+"FeedbackRetryButtonLabel" = "Opnieuw proberen";
+
+/* Label for the button to cancel feedback submission request */
+"FeedbackCancelButtonLabel" = "Annuleren";
+
+/* Label for the button to finish send feedback */
+"FeedbackCloseButtonLabel" = "Sluiten";
+
+/* Message shown in the case of feedback submission failure */
+"FeedbackSendFailureText" = "Er is een probleem opgetreden bij het verzenden van uw feedback. Controleer de internetverbinding en probeer het opnieuw. U kunt ook <a href=\"#\">contact opnemen met ondersteuning</a> en uw probleem melden.";
+
+/* Message shown during feedback submission */
+"FeedbackSendingText" = "Verzenden…";
+
+/* Message shown at the end of feedback submission. */
+"FeedbackSendSuccessText" = "Wij stellen uw feedback op prijs! Uw opmerkingen helpen ons het product te verbeteren.";
+
+/* Window title shown at the end of feedback submission. */
+"FeedbackSendSuccessTitle" = "Bedankt";
+
+/* Label for the button to go back to feedback type selection page. */
+"FeedbackBackButtonLabel" = "Terug";
+
+/* Title of local mass delete prompt for personal instance. */
+"LocalMassDeletePromptTitlePersonal" = "Bestanden verwijderen uit OneDrive?";
+
+/* Title of local mass delete prompt for business instance. */
+"LocalMassDeletePromptTitleBusiness" = "Bestanden verwijderen op alle locaties?";
+
+/* Body of local mass delete prompt for personal instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyPersonal:%@" = "U hebt onlangs %@ bestanden verwijderd van dit apparaat. Wilt u deze ook verwijderen uit OneDrive?";
+
+/* Body of local mass delete prompt for business instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyBusiness:%@" = "U hebt onlangs %@ bestanden verwijderd van dit apparaat. Wilt u deze ook verwijderen uit OneDrive en alle gedeelde bibliotheken?";
+
+/* Text of Restore button of local mass delete prompt. */
+"LocalMassDeletePromptRestoreButton" = "Bestanden herstellen";
+
+/* Text of Delete button of local mass delete prompt. */
+"LocalMassDeletePromptDeleteButton" = "Verwijderen";
+
+/* Text of Opt out checkbox of local mass delete prompt. */
+"LocalMassDeletePromptOptoutCheckbox" = "Bestanden altijd verwijderen";
+
+/* Activity center local mass delete per item history description. */
+"ActivityCenterItemPendingRemoval" = "Verwijdering uit OneDrive in behandeling";
+
+/* Checkbox text to toggle the local mass delete feature in settings dialog. */
+"LocalMassDeleteSettingsCheckbox" = "Waarschuwen voordat bestanden worden verwijderd uit de cloud";
+
+/* Title text of local mass delete confirmed ACM. */
+"LocalMassDeleteConfirmedTitle" = "Wilt u bestanden herstellen?";
+
+/* Body text of local mass delete confirmed ACM for personal instance. */
+"LocalMassDeleteConfirmedBodyPersonal" = "Als u bestanden verwijdert in OneDrive, worden deze verwijderd op alle apparaten. U kunt bestanden nog gedurende 30 dagen herstellen vanuit de OneDrive-prullenbak.";
+
+/* Body text of local mass delete confirmed ACM for business instance. */
+"LocalMassDeleteConfirmedBodyBusiness" = "Als u bestanden verwijdert in OneDrive, worden deze verwijderd op alle apparaten en locaties. U kunt bestanden nog gedurende 93 dagen vanuit de prullenbak herstellen in OneDrive of een gedeelde bibliotheek. Klik hieronder om naar de prullenbak te gaan met de meest recent verwijderde bestanden.";
+
+/* Text of recycle bin button of LocalMassDelete confirmed ACM. */
+"LocalMassDeleteRecycleBin" = "Prullenbak";
+
+/* Header text informing user that an application is downloading their files. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeader:%@" = "Er wordt in %@ gedownload uit OneDrive";
+
+/* Header text informing user that an application is downloading their files. This version is used if many files are downloading. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeaderAboveThreshold:%@" = "Er worden in %@ veel bestanden gedownload uit OneDrive";
+
+/* Body text informing user that an application is downloading their files. Clicking on this toast will open a confirmation dialog. */
+"CloudFilesHydrationToastBody" = "Klik hier om deze en toekomstige downloads te annuleren.";
+
+/* Header text informing user that an application is downloading their files. %1$@ is an application name. %2$u is a number. */
+"CloudFilesHydrationDialogHeader:%@,%u" = "Er worden %2$u bestanden gedownload in %1$@";
+
+/* Body text informing user that an application is downloading their files. %@ is an application name. */
+"CloudFilesHydrationDialogBody:%@" = "U kunt doorgaan met downloaden in de app of het downloaden stoppen. Selecteer App blokkeren om alle toekomstige downloads in %@ te stoppen.";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will continue downloading files. */
+"CloudFilesHydrationDialogContinueButton" = "Doorgaan met downloaden";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files. */
+"CloudFilesHydrationDialogStopButton" = "Downloaden stoppen";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files and block this application from future downloads. */
+"CloudFilesHydrationDialogBlockButton" = "App blokkeren";
+
+// Download And Go
+
+/* Download And Go application friendly name*/
+"DownloadAndGoFriendlyName" = "OneDrive-startservice voor bestanden";
+
+/* Download And Go window title when no errors are displayed. %@ is a number. */
+"DownloadAndGoTitle:%@" = "%@ items worden gedownload naar OneDrive";
+
+/* Download And Go downloading message. %@ is a file name. */
+"DownloadAndGoDownloadingMessage:%@" = "%@ wordt gedownload";
+
+/* Download And Go progress message for progressing hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoProgressingHydrationProgress: %@ %@" = "%1$@ van %2$@";
+
+/* Download And Go progress message for queued hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoQueuedHydrationProgress: %@ %@" = "%1$@ van %2$@ - download in behandeling";
+
+/* Download And Go window title when errors are displayed*/
+"DownloadAndGoErrorsTitle" = "Kan niet downloaden naar OneDrive";
+
+/* Download And Go error message. %@ is file name. %d is a number. */
+"DownloadAndGoErrorMessage: %@ %d" = "OneDrive kan %1$@ niet downloaden (foutcode %2$d).";
+
+/* Download And Go cancel error button */
+"DownloadAndGoCancelErrorButton" = "Annuleren";
+
+/* Download And Go try hydration again button */
+"DownloadAndGoTryAgainButton" = "Opnieuw proberen";
+
+// Finder Sync Extension Activity Center Messages
+
+/* The title of the large ACM used to inform the user about Files On-Demand if the Finder Sync Extension is enabled. */
+"FinderSyncEnabledTitle" = "Met onlinebestanden bespaart u ruimte";
+
+/* The body of a large ACM that informs the user about Files On-Demand if the Finder Sync Extension is enabled. "Finder" should be translated the same way as in the Mac OSX. "Always keep on this device" should be translated the same as the MenuItemPinCommand string. */
+"FinderSyncEnabledBody" = "U hebt nu toegang tot uw hele OneDrive zonder dat dit meer schijfruimte in beslag neemt. Als u een item offline nodig hebt, klikt u er met de rechtermuisknop op in Finder en kiest u Altijd behouden op dit apparaat.";
+
+/* The first button's text in a large ACM that that informs the user about Files On-Demand. When clicked, the message is dismissed. */
+"FinderSyncOkay" = "OK";
+
+/* The text of a button that opens a URL with more information about Files On-Demand. Used in all Finder Sync ACMs. */
+"FinderSyncLearnMore" = "Meer informatie";
+
+/* The title of the large ACM used to prompt them to enable the Finder Sync Extension. */
+"FinderSyncPromptTitle" = "Het meeste halen uit Bestanden op aanvraag";
+
+/* The body of a large ACM that prompts the user to enable the Finder Sync Extension if it is disabled. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptBody" = "Met Bestanden op aanvraag kunt u ruimte vrijmaken op de computer door OneDrive-bestanden te markeren als alleen-online. Schakel de OneDrive Finder-extensie in om bestanden te markeren als alleen-online.";
+
+/* The first button's text in a large ACM that prompts the user to enable the Finder Sync Extension. When clicked, the user's Extensions settings are opened. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptEnableExtension" = "Finder-extensie inschakelen";
+
+/* The title text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpTitle" = "Bestanden op aanvraag Is al ingesteld";
+
+/* The body text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpBody" = "Uw bestanden zijn op aanvraag beschikbaar om ruimte te besparen.";
+
+/* The title of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */
+"FinderSyncEnabledWithSelectiveSyncTitle" = "'Al uw bestanden weergeven";
+
+/* The body of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */ 
+"FinderSyncEnabledWithSelectiveSyncBody" = "U bent slechts een deel van uw bestanden om dit apparaat te synchroniseren. On Demand bestanden nu ziet u alle bestanden op dit apparaat zonder schijfruimte te gebruiken.";
+
+/* The button of an ACM that prompts the user to disable Selective Sync if the Finder Sync Extension is enabled and Files On-Demand is enabled. */
+"FinderSyncEnabledTurnOffSelectiveSyncButton" = "Alle bestanden weergeven";
+
+// Strings for the kext installer helper
+
+/* Window title for the kext installer helper*/
+"KextWizardWindowTitle" = "Microsoft OneDrive";
+
+/* Body header for the kext installer helper */
+"KextWizardBodyHeader" = "Bestanden op aanvraag bijwerken";
+
+/* Body text for the kext installer helper*/
+"KextWizardBodyText" = "Als u Bestanden op aanvraag wilt gebruiken, moet u een systeemextensie van OneDrive toestaan. Klik op Beveiligingsvoorkeuren openen en klik vervolgens op Toestaan.";
+
+/* Action button for the kext installer helper */
+"KextWizardOpenSecurityButton" = "Beveiligingsvoorkeuren openen";
+
+// Throttling
+
+/* Individual file gets throttled */
+"FileTransferThrottled" = "U ondervindt mogelijk een tijdelijke synchronisatievertraging vanwege de hoge serviceactiviteit. Er wordt binnenkort opnieuw geprobeerd om het bestand bij te werken.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that a number of items couldn't be synced. */
+"FileTransferThrottledPrimary" = "Synchronisatievertraging";
+
+/* Description text shown on the sub-header of the Activity Center when there are files being throttled. */
+"FileTransferThrottledSecondary" = "Er kan een tijdelijke vertraging optreden bij het synchroniseren vanwege een hoge serviceactiviteit.";
+
+/* Describes the generic resolution, in the Errors Window, of a file that cannot sync because it is in use by another process. */
+"FilePostponedByClient" = "Dit bestand is geopend met een ander programma en kan niet worden gesynchroniseerd. Nadat het bestand is gesloten, kan het worden gesynchroniseerd";
+
+/* Title text shown in the sub-header of the Activity Center indicating that one file is in use by another application. */
+"FilePostponedByClientSingular" = "Een bestand wordt gebruikt voor een andere toepassing";
+
+/* Title text shown in the sub-header of the Activity Center indicating that multiple files are in use by other applications. %@ is a number. */
+"FilePostponedByClientPlural:%@" = "%@ bestanden worden gebruikt voor andere toepassingen";
+
+// Reset UI strings
+
+/* Window title used for the Reset popup window */
+"ResetApplicationTitle" = "Microsoft OneDrive";
+
+/* Header text for the Reset popup window */
+"ResetHeaderText" = "OneDrive opnieuw instellen";
+
+/* Description text for what happens during a reset */
+"ResetDescriptionText" = "Als u problemen ondervindt met het synchroniseren van OneDrive, kan opnieuw instellen helpen. Door opnieuw in te stellen wordt de synchronisatieservice tijdelijk gestopt en worden de bestandshiërarchie en inhoud opnieuw gesynchroniseerd van de cloud naar de lokale computer. <a href=\"#\">Meer informatie.</a>";
+
+/* Checkbox text to ask if the user wants to preserve their selective sync and teamsites settings */
+"ResetSettingsCheckboxText" = "Mijn instellingen en configuraties voor bestanden bewaren (aanbevolen)";
+
+/* Button text to abort the reset process */
+"ResetCancelButtonLabel" = "Annuleren";
+
+/* Button text to begin the reset process */
+"ResetConfirmButtonLabel" = "Opnieuw instellen";
+
+/* Title text for reset in progress ACM */
+"ResetInProgressTitle" = "Opnieuw instellen";
+
+/* Body text for reset in progress ACM */
+"ResetInProgressBody" = "Ga verder en blijven werken aan uw bestanden, terwijl we opnieuw. Uw bestanden worden op uw lokale schijf opslaan en uploaden naar OneDrive na het opnieuw instellen.";
+
+/* Title text for reset successful ACM */
+"ResetSuccessTitle" = "Opnieuw instellen is voltooid";
+
+/* Body text for reset successful ACM */
+"ResetSuccessBody" = "Uw OneDrive is zo goed als nieuw.";
+
+/* Title text for reset successful with errors ACM */
+"ResetSuccessWithErrorsTitle" = "Opnieuw instellen is voltooid, maar...";
+
+/* Body text for reset successful with errors ACM */
+"ResetSuccessWithErrorsBody" = "Uw OneDrive bevat nog steeds fouten die niet zijn opgelost door opnieuw in te stellen. Tik of klik om deze te zien.";
+
+/* Title text for reset failed ACM */
+"ResetFailureTitle" = "Is niet opnieuw ingesteld";
+
+/* Body text for reset failed ACM */
+"ResetFailureBody" = "Er is iets misgegaan. <a href=\"#\">Meer informatie.</a>";
+
+/* Title text for reset successful history list item */
+"ActivityListHistoryResetSuccessPrimary" = "Opnieuw instellen is voltooid";
+
+/* Body text for reset successful history list item */
+"ActivityListHistoryResetSuccessSecondary" = "Uw OneDrive is zo goed als nieuw.";
+
+/* Title text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsPrimary" = "Opnieuw instellen is voltooid";
+
+/* Body text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsSecondary" = "Er zijn nog enkele fouten.";
+
+/* Title text for reset failed history list item */
+"ActivityListHistoryResetFailurePrimary" = "Is niet opnieuw ingesteld";
+
+/* Body text for reset failed history list item */
+"ActivityListHistoryResetFailureSecondary" = "Er is iets misgegaan.";
+
+/* Title text for reset completed toast */
+"ToastResetCompletedTitle" = "Opnieuw instellen van OneDrive is voltooid";
+
+/* Body text for reset completed toast */
+"ToastResetCompletedBody" = "Tik of klik hier om de bestandsstatus te zien.";
+
+/* Title text for reset failed toast */
+"ToastResetFailedTitle" = "OneDrive is niet opnieuw ingesteld";
+
+/* Body text for reset failed toast */
+"ToastResetFailedBody" = "Tik of klik hier om de volgende stappen te zien.";
+
+// End Reset UI strings
+
+/* Resolution message for client access denied. */
+"ClientAccessDeniedErrorsShortDescription" = "U hebt geen toegangsmachtigingen voor het item. Zorg dat u beschikt over de juiste machtigingen om het item te synchroniseren.";
+
+// Purchase Window Strings
+
+/* Title text show in Purchase Window */
+"PurchaseWindowTitle" = "Microsoft OneDrive";
+
+/* Header text shown in Purchase Window */
+"PurchaseWindowHeader" = "Ga voor de Premium-ervaring!";
+
+/* Header text shown in Purchase Window after buying the subscription */
+"PurchaseSuccessWindowHeader" = "Gefeliciteerd!";
+
+/* Header text shown in Purchase Window while buying the subscription */
+"PurchaseWindowLoadingTitle" = "Laden...";
+
+/* Body text shown in the Purchase Window*/
+"PurchaseWindowBody" = "Profiteer van de premium-functies van OneDrive met een gratis abonnement voor één maand op Office 365. Selecteer een plan dat geschikt is voor u en begin de gratis proefperiode.";
+
+/* Body text shown in the Purchase Window after buying the subscription */
+"PurchaseSuccessWindowBody" = "U hebt nu toegang tot exclusieve functies. Er worden na de proefperiode van 1 maand automatisch kosten in rekening gebracht op de creditcard.";
+
+/*Link button to skip the window */
+"PurchaseWindowSkipNowLink" = "Voorlopig overslaan";
+
+/* Sub text in product subscription card describing our premium features*/
+"PurchaseCardMainBody" = "Premium-functies van OneDrive";
+
+/* Decribes our product subscription right below a row of images showing the office apps*/
+"PurchaseCardSubBody" = "Nieuwste Office-apps voor pc en Mac";
+
+/* Purchase card button text which will start a purchase flow */
+"PurchaseCardButtonText" = "Kies voor Premium - 1e maand gratis";
+
+/* Purchase card link text which will launch a learn more campaign */
+"PurchaseCardLinkText" = "Meer informatie";
+
+/* Personal subscription card list text. Only for 1 person  */
+"PurchasePersonalList1" = "Voor personen";
+
+/* Home subscription card list text. Bundle avaiable for 6 people*/
+"PurchaseHomeList1" = "Voor zes personen";
+
+/* Personal subscription card list text. 1 Terabyte of storage in OneDrive */
+"PurchasePersonalList2" = "1 TB opslag";
+
+/* Home subscription card list text. 6 Terabyte of storage in OneDrive */
+"PurchaseHomeList2" = "6 TB opslag";
+
+/* Common subscription card list text for all bundles. Access advanced security features */
+"PurchaseCommonList3" = "Geavanceerde beveiliging";
+
+/* Common subscription card list text for all bundles. Access more producitivty tool*/
+"PurchaseCommonList4" = "Hulpprogramma's voor productiviteit";
+
+/* Price of a yearly subscription. %@ is money symbol followed by a decimal number. Example: $59.99*/
+"PurchasePriceYearConstant:%@" = "%@/jaar";
+
+/* Close the window */
+"PurchaseCloseButtonText" = "Sluiten";
+
+/* Accessible name for a list of Microsoft Office Products*/
+"PurchaseIconAccessibleName" = "Microsoft Office-producten";
+
+/* Accessible name for a list of details concerning a Office Subscription.*/
+"PurchaseListBodyAccessibleName" = "Lijst met functies";
+
+/* Error title of purchase window*/
+"PurchaseWindowErrorTitle" = "Er is iets misgegaan";
+
+/* Error body of purchase window. Receipt is already in use*/
+"PurchaseErrorReceiptInUse" = "De aankoop van Office 365 is geclaimd via een ander Microsoft-account.";
+
+/* Error body of purchase window. Transient Error that automatically might resolve*/
+"PurchaseErrorTransientIssue" = "U hebt Office 365 gekocht, maar het abonnement is niet toegepast op uw Microsoft-account. Probeer het later opnieuw, er worden niet opnieuw kosten in rekening gebracht. Neem contact met de ondersteuning als het probleem na 24 uur nog steeds optreedt.";
+
+/* Error body of purchase window. Error that we are unable to resolve.*/
+"PurchaseErrorUnableToResolve" = "U hebt Office 365 gekocht, maar het abonnement is niet toegepast op uw Microsoft-account. Neem contact met de ondersteuning.";
+
+/* Terms of Use title for purchasing a subscription */
+"PurchaseSubscriptionTermsTitle" = "Details van abonnement";
+
+/* Terms of Use body for purchasing a subscription */
+"PurchaseSubscriptionTermsBody" = "Aangeschafte Office 365-abonnementen worden in rekening gebracht bij uw iTunes-account en worden binnen 24 uur vóór het einde van de huidige abonnementsperiode automatisch verlengd, tenzij automatisch verlengen vooraf is uitgeschakeld. Ga naar de instellingen van uw iTunes-account om uw abonnementen te beheren of om automatisch verlengen uit te schakelen. Een abonnement kan niet worden geannuleerd tijdens de actieve abonnementsperiode. Eventuele ongebruikte gedeelten van een gratis proefperiode, indien aangeboden, vervallen wanneer de gebruiker een abonnement op de betreffende publicatie aanschaft, indien van toepassing.";
+
+/* Text that will link to a web page describing the Microsoft terms of use */
+"PurchaseSubscriptionTermsOfUseLink" = "Gebruiksvoorwaarden";
+
+/* Text that will link to a web page describing the terms of privacy */
+"PurchaseSubscriptionPrivacyLink" = "Privacy";
+
+// End Purchase window strings
+
+// Get Help window strings
+
+/* Get Help window title */
+"GetHelpWindowTitle" = "Contact opnemen met ondersteuning";
+
+/* Placeholder for the Get Help user input field */
+"GetHelpFieldTip" = "Beschrijf hier het probleem.";
+
+/* Window title shown at the end of get help submission succeeded. */
+"GetHelpSendSuccessTitle" = "Ondersteuningsaanvraag is verzonden";
+
+/* Message shown at the end of get help submission - %1$@ is user email. */
+"GetHelpSendSuccessText:%@" = "Een OneDrive-agent neemt contact met u op via %1$@.";
+
+/* Window title shown at the end of get help submission failure. */
+"GetHelpSendFailureTitle" = "Ondersteuningsaanvraag is mislukt";
+
+/* Message shown in the case of feedback submission failure */
+"GetHelpSendFailureText" = "Er is een probleem opgetreden bij het verzenden van uw aanvraag voor ondersteuning. Controleer uw Internet-verbinding en probeer het later opnieuw.";
+
+// End Get Help window strings

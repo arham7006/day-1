@@ -1,0 +1,2575 @@
+// Misc
+
+// File Size Units
+
+/* The lowest unit for file sizes */
+"byteText" = "ไบต์";
+
+/* Unit for file sizes. */
+"KiloByteAbbrv" = "KB";
+
+/* Unit for file sizes. */
+"MegaByteAbbrv" = "MB";
+
+/* Unit for file sizes. */
+"GigaByteAbbrv" = "GB";
+
+/* Unit for file sizes. */
+"TeraByteAbbrv" = "TB";
+
+/* Unit for file transfer speed. */
+"KiloBytePerSecond" = "กิโลไบต์/วินาที";
+
+/* Unit for file transfer speed. */
+"MegaBytePerSecond" = "MB/s";
+
+
+// First run - used by FirstRunWindowController.mm and its views
+
+/* Windows title used to welcome a user running the application.
+ There's probably no need to localize this string. */
+"FirstRunWindowTitle" = "Microsoft OneDrive";
+
+/* Title of the welcome page when running for the first time */
+"FirstRunText" = "ตั้งค่า OneDrive";
+
+/* Short explaination about what OneDrive does when running for the first time */
+"FirstRunDescriptiveText" = "เก็บไฟล์ของคุณไว้ใน OneDrive เพื่อเข้าถึงได้จากอุปกรณ์ทุกเครื่อง";
+
+/* Button to sign into a personal instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomePersonalButton" = "ส่วนบุคคล";
+
+/* Button to sign into a business instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomeBusinessButton" = "ที่ทำงานหรือโรงเรียน";
+
+/* Button to start email hrd sign in flow on the first run experience in welcome page */
+"FirstRunEmailSignInButton" = "ลงชื่อเข้าใช้";
+
+/* Placeholder text for the email input box on the first run experience in welcome page */
+"FirstRunEmailInputPlaceholderText" = "ใส่ที่อยู่อีเมล";
+
+/* Errors shown when there is a problem with the users email address on the first run experience in welcome page */
+"FirstRunWelcomeErrorPersonalAlreadySyncing" = "คุณได้ซิงค์ OneDrive ส่วนตัวบนคอมพิวเตอร์เครื่องนี้เรียบร้อยแล้ว ยกเลิกการลิงก์บัญชีนั้นเพื่อเพิ่มบัญชีใหม่";
+"FirstRunWelcomeErrorEmailIsMSAAndAAD" = "ที่อยู่อีเมลนี้ใช้สำหรับทั้ง OneDrive และ OneDrive for Business คุณต้องการลงชื่อเข้าใช้แอปใดก่อน";
+"FirstRunWelcomeErrorEmailIsNotKnown" = "เราไม่รู้จักที่อยู่อีเมลนั้น";
+"FirstRunWelcomeErrorEmailAdminDisabled" = "องค์กรของคุณไม่อนุญาตให้คุณซิงค์ OneDrive ส่วนตัวบนคอมพิวเตอร์เครื่องนี้";
+
+/* first run wizard progress text for screen readers */
+"FirstRunProgress0" = "การตั้งค่า OneDrive เสร็จสมบูรณ์แล้ว 0 เปอร์เซ็นต์";
+"FirstRunProgress50" = "การตั้งค่า OneDrive เสร็จสมบูรณ์แล้ว 50 เปอร์เซ็นต์";
+"FirstRunProgress75" = "การตั้งค่า OneDrive เสร็จสมบูรณ์แล้ว 75 เปอร์เซ็นต์";
+"FirstRunProgress100" = "การตั้งค่า OneDrive เสร็จสมบูรณ์แล้ว 100 เปอร์เซ็นต์";
+
+/* Title of the page that introduces OneDrive folder when running for the first time */
+"FirstRunIntroduceText" = "นี่คือโฟลเดอร์ OneDrive ของคุณ";
+
+/* Title of the page that prompts for required folder when mounting for the first time */
+"FirstRunIntroduceRequiredPathText" = "ยืนยันตำแหน่งที่ตั้งโฟลเดอร์";
+
+/* Title of the page that introduces OneDrive folder when running for the first time. "Finder" should be translated the same way as in the Mac OSX */
+"FirstRunIntroduceDescriptiveText" = "เพิ่มไฟล์ที่นี่ แล้วคุณจะสามารถเข้าถึงไฟล์ดังกล่าวได้จากอุปกรณ์เครื่องอื่น ซึ่งไฟล์ดังกล่าวจะยังอยู่ใน Mac เครื่องนี้";
+
+/* Title of the adminstrative error that will be attached to the FirstRunIntroduceDescriptiveText */
+"FirstRunIntroduceDescriptiveTextWithError" = "เพิ่มไฟล์ที่นี่เพื่อให้คุณสามารถเข้าถึงได้จากอุปกรณ์อื่นๆ และยังมีไฟล์บน Mac เครื่องนี้ ผู้ดูแลระบบของคุณกำหนดให้โฟลเดอร์ OneDrive อยู่ในตำแหน่งที่ตั้งนี้";
+
+/* Title of the page that prompts for access to required folder. */
+"SelectRequiredPathDescriptiveText:%@" = "เมื่อต้องการซิงค์ไฟล์เหล่านี้ โปรดอนุญาตให้เราเข้าถึงโฟลเดอร์นี้: %@";
+
+/* This is for the button that allows users to change the root folder path. When clicked, it opens a browse window for users to select the root folder. */
+"FirstRunBrowseButtonText" = "เปลี่ยนตำแหน่งที่ตั้ง";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"FirstRunDoneIntroductionButtonText" = "ถัดไป";
+
+/* This is for the button when user has never selected a root folder. */
+"FirstRunSelectFolderButtonText" = "เลือกตำแหน่งที่ตั้งของโฟลเดอร์ OneDrive";
+
+/* This is for the button when user has not yet confirmed our required folder. */
+"FirstRunSelectRequiredFolderButtonText" = "ยืนยันตำแหน่งที่ตั้งโฟลเดอร์";
+
+/* This is a prompt displayed in the file browse dialog. */
+"SelectRootFolderMessage" = "เลือกตำแหน่งที่ตั้งสำหรับโฟลเดอร์ OneDrive";
+
+/* This is a prompt displayed in the file browse dialog to confirm required location. */
+"SelectRequiredFolderMessage" = "ใช้โฟลเดอร์ที่เลือก และคลิก \"ยืนยันตำแหน่งที่ตั้ง\"";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"CreateRootFolderButton" = "เลือกตำแหน่งที่ตั้งนี้";
+
+/* This is for the confirmation button when user is done confirming the required folder. */
+"CreateRequiredFolderButton" = "ยืนยันตำแหน่งที่ตั้ง";
+
+/* This is for the text field to show currently selected root folder path. */
+"FirstRunShowFolderPathText:%@" = "โฟลเดอร์ %@ ของคุณคือ";
+
+/* This is the alert dialog title when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootTitle:%@" = "เราไม่พบตำแหน่งที่ตั้งของโฟลเดอร์ %@ ของคุณ";
+
+/* This is the alert dialog body when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootMessage" = "โฟลเดอร์ OneDrive ของคุณอาจถูกลบไปแล้ว หรือถ้าโฟลเดอร์ OneDrive ของคุณอยู่ในไดรฟ์ภายนอก โฟลเดอร์ดังกล่าวอาจถูกลบออกไปแล้ว ให้คลิก ตกลง เพื่อกำหนดค่าโฟลเดอร์ OneDrive ใหม่";
+
+/* This is the alert dialog button that allows user to reconfigure */
+"FirstRunUnconfiguredRootReconfigureButton" = "ตกลง";
+
+/* This is the alert dialog button that allows user to quit the application */
+"FirstRunUnconfiguredRootQuitButton" = "ออกจาก OneDrive";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is invalid */
+"InvalidMappingLocationMessageTitle" = "ระบบไม่สามารถสร้างโฟลเดอร์ OneDrive ในตำแหน่งที่ตั้งที่คุณเลือกไว้";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid. */
+"InvalidMappingLocationDetailedMessage" = "ลองตำแหน่งที่ตั้งอื่น โปรดตรวจสอบว่าตำแหน่งที่ตั้งนั้นไม่อยู่บนไดรฟ์แบบถอดได้หรือบนดิสก์ที่ใช้รูปแบบตรงตามตัวพิมพ์ใหญ่-เล็ก";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location can't be used */
+"InvalidMappingLocationInUseTitle" = "เราไม่สามารถสร้างโฟลเดอร์ OneDrive ในตำแหน่งที่ตั้งนี้";
+
+/* This is a detailed explanation in the alert window telling users the selected folder is already used by another OneDrive account. */
+"InvalidMappingLocationInUseDetailedMessage" = "มีโฟลเดอร์ OneDrive อื่นอยู่แล้วในตำแหน่งที่ตั้งนี้ โปรดเลือกตำแหน่งที่ตั้งอื่น";
+
+/* This is a short text above detailed explaination in the alert window telling users to select the required path */
+"InvalidMappingRequiredPathMessageTitle" = "ยืนยันตำแหน่งที่ตั้งของโฟลเดอร์ที่เลือกเพื่อทำการซิงค์ต่อไป";
+
+/* This is a detailed explaination in the alert window telling users the selected location is not the required path. */
+"InvalidMappingRequiredPathDetailedMessage" = "โปรดเก็บตำแหน่งที่ตั้งที่เลือก และคลิก \"ยืนยัน\" ใน Finder";
+
+/* This is the button in the alert window that shows up when current location is not the required path. The button allows users to choose a new location */
+"InvalidMappingRequiredPathContinueButton" = "ดำเนินการต่อ";
+
+/* This is the button in the alert window that shows up when current location is invalid. The button allows users to choose a new location */
+"InvalidMappingLocationChooseButton" = "เลือกตำแหน่งที่ตั้งใหม่";
+
+/* This is the button in the alert window that shows up when current location is invalid. This button allows users to close the alert */
+"InvalidMappingLocationCancelButton" = "ยกเลิก";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty */
+"MappingLocationContainsFileMessageTitle" = "เนื้อหามีอยู่แล้วในโฟลเดอร์นี้";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessage:%@" = "ถ้าคุณเลือกใช้ตำแหน่งที่ตั้งนี้สำหรับโฟลเดอร์ \"%@\" ของคุณ เนื้อหาภายในโฟลเดอร์นี้จะผสานรวมกับ OneDrive คุณอาจจะเลือกตำแหน่งที่ตั้งอื่น หรือใช้ตำแหน่งที่ตั้งที่คุณได้เลือกไว้ก็ได้";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessageWithDefaultFolder:%@" = "ถ้าคุณเลือกตำแหน่งที่ตั้งนี้สำหรับโฟลเดอร์ \"%@\" ของคุณ เนื้อหาภายในโฟลเดอร์นี้จะผสานรวมกับ OneDrive ของคุณ";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty {%1$@ is a folder name and %2$@ is its parent folder name } */
+"LibraryFolderMappingLocationContainsFileMessageTitle:%@,%@" = "มีโฟลเดอร์ \"%1$@\" อยู่แล้วในโฟลเดอร์ \"%2$@\" ของคุณ";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is not empty. { %1$@ is a folder name } */
+"LibraryFolderMappingLocationContainsFileDetailedMessage:%@" = "ถ้าคุณเลือกตำแหน่งที่ตั้งนี้สำหรับโฟลเดอร์ \"%1$@\" ของคุณ ไฟล์ในโฟลเดอร์นี้จะผสานรวมกับไฟล์ในระบบคลาวด์ คุณสามารถใช้ตำแหน่งที่ตั้งที่เลือกไว้ หรือซิงค์ไปยังโฟลเดอร์ใหม่ก็ได้";
+
+/* This is the button in the alert window that shows up when the folder location is not empty. This button allows users to continue anyway */
+"MappingLocationContainsFileContinueButton" = "ใช้ตำแหน่งที่ตั้งนี้";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button allows users to choose a new location */
+"MappingLocationContainsFileChooseButton" = "เลือกตำแหน่งที่ตั้งใหม่";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button informs us to automatically create a new folder on behalf of the user. */
+"MappingLocationContainsFileCreateButton" = "ซิงค์ไปยังโฟลเดอร์ใหม่";
+
+/* This is on top of the selective sync page in First Run Experience. */
+"FirstRunSelectiveSyncTitle" = "ซิงค์เฉพาะข้อมูลที่คุณต้องการ";
+
+/* This is the description right below the title on top of the selective sync page. */
+"FirstRunSelectiveSyncDescription:%@" = "เลือกรายการที่ต้องการดาวน์โหลดลงในโฟลเดอร์ OneDrive%@ และเข้าถึงได้แม้คุณจะออฟไลน์";
+
+/* This is the text on radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsTitle" = "ไฟล์และโฟลเดอร์ทั้งหมดบน OneDrive ของฉัน";
+
+/* This is the description text next to the radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsDescription" = "ข้อมูลทุกอย่างจะซิงค์กับ Mac เครื่องนี้ ยกเว้นไฟล์ที่แชร์กับคุณ";
+
+/* This is the text on radio button to choose to sync only some files */
+"FirstRunSelectiveSyncSomeItemsTitle" = "เลือกโฟลเดอร์ที่จะซิงค์";
+
+/* This is the description text next to the radio button to choose to sync only some files. */
+"FirstRunSelectiveSyncSomeItemsDescription" = "คลิก \"เสร็จสมบูรณ์\" เพื่อเลือกไฟล์ที่จะซิงค์กับคอมพิวเตอร์เครื่องนี้";
+
+/* This is the button text in the selective sync page */
+"FirstRunSelectiveSyncNextButtonText" = "ถัดไป";
+
+/* This is the title text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncTitle" = "เปิดการเข้าถึงไฟล์ได้ตามใจ";
+
+/* This is the description text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncDescription" = "เมื่อต้องการดูตัวเลือก การเข้าถึงไฟล์ได้ตามใจ ในเมนูบริบทคลิกขวา คุณต้องเปิดใช้งานส่วนขยายการซิงค์ตัวค้นหาของ OneDrive คลิก เปิดการกำหนดลักษณะส่วนขยาย แล้วเลือกส่วนขยายตัวค้นหา OneDrive";
+
+/* This is the button text in the Enable Finder Sync page for the Enable button */
+"FirstRunEnableFinderSyncEnableButtonText" = "เปิดการกำหนดลักษณะส่วนขยาย";
+
+/* This is the button text in the Enable Finder Sync page for the Skip button */
+"FirstRunEnableFinderSyncSkipButtonText" = "ฉันจะเปิดใช้งานส่วนขยายในภายหลัง";
+
+/* This is on top of the Cloud Files Tutorial page in First Run Experience. */
+"FirstRunCloudFilesTutorialTitle" = "ไฟล์ทั้งหมดของคุณ พร้อมใช้งานตามความต้องการ";
+
+/* This is the description right below the title on top of the Cloud Files Tutorial page. */
+"FirstRunCloudFilesTutorialDescription" = "ด้วยการเข้าถึงไฟล์ได้ตามใจ คุณสามารถเรียกดูทุกอย่างใน OneDrive ของคุณโดยไม่ใช้เนื้อที่บน Mac ของคุณ ไฟล์จะถูกดาวน์โหลดตามที่คุณต้องการ";
+
+/* This is the header text in the Cloud Files Tutorial page for online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFiles" = "ไฟล์แบบออนไลน์อย่างเดียว";
+
+/* This is the text in the Cloud Files Tutorial page describing online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFilesDescription" = "ไฟล์แบบออนไลน์อย่างเดียวจะไม่ดาวน์โหลดไปยังอุปกรณ์ของคุณจนกว่าคุณจะเปิดไฟล์เหล่านั้น";
+
+/* This is the header text in the Cloud Files Tutorial page for locally available files. */
+"FirstRunCloudFilesTutorialHydratedFiles" = "ไฟล์พร้อมใช้งานภายในเครื่อง";
+
+/* This is the text in the Cloud Files Tutorial page describing locally available files. */
+"FirstRunCloudFilesTutorialHydratedFilesDescription" = "ไฟล์ที่คุณเปิดจะถูกดาวน์โหลดไปยังอุปกรณ์ของคุณ และพร้อมใช้งานแบบออฟไลน์";
+
+/* This is the header text in the Cloud Files Tutorial page for always available files. */
+"FirstRunCloudFilesTutorialPinnedFiles" = "ไฟล์พร้อมใช้งานเสมอ";
+
+/* This is the text in the Cloud Files Tutorial page describing always available files. */
+"FirstRunCloudFilesTutorialPinnedFilesDescription" = "คุณสามารถทำเครื่องหมายไฟล์และโฟลเดอร์ที่คุณต้องการให้พร้อมใช้งานอยู่เสมอ แม้แต่แบบออฟไลน์ ";
+
+/* This is the button text in the Cloud Files Tutorial page */
+"FirstRunCloudFilesTutorialNextButtonText" = "ถัดไป";
+
+/* This is on top of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunTitle" = "OneDrive พร้อมให้คุณใช้งานแล้ว";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunDescription:%@" = "เราจะดาวน์โหลดไฟล์ของคุณแล้วซิงค์กับ Mac เครื่องนี้ เมื่อต้องการเพิ่มไฟล์ไปยัง OneDrive คุณเพียงแค่ย้ายไฟล์เหล่านั้นไปที่โฟลเดอร์ \"%@\" ของคุณใน Finder";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience when Cloud Files on. */
+"FirstRunFinishFirstRunCloudFilesDescription:%@" = "OneDrive ของคุณถูกตั้งค่าทั้งหมดแล้ว และพร้อมใช้งาน เมื่อต้องการเพิ่มไฟล์ลงใน OneDrive เพียงแค่ย้ายไฟล์เหล่านั้นไปยังโฟลเดอร์ \"%@\" ของคุณในตัวค้นหา";
+
+/* This is the text of the Open-at-login checkbox in the Finish First Run page (Done page) in First Run Experience */
+"FirstRunFinishFirstRunOpenAtLoginCheckboxText" = "เปิดเมื่อเข้าสู่ระบบ เพื่อให้ไฟล์ของฉันซิงค์โดยอัตโนมัติ";
+
+/* This is the button text in the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunButtonText:%@" = "เปิดโฟลเดอร์ %@ ของฉัน";
+
+// Settings folder access error
+
+/* This is the title text for dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorTitle" = "ไม่สามารถเข้าถึงโฟลเดอร์การตั้งค่า";
+
+/* This is the descrption text for dialog we pop up when we cannot access settings folder {StrContains=\"Application Support\"} */
+"SettingsFolderErrorDescription" = "โปรดตรวจสอบว่าคุณมีสิทธิ์เข้าถึงโฟลเดอร์ Application Support";
+
+/* This is the button to quit for the dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorQuitButtonText" = "ออกจาก OneDrive";
+
+// Cloud device - used by SyncDevice.mm
+
+/* The name of the online storage */
+"CloudDevice" = "ที่เก็บข้อมูลที่ซิงค์ของ OneDrive";
+
+
+// Folder status - used by ModelExtensions.mm
+
+/* Text shown on status menu when everything is in sync */
+"FolderStatusInSync" = "OneDrive อัปเดตแล้ว"; // Up to date
+
+/* Local folder convergence status against a remote folder is not known */
+"FolderStatusUnknown" = "ไม่รู้จัก";
+
+/* Uploading and downloading files. "Files" will always be plural. */
+"FolderStatusSendAndReceive:%@" = "กำลังถ่ายโอน %@ ไฟล์...";
+
+/* Uploading one file from a remote folder. We show the file name. */
+"FolderStatusSendingSingular:%@" = "กำลังอัปโหลด %@...";
+
+/* Uploading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusSendingPlural:%@" = "กำลังอัปโหลด %@ ไฟล์...";
+
+/* Downloading one file from a remote folder. We show the file name. */
+"FolderStatusReceivingSingular:%@" = "กำลังดาวน์โหลด %@...";
+
+/* Downloading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusReceivingPlural:%@" = "กำลังดาวน์โหลด %@ ไฟล์...";
+
+/* Processing downloaded files to be created in a local folder */
+"FolderStatusRealizing" = "กำลังประมวลผลไฟล์ที่ดาวน์โหลด...";
+
+/* Processing local file changes to be uploaded */
+"FolderStatusHashing" = "กำลังประมวลผลการเปลี่ยนแปลง...";
+
+/* Scanning file changes in a folder */
+"FolderStatusScanning" = "กำลังสแกนไฟล์...";
+
+/* Scanning file changes in a folde */
+"FolderStatusScanningExtended:%@" = "กำลังสแกน %@...";
+
+/* Processing changes to files */
+"FolderStatusMetadataXfer" = "กำลังประมวลผลไฟล์...";
+
+/* Waiting to resume file transfers (upload/download) */
+"FolderStatusBlocked" = "กำลังรอซิงค์";
+
+/* Status for a folder that is not syncing*/
+"FolderStatusUnmapped" = "OneDrive ของคุณยังไม่กำหนดค่า";
+
+/* Waiting to resume donwloading of a single file. We show the file name. */
+"FolderStatusBlockedSingular:%@" = "กำลังรอรับ %@...";
+
+/* Waiting to resume donwloading files */
+"FolderStatusBlockedPlural:%@" = "กำลังรอรับ %@ ไฟล์";
+
+/* Upload+Download Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB */
+"FolderStatusTransferProgress:%@,%@,%@,%@" = "%@ %@ จาก %@ %@";
+
+/* Upload+Download+Rate Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB The third number shows the current transfer rate followed by its unit. */
+"FolderStatusTransferProgressNew:%@,%@,%@,%@,%@,%@" = "%@ %@ จาก %@ %@ ที่ความเร็ว %@ %@";
+
+/* Improve upload performance */
+"FasterUploadOption" = "ปรับปรุงความเร็วในการอัปโหลดด้วยการอัปโหลดเป็นชุด\r\nตัวเลือกนี้จะใช้แบนด์วิดท์เพิ่มขึ้น ถ้าคุณพบปัญหาเกี่ยวกับการเชื่อมต่ออินเทอร์เน็ต ให้ยกเลิกการเลือกตัวเลือกนี้";
+
+/* Available storage space. Example: 20 GB used out of 200 GB. This is used in the systray. */
+"StorageQuota:%@,%@" = "ใช้ไปแล้ว %1$@ จาก %2$@";
+
+/* Available storage space. Example: 20 GB of 200 GB cloud storage used. This is used in account tab of preference window to show GB on disk for personal account */
+"CloudStorageQuota:%@,%@" = "ใช้ที่เก็บข้อมูลบนระบบคลาวด์ไปแล้ว %1$@ จาก %2$@";
+
+/* Storage used on Mac. Example: 2 GB used on this Mac. This is used in account tab of preference window to show GB on disk for ODB */
+"StorageOnMac:%@" = "ใช้ %@ ใน Mac เครื่องนี้";
+
+// Device status - used by ModelExtensions.mm
+
+/* Drive status displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlocked" = "ไม่สามารถอัปโหลดไฟล์ได้";
+
+/* Error description displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlockedVerbose" = "ปัญหาของไฟล์กำลังบล็อกการอัปโหลดทั้งหมด";
+
+// Device Location - used by ModelExtensions.mm
+
+/* Local device, i.e. this computer */
+"DeviceLocationLocal" = "ภายในเครื่อง";
+
+/* Remote device, e.g. another computer */
+"DeviceLocationRemote" = "ระยะไกล";
+
+/* Cloud storage device, */
+"DeviceLocationCloud" = "ระบบคลาวด์";
+
+// Sync Issue Window
+
+/* "Problem" is a general term that includes both warnings and errors. Problem is singular. */
+"SyncIssueWindowTitleSingular:%@" = "1 ปัญหาจาก %@ ของคุณ";
+
+/* "Problem" is a general term that includes both warnings and errors. Problems is plural. */
+"SyncIssueWindowTitlePlural:%@,%@" = "มี %1$@ ปัญหากับ %2$@ ของคุณ";
+
+/* The button is used to clear the issue list */
+"SyncIssueWindowClearButton" = "ล้าง";
+
+/* Reveal is showing the item */
+"SyncIssueWindowOpenInFinderToolTip" = "แสดงในตัวค้นหา";
+
+/* Tool tip for the button that removes an issue from issue window */
+"SyncIssueWindowIgnoreIssueToolTip" = "ละเว้นปัญหานี้";
+
+/* Text on status when there are more than 1 problems. "Problems" is always plural */
+"SyncIssueStatusPlural:%@" = "%@ ปัญหาจาก OneDrive ของคุณ";
+
+/* Text on status when there is a problem. problem is always singular */
+"SyncIssueStatusSingular" = "1 ปัญหาจาก OneDrive ของคุณ";
+
+/* Tool tip for the button that opens issue resolver window */
+"SyncIssueWindowOpenIssueToolTip" = "แก้ไขปัญหานี้";
+
+/* Primary text for error dialog with a file conflict for the file name. %@ is a file name */
+"SyncIssueAlertFileOnHoldPrimary:%@" = "แก้ไขความขัดแย้งของไฟล์สำหรับ \"%@\"";
+
+/* Secondary text for error dialog. %@ is a machine name */
+"SyncIssueAlertFileOnHoldSecondary:%@" = "คุณสามารถเปิดไฟล์ใน Office เมื่อต้องการผสานการเปลี่ยนแปลงจากทั้งสองเวอร์ชันหรือเลือกไฟล์ที่คุณต้องการจะเก็บ หรือคุณสามารถเก็บทั้งสองไฟล์และไฟล์บนคอมพิวเตอร์ของคุณจะมี \"-%@\" เพิ่มเข้าไปในชื่อ และไฟล์ออนไลน์จะถูกดาวน์โหลด";
+
+/* Primary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldMainButton" = "เก็บทั้งสองไฟล์";
+
+/* Secondary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldSecondaryButton" = "เปิดใน Office";
+
+// Error description - used by ModelExtensions.mm
+
+/* error description used in issue window {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFilename" = "โปรดเปลี่ยนชื่อไฟล์ ยกตัวอย่างเช่น ตรวจสอบให้แน่ใจว่าไม่ได้ขึ้นต้นหรือจบด้วยการเว้นวรรค จบด้วยเครื่องหมายจุด ขึ้นต้นด้วยจุดสองจุด หรือใส่อักขระใดๆ ต่อไปนี้: \\ / : * ? \" < > | ";
+
+/* error description used in issue window  {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFoldername" = "โปรดเปลี่ยนชื่อโฟลเดอร์ ตัวอย่างเช่น ตรวจสอบให้แน่ใจว่าไม่ได้ขึ้นต้นหรือจบด้วยการเว้นวรรค จบด้วยเครื่องหมายจุด ขึ้นต้นด้วยจุดสองจุด หรือใส่อักขระใดๆ ต่อไปนี้: \\ / : * ? \" < > | ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionFilePathTooLong" = "เส้นทางไฟล์ยาวเกินกว่าที่จะเก็บไว้ในคอมพิวเตอร์";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionCloudAccessDenied:%@" = "ไฟล์นี้เป็นแบบอ่านอย่างเดียวใน \"%@\"";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionDocumentCheckedOut" = "ไฟล์นี้เช็คเอาท์โดยบุคคลอื่นแล้ว";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionServerFileConflict:%@" = "ไม่สามารถอัปโหลดรายการไปยัง \"%@\" ได้";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionExcludedItem:%@" = "ไม่สามารถอัปโหลดรายการไปยัง \"%@\"";
+
+/* error description used in issue window %1$@ is a size like 10 GB, %2$@ is a string like "OneDrive - Microsoft" */
+"SyncErrorShortDescriptionFileTooBig:%@,%@" = "คุณไม่สามารถอัปโหลดไฟล์ที่มีขนาดใหญ่กว่า %1$@ ใน \"%2$@\" ได้";
+
+/* Use "OneNote" unless there's a localized name for it {Locked=!cs, sk;\"OneNote\"} */
+"SyncErrorShortDescriptionOnenoteDeleted:%@" = "ไม่สามารถลบทางลัดไปยังไฟล์ OneNote จากโฟลเดอร์ \"%@\" ของคุณได้ คลิกเพื่อไปยัง OneDrive และลบรายการนี้จากเว็บ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionItemCantFitInQuota:%@" = "ไฟล์หรือโฟลเดอร์ และเนื้อหาไม่พอดีกับโควตาส่วนที่เหลือใน \"%@\" ของคุณ";
+
+/* item means either folder or file */
+"SyncErrorShortDescriptionItemLimitExceeded:%@" = "มีไฟล์มากเกินไปใน \"%@\" โปรดเอาไฟล์ที่คุณไม่ต้องการออก";
+
+/* The user choose to unsync files/folders but we are unable to delete it. item means either folder or file */
+"SyncErrorShortDescriptionUnmappedContentPresent:%@" = "มีไฟล์หรือโฟลเดอร์ที่มีชื่อนี้อยู่แล้วในตำแหน่งที่ตั้งเดียวกันแบบออนไลน์ใน \"%@\" โปรดเปลี่ยนชื่อไฟล์หรือโฟลเดอร์";
+
+/* error description used when Office files have edit-edit conflicts and they cannot be merged */
+"SyncErrorShortDescriptionFileOnHold" = "เราไม่สามารถผสานการเปลี่ยนแปลงในแฟ้ม Office คลิกที่ไอคอนลูกศรในการแก้ไข";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaCritical:%@,%@" = "%1$@ ใช้เนื้อที่ไปแล้ว %2$@";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaCritical:%@,%@" = "%1$@ เหลือที่ว่างเพียง %2$@";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaExceeded:%@" = "%@ เต็มแล้ว";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaExceeded" = "เมื่อต้องการซิงค์โฟลเดอร์ OneDrive ของคุณอยู่เสมอ ให้เพิ่มพื้นที่จัดเก็บหรือลบไฟล์ที่ไม่ต้องการออก";
+
+/* error description used in issue window for business accounts */
+"CloudIssueShortDescriptionQuotaExceeded_Business" = "ติดต่อแผนก IT ของคุณเพื่อขอข้อมูลเพิ่มเติม หรือเพิ่มพื้นที่ว่างด้วยการนำไฟล์ออก";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleThrottling" = "OneDrive ไม่สามารถถ่ายโอนไฟล์ได้ในขณะนี้";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionThrottling" = "โปรดลองอีกครั้งในวันพรุ่งนี้";
+
+// Status menu - used by StatusMenuController.mm
+
+/* No comments provided by engineer */
+"StatusMenuTitle" = "จัดการ";
+
+/* The status menu item text that leads to more menu items */
+"StatusMoreMenu" = "เพิ่มเติม";
+
+/* Text for status menu item that opens the folder containing deleted OneDrive files */
+"StatusMenuItemLaunchRecycleBin" = "ถังรีไซเคิล OneDrive";
+
+/* Status menu item to allow the user to open the dialog for sharing file/folder */
+"StatusMenuItemShare" = "แชร์ไฟล์หรือโฟลเดอร์...";
+
+/* Text for the status menu item which opens the OneDrive folder when clicked*/
+"StatusMenuItemOpenLocalFolder" = "เปิดโฟลเดอร์ OneDrive";
+
+/* Text for the status menu item which opens the named folder when clicked  */
+"StatusMenuItemOpenNamedFolder: %@" = "เปิดโฟลเดอร์ %@";
+
+/* Status menu item that opens browser with Upgrade account page */
+"StatusMenuItemUpgrade" = "การอัปเกรด";
+
+/* Text for the status menu item which opens a browser to OneDrive website for storage manage */
+"StatusMenuItemManageStorage" = "จัดการที่เก็บข้อมูล";
+
+/* Status menu item that when clicked will launch a page with user's premium features */
+"StatusMenuItemManagePremium" = "ฟีเจอร์แบบพรีเมียมของฉัน";
+
+/* Text for the status menu item which opens a browser to OneDrive website homepage */
+"StatusMenuItemLaunchWebsite" = "ไปที่ OneDrive.com";
+
+/* The status menu item that allows user to open OneDrive help site. It will likely launch a browser to a website */
+"StatusMenuItemLaunchHelp" = "วิธีใช้";
+
+/* The status menu item that allows user to open OneDrive feedback. It will likely launch a browser to a website */
+"StatusMenuItemFeedback" = "คำติชม";
+
+/* The status menu item that allows a user to open the Parature support dialog. */
+"StatusMenuItemReportIssue" = "รายงานปัญหา";
+
+/* Status shown on the status menu when everything is up to date */
+"StatusMenuItemUpToDate" = "OneDrive อัปเดตแล้ว";
+
+/* Status shown on the status menu to indicate last updated time in seconds */
+"StatusMenuItemLastUpToDateTimeSecondsAgo" = "อัปเดตล่าสุดเมื่อสักครู่";
+
+/* Status shown on the status menu to indicate last updated time was one minute ago */
+"StatusMenuItemLastUpToDateTimeOneMinuteAgo" = "อัปเดตล่าสุด 1 นาทีที่แล้ว";
+
+/* Status shown on the status menu to indicate last updated time was minutes ago */
+"StatusMenuItemLastUpToDateTimeMinutesAgo:%d" = "อัปเดตล่าสุด %d นาทีที่ผ่านมา";
+
+/* Status shown on the status menu to indicate last updated time was one hour ago */
+"StatusMenuItemLastUpToDateTimeOneHourAgo" = "อัปเดตล่าสุด 1 ชั่วโมงที่ผ่านมา";
+
+/* Status shown on the status menu to indicate last updated time was hours ago */
+"StatusMenuItemLastUpToDateTimeHoursAgo:%d" = "อัปเดตล่าสุด %d ชั่วโมงที่ผ่านมา";
+
+/* Status shown on the status menu to indicate last updated time on a date */
+"StatusMenuItemLastUpToDateTimeDaysAgo:%@" = "อัปเดตล่าสุด %@";
+
+/* No comments provided by engineer */
+"StatusMenuItemViewActivity" = "ดูกิจกรรมล่าสุด";
+
+/* Status menu entry for opening the issue window */
+"StatusMenuItemViewIssues" = "คลิกที่นี่เพื่อดูปัญหาการซิงค์";
+
+/* Status shown on the status menu when downloading a file */
+"StatusMenuItemSyncCountSingularDownload: %@" = "กำลังดาวน์โหลด %@";
+
+/* Status shown on the status menu when uploading a file */
+"StatusMenuItemSyncCountSingularUpload: %@" = "กำลังอัปโหลด %@";
+
+/* Status shown on the status menu when downloading or uploading more than one file */
+"StatusMenuItemSyncCount-%d" = "กำลังถ่ายโอน %d รายการ...";
+
+/* Text for status menu item that opens the preference. It should be translated the same way as all app menu's Preferences item. */
+"StatusMenuItemPreferences" = "การกำหนดลักษณะ";
+
+/* Text for preference window accessibility label. %1$@ is the current tab name */
+"AccessibilityPreferencesWindowLabel:%@" = "การกำหนดลักษณะ %1$@";
+
+/* Text for status menu item that pauses syncing. */
+"StatusMenuItemPause" = "หยุดการซิงค์ชั่วคราว";
+
+/* Text for status menu item that resumes syncing when paused. */
+"StatusMenuItemResume" = "ซิงค์ต่อ";
+
+/* Text for status menu item that indicates to pause for 1 hour. */
+"StatusMenuItemPauseTimerSingular" = "1 ชั่วโมง";
+
+/* Text for status menu item that indicates to pause for a number of hours. %1$@ is a number representing hours. */
+"StatusMenuItemPauseTimerPlural" = "%1$@ ชั่วโมง";
+
+/* Text for status menu item that quits the app */
+"StatusMenuItemQuit" = "ออกจาก OneDrive";
+
+/* Loading user data when signing-in */
+"StatusMenuItemLoading" = "กำลังโหลด...";
+
+/* OneDrive is at initial start up */
+"StatusMenuItemStarting" = "กำลังเริ่มการทำงานของ OneDrive";
+
+/* OneDrive is showing first run wizard */
+"StatusMenuItemSetup" = "ตั้งค่า OneDrive";
+
+/* Waiting for user input to migrate their Sandbox data */
+"StatusMenuItemMigration" = "กำลังโยกย้ายข้อมูลผู้ใช้...";
+
+/* Text for status menu item that signs out the app */
+"StatusMenuItemSignOut" = "ลงชื่อออก";
+
+/* Launch the application automatically after login to OS */
+"StatusMenuItemOpenAtLogin" = "เปิดเมื่อเข้าสู่ระบบ";
+
+/* Status menu item that when clicked will launch the live sit for the account that is connected */
+"StatusMenuItemViewOnline" = "ดูออนไลน์";
+
+// Quit Dialog
+
+/* Title text for dialog shown when user is quitting OneDrive */
+"QuitDialogHeader" = "ออกจาก OneDrive หรือไม่";
+
+/* Body text for dialog shown when user is quitting OneDrive */
+"QuitDialogDescription" = "ถ้าคุณออกจาก OneDrive ไฟล์ในโฟลเดอร์ OneDrive ของคุณจะไม่ซิงค์กับไฟล์ของคุณแบบออนไลน์";
+
+/* Title text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogHeaderUploadsPending" = "ออกจาก OneDrive และหยุดการอัปโหลดไฟล์หรือไม่";
+
+/* Body text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogDescriptionUploadsPending" = "ถ้าคุณออกจาก OneDrive ไฟล์ในโฟลเดอร์ OneDrive ของคุณจะไม่เสร็จสิ้นการอัปโหลดจนกว่าคุณจะรีสตาร์ต";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will quit OneDrive. */
+"QuitDialogButtonDefault" = "ออกจาก OneDrive";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will dismiss dialog. */
+"QuitDialogCancelButton" = "ยกเลิก";
+
+// Dock Menu - used by DockMenuController.mm
+
+/* No comments provided by engineer */
+"DockMenuTitle" = "OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemOpenLocalFolder" = "เปิดโฟลเดอร์ OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemLaunchWebsite" = "ไปที่ OneDrive.com";
+
+// Login Failures - used by SignInViewController.mm
+
+/* When we are unable to retrieve a user's tenant name, we will use this to show "OneDrive - Business" */
+"DefaultTenantName" = "ธุรกิจ";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"InvalidUsernameTitleText" = "ไม่สามารถลงชื่อเข้าใช้ OneDrive ได้";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the explaination text in the dialog {StrContains=\"example555@hotmail.com\"} */
+"InvalidUsernameDescriptionText" = "โปรดใส่บัญชี Microsoft ของคุณในรูปแบบนี้: example555@hotmail.com";
+
+/* When we receive an invalid web request, we show this text as the first line of the dialog. */
+"InvalidWebRequestTitle" = "ขออภัย เราไม่สามารถเปิดไคลเอ็นต์การซิงค์ได้";
+
+/* When we receive an invalid web request, we show this text as the body text of the dialog. */
+"InvalidWebRequestBody" = "เราไม่สามารถประมวลผล URL ได้ หากต้องการความช่วยเหลือ โปรดติดต่อฝ่ายสนับสนุน";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailTitle" = "มีปัญหาในการลงชื่อเข้าใช้ให้คุณ";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailText" = "มีปัญหาในการในคุณลงชื่อเข้าใช้ โปรดลองอีกครั้ง ตรวจสอบว่าบัญชี Microsoft และรหัสผ่านของคุณถูกต้อง และคอมพิวเตอร์ต้องเชื่อมต่ออินเทอร์เน็ต";
+
+/* When we have connectivity error during sign in, we pop up a dialog and this is the first line of the text in the dialog*/
+"SignInConnectivityErrorTitleText" = "มีปัญหาในการเชื่อมต่อ OneDrive";
+
+/* When we have connecctivity error during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInConnectivityErrorDescriptionText" = "ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต แล้วลองอีกครั้ง";
+
+/* When we fail to access the keychain during sign in, we pop up a dialog and this is the first line of text in the dialog. */
+"SignInKeychainErrorTitleText" = "มีปัญหาในการเข้าถึงโปรแกรมจัดการคีย์";
+
+/* when we fail to access the keychain during sign in, we pop up a dialog and this is the detailed text in the dialog. */
+"SignInKeychainErrorDescriptionText" = "โปรดตรวจสอบว่ามี Keychain สำหรับการเข้าสู่ระบบและ OneDrive มีสิทธิ์เข้าถึง ถ้าพร้อมท์ โปรดอนุญาตให้ OneDrive เข้าถึง Keychain ของคุณ";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the first line of the text in the dialog */
+"SignInCredentialErrorTitleText" = "มีปัญหาในการเชื่อมต่อ OneDrive";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInCredentialErrorDescriptionText" = "ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต แล้วลองอีกครั้ง";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SuspendedAccountTitleText" = "ไม่สามารถลงชื่อเข้าใช้ OneDrive ได้";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the explaination text in the dialog */
+"SuspendedAccountDescriptionText" = "บัญชีของคุณถูกระงับ";
+
+/* When we get a user using a non-beta enabled account, we show this error title. */
+"SignInNoBetaText" = "ไม่สามารถลงชื่อเข้าใช้ OneDrive ได้";
+
+/* When we get a user using a non-beta enabled account, we show this error description. {StrContains=\"Windows Live\"} */
+"SignInNoBetaDescriptionText" = "ยังไม่เปิดใช้บัญชีนี้สำหรับโปรแกรม Windows Live เบต้า";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnknownErrorTitle" = "มีปัญหาในการลงชื่อเข้าใช้ให้คุณ";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnknownErrorText" = "โปรดลองอีกครั้งในอีกสักครู่";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLError500Title" = "มีปัญหาในการลงชื่อเข้าใช้ให้คุณ";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLError500Text" = "ขออภัย มีปัญหาเกิดขึ้นกับ OneDrive โปรดลองอีกครั้งในอีกสักครู่";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInterruptedErrorTitle" = "มีปัญหาในการลงชื่อเข้าใช้ให้คุณ";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInterruptedErrorText" = "มีปัญหากับบัญชีผู้ใช้ของคุณ เมื่อต้องการเรียนรู้วิธีแก้ไขปัญหานี้ โปรดลงชื่อเข้าใช้เว็บไซต์บริการ หลังจากแก้ไขปัญหาแล้ว ให้ลองอีกครั้ง";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnauthorizedErrorTitle" = "มีปัญหาในการลงชื่อเข้าใช้ให้คุณ";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnauthorizedErrorText" = "ขออภัย มีปัญหาเกิดขึ้นกับ OneDrive โปรดลองอีกครั้งในอีกสักครู่";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidClientErrorTitle" = "มีปัญหาในการลงชื่อเข้าใช้ให้คุณ";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidClientErrorText" = "ขออภัย มีปัญหาเกิดขึ้นกับ OneDrive โปรดลองอีกครั้งในอีกสักครู่";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidGrantErrorTitle" = "มีปัญหาในการลงชื่อเข้าใช้ให้คุณ";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidGrantErrorText" = "ขออภัย มีปัญหาเกิดขึ้นกับ OneDrive โปรดลองอีกครั้งในอีกสักครู่";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the title. */
+"SignInURLSPOUserNotFoundTitle" = "OneDrive ของคุณยังไม่ได้ตั้งค่า";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the error text. */
+"SignInURLSPOUserNotFoundErrorText" = "เมื่อต้องการความช่วยเหลือ โปรดติดต่อแผนกไอที";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the title */
+"SignInURLUserThrottledErrorTitle" = "เราไม่สามารถตั้งค่า OneDrive บน Mac เครื่องนี้";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the error text. */
+"SignInURLUserThrottledErrorText" = "ขออภัย OneDrive กำลังประสบปัญหาปริมาณการใช้งานสูง โปรดลองอีกครั้งในภายหลัง";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the title. */
+"SignInURLEmailMismatchTitle" = "การซิงค์เสร็จเรียบร้อยแล้ว ให้ใช้อีเมลแอดเดรสที่นี่บัญชีเดียวกับที่คุณใช้บนเว็บ";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the error text. */
+"SignInURLEmailMismatchErrorText:%@" = "กรุณาลงชื่อเข้าใช้ด้วย %@ เพื่อเริ่มการซิงค์เนื้อหานี้";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to try signing in again. */
+"SignInTryAgainButtonText" = "ลองอีกครั้ง";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive*/
+"SignInQuitButtonText" = "ออกจาก OneDrive";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive */
+"SignInCloseButtonText" = "ปิด";
+
+/* This text is displayed in sign in dialog while we load signing in page */
+"SignInPageLoadingText" = "กำลังโหลด...";
+
+/* This text is used for voice over while we load signing in page */
+"SignInPageLoadingVoiceOverText" = "โปรดรอสักครู่ขณะกำลังโหลด OneDrive";
+
+/* This text is displayed in sign in dialog while we are signing in the user */
+"SignInProgressingText" = "กำลังลงชื่อเข้าใช้...";
+
+/* This text is used for voice over while we are signing in the user */
+"SignInProgressingVoiceOverText" = "โปรดรอสักครู่ขณะที่ OneDrive กำลังลงชื่อเข้าใช้";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the title. */
+"SignInDuplicateSyncErrorTitle" = "คุณกำลังซิงค์บัญชีนี้อยู่แล้ว";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the text. */
+"SignInDuplicateSyncErrorText:%@" = "เปิดโฟลเดอร์ %@ หรือลงชื่อเข้าใช้ด้วยบัญชีอื่น";
+
+/* When the userconnected service returns an error, this is the title */
+"SignInUserConnectedErrorTitle" = "มีปัญหาในการเชื่อมต่อ OneDrive";
+
+/* When the userconnected service returns error: "AccessDenied". This is the error text. */
+"SignInUserConnectedAccessDeniedText" = "คุณไม่มีสิทธิ์การเข้าถึงบริการนี้ สำหรับความช่วยเหลือ ให้ติดต่อแผนก IT ของคุณ";
+
+/* When the userconnected service returns error: "AccountSuspended". This is the error text. */
+"SignInUserConnectedAccountSuspendedText" = "บัญชีของคุณถูกบล็อก สำหรับความช่วยเหลือ ให้ติดต่อแผนก IT ของคุณ";
+
+/* When the userconnected service returns error: "InvalidUserData". This is the error text. */
+"SignInUserConnectedInvalidUserDataText" = "ไม่สามารถสร้างการเชื่อมต่อไปยังบริการ สำหรับความช่วยเหลือ ให้ติดต่อแผนก IT ของคุณ";
+
+/* When the userconnected service returns error: "MissingLicense". This is the error text. */
+"SignInUserConnectedMissingLicenseText" = "คุณต้องใช้สิทธิ์การใช้งานแบบอื่นเพื่อเข้าถึงบริการนี้ สำหรับความช่วยเหลือ ให้ติดต่อแผนก IT ของคุณ";
+
+/* When the userconnected service returns error: "ProvisioningFailed". This is the error text. */
+"SignInUserConnectedProvisioningFailedText" = "OneDrive ของคุณไม่ได้ตั้งค่า สำหรับความช่วยเหลือ ให้ติดต่อแผนก IT ของคุณ";
+
+/* When the userconnected service returns error: "Throttled". This is the error text. */
+"SignInUserConnectedThrottledText" = "บริการกำลังประสบกับคำขอปริมาณมากในขณะนี้ โปรดลองอีกครั้งในอีกสักครู่";
+
+/* When the userconnected service returns error: "Timeout". This is the error text. */
+"SignInUserConnectedTimeoutText" = "บริการใช้เวลานานเกินไปในการตอบสนอง โปรดลองอีกครั้งในอีกสักครู่";
+
+/* When the userconnected service returns error: "Unknown". This is the error text. */
+"SignInUserConnectedUnknownText" = "โปรดลองอีกครั้งในอีกสักครู่ หรือติดต่อแผนก IT ของคุณถ้าปัญหานี้ยังคงมีอยู่";
+
+/* When the userconnected service returns error: "UnreachableHost". This is the error text. */
+"SignInUserConnectedUnreachableHostText" = "บริการนี้ไม่พร้อมใช้งานชั่วคราว โปรดลองอีกครั้งในอีกสักครู่";
+
+/* When the userconnected service returns error: "UserNotFound". This is the error text. */
+"SignInUserConnectedUserNotFoundText" = "มีปัญหากับบัญชีของคุณ สำหรับความช่วยเหลือ ให้ติดต่อแผนก IT ของคุณ";
+
+/* When the userconnected service returns error: "NoTeamSitePermission". This is the error text. */
+"SignInUserConnectedNoTeamSitePermText" = "คุณไม่สามารถเข้าถึงไซต์ SharePoint นี้ได้ โปรดติดต่อแผนก IT ของคุณเพื่อขอความช่วยเหลือ";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error. This is the title. */
+"SignInUserAlreadyLoadedErrorTitle" = "คุณกำลังซิงค์กับบัญชีอื่น";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error.
+   Depending on whether we know which email the user is signed in with, either show the specific or the generic message below. This is the text. */
+"SignInUserAlreadyLoadedErrorEmailSpecificText:%@" = "คุณได้ลงชื่อเข้าใช้ด้วยบัญชีที่ไม่ตรงกับบัญชีคุณกำลังซิงค์ โปรดใส่รหัสผ่านสำหรับ \"%@\" เมื่อต้องการเพิ่มบัญชีอื่น ให้ไปที่การกำหนดลักษณะ คลิกแท็บ บัญชี แล้วเลือก \"เพิ่มบัญชี\"";
+
+"SignInUserAlreadyLoadedErrorGenericText" = "คุณลงชื่อเข้าใช้ด้วยบัญชีไม่ตรงกับบัญชีคุณกำลังซิงค์ เมื่อต้องการเพิ่มบัญชีอื่น ให้ไปที่การกำหนดลักษณะ คลิกแท็บ บัญชี แล้วเลือก \"เพิ่มบัญชี\"";
+
+/* When MSA user is already syncing with account A, and tries to sign in with account B when prompted for creds. Depending on whether the e-mail address is available or not, we show the specific or generic message below. This is the text */
+ "SignInUserAlreadyLoadedErrorMSAEmailSpecificText:%@" = "บัญชีที่คุณลงชื่อเข้าใช้ไม่ตรงกับบัญชีที่คุณกำลังซิงค์ โปรดใส่รหัสผ่านสำหรับ \"%@\"";
+
+ "SignInUserAlreadyLoadedErrorMSAGenericText" = "บัญชีที่คุณลงชื่อเข้าใช้ไม่ตรงกับบัญชีที่คุณกำลังซิงค์";
+
+/* When an unknown error occurs that has not been handled. This is the title. */
+"SignInUnknownErrorTitle" = "มีปัญหาในการลงชื่อเข้าใช้ให้คุณ";
+
+/* When an unknown error occurs that has not been handled. This is the text. */
+"SignInUnknownErrorText" = "โปรดลองอีกครั้งในอีกสักครู่ หรือติดต่อแผนก IT ของคุณถ้าปัญหานี้ยังคงมีอยู่";
+
+// Preferences - used by PreferenceController.mm
+
+/* This is the text on preference window toolbar for Preferences. */
+"PreferenceGeneralItem" = "การกำหนดลักษณะ";
+
+/* This is the text that encloses General area in preference window. */
+"PreferenceGeneralGroupBoxText" = "ทั่วไป";
+
+/* This is the text on preference window check box. When user checks this option, it allows OneDrive to start when user login. */
+"PreferenceStartAtLoginCheckBoxText" = "เปิดเมื่อเข้าสู่ระบบ";
+
+/* This is the description for enable OnPrem telemetry checkbox. */
+"PrivacyCheckBoxText" = "ส่งรายงานข้อผิดพลาดและสถิติการใช้งานไปยัง Microsoft";
+
+/* This is the description when OneDrive is at the wrong location. "Applications" should be localized the same way as the OS. */
+"OpenAtLoginDisabledExplaination" = "เมื่อต้องการให้การตั้งค่านี้พร้อมใช้งาน ให้ออกจาก OneDrive ย้ายแอปพลิเคชัน OneDrive ไปไว้ในโฟลเดอร์ แอปพลิเคชัน แล้วเปิด OneDrive อีกครั้ง";
+
+/* This is the text on preference window check box. When user checks this option, OneDrive icon is removed from the Dock. Note "Dock" is capital D */
+"PreferenceHideDockIconText" = "ซ่อนไอคอนการเทียบ";
+
+/* This is the text for a preference window check box. When the user checks this option we will automatically save screenshots any time they take a screenshot. */
+"PreferenceEnableScreenCaptureUpload" = "บันทึกสกรีนช็อตไปยัง OneDrive";
+
+/* This will be displayed when a user running a store build attempts to enable the screen capture
+ * feature. Due to app store limitations, the user is forced to select their desktop folder. This
+ * message will be displayed within the file open dialog in order to help the user understand what
+ * selection they are required to make in the file open dialog. */
+"PreferenceEnableScreenCaptureUploadOpenDialogMessage" = "เมื่อต้องการบันทึกสกรีนช็อตของคุณไปยัง OneDrive โดยอัตโนมัติ โปรดเลือกโฟลเดอร์บนเดสก์ท็อปของคุณ";
+
+/* This is the text on preference window check box. When user checks this option, we will not show share/edit notifications */
+"PreferenceDisplayShareEditNotificationsCheckBoxText" = "แสดงการแจ้งเตือนเกี่ยวกับการแชร์หรือการแก้ไข";
+
+/* This is the text on preference window toolbar for About. */
+"PreferenceAboutItem" = "เกี่ยวกับ";
+
+/* This is the text that encloses about area in preference window. */
+"PreferenceAboutGroupBoxText" = "เกี่ยวกับ Microsoft OneDrive";
+
+/* This is the text that shows version. */
+"PreferenceVersionText:%@" = "เวอร์ชัน %@";
+
+/* This is the text that shows version for standalone. */
+"PreferenceStandaloneVersionText:%@" = "เวอร์ชัน %@ (แบบสแตนด์อโลน)";
+
+/* This is the text that encloses "more info" area in preference window. */
+"PreferenceMoreInfoGroupBoxText" = "ข้อมูลเพิ่มเติม";
+
+/* This is the text that opens help in browser. */
+"PreferenceGetHelpText" = "ดูข้อมูลวิธีใช้สำหรับ OneDrive";
+
+/* This is the text that opens privacy statement in browser. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"PreferencePrivacyStatementText" = "ความเป็นส่วนตัวและคุกกี้";
+
+/* This is the text that opens server status in browser. */
+"PreferenceServerStatusText" = "สถานะบริการ";
+
+/* This is the text that opens Terms of Use in browser. */
+"PreferenceTermsOfUseText" = "ข้อตกลงการใช้งาน";
+
+/* This is the text on the button in preference window that opens the manage storage page on browser */
+"PreferenceManageStorageButtonText" = "จัดการที่เก็บข้อมูล";
+
+/* This is the text on the button that unlinks OneDrive in preference window. */
+"PreferenceUnlinkButtonText" = "ยกเลิกการลิงก์ Mac เครื่องนี้";
+
+/* This is the title text on the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertMessageTitle" = "ยกเลิกการลิงก์บัญชีบน Mac เครื่องนี้หรือไม่";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for consumer accounts. */
+"PreferenceUnlinkAlertDetailedMessage" = "ไฟล์ OneDrive จะหยุดการซิงค์ สำเนาของไฟล์เหล่านี้จะอยู่ใน Mac เครื่องนี้";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for business accounts. */
+"PreferenceUnlinkAlertDetailedMessageBusiness:%@" = "เนื้อหาของธุรกิจของคุณที่เกี่ยวข้องกับบัญชี (%@) จะหยุดซิงค์ สำเนาของไฟล์เหล่านี้จะยังคงอยู่ในพีซีเครื่องนี้";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for last library unsynced. %1$@ is a folder name, %2$@ is an email address */
+"PreferenceUnlinkLastLibraryAlertDetailedMessage:%@,%@" = "%1$@ คือโฟลเดอร์ที่ซิงค์ล่าสุดของคุณ ถ้าคุณหยุดการซิงค์โฟลเดอร์นี้ บัญชี %2$@ ของคุณจะถูกยกเลิกการลิงก์ สำเนาของไฟล์เหล่านี้จะยังคงอยู่บน Mac เครื่องนี้";
+
+/* This is the text on the confirm button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertConfirmButton" = "ยกเลิกการเชื่อมโยงบัญชีผู้ใช้";
+
+/* This is the text on the cancel button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertCancelButton" = "ยกเลิก";
+
+/* This is the text on the button that resets OneDrive in preference window. */
+"PreferenceResetButtonText" = "รีเซ็ต OneDrive";
+
+/* This is the text on preference window toolbar for account. */
+"PreferenceAccountItem" = "บัญชีผู้ใช้";
+
+/* This is the text that tells users how to sync down only selected folders in preference window. */
+"PreferenceSelectiveSyncDescription" = "โฟลเดอร์ที่คุณเลือกจะมีให้ใช้บน Mac เครื่องนี้";
+
+/* This is the text that encloses "Choose folders" area in preference window. */
+"PreferenceFolderGroupBoxText" = "เลือกโฟลเดอร์";
+
+/* This is the button that opens up advanced selective sync in preference window. */
+"PreferenceSelectFoldersButton" = "เลือกโฟลเดอร์";
+
+/* This is the text on the the preference window toolbar for network. */
+"PreferenceNetworkItem" = "เครือข่าย";
+
+/* This is the text on the Upload box. */
+"PreferenceUploadBox" = "อัตราการอัปโหลด";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceNoLimit" = "อย่าจำกัด";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimit" = "ปรับโดยอัตโนมัติ";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimitByAdmin" = "ปรับโดยอัตโนมัติ (จัดการโดยองค์กรของคุณ)";
+
+/* This is the text on the radio button that does limit bandwidth. */
+"PreferenceCustomLimit" = "จำกัดที่:";
+
+/* This is the text on the Download box. */
+"PreferenceDownloadBox" = "อัตราการดาวน์โหลด";
+
+/* This is the text on the box to enable the Files On-Demand feature. */
+"PreferenceCloudFilesEnableBox" = "การเข้าถึงไฟล์ได้ตามใจ";
+
+/* This is the description for the Files On-Demand box. */
+"PreferenceCloudFilesDescription" = "การเข้าถึงไฟล์ได้ตามใจเพิ่มพื้นที่ว่างในคอมพิวเตอร์ของคุณด้วยการดาวน์โหลดไฟล์เมื่อคุณใช้";
+
+/* Button text in Files On-Demand box. Clicking this button turns on the feature. */
+"PreferenceCloudFilesEnable" = "เปิดการเข้าถึงไฟล์ได้ตามใจ";
+
+/* Button text in Files On-Demand box. Clicking this button turns off the feature. */
+"PreferenceCloudFilesDisable" = "ปิดการเข้าถึงไฟล์ได้ตามใจ";
+
+/* Link in the Files On-Demand box. Clicking this link will launch a webpage with more information. */
+/* Also resued in local mass delete delete confirmed ACM. */
+"PreferenceCloudFilesMoreInfo" = "เรียนรู้เพิ่มเติม";
+
+/* This is the title text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertMessageTitle" = "ปิดการเข้าถึงไฟล์ได้ตามใจหรือไม่";
+
+/* This is the body text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertDetailedMessage" = "ไฟล์และโฟลเดอร์ OneDrive ทั้งหมดจะดาวน์โหลดลงใน Mac เครื่องนี้";
+
+/* This is the text on the confirm button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertConfirmButton" = "ตกลง";
+
+/* This is the text on the cancel button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertCancelButton" = "ยกเลิก";
+
+/* This is the button text to display the Blocked Applications list. */
+"PreferenceBlockedAppButtonText" = "จัดการแอป";
+
+/* This is the description for the Hydrating Applications pane. */
+"PreferenceHydratingAppDescription" = "Mac สามารถดาวน์โหลดไฟล์แบบออนไลน์เท่านั้นจาก OneDrive สำหรับแอปที่ร้องขอไฟล์เหล่านั้นโดยอัตโนมัติ";
+
+/* This is the description for the Blocked Applications box. */
+"PreferenceBlockedAppDescription" = "แอปพลิเคชันเหล่านี้จะถูกบล็อกไม่ให้ดาวน์โหลดโดยอัตโนมัติจาก OneDrive:";
+
+/* This is the description for the checkbox that allows user to control whether they see a hydration notification toast. */
+"PreferenceNotifyHydratingAppCheckbox" = "แจ้งให้ฉันทราบเมื่อแอปกำลังดาวน์โหลดจาก OneDrive";
+
+/* This is the header of the table listing Blocked Applications */
+"PreferenceBlockedAppTableHeader" = "แอปพลิเคชัน";
+
+/* Label for the button to close the Blocked Applications list */
+"PreferenceBlockedAppCloseButtonLabel" = "ปิด";
+
+/* Prompt for user to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationPrompt" = "เลือกแอปพลิเคชันที่คุณต้องการบล็อกการดาวน์โหลดไฟล์โดยอัตโนมัติ";
+
+/* Header for error when unable to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationErrorHeader" = "ไม่สามารถเพิ่มการเลือกได้";
+
+/* Body for error when unable to add an application to the Blocked Applications list*/
+"PreferenceBlockedAppAddApplicationErrorBody" = "สามารถบล็อกเฉพาะแอปพลิเคชันจากการดาวน์โหลดไฟล์ OneDrive โดยอัตโนมัติ โปรดเลือกแอปพลิเคชัน แล้วลองอีกครั้ง";
+
+// Preferences - Advanced Selective Sync Page
+
+/* This is the text on the top of advanced selective sync sheet. */
+"AdvancedSelectiveSyncTitle" = "ซิงค์ไฟล์จาก OneDrive ของคุณ";
+
+/* This is the text on the top of advanced selective sync sheet when Cloud Files on. */
+"AdvancedSelectiveSyncTitleCloudFiles" = "เลือกโฟลเดอร์";
+
+/* This is the text under the title of advanced selective sync sheet. */
+"AdvancedSelectiveSyncDescription:%@" = "เลือกรายการที่ต้องการดาวน์โหลดลงในโฟลเดอร์ \"%@\" ของคุณ คุณสามารถเข้าถึงรายการเหล่านี้ได้แม้จะออฟไลน์อยู่";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page. */
+"AdvancedSelectiveSyncDescriptionPreferences" = "ไฟล์ที่คุณซิงค์จะใช้พื้นที่บน Mac เครื่องนี้";
+
+/* This is the text in advanced selective sync sheet to sync everything. */
+"AdvancedSelectiveSyncAll" = "ซิงค์ไฟล์และโฟลเดอร์ทั้งหมดบน OneDrive ของฉัน";
+
+/* This is the text in advanced selective sync sheet to sync everything under a team site. */
+"AdvancedSelectiveSyncAllTeamSite:%@" = "ซิงค์ไฟล์และโฟลเดอร์ทั้งหมดใน %@";
+
+/* This is the text in advanced selective sync sheet to sync only some files. */
+"AdvancedSelectiveSyncSome" = "หรือซิงค์เฉพาะโฟลเดอร์เหล่านี้:";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page and Cloud Files enabled. */
+"AdvancedSelectiveSyncDescriptionCloudFiles" = "เลือกสิ่งที่คุณต้องการให้มีอยู่ในโฟลเดอร์ \"%@\" ไฟล์เหล่านี้จะพร้อมใช้งานตามความต้องการ โฟลเดอร์ที่ไม่ได้เลือกจะถูกซ่อนจากตัวค้นหา";
+
+/* This is the text in advanced selective sync sheet to sync everything when Cloud Files is enabled. */
+"AdvancedSelectiveSyncAllCloudFiles" = "ทำให้ไฟล์ทั้งหมดพร้อมใช้งาน";
+
+/* This is the text in advanced selective sync sheet to sync only some files when Cloud Files is enabled. */
+"AdvancedSelectiveSyncSomeCloudFiles" = "หรือทำให้มองเห็นโฟลเดอร์เหล่านี้:";
+
+/* This is the text on the file group item in the tree view. %@ is for folder names. ie "puppies", "Cute Kittens". */
+"AdvancedSelectiveSyncFileGroupItem:%@" = "ไฟล์ใน \"%@\"";
+
+/* This is the text on the root's file group item in the tree view. */
+"AdvancedSelectiveSyncFileGroupItemRoot" = "ไฟล์ที่ไม่อยู่ในโฟลเดอร์";
+
+/* This is the text on the advanced selective sync sheet for the local path on Mac. */
+"AdvancedSelectiveSyncMacLocationText" = "ตำแหน่งที่ตั้งบน Mac ของคุณ:";
+
+/* This is the button text on the advanced selective sync sheet for start sync. */
+"AdvancedSelectiveSyncStartSyncButtonText" = "เริ่มซิงค์";
+
+/* This is the button text on the advanced selective sync sheet for confirmation. */
+"AdvancedSelectiveSyncConfirmButtonText" = "ตกลง";
+
+/* This is the button text on the advanced selective sync sheet for cancelling out. */
+"AdvancedSelectiveSyncCancelButtonText" = "ยกเลิก";
+
+/* This is the text at the middle of advanced selective sync sheet when loading. */
+"AdvancedSelectiveSyncLoading" = "กำลังโหลด...";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoading:%@" = "เราไม่สามารถดึงรายการของโฟลเดอร์ใน %@ได้\nกรุณาปิดกล่องโต้ตอบนี้ แล้วลองอีกครั้ง";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders during FRE. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoadingFRE" = "มีปัญหาในการแสดงรายการโฟลเดอร์ ถ้าดำเนินการต่อ เราจะซิงค์ไฟล์และโฟลเดอร์ของคุณทั้งหมดเดี๋ยวนี้ ซึ่งคุณสามารถเปลี่ยนแปลงได้ภายหลังใน การกำหนดลักษณะ";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to provision error. */
+"AdvancedSelectiveSyncFailedLoadingWithProvisionError" = "ขออภัย เราไม่สามารถแสดงรายการของโฟลเดอร์ได้เนื่องจากเรากำลังตั้งค่าบัญชีผู้ใช้ของคุณ เราจะซิงค์ไฟล์และโฟลเดอร์ทั้งหมด ซึ่งคุณสามารถเปลี่ยนแปลงได้ภายหลังใน การกำหนดลักษณะ";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to offline error*/
+"AdvancedSelectiveSyncFailedLoadingWithOfflineError" = "เราไม่สามารถแสดงรายการโฟลเดอร์เนื่องจากเชื่อมต่อกับ OneDrive ไม่ได้ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตแล้วลองอีกครั้ง";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to auth error. */
+"AdvancedSelectiveSyncFailedLoadingWithAuthError" = "ไม่สามารถแสดงรายการโฟลเดอร์ของคุณได้เนื่องจากมีปัญหาเกิดขึ้นกับบัญชี โปรดออกจาก OneDrive แล้วลงชื่อเข้าใช้อีกครั้ง";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to having no files and folders. */
+"AdvancedSelectiveSyncFailedLoadingWithNoFileError" = "OneDrive ของคุณว่าง ถ้าต้องการซิงค์ไฟล์ที่เพิ่มลงใน OneDrive ทีหลัง เลือก \"ไฟล์และโฟลเดอร์ทั้งหมดใน OneDrive ของฉัน\"";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnote" = "ถ้าคุณหยุดซิงค์ไฟล์หรือโฟลเดอร์ ข้อมูลดังกล่าวจะอยู่ใน OneDrive แต่จะไม่อยู่ใน Mac เครื่องนี้ ข้อมูลดังกล่าวจะถูกลบถ้าอยู่ใน Mac เครื่องนี้แล้ว";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnoteCloudFiles" = "ถ้าคุณซ่อนโฟลเดอร์เหล่านี้บน Mac ของคุณ ไฟล์ต่างๆ จะยังคงอยู่ใน OneDrive แต่จะไม่พร้อมใช้งานบน Mac รายการต่างๆ ในโฟลเดอร์นี้จะถูกลบจาก Mac เครื่องนี้";
+    
+/* This is the title text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingTitle" = "ขออภัย มีปัญหาในการนำการเปลี่ยนแปลงของคุณไปใช้";
+
+/* This is the description text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingDescription:%@" = "เราไม่สามารถบันทึกรายการของโฟลเดอร์ที่คุณเลือกที่จะซิงค์กับ %@ ได้ โปรดลองอีกครั้ง";
+
+/* This is the button text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingConfirm" = "ปิด";
+
+/* This is the title text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingTitle" = "ขออภัย มีปัญหาในการเปลี่ยนโฟลเดอร์ที่ซิงค์กับ Mac เครื่องนี้";
+
+/* This is the description text in the alert sheet after we fail to set selective sync because syncengine is busy*/
+"AdvancedSelectiveSyncBusySettingDescription" = "บางรายการที่คุณพยายามหยุดซิงค์ยังไม่อยู่ใน OneDrive โปรดรอสักครู่เพื่อให้การอัปโหลดรายการดังกล่าวเสร็จเรียบร้อยแล้วจึงแก้ไขปัญหาเกี่ยวกับการซิงค์ คุณควรลองทำการเปลี่ยนแปลงอีกครั้งในภายหลัง";
+
+/* This is the button text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingConfirm" = "ปิด";
+
+/* This is the text indicating the total size of all selected files and folders. The placeholder is the size and the unit.
+ Examples: Selected: 20 MB */
+"AdvancedSelectiveSyncFilesSelected:%@" = "เลือกแล้ว: %@";
+
+/* This is the text indicating the remaining space on disk. The first item is the disk. The second item is the size and the unit.
+ Examples: Remaining space on Macintosh HD: 20 GB */
+"AdvancedSelectiveSyncAvailableSpace:%@,%@" = "พื้นที่ที่เหลือบน %1$@: %2$@";
+
+/* This is the description text for selectively syncing folders */
+"AdvancedSelectiveSyncSyncOnlyTheseFolderTitle" = "ซิงค์เฉพาะโฟลเดอร์เหล่านี้";
+
+/* This is the text shown when calculating the selected and remaining disk space */
+"AdvancedSelectiveSyncLoadingTitle" = "กำลังคำนวณ...";
+
+/* This is the text shown when content already syncing */
+"AdvancedSelectiveSyncAlreadySyncingWarning" = "คุณกำลังซิงค์เนื้อหานี้แล้ว";
+
+/* This is the text shown when the teamsite that will be synced is read-only. */
+"AdvancedSelectiveSyncReadOnlyWarning" = "ไซต์นี้เป็นแบบอ่านอย่างเดียว คุณไม่สามารถทำการเปลี่ยนแปลงใดๆ กับไฟล์หรือโฟลเดอร์บนไซต์นี้";
+
+/* This is the text for add an account button in the account tab of preference window */
+"AddAccountButtonText" = "เพิ่มบัญชี";
+
+/* This is the text for teamsite box in account tab of preference window (singular) */
+"PreferenceTeamSiteGroupBoxText" = "กำลังซิงค์ 1 ตำแหน่ง";
+
+/* This is the text for teamsite box in account tab of preference window (plural) */
+"PreferenceTeamSiteGroupBoxText:%d" = "กำลังซิงค์ %d ตำแหน่ง";
+
+/* This is the text shown when not syncing ODB in account tab of preference window */
+"PreferenceNotSyncingQuotaText" = "ไม่ได้ซิงค์";
+
+/* This is the text for start sync button for ODB in account tab of preference window */
+"PreferenceStartSyncButton" = "เริ่มซิงค์";
+
+/* This is the text for stop sync button for each team site library in account tab of preference window */
+"PreferenceStopSyncButton" = "หยุดซิงค์";
+
+/* This is the title text in the dialog that stops syncing a teamsite in preference window. */
+"PreferenceStopSyncAlertMessageTitle:%@" = "หยุดซิงค์ %@ หรือไม่";
+
+/* This is the body text in the dialog that unlinks OneDrive in preference window. */
+"PreferenceStopSyncAlertDetailedMessage:%@" = "%@ จะหยุดซิงค์ โดยสำเนาของไฟล์เหล่านี้จะอยู่ใน Mac เครื่องนี้";
+
+/* This is the text on the confirm button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertConfirmButton" = "หยุดซิงค์";
+
+/* This is the text on the cancel button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertCancelButton" = "ยกเลิก";
+
+/* This is the title of the notifications we show after a team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationTitle:%@" = "ขณะนี้คุณกำลังซิงค์ \"%1$@\"";
+
+/* This is the body of the notification we show after a read-only team site has been succesfully connected (initial sync). */
+"TeamSiteNotificationReadOnlyBody" = "ไซต์นี้เป็นแบบอ่านอย่างเดียว คลิกที่นี่เพื่อดูไฟล์ของคุณ";
+
+/* This is the body of the notification we show after an editable team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationEditableBody:%@" = "คุณสามารถแก้ไขไฟล์ใน \"%1$@\" ได้ คลิกที่นี่เพื่อดูไฟล์ของคุณ";
+
+/* This is the title of the notification we show after a previously connected, editable team site has become read-only. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingReadOnlyTitle:%@" = "ขณะนี้ \"%1$@\" เป็นแบบอ่านอย่างเดียวแล้ว";
+
+/* This is the body of the notification we show after a previously connected, editable team site has become read-only. */
+"TeamSiteNotificationAlreadySyncingReadOnlyBody" = "คุณไม่สามารถแก้ไขไฟล์หรือโฟลเดอร์ได้เนื่องจากมีการเปลี่ยนแปลงสิทธิ์ของไซต์";
+
+/* This is the title of the notification we show after a previously connected, read-only team site has become editable. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingEditableTitle:%@" = "ขณะนี้คุณสามารถทำการเปลี่ยนแปลงใน \"%1$@\" ได้แล้ว";
+
+/* This is the body of the notification we show after a previously connected, read-only team site has become editable. */
+"TeamSiteNotificationAlreadySyncingEditableBody" = "การเปลี่ยนแปลงใดๆ จะอัปโหลดไปยังไซต์";
+
+/* This is the body of the notification we show after a team site has been succesfully connected. Permissions of the site are not indicated for this toast. %1$@ is a folder name. */
+"TeamSiteMountNotificationBody:%@" = "ไฟล์ \"%1$@\" ของคุณกำลังซิงค์กับ Mac เครื่องนี้ คลิกที่นี่เพื่อดูไฟล์ของคุณ";
+
+/* This is the title of the notifications we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingHeader:%@" = "คุณกำลังซิงค์ \"%1$@\" อยู่แล้ว";
+
+/* This is the body of the notification we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingBody:%@" = "\"%1$@\" กำลังซิงค์บนอุปกรณ์นี้อยู่แล้ว โปรดคลิกที่นี่เพื่อดูไฟล์ของคุณ";
+
+/* Error dialog title for dialogs that stop the user from syncing On Prem because the front door URL is missing or ramp is off. */
+"CannotSyncOnPremTitle" = "ขออภัย เราไม่สามารถซิงค์โฟลเดอร์นี้ได้";
+
+/* Body text for when we can't sync on Prem because its ramped off. */
+"OnPremSyncNotEnabledBody" = "เราไม่สนับสนุนการซิงค์โฟลเดอร์ SharePoint แบบภายในองค์กร";
+
+/* Body text for when we can't sync On Prem because the front door URL is not configured. */
+"OnPremFrontDoorUrlNotSetBody" = "ติดต่อผู้ดูแลระบบ IT ของคุณเพื่อกำหนดค่า OneDrive เพื่อซิงค์โฟลเดอร์ SharePoint แบบภายในองค์กร";
+
+/* Title text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfiguredTitle" = "OneDrive ไม่สามารถเข้าสู่ระบบได้";
+
+/* Body text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfigured" = "มีปัญหากับข้อมูลประจำตัวของคุณ ลองเรียกใช้แอปพลิเคชันตัวแสดงตั๋ว แล้วเพิ่มข้อมูลประจำตัวของคุณ หรือลงชื่อเข้าใช้อีกครั้ง สำหรับความช่วยเหลือ ให้ติดต่อแผนก IT ของคุณ";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. */
+"NewHostMountConsentTitle" = "อนุญาตให้ OneDrive ซิงค์หรือไม่";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. %1$@ is the mount point's domain and %2$@ is the user's username. */
+"NewHostMountConsentMessage:%@,%@" = "คุณกำลังพยายามซิงค์จากตำแหน่งที่ตั้งใหม่ (%1$@) ด้วยบัญชี %2$@ ของคุณ คุณควรซิงค์ไฟล์เมื่อคุณเชื่อถือตำแหน่งที่ตั้งนี้เท่านั้น";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, give consent */
+"NewHostMountConsentGiveConsentButton" = "อนุญาต";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, deny consent */
+"NewHostMountConsentDenyConsentButton" = "ยกเลิก";
+
+// Sync Engine errors - used by coreController.mm. These are built manually, so straight searching won't work.
+
+/* This is the title text shown on the popup dialog when we detect a new version of the client is available */
+"SyncEngineError:OldClientVersion Title" = "OneDrive เวอร์ชันนี้เก่าแล้ว";
+
+/* This is the text shown on the popup dialog when we detect a new version of the client is available*/
+"SyncEngineError:OldClientVersion Message" = "โปรดไปที่ Mac App Store แล้วอัปเดตเวอร์ชันล่าสุดของ OneDrive สำหรับ Mac";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:OldClientVersion DefaultButton" = "จบการทำงาน";
+
+/* No comments provided by engineer */
+"SyncEngineError:PUIDFlip Title" = "เรากำลังประสบปัญหาการระบุอุปกรณ์ของคุณ";
+
+/* No comments provided by engineer*/
+"SyncEngineError:PUIDFlip Message" = "โปรดสำรองข้อมูลไฟล์ทั้งหมดในโฟลเดอร์ที่ซิงค์ แล้วไปที่ http://g.live.com/0ELHP_MEREN/266 เพื่อรายงานปัญหานี้ในกระดานสนทนา OneDrive โปรดระบุข้อความแสดงข้อผิดพลาดนี้ในโพสต์กระดานสนทนา";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:PUIDFlip DefaultButton" = "จบการทำงาน";
+
+/* No comments provided by engineer */
+"SyncEngineError:DiskFull Title" = "ฮาร์ดดิสก์ของคุณเกือบเต็มแล้ว";
+
+/* No comments provided by engineer*/
+"SyncEngineError:DiskFull Message" = "โปรดเพิ่มพื้นที่ว่างเพื่อใช้ OneDrive ได้ต่อไป";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:DiskFull DefaultButton" = "จบการทำงาน";
+
+/* This is shown when resign-in is required for MSA account*/
+"SyncEngineError:ForceSignIn Title" = "คุณไม่ได้ลงชื่อเข้าใช้";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn Message" = "ไฟล์ของคุณอาจยังไม่ได้อัปเดต ใส่ข้อมูลประจำตัวของคุณใหม่เพื่อเริ่มต้นการซิงค์อีกครั้ง";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn DefaultButton" = "ตกลง";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Title" = "อาจมีปัญหาในการเชื่อมต่ออินเทอร์เน็ต";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Message" = "โปรดตรวจสอบว่าคอมพิวเตอร์เชื่อมต่อกับอินเทอร์เน็ต แล้วลองอีกครั้ง";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure DefaultButton" = "ตกลง";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Title" = "ขออภัย เกิดปัญหาขึ้นใน OneDrive";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Message" = "โปรดรีสตาร์ต OneDrive";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:TerminateCore DefaultButton" = "จบการทำงาน";
+
+/* No comments provided by engineer*/
+"SyncEngineError:ServerError Title" = "ขออภัย มีปัญหาเกิดขึ้นกับเซิร์ฟเวอร์ OneDrive";
+
+/* No comments provided by engineer */
+"SyncEngineError:ServerError Message" = "โปรดลองอีกครั้งในอีกสักครู่";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:ServerError DefaultButton" = "ออก";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Title" = "ขออภัย ดูเหมือนจะมีปัญหากับบัญชีของคุณ เมื่อต้องการเรียนรู้วิธีการแก้ไขปัญหานี้ ให้ไปที่ OneDrive.com และเข้าสู่ระบบ หลังจากที่คุณแก้ไขปัญหาแล้ว ให้ลองอีกครั้ง";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Message" = "โปรดติดต่อฝ่ายสนับสนุนลูกค้า";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:AccessDenied DefaultButton" = "ออก";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Title" = "ขออภัย เกิดปัญหาขึ้นใน OneDrive";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Message" = "โปรดออกจาก OneDrive แล้วตรวจสอบว่าคอมพิวเตอร์เชื่อมต่ออินเทอร์เน็ต จากนั้นรีสตาร์ตแอปพลิเคชัน";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:Unknown DefaultButton" = "จบการทำงาน";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid %1$@ is a library name. */
+"SyncEngineError:RootScopeNotFound Title:%@" = "ไลบรารี \"%1$@\" ของคุณถูกสร้างขึ้นใหม่บนเว็บ";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid*/
+"SyncEngineError:RootScopeNotFound Message" = "คลิก \"กำหนดค่า OneDrive ใหม่\" เพื่อตั้งค่าไลบรารีนี้บน Mac เครื่องนี้อีกครั้ง";
+
+/* Text for button in error dialog to reconfigure OneDrive*/
+"SyncEngineError:ButtonText ReconfigureButton" = "กำหนดค่า OneDrive ใหม่";
+
+/* Message title in error dialog when a folder not found and drive is present. %1$@ is a folder name, %2$@ is its local path */
+"SyncError:MissingFolder Title:%@,%@" = "เราไม่พบโฟลเดอร์ \"%1$@\" ของคุณใน %2$@";
+
+/* Message in error dialog when the root folder is deleted. %@ is a folder name. */
+"SyncError:RootFolderDeleted Message:%@" = "คลิก \"ออกจาก OneDrive\" หรือคลิก \"ตั้งค่า OneDrive\" เพื่อตั้งค่าโฟลเดอร์ \"%@\" ของคุณอีกครั้ง";
+
+/* Message in error dialog when folder is not found while re-mapping and drive is present */
+"SyncError:MissingFolder Message" = "ตรวจสอบให้แน่ใจว่าโฟลเดอร์นี้ยังคงอยู่ในตำแหน่งที่ตั้งนี้ แล้วคลิก \"ลองอีกครั้ง\" หรือคลิก \"หยุดซิงค์\" เพื่อหยุดซิงค์โฟลเดอร์นี้";
+
+/* Message in error dialog when mounted folder not found while re-mapping. %@ is an email address */
+"SyncError:MissingMountedFolder SetUpMessage:%@" = "ตรวจสอบให้แน่ใจว่าโฟลเดอร์นี้ยังคงอยู่ในตำแหน่งที่ตั้งนี้ แล้วคลิก \"ลองอีกครั้ง\" หรือคลิก \"ตั้งค่า OneDrive\" เพื่อตั้งค่าบัญชี %@ ของคุณอีกครั้ง";
+
+/* Message title in error dialog when there's a problem with the root folder */
+"SyncError:RootFolderError Title:%@" = "เราไม่พบโฟลเดอร์ %@";
+
+/* Message in error dialog when there's a problem with the root folder. %@ is a folder name. */
+"SyncError:RootFolderError Message:%@" = "คลิก \"ออกจาก OneDrive\" หรือคลิก \"ตั้งค่า OneDrive\" เพื่อตั้งค่าโฟลเดอร์ \"%@\" ของคุณอีกครั้ง";
+
+/* Text for button in error dialog to restart application when there's a problem with the root folder */
+"SyncError:RootFolderError DefaultButton" = "รีสตาร์ต OneDrive";
+
+/* Message title in error dialog when OD found but creation doesn't match the DB. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:FolderMismatch Title:%@,%@" = "โฟลเดอร์ \"%1$@\" ใน %2$@ ไม่ใช่โฟลเดอร์ \"%1$@\" ดั้งเดิมของคุณ";
+
+/* Message in error dialog when OD found but creation doesn't match the DB. %@ is a folder name. */
+"SyncError:RootFolderMismatch Message:%@"= "ย้ายโฟลเดอร์ต้นฉบับกลับไปยังตำแหน่งนี้แล้วคลิก \"ลองอีกครั้ง\" หรือคลิก \"ตั้งค่า OneDrive\" เพื่อตั้งค่าโฟลเดอร์ \"%@\" ของคุณอีกครั้ง";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB */
+"SyncError:MountedFolderMismatch Message" = "ย้ายโฟลเดอร์ดั้งเดิมกลับไปยังตำแหน่งที่ตั้งนี้ แล้วคลิก \"ลองอีกครั้ง\" หรือคลิก \"หยุดซิงค์\" เพื่อหยุดซิงค์โฟลเดอร์นี้";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB. %@ is an email address */
+"SyncError:MountedFolderMismatch SetUpMessage:%@" = "ย้ายโฟลเดอร์ดั้งเดิมกลับไปยังตำแหน่งนี้ แล้วคลิก \"ลองอีกครั้ง\" หรือคลิก \"ตั้งค่า OneDrive\" เพื่อตั้งค่าบัญชี %@ ของคุณอีกครั้ง";
+
+/* Message in error dialog when library is deemed unreachable */
+"SyncError:UnreachableLibrary Title" = "ไม่สามารถเข้าถึงไลบรารี";
+
+/* Message in error dialog when library is deemed unreachable {%@ is library name }*/
+"SyncError:UnreachableLibrary Message:%@" = "%@ ไม่พร้อมใช้งานชั่วคราว โปรดตรวจสอบการเชื่อมต่อเครือข่ายของคุณ และลองอีกครั้งในอีกสักครู่ หรือติดต่อผู้ดูแลระบบ IT ของคุณ";
+
+/* Message title in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Title" = "เราไม่สามารถซิงค์รายการนี้ได้เนื่องจากเส้นทางยาวเกินไป";
+
+/* Message in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Message:%@" = "ไม่สามารถดาวน์โฟลดไฟล์หรือโฟลเดอร์เนื่องจากเส้นทางยาวเกินไป โปรดออกจาก OneDrive ไปที่ OneDrive for Business ในเว็บเบราว์เซอร์ แล้วย่อชื่อหรือเส้นทางให้สั้นลง: \r\n\"%@\"\r\n\r\nถ้าต้องการซิงค์ OneDrive กับตำแหน่งที่ตั้งอื่นของ Mac ให้คลิก เรียกใช้การติดตั้ง";
+
+/* Message in error dialog when the max file path limit is reached for a local file */
+"SyncError:LocalMaxPath Message:%@" = "ไม่สามารถอัปโฟลดไฟล์หรือโฟลเดอร์เนื่องจากเส้นทางยาวเกินไป โปรดออกจาก OneDrive แล้วย่อชื่อหรือเส้นทางให้สั้นลง: \r\n\"%@\"\r\n\r\nถ้าต้องการซิงค์ OneDrive กับตำแหน่งที่ตั้งอื่นของ Mac ให้คลิก เรียกใช้โปรแกรมติดตั้ง";
+
+/* Message used in several error dialogs. %@ is an email address */
+"Error:ExitOrSetUpMessage:%@" = "คลิก \"ออกจาก OneDrive\" หรือคลิก \"ตั้งค่า OneDrive\" เพื่อตั้งค่าบัญชี %@ ของคุณอีกครั้ง";
+
+/* Text for button in error dialog to exit application when max path length is reached */
+"SyncError:MaxPathLength DefaultButton" = "ออกจาก OneDrive";
+
+/* Text for button in error dialog to run FRE when max path length is reached */
+"SyncError:MaxPathLength AlternateButton" = "เรียกใช้โปรแกรมติดตั้ง";
+
+/* Message title in error dialog when the root folder volume is removed. %@ is a folder name.  */
+"SyncError:DriveVolumeRemovedNoVolume Title:%@" = "เราไม่พบโฟลเดอร์ \"%@\" ของคุณ";
+
+/* Message in error dialog when the root folder volume is removed. %@ is a folder name. */
+"SyncError:DriveVolumeRemovedNoVolume Message:%@" = "เราไม่พบตำแหน่งที่ตั้งของโฟลเดอร์ \"%@\" ของคุณ โปรดตรวจสอบว่าคุณยังไม่ได้ลบโฟลเดอร์นั้น ถ้าโฟลเดอร์ OneDrive ของคุณอยูู่ในไดรฟ์ภายนอก ให้ตรวจสอบว่าได้แนบโฟลเดอร์ดังกล่าวไว้";
+
+/* Text for button in error dialog to restart application when the root folder volume is removed */
+"SyncError:DriveVolumeRemoved DefaultButton" = "รีสตาร์ต OneDrive";
+
+/* Message title in error dialog when drive containing OD could not be found. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:MissingDrive Title:%@,%@" = "เราไม่สามารถเข้าถึงโฟลเดอร์ \"%1$@\" ของคุณใน %2$@";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingNoneRemovableDrive Message:%@" = "ตรวจสอบให้แน่ใจว่าไดรฟ์ %1$@ ของคุณพร้อมใช้งานในตัวค้นหา แล้วคลิก \"ลองอีกครั้ง\" หรือคลิก \"หยุดซิงค์\" เพื่อหยุดซิงค์โฟลเดอร์นี้";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingNoneRemovableDrive SetUpMessage:%@,%@" = "ตรวจสอบให้แน่ใจว่าไดรฟ์ %1$@ ของคุณยังคงพร้อมใช้งานใน Finder แล้วคลิก \"ลองอีกครั้ง\" หรือคลิก \"ตั้งค่า OneDrive\" เพื่อตั้งค่าบัญชี %2$@ ของคุณอีกครั้ง";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingRemovableDrive Message:%@" = "เราพบว่า %@ เป็นไดรฟ์แบบถอดได้ โปรดตรวจสอบว่าไดรฟ์นี้เชื่อมต่ออยู่และพร้อมใช้งานในตัวค้นหา แล้วคลิก \"ลองอีกครั้ง\" หรือคลิก \"หยุดซิงค์\" เพื่อหยุดซิงค์โฟลเดอร์นี้";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingRemovableDrive SetUpMessage:%@,%@" = "เราพบว่า %1$@ เป็นไดรฟ์แบบถอดได้ โปรดตรวจสอบว่าไดรฟ์นี้เชื่อมต่ออยู่และพร้อมใช้งานในตัวค้นหา แล้วคลิก \"ลองอีกครั้ง\" หรือคลิก \"ตั้งค่า OneDrive\" เพื่อตั้งค่าบัญชี%2$@ของคุณอีกครั้ง";
+
+/* Message title in error dialog indicating library cannot be synced, used in ClientNotAllowed, UnsupportedLibrary and DisableSync errors */
+"SyncError:LibraryCannotSync:%@" = "เราไม่สามารถซิงค์โฟลเดอร์ %@ ของคุณ";
+
+/* Message in error dialog when sync is disabled because domain is not "whitelisted" */
+"SyncError:ClientNotAllowed Message" = "แผนกไอทีต้องการให้คุณใช้คอมพิวเตอร์ที่เข้าร่วมโดเมนที่ได้รับอนุมัติเพื่อซิงค์โฟลเดอร์นี้ เมื่อต้องการความช่วยเหลือ โปรดติดต่อแผนกไอที";
+
+/* Message in error dialog when the library is unsupported */
+"SyncError:UnsupportedLibrary Message" = "แผนกไอทีได้เปลี่ยนแปลงข้อมูลที่ป้องกันไม่ให้คุณซิงค์โฟลเดอร์นี้ เมื่อต้องการรายละเอียดเพิ่มเติม โปรดติดต่อแผนกไอที";
+
+/* Message in error dialog when sync is disabled */
+"SyncError:DisableSync Message" = "องค์กรของคุณไม่อนุญาตให้ซิงค์โฟลเดอร์นี้ โปรดติดต่อแผนก IT เมื่อต้องการรายละเอียดเพิ่มเติม ";
+
+/* Title in balloon tip for when the folder was removed remotely during mount. %@ is the name of the folder being mounted. */
+"SyncError:FolderRemovedRemotelyDuringMount Title:%@" = "\"%@\" ไม่ได้อยู่ในตำแหน่งที่ตั้งนี้แล้ว";
+
+/* Message in balloon tip for when the folder was removed remotely during mount */
+"SyncError:FolderRemovedRemotelyDuringMount Message" = "โฟลเดอร์นี้อาจถูกย้ายหรือลบไปแล้ว";
+
+/* Title in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them the folder has been deleted. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Title:%@" = "\"%@\" ถูกลบแล้ว";
+
+/* Message in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them a copy of the files will be left on the Mac. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Message:%@" = "\"%@\" จะหยุดซิงค์ โดยสำเนาของไฟล์เหล่านี้จะอยู่ใน Mac เครื่องนี้";
+
+/* Title in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them they no longer have permissions to sync it. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Title:%@" = "คุณไม่มีสิทธิ์ในการซิงค์ \"%@\" อีกต่อไป";
+
+/* Message in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them the files have been removed from the Mac. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Message:%@" = "\"%@\" ถูกเอาออกจาก Mac ของคุณแล้ว";
+
+/* Title to show if add folder failed. %@ is a folder name. */
+"AddMountedFolderError Title:%@" = "เราไม่สามารถซิงค์โฟลเดอร์ \"%@\" ของคุณ";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorTryAgain:%@" = "ขออภัย เราไม่สามารถเพิ่มโฟลเดอร์ \"%@\" ของคุณได้ในขณะนี้ โปรดลองอีกครั้ง";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorContactSupport:%@" = "ขออภัย เราไม่สามารถเพิ่มโฟลเดอร์ \"%@\" ของคุณได้ในขณะนี้ โปรดติดต่อฝ่ายสนับสนุน";
+
+/* Text for Try Again button, used in error dialogs. */
+"TryAgainButtonText" = "ลองอีกครั้ง";
+
+/* Text for Stop Sync button, used in error dialogs. */
+"StopSyncButtonText" = "หยุดซิงค์";
+
+/* Text for Set Up OneDrive button, used in error dialogs. */
+"SetUpDriveButtonText" = "ตั้งค่า OneDrive";
+
+/* Text for Exit OneDrive button, used in error dialogs. */
+"ExitOneDriveButtonText" = "ออกจาก OneDrive";
+
+// About box - used by coreController.mm
+
+/* Application name displayed in the about dialog */
+"AboutApplicationName" = "Microsoft® OneDrive";
+
+/* Copyright info for the updated about dialog */
+"CopyrightText" = "© 2018 Microsoft Corporation สงวนลิขสิทธิ์";
+
+/* Third Party Notices */
+"ThirdPartyNotices" = "ประกาศของบุคคลภายนอก";
+
+// Menu Items
+
+/* Text for menu item to open the online help website */
+"MainMenuOnlineHelpMenuItemText" = "วิธีใช้ OneDrive แบบออนไลน์";
+
+/* Text for menu item to open the service agreement website */
+"MainMenuServiceAgreementMenuItemText" = "ข้อตกลงการใช้งาน";
+
+/* Text for menu item to open the private agreement website. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"MainMenuPrivacyAgreementMenuItemText" = "ความเป็นส่วนตัวและคุกกี้";
+
+/* Text for menu item to open the server status website */
+"MainMenuServerStatusMenuItemText" = "สถานะของเซิร์ฟเวอร์";
+
+// Manifest failures
+
+/* Main text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureTitle" = "OneDrive ไม่สามารถเริ่มทำงานได้";
+
+/* Informative text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureMessage" = "มีปัญหากับไฟล์แอปพลิเคชัน โปรดดาวน์โหลดแอปพลิเคชันลงในคอมพิวเตอร์เครื่องนี้แล้วลองอีกครั้ง";
+
+/* Quit button for the message box which explains the application is corrupt and must exit now */
+"ManifestValidationFailureQuitButton" = "ออกจาก OneDrive";
+
+// Updater
+
+/* Message title in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableTitle" = "คุณต้องอัปเดต OneDrive";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableMessage" = "เมื่อต้องการดำเนินการต่อโดยใช้ OneDrive คุณต้องติดตั้งอัปเดต";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreRequiredUpdateAvailableOpenInAppStoreButton" = "ดาวน์โหลดการอัปเดต";
+
+/* Text in button which quits the application */
+"AppStoreRequiredUpdateAvailableCloseButton" = "ออกจาก OneDrive";
+
+/* Message title in dialog when there is an optional update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableTitle" = "การอัปเดตสำหรับ OneDrive พร้อมใช้งานแล้ว";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableMessage" = "คุณต้องการรับการอัปเดตหรือไม่";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreOptionalUpdateAvailableOpenInAppStoreButton" = "ดาวน์โหลดการอัปเดต";
+
+/* Text in button which quits the application */
+"AppStoreOptionalUpdateAvailableCloseButton" = "ไม่ ขอบคุณ";
+
+// Standalone migration
+
+/* Title for dialog shown to a user in a Mac App Store (MAS) migration downgrade scenario.
+ (When a user installs a lower version of Standalone on top of a higher version of Store) */
+"MASMigrationDowngradeScenarioTitle" = "OneDrive ไม่สามารถย้ายการตั้งค่าของคุณ";
+
+/* Message for dialog shown to a user in a MAS migration downgrade scenario, informing them of their options */
+"MASMigrationDowngradeScenarioMessage" = "เราไม่สามารถย้ายการตั้งค่าของคุณเนื่องจากแอปของคุณล้าสมัย โปรดดาวน์โหลดและติดตั้งเวอร์ชันล่าสุด หรือคุณสามารถตั้งค่า OneDrive อีกครั้ง";
+
+/* Later button for dialog shown to a user in a MAS migration downgrade scenario. The button will exit the client so the user may launch it again to retry the update later */
+"MASMigrationDowngradeScenarioLaterButton" = "ภายหลัง";
+
+/* Download button for dialog shown to a user in a MAS migration downgrade scenario. The button will trigger a download of the latest version of Standalone OneDrive */
+"MASMigrationDowngradeScenarioDownloadButton" = "ดาวน์โหลดและติดตั้ง";
+
+/* Set Up OneDrive button for dialog shown to a user in a MAS migration downgrade scenario. The button will cause OneDrive to drop the user's Store settings and show FRE so the user can re-configure their OneDrive for Standalone */
+"MASMigrationDowngradeScenarioResetupOneDriveButton" = "ตั้งค่า OneDrive";
+
+// Sandbox migration
+
+/* Text in button to select and confirm where the OneDrive folder is */
+"SandboxMigrationConfirmButton" = "ยืนยันตำแหน่งที่ตั้ง";
+
+/* Text in button to quit the OneDrive application */
+"SandboxMigrationQuitButton" = "ออกจาก OneDrive";
+
+/* Bold text summarizing that the user needs to confirm where the OneDrive folder is */
+"SandboxMigrationTitle" = "โปรดยืนยันตำแหน่งที่ตั้งของโฟลเดอร์ OneDrive";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationText" = "ก่อนที่จะใช้ OneDrive ต่อ คุณต้องยืนยันตำแหน่งปัจจุบันของโฟลเดอร์ OneDrive บน Mac ของคุณ";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationWindowTitle:%@" = "ยืนยันตำแหน่งที่ตั้งของโฟลเดอร์ %@";
+
+/* Text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderMessage" = "โปรดยืนยันโฟลเดอร์ OneDrive";
+
+/* Button text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderButton" = "ยืนยัน";
+
+/* Title text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderTitle" = "คุณแน่ใจหรือไม่ว่าต้องการหยุดใช้โฟลเดอร์ OneDrive ที่มีอยู่";
+
+/* Descriptive text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderMessage" = "ถ้าต้องการเลือกตำแหน่งที่ตั้งใหม่ คลิก เรียกใช้โปรแกรมติดตั้ง OneDrive ข้อมูลทุกอย่างใน OneDrive จะถูกดาวน์โหลดลงในโฟลเดอร์ OneDrive ใหม่ ถ้าต้องการใช้โฟลเดอร์ OneDrive ที่มีอยู่ต่อไป ให้คลิก \"ย้อนกลับ\" แล้วเลือกโฟลเดอร์";
+
+/* Button text to pick a different folder */
+"SandboxMigrationConfirmDifferentFolderGoBackButton" = "ย้อนกลับ";
+
+/* Button text to continue on and reconfigure OneDrive */
+"SandboxMigrationConfirmDifferentFolderQuitButton" = "เรียกใช้โปรแกรมติดตั้ง OneDrive";
+
+/* Text for alerting invalid app bundle location */
+
+/* Title text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertTitle" = "แอปพลิเคชัน OneDrive ต้องอยู่ในโฟลเดอร์ แอปพลิเคชัน";
+
+/* Description text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertDescription" = "โปรดออกจาก OneDrive ย้ายแอปพลิเคชัน OneDrive ไปที่โฟลเดอร์ แอปพลิเคชัน แล้วเปิด OneDrive อีกครั้ง";
+
+/* Button text to exit in the invalid app location alert */
+"InvalidBundleLocationAlertButtonText" = "ออกจาก OneDrive";
+
+
+/* ---------------------------- Support Window ------------------- */
+/* OK Button */
+"SupportWindowOkButton" = "ตกลง";
+
+/* Cancel Button*/
+"SupportWindowCancelButton" = "ยกเลิก";
+
+/* Try Again Button */
+"SupportWindowTryAgainButton" = "ลองอีกครั้ง";
+
+/* Header string for Support Window */
+"SuportWindowReportProblem" = "รายงานปัญหา";
+
+/* Subheading of support window that gives instructions on what to type */
+"SuportWindowTicketSubheading" = "ขออภัย มีบางอย่างผิดพลาดกับ OneDrive ของคุณ เมื่อต้องการช่วยเราวินิจฉัยปัญหา โปรดให้ข้อมูลเกี่ยวกับปัญหาและสิ่งที่คุณทำเมื่อเกิดข้อผิดพลาดให้มากที่สุดเท่าที่จะทำได้";
+
+/* Header to the textbox in the support window */
+"SupportWindowDescription" = "คำอธิบาย:";
+
+/* String at the bottom of the support window - right below the text field where the user types */
+"SupportWindowContactWarning" = "เมื่อคลิก \"ตกลง\" ถือว่าคุณอนุญาตให้ Microsoft ติดต่อคุณเกี่ยวกับคำติชมนี้";
+
+/* Link to privacy statement - very bottom of support dialog. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"SupportWindowPrivacyStatement" = "ความเป็นส่วนตัวและคุกกี้";
+
+/* Text below the progress bar while the support text is being sent */
+"SupportWindowSending" = "กำลังส่ง...";
+
+/* Success message for when the support text was successfully sent */
+"SupportSuccessMessage:%@" = "ขอขอบคุณที่สละเวลาเพื่อแจ้งให้เราทราบถึงปัญหาที่คุณกำลังประสบในการใช้ OneDrive โปรดตรวจสอบอีเมล (%@) สำหรับการยืนยันว่าเราได้รับข้อความของคุณแล้ว";
+
+/* Error message for when the report was no sucessfully sent. Contains a hyperlink designated by <a> and </a> */
+"SupportErrorMessage" = "ขออภัย เกิดปัญหาในการส่งข้อความ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตแล้วลองอีกครั้ง คุณยังสามารถรายงานปัญหาของคุณโดย<a>ติดต่อบริการสนับสนุน</a>";
+
+/* Text for email text field label shown in the support window */
+"SupportWindowEmailLabel" = "มีปัญหากับ OneDrive";
+/* ----------------------------------------------------------------- */
+
+// App store related strings
+
+/* Apple app store description for OneDrive Mac client */
+"StoreDescription" = "OneDrive ช่วยให้คุณสามารถเก็บรวบรวมข้อมูลทุกอย่างในชีวิตของคุณได้ในที่เดียว โดยมีที่เก็บข้อมูลแบบออนไลน์ฟรีไว้สำหรับไฟล์ส่วนตัวทั้งหมดของคุณ คุณจึงสามารถเข้าถึงได้จาก Mac และอุปกรณ์อื่นๆ ที่คุณใช้ เช่น iPhone, iPad, พีซี, Windows Phone หรืออุปกรณ์ Android เมื่อคุณมี OneDrive for Business คุณจะได้รับที่เก็บข้อมูลสำหรับไฟล์งานของคุณซึ่งช่วยให้คุณสามารถแชร์และทำงานร่วมกันบนไฟล์กับผู้อื่นในที่ทำงานหรือโรงเรียนของคุณได้ แอป OneDrive สำหรับ Mac ช่วยให้การทำงานกับไฟล์ OneDrive ของคุณบน Mac ง่ายยิ่งขึ้น:\r\n•เข้าถึงไฟล์ OneDrive โดยตรงจากตัวค้นหา รวมถึงสิ่งที่แนบมาที่คุณบันทึกลงใน OneDrive จาก Outlook.com พร้อมทั้งเอกสารและสเปรดชีตที่คุณสร้างเอาไว้จาก Office Online\r\n•ทำงานกับไฟล์ OneDrive ของคุณได้แม้ว่าคุณจะออฟไลน์อยู่ก็ตาม การเปลี่ยนแปลงของคุณจะซิงค์โดยอัตโนมัติในครั้งต่อไปที่คุณออนไลน์\r\n•เลือกโฟลเดอร์ใน OneDrive ที่คุณต้องการซิงค์บน Mac ของคุณ\r\n•เพิ่มไฟล์หรือโฟลเดอร์ลงใน OneDrive ได้พร้อมกันหลายรายการโดยการลากไฟล์หรือโฟลเดอร์ลงในโฟลเดอร์ OneDrive เมื่อวางไฟล์ไว้ใน OneDrive แล้ว คุณสามารถเข้าถึงไฟล์ได้จากทุกแห่งและมีสำเนาสำรองเก็บไว้ในกรณีที่เกิดข้อผิดพลาดกับคอมพิวเตอร์ของคุณ\r\n•เปิด แก้ไข และสร้างเอกสารรวมถึงไฟล์อื่นๆ จากแอป เช่น Word หรือ Excel ได้อย่างง่ายดายใน OneDrive";
+
+/* Pool of generic localized Strings to use for update description */
+"GenericUpdateDescription" = "แก้ไขบักความน่าเชื่อถือในการซิงค์แล้ว ปรับปรุงความน่าเชื่อถือของแอปพลิเคชัน ปรับปรุงประสิทธิภาพในการซิงค์ ลดการใช้แบตเตอรี่";
+
+"GenericStoreUpdate" = "ขอบคุณสำหรับการใช้ OneDrive เราอัปเดต OneDrive อยู่เสมอเพื่อปรับปรุงประสิทธิภาพล่าสุดและแก้ไขจุดบกพร่องเพื่อนำประสบการณ์ใช้งานที่ดีที่สุดไปสู่คุณ";
+
+"R16String" = "กังวลเกี่ยวกับการใช้แบนด์วิธในเครือข่ายแบบคิดค่าบริการตามปริมาณข้อมูลใช่หรือไม่ เราได้เพิ่มความสามารถในการหยุด OneDrive ชั่วคราว คุณสามารถค้นหาตัวเลือกหยุดชั่วคราวได้ภายใต้เมนู '...'";
+
+"R18String" = "ขอบคุณสำหรับการใช้ OneDrive รวมทั้งการอัปเดตตามปกติของเราเพื่อปรับปรุงประสิทธิภาพและแก้ไขข้อบกพร่องล่าสุด เรามีฟีเจอร์ใหม่ต่อไปนี้ซึ่งจะค่อยๆ เผยแพร่ไปสู่ผู้ใช้:\nโอเวอร์เลย์ใหม่ถูกเพิ่มเพื่อบ่งชี้ว่า มีการแชร์โฟลเดอร์หรือไม่\nขณะนี้สกรีนช็อตสามารถเปลี่ยนเส้นทางไปยัง OneDrive ได้แล้ว";
+
+"R19String" = "ขอบคุณสำหรับการใช้ OneDrive นอกเหนือจากการอัปเดตตามปกติของเราเพื่อนำเสนอการปรับปรุงประสิทธิภาพและการแก้ไขข้อบกพร่องล่าสุด เรามีฟีเจอร์ใหม่ๆ ต่อไปนี้ซึ่งจะค่อยๆ เผยแพร่สู่ผู้ใช้:\nเมื่อคุณเปิดเอกสาร Office ที่ซิงค์กับคอมพิวเตอร์ของคุณ เอกสารดังกล่าวจะเปิดขึ้นพร้อมการทำงานร่วมกันแบบเรียลไทม์\nเอกสาร Office ที่ซิงค์กับคอมพิวเตอร์ที่สามารถแชร์จากภายในแอปพลิเคชัน Office\nคลิกขวาที่ระบบคลาวด์ของ OneDrive ตอนนี้จะเปิดเมนูบริบทภายในศูนย์กิจกรรม\nขณะนี้หมายเลขเวอร์ชันถูกย้ายไปที่แท็บเกี่ยวกับของการกำหนดลักษณะ แทนที่จะเป็นหน้าต่างของตัวเอง";
+
+"R20String" = "ขอบคุณที่ใช้ OneDrive พร้อมกับการอัปเดตปกติของเราในการปรับปรุงประสิทธิภาพและแก้ไขข้อบกพร่องล่าสุด เรามีฟีเจอร์ใหม่ต่อไปนี้ที่จะสามารถค่อยๆ เผยแพร่ไปยังผู้ใช้:\nในขณะที่การซิงค์ถูกหยุดชั่วคราว การแตะบนแบนเนอร์จะดำเนินการซิงค์ต่อ";
+
+"R21String" = "ขอบคุณที่ใช้ OneDrive นอกจากการอัปเดตตามปกติของเราเพื่อให้คุณได้รับการปรับปรุงประสิทธิภาพและการแก้ไขบักล่าสุดแล้ว เรายังมีฟีเจอร์ใหม่ดังต่อไปนี้ที่จะทยอยเผยแพร่ไปยังผู้ใช้:\nเราได้เพิ่มความสามารถในการซิงค์ดาวน์ไลบรารีเอกสารใน SharePoint ที่เปิดใช้งาน IRM";
+
+"R22String" = "ขอบคุณที่ใช้ OneDrive นอกจากการอัปเดตตามปกติของเราเพื่อให้คุณได้รับการปรับปรุงประสิทธิภาพและการแก้ไขบักล่าสุดแล้ว เรายังมีฟีเจอร์ใหม่ดังต่อไปนี้ที่จะทยอยเผยแพร่ไปยังผู้ใช้:\nศูนย์กิจกรรม OneDrive ได้มีการปรับปรุงให้ทันสมัยเพื่อให้เข้าใจและใช้งานได้ง่ายขึ้น\nเราได้เปลี่ยนตัวเลือก 'รายงานปัญหา' ในเมนู 'ส่งคำติชม' ตอนนี้คุณสามารถบอกเราถึงสิ่งที่คุณชอบ ไม่ชอบ หรือแนะนำฟีเจอร์ที่คุณต้องการมาตลอดใน OneDrive ได้ เรายินดีรับฟัง";
+
+"R24String" = "ขอขอบคุณที่ใช้ OneDrive นอกเหนือจากการอัปเดตตามปกติของเราเพื่อนำเสนอการปรับปรุงประสิทธิภาพ และการแก้ไขข้อบกพร่องล่าสุด เรามีฟีเจอร์ใหม่ๆ ต่อไปนี้ซึ่งจะค่อยๆ เผยแพร่สู่ผู้ใช้:\nขณะนี้ OneDrive สนับสนุนโหมดสีเข้ม macOS Mojave เมื่อเปิดใช้งานโหมดสีเข้ม OneDrive จะสลับไปยังธีมเข้มที่สวยงามธีมใหม่ในทุก UI!";
+
+"R26String" = "ขอบคุณสำหรับการใช้ OneDrive พร้อมการอัปเดตตามปกติของเราเพื่อมอบการปรับปรุงประสิทธิภาพการทำงานและการแก้ไขจุดบกพร่องล่าสุด เรามีฟีเจอร์ใหม่ที่จะค่อยๆ เผยแพร่ไปยังผู้ใช้ดังต่อไปนี้:\nมีการเพิ่มธีมสีเข้มลงในกล่องโต้ตอบที่แชร์แล้ว!\nเราได้ทำการเปลี่ยนแปลงเพื่อช่วยปรับปรุงประสิทธิภาพการทำงานและลดการใช้งาน CPU แจ้งให้เราทราบถ้าคุณยังคงพบปัญหาอยู่";
+
+"R32String" = "ขอบคุณสำหรับการใช้ OneDrive นอกเหนือจากการอัปเดตตามปกติของเราเพื่อให้คุณได้รับการปรับปรุงประสิทธิภาพล่าสุดและการแก้ไขจุดบกพร่อง เรามีฟีเจอร์ใหม่ต่อไปนี้ที่จะค่อยๆ เผยแพร่ให้กับผู้ใช้:\nเพิ่มการสนับสนุนสำหรับการตั้งค่าจอแสดงผลหลายรายการเพื่อแสดงศูนย์กิจกรรมบนหน้าจอที่เลือก";
+
+/* Files On-Demand is the name of a feature that is already available on OneDrive on Windows already. */ 
+"R29String" = "ด้วยการอัปเดทล่าสุดนี้ การเข้าถึงไฟล์ได้ตามใจบน OneDrive พร้อมใช้งานแล้วในขณะนี้! การเข้าถึงไฟล์ได้ตามใจบน OneDrive ช่วยให้คุณเข้าถึงไฟล์ทั้งหมดของคุณใน OneDrive ได้โดยไม่ต้องดาวน์โหลดทั้งหมดและใช้เนื้อที่เก็บข้อมูลบนอุปกรณ์ของคุณ ไฟล์ใหม่ที่สร้างขึ้นทางออนไลน์หรือบนอุปกรณ์อื่นจะปรากฏเป็นไฟล์ออนไลน์เท่านั้นซึ่งไม่ใช้พื้นที่บนอุปกรณ์ของคุณ เมื่อคุณเชื่อมต่อกับอินเทอร์เน็ต คุณจะสามารถใช้ไฟล์ได้เหมือนกับไฟล์อื่นๆ ในอุปกรณ์ของคุณ\nเมื่อต้องการใช้การเข้าถึงไฟล์ได้ตามใจ คุณจะต้องเรียกใช้ macOS Mojave ล่าสุด (10.14.2 หรือใหม่กว่า) คุณสามารถเปิดใช้งานการเข้าถึงไฟล์ได้ตามใจในแท็บทั่วไปของเมนูการกำหนดลักษณะของ OneDrive";
+
+// Finder sync extension commands
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will copy a shareable link to their keyboard */
+"MenuItemShareCommand" = "แชร์ลิงก์ OneDrive";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will open a web browser and display the selected file in the web interface */
+"MenuItemViewOnlineCommand" = "ดูออนไลน์";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a selective sync window. */
+"MenuItemSelectiveSyncCommand" = "เลือกโฟลเดอร์ OneDrive เพื่อซิงค์";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a browser window that displays some detailed sharing options for the file. */
+"MenuItemSharingOptionsCommand" = "ตัวเลือกการแชร์เพิ่มเติมจาก OneDrive";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a hosted browser window that OneDrive controls. This browser window will load a web page from sharepoint and allow the user to modify sharing options from the file. This is different from just launching the user's default browser. */
+"MenuItemShareBrowserWindowCommand" = "แชร์";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch the preferences window for the account that the right clicked file belongs to. */
+"MenuItemPreferencesCommand" = "การกำหนดลักษณะ";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. */
+"MenuItemPinCommand" = "เก็บไว้บนอุปกรณ์นี้เสมอ";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. */
+"MenuItemUnpinCommand" = "เพิ่มเนื้อที่ว่าง";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will lock the folder. %@ is a folder name. */
+"MenuItemLockCommand:%@" = "ล็อก %@";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will unlock the folder. %@ is a folder name. */
+"MenuItemUnlockCommand:%@" = "ปลดล็อก %@";
+
+// Finder Sync Extension Tooltips
+
+/* Tooltip for synced / up-to-date icon in Mac Finder */
+"IconOverlaySyncedLabel" = "ล่าสุด";
+
+/* Tooltip for syncing icon in Mac Finder */
+"IconOverlaySyncingLabel" = "กำลังซิงค์";
+
+/* Tooltip for error icon in Mac Finder */
+"IconOverlayErrorLabel" = "ข้อผิดพลาด";
+
+/* Tooltip for shared folder synced / up-to-date icon in Mac Finder */
+"IconOverlaySharedSyncedLabel" = "ล่าสุด";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlaySharedSyncingLabel" = "กำลังซิงค์";
+
+/* Tooltip for shared folder error icon in Mac Finder */
+"IconOverlaySharedErrorLabel" = "ข้อผิดพลาด";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlayReadOnlyLabel" = "เป็นปัจจุบัน อ่านอย่างเดียว";
+
+/* Tooltip for unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedLabel" = "พร้อมใช้งานบนอุปกรณ์นี้";
+
+/* Tooltip for pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedLabel" = "พร้อมใช้งานบนอุปกรณ์นี้เสมอ";
+
+/* Tooltip for unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedLabel" = "พร้อมใช้งานเมื่อออนไลน์";
+
+/* Tooltip for read-only, unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedReadOnlyLabel" = "พร้อมใช้งานบนอุปกรณ์นี้ แบบอ่านอย่างเดียว";
+
+/* Tooltip for read-only, pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedReadOnlyLabel" = "พร้อมใช้งานบนอุปกรณ์นี้เสมอ แบบอ่านอย่างเดียว";
+
+/* Tooltip for read-only, unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedReadOnlyLabel" = "พร้อมใช้งานเมื่อออนไลน์ แบบอ่านอย่างเดียว";
+
+/* Action center (Toast) notification header for the Icon Overlay feature */
+"IconOverlayToastTitle" = "ดูไอคอนสถานะการซิงค์ใหม่";
+
+/* Action center (Toast) notification body for the Icon Overlay feature */
+"IconOverlayToastBody" = "คลิกเพื่ออนุญาตให้ OneDrive แสดงสถานะการซิงค์ในตัวค้นหา";
+
+/* Preferences Dialog string for enabling icon overlays*/
+"IconOverlayPreferencesLink" = "อนุญาตให้ OneDrive แสดงสถานะซิงค์ในตัวค้นหา";
+
+// App moniker related strings
+
+/* Text of basic Moniker*/
+"BasicMoniker:%@" = "OneDrive — %@";
+
+/* Text of Moniker with user's first name. %0@ is user's firstname, %1@ is string like 'OneDrive - Personal' */
+"MonikerWithFirstName:%@,%@" = "%1@ ของ %0@";
+
+/* Text of Moniker with user's email. %0@ is string like 'OneDrive - Personal', %1@ is email address */
+"MonikerWithEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text of Moniker with user's first name and email. %0@ is MonikerWithFirstName like Someone's OneDrive - Personal, %1@ is email address */
+"MonikerWithFirstNameAndEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text used in BasicMoniker for personal client */
+"PersonalDisplayMoniker" = "ส่วนบุคคล";
+
+// Notifications
+
+/* Balloon tip primary text to notify users that the shared folders sync feature is available */
+"SharedFoldersEnabledBaloonTipHeader" = "ใหม่ – คุณสามารถซิงค์โฟลเดอร์ที่แชร์ได้แล้ว!";
+
+/* Balloon tip secondary text describing how to start using the shared folder sync feature */
+"SharedFoldersEnabledBaloonTipBody" = "คลิกเพื่อดูโฟลเดอร์ที่แชร์กับคุณบน OneDrive.com จากนั้นเลือกโฟลเดอร์ที่คุณสามารถแก้ไข และคลิก \"เพิ่มลงใน OneDrive ของฉัน\"";
+
+/* Message shown when users try to run different flavors of OneDrive app side by side */
+"DifferentTypesOfAppSideBySide" = "คุณมี OneDrive อยู่ 2 สำเนาบนคอมพิวเตอร์ของคุณ โดยคุณเรียกใช้ได้เพียงครั้งละ 1 รายการเท่านั้น เราขอแนะนำให้คุณถอนการติดตั้ง 1 สำเนา เมื่อต้องการดูว่าสำเนาใดที่คุณเปิดไป คลิกไอคอน OneDrive ในแถบเมนู แล้วเลือก การกำหนดลักษณะ > เกี่ยวกับ";
+
+/* Title for a notification shown when the user copies a link to a file to their pasteboard */
+"CopyFileLinkToPasteboardTitle" = "ลิงก์ของคุณพร้อมสำหรับวางแล้ว";
+
+/* Body for a notification shown when the user copies a link toa a file to their pasteboard */
+"CopyFileLinkToPasteboardBody" = "ลิงก์ถูกบันทึกไปยังคลิปบอร์ดของคุณ เมื่อต้องการแชร์ ให้วางลิงก์ในข้อความหรือโพสต์ ทุกคนที่มีลิงก์สามารถแก้ไขไฟล์ได้";
+
+/* Title for a notification shown when a screen capture is saved */
+"ScreenshotSavedTitle" = "บันทึกสกรีนช็อตแล้ว";
+
+/* Body for a notification shown when a screen capture is saved. Screenshots should be localized and capitolized. */
+"ScreenshotSavedBody" = "คลิกที่นี่เพื่อเปิดโฟลเดอร์สกรีนช็อตของคุณ";
+
+/* Title for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorTitle" = "เราไม่สามารถบันทึกสกรีนช็อตของคุณไปยัง OneDrive";
+
+/* Body for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorBody" = "เมื่อต้องการบันทึกภาพหน้าจอของคุณ ให้ซิงค์ไฟล์ที่ทำงานหรือที่โรงเรียนของคุณกับ OneDrive เลือกแท็บ บัญชี  และจากนั้นคลิก เริ่มซิงค์";
+
+// Campaign Manager toast notifications
+
+/* Title for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastTitle" = "เปิดใช้งานการเปิดตอนเข้าสู่ระบบ";
+
+/* Body for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastBody" = "ทำให้ไฟล์ของคุณซิงค์กันเสมอ";
+
+/* Title for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastTitle" = "ดูสถานะการซิงค์ของคุณใน Finder";
+
+/* Body for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastBody" = "เปิดใช้งานการรวม Finder";
+
+/* Title for Placeholders Finder Sync Extension Campaign toast */
+"PlaceholdersFinderSyncCampaignToastTitle" = "เพิ่มเนื้อที่ว่างด้วยการเข้าถึงไฟล์ได้ตามใจ";
+
+/* Body for Placeholders Finder Sync Extension Campaign toast*/
+"PlaceholdersFinderSyncCampaignToastBody" = "คลิกที่นี่เพื่อสิ้นสุดการติดตั้งโดยการเปิดใช้งานส่วนขยายตัวค้นหา OneDrive";
+
+/* Title for Rate Application Campaign toast */
+"RatingsCampaignToastTitle" = "แจ้งให้เราทราบว่า คุณคิดอย่างไร";
+
+/* Body for Rate Application Campaign toast */
+"RatingsCampaignToastBody" = "ให้คะแนนแอป OneDrive หรือส่งคำติชม";
+
+// Rate Our Application Window
+
+/* Windows title for rate our application window.
+ There's probably no need to localize this string. */
+"RateApplicationWindowTitle" = "Microsoft OneDrive";
+
+/* Title for Rate Us WindowText on two lines, please keep the \n in translation as a line terminator after "Thank you" */
+"RateApplicationBodyTitle" = "ขอบคุณ\nที่ใช้งาน OneDrive!";
+
+/* Text for Rate us button */
+"RateApplicationWindowRateButton" = "ชอบหรือไม่ บอกเรามากกว่านี้สิ!";
+
+/* Text for Tell us how to improve button */
+"RateApplicationWindowSupportbutton" = "บอกเราว่าจะปรับปรุงได้อย่างไร";
+
+/* Text for Rate Us button - more engaging */
+"RateApplicationWindowRateButtonEngage" = "ให้คะแนนเรา 5 ดาวสิ!";
+
+/*Text for Rate Us button - with question */
+"RateApplicationWindowRateButtonQuestion" = "ชอบใช่ไหม ให้คะแนนเรา 5 ดาวสิ!";
+
+/* ---------------------------- Activity Center ------------------- */
+
+/* Text shown in title bar of Activity Center when we're up to date */
+"ActivityCenterHeaderUpToDate" = "OneDrive อัปเดตแล้ว";
+
+/* Text shown in title bar of Activity Center when files are syncing */
+"ActivityCenterHeaderUpdatingFiles" = "OneDrive กำลังอัปเดตไฟล์...";
+
+/* Text shown in title bar of Activity Center when there are sync problems */
+"ActivityCenterHeaderNeedsAttention" = "OneDrive ต้องการให้คุณตรวจดููบางอย่าง";
+
+/* Text shown in title bar of Activity Center when we're paused */
+"ActivityCenterHeaderPaused" = "OneDrive ถูกหยุดชั่วคราว";
+
+/* Text shown in title bar of Activity Center when we're offline */
+"ActivityCenterHeaderOffline" = "OneDrive กำลังออฟไลน์";
+
+/* Text shown in title bar of Activity Center when we aren't signed in */
+"ActivityCenterHeaderNotConnected" = "ไม่ได้เชื่อมต่อ OneDrive";
+
+/* Text shown in the header of Activity Center when OneDrive is being reset */
+"ActivityCenterHeaderResetting" = "OneDrive กำลังตั้งค่าใหม่...";
+
+/* Primary text shown in the error bar of Activity Center, placeholder is number of items */
+"ActivityCenterFileErrorsItemPrimary" = "ไม่สามารถซิงค์รายการ %@ ได้";
+
+/* Primary text shown in the error bar of Activity Center, singular item version  */
+"ActivityCenterFileErrorsItemPrimarySingle" = "ไม่สามารถซิงค์ 1 รายการ";
+
+/* Secondary text shown in the error bar of Activity Center */
+"ActivityCenterFileErrorsItemSecondary" = "คลิกเพื่อดูข้อมูลเพิ่มเติม";
+
+/* Up-to-date primary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemPrimary" = "คุณพร้อมทำงานแล้ว";
+
+/* Up-to-date secondary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemSelectiveSync" = "ไฟล์ทั้งหมดซิงค์ตรงกัน";
+
+/* Up-to-date primary text shown on Activity Center while paused */
+"ActivityCenterPausedPrimary" = "ขณะนี้ไฟล์ของคุณไม่ได้ซิงค์อยู่";
+
+/* Up-to-date secondary text shown on Activity Center while paused */
+"ActivityCenterPausedSecondary" = "คลิกที่นี่เพื่อดำเนินการซิงค์ และทำให้ไฟล์ของคุณทันสมัย";
+
+/* Text showing progress on one item when it's downloading or uploading. Placeholders are numbers and units for file progress. E.g. Uploading - 10 MB of 1 GB" */
+"ActivityCenterItemProgress" = "· %1$@ %2$@ จาก %3$@ %4$@";
+
+/* Text showing progress on one item when it's downloading or uploading with differential sync. Placeholder %1$@ is a number, %2$@ is a unit, %3$@ is a number, %4$@ is a unit, %5$@ is a number, %6$@ is a unit E.g. Uploading - 10 MB of 1 GB (100 KB)" */
+"ActivityCenterItemProgressDiffSyncUX" = "· %1$@ %2$@ จาก %3$@ %4$@ (%5$@ %6$@)";
+
+/* Text shown on one item when it's uploading. */
+"ActivityCenterItemUploading" = "กำลังอัปโหลด";
+
+/* Text shown on one item when it's reviewing the file before syncing. This is specific to differential sync */
+"ActivityCenterItemReviewingChanges" = "กำลังเตรียมที่จะซิงค์";
+
+ /* Text shown on one item when it's downloading. */
+"ActivityCenterItemDownloading" = "กำลังดาวน์โหลด";
+
+/* Status shown on an item that's finished transfering. */
+"ActivityCenterItemUpdated" = "อัปเดตแล้วใน OneDrive";
+
+/* Status shown on an item that's been removed. */
+"ActivityCenterItemRemoved" = "เอาออกจาก OneDrive";
+
+/* Status shown on an item that's finished uploading. Placeholder %% is a folder name. */
+"ActivityCenterItemUploaded" = "อัพโหลดไปยัง %% แล้ว";
+
+/* Status shown on an item that's finished downloading. Placeholder %% is a folder name. */
+"ActivityCenterItemDownloaded" = "ดาวน์โหลดลงใน %% แล้ว";
+
+/* Status shown on an item that's finished moving. Placeholder %% is a folder name. */
+"ActivityCenterItemMoved" = "ย้ายไปยัง %% แล้ว";
+
+/* Status shown on an item that was renamed. Placeholder %% is a folder name. */
+"ActivityCenterItemRenamed" = "เปลี่ยนชื่อใน %% แล้ว";
+
+/* Status shown on an item that represents a placeholder file. Placeholder %% is a folder name. */
+"ActivityCenterItemPlaceholder" = "พร้อมใช้งานใน %%";
+
+/* Timestamp on an item. Placeholders are for time difference and units E.g. 5 minutes ago */
+"ActivityCenterItemTime" = "%1$@ %2$@ ที่แล้ว";
+
+/* Timestamp on an item plus application. Placeholders %1$@ %2$@ are for time difference and units. %3$@ is an application name E.g. 5 minutes ago · Microsoft Word */
+"ActivityCenterItemTimeWithAppName" = "%1$@ %2$@ที่ผ่านมา · %3$@";
+
+/* Timestamp on an item plus application. Placeholder %1$@ is for a date. %2$@ is an application name E.g. 8/24/2018 · Microsoft Word */
+"ActivityCenterItemDateWithAppName" = "%1$@ · %2$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncing" = "กำลังซิงค์ %1$@ ไฟล์ · %2$@ %3$@ จาก %4$@ %5$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncingSingle" = "กำลังซิงค์ 1 ไฟล์ · %1$@ %2$@ จาก %3$@ %4$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing changes */
+"ActivityCenterSummaryProcessingChanges" = "กำลังทำการเปลี่ยนแปลง";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing a single change */
+"ActivityCenterSummaryProcessingChangesCountSingle" = "กำลังประมวลผลการเปลี่ยนแปลง";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing multiple changes. The placeholder %1$@ indicates the number of changes */
+"ActivityCenterSummaryProcessingChangesCount" = "กำลังประมวลผลการเปลี่ยนแปลง %1$@ รายการ";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're looking for file system changes */
+"ActivityCenterSummaryLooking" = "กำลังมองหาการเปลี่ยนแปลง";
+
+/* Text read aloud when list of recent files is selected */
+"ActivityCenterHistoryListAccessibleText" = "ไฟล์ล่าสุด";
+
+/* time units used in activity center on timestamps. E.g. 1 second ago */
+"ActivityCenterSecondSingle" = "วินาที";
+
+/* time units used in activity center on timestamps. E.g. N seconds ago */
+"ActivityCenterSecondsMultiple" = "วินาที";
+
+/* time units used in activity center on timestamps. E.g. 1 minute ago */
+"ActivityCenterMinuteSingle" = "นาที";
+
+/* time units used in activity center on timestamps. E.g. N minutes ago */
+"ActivityCenterMinutesMultiple" = "นาที";
+
+/* time units used in activity center on timestamps. E.g. 1 hour ago */
+"ActivityCenterHourSingle" = "ชั่วโมง";
+
+/* time units used in activity center on timestamps. E.g. N hours ago */
+"ActivityCenterHoursMultiple" = "ชั่วโมง";
+
+/* Text shown on a button in the Activity Center that takes the user to the Upgrade storage page on OneDrive */
+"ActivityCenterQuotaButtonGetMoreStorage" = "รับที่เก็บข้อมูลเพิ่ม";
+
+/* Text shown on a link in the Activity Center that takes the user to the Free up space page on OneDrive */
+"ActivityCenterQuotaButtonFreeUpSpace" = "เพิ่มเนื้อที่ว่าง";
+
+/* Primary text shown in the Activity Center when the user's quota is nearing maximum or in a critical state. The placeholders are the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso") and the percentage of space occupied, e.g Your OneDrive is 98% full */
+"ActivityCenterQuotaCriticalTitle, %@ %@" = "%1$@ ของคุณเต็มไป %2$@% แล้ว";
+
+/* Secondart text shown in the Activity Center when the user is approaching critical quota. The placeholders are size and units remaining. E.g. You have only 10 MB of available space */
+"ActivityCenterQuotaLeftText, %@ %@" = "คุณเหลือเนื้อที่ว่างที่พร้อมใช้งานเพียง %1$@ %2$@";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive. */
+"ActivityCenterQuotaReachedBody" = "รับที่เก็บข้อมูลเพิ่มเพื่อดำเนินการซิงค์ไฟล์ใหม่ต่อ";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for Office 365 users. */
+"ActivityCenterQuotaReachedBody1TB" = "เมื่อต้องการเพิ่มพื้นที่ว่าง ให้นำไฟล์ที่ไม่ต้องการแล้วออกไป";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for business users. */
+"ActivityCenterQuotaReachedBodyBusiness" = "ติดต่อแผนกไอทีของคุณเพื่อขอข้อมูลเพิ่มเติม หรือเพิ่มพื้นที่ว่างด้วยการนำไฟล์ออก";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitleBusiness, %@" = "%1$@ ของคุณมีเนื้อที่ไม่เพียงพอ";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitle, %@" = "%1$@ ของคุณเต็มแล้ว";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown for 1 week before switching to the normal banner text. */
+"ActivityCenterQuotaUpsellBannerIntroTitle" = "ขอแนะนำฟีเจอร์แบบพรีเมียม";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalTitle" = "เปลี่ยนไปใช้แบบพรีเมียม";
+
+/* Secondary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalBody" = "รับที่เก็บข้อมูลขนาด 1 TB (1000 GB) และแอปพลิเคชัน Office 2016 ใหม่เอี่ยมทั้งหมด";
+
+/* Part of the secondary text shown in the Activity Center for users without an O365 subscription. This appears in the banner for both upsell states of the banner. */
+"ActivityCenterQuotaUpsellBannerLearnMore" = "เรียนรู้เพิ่มเติม";
+
+/* The Accessibility text hint for the ACM dismiss button. */
+"ActivityCenterMessageDismissHint" = "ยกเลิก";
+
+/* Primary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInTitle" = "ลงชื่อเข้าใช้ OneDrive เพื่อเริ่มต้นใช้งาน";
+
+/* Secondary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInBody" = "ลงชื่อเข้าใช้ OneDrive เพื่อเข้าถึงไฟล์ของคุณและซิงค์กับอุปกรณ์นี้";
+
+/* Button text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInButton" = "ลงชื่อเข้าใช้";
+
+/* Text shown in the Activity Center while we are signing the user in. */
+"ActivityCenterSigningIn" = "กำลังลงชื่อเข้าใช้";
+
+/* Text shown in the Activity Center while we are signing the user out. */
+"ActivityCenterSigningOut" = "กำลังลงชื่อออก";
+
+/* Clicking this button will open (action) the OneDrive folder in File Explorer */
+"ActivityCenterFooterButtonOpenFolder" = "เปิดโฟลเดอร์";
+
+/* Clicking this button will open (action) a web portal where the user can upgrade their account */
+"ActivityCenterFooterButtonGoPremium" = "เปลี่ยนไปใช้แบบพรีเมียม";
+
+/* Clicking this button opens the user's (action) OneDrive folder online. ("View" here is an action) */
+"ActivityCenterFooterButtonViewOnline" = "ดูแบบออนไลน์";
+
+/* Clicking this button opens (action) a context menu which contains extra actions like pause, settings and quit */
+"ActivityCenterFooterButtonMore" = "เพิ่มเติม";
+
+/* Accessibility text for button that will cancel a download */
+"ActivityCenterCancelButtonAccessibleName" = "ยกเลิกการดาวน์โหลด";
+
+/* The name "OneDrive" */
+"OneDriveBrandName" = "OneDrive";
+
+/* Primary text shown in the alert of restart after crash */
+"RestartAfterCrashAlertTitle" = "OneDrive มีปัญหาบางอย่าง";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is enabled */
+"RestartAfterCrashAlertBodyReportAProblemEnabled" = "ขออภัยที่คุณต้องประสบปัญหากับ OneDrive คุณสามารถขอความช่วยเหลือจากฝ่ายสนับสนุนได้ด้วยการรายงานปัญหานี้ หรือคุณอาจจะลองรีเซ็ต OneDrive ก็ได้ ถ้าคุณรีเซ็ต OneDrive ใหม่ คุณจำเป็นจะต้องติดตั้งแอป OneDrive อีกครั้ง";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is disabled */
+"RestartAfterCrashAlertBodyReportAProblemDisabled" = "ขออภัยที่คุณต้องประสบปัญหากับ OneDrive คุณสามารถขอความช่วยเหลือจากฝ่ายสนับสนุนได้ด้วยการรายงานปัญหานี้ หรือคุณอาจจะลองรีเซ็ต OneDrive ก็ได้ ถ้าคุณรีเซ็ต OneDrive ใหม่ คุณจำเป็นจะต้องติดตั้งแอป OneDrive อีกครั้ง";
+
+/* Text for report a problem button shown in the alert of restart after crash */
+"RestartAfterCrashAlertReportAProblemButtonText" = "รายงานปัญหา";
+
+/* Text for reset onedrive button shown in the alert of restart after crash */
+"RestartAfterCrashAlertResetOneDriveButtonText" = "รีเซ็ต OneDrive";
+
+/* Text for cancel button shown in the alert of restart after crash */
+"RestartAfterCrashAlertCancelButtonText" = "ยกเลิก";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared */
+"ShareWebWindowTitle, %@" = "แชร์ %@";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared - this one has quotes around the item name */
+"ShareWebWindowTitleWithQuotes:%@" = "แชร์ \"%@\"";
+
+/* Error primary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorTitleGeneric" = "มีบางอย่างเกิดขึ้น";
+
+/* Error secondary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorSecondaryTextGeneric" = "เราไม่สามารถแชร์รายการนี้ได้ในขณะนี้ โปรดลองอีกครั้งในภายหลัง";
+
+/* Error primary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorTitleOffline" = "เชื่อมต่อกับอินเทอร์เน็ต";
+
+/* Error secondary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorSecondaryTextOffline" = "ดูเหมือนว่าคุณไม่ได้เชื่อมต่อกับอินเทอร์เน็ตอยู่ ลองแชร์อีกครั้งเมื่อคุณออนไลน์";
+
+/* Text on error button in the Sharing Web Browser window */
+"ShareWebErrorButtonText" = "ลองอีกครั้ง";
+
+/* Text shown on the Loading view of the Sharing Web Browser window */
+"ShareWebLoading" = "กำลังโหลด";
+
+/* Text read by the Voice Over utility (accessibility) for the Loading spinner on the Sharing Web Browser Window. The placeholder is the name of the file / folder being shared. */
+"ShareWebLoadingNarrator:%@" = "กำลังเตรียมพร้อมเพื่อแชร์ %@";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog title */
+"FoundSameNamesUnderFolderErrorTitle" = "ไม่สามารถซิงค์ไฟล์ได้";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog body. The placeholder is the full path of the file. Please keep "\n" intact. */
+"FoundSameNamesUnderFolderErrorBody:%@" = "มีไฟล์อื่นในตำแหน่งเดียวกันใช้ชื่อเดียวกัน หรือมีตัวพิมพ์ใหญ่-เล็กต่างกัน\n%@\nโปรดเปลี่ยนชื่อหรือย้ายไฟล์ใดไฟล์หนึ่ง แล้วเปิดแอปพลิเคชัน OneDrive อีกครั้ง";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog OK button */
+"FoundSameNamesUnderFolderErrorButton" = "ตกลง";
+
+/* Primary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedPrimary" = "การอัปโหลดถูกหยุดชั่วคราว";
+
+/* Secondary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedSecondary" = "กำลังย้ายไฟล์แบบออนไลน์ของคุณไปยังเซิร์ฟเวอร์ให้เข้าใกล้กับคุณ การเปลี่ยนแปลงของคุณจะซิงค์ในทันทีที่การย้ายเสร็จสมบูรณ์";
+
+/* Primary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedPrimary" = "เราได้ดำเนินการซิงค์ไฟล์ของคุณต่อแล้ว";
+
+/* Secondary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedSecondary" = "เราย้ายไฟล์แบบออนไลน์ของคุณไปยังเซิร์ฟเวอร์ในตำแหน่งที่ตั้งใหม่ของคุณเสร็จสิ้น";
+
+/* Primary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantPrimaryText" = "ไม่สามารถซิงค์ OneDrive";
+
+/* Secondary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantSecondaryText" = "แผนก IT ของคุณไม่อนุญาตให้คุณทำการซิงค์ไฟล์จากตำแหน่งนี้ไปยังคอมพิวเตอร์ของคุณ";
+
+/* Text for SyncError MinorVersionLimitExceeded error dialog body */
+"SyncErrorShortDescriptionMinorVersionExceededItem" = "คุณได้ถึงจำนวนสูงสุดของเวอร์ชันรองที่คุณสามารถบันทึกได้สำหรับไฟล์นี้แล้ว เผยแพร่ไฟล์บนไซต์ SharePoint ของคุณ: คลิกขวาที่ไฟล์แล้วเลือก เพิ่มเติม > เผยแพร่ จากนั้นคุณจะสามารถเริ่มบันทึกเวอร์ชันรองได้อีกครั้ง";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast */
+"FolderRecreatedOnFailedDelete Title" = "ไม่สามารถลบโฟลเดอร์ได้";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast where %@ is a folder name */
+"FolderRecreatedOnFailedDelete Message:%@" = "เมื่อต้องการหยุดการซิงค์ \"%@\" กับคอมพิวเตอร์ของคุณ ให้คลิกที่นี่เพื่อไปยัง การกำหนดลักษณะ และยกเลิกการเลือกโฟลเดอร์นี้";
+
+/* Accessibility text for menu item dropdown button */
+"MenuButtonAccessibleName" = "ตัวเลือกเพิ่มเติม";
+
+/* Text for per item menu dropdown Open option */
+"MenuItemOpen" = "เปิด";
+
+/* Text for per item menu dropdown Share option */
+"MenuItemShare" = "แชร์";
+
+/* Text for per item menu dropdown View online option */
+"MenuItemViewOnline" = "ดูออนไลน์";
+
+/* Title of Setting dialog tab that provides options for Office file syncing. */
+"OfficeText" = "Office";
+
+/* Title text of groupbox on the Office settings tab that provides settings for syncing and file collaboration. */
+"OfficeFileCollabGroupBox" = "การทำงานร่วมกันของไฟล์";
+
+/* Explanation text in the File collaboration groupbox that explains syncing files with Office. */
+"OfficeFileCollabTextField" = "ทำงานบนไฟล์ Office ร่วมกับบุคคลอื่นพร้อมกันโดยซิงค์ไฟล์กับ Office";
+
+/* Checkbox text for syncing files with Office 2016. {Locked=!cs, sk;\"Office\"} */
+"OfficeFileCollabCheckBox" = "ใช้แอปพลิเคชัน Office เพื่อซิงค์ไฟล์ Office ที่ฉันเปิด";
+
+/* Group box title for the Sync conflicts group box - provides options for how to deal with Office file sync conflicts. */
+"OfficeConflictGroupBox" = "ข้อขัดแย้งของการซิงค์";
+
+/* Radio button for the option to merge files using Office. */
+"OfficeConflictRadioButtonMerge" = "ให้ฉันเลือกที่จะผสานการเปลี่ยนแปลงหรือเก็บสำเนาทั้งสองชุดไว้";
+
+/* Radio button for option to always keep both copies of a file when the file is in an Office conflict. */
+"OfficeConflictRadioButtonFork" = "เก็บสำเนาทั้งสองไฟล์ทุกครั้ง (เปลี่ยนชื่อสำเนาในคอมพิวเตอร์เครื่องนี้)";
+
+/* Message to notify that an item cannot be deleted and it will be recreated at original location. */
+/* Title Text for SyncError DeleteCancelledByEventReceiver toast */
+"ItemCannotBeDeleted Title" = "มีรายการที่ไม่สามารถลบได้";
+
+/* Body Text for SyncError DeleteCancelledByEventReceiver toast where %@ is an item name */
+"ItemCannotBeDeleted Message:%@" = "เมื่อต้องการหยุดการซิงค์ \"%@\" กับคอมพิวเตอร์ของคุณ ให้คลิกที่นี่เพื่อไปยัง การกำหนดลักษณะ และยกเลิกการเลือกรายการนี้";
+
+/* Message to notify that an item cannot be moved from its original location, item moved
+    will be recreated at source and the moved copy will be uploaded from destination. */
+/* Title Text for SyncError UploadFailedOnCannotMoveThickets toast */
+"ItemCannotBeMoved Title" = "มีรายการที่ไม่สามารถย้ายได้";
+
+/* Body Text for SyncError MoveCancelledByEventReceiver toast where %@ is a item name which cannot be moved. */
+/* Body Text for SyncError MoveFailedOnCannotMoveThickets toast where %@ is a thicket folder name which cannot be moved. */
+"ItemCannotBeMoved Message:%@" = "เราได้คัดลอก \"%@\" ไปยังตำแหน่งใหม่ และอัปโหลดทั้งสองสำเนาแทน";
+
+/* Message to notify that an item cannot be added or changed due to server response of cancelled by event receiver. */
+/* Title Text for SyncError AddOrChangeCancelledByEventReceiver toast */
+"ItemAddOrChangeCancelledByEventReceiver Title" = "มีรายการที่ไม่สามารถอัปโหลดได้";
+
+/* Body Text for SyncError AddOrChangeCancelledByEventReceiver toast where %@ is an item name */
+"ItemAddOrChangeCancelledByEventReceiver Message:%@" = "เมื่อต้องการหยุดการซิงค์ \"%@\" กับคอมพิวเตอร์ของคุณ ให้คลิกที่นี่เพื่อไปยัง การกำหนดลักษณะ และยกเลิกการเลือกรายการนี้";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryClientError" = "แผนก IT ของคุณต้องการให้ Mac ของคุณเข้าร่วมกับโดเมนที่ได้รับอนุมัติ สำหรับความช่วยเหลือในการเชื่อมต่อ Mac ของคุณกับโดเมน โปรดติดต่อแผนก IT ของคุณ";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryDisabled" = "องค์กรของคุณไม่อนุญาตให้ซิงค์โฟลเดอร์นี้ สำหรับข้อมูลเพิ่มเติม โปรดถามเจ้าของไซต์";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryCheckOut" = "จำเป็นต้องเช็คเอาท์เพื่อแก้ไขรายการในโฟลเดอร์นี้ เมื่อต้องการซิงค์โฟลเดอร์นี้ โปรดขอให้เจ้าของไซต์ปิด \"จำเป็นต้องมีการเช็คเอาท์\"";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryColumnInvalid" = "โฟลเดอร์มีคอลัมน์ที่ต้องการข้อมูลที่ไม่สามารถซิงค์ได้ ขอให้เจ้าของไซต์แก้ไขคอลัมน์เพื่อให้ไม่จำเป็นต้องใส่ข้อมูลและนำการตรวจสอบข้อมูลใดๆ ออก";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryIrm" = "โฟลเดอร์ที่คุณกำลังพยายามซิงค์มีการกำหนดค่าสำหรับการจัดการสิทธิ์ในข้อมูล ติดต่อผู้ดูแลระบบไซต์ของคุณเพื่อปิดใช้งานการจัดการสิทธิ์ในข้อมูลบนโฟลเดอร์นี้";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryModeration" = "ต้องอนุมัติรายการที่จะเพิ่มไปยังโฟลเดอร์ เมื่อต้องการซิงค์โฟลเดอร์นี้ โปรดขอให้เจ้าของไซต์ปิด \"การอนุมัติเนื้อหา\"";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibrary" = "การตั้งค่าที่เปลี่ยนแปลงเมื่อเร็วๆ นี้ป้องกันไม่ให้ซิงค์โฟลเดอร์นี้ ติดต่อแผนก IT ของคุณเพื่อขอข้อมูล";
+
+/* Resolution message text for LostPermissionsToMountPoint error */
+"LostPermissionsToMountPoint" = "คุณไม่มีสิทธิ์ในการซิงค์ไลบรารีนี้ ดูไลบรารีนี้แบบออนไลน์เพื่อขอการเข้าถึง หรือคลิกหรือแตะเพื่อหยุดการซิงค์ไลบรารีนี้";
+
+/* Resolution message text for LibraryDeleted error */
+"LibraryDeleted" = "ไลบรารีนี้ถูกเอาออก แต่ไฟล์ใดๆ ที่ถูกบันทึกไปยังอุปกรณ์นี้จะยังคงอยู่ คลิกหรือแตะเพื่อหยุดการซิงค์ไลบรารีนี้ หรือติดต่อเจ้าของไลบรารี";
+
+/* Resolution message text for ServiceBlockedLibrary error */
+"ServiceBlockedLibrary" = "เราไม่สามารถเข้าถึงไลบรารีนี้ได้เนื่องจากปัญหาในการให้บริการ โปรดรีสตาร์ต OneDrive เพื่อลองอีกครั้ง";
+
+/* Resolution message text for LibraryNotFound error */
+"LibraryNotFound" = "เราหาไลบรารีนี้ไม่พบ โปรดคลิกหรือแตะเพื่อหยุดการซิงค์ไลบรารีนี้ หรือติดต่อผู้ดูแลระบบ IT ของคุณ";
+
+/* Error message text for SyncIrmFileFailed error */
+"SyncIrmFileFailed" = "เราไม่สามารถซิงค์ไฟล์ที่ได้รับการป้องกันนี้ โปรดติดต่อผู้ดูแลระบบ SharePoint ของไฟล์ที่ได้รับการป้องกันนี้เพื่อร้องขอการเข้าถึง";
+
+/* Error message text for IrmRejectedItemOnUpload error */
+"IrmRejectedItemOnUpload" = "ไม่สามารถซิงค์ไฟล์นี้ได้เนื่องจากกำหนดค่าการตั้งค่าไลบรารี IRM ให้บล็อกผู้ใช้ไม่ให้อัปโหลดเอกสารที่ไม่สนับสนุน IRM";
+
+/* Error message text for IrmExtensionChangeBlockedItem error */
+"IrmExtensionChangeBlockedItem" = "เราไม่สามารถซิงค์รายการนี้ได้เนื่องจากนโยบายขององค์กรของคุณไม่อนุญาตให้เปลี่ยนนามสกุลไฟล์ โปรดทำงานแบบออนไลน์และเปลี่ยนนามสกุลไฟล์กลับไปเป็นชื่อเดิม หรือติดต่อผู้ดูแลไซต์ของคุณ";
+
+/* Error message text for IrmEncryptFailedToFindProtectorItem error */
+"IrmEncryptFailedToFindProtectorItem" = "เราไม่สามารถซิงค์รายการนี้ได้เนื่องจากนโยบายขององค์กรของคุณไม่อนุญาตให้เปลี่ยนนามสกุลไฟล์ โปรดติดต่อผู้ดูแลไซต์ของคุณ";
+
+/* Error message for ItemCantFitOnDisk error. */
+"ItemCantFitOnDisk" = "มีเนื้อที่บนคอมพิวเตอร์เครื่องนี้ไม่เพียงพอที่จะซิงค์ไฟล์นี้";
+
+/* Text for menu item to open help center */
+"MainMenuItemHelpCenter" = "ศูนย์วิธีใช้";
+
+/* Window title used for send feedback.
+ There's probably no need to localize this string. */
+"FeedbackApplicationTitle" = "Microsoft OneDrive";
+
+/* Send feedback menu item label */
+"FeedbackMenuLabel" = "ส่งคำติชม";
+
+/* Send feedback window title */
+"FeedbackWindowTitle" = "ส่งคำติชม";
+
+/* Link to privacy statement page */
+"FeedbackPrivacyLinkText" = "<a href=\"#\">ความเป็นส่วนตัวของคุณเป็นสิ่งความสำคัญสำหรับเรา</a>";
+
+/* Link to terms of service page */
+"FeedbackTosLinkText" = "<a href=\"#\">Microsoft</a> รวบรวมคำติชมของคุณ และใช้เพื่อปรับปรุงประสบการณ์ของคุณ";
+
+/* Header of the button to send positive feedback */
+"FeedbackSmileChoiceTitle" = "ฉันชอบบางอย่าง";
+
+/* Explanation for the send positive feedback button */
+"FeedbackSmileChoiceText" = "เราอยากได้ยินว่าเรากำลังทำอะไรถูกต้อง";
+
+/* Placeholder for the user input field */
+"FeedbackSmileFieldTip" = "บอกเราว่าคุณชอบอะไร";
+
+/* Placeholder for the user input field */
+"FeedbackFrownFieldTip" = "บอกเราว่าคุณไม่ชอบอะไร";
+
+/* Header of the send negative feedback button */
+"FeedbackFrownChoiceTitle" = "ฉันไม่ชอบบางอย่าง";
+
+/* Explanation for the send negative feedback button */
+"FeedbackFrownChoiceText" = "ถ้ามีบางอย่างไม่ถูกต้อง เราต้องการทราบเกี่ยวกับสิ่งนั้น";
+
+/* Header of the Send a Suggestion button */
+"FeedbackSuggestionChoiceTitle" = "ฉันมีข้อเสนอแนะ";
+
+/* Explanation for the Send a Suggestion button */
+"FeedbackSuggestionChoiceText" = "แชร์ความคิดหรือการปรับปรุง";
+
+/* Checkbox label to opt-in/opt-out of sending log files */
+"FeedbackIncludeLogsLabel" = "รวมการวินิจฉัยและข้อมูลการใช้งาน";
+
+/* Label for the button to send feedback */
+"FeedbackSendButtonLabel" = "ส่ง";
+
+/* Label for the button to resent feedback in the case of sending failure */
+"FeedbackRetryButtonLabel" = "ลองอีกครั้ง";
+
+/* Label for the button to cancel feedback submission request */
+"FeedbackCancelButtonLabel" = "ยกเลิก";
+
+/* Label for the button to finish send feedback */
+"FeedbackCloseButtonLabel" = "ปิด";
+
+/* Message shown in the case of feedback submission failure */
+"FeedbackSendFailureText" = "ขออภัย มีปัญหาในการส่งคำติชมของคุณ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ แล้วลองอีกครั้ง คุณยังสามารถรายงานปัญหาของคุณโดย <a href=\"#\">ติดต่อฝ่ายสนับสนุน</a>";
+
+/* Message shown during feedback submission */
+"FeedbackSendingText" = "กำลังส่ง...";
+
+/* Message shown at the end of feedback submission. */
+"FeedbackSendSuccessText" = "เราขอบคุณสำหรับคำติชมของคุณ! ข้อคิดเห็นของคุณจะช่วยให้เราปรับปรุง";
+
+/* Window title shown at the end of feedback submission. */
+"FeedbackSendSuccessTitle" = "ขอบคุณ";
+
+/* Label for the button to go back to feedback type selection page. */
+"FeedbackBackButtonLabel" = "ย้อนกลับ";
+
+/* Title of local mass delete prompt for personal instance. */
+"LocalMassDeletePromptTitlePersonal" = "เอาไฟล์ออกจาก OneDrive หรือไม่";
+
+/* Title of local mass delete prompt for business instance. */
+"LocalMassDeletePromptTitleBusiness" = "เอาไฟล์ออกจากตำแหน่งที่ตั้งทั้งหมดหรือไม่";
+
+/* Body of local mass delete prompt for personal instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyPersonal:%@" = "คุณเพิ่งลบ %@ ไฟล์ออกจากอุปกรณ์นี้ คุณต้องการเอาไฟล์เหล่านี้ออกจาก OneDrive ด้วยหรือไม่";
+
+/* Body of local mass delete prompt for business instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyBusiness:%@" = "คุณเพิ่งลบ %@ ไฟล์ออกจากอุปกรณ์นี้ คุณต้องการเอาไฟล์เหล่านี้ออกจาก OneDrive และไลบรารีที่แชร์ทั้งหมดหรือไม่";
+
+/* Text of Restore button of local mass delete prompt. */
+"LocalMassDeletePromptRestoreButton" = "คืนค่าไฟล์";
+
+/* Text of Delete button of local mass delete prompt. */
+"LocalMassDeletePromptDeleteButton" = "เอาออก";
+
+/* Text of Opt out checkbox of local mass delete prompt. */
+"LocalMassDeletePromptOptoutCheckbox" = "เอาไฟล์ออกเสมอ";
+
+/* Activity center local mass delete per item history description. */
+"ActivityCenterItemPendingRemoval" = "รอดำเนินการเอาออกจาก OneDrive";
+
+/* Checkbox text to toggle the local mass delete feature in settings dialog. */
+"LocalMassDeleteSettingsCheckbox" = "เตือนฉันก่อนที่จะเอาไฟล์ออกจากระบบคลาวด์";
+
+/* Title text of local mass delete confirmed ACM. */
+"LocalMassDeleteConfirmedTitle" = "จำเป็นต้องคืนค่าไฟล์หรือไม่";
+
+/* Body text of local mass delete confirmed ACM for personal instance. */
+"LocalMassDeleteConfirmedBodyPersonal" = "การลบไฟล์ใน OneDrive จะลบไฟล์เหล่านั้นบนอุปกรณ์ทั้งหมด คุณสามารถคืนค่าไฟล์จากถังรีไซเคิลของ OneDrive ได้ใน 30 วัน";
+
+/* Body text of local mass delete confirmed ACM for business instance. */
+"LocalMassDeleteConfirmedBodyBusiness" = "การลบไฟล์ใน OneDrive จะลบไฟล์เหล่านั้นออกจากอุปกรณ์และตำแหน่งที่ตั้งทั้งหมด คุณสามารถคืนค่าไฟล์จากถังรีไซเคิลใน OneDrive หรือไลบรารีที่แชร์ได้ใน 93 วัน คลิกด้านล่างเพื่อไปที่ถังรีไซเคิลที่มีไฟล์ที่ถูกลบล่าสุด";
+
+/* Text of recycle bin button of LocalMassDelete confirmed ACM. */
+"LocalMassDeleteRecycleBin" = "ถังรีไซเคิล";
+
+/* Header text informing user that an application is downloading their files. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeader:%@" = "%@ กำลังดาวน์โหลดจาก OneDrive";
+
+/* Header text informing user that an application is downloading their files. This version is used if many files are downloading. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeaderAboveThreshold:%@" = "%@ กำลังดาวน์โหลดไฟล์จำนวนมากจาก OneDrive";
+
+/* Body text informing user that an application is downloading their files. Clicking on this toast will open a confirmation dialog. */
+"CloudFilesHydrationToastBody" = "เมื่อต้องการยกเลิกการดาวน์โหลดนี้และการดาวน์โหลดในอนาคต ให้คลิกที่นี่";
+
+/* Header text informing user that an application is downloading their files. %1$@ is an application name. %2$u is a number. */
+"CloudFilesHydrationDialogHeader:%@,%u" = "%1$@ กำลังดาวน์โหลด %2$u ไฟล์";
+
+/* Body text informing user that an application is downloading their files. %@ is an application name. */
+"CloudFilesHydrationDialogBody:%@" = "คุณสามารถปล่อยให้แอปดาวน์โหลดต่อ หรือหยุดการดาวน์โหลด เลือก \"บล็อกแอป\" เพื่อหยุดการดาวน์โหลดในอนาคตทั้งหมดจาก %@";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will continue downloading files. */
+"CloudFilesHydrationDialogContinueButton" = "ดาวน์โหลดต่อ";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files. */
+"CloudFilesHydrationDialogStopButton" = "หยุดการดาวน์โหลด";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files and block this application from future downloads. */
+"CloudFilesHydrationDialogBlockButton" = "บล็อกแอป";
+
+// Download And Go
+
+/* Download And Go application friendly name*/
+"DownloadAndGoFriendlyName" = "ตัวเปิดใช้ไฟล์ OneDrive";
+
+/* Download And Go window title when no errors are displayed. %@ is a number. */
+"DownloadAndGoTitle:%@" = "กำลังดาวน์โหลด %@ รายการไปยัง OneDrive";
+
+/* Download And Go downloading message. %@ is a file name. */
+"DownloadAndGoDownloadingMessage:%@" = "กำลังดาวน์โหลด \"%@\"";
+
+/* Download And Go progress message for progressing hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoProgressingHydrationProgress: %@ %@" = "%1$@ จาก %2$@";
+
+/* Download And Go progress message for queued hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoQueuedHydrationProgress: %@ %@" = "%1$@ จาก %2$@ - ดาวน์โหลดที่ค้างอยู่";
+
+/* Download And Go window title when errors are displayed*/
+"DownloadAndGoErrorsTitle" = "ไม่สามารถดาวน์โหลดไปยัง OneDrive";
+
+/* Download And Go error message. %@ is file name. %d is a number. */
+"DownloadAndGoErrorMessage: %@ %d" = "OneDrive ไม่สามารถดาวน์โหลด \"%1$@\" ได้ (รหัสข้อผิดพลาด %2$d)";
+
+/* Download And Go cancel error button */
+"DownloadAndGoCancelErrorButton" = "ยกเลิก";
+
+/* Download And Go try hydration again button */
+"DownloadAndGoTryAgainButton" = "ลองอีกครั้ง";
+
+// Finder Sync Extension Activity Center Messages
+
+/* The title of the large ACM used to inform the user about Files On-Demand if the Finder Sync Extension is enabled. */
+"FinderSyncEnabledTitle" = "ไฟล์แบบออนไลน์ช่วยคุณประหยัดพื้นที่";
+
+/* The body of a large ACM that informs the user about Files On-Demand if the Finder Sync Extension is enabled. "Finder" should be translated the same way as in the Mac OSX. "Always keep on this device" should be translated the same as the MenuItemPinCommand string. */
+"FinderSyncEnabledBody" = "คุณสามารถเข้าสู่ OneDrive ของคุณทั้งหมดได้แล้วในตอนนี้โดยไม่เสียพื้นที่ในดิสก์ของคุณ ถ้าคุณต้องการใช้ไฟล์ใดแบบออฟไลน์ ให้คลิกขวาที่ไฟล์นั้นใน ตัวค้นหา แล้วเลือก \"เก็บไว้บนอุปกรณ์นี้เสมอ\"";
+
+/* The first button's text in a large ACM that that informs the user about Files On-Demand. When clicked, the message is dismissed. */
+"FinderSyncOkay" = "ตกลง";
+
+/* The text of a button that opens a URL with more information about Files On-Demand. Used in all Finder Sync ACMs. */
+"FinderSyncLearnMore" = "เรียนรู้เพิ่มเติม";
+
+/* The title of the large ACM used to prompt them to enable the Finder Sync Extension. */
+"FinderSyncPromptTitle" = "ใช้ประโยชน์จากการเข้าถึงไฟล์ได้ตามใจ";
+
+/* The body of a large ACM that prompts the user to enable the Finder Sync Extension if it is disabled. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptBody" = "การเข้าถึงไฟล์ได้ตามใจช่วยให้คุณเพิ่มเนื้อที่ว่างบนคอมพิวเตอร์ของคุณโดยการทำเครื่องหมายไฟล์ OneDrive เป็นแบบออนไลน์อย่างเดียว เมื่อต้องการทำเครื่องหมายไฟล์เป็นแบบออนไลน์อย่างเดียว คุณจะต้องเปิดส่วนขยายตัวค้นหา OneDrive";
+
+/* The first button's text in a large ACM that prompts the user to enable the Finder Sync Extension. When clicked, the user's Extensions settings are opened. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptEnableExtension" = "เปิดใช้งานส่วนขยายตัวค้นหา";
+
+/* The title text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpTitle" = "ตั้งค่าการเข้าถึงไฟล์ได้ตามใจเรียบร้อยแล้ว";
+
+/* The body text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpBody" = "ไฟล์ของคุณจะพร้อมใช้งานตามความต้องการเพื่อประหยัดพื้นที่";
+
+/* The title of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */
+"FinderSyncEnabledWithSelectiveSyncTitle" = "ดูไฟล์ทั้งหมดของคุณ";
+
+/* The body of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */ 
+"FinderSyncEnabledWithSelectiveSyncBody" = "คุณกำลังซิงค์ไฟล์บางไฟล์ไปยังอุปกรณ์นี้ ขณะนี้การเข้าถึงไฟล์ได้ตามใจช่วยให้คุณสามารถดูไฟล์ทั้งหมดของคุณบนอุปกรณ์นี้โดยไม่ต้องใช้พื้นที่ดิสก์";
+
+/* The button of an ACM that prompts the user to disable Selective Sync if the Finder Sync Extension is enabled and Files On-Demand is enabled. */
+"FinderSyncEnabledTurnOffSelectiveSyncButton" = "ดูไฟล์ทั้งหมด";
+
+// Strings for the kext installer helper
+
+/* Window title for the kext installer helper*/
+"KextWizardWindowTitle" = "Microsoft OneDrive";
+
+/* Body header for the kext installer helper */
+"KextWizardBodyHeader" = "อัปเดตการเข้าถึงไฟล์ได้ตามใจ";
+
+/* Body text for the kext installer helper*/
+"KextWizardBodyText" = "เมื่อต้องการใช้ การเข้าถึงไฟล์ได้ตามใจ คุณจำเป็นต้องอนุญาตส่วนขยายระบบจาก OneDrive คลิก เปิดการกำหนดลักษณะความปลอดภัย แล้วคลิก อนุญาต";
+
+/* Action button for the kext installer helper */
+"KextWizardOpenSecurityButton" = "เปิดการกำหนดลักษณะความปลอดภัย";
+
+// Throttling
+
+/* Individual file gets throttled */
+"FileTransferThrottled" = "คุณอาจประสบกับความล่าช้าในการซิงค์ชั่วคราวเนื่องจากมีกิจกรรมการบริการเป็นจำนวนมาก เราจะลองอัปเดตไฟล์อีกครั้งในเร็วๆ นี้";
+
+/* Title text shown in the sub-header of the Activity Center indicating that a number of items couldn't be synced. */
+"FileTransferThrottledPrimary" = "การซิงค์ล่าช้า";
+
+/* Description text shown on the sub-header of the Activity Center when there are files being throttled. */
+"FileTransferThrottledSecondary" = "คุณอาจพบการซิงค์ที่ล่าช้าชั่วคราวเนื่องจากมีกิจกรรมการบริการสูง";
+
+/* Describes the generic resolution, in the Errors Window, of a file that cannot sync because it is in use by another process. */
+"FilePostponedByClient" = "ไฟล์นี้เปิดอยู่โดยโปรแกรมอื่นและไม่สามารถซิงค์ได้ เราจะสามารถซิงค์ไฟล์ได้หลังจากปิดไฟล์";
+
+/* Title text shown in the sub-header of the Activity Center indicating that one file is in use by another application. */
+"FilePostponedByClientSingular" = "ไฟล์หนึ่งไฟล์กำลังถูกใช้โดยแอปพลิเคชันอื่น";
+
+/* Title text shown in the sub-header of the Activity Center indicating that multiple files are in use by other applications. %@ is a number. */
+"FilePostponedByClientPlural:%@" = "ไฟล์ %@ ไฟล์กำลังถูกใช้งานโดยแอปพลิเคชันอื่น";
+
+// Reset UI strings
+
+/* Window title used for the Reset popup window */
+"ResetApplicationTitle" = "Microsoft OneDrive";
+
+/* Header text for the Reset popup window */
+"ResetHeaderText" = "รีเซ็ต OneDrive";
+
+/* Description text for what happens during a reset */
+"ResetDescriptionText" = "ถ้าคุณกำลังมีปัญหาเกี่ยวกับการซิงค์ OneDrive ของคุณ การตั้งค่าใหม่อาจช่วยได้ การดำเนินการตั้งค่าใหม่จะหยุดบริการที่ซิงค์ชั่วคราวและซิงค์อีกครั้งตามลำดับชั้นของไฟล์และเนื้อหาจากระบบคลาวด์ไปยังคอมพิวเตอร์เฉพาะที่ของคุณ <a href=\"#\">เรียนรู้เพิ่มเติม</a>";
+
+/* Checkbox text to ask if the user wants to preserve their selective sync and teamsites settings */
+"ResetSettingsCheckboxText" = "เก็บการตั้งค่าและการกำหนดค่าไฟล์ของฉัน (แนะนำ)";
+
+/* Button text to abort the reset process */
+"ResetCancelButtonLabel" = "ยกเลิก";
+
+/* Button text to begin the reset process */
+"ResetConfirmButtonLabel" = "ตั้งค่าใหม่";
+
+/* Title text for reset in progress ACM */
+"ResetInProgressTitle" = "เรากำลังตั้งค่าใหม่";
+
+/* Body text for reset in progress ACM */
+"ResetInProgressBody" = "ทำงานกับไฟล์ของคุณต่อไปในขณะที่เราตั้งค่าใหม่ ไฟล์ของคุณจะบันทึกลงในดิสก์ภายในเครื่องของคุณและอัปโหลดไปยัง OneDrive หลังจากตั้งค่าใหม่";
+
+/* Title text for reset successful ACM */
+"ResetSuccessTitle" = "ตั้งค่าใหม่เสร็จสมบูรณ์แล้ว";
+
+/* Body text for reset successful ACM */
+"ResetSuccessBody" = "OneDrive ของคุณดีเหมือนใหม่";
+
+/* Title text for reset successful with errors ACM */
+"ResetSuccessWithErrorsTitle" = "ตั้งค่าใหม่เสร็จสมบูรณ์แล้ว แต่...";
+
+/* Body text for reset successful with errors ACM */
+"ResetSuccessWithErrorsBody" = "OneDrive ของคุณยังมีข้อผิดพลาดที่การตั้งค่าใหม่ไม่สามารถแก้ไขได้ แตะหรือคลิกเพื่อดูรายการเหล่านั้น";
+
+/* Title text for reset failed ACM */
+"ResetFailureTitle" = "ไม่สามารถตั้งค่าใหม่";
+
+/* Body text for reset failed ACM */
+"ResetFailureBody" = "มีบางอย่างผิดพลาด <a href=\"#\">เรียนรู้เพิ่มเติม</a>";
+
+/* Title text for reset successful history list item */
+"ActivityListHistoryResetSuccessPrimary" = "ตั้งค่าใหม่เสร็จสมบูรณ์แล้ว";
+
+/* Body text for reset successful history list item */
+"ActivityListHistoryResetSuccessSecondary" = "OneDrive ของคุณดีเหมือนใหม่";
+
+/* Title text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsPrimary" = "ตั้งค่าใหม่เสร็จสมบูรณ์แล้ว";
+
+/* Body text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsSecondary" = "คุณยังมีข้อผิดพลาดบางอย่าง";
+
+/* Title text for reset failed history list item */
+"ActivityListHistoryResetFailurePrimary" = "ไม่สามารถตั้งค่าใหม่";
+
+/* Body text for reset failed history list item */
+"ActivityListHistoryResetFailureSecondary" = "มีบางอย่างผิดพลาด";
+
+/* Title text for reset completed toast */
+"ToastResetCompletedTitle" = "การตั้งค่า OneDrive ใหม่เสร็จสมบูรณ์แล้ว";
+
+/* Body text for reset completed toast */
+"ToastResetCompletedBody" = "แตะหรือคลิกที่นี่เพื่อดูสถานะไฟล์ของคุณ";
+
+/* Title text for reset failed toast */
+"ToastResetFailedTitle" = "OneDrive ไม่สามารถตั้งค่าใหม่ได้";
+
+/* Body text for reset failed toast */
+"ToastResetFailedBody" = "แตะหรือคลิกที่นี่เพื่อดูขั้นตอนถัดไป";
+
+// End Reset UI strings
+
+/* Resolution message for client access denied. */
+"ClientAccessDeniedErrorsShortDescription" = "คุณไม่มีสิทธิ์ในการเข้าถึงรายการ ให้ตรวจสอบว่า คุณมีสิทธิ์ที่เหมาะสมเพื่ออนุญาตให้ซิงค์รายการ";
+
+// Purchase Window Strings
+
+/* Title text show in Purchase Window */
+"PurchaseWindowTitle" = "Microsoft OneDrive";
+
+/* Header text shown in Purchase Window */
+"PurchaseWindowHeader" = "รับประสบการณ์ระดับพรีเมียม!";
+
+/* Header text shown in Purchase Window after buying the subscription */
+"PurchaseSuccessWindowHeader" = "ขอแสดงความยินดี!";
+
+/* Header text shown in Purchase Window while buying the subscription */
+"PurchaseWindowLoadingTitle" = "กำลังโหลด";
+
+/* Body text shown in the Purchase Window*/
+"PurchaseWindowBody" = "เพลิดเพลินกับฟีเจอร์ OneDrive ระดับพรีเมียมด้วยการสมัครใช้งาน Office 365 ฟรีหนึ่งเดือน เลือกแผนที่เหมาะสมสำหรับคุณ และเริ่มทดลองใช้ฟรี";
+
+/* Body text shown in the Purchase Window after buying the subscription */
+"PurchaseSuccessWindowBody" = "ขณะนี้คุณสามารถเข้าถึงฟีเจอร์เฉพาะ บัตรของคุณจะถูกเรียกเก็บเงินโดยอัตโนมัติหลังทดลองใช้ 1 เดือน";
+
+/*Link button to skip the window */
+"PurchaseWindowSkipNowLink" = "ข้ามไปก่อน";
+
+/* Sub text in product subscription card describing our premium features*/
+"PurchaseCardMainBody" = "ฟีเจอร์ของ OneDrive แบบพรีเมียม";
+
+/* Decribes our product subscription right below a row of images showing the office apps*/
+"PurchaseCardSubBody" = "แอป Office ล่าสุดสำหรับพีซีและ Mac";
+
+/* Purchase card button text which will start a purchase flow */
+"PurchaseCardButtonText" = "เปลี่ยนไปใช้แบบพรีเมียม - ฟรีเดือนแรก";
+
+/* Purchase card link text which will launch a learn more campaign */
+"PurchaseCardLinkText" = "เรียนรู้เพิ่มเติม";
+
+/* Personal subscription card list text. Only for 1 person  */
+"PurchasePersonalList1" = "สำหรับรายบุคคล";
+
+/* Home subscription card list text. Bundle avaiable for 6 people*/
+"PurchaseHomeList1" = "สำหรับ 6 คน";
+
+/* Personal subscription card list text. 1 Terabyte of storage in OneDrive */
+"PurchasePersonalList2" = "ที่เก็บข้อมูลขนาด 1 TB";
+
+/* Home subscription card list text. 6 Terabyte of storage in OneDrive */
+"PurchaseHomeList2" = "ที่เก็บข้อมูลขนาด 6 TB";
+
+/* Common subscription card list text for all bundles. Access advanced security features */
+"PurchaseCommonList3" = "ความปลอดภัยขั้นสูง";
+
+/* Common subscription card list text for all bundles. Access more producitivty tool*/
+"PurchaseCommonList4" = "เครื่องมือประสิทธิภาพการทำงาน";
+
+/* Price of a yearly subscription. %@ is money symbol followed by a decimal number. Example: $59.99*/
+"PurchasePriceYearConstant:%@" = "%@/ปี";
+
+/* Close the window */
+"PurchaseCloseButtonText" = "ปิด";
+
+/* Accessible name for a list of Microsoft Office Products*/
+"PurchaseIconAccessibleName" = "ผลิตภัณฑ์ Microsoft Office";
+
+/* Accessible name for a list of details concerning a Office Subscription.*/
+"PurchaseListBodyAccessibleName" = "รายการฟีเจอร์";
+
+/* Error title of purchase window*/
+"PurchaseWindowErrorTitle" = "มีบางอย่างผิดพลาด";
+
+/* Error body of purchase window. Receipt is already in use*/
+"PurchaseErrorReceiptInUse" = "การสั่งซื้อ Office 365 ของคุณถูกอ้างสิทธิ์โดยบัญชี Microsoft อื่นแล้ว";
+
+/* Error body of purchase window. Transient Error that automatically might resolve*/
+"PurchaseErrorTransientIssue" = "คุณได้สั่งซื้อ Office 365 สำเร็จแล้ว แต่เราไม่สามารถใช้การสมัครใช้งานกับบัญชี Microsoft ของคุณได้ โปรดลองอีกครั้งในภายหลัง โดยเราจะไม่เรียกเก็บเงินคุณอีก ถ้าปัญหานี้ยังเกิดขึ้นหลังจาก 24 ชั่วโมง โปรดติดต่อฝ่ายสนับสนุน";
+
+/* Error body of purchase window. Error that we are unable to resolve.*/
+"PurchaseErrorUnableToResolve" = "คุณได้สั่งซื้อ Office 365 สำเร็จแล้ว แต่เราไม่สามารถใช้การสมัครใช้งานกับบัญชี Microsoft ของคุณได้ โปรดติดต่อฝ่ายสนับสนุน";
+
+/* Terms of Use title for purchasing a subscription */
+"PurchaseSubscriptionTermsTitle" = "รายละเอียดการสมัครใช้งาน";
+
+/* Terms of Use body for purchasing a subscription */
+"PurchaseSubscriptionTermsBody" = "การสมัครใช้งาน Office 365 ที่ซื้อจะคิดค่าธรรมเนียมกับบัญชี iTunes ของคุณ และจะต่ออายุโดยอัตโนมัติภายใน 24 ชั่วโมงก่อนการสิ้นสุดของรอบระยะเวลาการสมัครใช้งานปัจจุบัน ยกเว้นว่าการต่ออายุอัตโนมัติถูกปิดใช้งานไว้ล่วงหน้า เมื่อต้องการจัดการการสมัครใช้งานของคุณหรือปิดใช้งานการต่ออายุอัตโนมัติ ให้ไปที่การตั้งค่าบัญชี iTunes ของคุณ ไม่สามารถยกเลิกการสมัครใช้งานในระหว่างรอบระยะเวลาการสมัครใช้งานที่ใช้งานอยู่ ส่วนที่ไม่ได้ใช้งานของระยะเวลาทดลองใช้ฟรี ถ้ามี จะถูกเรียกคืนเมื่อผู้ใช้ซื้อการสมัครใช้งานโปรแกรมนั้นตามที่เหมาะสม";
+
+/* Text that will link to a web page describing the Microsoft terms of use */
+"PurchaseSubscriptionTermsOfUseLink" = "ข้อตกลงการใช้งาน";
+
+/* Text that will link to a web page describing the terms of privacy */
+"PurchaseSubscriptionPrivacyLink" = "ความเป็นส่วนตัว";
+
+// End Purchase window strings
+
+// Get Help window strings
+
+/* Get Help window title */
+"GetHelpWindowTitle" = "ติดต่อฝ่ายสนับสนุน";
+
+/* Placeholder for the Get Help user input field */
+"GetHelpFieldTip" = "อธิบายปัญหาของคุณที่นี่";
+
+/* Window title shown at the end of get help submission succeeded. */
+"GetHelpSendSuccessTitle" = "ส่งคำขอรับการสนับสนุนแล้ว";
+
+/* Message shown at the end of get help submission - %1$@ is user email. */
+"GetHelpSendSuccessText:%@" = "ตัวแทน OneDrive จะติดต่อคุณกลับที่ %1$@";
+
+/* Window title shown at the end of get help submission failure. */
+"GetHelpSendFailureTitle" = "คำขอรับการสนับสนุนล้มเหลว";
+
+/* Message shown in the case of feedback submission failure */
+"GetHelpSendFailureText" = "ขออภัย มีปัญหาในการส่งคำขอรับการสนับสนุนของคุณ โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ แล้วลองอีกครั้งในภายหลัง";
+
+// End Get Help window strings

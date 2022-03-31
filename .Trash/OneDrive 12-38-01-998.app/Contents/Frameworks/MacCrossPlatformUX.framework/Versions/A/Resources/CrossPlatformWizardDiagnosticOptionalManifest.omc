@@ -1,0 +1,103 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-CrossPlatformWizard-Log" />
+  <!-- Telemetry moved from WindowsUXModelsLogProvider -->
+  <provider guid="{ef157a10-c7e0-461d-aa68-bdfb69766981}" symbol="WindowsUXModelsLogProvider">
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="DiagnosticOptional" privacyCategory="ProductUsage">
+      <event level="Informational" tags="Telemetry" symbol="MoveWindowFolderToRestore" message="User wants to restore folder type %folderType" value="3728480082">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+          <data type="UInt32" name="folderType" />
+          <data type="Int32" name="launchSource" />
+        </template>
+      </event>
+    </events>
+  </provider>
+  <!-- End of Telemetry moved from WindowsUXModelsLogProvider with guid={ef157a10-c7e0-461d-aa68-bdfb69766981} -->
+  <provider guid="{708cfc4e-c8a0-473f-826e-5f16f4c17e8e}" symbol="CrossPlatformWizardLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="DiagnosticOptional" privacyCategory="ProductUsage">
+      <event level="Informational" tags="TelemetryUsage,TelemetryRampExperiment" symbol="FREGoPremiumPageIsShown" message="First run wizard displays Go Premium page." value="612551218">
+        <template>
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+          <data type="UInt32" name="RampId" />
+          <data type="Boolean" name="ExperimentTriggered" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage,TelemetryRampExperiment" symbol="FREGoPremiumPurchaseButtonClicked" message="User clicks the Go Premium purchase button." value="1298891147">
+        <template>
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+          <data type="UInt32" name="RampId" />
+          <data type="Boolean" name="ExperimentTriggered" value="true" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage_v3" symbol="PremiumPageControllerGoPremiumClicked" message="User has clicked GoPremium button. ReferralID: %ReferralId" value="1757669584">
+        <template>
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="UnicodeString" name="isSiteAdmin" value="" />
+          <data type="UnicodeString" name="webTemplate" value="" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+          <data type="UnicodeString" name="ReferralId" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="SelectiveSyncDialogClosed" message="This data point records the state of the selective sync dialog when it is closed. scenario: %WizardScenario state: %SelectiveSyncState completed: %IsCompleted" value="313243087">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ChooseRootFolderModelDifferentDrive" message="This data point records user changed location and whether user changed to different drive: %DiffDrive scenario: %WizardScenario" value="1145249902">
+        <template>
+          <data type="Boolean" name="DiffDrive" />
+          <data type="UInt32" name="WizardScenario" />
+        </template>
+      </event>
+      <event level="Warning" symbol="WizardErrorPageControllerAutoFreRetryOnAuthError" message="WizardErrorPageController exits for AutoFre retry on Auth error %hr: %retry left" value="1834499396">
+        <template>
+          <data type="HResult" name="hr" />
+          <data type="Int32" name="retry" />
+        </template>
+      </event>
+    </events>
+  </provider>
+</manifest>

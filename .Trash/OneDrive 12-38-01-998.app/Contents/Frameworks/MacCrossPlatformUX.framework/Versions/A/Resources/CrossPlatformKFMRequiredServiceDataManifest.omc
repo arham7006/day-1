@@ -1,0 +1,1208 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-CrossPlatformKFM-Log" />
+  <!-- Telemetry moved from WindowsUICoreLogProvider -->
+  <provider guid="{1d80fd3d-7eea-4a76-85b5-5ed80cd8275f}" symbol="WindowsUICoreLogProvider">
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" tags="TelemetryUsage_v3" symbol="KFMLockedFileHandlerHandlingMigrationNotification" message="KFMLockedFileHandler received a MigrationNotification." version="2" value="2540750893">
+        <template>
+          <data type="Boolean" name="Enabled" />
+          <data type="Int32" name="MigrationFlow" />
+          <data type="Int32" name="LaunchSource" />
+          <data type="Int32" name="FolderType" />
+          <data type="Int32" name="LockedFileCount" />
+          <data type="Boolean" name="MigrationPerformed" />
+          <data type="Boolean" name="IsRetry" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="Scenario" />
+          <data type="UnicodeString" name="ScenarioInstance" />
+          <data type="UnicodeString" name="ValidationError" />
+          <data type="UnicodeString" name="CorrelationVector" />
+          <data type="UnicodeString" name="UsageExperiment" />
+          <data type="Boolean" name="IsIntentional" />
+          <data type="UnicodeString" name="DocID" />
+          <data type="UnicodeString" name="WebID" />
+          <data type="UnicodeString" name="SiteID" />
+          <data type="UnicodeString" name="ListID" />
+          <data type="UnicodeString" name="WebTemplateID" />
+          <data type="UnicodeString" name="FileExtension" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="FailedToGetKnownFolderMoveLock" message="Failed to get the KFM lock." version="2" value="2658136059">
+        <template>
+          <data type="Boolean" name="isSilent" />
+          <data type="Int32" name="LaunchSource" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage_v3" symbol="SilentMoveControllerFlowComplete" message="SilentMoveController has completed a silent flow." version="2" value="1505719097">
+        <template>
+          <data type="Int32" name="SilentType" />
+          <data type="Int32" name="LaunchSource" />
+          <data type="Int32" name="ExitLocation" />
+          <data type="UInt64" name="ScanTime" />
+          <data type="UInt64" name="ExecuteTime" />
+          <data type="UInt64" name="TotalTime" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="Scenario" />
+          <data type="UnicodeString" name="ScenarioInstance" />
+          <data type="UnicodeString" name="ValidationError" />
+          <data type="UnicodeString" name="CorrelationVector" />
+          <data type="UnicodeString" name="UsageExperiment" />
+          <data type="Boolean" name="IsIntentional" />
+          <data type="UnicodeString" name="DocID" />
+          <data type="UnicodeString" name="WebID" />
+          <data type="UnicodeString" name="SiteID" />
+          <data type="UnicodeString" name="ListID" />
+          <data type="UnicodeString" name="WebTemplateID" />
+          <data type="UnicodeString" name="FileExtension" />
+        </template>
+      </event>
+      <event level="CoreTelemetry" tags="TelemetryQos" symbol="SilentFlowAllFoldersBlockedQos" message="SilentMoveController flow blocked after scan" value="3211533815">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="Int32" name="KnownFolderFlow" />
+          <data type="Int32" name="LaunchSource" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage_v3" symbol="KFMSilentFlowLauncherGPOState" message="KFMSilentFlowLauncher is determining the state of the KFM GPOs" value="521429538">
+        <template>
+          <data type="Boolean" name="OptInWithWizardSet" />
+          <data type="Int32" name="SilentOptInSet" />
+          <data type="Int32" name="DisableOptInSet" />
+          <data type="Boolean" name="DisableOptOutSet" />
+          <data type="UnicodeString" name="Scenario" />
+          <data type="UnicodeString" name="ScenarioInstance" />
+          <data type="UnicodeString" name="ValidationError" />
+          <data type="UnicodeString" name="CorrelationVector" />
+          <data type="UnicodeString" name="UsageExperiment" />
+          <data type="Boolean" name="IsIntentional" />
+          <data type="UnicodeString" name="DocID" />
+          <data type="UnicodeString" name="WebID" />
+          <data type="UnicodeString" name="SiteID" />
+          <data type="UnicodeString" name="ListID" />
+          <data type="UnicodeString" name="WebTemplateID" />
+          <data type="UnicodeString" name="FileExtension" />
+        </template>
+      </event>
+      <event level="CoreTelemetry" tags="TelemetryQos" symbol="MigrationManagerPerformNextOperationQoS" message="Migration operation health telemetry" value="1729155183">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="Int32" name="LastOperation" />
+          <data type="Int32" name="MigrationFlow" />
+          <data type="Int32" name="FolderType" />
+          <data type="Int32" name="LaunchSource" />
+          <data type="Int32" name="LoginState" />
+          <data type="HResult" name="OperationResult" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="Boolean" name="isRetry" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage_v3" symbol="MigrationManagerCompletedBackgroundScans" message="MigrationManager completed all background scans." value="461180526" version="5">
+        <template>
+          <data type="Int32" name="EligibilityState" />
+          <data type="Int32" name="WorstExclusionLevel" />
+          <data type="UInt64" name="TotalQuotaMB" />
+          <data type="UInt64" name="TotalKnownFolderSizeMB" />
+          <data type="UInt64" name="TotalQuotaUsedMB" />
+          <data type="UInt64" name="TotalPotentialQuotaUsedMB" />
+          <data type="Boolean" name="IsPremium" />
+          <data type="Boolean" name="SizeEligible" />
+          <data type="Boolean" name="ScanEligible" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="Scenario" />
+          <data type="UnicodeString" name="ScenarioInstance" />
+          <data type="UnicodeString" name="ValidationError" />
+          <data type="UnicodeString" name="CorrelationVector" />
+          <data type="UnicodeString" name="UsageExperiment" />
+          <data type="Boolean" name="IsIntentional" />
+          <data type="UnicodeString" name="DocID" />
+          <data type="UnicodeString" name="WebID" />
+          <data type="UnicodeString" name="SiteID" />
+          <data type="UnicodeString" name="ListID" />
+          <data type="UnicodeString" name="WebTemplateID" />
+          <data type="UnicodeString" name="FileExtension" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage_v3" symbol="MigrationManagerPerformingKnownFolderAudit" message="MigrationManager is determining which known folders are within the sync root" value="3003434694" version="5">
+        <template>
+          <data type="Boolean" name="ContainsDocuments" />
+          <data type="Boolean" name="ContainsDesktop" />
+          <data type="Boolean" name="ContainsPictures" />
+          <data type="Boolean" name="ContainsCameraRoll" />
+          <data type="Boolean" name="ContainsScreenshots" />
+          <data type="Boolean" name="IsWizardEnabled" />
+          <data type="Boolean" name="WasLastScanClean" />
+          <data type="UnicodeString" name="Scenario" />
+          <data type="UnicodeString" name="ScenarioInstance" />
+          <data type="UnicodeString" name="ValidationError" />
+          <data type="UnicodeString" name="CorrelationVector" />
+          <data type="UnicodeString" name="UsageExperiment" />
+          <data type="Boolean" name="IsIntentional" />
+          <data type="UnicodeString" name="DocID" />
+          <data type="UnicodeString" name="WebID" />
+          <data type="UnicodeString" name="SiteID" />
+          <data type="UnicodeString" name="ListID" />
+          <data type="UnicodeString" name="WebTemplateID" />
+          <data type="UnicodeString" name="FileExtension" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SuppressingSilentKfmGpoOptIn" message="Silent KFM GPO already attempted for this waterline %val. Populating KfmSilentAttemptedFolders regkey." value="982070240">
+        <template>
+          <data type="UInt32" name="val" />
+        </template>
+      </event>
+    </events>
+  </provider>
+  <!-- End of Telemetry moved from WindowsUICoreLogProvider with guid={1d80fd3d-7eea-4a76-85b5-5ed80cd8275f} -->
+  <provider guid="{76F571DD-F5DC-4858-BDEC-72F7357403FB}" symbol="WindowsUXLogProvider">
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" tags="TelemetryUsage_v3" symbol="MigrationScan_v8" message="Telemetry recording the results of the Migration Scan Operation" version="8" value="11141047">
+        <template>
+          <data type="Int32" name="ScanSource" />
+          <data type="Int32" name="FolderType" />
+          <data type="Int32" name="LaunchSource" />
+          <data type="UInt64" name="ScanTime" />
+          <data type="Int32" name="CpuPercentage" />
+          <data type="Int32" name="AllowedExclusionLevel" />
+          <data type="UInt32" name="BlockListFileCount" />
+          <data type="UInt32" name="OneNoteFileCount" />
+          <data type="UInt32" name="MaxPathCount" />
+          <data type="UInt32" name="FileSizeLimitCount" />
+          <data type="UInt32" name="ReparsePointCount" />
+          <data type="UInt32" name="IllegalNameCount" />
+          <data type="UInt32" name="ContainsUserContent" />
+          <data type="Boolean" name="CrossVolumeMove" />
+          <data type="Boolean" name="NotSelectivelySyncing" />
+          <data type="Boolean" name="DomainJoined" />
+          <data type="Boolean" name="UnsupportedKFStructure" />
+          <data type="Boolean" name="OtherInstanceRedirected" />
+          <data type="Boolean" name="GPOBlocked" />
+          <data type="Boolean" name="FolderRedirectionBlocked" />
+          <data type="UInt32" name="ExpectedConflictCount" />
+          <data type="UInt32" name="OfficeFileCount" value="0" />
+          <data type="Int64" name="SizeOfKF" />
+          <data type="UInt32" name="FileCount" />
+          <data type="UInt32" name="FolderCount" />
+          <data type="Int32" name="KFLocationStatus" />
+          <data type="Boolean" name="IsFolderNested" />
+          <data type="PrivateInfo" name="ReparseNames" />
+          <data type="UInt32" name="GitFolderCount" />
+          <data type="Boolean" name="IsCanceled" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage_v3" symbol="MigrationScan" message="Telemetry recording the results of the Migration Scan Operation" version="9" value="11141047">
+        <template>
+          <data type="Int32" name="ScanSource" />
+          <data type="Int32" name="FolderType" />
+          <data type="Int32" name="LaunchSource" />
+          <data type="UInt64" name="ScanTime" />
+          <data type="Int32" name="CpuPercentage" />
+          <data type="Int32" name="AllowedExclusionLevel" />
+          <data type="UInt32" name="BlockListFileCount" />
+          <data type="UInt32" name="OneNoteFileCount" />
+          <data type="UInt32" name="MaxPathCount" />
+          <data type="UInt32" name="FileSizeLimitCount" />
+          <data type="UInt32" name="ReparsePointCount" />
+          <data type="UInt32" name="IllegalNameCount" />
+          <data type="UInt32" name="ContainsUserContent" />
+          <data type="Boolean" name="CrossVolumeMove" />
+          <data type="Boolean" name="NotSelectivelySyncing" />
+          <data type="Boolean" name="DomainJoined" />
+          <data type="Boolean" name="UnsupportedKFStructure" />
+          <data type="Boolean" name="OtherInstanceRedirected" />
+          <data type="Boolean" name="RedirectedToCompetitor" />
+          <data type="Boolean" name="GPOBlocked" />
+          <data type="Boolean" name="FolderRedirectionBlocked" />
+          <data type="Boolean" name="NoBookmarkToSourcePath" />
+          <data type="UInt32" name="ExpectedConflictCount" />
+          <data type="UInt32" name="OfficeFileCount" value="0" />
+          <data type="Int64" name="SizeOfKF" />
+          <data type="UInt32" name="FileCount" />
+          <data type="UInt32" name="FolderCount" />
+          <data type="Int32" name="KFLocationStatus" />
+          <data type="Boolean" name="IsFolderNested" />
+          <data type="PrivateInfo" name="ReparseNames" />
+          <data type="UInt32" name="GitFolderCount" />
+          <data type="Boolean" name="IsCanceled" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage_v3" symbol="MigrationScanFileTypeBlocked_v3" message="Telemetry recording hit count of various blocked file types" version="3" value="2782973576">
+        <template>
+          <data type="Int32" name="ScanSource" />
+          <data type="Int32" name="FolderType" />
+          <data type="Int32" name="LaunchSource" />
+          <data type="Int32" name="extOne" />
+          <data type="Int32" name="extOnepkg" />
+          <data type="Int32" name="extOnetoc" />
+          <data type="Int32" name="extOnetoc2" />
+          <data type="Int32" name="extPst" />
+          <data type="Int32" name="extOst" />
+          <data type="Int32" name="extDat" />
+          <data type="Int32" name="extDb" />
+          <data type="Int32" name="extNsf" />
+          <data type="Int32" name="extFp7" />
+          <data type="Int32" name="extAccda" />
+          <data type="Int32" name="extAccdb" />
+          <data type="Int32" name="extAccde" />
+          <data type="Int32" name="extAccdt" />
+          <data type="Int32" name="extAccdw" />
+          <data type="Int32" name="extMda" />
+          <data type="Int32" name="extMdb" />
+          <data type="Int32" name="extMde" />
+          <data type="Int64" name="BlockedFileSize" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage_v3" symbol="MigrationScanFileTypeBlocked" message="Telemetry recording hit count of various blocked file types" version="4" value="2782973576">
+        <template>
+          <data type="Int32" name="ScanSource" />
+          <data type="Int32" name="FolderType" />
+          <data type="Int32" name="LaunchSource" />
+          <data type="Int32" name="extOne" />
+          <data type="Int32" name="extOnepkg" />
+          <data type="Int32" name="extOnetoc" />
+          <data type="Int32" name="extOnetoc2" />
+          <data type="Int32" name="extPst" />
+          <data type="Int32" name="extApp" />
+          <data type="Int32" name="extPhotoslibrary" />
+          <data type="Int64" name="BlockedFileSize" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+        </template>
+      </event>
+    </events>
+  </provider>
+  <!-- End of Telemetry moved from WindowsUXLogProvider with guid={76F571DD-F5DC-4858-BDEC-72F7357403FB} -->
+  <provider guid="{9801e6cc-2382-493d-b74b-84a531a1aa88}" symbol="WindowsKnownFolderMoveLogProvider">
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" tags="Telemetry" symbol="KFMSilentFlowLauncherSilentGpoKFMOptedInFolders" message="a migration was started for the folder types" value="3451452269">
+        <template>
+          <data type="Boolean" name="pictures" />
+          <data type="Boolean" name="documents" />
+          <data type="Boolean" name="desktop" />
+        </template>
+      </event>
+    </events>
+  </provider>
+  <!-- End of Telemetry moved from WindowsKnownFolderMoveLogProvider with guid={9801e6cc-2382-493d-b74b-84a531a1aa88} -->
+  <provider guid="{4f83483d-4cda-4752-b3bd-c869c43e0fee}" symbol="CrossPlatformKFMLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" symbol="KFMLockedFileHandlerFotNotificationWithNoLocks" message="KFMLockedFileHandler got a notification for folder %folderType that indicates no locks exist where items were previously orphaned." value="2293710269">
+        <template>
+          <data type="Int32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMLockedFileHandlerLocksDetectedButNoSourcePath" message="KFMLockedFileHandler got a notification for folder %folderType that indicates locks exist but could not determine source path" value="319225175">
+        <template>
+          <data type="Int32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMLockedFileHandlerFotNotificationWithLocks" message="KFMLockedFileHandler got a notification for folder %folderType that indicates %itemCount items were left behind." value="805806214">
+        <template>
+          <data type="Int32" name="folderType" />
+          <data type="Size" name="itemCount" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMLockedFileHandlerRemovingFromMapOnRestore" message="KFMLockedFileHandler got notification indicating restore for folder %folderType that has orphaned items." value="1406181824">
+        <template>
+          <data type="Int32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMLockedFileHandlerAttemptingLockedFileRecovery" message="KFMLockedFileHandler is attempting to recovery orphaned files. Map size: %size. Enabled: %enabled" value="17017447">
+        <template>
+          <data type="Size" name="size" />
+          <data type="Boolean" name="enabled" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMLockedFileHandlerRemovingEntryFromMap" message="KFMLockedFileHandler found folder %folderType no longer in OneDrive, removing from map." value="401363177">
+        <template>
+          <data type="Int32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMLockedFileHandlerClearingSourceCache" message="KFMLockedFileHandler is clearing the source cache" value="3216127349" />
+      <event level="Informational" symbol="KFMLockedFileHandlerIsGettingSourcePathsFromCache" message="KFMLockedFileHandler is attempting to get the source paths from the registry" value="708632266" />
+      <event level="Informational" symbol="KFMLockedFileHandlerGotItemsFromCache" message="KFMLockedFileHandler got %count root folders from cache" value="1602122378">
+        <template>
+          <data type="Size" name="count" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMLockedFileHandlerDeletingCacheRegistryValue" message="KFMLockedFileHandler is deleting the registry cache. Hr: %hr, isEmpty: %isEmpty, root null: %rootNull, JSON node type: %json" value="2221550512">
+        <template>
+          <data type="HResult" name="hr" />
+          <data type="Boolean" name="isEmpty" />
+          <data type="Boolean" name="rootNull" />
+          <data type="Int32" name="json" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMLockedFileHandlerCachingSourcePaths" message="KFMLockedFileHandler is caching the source path for %count root folders" value="3245736825">
+        <template>
+          <data type="Size" name="count" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMLockedFileHandlerDeletingCacheRegistryKey" message="KFMLockedFileHandler is deleting the cached registry key since the map is empty" value="2088467487" />
+      <event level="Informational" symbol="KFMLockedFileHandlerToastSent" message="KFMLockedFileHandler has fired the toast notification" value="1406208131" />
+      <event level="Informational" symbol="SilentMoveControllerIsStartingSilentFlow" message="SilentMoveController is starting silent execution with launch source %launchSource" value="3380508308">
+        <template>
+          <data type="Int32" name="launchSource" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SilentMoveControllerNoFoldersToExecute" message="SilentMoveController is not starting silent execution, no folders were specified. Launch source: %launchSource" value="4048421629">
+        <template>
+          <data type="Int32" name="launchSource" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SilentMoveControllerCallingRestore" message="SilentMoveController is starting silent restore, with %folderCount folders." value="486367335">
+        <template>
+          <data type="Size" name="folderCount" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SilentMoveControllerGotUnexpectedKFMLaunchSource" message="SilentMoveController received an unexpected KFM launch source: %launchSource" value="887135742">
+        <template>
+          <data type="Int32" name="launchSource" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SilentMoveControllerHandlingMigrationNotification" message="SilentMoveController received a migration notification #%notificationCount of %expectedCount. Folder type: %folderType Expecting scan: %expectingScan, Last Operation: %lastOp, HRESULT: %hr" value="3126421017">
+        <template>
+          <data type="Size" name="notificationCount" />
+          <data type="Size" name="expectedCount" />
+          <data type="Int32" name="folderType" />
+          <data type="Boolean" name="expectingScan" />
+          <data type="Int32" name="lastOp" />
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SilentMoveControllerHandlingCompletedScans" message="SilentMoveController handling the completed scans. allowPartialMigrations: %allowPartialMigrations" value="2480535451">
+        <template>
+          <data type="Boolean" name="allowPartialMigrations" />
+        </template>
+      </event>
+      <!-- This log event is used in the log scanner. Please update ClientLogScanner.xml in OneDrive.Storage if moving/updating this event. -->
+      <event level="Informational" symbol="SilentMoveControllerFailedScanBlockingProblems" message="SilentMoveController scan unsuccessful due to blocking problems: conflicts: %conflicts, QuotaExceeded: %totalQuotaExceeded, DiskSpaceLow: %isDiskSpaceLow" value="3432782439">
+        <template>
+          <data type="UInt32" name="conflicts" />
+          <data type="Boolean" name="totalQuotaExceeded" />
+          <data type="Boolean" name="isDiskSpaceLow" />
+        </template>
+      </event>
+      <!-- This log event is used in the log scanner. Please update ClientLogScanner.xml in OneDrive.Storage if moving/updating this event. -->
+      <event level="Informational" symbol="SilentMoveControllerGotFailedScan" message="SilentMoveController scan completed but was unsuccessful. Folder type: %folderType. Found exclusion: %exclusion, Operation failed: %opFailure, Over quota: %quotaFailure, Conflict count: %conflicts, Total quota exceeded: %totalQuotaExceeded" value="847920754">
+        <template>
+          <data type="Int32" name="folderType" />
+          <data type="Boolean" name="exclusion" />
+          <data type="Boolean" name="opFailure" />
+          <data type="Boolean" name="quotaFailure" />
+          <data type="UInt32" name="conflicts" />
+          <data type="Boolean" name="totalQuotaExceeded" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SilentMoveControllerStartingSilentExecution" message="SilentMoveController is starting silent execution." value="1169279211" />
+      <event level="Informational" symbol="SilentMoveControllerGotFailedExecution" message="SilentMoveController execution was not successful. Folder type: %folderType. Operation failed: %opFailure, Locked file count: %locks" value="1068627679">
+        <template>
+          <data type="Int32" name="folderType" />
+          <data type="Boolean" name="opFailure" />
+          <data type="Boolean" name="locks" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SilentMoveControllerReleasingSemaphore" message="SilentMoveController is releasing the KFM lock." value="2248340026" />
+      <event level="Informational" symbol="SilentMoveControllerFileConflictLessThanNSent" message="SilentMoveController sent a toast. FileConflictCount: %count" value="2772353300">
+        <template>
+          <data type="UInt32" name="count" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ResetRepairSelectiveSync" message="Reset the helper class and instance variables" value="3087478967" />
+      <event level="Informational" symbol="PrepareForKFMSelectiveSyncRepair" message="Reset class instance variables and set the correct number of folders" value="1666885548" />
+      <event level="Informational" symbol="ReadyToRepairSelectiveSyncTree" message="Ready to update the selective sync tree" value="1160837202" />
+      <event level="Informational" symbol="RepairSelectiveSyncFolderAlreadySyncing" message="RepairSelectiveSync is not needed for folder type: %type. Folder is already syncing." value="442836948">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="RepairSelectiveSyncStartBuildingRepairTree" message="RepairSelectiveSync start building repair tree" value="1586822994" />
+      <event level="Informational" symbol="RepairSelectiveSyncHandleGetSelectiveSync" message="RepairSelectiveSync received GetSelectiveSyncInformation notification" value="2445640805" />
+      <event level="Informational" symbol="FailedToGetSelectiveSyncEntries" message="Selective sync entries were empty" value="4028353475" />
+      <event level="Informational" symbol="RepairSelectiveSyncGetSelectiveSyncFailed" message="Failed to get the selective sync information hr: %hr" value="986065552">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMFolderTypesForRepairSelectiveSync" message="Provision call: %folderType1, core API call: %folderType2" value="2347440006">
+        <template>
+          <data type="Int32" name="folderType1" />
+          <data type="Int32" name="folderType2" />
+        </template>
+      </event>
+      <event level="Informational" symbol="PopulateMigrationStructWithSelectiveSyncInfo" message="Populate struct in cache with selective sync information of folder: %folderType" value="1952108630">
+        <template>
+          <data type="Int32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="UpdateTreeNodesToSyncing" message="Set selective sync state of tree to syncing" value="1695100214" />
+      <event level="Informational" symbol="RepairSelectiveSyncHandleSetSelectiveSync" message="RepairSelectiveSync received SetSelectiveSyncInformation notification" value="3851360580" />
+      <event level="Informational" symbol="KFMRepairSelectiveSyncMigrationStructSelectiveSyncInfoEmpty" message="Migration struct's spSelectiveSyncInfo was a nullptr" value="2001413801" />
+      <event level="Informational" symbol="RepairSelectiveSyncHandleMigrationProvisionFailure" message="RepairSelectiveSync received Migration notification and checked for provision failure" value="4191227618" />
+      <event level="Informational" symbol="CreateSelectiveSyncInfoTree" message="Create tree of folder structure with selective sync information" value="1107433014" />
+      <event level="Informational" symbol="RepairSelectiveSyncSetAncestorNodeToSyncing" message="Set the selective sync state %syncState of the parent folder with itemID %itemID" value="1812749162">
+        <template>
+          <data type="Int32" name="syncState" />
+          <data type="WString" name="itemID" />
+        </template>
+      </event>
+      <event level="Informational" symbol="RepairSelectiveSyncSetDescendantNodeToSyncing" message="Sync all files and folders under current folder. Child with itemID %itemID was repaired" value="598384034">
+        <template>
+          <data type="WString" name="itemID" />
+        </template>
+      </event>
+      <event level="Informational" symbol="RepairSelectiveSyncSetNodeToSyncing" message="Set current folder %itemID to fully syncing and sync all files" value="1049853277">
+        <template>
+          <data type="WString" name="itemID" />
+        </template>
+      </event>
+      <event level="Informational" symbol="GetFlattenedUpdatedTree" message="Traverse tree and return a list of updated tree entries" value="3273006445" />
+      <event level="Informational" symbol="MigrationScanStarting" message="Beginning the Migration Scan Operation for folder type: %type. Potential high CPU usage during this operation." value="4182182682">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanDeterminedSourcePath" message="Migration Scan determined the known folder source path for folder type: %type. Source path: %source" value="2910060793">
+        <template>
+          <data type="Int32" name="type" />
+          <data type="PrivateInfo" name="source" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanInvalidKFStructure" message="Invalid KF structure was found for folder: %type, child type: %childType. Path: %path, Child Path: %childPath" value="2813482594">
+        <template>
+          <data type="Int32" name="type" />
+          <data type="Int32" name="childType" />
+          <data type="PrivateInfo" name="path" />
+          <data type="PrivateInfo" name="childPath" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanOneDriveInKF" message="A OneDrive sync root is contained within the folder:%type making it an invalid structure. Folder path: %path, OneDrive path: %oneDrivePath, Instance Id: %instanceId" value="1148086317">
+        <template>
+          <data type="Int32" name="type" />
+          <data type="PrivateInfo" name="path" />
+          <data type="PrivateInfo" name="oneDrivePath" />
+          <data type="UnicodeString" name="instanceId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanCrossVolumeMove" message="OneDrive root is on: %odDrive Windows known folder is on: %winDrive" value="760910822">
+        <template>
+          <data type="UnicodeString" name="odDrive" />
+          <data type="UnicodeString" name="winDrive" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanRedirectionBlocked" message="Folder is missing the capability to be redirected. FolderType: %folder, Capabilities: %caps" value="496496110">
+        <template>
+          <data type="Int32" name="folder" />
+          <data type="HexInt32" name="caps" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanFolderIsNotSyncing" message="OneDrive special folder equivalent of WinKF is not selectively synced. FolderType: %type" value="1171862373">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanFolderIsProtectedInOtherInstance" message="WinKF is already protected in another OneDrive instance. FolderType: %type" value="2332690607">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanFolderIsProtectedInCompetitor" message="WinKF is already protected in a competitor sync root. FolderType: %type" value="1423389128">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanFoundIllegalFileType" message="Invalid file type found: %fileName" value="1912629056">
+        <template>
+          <data type="PrivateInfo" name="fileName" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanMaxPathExceeded_v1" message="Max path exceeded, Item Length: %itemLength, WinKF Length: %winLength, OneDrive Destination Length: %odLength" version="1" value="3655003993">
+        <template>
+          <data type="Size" name="itemLength" />
+          <data type="Size" name="winLength" />
+          <data type="Size" name="odLength" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanMaxPathExceeded" message="Max path exceeded: %maxPath, Item Length: %itemLength, WinKF Length: %winLength, OneDrive Destination Length: %odLength" version="2" value="3655003993">
+        <template>
+          <data type="Size" name="maxPath" />
+          <data type="Size" name="itemLength" />
+          <data type="Size" name="winLength" />
+          <data type="Size" name="odLength" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanFoundIllegalFileName" message="Invalid file name found: %fileName" value="3448949003">
+        <template>
+          <data type="PrivateInfo" name="fileName" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanFoundReparsePoint" message="Found a reparse point in the known folder. Junction: %isJunction SymLink: %isSymLink" value="3485829165">
+        <template>
+          <data type="Boolean" name="isJunction" />
+          <data type="Boolean" name="isSymLink" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanMaxSizeExceeded" message="File exceeding the max size was found. Size: %size" value="1012634527">
+        <template>
+          <data type="Int64" name="size" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanFoundFileConflict" message="File %fileName is expected to have a conflict in folder %folderType" value="3916543313">
+        <template>
+          <data type="PrivateInfo" name="fileName" />
+          <data type="Int32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanExitingEarly_v1" message="MigrationScan is exiting early. Exclusion during move: %move, Folder in another instance: %instance, Exclusion during SCOOBE: %scoobe" version="1" value="872333283">
+        <template>
+          <data type="Boolean" name="move" />
+          <data type="Boolean" name="instance" />
+          <data type="Boolean" name="scoobe" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanExitingEarly_v2" message="MigrationScan is exiting early. Exclusion during move: %move, Folder in another instance: %instance, Folder in competitor: %competitor, Exclusion during SCOOBE: %scoobe" version="2" value="872333283">
+        <template>
+          <data type="Boolean" name="move" />
+          <data type="Boolean" name="instance" />
+          <data type="Boolean" name="competitor" />
+          <data type="Boolean" name="scoobe" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanExitingEarly" message="MigrationScan is exiting early. Exclusion during move: %move, Folder in another instance: %instance, Folder in competitor: %competitor, No bookmarks to path: %bookmarks, Exclusion during SCOOBE: %scoobe" version="3" value="872333283">
+        <template>
+          <data type="Boolean" name="move" />
+          <data type="Boolean" name="instance" />
+          <data type="Boolean" name="competitor" />
+          <data type="Boolean" name="bookmarks" />
+          <data type="Boolean" name="scoobe" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanDiskSize" message="Disk letter: %letter size: %sizeBytes" value="1571230824">
+        <template>
+          <data type="UnicodeString" name="letter" />
+          <data type="UInt64" name="sizeBytes" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="MigrationScanPreCrossVolumeMove" message="Cross volume telemetry" value="1001686804">
+        <template>
+          <data type="UInt32" name="crossVolumeState" />
+          <data type="UInt32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherFoundUnknownLaunchSource" message="KFMSilentFlowLauncher got an unknown launch source %source" value="2137829584">
+        <template>
+          <data type="Int32" name="source" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherGPOMoveCompleted" message="KFMSilentFlowLauncher completed silent GPO Move" value="2913148818">
+        <template>
+          <data type="Boolean" name="succeeded" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherOptOutRepairCompleted" message="KFMSilentFlowLauncher completed opt-out repair" value="911471801">
+        <template>
+          <data type="Boolean" name="succeeded" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherWCOSMoveCompleted" message="KFMSilentFlowLauncher completed silent WCOS Move: %succeeded, %exitlocation" value="4176126695">
+        <template>
+          <data type="Boolean" name="succeeded" />
+          <data type="Int32" name="exitlocation" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherGPORestoreCompleted" message="KFMSilentFlowLauncher completed silent GPO restore" value="1335535150">
+        <template>
+          <data type="Boolean" name="succeeded" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherUnfinishedKFMRetryComplete" message="Completed unfinished KFM retry, exit location: exitLocation" value="3829100135">
+        <template>
+          <data type="UInt32" name="exitLocation" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherGotUnknownExitLocation" message="KFMSilentFlowLauncher got a SilentExitLocation that is not handled. %exitLocation" value="3998745687">
+        <template>
+          <data type="Int32" name="exitLocation" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherFailedExecutionAfterRetry" message="KFMSilentFlowLauncher is clearing the silent trigger after another failed execution on retry." value="4261730755" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherSchedulingRetryTimer" message="KFMSilentFlowLauncher is scheduling a retry timer for the silent flow." value="3241134625" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherMultipleRetryTimerFailed" message="KFMSilentFlowLauncher: Multiple retry timer failed all attempts" value="208717018" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherDeletingTimer" message="KFMSilentFlowLauncher is deleting the retry timer." value="770213795" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherFireFolderNotSyncingEvent" message="KFMSilentFlowLauncher fire an event to launch Activity Center with pending repair folder ACM" value="4202735502" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherClearingSCOOBEPreference" message="KFMSilentFlowLauncher is clearing the SCOOBE breadcrumb. Was silent attempted? %silent, KFM attempted? %attempted, clear on disabled? %clearOnDisabled" value="534052161">
+        <template>
+          <data type="Boolean" name="silent" />
+          <data type="Boolean" name="attempted" />
+          <data type="Boolean" name="clearOnDisabled" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherCheckingSCOOBELaunchKFM" message="KFMSilentFlowLauncher checked if KFM should be launch post scoobe. KFM attempted? %kfmAttempted" value="1041785206">
+        <template>
+          <data type="Boolean" name="kfmAttempted" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherDetectedSCOOBEBreadcrumb" message="KFMSilentFlowLauncher detected SCOOBE reg key, attempting to start KFM" value="2001277025" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherClearScoobeTrigger" message="KFMSilentFlowLauncher set the scoobe preference to opt out" value="1537549631" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherLaunchKFMRetryIfNeededTooManyAttempts" message="Discarding saved KFM state due to exceeded attempt count: %attempts" value="2583356159">
+        <template>
+          <data type="UInt32" name="attempts" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherFoundUnfinishedMigrationState" message="Found persisted unfinished migration state" value="2565531117" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherLoadSavedMigrationParsedData" message="Parsed JSON, folders: %folders, attempts: %attempts" value="1703198045">
+        <template>
+          <data type="UnicodeString" name="folders" />
+          <data type="UInt32" name="attempts" />
+        </template>
+      </event>
+      <event level="Error" symbol="KFMSilentFlowLauncherLoadSavedMigrationInvalidJson" message="Invalid JSON string" value="4081918536" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherSaveMigrationStateAttempts" message="Saving migration state for attempt #: %attempts" value="193439567">
+        <template>
+          <data type="UInt32" name="attempts" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherSaveMigrationStateFolders" message="Persisting migration state folders: %folders, attempts: %attempts" value="4097633112">
+        <template>
+          <data type="UnicodeString" name="folders" />
+          <data type="UInt32" name="attempts" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherDeleteSavedMigrationState" message="Deleting saved migration state from registry" value="350156228" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherRemoveFolderFromSavedMigrationState" message="Removing folder type: %folderType from saved migration state" value="327944608">
+        <template>
+          <data type="UInt32" name="folderType" />
+        </template>
+      </event>
+      <event level="Error" symbol="KFMSilentFlowLauncherRemoveFolderFromSavedMigrationStateUnexpectedMissingState" message="Unexpected missing KFM saved state in registry" value="722515668" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherCheckingOOBELaunchKFM" message="KFMSilentFlowLauncher checked if KFM should be launch post OOBE. KFM attempted? %kfmAttempted" value="3766414121">
+        <template>
+          <data type="Boolean" name="kfmAttempted" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherStartingOOBERegKeyMigration" message="KFMSilentFlowLauncher is starting to perform the OOBE reg key migration" value="3921367156" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherFoundOOBEMigrationToBeComplete" message="KFMSilentFlowLauncher determined migration has already been completed" value="1482757183" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherFoundOOBEMigrationPending" message="KFMSilentFlowLauncher determined KFM is pending and the migration of the registry keys is complete" value="1561221221" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherGotUnknownWindowsKeyValue" message="KFMSilentFlowLauncher got an unexpected value in the Windows key: %value" value="3583735539">
+        <template>
+          <data type="UInt32" name="value" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherFoundCompletedKey" message="KFMSilentFlowLauncher found a reg key that indicates migration is complete" value="3847521728" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherSettingOneDriveOOBEKey" message="KFMSilentFlowLauncher is setting the OOBE migration key. State: %state" value="3995855147">
+        <template>
+          <data type="UInt32" name="state" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherDidNotGetOOBEKey" message="KFMSilentFlowLauncher tried to get the OOBE reg key, it likely does not exist. hr: %hr" value="2886972005">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherFoundCurrentOneDriveOOBEKey" message="KFMSilentFlowLauncher found the current OneDrive OOBE key. State: %state, value: %data" value="1215097479">
+        <template>
+          <data type="UInt32" name="state" />
+          <data type="UInt32" name="data" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherFoundLegacyOneDriveOOBEKey" message="KFMSilentFlowLauncher found the legacy OneDrive OOBE key. State: %state" value="3414245802">
+        <template>
+          <data type="UInt32" name="state" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherFoundWindowsOOBEKey" message="KFMSilentFlowLauncher found the Windows OOBE key. Data: %data" value="3427261626">
+        <template>
+          <data type="UInt32" name="data" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherOverridingOOBETimestamp" message="KFMSilentFlowLauncher detected the OOBE time stamp override key." value="3952170717" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherCheckingOOBECompletionTime" message="KFMSilentFlowLauncher checked if OOBE was completed recently. Recent: %recent, time exists: %exists" value="4047576113">
+        <template>
+          <data type="Boolean" name="recent" />
+          <data type="Boolean" name="exists" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherCheckingGpos" message="KFMSilentFlowLauncher is checking if any GPOs need to be acted on" value="1033897165" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherCheckingWCOS" message="KFMSilentFlowLauncher is checking if OS is WCOS and needs to be acted on" value="1767275840" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherWCOSGetMoveController" message="KFMSilentFlowLauncher WCOS has not been completed before so try to get the move controller" value="1297543243" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherWCOSScheduleRetry" message="KFMSilentFlowLauncher WCOS failed to get the move controller, attempt to schedule a retry" value="1426471395" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherWCOSCheckCompleted" message="KFMSilentFlowLauncher completed Wcos check: %operationStarted" value="1827807637">
+        <template>
+          <data type="UInt32" name="operationStarted" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherTryOptOutRepair" message="KFMSilentFlowLauncher OptOutRepair didStart: %operationStarted" value="2413963765">
+        <template>
+          <data type="UInt32" name="operationStarted" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherGposCheckCompleted" message="KFMSilentFlowLauncher completed GPOs check" value="1595256016">
+        <template>
+          <data type="UInt32" name="hasAppliedGpo" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherStartingSilentGPOMove" message="KFMSilentFlowLauncher starting silent GPO move" value="4146524779">
+        <template>
+          <data type="UInt32" name="started" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherForceShowMoveWindow" message="KFMSilentFlowLauncher calling show Move Window due to admin request" value="1132895150" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherDontForceShowMoveWindow" message="KFMSilentFlowLauncher not calling show Move Window even though admin requested" value="803777220">
+        <template>
+          <data type="UInt32" name="hasShownWizard" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherForceRestore" message="KFMSilentFlowLauncher calling Restore due to admin request" value="3983374729" />
+      <event level="Informational" symbol="KFMSilentFlowLauncherIsGpoApplied" message="KFMSilentFlowLauncher GPO %gpoNum is applied: %applied" value="3008830668">
+        <template>
+          <data type="UInt32" name="gpoNum" />
+          <data type="UInt32" name="applied" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherGPOSilentNewAttempt" message="KFMSilentFlowLauncher GPO Silent found new attempt %val . Deleting cache of previously-attempted folder." value="4097299439">
+        <template>
+          <data type="UInt32" name="val" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherGPOSilentLegacyOptIn" message="KFMSilentFlowLauncher GPO Silent per-folder regkeys not found. Will try to opt in all folders. HasMigrated: %migrated . HasAttempted: %attempted" value="2843673189">
+        <template>
+          <data type="Boolean" name="migrated" />
+          <data type="Boolean" name="attempted" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherIsFolderPendingForSilentGpoKFMOptedIn" message="KFMSilentFlowLauncher Folder %folder is opted in for Silent GPO. HasMigrated: %migrated . IsFolderPending: %pending" value="3762439214">
+        <template>
+          <data type="UInt32" name="folder" />
+          <data type="Boolean" name="migrated" />
+          <data type="Boolean" name="pending" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMSilentFlowLauncherIsFolderPendingForSilentGpoKFMNotOptedIn" message="KFMSilentFlowLauncher Folder %folder is not opted in for Silent GPO. Regkey found: %found. Regkey value: %val" value="3715446424">
+        <template>
+          <data type="UInt32" name="folder" />
+          <data type="Boolean" name="found" />
+          <data type="UInt32" name="val" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartingPreMigrate" message="Migration Manager PreMigrate invoked, starting move flow." value="2482292126" />
+      <event level="Informational" symbol="MigrationManagerStartingPreMigrateWithSelectiveSyncInfo" message="Migration Manager PreMigrateWithSelectiveSyncInfo invoked, starting move flow." value="2551907257" />
+      <event level="Informational" symbol="MigrationManagerStartingExecuteMigrate" message="Migration Manager ExecuteMigrate invoked, starting operations for folder type: %type." value="2531282795">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartingLockedFileRetry" message="Migration Manager RetryLockedFiles invoked, starting operations for folder type: %type." value="327977035">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartingRedirect" message="Migration Manager Redirect invoked." value="2435201609" />
+      <event level="Informational" symbol="MigrationManagerStartingRestore" message="Migration Manager Restore invoked, starting operations for folder type: %type." value="1826778678">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerIsMoveEnabled_v1" message="Migration Manager IsMoveEnabled: %moveEnabled" version="1" value="158059718">
+        <template>
+          <data type="UInt32" name="moveEnabled" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerIsMoveEnabled_v2" message="Migration Manager IsMoveEnabled: %moveEnabled SignedIn: %isSignedIn ODB Syncing: %isOdbSyncing RampEnabled: %isRampEnabled" version="2" value="158059718">
+        <template>
+          <data type="UInt32" name="moveEnabled" />
+          <data type="UInt32" name="isSignedIn" />
+          <data type="UInt32" name="isOdbSyncing" />
+          <data type="UInt32" name="isRampEnabled" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerIsMoveEnabled" message="Migration Manager IsMoveEnabled: %moveEnabled SignedIn: %isSignedIn ODB Syncing: %isOdbSyncing RampEnabled: %isRampEnabled FalSupported: %isFalSupported" version="3" value="158059718">
+        <template>
+          <data type="UInt32" name="moveEnabled" />
+          <data type="UInt32" name="isSignedIn" />
+          <data type="UInt32" name="isOdbSyncing" />
+          <data type="UInt32" name="isRampEnabled" />
+          <data type="UInt32" name="isFalSupported" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartingBackgroundScan" message="MigrationManager starting a background scan" value="3444300947" />
+      <event level="Informational" symbol="MigrationManagerScanWasScheduledButNotStarted" message="MigrationManager was scheduled to start a background scan but the scan was not started due to ramp or login state. State: %state" value="3490267658">
+        <template>
+          <data type="Int32" name="state" />
+        </template>
+      </event>
+      <event level="Error" symbol="MigrationManagerGotInvalidFlowOperationPair" message="Migration Manager tried to get the next operation for an invalid flow (%flow) operation (%op) pair." value="1231339285">
+        <template>
+          <data type="Int32" name="flow" />
+          <data type="Int32" name="op" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerSelectiveSyncOperationSkipped" message="Start selective sync operation was skipped due to repair selective sync" value="695779376" />
+      <event level="Informational" symbol="MigrationManagerStartingSelectiveSyncOperation" message="MigrationManager is starting the selective sync operation" value="884980540" />
+      <event level="Error" symbol="MigrationManagerGotInvalidLoginState" message="MigrationManager tried to perform the next operation but found the user was not signed in. State %state" value="1523152350">
+        <template>
+          <data type="Int32" name="state" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerCallToStartSelectiveSyncFailed" message="Migration Manager tried to get selective sync information but it failed. HR: %hr" value="2665643137">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerTimingOutProvisionOperation" message="Migration Manager is timing out the provision operation." value="3424500825" />
+      <event level="Informational" symbol="MigrationManagerStartingProvisionOperation" message="Migration Manager is starting the provision operation for folder type: %type, operation: %operation." value="3501646710">
+        <template>
+          <data type="Int32" name="type" />
+          <data type="Int32" name="operation" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartingProvision" message="Migration Manager starting provision call with shouldCreateFolder: %shouldCreateFolder" value="1565149609">
+        <template>
+          <data type="Boolean" name="shouldCreateFolder" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerCallToGetSpecialFolderInfoFailed" message="Migration Manager tried to get special folder information but it failed. HR: %hr" value="1523448261">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartRepairSelectiveSyncOperation" message="Start to repair selective sync if needed for %folderType" value="1073460238">
+        <template>
+          <data type="Int32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerTimingOutQuotaNotification" message="Migration Manager is timing out the quota call." value="227511768" />
+      <event level="Informational" symbol="MigrationManagerStartingQuotaOperation" message="MigrationManager is starting the quota operation" value="2614289531" />
+      <event level="Informational" symbol="MigrationManagerCallToGetQuotaFailed" message="Migration Manager tried to get quota information but it failed. HR: %hr" value="2233851377">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartingScanOperation" message="Migration Manager is starting the scan operation for folder type: %type." value="4060418536">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartingMigrationOperation" message="Migration Manager is starting the migration operation for folder type: %type." value="2739170550">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartingRedirectOperation" message="Migration Manager is starting the redirect operation for folder type: %type." value="4059875805">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerDeterminingMoveOrRedirect" message="Migration Manager is determining if the next operation should be move or redirect for folder type: %type." value="2597802408">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerHandlingSelectiveSyncNotification" message="Migration Manager received a selective sync notification" value="3538670454" />
+      <event level="Informational" symbol="MigrationManagerGotFailedSelectiveSyncNotification" message="Migration Manager got a selective sync notification from a failed operation. HR: %hr" value="1812593409">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerHandlingGetSpecialFolderInfoNotification" message="Migration Manager received a GetSpecialFolderInfo notification" value="179777394" />
+      <event level="Informational" symbol="MigrationManagerGotProvisionNotificationWithNoMigrationData" message="Migration Manager got a provision operation, but there was no migration struct" value="289122262" />
+      <event level="Informational" symbol="MigrationManagerSelectiveSyncStateUpdatedAfterProvision" message="Migration struct updated with the selective sync state: %syncState of the folder with resourceID: %folderID" value="3587041108">
+        <template>
+          <data type="Int32" name="syncState" />
+          <data type="WString" name="folderID" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerKnownFolderDestination" message="Migration Manager the destination known folder path. Folder type: %folderType, destination: %dest" value="3415185345">
+        <template>
+          <data type="Int32" name="folderType" />
+          <data type="PrivateInfo" name="dest" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerGotFailedProvisionNotification" message="Migration Manager got a provision notification from a failed operation HR: %hr" value="3972452490">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerHandlingLateProvisionOperation" message="Migration Manager received the response from the provision operation after the timer had been cleared. Dropping the response." value="649993041" />
+      <event level="Informational" symbol="MigrationManagerHandlingProvisionComplete" message="Migration Manager completed provision operation" value="493137514" />
+      <event level="Informational" symbol="MigrationManagerGetPathScopeFailed" message="GetPathScope for path %path failed with status %status" value="3010130376">
+        <template>
+          <data type="PrivateInfo" name="path" />
+          <data type="HResult" name="status" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerFailedToCreateProvisionedFolder" message="Migration Manager failed to create the provisioned folder since it did not exist on disk. HR: %hr" value="59734205">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerGetSelectiveSyncState" message="Migration Manager get selective sync state for state unknown folder during FRE. Item state is %itemState, folder is found in the list: %found, current parent folderID is %currentParentId" value="2226675851">
+        <template>
+          <data type="Int32" name="itemState" />
+          <data type="Boolean" name="found" />
+          <data type="UnicodeString" name="currentParentId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerHandleRepairSelectiveSyncComplete" message="Repair selective sync was completed if it was necessary, hr: %hr" value="2709873565">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerHandleRepairSelectiveSyncFailedToCreateFolder" message="HandleRepairSelectiveSync did not create folder for a struct that was NotSyncing, hr: %hr" value="218512305">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerHandlingQuotaNotification" message="Migration Manager received a quota notification" value="2209001379" />
+      <event level="Informational" symbol="MigrationManagerHandlingLateQuotaNotification" message="Migration Manager received a quota notification after the timer had been cleared. Dropping the response." value="869859501" />
+      <event level="Informational" symbol="MigrationManagerHandlingScanOperation" message="Migration Manager is handling the scan operation for folder type: %type." value="4133833932">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerHandlingMigrationOperation" message="Migration Manager is handling the migration operation for folder type: %type." value="710928558">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Error" symbol="MigrationManagerHandlingMigrationOperationWithEmptyQueue" message="MigrationManager got a completed MigrationOperation but the migration queue is empty" value="1585348777" />
+      <event level="Informational" symbol="MigrationManagerHandlingRedirectOperation" message="Migration Manager is handling the redirect operation for folder type: %type." value="3571140856">
+        <template>
+          <data type="Int32" name="type" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerNoBookmarkToPath" message="MigrationManager: we do not hold bookmarks to source path %path" value="1000783570" deprecated="yes">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerSkipPermissionToPathCheck" message="MigrationManager: skip permissions check since source path %path is within OneDrive root %rootPath" value="2148704890">
+        <template>
+          <data type="PrivateInfo" name="path" />
+          <data type="PrivateInfo" name="rootPath" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerNoPermissionToPath" message="MigrationManager: we do not hold permissions to source path %path" value="2186255254">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartCheckForFolderAccess" message="MigrationManager: Check if we have folder access for folder type %folderType" value="2783195585">
+        <template>
+          <data type="Int32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerMachineIsDomainJoined" message="Machine is domain joined, excluding user from move." value="1847884630" />
+      <event level="Informational" symbol="MigrationManagerAdminBlockedKfm" message="Admin blocked KFM" value="165166274" />
+      <event level="Informational" symbol="MigrationManagerSchedulingAScan" message="Migration Manager is scheduling a scan to per performed in %sec seconds." value="691825887">
+        <template>
+          <data type="UInt32" name="sec" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerIsOverQuota" message="Checking if migration struct IsOverQuota: %isOverQuota" value="2163992806">
+        <template>
+          <data type="Boolean" name="isOverQuota" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerLocaleUsedForProvision" message="MigrationManager: provision using locale:%localeName" value="3681622270">
+        <template>
+          <data type="UnicodeString" name="localeName" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerGetLocaleToUse" message="MigrationManager: provision candidate locale:%localeName, is allowed:%isAllowed" value="453691110">
+        <template>
+          <data type="UnicodeString" name="localeName" />
+          <data type="Boolean" name="isAllowed" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartProvisionOperationRampAndPolicy" message="Provision locale rampEnabled:%rampEnabled forceLocaleGPOSet:%forceLocaleSet" value="606400434">
+        <template>
+          <data type="Boolean" name="rampEnabled" />
+          <data type="Boolean" name="forceLocaleSet" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerStartProvisionLocaleNotSupported" message="Provision locale is not on the supported list, resetting forceLocale to false" value="2466691900" />
+      <event level="Informational" symbol="MigrationOperationGetCompetitorSyncRootPathsFailed" message="GetCompetitorSyncRootPaths call resulted in failure, Result: %hr" value="1253437452">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="NamedSemaphoreMacDestroyedWithHandle" message="NamedSemaphoreMac is being destroyed while holding a handle to semaphore %ls. Invoking Release." value="3212745011">
+        <template>
+          <data type="UnicodeString" name="ls" />
+        </template>
+      </event>
+      <event level="Informational" symbol="NamedSemaphoreMacReleasingSemaphore" message="NamedSemaphoreMac is attempting to release semaphore %name" value="332839638">
+        <template>
+          <data type="UnicodeString" name="name" />
+        </template>
+      </event>
+      <event level="Informational" symbol="NamedSemaphoreMacFailedToUnlockSemaphore" message="NamedSemaphoreMac failed to unlock the semaphore %name. Error: %error" value="245871427">
+        <template>
+          <data type="UnicodeString" name="name" />
+          <data type="UInt32" name="error" />
+        </template>
+      </event>
+      <event level="Informational" symbol="NamedSemaphoreMacFailedToCloseSemaphore" message="NamedSemaphoreMac failed to close the semaphore %name. Error: %error" value="1774536725">
+        <template>
+          <data type="UnicodeString" name="name" />
+          <data type="UInt32" name="error" />
+        </template>
+      </event>
+      <event level="Informational" symbol="NamedSemaphoreMacFailedToRemoveSemaphore" message="NamedSemaphoreMac failed to remove the semaphore %name. Error: %error" value="544034349">
+        <template>
+          <data type="UnicodeString" name="name" />
+          <data type="UInt32" name="error" />
+        </template>
+      </event>
+      <event level="Informational" symbol="NamedSemaphoreMacReleaseInvokedWithoutHandle" message="NamedSemaphoreMac Release invoked without handle. Name: %name" value="3441541566">
+        <template>
+          <data type="UnicodeString" name="name" />
+        </template>
+      </event>
+      <event level="Informational" symbol="NamedSemaphoreMacFailedToCreateSemaphore" message="NamedSemaphoreMac failed to get a handle to the semaphore: %name. Error: %error" value="3783294265">
+        <template>
+          <data type="UnicodeString" name="name" />
+          <data type="UInt32" name="error" />
+        </template>
+      </event>
+      <event level="Informational" symbol="NamedSemaphoreMacTryAcquire" message="NamedSemaphoreMac created: %created acquired: %acquired" value="2405635727">
+        <template>
+          <data type="Boolean" name="created" />
+          <data type="Boolean" name="acquired" />
+        </template>
+      </event>
+      <event level="Informational" symbol="NamedSemaphoreMacAlreadyHasHandle" message="NamedSemaphoreMac tried to acquire handle when handle already existed. Semaphore: %name." value="570452483">
+        <template>
+          <data type="UnicodeString" name="name" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="MigrationScanPackageBlocked" message="Telemetry recording new type of macOS package blocked: %fileExtension" value="1245234766">
+        <template>
+          <data type="UnicodeString" name="fileExtension" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMRedirectCheckHelperSetRootFolderPath_v1" message="Setting rootFolderPath: %path" version="1" value="2858488213">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMRedirectCheckHelperSetRootFolderPath" message="Received %inputPath Setting rootFolderPath: %userVisiblePath" version="2" value="2858488213">
+        <template>
+          <data type="PrivateInfo" name="inputPath" />
+          <data type="PrivateInfo" name="userVisiblePath" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMRedirectCheckHelperIsRootFolderPathSet" message="IsRootFolderPathSet: %isSet" value="3502545201">
+        <template>
+          <data type="Boolean" name="isSet" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerIsFalSupportedBVTOverride" message="Setting isFalSupported to true because we are running BVT." value="2818696652" />
+      <event level="Informational" symbol="MigrationManagerManageUserClickEvents" message="ManageUserClickEvents should register: %shouldRegister" value="3658833137" deprecated="yes">
+        <template>
+          <data type="Boolean" name="shouldRegister" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerCanPerformBackgroundScan" message="CanPerformBackgroundScan: ramped - %ramp initial sync - %initialsync root folder - %rootFolder" value="1555699426">
+        <template>
+          <data type="Boolean" name="ramp" />
+          <data type="Boolean" name="initialsync" />
+          <data type="Boolean" name="rootFolder" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerTriggerScanAfterUserClick" message="A user click was detected while waiting to perform background scan. Starting permission check..." value="983633655" deprecated="yes" />
+      <event level="Informational" symbol="MigrationManagerShouldSuppressBackgroundScan" message="ShouldSuppressBackgroundScan: %suppress" value="1780073963" deprecated="yes">
+        <template>
+          <data type="Boolean" name="suppress" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationManagerShouldSuppressBackgroundScanBVTOverride" message="Setting shouldSuppressBackgroundScan to false because we are running BVT." value="4103931671" deprecated="yes" />
+      <event level="Informational" symbol="MigrationManagerUpdateOptedInFoldersCache" message="Updating opted-in folder cache for type: %folderType optedIn: %optin keyReadResult: %result updated: %success" value="809314737">
+        <template>
+          <data type="Int32" name="folderType" />
+          <data type="Boolean" name="optin" />
+          <data type="HResult" name="result" />
+          <data type="Boolean" name="success" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="KFMSilentFlowLauncherFolderUnexpectedlyRestored" message="Folder %folderType should be opted in but was not found to be redirected into OneDrive." value="344735080">
+        <template>
+          <data type="Int32" name="folderType" />
+        </template>
+      </event>
+    </events>
+  </provider>
+</manifest>

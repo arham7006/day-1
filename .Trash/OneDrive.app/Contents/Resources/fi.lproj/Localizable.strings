@@ -1,0 +1,2575 @@
+// Misc
+
+// File Size Units
+
+/* The lowest unit for file sizes */
+"byteText" = "tavua";
+
+/* Unit for file sizes. */
+"KiloByteAbbrv" = "kt";
+
+/* Unit for file sizes. */
+"MegaByteAbbrv" = "Mt";
+
+/* Unit for file sizes. */
+"GigaByteAbbrv" = "Gt";
+
+/* Unit for file sizes. */
+"TeraByteAbbrv" = "Tt";
+
+/* Unit for file transfer speed. */
+"KiloBytePerSecond" = "kt/s";
+
+/* Unit for file transfer speed. */
+"MegaBytePerSecond" = "Mt/s";
+
+
+// First run - used by FirstRunWindowController.mm and its views
+
+/* Windows title used to welcome a user running the application.
+ There's probably no need to localize this string. */
+"FirstRunWindowTitle" = "Microsoft OneDrive";
+
+/* Title of the welcome page when running for the first time */
+"FirstRunText" = "Määritä OneDrive";
+
+/* Short explaination about what OneDrive does when running for the first time */
+"FirstRunDescriptiveText" = "Voit käyttää OneDrivessa olevia tiedostoja missä tahansa laitteessa.";
+
+/* Button to sign into a personal instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomePersonalButton" = "Henkilökohtainen";
+
+/* Button to sign into a business instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomeBusinessButton" = "Työ tai koulu";
+
+/* Button to start email hrd sign in flow on the first run experience in welcome page */
+"FirstRunEmailSignInButton" = "Kirjaudu sisään";
+
+/* Placeholder text for the email input box on the first run experience in welcome page */
+"FirstRunEmailInputPlaceholderText" = "Anna sähköpostiosoitteesi";
+
+/* Errors shown when there is a problem with the users email address on the first run experience in welcome page */
+"FirstRunWelcomeErrorPersonalAlreadySyncing" = "Synkronoit jo henkilökohtaisen OneDriven tässä tietokoneessa. Lisää uusi tili poistamalla nykyisen tilin linkitys.";
+"FirstRunWelcomeErrorEmailIsMSAAndAAD" = "Tätä sähköpostiosoitetta käytetään sekä OneDrive- että OneDrive for Business -palveluun. Kumpaan haluat kirjautua ensin?";
+"FirstRunWelcomeErrorEmailIsNotKnown" = "Sähköpostiosoitetta ei tunnisteta.";
+"FirstRunWelcomeErrorEmailAdminDisabled" = "Organisaatiosi ei salli oman henkilökohtaisen OneDriven synkronointia tässä tietokoneessa.";
+
+/* first run wizard progress text for screen readers */
+"FirstRunProgress0" = "OneDriven asennuksesta on valmiina nolla prosenttia";
+"FirstRunProgress50" = "OneDriven asennuksesta on valmiina viisikymmentä prosenttia";
+"FirstRunProgress75" = "OneDriven asennuksesta on valmiina seitsemänkymmentäviisi prosenttia";
+"FirstRunProgress100" = "OneDriven asennuksesta on valmiina sata prosenttia";
+
+/* Title of the page that introduces OneDrive folder when running for the first time */
+"FirstRunIntroduceText" = "Tämä on oma OneDrive-kansiosi";
+
+/* Title of the page that prompts for required folder when mounting for the first time */
+"FirstRunIntroduceRequiredPathText" = "Vahvista kansiosijainti";
+
+/* Title of the page that introduces OneDrive folder when running for the first time. "Finder" should be translated the same way as in the Mac OSX */
+"FirstRunIntroduceDescriptiveText" = "Lisää tiedostoja tähän, jotta voit käyttää niitä muilla laitteilla, vaikka ne ovat edelleen Mac-tietokoneessasi.";
+
+/* Title of the adminstrative error that will be attached to the FirstRunIntroduceDescriptiveText */
+"FirstRunIntroduceDescriptiveTextWithError" = "Lisää tiedostoja tähän, niin voit käyttää niitä muilla laitteilla, vaikka ne ovat edelleen Mac-tietokoneessasi. Järjestelmänvalvoja edellyttää, että OneDrive-kansio on tässä sijainnissa";
+
+/* Title of the page that prompts for access to required folder. */
+"SelectRequiredPathDescriptiveText:%@" = "Anna tämän kansion käyttöoikeus tiedostojen synkronointia varten: %@";
+
+/* This is for the button that allows users to change the root folder path. When clicked, it opens a browse window for users to select the root folder. */
+"FirstRunBrowseButtonText" = "Vaihda sijainti";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"FirstRunDoneIntroductionButtonText" = "Seuraava";
+
+/* This is for the button when user has never selected a root folder. */
+"FirstRunSelectFolderButtonText" = "Valitse OneDrive-kansion sijainti";
+
+/* This is for the button when user has not yet confirmed our required folder. */
+"FirstRunSelectRequiredFolderButtonText" = "Vahvista kansiosijainti";
+
+/* This is a prompt displayed in the file browse dialog. */
+"SelectRootFolderMessage" = "Valitse sijainti OneDrive-kansiollesi";
+
+/* This is a prompt displayed in the file browse dialog to confirm required location. */
+"SelectRequiredFolderMessage" = "Käytä valittua kansiota ja napsauta Vahvista sijainti.";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"CreateRootFolderButton" = "Valitse tämä sijainti";
+
+/* This is for the confirmation button when user is done confirming the required folder. */
+"CreateRequiredFolderButton" = "Vahvista sijainti";
+
+/* This is for the text field to show currently selected root folder path. */
+"FirstRunShowFolderPathText:%@" = "Oma %@-kansio on";
+
+/* This is the alert dialog title when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootTitle:%@" = "Oman %@-kansion sijaintia ei löytynyt";
+
+/* This is the alert dialog body when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootMessage" = "OneDrive-kansiosi on saatettu poistaa. Jos OneDrive-kansiosi sijaitsee ulkoisessa asemassa, ulkoinen asema on ehkä irrotettu. Määritä OneDrive-kansio uudelleen osoittamalla OK.";
+
+/* This is the alert dialog button that allows user to reconfigure */
+"FirstRunUnconfiguredRootReconfigureButton" = "OK";
+
+/* This is the alert dialog button that allows user to quit the application */
+"FirstRunUnconfiguredRootQuitButton" = "Lopeta OneDrive";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is invalid */
+"InvalidMappingLocationMessageTitle" = "OneDrive-kansiota ei voi luoda valitsemaasi sijaintiin";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid. */
+"InvalidMappingLocationDetailedMessage" = "Kokeile eri sijaintia. Varmista, ettei sijainti ole siirrettävässä asemassa tai levyssä, joka on kirjainkoon huomioon ottavassa muodossa.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location can't be used */
+"InvalidMappingLocationInUseTitle" = "OneDrive-kansiota ei voi luoda tähän sijaintiin";
+
+/* This is a detailed explanation in the alert window telling users the selected folder is already used by another OneDrive account. */
+"InvalidMappingLocationInUseDetailedMessage" = "Toinen OneDrive-kansio on jo olemassa tässä sijainnissa. Valitse toinen sijainti.";
+
+/* This is a short text above detailed explaination in the alert window telling users to select the required path */
+"InvalidMappingRequiredPathMessageTitle" = "Vahvista valittu kansiosijainti, jotta synkronointia voidaan jatkaa";
+
+/* This is a detailed explaination in the alert window telling users the selected location is not the required path. */
+"InvalidMappingRequiredPathDetailedMessage" = "Säilytä valittu sijainti ja napsauta Finderissä Vahvista sijainti.";
+
+/* This is the button in the alert window that shows up when current location is not the required path. The button allows users to choose a new location */
+"InvalidMappingRequiredPathContinueButton" = "Jatka";
+
+/* This is the button in the alert window that shows up when current location is invalid. The button allows users to choose a new location */
+"InvalidMappingLocationChooseButton" = "Valitse uusi sijainti";
+
+/* This is the button in the alert window that shows up when current location is invalid. This button allows users to close the alert */
+"InvalidMappingLocationCancelButton" = "Peruuta";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty */
+"MappingLocationContainsFileMessageTitle" = "Tässä kansiossa on jo sisältöä";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessage:%@" = "Jos valitset tämän sijainnin kansiolle %@, tämän kansion sisältö yhdistetään OneDriveen. Voit valita toisen sijainnin tai säilyttää valitun sijainnin";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessageWithDefaultFolder:%@" = "Jos valitset tämän sijainnin kansiolle %@, tämän kansion sisältö yhdistetään OneDriveen.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty {%1$@ is a folder name and %2$@ is its parent folder name } */
+"LibraryFolderMappingLocationContainsFileMessageTitle:%@,%@" = "Kansio %1$@ on jo kansiossa %2$@";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is not empty. { %1$@ is a folder name } */
+"LibraryFolderMappingLocationContainsFileDetailedMessage:%@" = "Jos valitset tämän sijainnin kansiolle %1$@, tämän kansion tiedostot yhdistetään pilvessä olevien tiedostojen kanssa. Voit käyttää valittua sijaintia tai synkronoida uuteen kansioon.";
+
+/* This is the button in the alert window that shows up when the folder location is not empty. This button allows users to continue anyway */
+"MappingLocationContainsFileContinueButton" = "Käytä tätä sijaintia";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button allows users to choose a new location */
+"MappingLocationContainsFileChooseButton" = "Valitse uusi sijainti";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button informs us to automatically create a new folder on behalf of the user. */
+"MappingLocationContainsFileCreateButton" = "Synkronoi uuteen kansioon";
+
+/* This is on top of the selective sync page in First Run Experience. */
+"FirstRunSelectiveSyncTitle" = "Synkronoi vain haluamasi";
+
+/* This is the description right below the title on top of the selective sync page. */
+"FirstRunSelectiveSyncDescription:%@" = "Valitse OneDrive%@-kansioon ladattavat kohteet. Voit käyttää näitä kohteita myös offline-tilassa.";
+
+/* This is the text on radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsTitle" = "Kaikki tiedostot ja kansiot OneDrivessani";
+
+/* This is the description text next to the radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsDescription" = "Kaikki kanssasi jaettuja tiedostoja lukuun ottamatta synkronoidaan tähän Mac-tietokoneeseen.";
+
+/* This is the text on radio button to choose to sync only some files */
+"FirstRunSelectiveSyncSomeItemsTitle" = "Valitse synkronoitavat kansiot";
+
+/* This is the description text next to the radio button to choose to sync only some files. */
+"FirstRunSelectiveSyncSomeItemsDescription" = "Valitse Valmis, niin voit valita, mitä tähän tietokoneeseen synkronoidaan.";
+
+/* This is the button text in the selective sync page */
+"FirstRunSelectiveSyncNextButtonText" = "Seuraava";
+
+/* This is the title text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncTitle" = "Ota Tiedostot tarvittaessa -ominaisuus käyttöön";
+
+/* This is the description text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncDescription" = "Voit katsoa Tiedostot tarvittaessa -ominaisuuden asetukset hiiren kakkospainikkeella avautuvasta pikavalikosta, kun otat OneDriven Finder-synkronointilaajennuksen käyttöön. Valitse Avaa laajennusasetukset ja valitse sitten OneDriven Finder-laajennus.";
+
+/* This is the button text in the Enable Finder Sync page for the Enable button */
+"FirstRunEnableFinderSyncEnableButtonText" = "Avaa laajennusasetukset";
+
+/* This is the button text in the Enable Finder Sync page for the Skip button */
+"FirstRunEnableFinderSyncSkipButtonText" = "Otan laajennukset käyttöön myöhemmin";
+
+/* This is on top of the Cloud Files Tutorial page in First Run Experience. */
+"FirstRunCloudFilesTutorialTitle" = "Kaikki tiedostot valmiina tarvittaessa";
+
+/* This is the description right below the title on top of the Cloud Files Tutorial page. */
+"FirstRunCloudFilesTutorialDescription" = "Tiedostot tarvittaessa -ominaisuuden avulla voit selata kaikkea OneDrive-sisältöäsi käyttämättä Mac-tietokoneen levytilaa. Tiedostot ladataan silloin, kun tarvitset niitä.";
+
+/* This is the header text in the Cloud Files Tutorial page for online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFiles" = "Vain online-tilassa käytettävät tiedostot";
+
+/* This is the text in the Cloud Files Tutorial page describing online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFilesDescription" = "Vain online-tilassa käytettäviä tiedostoja ei ladata laitteelle, ennen kuin ne avataan.";
+
+/* This is the header text in the Cloud Files Tutorial page for locally available files. */
+"FirstRunCloudFilesTutorialHydratedFiles" = "Paikallisesti käytettävissä olevat tiedostot";
+
+/* This is the text in the Cloud Files Tutorial page describing locally available files. */
+"FirstRunCloudFilesTutorialHydratedFilesDescription" = "Avaamasi tiedostot ladataan laitteellesi ja ovat käytettävissä offline-tilassa.";
+
+/* This is the header text in the Cloud Files Tutorial page for always available files. */
+"FirstRunCloudFilesTutorialPinnedFiles" = "Aina käytettävissä olevat tiedostot";
+
+/* This is the text in the Cloud Files Tutorial page describing always available files. */
+"FirstRunCloudFilesTutorialPinnedFilesDescription" = "Voit merkitä ne tiedostot ja kansiot, joiden haluat olevan aina käytettävissä – myös offline-tilassa.";
+
+/* This is the button text in the Cloud Files Tutorial page */
+"FirstRunCloudFilesTutorialNextButtonText" = "Seuraava";
+
+/* This is on top of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunTitle" = "OneDrive on valmis käytettäväksi";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunDescription:%@" = "Tiedostot ladataan ja pidetään synkronoituina tässä Mac-tietokoneessa. Voit lisätä tiedostoja OneDriveen siirtämällä ne omaan %@ -kansioon Finderissa.";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience when Cloud Files on. */
+"FirstRunFinishFirstRunCloudFilesDescription:%@" = "OneDrivesi on määritetty ja käyttövalmis. Voit lisätä tiedostoja OneDriveen siirtämällä ne kansioon %@ Finderissa.";
+
+/* This is the text of the Open-at-login checkbox in the Finish First Run page (Done page) in First Run Experience */
+"FirstRunFinishFirstRunOpenAtLoginCheckboxText" = "Avaa kirjauduttaessa, jotta tiedostot synkronoidaan automaattisesti";
+
+/* This is the button text in the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunButtonText:%@" = "Avaa oma %@-kansio";
+
+// Settings folder access error
+
+/* This is the title text for dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorTitle" = "Asetuskansiota ei voi käyttää";
+
+/* This is the descrption text for dialog we pop up when we cannot access settings folder {StrContains=\"Application Support\"} */
+"SettingsFolderErrorDescription" = "Varmista, että voit käyttää Application Support -kansiota.";
+
+/* This is the button to quit for the dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorQuitButtonText" = "Lopeta OneDrive";
+
+// Cloud device - used by SyncDevice.mm
+
+/* The name of the online storage */
+"CloudDevice" = "Synkronoitu OneDrive-tallennustila";
+
+
+// Folder status - used by ModelExtensions.mm
+
+/* Text shown on status menu when everything is in sync */
+"FolderStatusInSync" = "OneDrive on ajan tasalla"; // Up to date
+
+/* Local folder convergence status against a remote folder is not known */
+"FolderStatusUnknown" = "Tuntematon";
+
+/* Uploading and downloading files. "Files" will always be plural. */
+"FolderStatusSendAndReceive:%@" = "Siirretään %@ tiedostoa...";
+
+/* Uploading one file from a remote folder. We show the file name. */
+"FolderStatusSendingSingular:%@" = "Ladataan %@ palvelimeen...";
+
+/* Uploading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusSendingPlural:%@" = "Ladataan %@ tiedostoa palvelimeen...";
+
+/* Downloading one file from a remote folder. We show the file name. */
+"FolderStatusReceivingSingular:%@" = "Ladataan %@ palvelimesta...";
+
+/* Downloading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusReceivingPlural:%@" = "Ladataan %@ tiedostoa palvelimesta...";
+
+/* Processing downloaded files to be created in a local folder */
+"FolderStatusRealizing" = "Käsitellään ladattuja tiedostoja...";
+
+/* Processing local file changes to be uploaded */
+"FolderStatusHashing" = "Käsitellään muutoksia...";
+
+/* Scanning file changes in a folder */
+"FolderStatusScanning" = "Tarkistetaan tiedostoja...";
+
+/* Scanning file changes in a folde */
+"FolderStatusScanningExtended:%@" = "Tarkistetaan kansiota %@...";
+
+/* Processing changes to files */
+"FolderStatusMetadataXfer" = "Käsitellään tiedostoja...";
+
+/* Waiting to resume file transfers (upload/download) */
+"FolderStatusBlocked" = "Odotetaan synkronointia";
+
+/* Status for a folder that is not syncing*/
+"FolderStatusUnmapped" = "OneDrivea ei ole määritetty";
+
+/* Waiting to resume donwloading of a single file. We show the file name. */
+"FolderStatusBlockedSingular:%@" = "Odotetaan tiedostoa %@...";
+
+/* Waiting to resume donwloading files */
+"FolderStatusBlockedPlural:%@" = "Odotetaan: %@ tiedostoa";
+
+/* Upload+Download Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB */
+"FolderStatusTransferProgress:%@,%@,%@,%@" = "%@ %@ / %@ %@";
+
+/* Upload+Download+Rate Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB The third number shows the current transfer rate followed by its unit. */
+"FolderStatusTransferProgressNew:%@,%@,%@,%@,%@,%@" = "%@ %@ / %@ %@ nopeudella %@ %@";
+
+/* Improve upload performance */
+"FasterUploadOption" = "Paranna latausnopeutta lataamalla tiedostoja erissä.\r\nTämä valinta käyttää enemmän kaistanleveyttä. Jos huomaat ongelmia Internet-yhteydessä, poista valinta tästä ruudusta.";
+
+/* Available storage space. Example: 20 GB used out of 200 GB. This is used in the systray. */
+"StorageQuota:%@,%@" = "%1$@ / %2$@ käytössä";
+
+/* Available storage space. Example: 20 GB of 200 GB cloud storage used. This is used in account tab of preference window to show GB on disk for personal account */
+"CloudStorageQuota:%@,%@" = "%1$@ / %2$@ pilvitallennustilasta käytetty";
+
+/* Storage used on Mac. Example: 2 GB used on this Mac. This is used in account tab of preference window to show GB on disk for ODB */
+"StorageOnMac:%@" = "%@ käytössä tässä Macissa";
+
+// Device status - used by ModelExtensions.mm
+
+/* Drive status displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlocked" = "Tiedostoja ei voi ladata";
+
+/* Error description displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlockedVerbose" = "Tiedostovirhe estää kaikki lataukset palvelimeen";
+
+// Device Location - used by ModelExtensions.mm
+
+/* Local device, i.e. this computer */
+"DeviceLocationLocal" = "Paikallinen";
+
+/* Remote device, e.g. another computer */
+"DeviceLocationRemote" = "Etä";
+
+/* Cloud storage device, */
+"DeviceLocationCloud" = "Pilvi";
+
+// Sync Issue Window
+
+/* "Problem" is a general term that includes both warnings and errors. Problem is singular. */
+"SyncIssueWindowTitleSingular:%@" = "1 %@-ongelma";
+
+/* "Problem" is a general term that includes both warnings and errors. Problems is plural. */
+"SyncIssueWindowTitlePlural:%@,%@" = "%1$@ ongelmaa kohteessa %2$@";
+
+/* The button is used to clear the issue list */
+"SyncIssueWindowClearButton" = "Tyhjennä";
+
+/* Reveal is showing the item */
+"SyncIssueWindowOpenInFinderToolTip" = "Näytä Finderissa";
+
+/* Tool tip for the button that removes an issue from issue window */
+"SyncIssueWindowIgnoreIssueToolTip" = "Ohita tämä ongelma";
+
+/* Text on status when there are more than 1 problems. "Problems" is always plural */
+"SyncIssueStatusPlural:%@" = "%@ OneDriveen liittyvää ongelmaa";
+
+/* Text on status when there is a problem. problem is always singular */
+"SyncIssueStatusSingular" = "1 OneDriveen liittyvä ongelma";
+
+/* Tool tip for the button that opens issue resolver window */
+"SyncIssueWindowOpenIssueToolTip" = "Ratkaise ongelma";
+
+/* Primary text for error dialog with a file conflict for the file name. %@ is a file name */
+"SyncIssueAlertFileOnHoldPrimary:%@" = "Ratkaise tiedostoa %@ koskeva tiedostoristiriita";
+
+/* Secondary text for error dialog. %@ is a machine name */
+"SyncIssueAlertFileOnHoldSecondary:%@" = "Voit avata tiedoston Officessa ja yhdistää kummankin version muutokset, tai voit valita tiedoston, jonka haluat säilyttää. Halutessasi voit säilyttää molemmat tiedostot, jolloin tietokoneessa olevan tiedoston nimeen lisätään -%@ ja verkossa oleva tiedosto ladataan tietokoneeseen.";
+
+/* Primary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldMainButton" = "Säilytä molemmat tiedostot";
+
+/* Secondary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldSecondaryButton" = "Avaa Officessa";
+
+// Error description - used by ModelExtensions.mm
+
+/* error description used in issue window {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFilename" = "Muuta tiedoston nimeä. Esimerkiksi niin, ettei sen ensimmäinen eikä viimeinen merkki ole välilyönti ja ettei se pääty pisteeseen, ala kahdella pisteellä tai sisällä mitään seuraavista merkeistä: \\ / : * ? \" < > | ";
+
+/* error description used in issue window  {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFoldername" = "Muuta kansion nimeä. Esimerkiksi niin, ettei sen ensimmäinen eikä viimeinen merkki ole välilyönti ja ettei se pääty pisteeseen, ala kahdella pisteellä tai sisällä mitään seuraavista merkeistä: \\ / : * ? \" < > | ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionFilePathTooLong" = "Tiedostopolku on liian pitkä tallennettavaksi tietokoneeseen";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionCloudAccessDenied:%@" = "Tiedosto on vain luku -tilassa kohteessa %@";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionDocumentCheckedOut" = "Joku muu on kuitannut ulos tämän tiedoston.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionServerFileConflict:%@" = "Kohdetta ei voitu ladata kohteeseen %@";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionExcludedItem:%@" = "Kohdetta ei voitu ladata kohteeseen %@";
+
+/* error description used in issue window %1$@ is a size like 10 GB, %2$@ is a string like "OneDrive - Microsoft" */
+"SyncErrorShortDescriptionFileTooBig:%@,%@" = "Tiedostoja, joiden koko on yli %1$@, ei voi ladata kohteeseen %2$@";
+
+/* Use "OneNote" unless there's a localized name for it {Locked=!cs, sk;\"OneNote\"} */
+"SyncErrorShortDescriptionOnenoteDeleted:%@" = "OneNote-tiedostojen pikakuvakkeita ei voi poistaa kansiosta %@. Siirry OneDriveen napsauttamalla ja poista kohde verkosta.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionItemCantFitInQuota:%@" = "Tiedosto tai kansio sisältöineen ei mahdu kohteen %@ jäljellä olevaan kiintiöön";
+
+/* item means either folder or file */
+"SyncErrorShortDescriptionItemLimitExceeded:%@" = "Kohteessa %@ on liian monta tiedostoa. Poista tarpeettomat tiedostot.";
+
+/* The user choose to unsync files/folders but we are unable to delete it. item means either folder or file */
+"SyncErrorShortDescriptionUnmappedContentPresent:%@" = "Tämänniminen tiedosto tai kansio on jo olemassa samassa verkon sijainnissa kohteessa %@. Nimeä tiedosto tai kansio uudelleen.";
+
+/* error description used when Office files have edit-edit conflicts and they cannot be merged */
+"SyncErrorShortDescriptionFileOnHold" = "Office-tiedoston muutoksia ei voitu yhdistää. Yritä ratkaista ongelma napsauttamalla nuolikuvaketta.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaCritical:%@,%@" = "%1$@ on %2$@ täynnä";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaCritical:%@,%@" = "Kohteessa %1$@ on vain %2$@ vapaata tilaa.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaExceeded:%@" = "Kohteessa %@ ei ole tilaa";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaExceeded" = "Jos haluat pitää OneDrive-kansiosi synkronoituna, hanki lisää tallennustilaa tai poista tarpeettomia tiedostoja.";
+
+/* error description used in issue window for business accounts */
+"CloudIssueShortDescriptionQuotaExceeded_Business" = "Pyydä lisätietoja IT-osastolta tai vapauta tilaa poistamalla tiedostoja.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleThrottling" = "OneDrive ei voi siirtää tiedostoja juuri nyt";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionThrottling" = "Yritä huomenna uudelleen.";
+
+// Status menu - used by StatusMenuController.mm
+
+/* No comments provided by engineer */
+"StatusMenuTitle" = "Hallitse";
+
+/* The status menu item text that leads to more menu items */
+"StatusMoreMenu" = "Lisää";
+
+/* Text for status menu item that opens the folder containing deleted OneDrive files */
+"StatusMenuItemLaunchRecycleBin" = "OneDriven roskakori";
+
+/* Status menu item to allow the user to open the dialog for sharing file/folder */
+"StatusMenuItemShare" = "Jaa tiedosto tai kansio...";
+
+/* Text for the status menu item which opens the OneDrive folder when clicked*/
+"StatusMenuItemOpenLocalFolder" = "Avaa OneDrive-kansio";
+
+/* Text for the status menu item which opens the named folder when clicked  */
+"StatusMenuItemOpenNamedFolder: %@" = "Avaa kansio %@";
+
+/* Status menu item that opens browser with Upgrade account page */
+"StatusMenuItemUpgrade" = "Päivitä";
+
+/* Text for the status menu item which opens a browser to OneDrive website for storage manage */
+"StatusMenuItemManageStorage" = "Tallennustilan hallinta";
+
+/* Status menu item that when clicked will launch a page with user's premium features */
+"StatusMenuItemManagePremium" = "Omat Premium-ominaisuudet";
+
+/* Text for the status menu item which opens a browser to OneDrive website homepage */
+"StatusMenuItemLaunchWebsite" = "Siirry sivustoon OneDrive.com";
+
+/* The status menu item that allows user to open OneDrive help site. It will likely launch a browser to a website */
+"StatusMenuItemLaunchHelp" = "Ohje";
+
+/* The status menu item that allows user to open OneDrive feedback. It will likely launch a browser to a website */
+"StatusMenuItemFeedback" = "Palaute";
+
+/* The status menu item that allows a user to open the Parature support dialog. */
+"StatusMenuItemReportIssue" = "Ilmoita ongelmasta";
+
+/* Status shown on the status menu when everything is up to date */
+"StatusMenuItemUpToDate" = "OneDrive on ajan tasalla";
+
+/* Status shown on the status menu to indicate last updated time in seconds */
+"StatusMenuItemLastUpToDateTimeSecondsAgo" = "Päivitetty viimeksi hetki sitten";
+
+/* Status shown on the status menu to indicate last updated time was one minute ago */
+"StatusMenuItemLastUpToDateTimeOneMinuteAgo" = "Päivitetty viimeksi minuutti sitten";
+
+/* Status shown on the status menu to indicate last updated time was minutes ago */
+"StatusMenuItemLastUpToDateTimeMinutesAgo:%d" = "Päivitetty viimeksi %d minuuttia sitten";
+
+/* Status shown on the status menu to indicate last updated time was one hour ago */
+"StatusMenuItemLastUpToDateTimeOneHourAgo" = "Päivitetty viimeksi tunti sitten";
+
+/* Status shown on the status menu to indicate last updated time was hours ago */
+"StatusMenuItemLastUpToDateTimeHoursAgo:%d" = "Päivitetty viimeksi %d tuntia sitten";
+
+/* Status shown on the status menu to indicate last updated time on a date */
+"StatusMenuItemLastUpToDateTimeDaysAgo:%@" = "Päivitetty viimeksi %@";
+
+/* No comments provided by engineer */
+"StatusMenuItemViewActivity" = "Näytä viimeisimmät aktiviteetit";
+
+/* Status menu entry for opening the issue window */
+"StatusMenuItemViewIssues" = "Näytä synkronointiongelmat napsauttamalla tätä";
+
+/* Status shown on the status menu when downloading a file */
+"StatusMenuItemSyncCountSingularDownload: %@" = "Ladataan tiedostoa %@";
+
+/* Status shown on the status menu when uploading a file */
+"StatusMenuItemSyncCountSingularUpload: %@" = "Ladataan tiedostoa %@";
+
+/* Status shown on the status menu when downloading or uploading more than one file */
+"StatusMenuItemSyncCount-%d" = "Siirretään %d kohdetta...";
+
+/* Text for status menu item that opens the preference. It should be translated the same way as all app menu's Preferences item. */
+"StatusMenuItemPreferences" = "Asetukset";
+
+/* Text for preference window accessibility label. %1$@ is the current tab name */
+"AccessibilityPreferencesWindowLabel:%@" = "Asetukset %1$@";
+
+/* Text for status menu item that pauses syncing. */
+"StatusMenuItemPause" = "Keskeytä synkronointi";
+
+/* Text for status menu item that resumes syncing when paused. */
+"StatusMenuItemResume" = "Jatka synkronointia";
+
+/* Text for status menu item that indicates to pause for 1 hour. */
+"StatusMenuItemPauseTimerSingular" = "1 tunti";
+
+/* Text for status menu item that indicates to pause for a number of hours. %1$@ is a number representing hours. */
+"StatusMenuItemPauseTimerPlural" = "%1$@ tuntia";
+
+/* Text for status menu item that quits the app */
+"StatusMenuItemQuit" = "Lopeta OneDrive";
+
+/* Loading user data when signing-in */
+"StatusMenuItemLoading" = "Ladataan...";
+
+/* OneDrive is at initial start up */
+"StatusMenuItemStarting" = "OneDrivea käynnistetään";
+
+/* OneDrive is showing first run wizard */
+"StatusMenuItemSetup" = "Määritä OneDrive";
+
+/* Waiting for user input to migrate their Sandbox data */
+"StatusMenuItemMigration" = "Siirretään käyttäjätietoja...";
+
+/* Text for status menu item that signs out the app */
+"StatusMenuItemSignOut" = "Kirjaudu ulos";
+
+/* Launch the application automatically after login to OS */
+"StatusMenuItemOpenAtLogin" = "Avaa kirjauduttaessa";
+
+/* Status menu item that when clicked will launch the live sit for the account that is connected */
+"StatusMenuItemViewOnline" = "Näytä verkossa";
+
+// Quit Dialog
+
+/* Title text for dialog shown when user is quitting OneDrive */
+"QuitDialogHeader" = "Lopetetaanko OneDrive?";
+
+/* Body text for dialog shown when user is quitting OneDrive */
+"QuitDialogDescription" = "Jos lopetat OneDriven, OneDrive-kansion tiedostoja ei synkronoida verkossa sijaitsevien tiedostojen kanssa.";
+
+/* Title text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogHeaderUploadsPending" = "Lopetetaanko OneDrive ja keskeytetäänkö tiedostojen lataaminen?";
+
+/* Body text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogDescriptionUploadsPending" = "Jos lopetat OneDriven, OneDrive-kansion tiedostot eivät lataudu, ennen kuin käynnistät sen uudelleen.";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will quit OneDrive. */
+"QuitDialogButtonDefault" = "Lopeta OneDrive";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will dismiss dialog. */
+"QuitDialogCancelButton" = "Peruuta";
+
+// Dock Menu - used by DockMenuController.mm
+
+/* No comments provided by engineer */
+"DockMenuTitle" = "OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemOpenLocalFolder" = "Avaa OneDrive-kansio";
+
+/* No comments provided by engineer */
+"DockMenuItemLaunchWebsite" = "Siirry sivustoon OneDrive.com";
+
+// Login Failures - used by SignInViewController.mm
+
+/* When we are unable to retrieve a user's tenant name, we will use this to show "OneDrive - Business" */
+"DefaultTenantName" = "Business";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"InvalidUsernameTitleText" = "OneDriveen kirjautuminen ei onnistu.";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the explaination text in the dialog {StrContains=\"example555@hotmail.com\"} */
+"InvalidUsernameDescriptionText" = "Anna Microsoft-tilisi tässä muodossa: example555@hotmail.com.";
+
+/* When we receive an invalid web request, we show this text as the first line of the dialog. */
+"InvalidWebRequestTitle" = "Synkronointisovelluksen avaaminen epäonnistui";
+
+/* When we receive an invalid web request, we show this text as the body text of the dialog. */
+"InvalidWebRequestBody" = "URL-osoitetta ei voitu käsitellä. Pyydä ohjeita ottamalla yhteyttä tukeen.";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailTitle" = "Sisäänkirjautumisessa ilmeni ongelma";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailText" = "Kirjautumisen yhteydessä ilmeni ongelma. Yritä uudelleen. Tarkista, että Microsoft-tilisi ja salasanasi ovat oikein ja että tietokone on yhdistetty Internetiin.";
+
+/* When we have connectivity error during sign in, we pop up a dialog and this is the first line of the text in the dialog*/
+"SignInConnectivityErrorTitleText" = "Yhteyden muodostamisessa OneDriveen ilmeni ongelma";
+
+/* When we have connecctivity error during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInConnectivityErrorDescriptionText" = "Tarkista Internet-yhteys ja yritä sitten uudelleen.";
+
+/* When we fail to access the keychain during sign in, we pop up a dialog and this is the first line of text in the dialog. */
+"SignInKeychainErrorTitleText" = "Avainnipun käytössä on ilmennyt ongelma";
+
+/* when we fail to access the keychain during sign in, we pop up a dialog and this is the detailed text in the dialog. */
+"SignInKeychainErrorDescriptionText" = "Tarkista, että kirjautumisen avainnippu on olemassa ja että OneDrivella on sen käyttöoikeus. Salli OneDriven käyttää avainnippuasi pyydettäessä.";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the first line of the text in the dialog */
+"SignInCredentialErrorTitleText" = "Yhteyden muodostamisessa OneDriveen ilmeni ongelma";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInCredentialErrorDescriptionText" = "Tarkista Internet-yhteys ja yritä sitten uudelleen.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SuspendedAccountTitleText" = "OneDriveen kirjautuminen ei onnistu.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the explaination text in the dialog */
+"SuspendedAccountDescriptionText" = "Tilisi on poistettu käytöstä tilapäisesti.";
+
+/* When we get a user using a non-beta enabled account, we show this error title. */
+"SignInNoBetaText" = "OneDriveen kirjautuminen ei onnistu.";
+
+/* When we get a user using a non-beta enabled account, we show this error description. {StrContains=\"Windows Live\"} */
+"SignInNoBetaDescriptionText" = "Tätä tiliä ei ole määritetty Windows Live -beetaohjelmaa varten.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnknownErrorTitle" = "Sisäänkirjautumisessa ilmeni ongelma";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnknownErrorText" = "Yritä uudelleen muutaman minuutin kuluttua.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLError500Title" = "Sisäänkirjautumisessa ilmeni ongelma";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLError500Text" = "OneDriven kanssa ilmeni ongelma. Yritä uudelleen muutaman minuutin kuluttua.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInterruptedErrorTitle" = "Sisäänkirjautumisessa ilmeni ongelma";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInterruptedErrorText" = "Tilisi kanssa ilmeni ongelma. Saat ohjeet ongelman korjaamiseen kirjautumalla sisään palvelun sivustossa. Kun olet korjannut ongelman, yritä uudelleen.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnauthorizedErrorTitle" = "Sisäänkirjautumisessa ilmeni ongelma";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnauthorizedErrorText" = "OneDriven kanssa ilmeni ongelma. Yritä uudelleen muutaman minuutin kuluttua.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidClientErrorTitle" = "Sisäänkirjautumisessa ilmeni ongelma";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidClientErrorText" = "OneDriven kanssa ilmeni ongelma. Yritä uudelleen muutaman minuutin kuluttua.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidGrantErrorTitle" = "Sisäänkirjautumisessa ilmeni ongelma";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidGrantErrorText" = "OneDriven kanssa ilmeni ongelma. Yritä uudelleen muutaman minuutin kuluttua.";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the title. */
+"SignInURLSPOUserNotFoundTitle" = "OneDrivea ei ole määritetty";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the error text. */
+"SignInURLSPOUserNotFoundErrorText" = "Pyydä lisätietoja IT-osastoltasi.";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the title */
+"SignInURLUserThrottledErrorTitle" = "OneDrivea ei voitu määrittää tähän Mac-tietokoneeseen";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the error text. */
+"SignInURLUserThrottledErrorText" = "OneDrivessa on ruuhkaa. Yritä myöhemmin uudelleen.";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the title. */
+"SignInURLEmailMismatchTitle" = "Synkronoinnin onnistumiseksi käytä samaa sähköpostiosoitetta, jota käytit verkossa";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the error text. */
+"SignInURLEmailMismatchErrorText:%@" = "Aloita sisällön synkronointi kirjautumalla sisään tilillä %@.";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to try signing in again. */
+"SignInTryAgainButtonText" = "Yritä uudelleen";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive*/
+"SignInQuitButtonText" = "Lopeta OneDrive";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive */
+"SignInCloseButtonText" = "Sulje";
+
+/* This text is displayed in sign in dialog while we load signing in page */
+"SignInPageLoadingText" = "Ladataan...";
+
+/* This text is used for voice over while we load signing in page */
+"SignInPageLoadingVoiceOverText" = "Odota, kun OneDrive latautuu.";
+
+/* This text is displayed in sign in dialog while we are signing in the user */
+"SignInProgressingText" = "Kirjaudutaan...";
+
+/* This text is used for voice over while we are signing in the user */
+"SignInProgressingVoiceOverText" = "Odota, kun OneDrive kirjautuu sisään.";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the title. */
+"SignInDuplicateSyncErrorTitle" = "Synkronoit jo tätä tiliä";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the text. */
+"SignInDuplicateSyncErrorText:%@" = "Avaa oma %@-kansio tai kirjaudu sisään toisella tilillä.";
+
+/* When the userconnected service returns an error, this is the title */
+"SignInUserConnectedErrorTitle" = "Yhteyden muodostamisessa OneDriveen ilmeni ongelma";
+
+/* When the userconnected service returns error: "AccessDenied". This is the error text. */
+"SignInUserConnectedAccessDeniedText" = "Sinulla ei ole käyttöoikeutta tähän palveluun. Saat lisätietoja ottamalla yhteyttä IT-osastoon.";
+
+/* When the userconnected service returns error: "AccountSuspended". This is the error text. */
+"SignInUserConnectedAccountSuspendedText" = "Tilisi on estetty. Saat lisätietoja ottamalla yhteyttä IT-osastoon.";
+
+/* When the userconnected service returns error: "InvalidUserData". This is the error text. */
+"SignInUserConnectedInvalidUserDataText" = "Palveluun ei voitu muodostaa yhteyttä. Saat lisätietoja ottamalla yhteyttä IT-osastoon.";
+
+/* When the userconnected service returns error: "MissingLicense". This is the error text. */
+"SignInUserConnectedMissingLicenseText" = "Tarvitset eri käyttöoikeuden tähän palveluun. Saat lisätietoja ottamalla yhteyttä IT-osastoon.";
+
+/* When the userconnected service returns error: "ProvisioningFailed". This is the error text. */
+"SignInUserConnectedProvisioningFailedText" = "OneDrivea ei ole määritetty. Saat lisätietoja ottamalla yhteyttä IT-osastoon.";
+
+/* When the userconnected service returns error: "Throttled". This is the error text. */
+"SignInUserConnectedThrottledText" = "Palveluun kohdistuu juuri nyt suuri määrä pyyntöjä. Yritä uudelleen muutaman minuutin kuluttua.";
+
+/* When the userconnected service returns error: "Timeout". This is the error text. */
+"SignInUserConnectedTimeoutText" = "Palvelu ei vastannut tarpeeksi nopeasti. Yritä uudelleen muutaman minuutin kuluttua";
+
+/* When the userconnected service returns error: "Unknown". This is the error text. */
+"SignInUserConnectedUnknownText" = "Yritä uudelleen muutaman minuutin kuluttua tai ota yhteyttä IT-osastoon, jos ongelma toistuu";
+
+/* When the userconnected service returns error: "UnreachableHost". This is the error text. */
+"SignInUserConnectedUnreachableHostText" = "Palvelu on tilapäisesti poissa käytöstä. Yritä hetken kuluttua uudelleen.";
+
+/* When the userconnected service returns error: "UserNotFound". This is the error text. */
+"SignInUserConnectedUserNotFoundText" = "Tilissäsi on ongelma. Saat lisätietoja ottamalla yhteyttä IT-osastoon.";
+
+/* When the userconnected service returns error: "NoTeamSitePermission". This is the error text. */
+"SignInUserConnectedNoTeamSitePermText" = "Sinulla ei ole tämän SharePoint-sivuston käyttöoikeutta. Saat lisätietoja ottamalla yhteyttä IT-osastoon.";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error. This is the title. */
+"SignInUserAlreadyLoadedErrorTitle" = "Synkronoit toista tiliä";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error.
+   Depending on whether we know which email the user is signed in with, either show the specific or the generic message below. This is the text. */
+"SignInUserAlreadyLoadedErrorEmailSpecificText:%@" = "Tili, jolla kirjauduit sisään, ei vastaa synkronoitavaa tiliä. Anna tilin %@ salasana. Jos haluat lisätä toisen tilin, siirry Asetuksiin, napsauta Tili-välilehteä ja valitse Lisää tili.";
+
+"SignInUserAlreadyLoadedErrorGenericText" = "Tili, jolla kirjauduit sisään, ei vastaa synkronoitavaa tiliä. Jos haluat lisätä toisen tilin, siirry Asetuksiin, napsauta Tili-välilehteä ja valitse Lisää tili.";
+
+/* When MSA user is already syncing with account A, and tries to sign in with account B when prompted for creds. Depending on whether the e-mail address is available or not, we show the specific or generic message below. This is the text */
+ "SignInUserAlreadyLoadedErrorMSAEmailSpecificText:%@" = "Tili, jolla kirjauduit sisään, ei vastaa synkronoitavaa tiliä. Anna salasana kohteelle %@.";
+
+ "SignInUserAlreadyLoadedErrorMSAGenericText" = "Tili, jolla kirjauduit sisään, ei vastaa synkronoitavaa tiliä.";
+
+/* When an unknown error occurs that has not been handled. This is the title. */
+"SignInUnknownErrorTitle" = "Sisäänkirjautumisessa ilmeni ongelma";
+
+/* When an unknown error occurs that has not been handled. This is the text. */
+"SignInUnknownErrorText" = "Yritä uudelleen muutaman minuutin kuluttua tai ota yhteyttä IT-osastoon, jos ongelma toistuu";
+
+// Preferences - used by PreferenceController.mm
+
+/* This is the text on preference window toolbar for Preferences. */
+"PreferenceGeneralItem" = "Asetukset";
+
+/* This is the text that encloses General area in preference window. */
+"PreferenceGeneralGroupBoxText" = "Yleiset";
+
+/* This is the text on preference window check box. When user checks this option, it allows OneDrive to start when user login. */
+"PreferenceStartAtLoginCheckBoxText" = "Avaa kirjauduttaessa";
+
+/* This is the description for enable OnPrem telemetry checkbox. */
+"PrivacyCheckBoxText" = "Lähetä Microsoftille virheraportteja ja käyttötilastoja";
+
+/* This is the description when OneDrive is at the wrong location. "Applications" should be localized the same way as the OS. */
+"OpenAtLoginDisabledExplaination" = "Jos haluat ottaa tämän asetuksen käyttöön, lopeta OneDrive, siirrä OneDrive-sovellus Sovellukset-kansioosi ja avaa OneDrive uudelleen.";
+
+/* This is the text on preference window check box. When user checks this option, OneDrive icon is removed from the Dock. Note "Dock" is capital D */
+"PreferenceHideDockIconText" = "Piilota Dock-kuvake";
+
+/* This is the text for a preference window check box. When the user checks this option we will automatically save screenshots any time they take a screenshot. */
+"PreferenceEnableScreenCaptureUpload" = "Tallenna näyttökuvat OneDriveen";
+
+/* This will be displayed when a user running a store build attempts to enable the screen capture
+ * feature. Due to app store limitations, the user is forced to select their desktop folder. This
+ * message will be displayed within the file open dialog in order to help the user understand what
+ * selection they are required to make in the file open dialog. */
+"PreferenceEnableScreenCaptureUploadOpenDialogMessage" = "Jos haluat tallentaa näyttökuvat OneDriveen automaattisesti, valitse Työpöytä-kansio.";
+
+/* This is the text on preference window check box. When user checks this option, we will not show share/edit notifications */
+"PreferenceDisplayShareEditNotificationsCheckBoxText" = "Näytä jakamista tai muokkaamista koskevat ilmoitukset";
+
+/* This is the text on preference window toolbar for About. */
+"PreferenceAboutItem" = "Tietoja";
+
+/* This is the text that encloses about area in preference window. */
+"PreferenceAboutGroupBoxText" = "Tietoja Microsoft OneDrivesta";
+
+/* This is the text that shows version. */
+"PreferenceVersionText:%@" = "Versio %@";
+
+/* This is the text that shows version for standalone. */
+"PreferenceStandaloneVersionText:%@" = "Versio %@ (erillinen)";
+
+/* This is the text that encloses "more info" area in preference window. */
+"PreferenceMoreInfoGroupBoxText" = "Lisätietoja";
+
+/* This is the text that opens help in browser. */
+"PreferenceGetHelpText" = "Etsi apua OneDriven käyttöön";
+
+/* This is the text that opens privacy statement in browser. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"PreferencePrivacyStatementText" = "Tietosuoja ja evästeet";
+
+/* This is the text that opens server status in browser. */
+"PreferenceServerStatusText" = "Palvelun tila";
+
+/* This is the text that opens Terms of Use in browser. */
+"PreferenceTermsOfUseText" = "Käyttöehdot";
+
+/* This is the text on the button in preference window that opens the manage storage page on browser */
+"PreferenceManageStorageButtonText" = "Tallennustilan hallinta";
+
+/* This is the text on the button that unlinks OneDrive in preference window. */
+"PreferenceUnlinkButtonText" = "Poista tilin linkitys tässä Macissa";
+
+/* This is the title text on the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertMessageTitle" = "Poista tilin linkitys tässä Macissa?";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for consumer accounts. */
+"PreferenceUnlinkAlertDetailedMessage" = "OneDrive-tiedostojesi synkronointi päättyy. Näiden tiedostojen kopiot jäävät tähän Maciin.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for business accounts. */
+"PreferenceUnlinkAlertDetailedMessageBusiness:%@" = "Tiliin (%@) yhdistetyn, työhön liittyvän sisällön synkronointi pysäytetään. Kopiot näistä tiedostoista säilyvät tässä Macissa.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for last library unsynced. %1$@ is a folder name, %2$@ is an email address */
+"PreferenceUnlinkLastLibraryAlertDetailedMessage:%@,%@" = "%1$@ on viimeinen synkronoitava kansio. Jos lopetat tämän kansion synkronoinnin, %2$@-tilisi linkitys poistetaan. Näiden tiedostojen kopiot säilytetään tässä Macissa.";
+
+/* This is the text on the confirm button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertConfirmButton" = "Poista tilin yhteys";
+
+/* This is the text on the cancel button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertCancelButton" = "Peruuta";
+
+/* This is the text on the button that resets OneDrive in preference window. */
+"PreferenceResetButtonText" = "Palauta OneDriven oletusasetukset";
+
+/* This is the text on preference window toolbar for account. */
+"PreferenceAccountItem" = "Tili";
+
+/* This is the text that tells users how to sync down only selected folders in preference window. */
+"PreferenceSelectiveSyncDescription" = "Valitsemasi kansiot ovat käytettävissä tässä Macissa.";
+
+/* This is the text that encloses "Choose folders" area in preference window. */
+"PreferenceFolderGroupBoxText" = "Valitse kansiot";
+
+/* This is the button that opens up advanced selective sync in preference window. */
+"PreferenceSelectFoldersButton" = "Valitse kansiot";
+
+/* This is the text on the the preference window toolbar for network. */
+"PreferenceNetworkItem" = "Verkko";
+
+/* This is the text on the Upload box. */
+"PreferenceUploadBox" = "Palvelimeen latausnopeus";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceNoLimit" = "Älä rajoita";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimit" = "Säädä automaattisesti";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimitByAdmin" = "Säädä automaattisesti (organisaation hallinnoima)";
+
+/* This is the text on the radio button that does limit bandwidth. */
+"PreferenceCustomLimit" = "Rajoita:";
+
+/* This is the text on the Download box. */
+"PreferenceDownloadBox" = "Latausnopeus";
+
+/* This is the text on the box to enable the Files On-Demand feature. */
+"PreferenceCloudFilesEnableBox" = "Tiedostot tarvittaessa";
+
+/* This is the description for the Files On-Demand box. */
+"PreferenceCloudFilesDescription" = "Tiedostot tarvittaessa -ominaisuus vapauttaa tietokoneesi tilaa lataamalla tiedostot silloin, kun käytät niitä.";
+
+/* Button text in Files On-Demand box. Clicking this button turns on the feature. */
+"PreferenceCloudFilesEnable" = "Ota Tiedostot tarvittaessa -ominaisuus käyttöön";
+
+/* Button text in Files On-Demand box. Clicking this button turns off the feature. */
+"PreferenceCloudFilesDisable" = "Poista Tiedostot tarvittaessa -ominaisuus käytöstä";
+
+/* Link in the Files On-Demand box. Clicking this link will launch a webpage with more information. */
+/* Also resued in local mass delete delete confirmed ACM. */
+"PreferenceCloudFilesMoreInfo" = "Lisätietoja";
+
+/* This is the title text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertMessageTitle" = "Poistetaanko Tiedostot tarvittaessa -ominaisuus käytöstä?";
+
+/* This is the body text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertDetailedMessage" = "Kaikki OneDrive-tiedostot ja -kansiot ladataan tähän Mac-tietokoneeseen.";
+
+/* This is the text on the confirm button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertConfirmButton" = "OK";
+
+/* This is the text on the cancel button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertCancelButton" = "Peruuta";
+
+/* This is the button text to display the Blocked Applications list. */
+"PreferenceBlockedAppButtonText" = "Sovellusten hallinta";
+
+/* This is the description for the Hydrating Applications pane. */
+"PreferenceHydratingAppDescription" = "Mac voi automaattisesti ladata vain online -tilaisia tiedostoja OneDrivesta sovelluksille, jotka pyytävät niitä.";
+
+/* This is the description for the Blocked Applications box. */
+"PreferenceBlockedAppDescription" = "Näiden sovellusten automaattinen lataaminen OneDrivesta on estetty:";
+
+/* This is the description for the checkbox that allows user to control whether they see a hydration notification toast. */
+"PreferenceNotifyHydratingAppCheckbox" = "Ilmoita, kun sovellusta ladataan OneDrivesta";
+
+/* This is the header of the table listing Blocked Applications */
+"PreferenceBlockedAppTableHeader" = "Sovellukset";
+
+/* Label for the button to close the Blocked Applications list */
+"PreferenceBlockedAppCloseButtonLabel" = "Sulje";
+
+/* Prompt for user to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationPrompt" = "Valitse sovellukset, joita haluat estää automaattisesti lataamasta tiedostoja";
+
+/* Header for error when unable to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationErrorHeader" = "Valintaa ei voitu lisätä";
+
+/* Body for error when unable to add an application to the Blocked Applications list*/
+"PreferenceBlockedAppAddApplicationErrorBody" = "Vain sovelluksia voidaan estää automaattisesti lataamasta OneDrive-tiedostoja. Valitse sovellus ja yritä uudelleen.";
+
+// Preferences - Advanced Selective Sync Page
+
+/* This is the text on the top of advanced selective sync sheet. */
+"AdvancedSelectiveSyncTitle" = "Synkronoi tiedostot OneDrivesta";
+
+/* This is the text on the top of advanced selective sync sheet when Cloud Files on. */
+"AdvancedSelectiveSyncTitleCloudFiles" = "Valitse kansiot";
+
+/* This is the text under the title of advanced selective sync sheet. */
+"AdvancedSelectiveSyncDescription:%@" = "Valitse kansioon %@ ladattavat kohteet. Voit käyttää näitä kohteita myös offline-tilassa.";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page. */
+"AdvancedSelectiveSyncDescriptionPreferences" = "Synkronoidut tiedostot vievät tilaa tässä Mac-tietokoneessa";
+
+/* This is the text in advanced selective sync sheet to sync everything. */
+"AdvancedSelectiveSyncAll" = "Synkronoi kaikki oman OneDriven tiedostot ja kansiot";
+
+/* This is the text in advanced selective sync sheet to sync everything under a team site. */
+"AdvancedSelectiveSyncAllTeamSite:%@" = "Synkronoi kaikki kohteen %@ tiedostot ja kansiot";
+
+/* This is the text in advanced selective sync sheet to sync only some files. */
+"AdvancedSelectiveSyncSome" = "Tai synkronoi vain nämä kansiot:";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page and Cloud Files enabled. */
+"AdvancedSelectiveSyncDescriptionCloudFiles" = "Valitse kansion %@ kohteet, joiden haluat olevan käytettävissä. Nämä tiedostot ovat käytettävissä tarvittaessa. Valitsemattomat kansiot piilotetaan Finderista.";
+
+/* This is the text in advanced selective sync sheet to sync everything when Cloud Files is enabled. */
+"AdvancedSelectiveSyncAllCloudFiles" = "Määritä kaikki tiedostot käytettäviksi";
+
+/* This is the text in advanced selective sync sheet to sync only some files when Cloud Files is enabled. */
+"AdvancedSelectiveSyncSomeCloudFiles" = "Tai määritä nämä kansiot näkyviksi:";
+
+/* This is the text on the file group item in the tree view. %@ is for folder names. ie "puppies", "Cute Kittens". */
+"AdvancedSelectiveSyncFileGroupItem:%@" = "Tiedostot kansiossa %@";
+
+/* This is the text on the root's file group item in the tree view. */
+"AdvancedSelectiveSyncFileGroupItemRoot" = "Tiedostot, jotka eivät ole kansiossa";
+
+/* This is the text on the advanced selective sync sheet for the local path on Mac. */
+"AdvancedSelectiveSyncMacLocationText" = "Sijainti Mac-tietokoneessa:";
+
+/* This is the button text on the advanced selective sync sheet for start sync. */
+"AdvancedSelectiveSyncStartSyncButtonText" = "Aloita synkronointi";
+
+/* This is the button text on the advanced selective sync sheet for confirmation. */
+"AdvancedSelectiveSyncConfirmButtonText" = "OK";
+
+/* This is the button text on the advanced selective sync sheet for cancelling out. */
+"AdvancedSelectiveSyncCancelButtonText" = "Peruuta";
+
+/* This is the text at the middle of advanced selective sync sheet when loading. */
+"AdvancedSelectiveSyncLoading" = "Ladataan...";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoading:%@" = "Kansioluetteloa ei voitu hakea kohteesta %@.\nSulje tämä valintaikkuna ja yritä uudelleen.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders during FRE. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoadingFRE" = "Kansioluettelosi näyttämisessä ilmeni ongelma. Jos jatkat, kaikki kansiot ja tiedostot synkronoidaan nyt, mutta voit muokata tätä myöhemmin asetuksissa.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to provision error. */
+"AdvancedSelectiveSyncFailedLoadingWithProvisionError" = "Kansioluetteloasi ei valitettavasti voitu näyttää, koska tiliäsi määritetään yhä. Kaikki kansiot ja tiedostot synkronoidaan, mutta voit muokata tätä myöhemmin asetuksissa.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to offline error*/
+"AdvancedSelectiveSyncFailedLoadingWithOfflineError" = "Kansioluetteloasi ei voitu näyttää, koska OneDriveen ei saatu yhteyttä. Tarkista Internet-yhteys ja yritä uudelleen.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to auth error. */
+"AdvancedSelectiveSyncFailedLoadingWithAuthError" = "Kansioluetteloa ei voitu näyttää, koska tilissäsi on ongelma. Poistu OneDrivesta ja kirjaudu sitten sisään uudelleen.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to having no files and folders. */
+"AdvancedSelectiveSyncFailedLoadingWithNoFileError" = "OneDrivesi on tyhjä. Jos haluat synkronoida myöhemmin OneDriveen lisäämäsi tiedostot, valitse Kaikki tiedostot ja kansiot OneDrivessani.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnote" = "Jos lopetat tiedostojen tai kansioiden synkronoimisen, ne pysyvät OneDrivessa, mutta eivät tässä Mac-tietokoneessa. Jos ne ovat jo tässä Mac-tietokoneessa, ne poistetaan.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnoteCloudFiles" = "Jos piilotat nämä kansiot Mac-tietokoneessa, tiedostot säilyvät OneDrivessa mutta eivät ole tässä Mac-tietokoneessa. Kaikki tässä kansiossa olevat kohteet poistetaan Mac-tietokoneesta.";
+    
+/* This is the title text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingTitle" = "Muutosten käyttöönotossa ilmeni ongelma";
+
+/* This is the description text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingDescription:%@" = "Kansioluetteloa, jonka halusit synkronoida kohteeseen %@, ei voitu tallentaa. Yritä uudelleen.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingConfirm" = "Sulje";
+
+/* This is the title text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingTitle" = "Tämän Macin synkronoitavien kansioiden muutosten tallentamisessa tapahtui valitettavasti virhe";
+
+/* This is the description text in the alert sheet after we fail to set selective sync because syncengine is busy*/
+"AdvancedSelectiveSyncBusySettingDescription" = "Joitain niitä kohteita, joiden synkronoinnin yritit lopettaa, ei ole vielä OneDrivessa. Odota, että ne on ladattu, korjaa synkronointiongelmat ja yritä sitten tehdä muutokset uudelleen.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingConfirm" = "Sulje";
+
+/* This is the text indicating the total size of all selected files and folders. The placeholder is the size and the unit.
+ Examples: Selected: 20 MB */
+"AdvancedSelectiveSyncFilesSelected:%@" = "Valittu: %@";
+
+/* This is the text indicating the remaining space on disk. The first item is the disk. The second item is the size and the unit.
+ Examples: Remaining space on Macintosh HD: 20 GB */
+"AdvancedSelectiveSyncAvailableSpace:%@,%@" = "Levyn %1$@ jäljellä oleva tila: %2$@";
+
+/* This is the description text for selectively syncing folders */
+"AdvancedSelectiveSyncSyncOnlyTheseFolderTitle" = "Synkronoi vain nämä kansiot";
+
+/* This is the text shown when calculating the selected and remaining disk space */
+"AdvancedSelectiveSyncLoadingTitle" = "Lasketaan...";
+
+/* This is the text shown when content already syncing */
+"AdvancedSelectiveSyncAlreadySyncingWarning" = "Synkronoit jo tätä sisältöä.";
+
+/* This is the text shown when the teamsite that will be synced is read-only. */
+"AdvancedSelectiveSyncReadOnlyWarning" = "Tämä sivusto on vain luku -tilassa. Et voi tehdä tämän sivuston tiedostoihin tai kansioihin muutoksia.";
+
+/* This is the text for add an account button in the account tab of preference window */
+"AddAccountButtonText" = "Lisää tili";
+
+/* This is the text for teamsite box in account tab of preference window (singular) */
+"PreferenceTeamSiteGroupBoxText" = "1 sijaintia synkronoidaan";
+
+/* This is the text for teamsite box in account tab of preference window (plural) */
+"PreferenceTeamSiteGroupBoxText:%d" = "%d sijaintia synkronoidaan";
+
+/* This is the text shown when not syncing ODB in account tab of preference window */
+"PreferenceNotSyncingQuotaText" = "Ei synkronoida";
+
+/* This is the text for start sync button for ODB in account tab of preference window */
+"PreferenceStartSyncButton" = "Aloita synkronointi";
+
+/* This is the text for stop sync button for each team site library in account tab of preference window */
+"PreferenceStopSyncButton" = "Pysäytä synkronointi";
+
+/* This is the title text in the dialog that stops syncing a teamsite in preference window. */
+"PreferenceStopSyncAlertMessageTitle:%@" = "Pysäytetäänkö kohteen %@ synkronointi?";
+
+/* This is the body text in the dialog that unlinks OneDrive in preference window. */
+"PreferenceStopSyncAlertDetailedMessage:%@" = "%@ lakkaa synkronoimasta. Näiden tiedostojen kopiot jäävät tähän Maciin.";
+
+/* This is the text on the confirm button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertConfirmButton" = "Pysäytä synkronointi";
+
+/* This is the text on the cancel button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertCancelButton" = "Peruuta";
+
+/* This is the title of the notifications we show after a team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationTitle:%@" = "Synkronoit nyt kohdetta %1$@";
+
+/* This is the body of the notification we show after a read-only team site has been succesfully connected (initial sync). */
+"TeamSiteNotificationReadOnlyBody" = "Tämä sivusto on vain luku -muotoinen. Voit tarkastella tiedostoja napsauttamalla tästä.";
+
+/* This is the body of the notification we show after an editable team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationEditableBody:%@" = "Voit muokata tiedostoja kohteessa %1$@. Voit tarkastella tietoja napsauttamalla tätä.";
+
+/* This is the title of the notification we show after a previously connected, editable team site has become read-only. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingReadOnlyTitle:%@" = "%1$@ on nyt vain luku -tilassa.";
+
+/* This is the body of the notification we show after a previously connected, editable team site has become read-only. */
+"TeamSiteNotificationAlreadySyncingReadOnlyBody" = "Et voi enää muokata tiedostoja tai kansioita, koska sivuston käyttöoikeudet ovat muuttuneet.";
+
+/* This is the title of the notification we show after a previously connected, read-only team site has become editable. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingEditableTitle:%@" = "Voit nyt tehdä muutoksia kansioon %1$@";
+
+/* This is the body of the notification we show after a previously connected, read-only team site has become editable. */
+"TeamSiteNotificationAlreadySyncingEditableBody" = "Kaikki muutokset ladataan sivustoon.";
+
+/* This is the body of the notification we show after a team site has been succesfully connected. Permissions of the site are not indicated for this toast. %1$@ is a folder name. */
+"TeamSiteMountNotificationBody:%@" = "Kansion %1$@ tiedostot synkronoidaan tähän Mac-tietokoneeseen. Tarkastele tiedostoja napsauttamalla tästä.";
+
+/* This is the title of the notifications we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingHeader:%@" = "Synkronoit jo kansiota %1$@";
+
+/* This is the body of the notification we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingBody:%@" = "Kansiota %1$@ synkronoidaan jo tälle laitteelle. Voit tarkastella tiedostoja napsauttamalla tästä.";
+
+/* Error dialog title for dialogs that stop the user from syncing On Prem because the front door URL is missing or ramp is off. */
+"CannotSyncOnPremTitle" = "Kansiota ei valitettavasti voitu synkronoida";
+
+/* Body text for when we can't sync on Prem because its ramped off. */
+"OnPremSyncNotEnabledBody" = "Paikallisten SharePoint-kansioiden synkronointia ei tueta.";
+
+/* Body text for when we can't sync On Prem because the front door URL is not configured. */
+"OnPremFrontDoorUrlNotSetBody" = "Ota yhteyttä IT-järjestelmänvalvojaan, jos haluat määrittää OneDriven synkronoimaan paikalliset SharePoint-kansiot.";
+
+/* Title text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfiguredTitle" = "OneDrive ei voi kirjautua sisään";
+
+/* Body text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfigured" = "Tunnistetiedoissasi on ongelma. Kokeile käynnistää Ticket Viewer -sovellus ja lisätä tunnistetietosi tai kirjautua uudelleen sisään. Pyydä lisätietoja IT-osastoltasi.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. */
+"NewHostMountConsentTitle" = "Saako OneDrive synkronoida tiedostoja?";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. %1$@ is the mount point's domain and %2$@ is the user's username. */
+"NewHostMountConsentMessage:%@,%@" = "Yrität synkronoida %2$@-tililläsi uudesta sijainnista (%1$@). Synkronoi tiedostot vain, jos luotat tähän sijaintiin.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, give consent */
+"NewHostMountConsentGiveConsentButton" = "Salli";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, deny consent */
+"NewHostMountConsentDenyConsentButton" = "Peruuta";
+
+// Sync Engine errors - used by coreController.mm. These are built manually, so straight searching won't work.
+
+/* This is the title text shown on the popup dialog when we detect a new version of the client is available */
+"SyncEngineError:OldClientVersion Title" = "Tämä OneDrive-versio on vanhentunut.";
+
+/* This is the text shown on the popup dialog when we detect a new version of the client is available*/
+"SyncEngineError:OldClientVersion Message" = "Siirry Mac App Storeen ja päivitä uusimpaan Macin OneDrive-sovelluksen versioon.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:OldClientVersion DefaultButton" = "Lopeta";
+
+/* No comments provided by engineer */
+"SyncEngineError:PUIDFlip Title" = "Laitteen tunnistamisessa on ongelmia.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:PUIDFlip Message" = "Varmuuskopioi kaikki synkronoitujen kansioidesi tiedostot. Siirry osoitteeseen http://g.live.com/0ELHP_MEREN/266 ja raportoi ongelma OneDrive-keskustelupalstoilla. Sisällytä kirjoittamiisi viesteihin tämä virhesanoma.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:PUIDFlip DefaultButton" = "Lopeta";
+
+/* No comments provided by engineer */
+"SyncEngineError:DiskFull Title" = "Kiintolevy on lähes täynnä.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:DiskFull Message" = "Vapauta tilaa, jotta voit jatkaa OneDriven käyttämistä.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:DiskFull DefaultButton" = "Lopeta";
+
+/* This is shown when resign-in is required for MSA account*/
+"SyncEngineError:ForceSignIn Title" = "Et ole kirjautunut sisään";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn Message" = "Tiedostot eivät ehkä ole ajan tasalla. Aloita synkronointi uudelleen antamalla tunnistetietosi uudelleen.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn DefaultButton" = "OK";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Title" = "Internet-yhteydessä voi olla ongelma.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Message" = "Tarkista, että tietokone on yhdistetty Internetiin, ja yritä sitten uudelleen.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure DefaultButton" = "OK";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Title" = "On ilmennyt OneDriveen liittyvä ongelma.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Message" = "Käynnistä OneDrive uudelleen.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:TerminateCore DefaultButton" = "Lopeta";
+
+/* No comments provided by engineer*/
+"SyncEngineError:ServerError Title" = "On ilmennyt OneDrive-palvelimiin liittyvä ongelma.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ServerError Message" = "Yritä uudelleen muutaman minuutin kuluttua.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:ServerError DefaultButton" = "Lopeta";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Title" = "Valitettavasti tilisi kanssa on ongelma. Jos haluat lisätietoja tämän ongelman korjaamisesta, siirry osoitteeseen OneDrive.com ja kirjaudu sisään. Kun olet korjannut ongelman, yritä uudelleen";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Message" = "Ota yhteyttä asiakastukeen.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:AccessDenied DefaultButton" = "Lopeta";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Title" = "On ilmennyt OneDriveen liittyvä ongelma.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Message" = "Lopeta OneDrive ja tarkista, että tietokone on yhdistetty Internetiin. Käynnistä sen jälkeen ohjelma uudelleen.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:Unknown DefaultButton" = "Lopeta";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid %1$@ is a library name. */
+"SyncEngineError:RootScopeNotFound Title:%@" = "Kirjasto %1$@ on luotu uudelleen verkossa";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid*/
+"SyncEngineError:RootScopeNotFound Message" = "Määritä kirjasto uudelleen tähän Mac-tietokoneeseen napsauttamalla Määritä OneDrive uudelleen.";
+
+/* Text for button in error dialog to reconfigure OneDrive*/
+"SyncEngineError:ButtonText ReconfigureButton" = "Määritä OneDrive uudelleen";
+
+/* Message title in error dialog when a folder not found and drive is present. %1$@ is a folder name, %2$@ is its local path */
+"SyncError:MissingFolder Title:%@,%@" = "Kansiota %1$@ sijainnissa %2$@ ei löytynyt";
+
+/* Message in error dialog when the root folder is deleted. %@ is a folder name. */
+"SyncError:RootFolderDeleted Message:%@" = "Valitse Lopeta OneDrive tai määritä %@-kansio uudelleen napsauttamalla Määritä OneDrive.";
+
+/* Message in error dialog when folder is not found while re-mapping and drive is present */
+"SyncError:MissingFolder Message" = "Varmista, että kansio on edelleen olemassa tässä sijainnissa, ja valitse Yritä uudelleen tai napsauta Pysäytä synkronointi, jos haluat lopettaa kansion synkronoinnin.";
+
+/* Message in error dialog when mounted folder not found while re-mapping. %@ is an email address */
+"SyncError:MissingMountedFolder SetUpMessage:%@" = "Varmista, että kansio on edelleen olemassa tässä sijainnissa, ja valitse Yritä uudelleen tai valitse Määritä OneDrive, jos haluat määrittää %@-tilin uudelleen.";
+
+/* Message title in error dialog when there's a problem with the root folder */
+"SyncError:RootFolderError Title:%@" = "%@-kansiota ei löydy.";
+
+/* Message in error dialog when there's a problem with the root folder. %@ is a folder name. */
+"SyncError:RootFolderError Message:%@" = "Valitse Lopeta OneDrive tai määritä %@-kansio uudelleen napsauttamalla Määritä OneDrive.";
+
+/* Text for button in error dialog to restart application when there's a problem with the root folder */
+"SyncError:RootFolderError DefaultButton" = "Käynnistä OneDrive uudelleen";
+
+/* Message title in error dialog when OD found but creation doesn't match the DB. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:FolderMismatch Title:%@,%@" = "Kansio %1$@ sijainnissa %2$@ ei ole alkuperäinen %1$@-kansiosi";
+
+/* Message in error dialog when OD found but creation doesn't match the DB. %@ is a folder name. */
+"SyncError:RootFolderMismatch Message:%@"= "Siirrä alkuperäinen kansio takaisin tähän sijaintiin ja valitse Yritä uudelleen tai määritä %@-kansio uudelleen napsauttamalla Määritä OneDrive.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB */
+"SyncError:MountedFolderMismatch Message" = "Siirrä alkuperäinen kansio takaisin tähän sijaintiin ja valitse Yritä uudelleen tai napsauta Pysäytä synkronointi, jos haluat lopettaa kansion synkronoinnin.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB. %@ is an email address */
+"SyncError:MountedFolderMismatch SetUpMessage:%@" = "Siirrä alkuperäinen kansio takaisin tähän sijaintiin ja valitse Yritä uudelleen tai napsauta Määritä OneDrive, jos haluat määrittää %@-tilin uudelleen.";
+
+/* Message in error dialog when library is deemed unreachable */
+"SyncError:UnreachableLibrary Title" = "Kirjastoa ei voi käyttää";
+
+/* Message in error dialog when library is deemed unreachable {%@ is library name }*/
+"SyncError:UnreachableLibrary Message:%@" = "%@ on tilapäisesti poissa käytöstä. Tarkista verkkoyhteys ja yritä uudelleen muutaman minuutin kuluttua, tai ota yhteys IT-järjestelmänvalvojaan.";
+
+/* Message title in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Title" = "Kohdetta ei voitu synkronoida, koska polku on liian pitkä";
+
+/* Message in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Message:%@" = "Tiedostoa tai kansiota ei voi ladata, koska polku on liian pitkä. Poistu OneDrivesta, siirry selaimella OneDrive for Businessiin ja lyhennä kohteen\r\n %@ nimeä tai polkua.\r\n\r\nVoit synkronoida OneDriven Macissa eri sijaintiin valitsemalla Suorita asennus.";
+
+/* Message in error dialog when the max file path limit is reached for a local file */
+"SyncError:LocalMaxPath Message:%@" = "Tiedostoa tai kansiota ei voi ladata, koska polku on liian pitkä. Poistu OneDrivesta, siirry OneDrive.com-sivustolle ja lyhennä kohteen\r\n %@ nimeä tai polkua.\r\n\r\nVoit synkronoida OneDriven Macissa eri sijaintiin valitsemalla Suorita Asennus.";
+
+/* Message used in several error dialogs. %@ is an email address */
+"Error:ExitOrSetUpMessage:%@" = "Valitse Lopeta OneDrive tai määritä %@-tili uudelleen valitsemalla Määritä OneDrive.";
+
+/* Text for button in error dialog to exit application when max path length is reached */
+"SyncError:MaxPathLength DefaultButton" = "Poistu OneDrivesta";
+
+/* Text for button in error dialog to run FRE when max path length is reached */
+"SyncError:MaxPathLength AlternateButton" = "Suorita Asennus";
+
+/* Message title in error dialog when the root folder volume is removed. %@ is a folder name.  */
+"SyncError:DriveVolumeRemovedNoVolume Title:%@" = "%@-kansiota ei löydy";
+
+/* Message in error dialog when the root folder volume is removed. %@ is a folder name. */
+"SyncError:DriveVolumeRemovedNoVolume Message:%@" = "%@-kansion sijaintia ei löytynyt. Varmista, ettet ole poistanut sitä. Jos OneDrive-kansio on ulkoisessa asemassa, varmista, että asema on yhdistetty.";
+
+/* Text for button in error dialog to restart application when the root folder volume is removed */
+"SyncError:DriveVolumeRemoved DefaultButton" = "Käynnistä OneDrive uudelleen";
+
+/* Message title in error dialog when drive containing OD could not be found. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:MissingDrive Title:%@,%@" = "Kansiota %1$@ sijainnissa %2$@ ei voida käyttää";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingNoneRemovableDrive Message:%@" = "Varmista, että asema %1$@ on yhä käytettävissä Finderissä, ja napsauta Yritä uudelleen tai lopeta kansion synkronointi napsauttamalla Pysäytä synkronointi.";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingNoneRemovableDrive SetUpMessage:%@,%@" = "Varmista, että asema %1$@ on yhä käytettävissä Finderissä ja napsauta Yritä uudelleen, tai määritä %2$@-tilisi uudelleen napsauttamalla Määritä OneDrive.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingRemovableDrive Message:%@" = "Ilmeisesti %@ oli siirrettävä asema. Varmista, että asemaan on yhteys ja että se on käytettävissä Finderissä, ja napsauta Yritä uudelleen tai lopeta kansion synkronointi napsauttamalla Pysäytä synkronointi.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingRemovableDrive SetUpMessage:%@,%@" = "Ilmeisesti %1$@ oli siirrettävä asema. Varmista, että asemaan on yhteys ja että se on käytettävissä Finderissä ja napsauta Yritä uudelleen, tai napsauta Määritä OneDrive, jos haluat määrittää %2$@-tilisi uudelleen.";
+
+/* Message title in error dialog indicating library cannot be synced, used in ClientNotAllowed, UnsupportedLibrary and DisableSync errors */
+"SyncError:LibraryCannotSync:%@" = "Kansiota %@ ei voi synkronoida";
+
+/* Message in error dialog when sync is disabled because domain is not "whitelisted" */
+"SyncError:ClientNotAllowed Message" = "IT-osastosi vaatii, että käytät tietokonetta, joka on liitetty hyväksyttyyn toimialueeseen. Vasta sitten voit synkronoida kansion. Kysy lisätietoja IT-osastoltasi.";
+
+/* Message in error dialog when the library is unsupported */
+"SyncError:UnsupportedLibrary Message" = "IT-osastosi on tehnyt muutoksen, joka estää sinua synkronoimasta tätä kansiota. Lisätietoja saat IT-osastoltasi.";
+
+/* Message in error dialog when sync is disabled */
+"SyncError:DisableSync Message" = "Organisaatiosi ei salli tämän kansion synkronointia. Lisätietoja saat IT-osastoltasi.";
+
+/* Title in balloon tip for when the folder was removed remotely during mount. %@ is the name of the folder being mounted. */
+"SyncError:FolderRemovedRemotelyDuringMount Title:%@" = "Kohdetta %@ ei ole enää tässä sijainnissa";
+
+/* Message in balloon tip for when the folder was removed remotely during mount */
+"SyncError:FolderRemovedRemotelyDuringMount Message" = "Tämä kansio on ehkä siirretty tai poistettu.";
+
+/* Title in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them the folder has been deleted. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Title:%@" = "%@ on poistettu";
+
+/* Message in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them a copy of the files will be left on the Mac. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Message:%@" = "Kansion %@ synkronointi lopetetaan. Näiden tiedostojen kopiot säilytetään tässä Macissa.";
+
+/* Title in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them they no longer have permissions to sync it. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Title:%@" = "Sinulla ei enää ole kansion %@ synkronointioikeuksia";
+
+/* Message in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them the files have been removed from the Mac. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Message:%@" = "%@ on poistettu Mac-tietokoneestasi.";
+
+/* Title to show if add folder failed. %@ is a folder name. */
+"AddMountedFolderError Title:%@" = "%@-kansiota ei voida synkronoida";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorTryAgain:%@" = "%@-kansiota ei voida juuri nyt lisätä. Yritä uudelleen.";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorContactSupport:%@" = "%@-kansiota ei voida juuri nyt lisätä. Ota yhteyttä tukeen.";
+
+/* Text for Try Again button, used in error dialogs. */
+"TryAgainButtonText" = "Yritä uudelleen";
+
+/* Text for Stop Sync button, used in error dialogs. */
+"StopSyncButtonText" = "Pysäytä synkronointi";
+
+/* Text for Set Up OneDrive button, used in error dialogs. */
+"SetUpDriveButtonText" = "Määritä OneDrive";
+
+/* Text for Exit OneDrive button, used in error dialogs. */
+"ExitOneDriveButtonText" = "Poistu OneDrivesta";
+
+// About box - used by coreController.mm
+
+/* Application name displayed in the about dialog */
+"AboutApplicationName" = "Microsoft® OneDrive";
+
+/* Copyright info for the updated about dialog */
+"CopyrightText" = "© 2018 Microsoft Corporation. Kaikki oikeudet pidätetään.";
+
+/* Third Party Notices */
+"ThirdPartyNotices" = "Kolmansia osapuolia koskevat ilmoitukset";
+
+// Menu Items
+
+/* Text for menu item to open the online help website */
+"MainMenuOnlineHelpMenuItemText" = "OneDriven online-ohje";
+
+/* Text for menu item to open the service agreement website */
+"MainMenuServiceAgreementMenuItemText" = "Käyttöehdot";
+
+/* Text for menu item to open the private agreement website. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"MainMenuPrivacyAgreementMenuItemText" = "Tietosuoja ja evästeet";
+
+/* Text for menu item to open the server status website */
+"MainMenuServerStatusMenuItemText" = "Palvelimen tila";
+
+// Manifest failures
+
+/* Main text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureTitle" = "OneDrivea ei voi käynnistää";
+
+/* Informative text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureMessage" = "Sovellustiedostoissa on ongelma. Lataa sovellus tähän tietokoneeseen ja yritä uudelleen.";
+
+/* Quit button for the message box which explains the application is corrupt and must exit now */
+"ManifestValidationFailureQuitButton" = "Lopeta OneDrive";
+
+// Updater
+
+/* Message title in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableTitle" = "OneDrive on päivitettävä.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableMessage" = "Jotta voit jatkaa OneDriven käyttöä, sinun on asennettava päivitys.";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreRequiredUpdateAvailableOpenInAppStoreButton" = "Hae päivitys";
+
+/* Text in button which quits the application */
+"AppStoreRequiredUpdateAvailableCloseButton" = "Lopeta OneDrive";
+
+/* Message title in dialog when there is an optional update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableTitle" = "OneDriveen on saatavana päivitys.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableMessage" = "Haluatko noutaa päivityksen?";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreOptionalUpdateAvailableOpenInAppStoreButton" = "Hae päivitys";
+
+/* Text in button which quits the application */
+"AppStoreOptionalUpdateAvailableCloseButton" = "Ei kiitos";
+
+// Standalone migration
+
+/* Title for dialog shown to a user in a Mac App Store (MAS) migration downgrade scenario.
+ (When a user installs a lower version of Standalone on top of a higher version of Store) */
+"MASMigrationDowngradeScenarioTitle" = "OneDrive ei voi siirtää asetuksia";
+
+/* Message for dialog shown to a user in a MAS migration downgrade scenario, informing them of their options */
+"MASMigrationDowngradeScenarioMessage" = "Asetuksia ei voi siirtää, koska sovellus ei ole ajan tasalla. Lataa ja asenna sovelluksen uusin versio. Voit myös määrittää OneDriven uudelleen.";
+
+/* Later button for dialog shown to a user in a MAS migration downgrade scenario. The button will exit the client so the user may launch it again to retry the update later */
+"MASMigrationDowngradeScenarioLaterButton" = "Myöhemmin";
+
+/* Download button for dialog shown to a user in a MAS migration downgrade scenario. The button will trigger a download of the latest version of Standalone OneDrive */
+"MASMigrationDowngradeScenarioDownloadButton" = "Lataa ja asenna";
+
+/* Set Up OneDrive button for dialog shown to a user in a MAS migration downgrade scenario. The button will cause OneDrive to drop the user's Store settings and show FRE so the user can re-configure their OneDrive for Standalone */
+"MASMigrationDowngradeScenarioResetupOneDriveButton" = "Määritä OneDrive";
+
+// Sandbox migration
+
+/* Text in button to select and confirm where the OneDrive folder is */
+"SandboxMigrationConfirmButton" = "Vahvista sijainti";
+
+/* Text in button to quit the OneDrive application */
+"SandboxMigrationQuitButton" = "Lopeta OneDrive";
+
+/* Bold text summarizing that the user needs to confirm where the OneDrive folder is */
+"SandboxMigrationTitle" = "Vahvista OneDrive-kansiosi sijainti";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationText" = "Sinun on vahvistettava ennen OneDriven käytön jatkamista, missä OneDrive-kansiosi sijaitsee tällä hetkellä Mac-tietokoneessa.";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationWindowTitle:%@" = "Vahvista kansion %@ sijainti";
+
+/* Text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderMessage" = "Vahvista OneDrive-kansiosi.";
+
+/* Button text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderButton" = "Vahvista";
+
+/* Title text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderTitle" = "Haluatko varmasti lopettaa nykyisen OneDrive-kansiosi käytön?";
+
+/* Descriptive text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderMessage" = "Voit valita uuden sijainnin valitsemalla Suorita OneDrive-asennus. Koko OneDrivesi sisältö ladataan uuteen OneDrive-kansioon. Jos haluat jatkaa olemassa olevan OneDrive-kansiosi käyttöä, valitse Siirry takaisin ja valitse kansio.";
+
+/* Button text to pick a different folder */
+"SandboxMigrationConfirmDifferentFolderGoBackButton" = "Siirry takaisin";
+
+/* Button text to continue on and reconfigure OneDrive */
+"SandboxMigrationConfirmDifferentFolderQuitButton" = "Suorita OneDrive-asennus";
+
+/* Text for alerting invalid app bundle location */
+
+/* Title text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertTitle" = "OneDrive-sovelluksen on oltava Sovellukset-kansiossa.";
+
+/* Description text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertDescription" = "Lopeta OneDrive, siirrä OneDrive-sovellus Sovellukset-kansioosi ja avaa OneDrive uudelleen.";
+
+/* Button text to exit in the invalid app location alert */
+"InvalidBundleLocationAlertButtonText" = "Lopeta OneDrive";
+
+
+/* ---------------------------- Support Window ------------------- */
+/* OK Button */
+"SupportWindowOkButton" = "OK";
+
+/* Cancel Button*/
+"SupportWindowCancelButton" = "Peruuta";
+
+/* Try Again Button */
+"SupportWindowTryAgainButton" = "Yritä uudelleen";
+
+/* Header string for Support Window */
+"SuportWindowReportProblem" = "Ilmoita ongelmasta";
+
+/* Subheading of support window that gives instructions on what to type */
+"SuportWindowTicketSubheading" = "Omassa OneDrivessasi havaittiin virhe. Jotta ongelma voitaisiin ratkaista, anna ongelmasta mahdollisimman paljon tietoja, ja kerro, mitä teit, kun ongelma ilmeni.";
+
+/* Header to the textbox in the support window */
+"SupportWindowDescription" = "Kuvaus:";
+
+/* String at the bottom of the support window - right below the text field where the user types */
+"SupportWindowContactWarning" = "Valitsemalla OK sallit Microsoftin ottaa sinuun yhteyttä tästä palautteesta.";
+
+/* Link to privacy statement - very bottom of support dialog. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"SupportWindowPrivacyStatement" = "Tietosuoja ja evästeet";
+
+/* Text below the progress bar while the support text is being sent */
+"SupportWindowSending" = "Lähetetään...";
+
+/* Success message for when the support text was successfully sent */
+"SupportSuccessMessage:%@" = "Kiitos, että ilmoitit OneDrive-ongelmasta. Tarkista sähköpostistasi (%@), saitko viestin vastaanottovahvistuksen.";
+
+/* Error message for when the report was no sucessfully sent. Contains a hyperlink designated by <a> and </a> */
+"SupportErrorMessage" = "Viestin lähettämisessä ilmeni ongelma. Tarkista Internet-yhteys ja yritä uudelleen. Voit myös ilmoittaa ongelmasta <a>ottamalla yhteyttä tukeen</a>.";
+
+/* Text for email text field label shown in the support window */
+"SupportWindowEmailLabel" = "Sähköpostiosoite:";
+/* ----------------------------------------------------------------- */
+
+// App store related strings
+
+/* Apple app store description for OneDrive Mac client */
+"StoreDescription" = "OneDrive on yhtenäinen tallennuspaikka kaikelle työhön ja vapaa-aikaan liittyvälle tiedolle. Saat käyttöösi maksuttoman verkkotallennustilan henkilökohtaisille tiedostoillesi, jotta voit käyttää niitä Mac-tietokoneessa ja muissa laitteissasi, kuten iPhonessa, iPadissa, PC-tietokoneessa sekä Windows Phone- tai Android-laitteessa. OneDrive for Business -sovelluksella käytössäsi on tallennustilaa työtiedostoille, jotta voit jakaa ja käsitellä niitä muiden kanssa töissä tai koulussa. Macin OneDrive-sovelluksella OneDrive-tiedostojen käyttö Mac-tietokoneessa onnistuu helposti:\r\n•Pääset käyttämään OneDrive-tiedostoja, kuten Outlook.comissa OneDriveen tallennettuja liitteitä sekä Office Onlinessa luotuja asiakirjoja ja laskentataulukoita, suoraan Finderista.\r\n•Voit työstää OneDrive-tiedostojasi myös offline-tilassa. Tekemäsi muutokset synkronoidaan automaattisesti, kun olet seuraavan kerran online-tilassa.\r\n•Voit valita OneDrive-kansiot, jotka synkronoidaan Mac-tietokoneeseesi.\r\n•Voit lisätä useita tiedostoja tai kansioita kerrallaan OneDriveen vetämällä ne OneDrive-kansioon. Voit käyttää OneDrive-tiedostoja missä ja milloin tahansa, joten se soveltuu erinomaisesti tiedostojen varmuuskopiointiin.\r\n•OneDrive-tiedostoja on helppo avata, muokata ja luoda muissa sovelluksissa, kuten Wordissa tai Excelissä. Voit lisätä OneDriveen jaettuja kansioita OneDrive.comin jaettujen luettelosta ja synkronoida ne sitten tietokoneeseesi, jolloin voit työstää niitä omien kansioidesi rinnalla.";
+
+/* Pool of generic localized Strings to use for update description */
+"GenericUpdateDescription" = "Synkronoinnin luotettavuusongelmia on korjattu. Sovelluksen luotettavuutta on parannettu. Synkronoinnin suorituskykyä on parannettu. Akun kulutusta on vähennetty.";
+
+"GenericStoreUpdate" = "Kiitos, että käytät OneDrivea. OneDriven käyttökokemusta päivitetään jatkuvasti uusimmilla suorituskyvyn parannuksilla ja virheenkorjauksilla.";
+
+"R16String" = "Arveluttaako käytön mukaan laskutettavan verkon kaistanleveyden käyttö? Sovellukseen on lisätty mahdollisuus keskeyttää OneDrive. Löydät keskeytysvaihtoehdon ... -valikosta.";
+
+"R18String" = "Kiitos OneDriven käyttämisestä. Tavallisten päivitysten, joissa toimitamme uusimpia suorituskyvyn parannuksia ja virheiden korjauksia, lisäksi meillä on seuraavat uudet ominaisuudet, jotka julkaistaan vähitellen käyttäjille:\nUudet kerrokset on lisätty osoittamaan, onko kansio jaettu.\nNäyttökuva voidaan nyt ohjata uudelleen OneDriveen.";
+
+"R19String" = "Kiitos OneDriven käyttämisestä. Tavallisissa päivityksissä toimitamme uusimpia suorituskyvyn parannuksia ja virheiden korjauksia, ja niiden lisäksi meillä on seuraavat uudet ominaisuudet, jotka julkaistaan vähitellen käyttäjille:\nKun tietokoneelle synkronoitu Office-asiakirja avataan, se on valmis reaaliaikaiseen yhteistyöhön.\nTietokoneeseen synkronoituja Office-asiakirjoja voidaan jakaa Office-sovelluksista.\nOneDrive-pilven napsauttaminen hiiren kakkospainikkeella avaa nyt Toimintokeskuksen pikavalikon.\nVersionumero on nyt siirretty erillisestä ikkunasta asetuksien Tietoja-välilehdelle.";
+
+"R20String" = "Kiitos OneDriven käyttämisestä. Tavallisissa päivityksissä toimitamme uusimpia suorituskyvyn parannuksia ja virheiden korjauksia, ja niiden lisäksi meillä on seuraavat uudet ominaisuudet, jotka julkaistaan vähitellen käyttäjille:\nKun synkronointi on keskeytettynä, synkronointia voi jatkaa napauttamalla palkkia.";
+
+"R21String" = "Kiitos, että valitsit OneDriven. Tavallisissa päivityksissä toimitamme uusimpia suorituskyvyn parannuksia ja virheiden korjauksia, ja niiden lisäksi meillä on seuraavat uudet ominaisuudet, jotka julkaistaan vähitellen käyttäjille:\nMahdollisuus synkronoida SharePoint-tiedostokirjastoja, joissa on käytössä IRM";
+
+"R22String" = "Kiitos, että valitsit OneDriven. Tavallisissa päivityksissä toimitamme uusimpia suorituskyvyn parannuksia ja virheiden korjauksia, ja niiden lisäksi meillä on seuraavat uudet ominaisuudet, jotka julkaistaan vähitellen käyttäjille:\nOneDrive Activity Center on saanut uuden ulkoasun, joka helpottaa sen ymmärtämistä ja käyttöä.\nIlmoita ongelmasta -vaihtoehto on muutettu muotoon Lähetä palautetta. Voit nyt kertoa, mistä pidät tai et pidä OneDrivessa, tai ehdottaa uutta toimintoa. Me kuuntelemme!";
+
+"R24String" = "Kiitos, että käytät OneDrivea. Tavallisissa päivityksissämme tuomme käyttöösi uusimpia suorituskyvyn parannuksia ja virheiden korjauksia. Näiden lisäksi tarjolla on uusia ominaisuuksia, joita tuomme asteittain käyttäjien käyttöön:\nOneDrive tukee nyt macOS Mojave Dark Mode -asetusta. Kun Dark Mode eli tumma tila on käytössä, OneDrive vaihtaa koko käyttöliittymän uuteen, upeaan tummaan teemaan!";
+
+"R26String" = "Kiitos, että käytät OneDrivea. Tavallisten suorituskykyä parantavien ja virheitä korjaavien päivitysten lisäksi seuraavat uudet ominaisuudet otetaan käyttäjille käyttöön vaiheittain:\nJakamisikkunaan on lisätty tumma teema!\nOlemme tehneet muutoksia, jotka auttavat parantamaan suorituskykyä ja vähentämään suorittimen käyttöä. Ilmoitathan, jos ongelmia ilmenee edelleen.";
+
+"R32String" = "Kiitos, että käytät OneDrivea. Tavallisten suorituskykyä parantavien ja virheitä korjaavien päivitysten lisäksi seuraavat uudet ominaisuudet otetaan käyttäjille käyttöön vaiheittain:\nLisätuki usean näytön järjestelmille, jotta Toimintokeskus voidaan näyttää valitulla näytöllä.";
+
+/* Files On-Demand is the name of a feature that is already available on OneDrive on Windows already. */ 
+"R29String" = "Tämän uusimman päivityksen OneDriven Tiedostot tarvittaessa -ominaisuus on nyt saatavilla! OneDriven Tiedostot tarvittaessa -ominaisuus auttaa käyttämään kaikkia OneDrivessa olevia tiedostoja ilman, että niitä tarvitsee ladata laitteelle viemään tilaa. Verkossa tai muissa laitteissa luodut uuden tiedostot näkyvät vain online-tilassa käytettävinä tiedostoina, jotka eivät vie tilaa laitteesta. Kun olet yhteydessä Internetiin, pystyt käyttämään näitä tiedostoja kuten mitä tahansa laitteella olevia tiedostoja.\nTiedostot tarvittavissa -ominaisuuden käyttämiseen tarvitaan uusin macOS Mojave (10.14.2 tai korkeampi). Voit ottaa Tiedostot tarvittaessa -ominaisuuden käyttöön OneDriven asetusvalikon Yleiset-välilehdessä.";
+
+// Finder sync extension commands
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will copy a shareable link to their keyboard */
+"MenuItemShareCommand" = "Jaa OneDrive-linkki";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will open a web browser and display the selected file in the web interface */
+"MenuItemViewOnlineCommand" = "Näytä verkossa";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a selective sync window. */
+"MenuItemSelectiveSyncCommand" = "Valitse, mitkä OneDrive-kansiot synkronoidaan";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a browser window that displays some detailed sharing options for the file. */
+"MenuItemSharingOptionsCommand" = "Lisää OneDrive-jakamisvaihtoehtoja";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a hosted browser window that OneDrive controls. This browser window will load a web page from sharepoint and allow the user to modify sharing options from the file. This is different from just launching the user's default browser. */
+"MenuItemShareBrowserWindowCommand" = "Jaa";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch the preferences window for the account that the right clicked file belongs to. */
+"MenuItemPreferencesCommand" = "Asetukset";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. */
+"MenuItemPinCommand" = "Pidä aina tässä laitteessa";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. */
+"MenuItemUnpinCommand" = "Vapauta tilaa";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will lock the folder. %@ is a folder name. */
+"MenuItemLockCommand:%@" = "Lukitse %@";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will unlock the folder. %@ is a folder name. */
+"MenuItemUnlockCommand:%@" = "Poista kansion %@ lukitus";
+
+// Finder Sync Extension Tooltips
+
+/* Tooltip for synced / up-to-date icon in Mac Finder */
+"IconOverlaySyncedLabel" = "Ajan tasalla";
+
+/* Tooltip for syncing icon in Mac Finder */
+"IconOverlaySyncingLabel" = "Synkronoidaan";
+
+/* Tooltip for error icon in Mac Finder */
+"IconOverlayErrorLabel" = "Virhe";
+
+/* Tooltip for shared folder synced / up-to-date icon in Mac Finder */
+"IconOverlaySharedSyncedLabel" = "Ajan tasalla";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlaySharedSyncingLabel" = "Synkronoidaan";
+
+/* Tooltip for shared folder error icon in Mac Finder */
+"IconOverlaySharedErrorLabel" = "Virhe";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlayReadOnlyLabel" = "Ajan tasalla, vain luku";
+
+/* Tooltip for unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedLabel" = "Käytettävissä tässä laitteessa";
+
+/* Tooltip for pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedLabel" = "Aina käytettävissä tässä laitteessa";
+
+/* Tooltip for unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedLabel" = "Käytettävissä Online-tilassa";
+
+/* Tooltip for read-only, unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedReadOnlyLabel" = "Käytettävissä tässä laitteessa, vain luku";
+
+/* Tooltip for read-only, pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedReadOnlyLabel" = "Aina käytettävissä tässä laitteessa, vain luku";
+
+/* Tooltip for read-only, unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedReadOnlyLabel" = "Käytettävissä Online-tilassa, vain luku";
+
+/* Action center (Toast) notification header for the Icon Overlay feature */
+"IconOverlayToastTitle" = "Tutustu uusiin synkronoinnin tilakuvakkeisiin";
+
+/* Action center (Toast) notification body for the Icon Overlay feature */
+"IconOverlayToastBody" = "Napsauttamalla voit sallia OneDriven näyttää synkronointitila Finderissa.";
+
+/* Preferences Dialog string for enabling icon overlays*/
+"IconOverlayPreferencesLink" = "Salli OneDriven näyttää synkronointitila Finderissa";
+
+// App moniker related strings
+
+/* Text of basic Moniker*/
+"BasicMoniker:%@" = "OneDrive – %@";
+
+/* Text of Moniker with user's first name. %0@ is user's firstname, %1@ is string like 'OneDrive - Personal' */
+"MonikerWithFirstName:%@,%@" = "Käyttäjän %0@ %1@";
+
+/* Text of Moniker with user's email. %0@ is string like 'OneDrive - Personal', %1@ is email address */
+"MonikerWithEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text of Moniker with user's first name and email. %0@ is MonikerWithFirstName like Someone's OneDrive - Personal, %1@ is email address */
+"MonikerWithFirstNameAndEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text used in BasicMoniker for personal client */
+"PersonalDisplayMoniker" = "Henkilökohtainen";
+
+// Notifications
+
+/* Balloon tip primary text to notify users that the shared folders sync feature is available */
+"SharedFoldersEnabledBaloonTipHeader" = "Uutta – nyt voit synkronoida myös jaettuja kansioita!";
+
+/* Balloon tip secondary text describing how to start using the shared folder sync feature */
+"SharedFoldersEnabledBaloonTipBody" = "Tarkastele OneDrive.comissa kanssasi jaettuja kansioita napsauttamalla. Valitse sitten mikä tahansa muokattavissa oleva kansio ja napsauta Lisää omaan OneDriveen.";
+
+/* Message shown when users try to run different flavors of OneDrive app side by side */
+"DifferentTypesOfAppSideBySide" = "Tietokoneessasi on kaksi OneDrive-ohjelmaa. Vain yhtä voidaan käyttää kerrallaan. On suositeltavaa poistaa toisen asennus. Voit tarkistaa, kumpi OneDrive-ohjelma on käytössä napsauttamalla valikkopalkin OneDrive-kuvaketta ja valitsemalla Asetukset > Tietoja.";
+
+/* Title for a notification shown when the user copies a link to a file to their pasteboard */
+"CopyFileLinkToPasteboardTitle" = "Linkkisi on valmiina liitettäväksi";
+
+/* Body for a notification shown when the user copies a link toa a file to their pasteboard */
+"CopyFileLinkToPasteboardBody" = "Linkki on tallennettu Leikepöydän. Voit jakaa sen liittäminen viestiin tai Kirjaa. Linkki kuka tahansa voi muokata tiedostoa.";
+
+/* Title for a notification shown when a screen capture is saved */
+"ScreenshotSavedTitle" = "Näyttökuva tallennettu";
+
+/* Body for a notification shown when a screen capture is saved. Screenshots should be localized and capitolized. */
+"ScreenshotSavedBody" = "Avaa Näyttökuvat-kansio napsauttamalla tästä";
+
+/* Title for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorTitle" = "Näyttökuvia ei voida tallentaa OneDriveen";
+
+/* Body for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorBody" = "Jos haluat tallentaa näyttökuvat, synkronoi työ- tai koulutiedostot OneDriveen. Valitse Tili-välilehti ja napsauta Aloita synkronointi";
+
+// Campaign Manager toast notifications
+
+/* Title for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastTitle" = "Ota Avaa kirjauduttaessa -toiminto käyttöön";
+
+/* Body for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastBody" = "Synkronoi tiedostot aina.";
+
+/* Title for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastTitle" = "Näytä synkronoinnin tila Finderissä";
+
+/* Body for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastBody" = "Ota Finder-integraatio käyttöön.";
+
+/* Title for Placeholders Finder Sync Extension Campaign toast */
+"PlaceholdersFinderSyncCampaignToastTitle" = "Vapauta tilaa Tiedostot tarvittaessa -toiminnolla";
+
+/* Body for Placeholders Finder Sync Extension Campaign toast*/
+"PlaceholdersFinderSyncCampaignToastBody" = "Napsauta tätä, niin viimeistelet asennuksen ja otat käyttöön OneDrive Finder -laajennuksen.";
+
+/* Title for Rate Application Campaign toast */
+"RatingsCampaignToastTitle" = "Kerro, mitä mieltä olet";
+
+/* Body for Rate Application Campaign toast */
+"RatingsCampaignToastBody" = "Anna arvio OneDrive-sovelluksesta tai lähetä palautetta.";
+
+// Rate Our Application Window
+
+/* Windows title for rate our application window.
+ There's probably no need to localize this string. */
+"RateApplicationWindowTitle" = "Microsoft OneDrive";
+
+/* Title for Rate Us WindowText on two lines, please keep the \n in translation as a line terminator after "Thank you" */
+"RateApplicationBodyTitle" = "Kiitos,\nettä käytät OneDrivea!";
+
+/* Text for Rate us button */
+"RateApplicationWindowRateButton" = "Pidätkö siitä? Kerro meille lisää!";
+
+/* Text for Tell us how to improve button */
+"RateApplicationWindowSupportbutton" = "Kerro, mitä pitäisi parantaa";
+
+/* Text for Rate Us button - more engaging */
+"RateApplicationWindowRateButtonEngage" = "Anna meille viisi tähteä!";
+
+/*Text for Rate Us button - with question */
+"RateApplicationWindowRateButtonQuestion" = "Pidätkö siitä? Anna meille viisi tähteä!";
+
+/* ---------------------------- Activity Center ------------------- */
+
+/* Text shown in title bar of Activity Center when we're up to date */
+"ActivityCenterHeaderUpToDate" = "OneDrive on ajan tasalla";
+
+/* Text shown in title bar of Activity Center when files are syncing */
+"ActivityCenterHeaderUpdatingFiles" = "OneDrive päivittää tiedostoja...";
+
+/* Text shown in title bar of Activity Center when there are sync problems */
+"ActivityCenterHeaderNeedsAttention" = "OneDrive tarvitsee huomiotasi";
+
+/* Text shown in title bar of Activity Center when we're paused */
+"ActivityCenterHeaderPaused" = "OneDrive on keskeytetty";
+
+/* Text shown in title bar of Activity Center when we're offline */
+"ActivityCenterHeaderOffline" = "OneDrive on offline-tilassa";
+
+/* Text shown in title bar of Activity Center when we aren't signed in */
+"ActivityCenterHeaderNotConnected" = "OneDrivea ei ole yhdistetty";
+
+/* Text shown in the header of Activity Center when OneDrive is being reset */
+"ActivityCenterHeaderResetting" = "OneDrivea palautetaan...";
+
+/* Primary text shown in the error bar of Activity Center, placeholder is number of items */
+"ActivityCenterFileErrorsItemPrimary" = "%@ kohdetta ei voida synkronoida";
+
+/* Primary text shown in the error bar of Activity Center, singular item version  */
+"ActivityCenterFileErrorsItemPrimarySingle" = "1 kohdetta ei voida synkronoida";
+
+/* Secondary text shown in the error bar of Activity Center */
+"ActivityCenterFileErrorsItemSecondary" = "Näytä lisätietoja napsauttamalla";
+
+/* Up-to-date primary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemPrimary" = "Valmista";
+
+/* Up-to-date secondary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemSelectiveSync" = "Kaikki tiedostot on synkronoitu";
+
+/* Up-to-date primary text shown on Activity Center while paused */
+"ActivityCenterPausedPrimary" = "Tiedostoja ei tällä hetkellä synkronoida";
+
+/* Up-to-date secondary text shown on Activity Center while paused */
+"ActivityCenterPausedSecondary" = "Napsauttamalla tätä voit jatkaa synkronointia, niin tiedostosi pysyvät ajan tasalla.";
+
+/* Text showing progress on one item when it's downloading or uploading. Placeholders are numbers and units for file progress. E.g. Uploading - 10 MB of 1 GB" */
+"ActivityCenterItemProgress" = "· %1$@ %2$@ / %3$@ %4$@";
+
+/* Text showing progress on one item when it's downloading or uploading with differential sync. Placeholder %1$@ is a number, %2$@ is a unit, %3$@ is a number, %4$@ is a unit, %5$@ is a number, %6$@ is a unit E.g. Uploading - 10 MB of 1 GB (100 KB)" */
+"ActivityCenterItemProgressDiffSyncUX" = "· %1$@ %2$@ / %3$@ %4$@ (%5$@ %6$@)";
+
+/* Text shown on one item when it's uploading. */
+"ActivityCenterItemUploading" = "Ladataan palvelimeen";
+
+/* Text shown on one item when it's reviewing the file before syncing. This is specific to differential sync */
+"ActivityCenterItemReviewingChanges" = "Valmistellaan synkronointia";
+
+ /* Text shown on one item when it's downloading. */
+"ActivityCenterItemDownloading" = "Ladataan";
+
+/* Status shown on an item that's finished transfering. */
+"ActivityCenterItemUpdated" = "Päivitetty OneDriveen";
+
+/* Status shown on an item that's been removed. */
+"ActivityCenterItemRemoved" = "Poistettu OneDrivesta";
+
+/* Status shown on an item that's finished uploading. Placeholder %% is a folder name. */
+"ActivityCenterItemUploaded" = "Ladattu kansioon %%";
+
+/* Status shown on an item that's finished downloading. Placeholder %% is a folder name. */
+"ActivityCenterItemDownloaded" = "Ladattu kansioon %%";
+
+/* Status shown on an item that's finished moving. Placeholder %% is a folder name. */
+"ActivityCenterItemMoved" = "Siirretty kansioon %%";
+
+/* Status shown on an item that was renamed. Placeholder %% is a folder name. */
+"ActivityCenterItemRenamed" = "Nimetty uudelleen kansiossa %%";
+
+/* Status shown on an item that represents a placeholder file. Placeholder %% is a folder name. */
+"ActivityCenterItemPlaceholder" = "Käytettävissä kansiossa %%";
+
+/* Timestamp on an item. Placeholders are for time difference and units E.g. 5 minutes ago */
+"ActivityCenterItemTime" = "%1$@ %2$@ sitten";
+
+/* Timestamp on an item plus application. Placeholders %1$@ %2$@ are for time difference and units. %3$@ is an application name E.g. 5 minutes ago · Microsoft Word */
+"ActivityCenterItemTimeWithAppName" = "%1$@ %2$@ sitten · %3$@";
+
+/* Timestamp on an item plus application. Placeholder %1$@ is for a date. %2$@ is an application name E.g. 8/24/2018 · Microsoft Word */
+"ActivityCenterItemDateWithAppName" = "%1$@ · %2$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncing" = "Synkronoidaan %1$@ tiedostoa · %2$@ %3$@ / %4$@ %5$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncingSingle" = "Synkronoidaan 1 tiedostoa · %1$@ %2$@ / %3$@ %4$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing changes */
+"ActivityCenterSummaryProcessingChanges" = "Käsitellään muutoksia";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing a single change */
+"ActivityCenterSummaryProcessingChangesCountSingle" = "Käsitellään muutosta";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing multiple changes. The placeholder %1$@ indicates the number of changes */
+"ActivityCenterSummaryProcessingChangesCount" = "Käsitellään %1$@ muutosta";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're looking for file system changes */
+"ActivityCenterSummaryLooking" = "Etsitään muutoksia";
+
+/* Text read aloud when list of recent files is selected */
+"ActivityCenterHistoryListAccessibleText" = "Viimeisimmät tiedostot";
+
+/* time units used in activity center on timestamps. E.g. 1 second ago */
+"ActivityCenterSecondSingle" = "sekunti";
+
+/* time units used in activity center on timestamps. E.g. N seconds ago */
+"ActivityCenterSecondsMultiple" = "sekuntia";
+
+/* time units used in activity center on timestamps. E.g. 1 minute ago */
+"ActivityCenterMinuteSingle" = "minuutti";
+
+/* time units used in activity center on timestamps. E.g. N minutes ago */
+"ActivityCenterMinutesMultiple" = "minuuttia";
+
+/* time units used in activity center on timestamps. E.g. 1 hour ago */
+"ActivityCenterHourSingle" = "tunti";
+
+/* time units used in activity center on timestamps. E.g. N hours ago */
+"ActivityCenterHoursMultiple" = "tuntia";
+
+/* Text shown on a button in the Activity Center that takes the user to the Upgrade storage page on OneDrive */
+"ActivityCenterQuotaButtonGetMoreStorage" = "Hanki lisää tallennustilaa";
+
+/* Text shown on a link in the Activity Center that takes the user to the Free up space page on OneDrive */
+"ActivityCenterQuotaButtonFreeUpSpace" = "Vapauta tilaa";
+
+/* Primary text shown in the Activity Center when the user's quota is nearing maximum or in a critical state. The placeholders are the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso") and the percentage of space occupied, e.g Your OneDrive is 98% full */
+"ActivityCenterQuotaCriticalTitle, %@ %@" = "%1$@ on %2$@% % täynnä";
+
+/* Secondart text shown in the Activity Center when the user is approaching critical quota. The placeholders are size and units remaining. E.g. You have only 10 MB of available space */
+"ActivityCenterQuotaLeftText, %@ %@" = "Sinulla on vain %1$@ %2$@ vapaata tilaa";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive. */
+"ActivityCenterQuotaReachedBody" = "Jos haluat jatkaa uusien tiedostojen synkronointia, hanki lisää tallennustilaa.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for Office 365 users. */
+"ActivityCenterQuotaReachedBody1TB" = "Vapauta tilaa poistamalla tiedostoja, joita et enää tarvitse.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for business users. */
+"ActivityCenterQuotaReachedBodyBusiness" = "Pyydä lisätietoja IT-osastolta tai vapauta tilaa poistamalla tiedostoja.";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitleBusiness, %@" = "Kohteessa %1$@ ei ole tilaa";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitle, %@" = "%1$@ on täynnä";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown for 1 week before switching to the normal banner text. */
+"ActivityCenterQuotaUpsellBannerIntroTitle" = "Esittelyssä Premium-ominaisuudet";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalTitle" = "Aloita Premium-version käyttö";
+
+/* Secondary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalBody" = "Saat 1 Tt (1 000 Gt) tallennustilaa ja täysin uudet Office 2016 -sovellukset.";
+
+/* Part of the secondary text shown in the Activity Center for users without an O365 subscription. This appears in the banner for both upsell states of the banner. */
+"ActivityCenterQuotaUpsellBannerLearnMore" = "Lisätietoja";
+
+/* The Accessibility text hint for the ACM dismiss button. */
+"ActivityCenterMessageDismissHint" = "Hylkää";
+
+/* Primary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInTitle" = "Aloita kirjautumalla sisään OneDriveen";
+
+/* Secondary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInBody" = "Voit hakea tiedostot ja synkronoida ne laitteeseen kirjautumalla OneDriveen.";
+
+/* Button text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInButton" = "Kirjaudu sisään";
+
+/* Text shown in the Activity Center while we are signing the user in. */
+"ActivityCenterSigningIn" = "Kirjaudutaan";
+
+/* Text shown in the Activity Center while we are signing the user out. */
+"ActivityCenterSigningOut" = "Kirjaudutaan ulos";
+
+/* Clicking this button will open (action) the OneDrive folder in File Explorer */
+"ActivityCenterFooterButtonOpenFolder" = "Avaa kansio";
+
+/* Clicking this button will open (action) a web portal where the user can upgrade their account */
+"ActivityCenterFooterButtonGoPremium" = "Aloita Premium-version käyttö";
+
+/* Clicking this button opens the user's (action) OneDrive folder online. ("View" here is an action) */
+"ActivityCenterFooterButtonViewOnline" = "Näytä verkossa";
+
+/* Clicking this button opens (action) a context menu which contains extra actions like pause, settings and quit */
+"ActivityCenterFooterButtonMore" = "Lisää";
+
+/* Accessibility text for button that will cancel a download */
+"ActivityCenterCancelButtonAccessibleName" = "Peruuta lataus";
+
+/* The name "OneDrive" */
+"OneDriveBrandName" = "OneDrive";
+
+/* Primary text shown in the alert of restart after crash */
+"RestartAfterCrashAlertTitle" = "OneDriven käytössä ilmeni ongelma";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is enabled */
+"RestartAfterCrashAlertBodyReportAProblemEnabled" = "Ikävää, että OneDriven käytössä on ongelmia. Saat tukipalvelulta apua ilmoittamalla ongelmasta. Halutessasi voit myös yrittää palauttaa OneDriven oletusasetukset. OneDriven oletusasetusten palauttamisen jälkeen OneDrive-sovellus täytyy määrittää uudelleen.";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is disabled */
+"RestartAfterCrashAlertBodyReportAProblemDisabled" = "Ikävää, että OneDriven käytössä on ongelmia. Saat tukipalvelulta apua ilmoittamalla ongelmasta. Halutessasi voit myös yrittää palauttaa OneDriven oletusasetukset. OneDriven oletusasetusten palauttamisen jälkeen OneDrive-sovellus täytyy määrittää uudelleen.";
+
+/* Text for report a problem button shown in the alert of restart after crash */
+"RestartAfterCrashAlertReportAProblemButtonText" = "Ilmoita ongelmasta";
+
+/* Text for reset onedrive button shown in the alert of restart after crash */
+"RestartAfterCrashAlertResetOneDriveButtonText" = "Palauta OneDriven oletusasetukset";
+
+/* Text for cancel button shown in the alert of restart after crash */
+"RestartAfterCrashAlertCancelButtonText" = "Peruuta";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared */
+"ShareWebWindowTitle, %@" = "Jaa %@";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared - this one has quotes around the item name */
+"ShareWebWindowTitleWithQuotes:%@" = "Jaa %@";
+
+/* Error primary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorTitleGeneric" = "Tapahtui virhe";
+
+/* Error secondary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorSecondaryTextGeneric" = "Tätä kohdetta ei voi juuri nyt jakaa. Yritä myöhemmin uudelleen.";
+
+/* Error primary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorTitleOffline" = "Muodosta Internet-yhteys";
+
+/* Error secondary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorSecondaryTextOffline" = "Ilmeisesti et ole yhteydessä Internetiin. Yritä jakamista uudelleen, kun olet online-tilassa.";
+
+/* Text on error button in the Sharing Web Browser window */
+"ShareWebErrorButtonText" = "Yritä uudelleen";
+
+/* Text shown on the Loading view of the Sharing Web Browser window */
+"ShareWebLoading" = "Ladataan";
+
+/* Text read by the Voice Over utility (accessibility) for the Loading spinner on the Sharing Web Browser Window. The placeholder is the name of the file / folder being shared. */
+"ShareWebLoadingNarrator:%@" = "Valmistellaan kohteen %@ jakamista";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog title */
+"FoundSameNamesUnderFolderErrorTitle" = "Tiedostoa ei voi synkronoida";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog body. The placeholder is the full path of the file. Please keep "\n" intact. */
+"FoundSameNamesUnderFolderErrorBody:%@" = "Toisella saman sijainnin tiedostolla on sama nimi tai erilaiset isot alkukirjaimet.\n%@\nSiirrä tai nimeä yksi tiedostoista uudelleen ja avaa sitten OneDrive-sovellus uudelleen.";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog OK button */
+"FoundSameNamesUnderFolderErrorButton" = "OK";
+
+/* Primary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedPrimary" = "Lataus on keskeytetty";
+
+/* Secondary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedSecondary" = "Online-tiedostojasi siirretään lähempänä sinua sijaitseviin palvelimiin. Muutokset synkronoidaan heti, kun siirto on valmis.";
+
+/* Primary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedPrimary" = "Tiedostojen synkronointia jatketaan";
+
+/* Secondary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedSecondary" = "Online-tiedostojen siirtäminen uuden sijainnin palvelimiin on suoritettu.";
+
+/* Primary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantPrimaryText" = "OneDrive ei voi synkronoida";
+
+/* Secondary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantSecondaryText" = "IT-osasto ei salli tietojen synkronointia tästä sijainnista tietokoneeseen";
+
+/* Text for SyncError MinorVersionLimitExceeded error dialog body */
+"SyncErrorShortDescriptionMinorVersionExceededItem" = "Tästä tiedostosta on tallennettu suurin sallittu määrä aliversioita. Julkaise tiedosto SharePoint-sivustossa: napsauta tiedostoa hiiren kakkospainikkeella ja valitse Lisää > Julkaise. Tämän jälkeen voit taas tallentaa aliversioita.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast */
+"FolderRecreatedOnFailedDelete Title" = "Kansiota ei voi poistaa.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast where %@ is a folder name */
+"FolderRecreatedOnFailedDelete Message:%@" = "Jos haluat lopettaa kansion %@ synkronoinnin tietokoneeseen, siirry Asetuksiin napsauttamalla tästä ja poista tämän kansion valinta.";
+
+/* Accessibility text for menu item dropdown button */
+"MenuButtonAccessibleName" = "Lisää asetuksia";
+
+/* Text for per item menu dropdown Open option */
+"MenuItemOpen" = "Avaa";
+
+/* Text for per item menu dropdown Share option */
+"MenuItemShare" = "Jaa";
+
+/* Text for per item menu dropdown View online option */
+"MenuItemViewOnline" = "Näytä verkossa";
+
+/* Title of Setting dialog tab that provides options for Office file syncing. */
+"OfficeText" = "Office";
+
+/* Title text of groupbox on the Office settings tab that provides settings for syncing and file collaboration. */
+"OfficeFileCollabGroupBox" = "Tiedostojen yhteiskäyttö";
+
+/* Explanation text in the File collaboration groupbox that explains syncing files with Office. */
+"OfficeFileCollabTextField" = "Työstä Office-tiedostoja yhtä aikaa muiden kanssa synkronoimalla tiedostot Officen kanssa.";
+
+/* Checkbox text for syncing files with Office 2016. {Locked=!cs, sk;\"Office\"} */
+"OfficeFileCollabCheckBox" = "Synkronoi avaamani Office-tiedostot Office-sovellusten avulla";
+
+/* Group box title for the Sync conflicts group box - provides options for how to deal with Office file sync conflicts. */
+"OfficeConflictGroupBox" = "Synkronointiristiriidat";
+
+/* Radio button for the option to merge files using Office. */
+"OfficeConflictRadioButtonMerge" = "Anna minun valita, yhdistetäänkö muutokset vai säilytetäänkö molemmat kopiot";
+
+/* Radio button for option to always keep both copies of a file when the file is in an Office conflict. */
+"OfficeConflictRadioButtonFork" = "Säilytä aina molemmat kopiot (nimeä uudelleen tässä tietokoneessa oleva kopio)";
+
+/* Message to notify that an item cannot be deleted and it will be recreated at original location. */
+/* Title Text for SyncError DeleteCancelledByEventReceiver toast */
+"ItemCannotBeDeleted Title" = "Kohdetta ei voi poistaa.";
+
+/* Body Text for SyncError DeleteCancelledByEventReceiver toast where %@ is an item name */
+"ItemCannotBeDeleted Message:%@" = "Jos haluat lopettaa kohteen %@ synkronoinnin tietokoneeseen, siirry Asetuksiin napsauttamalla tästä ja poista tämän kohteen valinta.";
+
+/* Message to notify that an item cannot be moved from its original location, item moved
+    will be recreated at source and the moved copy will be uploaded from destination. */
+/* Title Text for SyncError UploadFailedOnCannotMoveThickets toast */
+"ItemCannotBeMoved Title" = "Yhtä kohteistasi ei voi siirtää.";
+
+/* Body Text for SyncError MoveCancelledByEventReceiver toast where %@ is a item name which cannot be moved. */
+/* Body Text for SyncError MoveFailedOnCannotMoveThickets toast where %@ is a thicket folder name which cannot be moved. */
+"ItemCannotBeMoved Message:%@" = "%@ on sen sijaan kopioitu uuteen sijaintiin, ja kohteen molemmat kopiot on ladattu palvelimeen.";
+
+/* Message to notify that an item cannot be added or changed due to server response of cancelled by event receiver. */
+/* Title Text for SyncError AddOrChangeCancelledByEventReceiver toast */
+"ItemAddOrChangeCancelledByEventReceiver Title" = "Kohdetta ei voi ladata palvelimeen.";
+
+/* Body Text for SyncError AddOrChangeCancelledByEventReceiver toast where %@ is an item name */
+"ItemAddOrChangeCancelledByEventReceiver Message:%@" = "Jos haluat lopettaa kohteen %@ synkronoinnin tietokoneeseen, siirry Asetuksiin napsauttamalla tästä ja poista tämän kohteen valinta.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryClientError" = "IT-osastosi vaatii, että Mac-tietokoneesi liitetään hyväksyttyyn toimialueeseen. Jos tarvitset apua Mac-tietokoneen yhdistämisessä toimialueeseen, ota yhteyttä IT-osastoon.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryDisabled" = "Organisaatiosi ei salli tämän kansion synkronointia. Saat lisätietoja sivuston omistajalta.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryCheckOut" = "Tämän kansion kohteiden muokkaamiseen vaaditaan uloskuittaus. Jos haluat synkronoida tämän kansion, pyydä sivuston omistajaa poistamaan Edellytä uloskuittausta -asetus käytöstä.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryColumnInvalid" = "Kansiossa on pakollinen tietosarake, joita ei voi synkronoida. Pyydä sivuston omistajaa muokkaamaan sarakkeita niin, etteivät ne ole enää pakollisia, ja poistamaan mahdolliset tietojen kelpoisuuden tarkistukset.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryIrm" = "Kansioon, jota yrität synkronoida, on määritetty Sisältöoikeuksien hallinta. Ota yhteyttä sivuston järjestelmänvalvojaan ja pyydä poistamaan Sisältöoikeuksien hallinta käytöstä tässä kansiossa.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryModeration" = "Kohteet on hyväksyttävä ennen kansioon lisäämistä. Jos haluat synkronoida tämän kansion, pyydä sivuston omistajaa poistamaan Sisällön hyväksyntä käytöstä.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibrary" = "Hiljattain muutettu asetus estää tämän kansion synkronoinnin. Saat lisätietoa ottamalla yhteyttä IT-osastoon.";
+
+/* Resolution message text for LostPermissionsToMountPoint error */
+"LostPermissionsToMountPoint" = "Sinulla ei ole oikeutta synkronoida tätä kirjastoa. Pyydä käyttöoikeutta tarkastelemalla kirjastoa verkossa tai lopeta tämän kirjaston synkronointi napsauttamalla tai napauttamalla.";
+
+/* Resolution message text for LibraryDeleted error */
+"LibraryDeleted" = "Tämä kirjasto on poistettu. Tähän laitteeseen tallennetut tiedostot säilytetään. Lopeta kirjaston synkronointi napsauttamalla tai napauttamalla tai ota yhteyttä kirjaston omistajaan.";
+
+/* Resolution message text for ServiceBlockedLibrary error */
+"ServiceBlockedLibrary" = "Kirjastoon ei saada yhteyttä palveluongelman vuoksi. Yritä uudelleen käynnistämällä OneDrive uudelleen.";
+
+/* Resolution message text for LibraryNotFound error */
+"LibraryNotFound" = "Tätä kirjastoa ei löydy. Lopeta kirjaston synkronointi napsauttamalla tai napauttamalla tai ota yhteyttä IT-järjestelmänvalvojaan.";
+
+/* Error message text for SyncIrmFileFailed error */
+"SyncIrmFileFailed" = "Tätä suojattua tiedostoa ei voitu synkronoida. Ota yhteyttä suojatun tiedoston SharePoint-järjestelmänvalvojaan ja pyydä käyttöoikeutta.";
+
+/* Error message text for IrmRejectedItemOnUpload error */
+"IrmRejectedItemOnUpload" = "Tätä tiedostoa ei voi synkronoida, koska IRM-kirjaston asetukset on määritetty estämään käyttäjiä lataamasta sellaisia asiakirjoja, jotka eivät tue sisältöoikeuksien hallintaa.";
+
+/* Error message text for IrmExtensionChangeBlockedItem error */
+"IrmExtensionChangeBlockedItem" = "Tätä kohdetta ei voi synkronoida, koska organisaatiosi käytäntö ei salli tiedostotunnisteiden nimeämistä uudelleen. Muuta tiedostotunnisteen nimi verkossa takaisin alkuperäiseen muotoon tai ota yhteyttä sivuston järjestelmänvalvojaan.";
+
+/* Error message text for IrmEncryptFailedToFindProtectorItem error */
+"IrmEncryptFailedToFindProtectorItem" = "Tätä kohdetta ei voi synkronoida, koska organisaatiosi käytäntö ei salli tiedostotunnisteiden nimeämistä uudelleen. Ota yhteyttä sivuston järjestelmänvalvojaan.";
+
+/* Error message for ItemCantFitOnDisk error. */
+"ItemCantFitOnDisk" = "Levytila ei riitä tämän tiedoston synkronointiin.";
+
+/* Text for menu item to open help center */
+"MainMenuItemHelpCenter" = "Ohjekeskus";
+
+/* Window title used for send feedback.
+ There's probably no need to localize this string. */
+"FeedbackApplicationTitle" = "Microsoft OneDrive";
+
+/* Send feedback menu item label */
+"FeedbackMenuLabel" = "Lähetä palautetta";
+
+/* Send feedback window title */
+"FeedbackWindowTitle" = "Lähetä palautetta";
+
+/* Link to privacy statement page */
+"FeedbackPrivacyLinkText" = "<a href=\"#\">Tietosuojasi on meille tärkeä.</a>";
+
+/* Link to terms of service page */
+"FeedbackTosLinkText" = "<a href=\"#\">Microsoft</a> kerää palautetta ja käyttää sitä käyttökokemuksen parantamiseen.";
+
+/* Header of the button to send positive feedback */
+"FeedbackSmileChoiceTitle" = "Pidän jostakin";
+
+/* Explanation for the send positive feedback button */
+"FeedbackSmileChoiceText" = "Kuulemme mielellämme, mitä teemme oikein.";
+
+/* Placeholder for the user input field */
+"FeedbackSmileFieldTip" = "Kerro, mistä pidät";
+
+/* Placeholder for the user input field */
+"FeedbackFrownFieldTip" = "Kerro, mistä et pitänyt";
+
+/* Header of the send negative feedback button */
+"FeedbackFrownChoiceTitle" = "En pidä jostakin";
+
+/* Explanation for the send negative feedback button */
+"FeedbackFrownChoiceText" = "Jos jokin on pielessä, haluamme tietää siitä.";
+
+/* Header of the Send a Suggestion button */
+"FeedbackSuggestionChoiceTitle" = "Minulla on ehdotus";
+
+/* Explanation for the Send a Suggestion button */
+"FeedbackSuggestionChoiceText" = "Jaa idea tai parannusehdotus.";
+
+/* Checkbox label to opt-in/opt-out of sending log files */
+"FeedbackIncludeLogsLabel" = "Sisällä vianmääritys- ja käyttötiedot";
+
+/* Label for the button to send feedback */
+"FeedbackSendButtonLabel" = "Lähetä";
+
+/* Label for the button to resent feedback in the case of sending failure */
+"FeedbackRetryButtonLabel" = "Yritä uudelleen";
+
+/* Label for the button to cancel feedback submission request */
+"FeedbackCancelButtonLabel" = "Peruuta";
+
+/* Label for the button to finish send feedback */
+"FeedbackCloseButtonLabel" = "Sulje";
+
+/* Message shown in the case of feedback submission failure */
+"FeedbackSendFailureText" = "Palautteen lähettämisessä tapahtui virhe. Tarkista Internet-yhteytesi ja yritä uudelleen. Voit myös ilmoittaa ongelmasta <a href=\"#\">ottamalla yhteyttä tukeen.</a>";
+
+/* Message shown during feedback submission */
+"FeedbackSendingText" = "Lähetetään...";
+
+/* Message shown at the end of feedback submission. */
+"FeedbackSendSuccessText" = "Arvostamme palautettasi! Kommenttisi auttavat meitä parantamaan tuotetta.";
+
+/* Window title shown at the end of feedback submission. */
+"FeedbackSendSuccessTitle" = "Kiitos";
+
+/* Label for the button to go back to feedback type selection page. */
+"FeedbackBackButtonLabel" = "Edellinen";
+
+/* Title of local mass delete prompt for personal instance. */
+"LocalMassDeletePromptTitlePersonal" = "Poistetaanko tiedostot OneDrivesta?";
+
+/* Title of local mass delete prompt for business instance. */
+"LocalMassDeletePromptTitleBusiness" = "Poistetaanko tiedostot kaikista sijainneista?";
+
+/* Body of local mass delete prompt for personal instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyPersonal:%@" = "Poistit äskettäin %@ tiedostoa tästä laitteesta. Haluatko poistaa ne myös OneDrivesta?";
+
+/* Body of local mass delete prompt for business instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyBusiness:%@" = "Poistit äskettäin %@ tiedostoa tästä laitteesta. Haluatko poistaa ne OneDrivesta ja kaikista jaetuista kirjastoista?";
+
+/* Text of Restore button of local mass delete prompt. */
+"LocalMassDeletePromptRestoreButton" = "Palauta tiedostot";
+
+/* Text of Delete button of local mass delete prompt. */
+"LocalMassDeletePromptDeleteButton" = "Poista";
+
+/* Text of Opt out checkbox of local mass delete prompt. */
+"LocalMassDeletePromptOptoutCheckbox" = "Poista tiedostot aina";
+
+/* Activity center local mass delete per item history description. */
+"ActivityCenterItemPendingRemoval" = "Odottaa poistoa OneDrivesta";
+
+/* Checkbox text to toggle the local mass delete feature in settings dialog. */
+"LocalMassDeleteSettingsCheckbox" = "Varoita ennen tiedostojen poistamista pilvipalvelusta";
+
+/* Title text of local mass delete confirmed ACM. */
+"LocalMassDeleteConfirmedTitle" = "Haluatko palauttaa tiedostoja?";
+
+/* Body text of local mass delete confirmed ACM for personal instance. */
+"LocalMassDeleteConfirmedBodyPersonal" = "Tiedostojen poistaminen OneDrivesta poistaa ne kaikista laitteista. Voit palauttaa tiedostoja OneDriven roskakorista 30 päivän ajan.";
+
+/* Body text of local mass delete confirmed ACM for business instance. */
+"LocalMassDeleteConfirmedBodyBusiness" = "Tiedostojen poistaminen OneDrivesta poistaa ne kaikista laitteista ja sijainneista. Voit palauttaa tiedostoja OneDriven roskakorista tai jaetusta kirjastosta 93 päivän ajan. Napsauttamalla alla voit siirtyä roskakoriin, jossa on viimeksi poistettu tiedosto.";
+
+/* Text of recycle bin button of LocalMassDelete confirmed ACM. */
+"LocalMassDeleteRecycleBin" = "Roskakori";
+
+/* Header text informing user that an application is downloading their files. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeader:%@" = "%@ lataa OneDrivesta";
+
+/* Header text informing user that an application is downloading their files. This version is used if many files are downloading. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeaderAboveThreshold:%@" = "%@ lataa useita tiedostoja OneDrivesta";
+
+/* Body text informing user that an application is downloading their files. Clicking on this toast will open a confirmation dialog. */
+"CloudFilesHydrationToastBody" = "Voit peruuttaa tämän ja tulevat lataukset napsauttamalla tätä.";
+
+/* Header text informing user that an application is downloading their files. %1$@ is an application name. %2$u is a number. */
+"CloudFilesHydrationDialogHeader:%@,%u" = "%1$@ lataa %2$u tiedostoa";
+
+/* Body text informing user that an application is downloading their files. %@ is an application name. */
+"CloudFilesHydrationDialogBody:%@" = "Voit antaa sovelluksen jatkaa lataamista tai lopettaa lataamisen. Valitse Estä sovellus, jos haluat estää kaikki tulevat lataukset sovelluksesta %@.";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will continue downloading files. */
+"CloudFilesHydrationDialogContinueButton" = "Jatka lataamista";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files. */
+"CloudFilesHydrationDialogStopButton" = "Keskeytä lataaminen";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files and block this application from future downloads. */
+"CloudFilesHydrationDialogBlockButton" = "Estä sovellus";
+
+// Download And Go
+
+/* Download And Go application friendly name*/
+"DownloadAndGoFriendlyName" = "OneDrive-tiedostojen käynnistysohjelma";
+
+/* Download And Go window title when no errors are displayed. %@ is a number. */
+"DownloadAndGoTitle:%@" = "Ladataan %@ kohdetta OneDriveen";
+
+/* Download And Go downloading message. %@ is a file name. */
+"DownloadAndGoDownloadingMessage:%@" = "Ladataan tiedostoa %@";
+
+/* Download And Go progress message for progressing hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoProgressingHydrationProgress: %@ %@" = "%1$@/%2$@";
+
+/* Download And Go progress message for queued hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoQueuedHydrationProgress: %@ %@" = "%1$@/%2$@ – odottaa lataamista";
+
+/* Download And Go window title when errors are displayed*/
+"DownloadAndGoErrorsTitle" = "OneDriveen ei voitu ladata";
+
+/* Download And Go error message. %@ is file name. %d is a number. */
+"DownloadAndGoErrorMessage: %@ %d" = "Tiedoston %1$@ lataaminen OneDriveen epäonnistui (virhekoodi %2$d).";
+
+/* Download And Go cancel error button */
+"DownloadAndGoCancelErrorButton" = "Peruuta";
+
+/* Download And Go try hydration again button */
+"DownloadAndGoTryAgainButton" = "Yritä uudelleen";
+
+// Finder Sync Extension Activity Center Messages
+
+/* The title of the large ACM used to inform the user about Files On-Demand if the Finder Sync Extension is enabled. */
+"FinderSyncEnabledTitle" = "Online-tiedostot säästävät tilaa";
+
+/* The body of a large ACM that informs the user about Files On-Demand if the Finder Sync Extension is enabled. "Finder" should be translated the same way as in the Mac OSX. "Always keep on this device" should be translated the same as the MenuItemPinCommand string. */
+"FinderSyncEnabledBody" = "Voit nyt käyttää koko OneDrive-tallennustilaasi täyttämättä levytilaa. Jos tarvitset sisältöä offline-tilassa, napsauta sitä etsimistoiminnossa hiiren kakkospainikkeella ja valitse Pidä aina tässä laitteessa.";
+
+/* The first button's text in a large ACM that that informs the user about Files On-Demand. When clicked, the message is dismissed. */
+"FinderSyncOkay" = "OK";
+
+/* The text of a button that opens a URL with more information about Files On-Demand. Used in all Finder Sync ACMs. */
+"FinderSyncLearnMore" = "Lisätietoja";
+
+/* The title of the large ACM used to prompt them to enable the Finder Sync Extension. */
+"FinderSyncPromptTitle" = "Hyödynnä Tiedostot tarvittaessa -toimintoa tehokkaasti";
+
+/* The body of a large ACM that prompts the user to enable the Finder Sync Extension if it is disabled. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptBody" = "Tiedostot tarvittaessa -toiminnon avulla voit vapauttaa tietokoneen tilaa merkitsemällä OneDrive-tiedostoja vain Online-tilassa käsiteltäviksi. Jotta tiedostoja voisi merkitä vain Online-tilassa käsiteltäviksi, OneDrive Finder -laajennus on otettava käyttöön.";
+
+/* The first button's text in a large ACM that prompts the user to enable the Finder Sync Extension. When clicked, the user's Extensions settings are opened. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptEnableExtension" = "Ota Finder-laajennus käyttöön";
+
+/* The title text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpTitle" = "Tiedostot tarvittaessa -toiminto on määritetty";
+
+/* The body text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpBody" = "Tiedostot ovat käytettävissä tarvittaessa tilan säästämiseksi.";
+
+/* The title of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */
+"FinderSyncEnabledWithSelectiveSyncTitle" = "Näytä kaikki tiedostot";
+
+/* The body of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */ 
+"FinderSyncEnabledWithSelectiveSyncBody" = "Synkronoit tälle laitteelle vain osan tiedostoistasi. Tiedostot tarvittaessa -ominaisuuden avulla voit nyt näyttää kaikki tiedostosi tällä laitteella käyttämättä levytilaa.";
+
+/* The button of an ACM that prompts the user to disable Selective Sync if the Finder Sync Extension is enabled and Files On-Demand is enabled. */
+"FinderSyncEnabledTurnOffSelectiveSyncButton" = "Näytä kaikki tiedostot";
+
+// Strings for the kext installer helper
+
+/* Window title for the kext installer helper*/
+"KextWizardWindowTitle" = "Microsoft OneDrive";
+
+/* Body header for the kext installer helper */
+"KextWizardBodyHeader" = "Päivitä tiedostot tarvittaessa";
+
+/* Body text for the kext installer helper*/
+"KextWizardBodyText" = "Jotta Tiedostot tarvittaessa -ominaisuutta voidaan käyttää, OneDrivelle on otettava käyttöön järjestelmälaajennus. Valitse Avaa suojausasetukset ja sitten Salli.";
+
+/* Action button for the kext installer helper */
+"KextWizardOpenSecurityButton" = "Avaa suojausasetukset";
+
+// Throttling
+
+/* Individual file gets throttled */
+"FileTransferThrottled" = "Synkronoinnissa saattaa ilmetä väliaikainen viive palvelun suuren käyttöasteen takia. Tiedosto yritetään päivittää uudelleen pian.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that a number of items couldn't be synced. */
+"FileTransferThrottledPrimary" = "Synkronointiviive";
+
+/* Description text shown on the sub-header of the Activity Center when there are files being throttled. */
+"FileTransferThrottledSecondary" = "Synkronoinnissa saattaa ilmetä väliaikainen viive palvelun suuren käyttöasteen takia";
+
+/* Describes the generic resolution, in the Errors Window, of a file that cannot sync because it is in use by another process. */
+"FilePostponedByClient" = "Tämä tiedosto on avattu toisessa ohjelmassa, eikä sitä voi synkronoida. Tiedosto voidaan synkronoida, kun se on ensin suljettu";
+
+/* Title text shown in the sub-header of the Activity Center indicating that one file is in use by another application. */
+"FilePostponedByClientSingular" = "Yksi tiedosto on toisen sovelluksen käytössä";
+
+/* Title text shown in the sub-header of the Activity Center indicating that multiple files are in use by other applications. %@ is a number. */
+"FilePostponedByClientPlural:%@" = "%@ tiedostoa on toisten sovellusten käytössä";
+
+// Reset UI strings
+
+/* Window title used for the Reset popup window */
+"ResetApplicationTitle" = "Microsoft OneDrive";
+
+/* Header text for the Reset popup window */
+"ResetHeaderText" = "Palauta OneDriven oletusasetukset";
+
+/* Description text for what happens during a reset */
+"ResetDescriptionText" = "Jos sinulla on ongelmia OneDriven synkronoinnissa, oletusasetusten palauttamisesta voi olla apua. Oletusasetusten palauttaminen lopettaa synkronoinnin tilapäisesti ja tiedoston hierarkia ja sisältö synkronoidaan uudelleen pilvipalvelusta paikalliseen koneeseen. <a href=\"#\">Lisätietoja.</a>";
+
+/* Checkbox text to ask if the user wants to preserve their selective sync and teamsites settings */
+"ResetSettingsCheckboxText" = "Säilytä omat asetukset ja määritykset (suositus)";
+
+/* Button text to abort the reset process */
+"ResetCancelButtonLabel" = "Peruuta";
+
+/* Button text to begin the reset process */
+"ResetConfirmButtonLabel" = "Palauta oletusasetukset";
+
+/* Title text for reset in progress ACM */
+"ResetInProgressTitle" = "Palautusta suoritetaan";
+
+/* Body text for reset in progress ACM */
+"ResetInProgressBody" = "Voit jatkaa tiedostojen parissa työskentelyä, kun palautusta suoritetaan. Tiedostot tallentuvat paikalliselle levylle, ja ne ladataan OneDriveen palautuksen jälkeen.";
+
+/* Title text for reset successful ACM */
+"ResetSuccessTitle" = "Palautus suoritettu";
+
+/* Body text for reset successful ACM */
+"ResetSuccessBody" = "OneDrivesi on kuin uusi.";
+
+/* Title text for reset successful with errors ACM */
+"ResetSuccessWithErrorsTitle" = "Palautus suoritettiin, mutta...";
+
+/* Body text for reset successful with errors ACM */
+"ResetSuccessWithErrorsBody" = "OneDrivessasi on vielä virheitä, joita ei voitu korjata palauttamalla. Näytä ne napauttamalla tai napsauttamalla.";
+
+/* Title text for reset failed ACM */
+"ResetFailureTitle" = "Palauttaminen ei onnistunut";
+
+/* Body text for reset failed ACM */
+"ResetFailureBody" = "Tapahtui virhe. <a href=\"#\">Lisätietoja.</a>";
+
+/* Title text for reset successful history list item */
+"ActivityListHistoryResetSuccessPrimary" = "Palautus suoritettu";
+
+/* Body text for reset successful history list item */
+"ActivityListHistoryResetSuccessSecondary" = "OneDrivesi on kuin uusi.";
+
+/* Title text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsPrimary" = "Palautus suoritettu";
+
+/* Body text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsSecondary" = "Joitakin virheitä jäi vielä.";
+
+/* Title text for reset failed history list item */
+"ActivityListHistoryResetFailurePrimary" = "Palauttaminen ei onnistunut";
+
+/* Body text for reset failed history list item */
+"ActivityListHistoryResetFailureSecondary" = "Jokin meni vikaan.";
+
+/* Title text for reset completed toast */
+"ToastResetCompletedTitle" = "OneDriven palautus on valmis";
+
+/* Body text for reset completed toast */
+"ToastResetCompletedBody" = "Näytä tiedostotila napauttamalla tai napsauttamalla tätä.";
+
+/* Title text for reset failed toast */
+"ToastResetFailedTitle" = "OneDrivea ei voitu palauttaa";
+
+/* Body text for reset failed toast */
+"ToastResetFailedBody" = "Näytä seuraavat vaiheet napauttamalla tai napsauttamalla tätä.";
+
+// End Reset UI strings
+
+/* Resolution message for client access denied. */
+"ClientAccessDeniedErrorsShortDescription" = "Vaikuttaa siltä, että sinulla ei ole kohteen käyttöoikeuksia. Varmista, että sinulla on tarvittavat käyttöoikeudet kohteen synkronoimiseen.";
+
+// Purchase Window Strings
+
+/* Title text show in Purchase Window */
+"PurchaseWindowTitle" = "Microsoft OneDrive";
+
+/* Header text shown in Purchase Window */
+"PurchaseWindowHeader" = "Ryhdy Premium-käyttäjäksi!";
+
+/* Header text shown in Purchase Window after buying the subscription */
+"PurchaseSuccessWindowHeader" = "Onneksi olkoon!";
+
+/* Header text shown in Purchase Window while buying the subscription */
+"PurchaseWindowLoadingTitle" = "Ladataan";
+
+/* Body text shown in the Purchase Window*/
+"PurchaseWindowBody" = "Yhden kuukauden maksuttomalla Office 365 -tilauksella pääset nauttimaan OneDriven premium-ominaisuuksista. Valitse sopiva palvelupaketti ja aloita maksuton kokeilu.";
+
+/* Body text shown in the Purchase Window after buying the subscription */
+"PurchaseSuccessWindowBody" = "Sinulla on nyt käytössäsi lisäominaisuuksia. Maksu veloitetaan kortiltasi automaattisesti kuukauden kokeilujakson jälkeen.";
+
+/*Link button to skip the window */
+"PurchaseWindowSkipNowLink" = "Ohita toistaiseksi";
+
+/* Sub text in product subscription card describing our premium features*/
+"PurchaseCardMainBody" = "OneDriven Premium-ominaisuudet";
+
+/* Decribes our product subscription right below a row of images showing the office apps*/
+"PurchaseCardSubBody" = "Uusimmat Office-sovellukset PC- ja Mac-koneisiin";
+
+/* Purchase card button text which will start a purchase flow */
+"PurchaseCardButtonText" = "Aloita Premium-version käyttö – ensimmäinen kuukausi maksutta";
+
+/* Purchase card link text which will launch a learn more campaign */
+"PurchaseCardLinkText" = "Lisätietoja";
+
+/* Personal subscription card list text. Only for 1 person  */
+"PurchasePersonalList1" = "Yksityishenkilöille";
+
+/* Home subscription card list text. Bundle avaiable for 6 people*/
+"PurchaseHomeList1" = "Kuudelle henkilölle";
+
+/* Personal subscription card list text. 1 Terabyte of storage in OneDrive */
+"PurchasePersonalList2" = "1 Tt tallennustilaa";
+
+/* Home subscription card list text. 6 Terabyte of storage in OneDrive */
+"PurchaseHomeList2" = "6 Tt tallennustilaa";
+
+/* Common subscription card list text for all bundles. Access advanced security features */
+"PurchaseCommonList3" = "Suojauksen lisäasetukset";
+
+/* Common subscription card list text for all bundles. Access more producitivty tool*/
+"PurchaseCommonList4" = "Tuottavuutta lisäävät työkalut";
+
+/* Price of a yearly subscription. %@ is money symbol followed by a decimal number. Example: $59.99*/
+"PurchasePriceYearConstant:%@" = "%@/vuosi";
+
+/* Close the window */
+"PurchaseCloseButtonText" = "Sulje";
+
+/* Accessible name for a list of Microsoft Office Products*/
+"PurchaseIconAccessibleName" = "Microsoft Office -tuotteet";
+
+/* Accessible name for a list of details concerning a Office Subscription.*/
+"PurchaseListBodyAccessibleName" = "Ominaisuusluettelo";
+
+/* Error title of purchase window*/
+"PurchaseWindowErrorTitle" = "Tapahtui virhe";
+
+/* Error body of purchase window. Receipt is already in use*/
+"PurchaseErrorReceiptInUse" = "Office 365 -ostoksesi tehtiin toisella Microsoft-tilillä.";
+
+/* Error body of purchase window. Transient Error that automatically might resolve*/
+"PurchaseErrorTransientIssue" = "Office 365:n ostaminen onnistui, mutta tilausta ei voitu yhdistää Microsoft-tiliin. Yritä myöhemmin uudelleen. Maksua ei peritä uudestaan. Jos ongelma ei poistu 24 tunnin kuluessa, ota yhteyttä tukeen.";
+
+/* Error body of purchase window. Error that we are unable to resolve.*/
+"PurchaseErrorUnableToResolve" = "Office 365:n ostaminen onnistui, mutta tilausta ei voitu yhdistää Microsoft-tiliin. Ota yhteyttä tukeen.";
+
+/* Terms of Use title for purchasing a subscription */
+"PurchaseSubscriptionTermsTitle" = "Tilauksen tiedot";
+
+/* Terms of Use body for purchasing a subscription */
+"PurchaseSubscriptionTermsBody" = "Ostetut Office 365 -tilaukset laskutetaan iTunes-tililtäsi, ja tilaus uusitaan automaattisesti 24 tuntia ennen tilausjakson päättymistä, ellei automaattista uusimista poisteta sitä ennen käytöstä. Voit hallita tilauksia tai poistaa automaattisen uusimisen käytöstä siirtymällä iTunes-tilin asetuksiin. Tilausta ei voi peruuttaa aktiivisen tilausajan aikana. Tarjotun maksuttoman kokeilujakson käyttämättömät osat saatetaan menettää, kun käyttäjä ostaa julkaisun tilauksen.";
+
+/* Text that will link to a web page describing the Microsoft terms of use */
+"PurchaseSubscriptionTermsOfUseLink" = "Käyttöehdot";
+
+/* Text that will link to a web page describing the terms of privacy */
+"PurchaseSubscriptionPrivacyLink" = "Tietosuoja";
+
+// End Purchase window strings
+
+// Get Help window strings
+
+/* Get Help window title */
+"GetHelpWindowTitle" = "Ota yhteyttä tukeen";
+
+/* Placeholder for the Get Help user input field */
+"GetHelpFieldTip" = "Kuvaile ongelma tähän.";
+
+/* Window title shown at the end of get help submission succeeded. */
+"GetHelpSendSuccessTitle" = "Tukipyyntö lähetetty";
+
+/* Message shown at the end of get help submission - %1$@ is user email. */
+"GetHelpSendSuccessText:%@" = "OneDrive-edustaja ottaa sinuun yhteyttä osoitteeseen %1$@.";
+
+/* Window title shown at the end of get help submission failure. */
+"GetHelpSendFailureTitle" = "Tukipyyntö epäonnistui";
+
+/* Message shown in the case of feedback submission failure */
+"GetHelpSendFailureText" = "Valitettavasti ongelma lähettää tukipyynnön. Tarkista Internet-yhteys ja yritä myöhemmin uudelleen.";
+
+// End Get Help window strings

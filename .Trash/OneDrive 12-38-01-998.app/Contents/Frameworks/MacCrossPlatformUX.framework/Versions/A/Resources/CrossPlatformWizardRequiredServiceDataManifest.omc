@@ -1,0 +1,1149 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-CrossPlatformWizard-Log" />
+  <!-- Telemetry moved from WindowsUXModelsLogProvider -->
+  <provider guid="{ef157a10-c7e0-461d-aa68-bdfb69766981}" symbol="WindowsUXModelsLogProvider">
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" tags="Telemetry" symbol="MoveWindowModelLaunchSource_v1" message="Launch source for the move window" version="1" value="2555859203">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+          <data type="Boolean" name="settings" />
+          <data type="Int32" name="launchSource" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="MoveWindowModelLaunchSource" message="Launch source for the move window" version="2" value="2555859203">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+          <data type="Boolean" name="settings" />
+          <data type="Int32" name="launchSource" />
+          <data type="UnicodeString" name="partnerLaunchScenario" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="MoveWindowModelScanTime" message="The wall clock time that the move window was in the scan state" value="3848803777">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+          <data type="Float" name="time" />
+          <data type="Int32" name="launchSource" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="MoveWindowMigrateStarted_v1" message="a migration was started for the folder types" version="1" value="2493247920">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+          <data type="Boolean" name="pictures" />
+          <data type="Boolean" name="documents" />
+          <data type="Boolean" name="desktop" />
+          <data type="Int32" name="launchSource" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="MoveWindowMigrateStarted" message="a migration was started for the folder types" version="2" value="2493247920">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+          <data type="Boolean" name="pictures" />
+          <data type="Boolean" name="documents" />
+          <data type="Boolean" name="desktop" />
+          <data type="Int32" name="launchSource" />
+          <data type="UnicodeString" name="partnerLaunchScenario" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="MoveWindowModelMigrateFinishedForFolderType" message="a migration was finished for a folder type" value="2624701287">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+          <data type="UInt32" name="folderType" />
+          <data type="HResult" name="result" />
+          <data type="Boolean" name="isRetry" />
+          <data type="Int32" name="launchSource" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="MoveWindowModelMigrateTime" message="The wall clock time that the move window was in the migrate state" value="3019161693">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+          <data type="Float" name="time" />
+          <data type="Int32" name="launchSource" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="MoveWindowStateOnClose_v1" message="state of the dialog on close" version="1" value="4290085601">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+          <data type="Int32" name="state" />
+          <data type="Int32" name="launchSource" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="MoveWindowStateOnClose" message="state of the dialog on close" version="2" value="4290085601">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+          <data type="Int32" name="state" />
+          <data type="Int32" name="launchSource" />
+          <data type="UnicodeString" name="partnerLaunchScenario" />
+        </template>
+      </event>
+      <event level="Error" symbol="SetAdditionInfoNoTenantId" message="GetTenantNameId failed %status" value="3947483911">
+        <template>
+          <data type="HResult" name="status" />
+        </template>
+      </event>
+    </events>
+  </provider>
+  <!-- End of Telemetry moved from WindowsUXModelsLogProvider with guid={ef157a10-c7e0-461d-aa68-bdfb69766981} -->
+  <provider guid="{708cfc4e-c8a0-473f-826e-5f16f4c17e8e}" symbol="CrossPlatformWizardLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" symbol="WizardModelDestructor" message="WizardModel destructing for scenario %wizardScenario" value="3385185440">
+        <template>
+          <data type="UInt32" name="wizardScenario" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WizardNavigatorOperationStart" message="WizardNavigator Starting Operation %operation" value="2195292703">
+        <template>
+          <data type="UInt32" name="operation" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WizardNavigatorDestructor" message="WizardNavigator destructing" value="1292725742" />
+      <event level="Informational" symbol="WizardNavigatorSinglePageLaunch" message="WizardNavigator Starting SinglePage Wizard with WindowId %windowId" value="1157180701">
+        <template>
+          <data type="UInt32" name="windowId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WizardNavigatorDoOperationWithPage" message="WizardNavigator CreateAndShowPage" value="4102779823" />
+      <event level="Informational" symbol="WizardNavigatorDoOperationSilently" message="WizardNavigator DoOperationSilently" value="992422430" />
+      <event level="Error" symbol="WizardNavigatorDoOperationNoController" message="WizardNavigator Cannot start Operation %operation without controller" value="1420423911">
+        <template>
+          <data type="UInt32" name="operation" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WizardNavigatorOperationDone" message="WizardNavigator Operation Done %operation" value="3260966167">
+        <template>
+          <data type="UInt32" name="operation" />
+          <data type="UInt32" name="errorCode" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WizardNavigatorUndoOperation" message="WizardNavigator Undo Operation %operation" value="2916957078">
+        <template>
+          <data type="UInt32" name="operation" />
+        </template>
+      </event>
+      <event level="Error" symbol="WizardNavigatorUndoOperationNoController" message="WizardNavigator Cannot undo Operation %operation without controller" value="1904042799">
+        <template>
+          <data type="UInt32" name="operation" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryQos" symbol="FREWithAnimationShown" message="FRE is shown to user with animation" value="2069809892">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage,TelemetryRampExperiment" symbol="FREShowedWelcomePage" message="Welcome page is shown to user." value="391517842">
+        <template>
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+          <data type="UInt32" name="RampId" />
+          <data type="Boolean" name="ExperimentTriggered" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage,TelemetryRampExperiment" symbol="FREClickedSignInButton" message="User clicks the sign in button on first run wizard." value="3586724762">
+        <template>
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+          <data type="UInt32" name="RampId" />
+          <data type="Boolean" name="ExperimentTriggered" value="true" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage,TelemetryRampExperiment" symbol="FRECompletedSignIn" message="Sign in successfully through first run wizard." value="3570803105">
+        <template>
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="Boolean" name="IsIntentional" value="false" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+          <data type="UInt32" name="RampId" />
+          <data type="Boolean" name="ExperimentTriggered" value="true" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage,TelemetryRampExperiment" symbol="FREChangedRootFolderLocation" message="Changed root folder location in first run wizard." value="1688356308">
+        <template>
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+          <data type="UInt32" name="RampId" />
+          <data type="Boolean" name="ExperimentTriggered" value="true" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage,TelemetryRampExperiment" symbol="FREChangedSelectiveSync" message="Changed selective sync option in the first run wizard." value="4046719615">
+        <template>
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+          <data type="UInt32" name="RampId" />
+          <data type="Boolean" name="ExperimentTriggered" value="true" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage,TelemetryRampExperiment" symbol="FREExitSuccessfully" message="First run wizard exited successfully." value="813352083">
+        <template>
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+          <data type="UInt32" name="RampId" />
+          <data type="Boolean" name="ExperimentTriggered" value="true" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage,TelemetryRampExperiment" symbol="KFMinFREExperiment_v1" message="Records whether the user was shown KFM in FRE" value="1246278792" version="1">
+        <template>
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+          <data type="UInt32" name="RampId" />
+          <data type="Boolean" name="ExperimentTriggered" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage" symbol="KFMinFREExperiment" message="Records whether the user was shown KFM in FRE" value="1246278792" version="2">
+        <template>
+          <data type="UnicodeString" name="Scenario" value="" />
+          <data type="UnicodeString" name="ScenarioInstance" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="UsageExperiment" value="" />
+          <data type="Boolean" name="IsIntentional" value="true" />
+          <data type="UnicodeString" name="DocID" value="" />
+          <data type="UnicodeString" name="WebID" value="" />
+          <data type="UnicodeString" name="SiteID" value="" />
+          <data type="UnicodeString" name="ListID" value="" />
+          <data type="UnicodeString" name="WebTemplateID" value="" />
+          <data type="UnicodeString" name="FileExtension" value="" />
+          <data type="Boolean" name="PageShown" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WelcomePageModelSavingWebServiceUrl" message="WelcomePageModel Saving OneDriveWebServiceUrl to registry: %url" value="3733557387">
+        <template>
+          <data type="UnicodeString" name="url" />
+        </template>
+      </event>
+      <event level="Error" symbol="WelcomePageModelFailedToStartPersonalInstance" message="WelcomePageModel Failed to start OneDrive Personal instance %hr" value="2246437740">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="EmailHRDModelFoundMatchingAccountId" message="EmailHRDModel found matching account id %accountId from our account options" value="1967301756">
+        <template>
+          <data type="UnicodeString" name="accountId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WelcomePageModelPersistEmailHrdInfo" message="WelcomePageModel Sending auth URLs to Auth" value="4147561749" />
+      <event level="Informational" symbol="WelcomePageModelGetSharePointType" message="WelcomePageModel Choice between sync with SharePoint on-prem vs SPO with prioritization policy:%prioritizationPolicy, doesOnPremInstanceExist:%doesOnPremInstanceExists and doesSPOInstanceExist:%doesSPOInstanceExist results in sync with:%server" value="439670923">
+        <template>
+          <data type="UInt32" name="prioritizationPolicy" />
+          <data type="Boolean" name="doesOnPremInstanceExist" />
+          <data type="Boolean" name="doesSPOInstanceExist" />
+          <data type="UnicodeString" name="server" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WelcomePageControllerUsingCachedHrdInfo" message="WelcomePageController Use cached HRD info" value="3429768862" />
+      <event level="Informational" symbol="WelcomePageControllerSilentBusiness" message="WelcomePageController Calling EmailHrdOperation for a silent business config" value="2822836616" />
+      <event level="Informational" symbol="WelcomePageControllerHandleHrdResult" message="WelcomePageController Received EmailHrdResult %result for silent wizard: %isSilent" value="2542603048">
+        <template>
+          <data type="UInt32" name="result" />
+          <data type="Boolean" name="isSilent" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WelcomePageControllerSwitchingInstance" message="WelcomePageController Start new instance and kill this instance" value="2595388433" />
+      <event level="Informational" symbol="WelcomePageControllerCorrectPersonalAlreadyConfigured" message="WelcomePageController Launch configured Personal account and kill this instance" value="3059498288" />
+      <event level="Error" symbol="WelcomePageControllerHandleEmailHrdInfoSilentPersonal" message="WelcomePageController EmailHrdOperation should not have been called for express sign in; ignore result and continue with success" value="3554648163" />
+      <event level="Error" symbol="WelcomePageControllerOperationShouldNotBeSilent" message="WelcomePageController DoOperationSilently should not have been called if we are showing page" value="4125191057" />
+      <event level="Informational" symbol="WelcomePageControllerShouldSuppressAnimation" message="WelcomePageController should suppress animation: %shouldSuppressAnimation" value="1559791348">
+        <template>
+          <data type="Boolean" name="shouldSuppressAnimation" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ChooseRootFolderControllerOnErrorDialogClosed" message="ChooseRootFolderController Error Dialog: %dialog , button clicked: %button" value="3164017472">
+        <template>
+          <data type="UInt32" name="dialog" />
+          <data type="UInt32" name="button" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ChooseRootFolderControllerOnPathValidationDone" message="ChooseRootFolderController OnPathValidationDone updating view with result %result" value="1281532015">
+        <template>
+          <data type="UInt32" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ChooseRootFolderControllerHandlePathValidationResultSilently" message="ChooseRootFolderController HandlePathValidationResultSilently result %result" value="3153113884">
+        <template>
+          <data type="UInt32" name="result" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ChooseRootFolderControllerSyncFolderToExistingLocation" message="User wants us to sync their ( isRootFolder %isRootFolder ) folder to the existing folder: %mergeFolder" value="3820787475">
+        <template>
+          <data type="Boolean" name="isRootFolder" />
+          <data type="Boolean" name="mergeFolder" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ChooseRootFolderModelRootSetByAdmin" message="ChooseRootFolderModel Admin set the default root policy" value="1713495141" />
+      <event level="Informational" symbol="ChooseRootFolderModelPickValidDefaultBusinessNameSuffix" message="ChooseRootFolderModel Appended ( %suffix ) to folder name" value="4285652229">
+        <template>
+          <data type="Int32" name="suffix" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ChooseRootFolderModelBlockExistingFolderMerging" message="OneDrive location already exists and we are using MergeBehavior BlockExistingFolderMerging" value="2813087382" />
+      <event level="Error" symbol="ChooseRootFolderModelMappingPathConflictsWithListOfInvalidPaths" message="Mapping path conflicts with list of invalidPaths" value="2755952199" />
+      <event level="Error" symbol="ChooseRootFolderModelFailedToAddPathToSandbox" message="Failed to add path %path to sandbox" value="3792813599">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+      <event level="Error" symbol="ChooseRootFolderModelFailedToTranslatePath" message="Failed to translate %path to backing store path" value="2859828766">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+      <event level="Error" symbol="ChooseRootFolderModelDidNotChooseRequiredPath" message="User did not choose the required path %requiredPath User chose: %selectedPath" value="3696328376">
+        <template>
+          <data type="PrivateInfo" name="requiredPath" />
+          <data type="PrivateInfo" name="selectedPath" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ChooseRootFolderModelOnPathValidationDone" message="Processing validation done isValid : %isValid , path: %path , merge behavior: %behavior ... result: %result" value="4277473748">
+        <template>
+          <data type="Boolean" name="isValid" />
+          <data type="PrivateInfo" name="path" />
+          <data type="UInt32" name="behavior" />
+          <data type="UInt32" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ChooseRootFolderModelFormatChosenLocation" message="FormatChosenLocation input: %path , formatted: %formatted" value="750807583">
+        <template>
+          <data type="PrivateInfo" name="path" />
+          <data type="PrivateInfo" name="formatted" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ChooseRootFolderModelInitialState" message="ChooseRootFolder InitialState baseFolderName: %folderName , defaultLocation: %defaultPath , fullPath: %fullPath" value="2022333018">
+        <template>
+          <data type="PrivateInfo" name="folderName" />
+          <data type="PrivateInfo" name="defaultPath" />
+          <data type="PrivateInfo" name="fullPath" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ChooseRootFolderModelLaunchFolderPicker" message="ChooseRootFolder LaunchFolderPicker pathToShow: %pathToShow , previousValidLocation: %previousValidLocation, defaultLocation: %defaultPath , fullPath: %fullPath" value="115863871">
+        <template>
+          <data type="PrivateInfo" name="pathToShow" />
+          <data type="PrivateInfo" name="previousValidLocation" />
+          <data type="PrivateInfo" name="defaultPath" />
+          <data type="PrivateInfo" name="fullPath" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddMountFolderModelOnAddMountedFolderDone" message="Processing OnAddMountedFolderDone path: %path , creationMode: %creationMode ... result: %result" value="1473676224">
+        <template>
+          <data type="PrivateInfo" name="path" />
+          <data type="UInt32" name="creationMode" />
+          <data type="UInt32" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddMountControllerOnAddMountedFolderDone" message="Processing OnAddMountedFolderDone result: %result" value="2586420985">
+        <template>
+          <data type="UInt32" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddMountControllerShowConfirmDialog" message="ShowConfirmDialog for result: %result" value="3218743839">
+        <template>
+          <data type="UInt32" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddMountControllerOnConfirmDialogClosed" message="Handling OnConfirmDialogClosed for dialog: %result button: %buttonClicked" value="3635904558">
+        <template>
+          <data type="UInt32" name="result" />
+          <data type="UInt32" name="buttonClicked" />
+        </template>
+      </event>
+      <event level="Informational" symbol="VaultAdminRequestPageAllowButtonClicked" message="VaultAdminRequestPageController allow button clicked" value="1207743092" />
+      <event level="Informational" symbol="VaultAdminRequestCompleted" message="VaultAdminRequestPageController complete, succeeded:%success" value="1675525242">
+        <template>
+          <data type="Boolean" name="success" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WizardModelShouldShowFREAnimation" message="WizardModel should show FRE animation result: %enabled, isAutoFre: %isAutoFre, isSilentFlow: %isSilentFlow" value="3938811146">
+        <template>
+          <data type="Boolean" name="enabled" />
+          <data type="Boolean" name="isAutoFre" />
+          <data type="Boolean" name="isSilentFlow" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WizardModelUnknownAnimationSourceFile" message="WizardModel does not have matching animation file name defined for operation: %operation" value="2440630177">
+        <template>
+          <data type="UInt32" name="operation" />
+        </template>
+      </event>
+      <event level="Informational" symbol="TutorialPageControllerUnknownAnimationSourceFile" message="TutorialPageController does not have matching animation file name defined for this page: %pageID" value="2530163418">
+        <template>
+          <data type="UInt32" name="pageID" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ErrorPage_ErrorNotInMap" message="Error Page No strings to show for Error %error Showing generic error strings instead." value="409633164">
+        <template>
+          <data type="UInt32" name="error" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ErrorPage_LookingForRootFolderPathPolicyForTenaId" message="Looking for root folder path policy for tenantId:%id" value="3773182311">
+        <template>
+          <data type="UnicodeString" name="id" />
+        </template>
+      </event>
+      <event level="Warning" symbol="ErrorPage_CouldntObtainTenantIdToReadTheAdminPolicies" message="Couldn't obtain tenant Id to read the admin policies" value="1426882128" />
+      <event level="Informational" symbol="SignIn_NoMySiteForTeamsiteRequest" message="No MySite found but continuing for Teamsite request" value="1616811753" />
+      <event level="Informational" symbol="SignIn_SignedInToTheAuthLayer" message="Signed in to the auth layer; advancing the wizard" value="3111783558" />
+      <event level="Informational" symbol="SignIn_AccountMismatchSkippedEmptyEmail" message="Account mismatch check skipped due to empty email address. FRE email address: '%emailFRE' Email address being synced: '%emailAuth' for scenario %scenario" value="690607188">
+        <template>
+          <data type="PrivateInfo" name="emailFRE" />
+          <data type="PrivateInfo" name="emailAuth" />
+          <data type="UInt32" name="scenario" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SignIn_AccountMismatch" message="Email address used in FRE: %emailFRE Email address being synced: %emailAuth for scenario %scenario" value="4082258593">
+        <template>
+          <data type="PrivateInfo" name="emailFRE" />
+          <data type="PrivateInfo" name="emailAuth" />
+          <data type="UInt32" name="scenario" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SignIn_DuplicateSyncInstanceEncountered" message="Encountered a duplicate sync instance for this user. Current CID: %currentCid, instanceID: %instanceId, hasRunFRE:%currentHasRunFRE, hasWebRequest:%currentHasWebRequest. Account Info CID: %accountInfoCid, instanceID:accountInfoInstanceId, accountInfoHasRunFRE:%accountInfoHasRunFRE." value="3230000923">
+        <template>
+          <data type="UnicodeString" name="currentCid" />
+          <data type="UnicodeString" name="instanceId" />
+          <data type="Boolean" name="currentHasRunFRE" />
+          <data type="Boolean" name="currentHasWebRequest" />
+          <data type="UnicodeString" name="accountInfoCid" />
+          <data type="UnicodeString" name="accountInfoInstanceId" />
+          <data type="Boolean" name="accountInfoHasRunFRE" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SignIn_HandleDuplicateSyncOtherInstanceNotCompleted" message="This duplicate instance has been through the FRE and the other has not. Allowing this instance to sign in." value="3957344047" />
+      <event level="Informational" symbol="SignIn_HandleDuplicateSyncODBAddedToTeamSiteOnlySync" message="This duplicate instance is the ODB of an existing instance that is not syncing their ODB" value="2883894934" />
+      <event level="Error" symbol="SignIn_DuplicateSyncFailedToGetCID" message="Duplicate sync check failed to get user CID from auth. HR=%hr" value="757989368">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SignIn_GetUserInteractionScopeFailed" message="Failed to get the user interaction scope with %result" value="4037151516">
+        <template>
+          <data type="HResult" name="result" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="SignIn_IsDuplicateSync_v1" message="Encountered a duplicate sync instance for this user. isFirstRun: %isFirstRun" value="3052871809" version="1">
+        <template>
+          <data type="Boolean" name="isFirstRun" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="SignIn_IsDuplicateSync" message="Encountered a duplicate sync instance for this user. isFirstRun: %isFirstRun error: %error" value="3052871809" version="2">
+        <template>
+          <data type="Boolean" name="isFirstRun" />
+          <data type="Int32" name="error" />
+        </template>
+      </event>
+      <event level="Informational" symbol="OnPremIsNewDomain" message="User is about to sync a site from domain, is new domain: %isNewDomain" value="3683355198">
+        <template>
+          <data type="Boolean" name="isNewDomain" />
+        </template>
+      </event>
+      <event level="Informational" symbol="OnPremNewDomainConsentDialogResult" message="User is about to sync a site from an unknown domain, consent result: %dialogClick" value="2116666191">
+        <template>
+          <data type="UInt32" name="dialogClick" />
+        </template>
+      </event>
+      <event level="Informational" symbol="WizardNavigator_OnWizardClosed_Interrupted" message="Wizard was closed early: currentOperation %operation state %state" value="2709373444">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UInt32" name="operation" />
+          <data type="UInt32" name="state" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WizardExperienceEnded_FirstRun_v1" message="Track the FirstRun wizard experience pages shown and user interaction" value="3700006953" version="1">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UnicodeString" name="ExperienceId" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="AuthCorrelationId" />
+          <data type="UInt32" name="AuthSignInScenario" />
+          <data type="UInt32" name="WelcomePageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="UInt32" name="AuthUICallbackSignInPageState" />
+          <data type="UInt32" name="ChooseFolderPageState" />
+          <data type="UInt32" name="SelectiveSyncPageState" />
+          <data type="UInt32" name="TutorialPageState" />
+          <data type="UInt32" name="RootFolderLocationState" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="OpenAtLoginSet" />
+          <data type="Boolean" name="IsFirstRun" />
+          <data type="Boolean" name="IsOnPrem" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WizardExperienceEnded_FirstRun_v2" message="Track the FirstRun wizard experience pages shown and user interaction" value="3700006953" version="2">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UnicodeString" name="ExperienceId" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="AuthCorrelationId" />
+          <data type="UInt32" name="AuthSignInScenario" />
+          <data type="UInt32" name="WelcomePageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="UInt32" name="AuthUICallbackSignInPageState" />
+          <data type="UInt32" name="ChooseFolderPageState" />
+          <data type="UInt32" name="SelectiveSyncPageState" />
+          <data type="UInt32" name="PremiumPageState" />
+          <data type="UInt32" name="TutorialPageState" />
+          <data type="UInt32" name="RootFolderLocationState" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="UInt32" name="PremiumUpsellResult" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="OpenAtLoginSet" />
+          <data type="Boolean" name="IsFirstRun" />
+          <data type="Boolean" name="IsOnPrem" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WizardExperienceEnded_FirstRun_v3" message="Track the FirstRun wizard experience pages shown and user interaction" value="3700006953" version="3">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UnicodeString" name="ExperienceId" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="AuthCorrelationId" />
+          <data type="UInt32" name="AuthSignInScenario" />
+          <data type="UInt32" name="WelcomePageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="UInt32" name="AuthUICallbackSignInPageState" />
+          <data type="UInt32" name="ChooseFolderPageState" />
+          <data type="UInt32" name="SelectiveSyncPageState" />
+          <data type="UInt32" name="PremiumPageState" />
+          <data type="UInt32" name="TutorialPageState" />
+          <data type="UInt32" name="TutorialBasicOverviewState" />
+          <data type="UInt32" name="TutorialShareFilesState" />
+          <data type="UInt32" name="TutorialFilesOnDemandState" />
+          <data type="UInt32" name="TutorialMobileUpsellState" />
+          <data type="UInt32" name="TutorialDonePageState" />
+          <data type="UInt32" name="RootFolderLocationState" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="UInt32" name="PremiumUpsellResult" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="OpenAtLoginSet" />
+          <data type="Boolean" name="IsFirstRun" />
+          <data type="Boolean" name="IsOnPrem" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WizardExperienceEnded_FirstRun_v4" message="Track the FirstRun wizard experience pages shown and user interaction" value="3700006953" version="4">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UnicodeString" name="ExperienceId" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="AuthCorrelationId" />
+          <data type="UInt32" name="AuthSignInScenario" />
+          <data type="UInt32" name="WelcomePageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="UInt32" name="AuthUICallbackSignInPageState" />
+          <data type="UInt32" name="ChooseFolderPageState" />
+          <data type="UInt32" name="SelectiveSyncPageState" />
+          <data type="UInt32" name="KFMMigrationPageState" />
+          <data type="UInt32" name="PremiumPageState" />
+          <data type="UInt32" name="TutorialPageState" />
+          <data type="UInt32" name="TutorialBasicOverviewState" />
+          <data type="UInt32" name="TutorialShareFilesState" />
+          <data type="UInt32" name="TutorialFilesOnDemandState" />
+          <data type="UInt32" name="TutorialMobileUpsellState" />
+          <data type="UInt32" name="TutorialDonePageState" />
+          <data type="UInt32" name="RootFolderLocationState" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="UInt32" name="PremiumUpsellResult" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="OpenAtLoginSet" />
+          <data type="Boolean" name="IsFirstRun" />
+          <data type="Boolean" name="IsOnPrem" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WizardExperienceEnded_FirstRun_v5" message="Track the FirstRun wizard experience pages shown and user interaction" value="3700006953" version="5">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UnicodeString" name="ExperienceId" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="AuthCorrelationId" />
+          <data type="UInt32" name="AuthSignInScenario" />
+          <data type="UInt32" name="WelcomePageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="UInt32" name="AuthUICallbackSignInPageState" />
+          <data type="UInt32" name="ChooseFolderPageState" />
+          <data type="UInt32" name="SelectiveSyncPageState" />
+          <data type="UInt32" name="KFMMigrationPageState" />
+          <data type="UInt32" name="PremiumPageState" />
+          <data type="UInt32" name="EnableFinderExtensionPageState" />
+          <data type="UInt32" name="TutorialPageState" />
+          <data type="UInt32" name="TutorialBasicOverviewState" />
+          <data type="UInt32" name="TutorialShareFilesState" />
+          <data type="UInt32" name="TutorialFilesOnDemandState" />
+          <data type="UInt32" name="TutorialMobileUpsellState" />
+          <data type="UInt32" name="TutorialDonePageState" />
+          <data type="UInt32" name="RootFolderLocationState" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="UInt32" name="PremiumUpsellResult" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="OpenAtLoginSet" />
+          <data type="Boolean" name="IsFirstRun" />
+          <data type="Boolean" name="IsOnPrem" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WizardExperienceEnded_FirstRun_v6" message="Track the FirstRun wizard experience pages shown and user interaction" value="3700006953" version="6">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UnicodeString" name="ExperienceId" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="AuthCorrelationId" />
+          <data type="UInt32" name="AuthSignInScenario" />
+          <data type="UInt32" name="WelcomePageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="UInt32" name="AuthUICallbackSignInPageState" />
+          <data type="UInt32" name="RequiredDiagnosticDataPageState" />
+          <data type="UInt32" name="OptionalDiagnosticDataPageState" />
+          <data type="UInt32" name="ChooseFolderPageState" />
+          <data type="UInt32" name="SelectiveSyncPageState" />
+          <data type="UInt32" name="KFMMigrationPageState" />
+          <data type="UInt32" name="PremiumPageState" />
+          <data type="UInt32" name="EnableFinderExtensionPageState" />
+          <data type="UInt32" name="TutorialPageState" />
+          <data type="UInt32" name="TutorialBasicOverviewState" />
+          <data type="UInt32" name="TutorialShareFilesState" />
+          <data type="UInt32" name="TutorialFilesOnDemandState" />
+          <data type="UInt32" name="TutorialMobileUpsellState" />
+          <data type="UInt32" name="TutorialDonePageState" />
+          <data type="Boolean" name="OptionalDiagnosticDataOptIn" />
+          <data type="UInt32" name="RootFolderLocationState" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="UInt32" name="PremiumUpsellResult" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="OpenAtLoginSet" />
+          <data type="Boolean" name="IsFirstRun" />
+          <data type="Boolean" name="IsOnPrem" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WizardExperienceEnded_FirstRun_v7" message="Track the FirstRun wizard experience pages shown and user interaction" value="3700006953" version="7">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UnicodeString" name="PartnerLaunchScenario" />
+          <data type="UnicodeString" name="ExperienceId" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="AuthCorrelationId" />
+          <data type="UInt32" name="AuthSignInScenario" />
+          <data type="UInt32" name="WelcomePageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="UInt32" name="AuthUICallbackSignInPageState" />
+          <data type="UInt32" name="RequiredDiagnosticDataPageState" />
+          <data type="UInt32" name="OptionalDiagnosticDataPageState" />
+          <data type="UInt32" name="ChooseFolderPageState" />
+          <data type="UInt32" name="SelectiveSyncPageState" />
+          <data type="UInt32" name="KFMMigrationPageState" />
+          <data type="UInt32" name="PremiumPageState" />
+          <data type="UInt32" name="EnableFinderExtensionPageState" />
+          <data type="UInt32" name="TutorialPageState" />
+          <data type="UInt32" name="TutorialBasicOverviewState" />
+          <data type="UInt32" name="TutorialShareFilesState" />
+          <data type="UInt32" name="TutorialFilesOnDemandState" />
+          <data type="UInt32" name="TutorialMobileUpsellState" />
+          <data type="UInt32" name="TutorialDonePageState" />
+          <data type="Boolean" name="OptionalDiagnosticDataOptIn" />
+          <data type="UInt32" name="RootFolderLocationState" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="UInt32" name="PremiumUpsellResult" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="OpenAtLoginSet" />
+          <data type="Boolean" name="IsFirstRun" />
+          <data type="Boolean" name="IsOnPrem" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WizardExperienceEnded_FirstRun_v8" message="Track the FirstRun wizard experience pages shown and user interaction" value="3700006953" version="8">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UnicodeString" name="PartnerLaunchScenario" />
+          <data type="UnicodeString" name="ExperienceId" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UInt32" name="AuthSignInScenario" />
+          <data type="UInt32" name="WelcomePageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="UInt32" name="AuthUICallbackSignInPageState" />
+          <data type="UInt32" name="RequiredDiagnosticDataPageState" />
+          <data type="UInt32" name="OptionalDiagnosticDataPageState" />
+          <data type="UInt32" name="ChooseFolderPageState" />
+          <data type="UInt32" name="SelectiveSyncPageState" />
+          <data type="UInt32" name="KFMMigrationPageState" />
+          <data type="UInt32" name="PremiumPageState" />
+          <data type="UInt32" name="EnableFinderExtensionPageState" />
+          <data type="UInt32" name="TutorialPageState" />
+          <data type="UInt32" name="TutorialBasicOverviewState" />
+          <data type="UInt32" name="TutorialShareFilesState" />
+          <data type="UInt32" name="TutorialFilesOnDemandState" />
+          <data type="UInt32" name="TutorialMobileUpsellState" />
+          <data type="UInt32" name="TutorialDonePageState" />
+          <data type="Boolean" name="OptionalDiagnosticDataOptIn" />
+          <data type="UInt32" name="RootFolderLocationState" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="UInt32" name="PremiumUpsellResult" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="OpenAtLoginSet" />
+          <data type="Boolean" name="IsFirstRun" />
+          <data type="Boolean" name="IsOnPrem" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WizardExperienceEnded_FirstRun_v9" message="Track the FirstRun wizard experience pages shown and user interaction" value="3700006953" version="9">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UnicodeString" name="PartnerLaunchScenario" />
+          <data type="UnicodeString" name="ExperienceId" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UInt32" name="AuthSignInScenario" />
+          <data type="UInt32" name="WelcomePageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="UInt32" name="AuthUICallbackSignInPageState" />
+          <data type="UInt32" name="ChinaTypeApprovalPageState" />
+          <data type="UInt32" name="RequiredDiagnosticDataPageState" />
+          <data type="UInt32" name="OptionalDiagnosticDataPageState" />
+          <data type="UInt32" name="ChooseFolderPageState" />
+          <data type="UInt32" name="SelectiveSyncPageState" />
+          <data type="UInt32" name="KFMMigrationPageState" />
+          <data type="UInt32" name="PremiumPageState" />
+          <data type="UInt32" name="EnableFinderExtensionPageState" />
+          <data type="UInt32" name="TutorialPageState" />
+          <data type="UInt32" name="TutorialBasicOverviewState" />
+          <data type="UInt32" name="TutorialShareFilesState" />
+          <data type="UInt32" name="TutorialFilesOnDemandState" />
+          <data type="UInt32" name="TutorialMobileUpsellState" />
+          <data type="UInt32" name="TutorialDonePageState" />
+          <data type="Boolean" name="OptionalDiagnosticDataOptIn" />
+          <data type="UInt32" name="RootFolderLocationState" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="UInt32" name="PremiumUpsellResult" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="OpenAtLoginSet" />
+          <data type="Boolean" name="IsFirstRun" />
+          <data type="Boolean" name="IsOnPrem" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="WizardExperienceEnded_FirstRun" message="Track the FirstRun wizard experience pages shown and user interaction" value="3700006953" version="10">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UnicodeString" name="PartnerLaunchScenario" />
+          <data type="UnicodeString" name="ExperienceId" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UInt32" name="AuthSignInScenario" />
+          <data type="UInt32" name="WelcomePageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="UInt32" name="AuthUICallbackSignInPageState" />
+          <data type="UInt32" name="ChinaTypeApprovalPageState" />
+          <data type="UInt32" name="RequiredDiagnosticDataPageState" />
+          <data type="UInt32" name="OptionalDiagnosticDataPageState" />
+          <data type="UInt32" name="ChooseFolderPageState" />
+          <data type="UInt32" name="SelectiveSyncPageState" />
+          <data type="UInt32" name="KFMMigrationPageState" />
+          <data type="UInt32" name="PremiumPageState" />
+          <data type="UInt32" name="EnableFinderExtensionPageState" />
+          <data type="UInt32" name="MacboxConsentResult" />
+          <data type="UInt32" name="TutorialPageState" />
+          <data type="UInt32" name="TutorialBasicOverviewState" />
+          <data type="UInt32" name="TutorialShareFilesState" />
+          <data type="UInt32" name="TutorialFilesOnDemandState" />
+          <data type="UInt32" name="TutorialMobileUpsellState" />
+          <data type="UInt32" name="TutorialDonePageState" />
+          <data type="Boolean" name="OptionalDiagnosticDataOptIn" />
+          <data type="UInt32" name="RootFolderLocationState" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="UInt32" name="PremiumUpsellResult" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="OpenAtLoginSet" />
+          <data type="Boolean" name="IsFirstRun" />
+          <data type="Boolean" name="IsOnPrem" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="CoreTelemetry" tags="TelemetryQos" symbol="WizardExperienceEndedFirstRun_Qos" message="WizardExperienceEnded FirstRun" value="2668182562">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UInt32" name="LastOperationError" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="Win7EolFirstRunExperienceEnded" message="Track the Win 7 EOL FirstRun wizard experience pages shown and user interaction" value="1960546951">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UnicodeString" name="ExperienceId" />
+          <data type="UnicodeString" name="CorrelationId" />
+          <data type="UnicodeString" name="AuthCorrelationId" />
+          <data type="UInt32" name="AuthSignInScenario" />
+          <data type="UInt32" name="WelcomePageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="UInt32" name="AuthUICallbackSignInPageState" />
+          <data type="UInt32" name="ChooseFolderPageState" />
+          <data type="UInt32" name="SelectiveSyncPageState" />
+          <data type="UInt32" name="KFMMigrationPageState" />
+          <data type="UInt32" name="Win7KFMDonePageState" />
+          <data type="UInt32" name="Win7BackupPromptPageState" />
+          <data type="UInt32" name="PremiumPageState" />
+          <data type="UInt32" name="Win7UnlinkPageState" />
+          <data type="UInt32" name="RootFolderLocationState" />
+          <data type="UInt32" name="SelectiveSyncState" />
+          <data type="UInt32" name="PremiumUpsellResult" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="IsFirstRun" />
+          <data type="Boolean" name="IsCompleted" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="VaultWizardExperienceEnded" message="Track the Vault wizard experience pages shown and user interaction" value="3546986695">
+        <template>
+          <data type="UInt32" name="WizardScenario" />
+          <data type="UInt32" name="VaultIntroPageState" />
+          <data type="UInt32" name="VaultAdminPageState" />
+          <data type="UInt32" name="OAuthSignInPageState" />
+          <data type="HResult" name="SignInResult" />
+          <data type="Boolean" name="IsCompleted" />
+          <data type="Boolean" name="UACFailed" />
+        </template>
+      </event>
+      <event level="Error" symbol="SelectiveSyncPageControllerGetInfoError" message="Error getting selective sync info: %result" value="815061805">
+        <template>
+          <data type="UInt32" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SelectiveSyncPageControllerFetchingRootFolder" message="Fetching root folder and top level folder info, resId:%resourceId" value="18363254">
+        <template>
+          <data type="UnicodeString" name="resourceId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SelectiveSyncPageControllerOnConfirmDialogClosed" message="SelectiveSyncPageController Confirm Dialog: %dialog , warning type: %warningType , button clicked: %button" value="3366256241">
+        <template>
+          <data type="UInt32" name="warningType" />
+          <data type="UInt32" name="dialog" />
+          <data type="UInt32" name="button" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SelectiveSyncControllerDoAutoFre" message="SelectiveSync Auto Fre must uncheck all items" value="864827814" />
+      <event level="Informational" symbol="SelectiveSyncModelIsAutoFRESyncNoFiles" message="IsAutoFRESyncNoFiles: %syncNoFiles" value="3575105657">
+        <template>
+          <data type="UnicodeString" name="syncNoFiles" />
+        </template>
+      </event>
+      <event level="Warning" symbol="SelectiveSyncModelNoSelectiveSyncInfoItems" message="Event doesn't contain any spItems" value="4229562221" />
+      <event level="Error" symbol="SelectiveSyncModelAlreadyGettingSelectiveSyncInfo" message="A request for GetSelectiveSyncInformation already exists cookie:%cookie, ignoring new request" value="2726993111">
+        <template>
+          <data type="Int32" name="cookie" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SelectiveSyncModelOnGetSelectiveSyncCompleted" message="GetSelectiveSyncInformation completed for cookie:%cookie, hr:%result isRootFolderRequest:%isRootFolder" value="3256966826">
+        <template>
+          <data type="Int32" name="cookie" />
+          <data type="UInt32" name="result" />
+          <data type="Boolean" name="isRootFolder" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SelectiveSyncModelGetOneDriveSpaceOnDiskCompleted" message="Disk call returned- path: %rootPath Size: %freeSpace, Total bytes of content in the OneDrive folder: %oneDriveSizeOnDisk, Total available disk space: %totalDiskSpaceExcludingOneDrive" value="2883302407">
+        <template>
+          <data type="PrivateInfo" name="rootPath" />
+          <data type="UInt64" name="freeSpace" />
+          <data type="UInt64" name="oneDriveSizeOnDisk" />
+          <data type="UInt64" name="totalDiskSpaceExcludingOneDrive" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SelectiveSyncModelOneDriveSpaceOnDiskAlreadyCalculated" message="SelectiveSyncModel OneDriveSpaceOnDisk already known. Total available disk space: %totalDiskSpaceExcludingOneDrive" value="1768019604">
+        <template>
+          <data type="UInt64" name="totalDiskSpaceExcludingOneDrive" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SelectiveSyncPageControllerOnCancel" message="User canceled out of Selective Sync dialog" value="3026590761" />
+      <event level="Informational" symbol="SelectiveSyncPageControllerOnSetSelectiveSyncDone" message="OnSetSelectiveSyncDone error: %error" value="187683773">
+        <template>
+          <data type="UInt32" name="error" />
+        </template>
+      </event>
+      <event level="Informational" symbol="SelectiveSyncModelBeginSetSelectiveSyncInformationNoChanges" message="A request for SetSelectiveSyncInformation was not called since there were no changes" value="567105961" />
+      <event level="Informational" symbol="VaultDonePageControllerQueryFinishedAsyncTasks" message="Current finished async tasks bit flags: %flags" value="2345117419">
+        <template>
+          <data type="Int32" name="flags" />
+        </template>
+      </event>
+      <event level="Warning" symbol="VaultDonePageControllerProgressRegression" message="Vault progress regression: current step: %current; received step: %received" value="1846224649">
+        <template>
+          <data type="UInt32" name="current" />
+          <data type="UInt32" name="received" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MigrationScanControllerScanTimeOut" message="Migration Scan timed out. Move to next operation." value="977000724" />
+      <event level="Informational" tags="Telemetry" symbol="KFMScanControllerResult" message="KFMScanController scan result: %result" value="3020892468">
+        <template>
+          <data type="UInt32" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMMigrationControllerShowingInterruptDialogResult" message="Interrupt dialog result: %result" value="691132448">
+        <template>
+          <data type="UInt32" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMMigrationControllerShowSelectiveSyncPopupDialog" message="KFM show selective sync confirmation dialog for folder type: %folderType" value="1270879971">
+        <template>
+          <data type="UInt32" name="folderType" />
+        </template>
+      </event>
+      <event level="Error" symbol="KFMMigrationControllerShowSelectiveSyncDialogUnexpectedFolderType" message="KFMMigrationController receive unexpected folder type: %folderType for selective sync confirmation dialog." value="2720568004">
+        <template>
+          <data type="UInt32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMMigrationControllerOnConfirmDialogClosedResult" message="KFM confirmation dialog state: %dialogState, result: %result" value="1996735882">
+        <template>
+          <data type="UInt32" name="dialogState" />
+          <data type="UInt32" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="Win7SelectiveSyncCheckControllerTimingOutGetQuota" message="Win7SelectiveSyncCheckController is timing out the quota call." value="3777558861" />
+      <event level="Informational" symbol="Win7SelectiveSyncCheckControllerCallToGetQuotaFailed" message="Win7SelectiveSyncCheckController tried to get quota information but it failed. HR: %hr" value="1626978764">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="Win7SelectiveSyncCheckControllerOnGetCloudSpaceUsedDone" message="Win7SelectiveSyncCheckController OnGetCloudSpaceUsedDone. Used bytes on cloud: %quota" value="1674800045">
+        <template>
+          <data type="UInt64" name="quota" />
+        </template>
+      </event>
+      <event level="Informational" symbol="Win7SelectiveSyncCheckControllerOnDiskSpaceCalculationCompleted" message="Win7SelectiveSyncCheckController OnDiskSpaceCalculationCompleted. EnoughDiskSpace: %enoughDiskSpace" value="587326168">
+        <template>
+          <data type="Boolean" name="enoughDiskSpace" />
+        </template>
+      </event>
+      <event level="Informational" symbol="Win7SelectiveSyncCheckControllerOnPageFinished" message="Win7SelectiveSyncCheckController OnPageFinished. Can skip Selective Sync page: %canSkipSS" value="2516432799">
+        <template>
+          <data type="Boolean" name="canSkipSS" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="Win7SelectiveSyncCheckControllerCloudQuotaThresholdCheck" message="Win7SelectiveSyncCheckController - cloud quota threshold is %maximumThresholdInGB GB, isOverThreshold: %isOverThreshold." value="3342233624">
+        <template>
+          <data type="Boolean" name="isOverThreshold" />
+          <data type="UInt32" name="maximumThresholdInGB" />
+        </template>
+      </event>
+      <event level="Informational" symbol="IsDisableCustomRootPolicySetStatement" message="%statement" value="2846028264" deprecated="yes">
+        <template>
+          <data type="UnicodeString" name="statement" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="PrivacySettingsWizardOperationsResult_v1" message="Diagnostic data disclosure flow has ended." value="338998571" version="1" deprecated="yes">
+        <template>
+          <data type="Boolean" name="OddIsOptIn" />
+          <data type="UInt32" name="RequiredDiagnosticDataPageResult" />
+          <data type="UInt32" name="OptionalDiagnosticDataPageResult" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="PrivacySettingsWizardOperationsResult" message="Diagnostic data disclosure flow has ended." value="338998571" version="2">
+        <template>
+          <data type="Boolean" name="IsOptIn" />
+          <data type="UInt32" name="PrivacySettingsLaunchSource" />
+          <data type="UInt32" name="RequiredDiagnosticDataPageResult" />
+          <data type="UInt32" name="OptionalDiagnosticDataPageResult" />
+        </template>
+      </event>
+      <event level="Informational" symbol="OptionalDiagnosticDataControllerUndoCalled" message="Undo called for OptionalDiagnosticDataController but not supported." value="2395867465" />
+      <event level="Informational" symbol="RequiredDiagnosticDataControllerUndoCalled" message="Undo called for RequiredDiagnosticDataController but not supported." value="1878505949" />
+      <event level="Informational" symbol="OAuthSignInControllerCreateAndShowPageSkipBrowserViewIfAuthSignedInOnAutoFRE" message="Skip the browser navigation on AutoFRE if we have already signed in." value="1668671553" />
+      <event level="Informational" symbol="KFMMigrationControllerUpdateWithScanResult" message="A scan has finished and the window is updating" value="1683260314" />
+      <event level="Informational" symbol="TutorialPageModelOpenFolder" message="Tutorial Page Open Folder button clicked. Delayed: %delayed" value="3198614415">
+        <template>
+          <data type="Boolean" name="delayed" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelHasSufficientSpaceToMove" message="Move window HasSufficientSpaceToMove: disk space blocking %isBlockingDueToDiskSpace , cloud blocking: %isBlockingDueToSpaceInCloud" value="1818235121">
+        <template>
+          <data type="Boolean" name="isBlockingDueToDiskSpace" />
+          <data type="Boolean" name="isBlockingDueToSpaceInCloud" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelCanScanInFre" message="Move window can scan KFM in FRE: %canScan" value="1440984287">
+        <template>
+          <data type="Int32" name="canScan" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelCanShowKfmMigrationPage" message="Move window can show KFM: %canShow, flow: %flow" value="3581898707">
+        <template>
+          <data type="Boolean" name="canShow" />
+          <data type="Int32" name="flow" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelBeginScan" message="Move window is beginning scan: corellation ID: %corellationId" value="1500701408">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelFireMoveStartEventFromACMRepairFolderPrompt" message="MoveWindowModel fired event MoveStart and entered Migrating state directly from ACMRepairFolder prompt" value="1086325284" />
+      <event level="Informational" symbol="MoveWindowModelGetFoldersToMigrateFromRegistry" message="MoveWindowModel get folders to migrate from KFMFoldersToRepair registry" value="2461566204" />
+      <event level="Informational" symbol="MoveWindowModelHandleScanResultAfterAbort" message="Received a Scan MigrationNotification after aborting scan; no-op." value="2893668233" />
+      <event level="Informational" symbol="MoveWindowModelGetExclusionCategory" message="The exclusion category is: %category" value="336006399">
+        <template>
+          <data type="Int32" name="category" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelMigrationNotificationReceived" message="A migration notification has been received. Corellation ID: %corellationId flow: %flow" value="2067483093">
+        <template>
+          <data type="UnicodeString" name="corellationId" />
+          <data type="UInt32" name="flow" />
+        </template>
+      </event>
+      <event level="Error" symbol="MoveWindowModelMigrationNotificationUnhandledFlow" message="A migration notification has been received. We do not handle this flow." value="1884565137" />
+      <event level="Informational" symbol="MoveWindowModelReceivedNotificationFolderType" message="A migration notification was received for folder type: %receivedType." value="3664064703">
+        <template>
+          <data type="UInt32" name="receivedType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelGetTransitionAction" message="Transition action for folder type: %folderType is: %action last operation: %lastOperation operation HRESULT: %operationResult exclusion count: %exclusionCount windows known folder location: %winkfLocation migration HRESULT: %migrationResult" value="1888208142">
+        <template>
+          <data type="UInt32" name="folderType" />
+          <data type="UInt32" name="action" />
+          <data type="UInt32" name="lastOperation" />
+          <data type="HResult" name="operationResult" />
+          <data type="UInt32" name="exclusionCount" />
+          <data type="UInt32" name="winkfLocation" />
+          <data type="HResult" name="migrationResult" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelGetPicturesTransitionAction" message="Transition action for pictures is: %action current state: %currentState pictures state action: %pictures camera roll state action: %cameraRoll screenshots transition action: %screenshots" value="2567256261">
+        <template>
+          <data type="UInt32" name="action" />
+          <data type="UInt32" name="currentState" />
+          <data type="UInt32" name="pictures" />
+          <data type="UInt32" name="cameraRoll" />
+          <data type="UInt32" name="screenshots" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelTransitionState" message="Getting the next state for a folder item. current state: %currentState state action: %action next state: %nextState" value="307421740">
+        <template>
+          <data type="UInt32" name="currentState" />
+          <data type="UInt32" name="action" />
+          <data type="UInt32" name="nextState" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelShowSelectiveSyncPopupDialog" message="Selective sync confirmation dialog shown for folder type: %folderType" value="1590031058">
+        <template>
+          <data type="UInt32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelRemoveFolderFromMigration" message="Folder type: %folderType is removed from migration." value="2572066331">
+        <template>
+          <data type="UInt32" name="folderType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelConfirmFolderSelectiveSyncStatus" message="MoveWindowModel ConfirmFolderSelectiveSyncStatus called." value="2184211470" />
+      <event level="Informational" symbol="MoveWindowModelOnConfirmFolderSyncStatusDone" message="MoveWindowModel confirm folder sync status done." value="2746853481" />
+      <event level="Informational" symbol="MoveWindowModelUnsyncPictureFolderCount" message="There are %folderCount folders unsync for Picture." value="383235830">
+        <template>
+          <data type="UInt32" name="folderCount" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelCanStartMoveWithoutUserInputResult" message="MoveWindowModel can start move directly without user input result: %result" value="929337113">
+        <template>
+          <data type="Boolean" name="result" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MoveWindowModelShowingInterruptDialogLockedFiles" message="Showing interrupt dialog for %count files" value="1861219554">
+        <template>
+          <data type="UInt32" name="count" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="FailedToGetKnownFolderMoveLock" message="Failed to get the KFM lock." value="2658136059">
+        <template>
+          <data type="Boolean" name="isSilent" />
+          <data type="Int32" name="LaunchSource" />
+        </template>
+      </event>
+      <event level="Informational" symbol="MacboxConsentControllerShowWindow" message="Showing Macbox consent dialog" value="3141981787" />
+      <event level="Informational" symbol="MacboxConsentControllerConsentReceivedClosing" message="Consent received, closing Macbox consent dialog" value="1673773136" />
+    </events>
+  </provider>
+</manifest>

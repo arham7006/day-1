@@ -1,0 +1,2575 @@
+// Misc
+
+// File Size Units
+
+/* The lowest unit for file sizes */
+"byteText" = "바이트";
+
+/* Unit for file sizes. */
+"KiloByteAbbrv" = "KB";
+
+/* Unit for file sizes. */
+"MegaByteAbbrv" = "MB";
+
+/* Unit for file sizes. */
+"GigaByteAbbrv" = "GB";
+
+/* Unit for file sizes. */
+"TeraByteAbbrv" = "TB";
+
+/* Unit for file transfer speed. */
+"KiloBytePerSecond" = "KB/초";
+
+/* Unit for file transfer speed. */
+"MegaBytePerSecond" = "MB/초";
+
+
+// First run - used by FirstRunWindowController.mm and its views
+
+/* Windows title used to welcome a user running the application.
+ There's probably no need to localize this string. */
+"FirstRunWindowTitle" = "Microsoft OneDrive";
+
+/* Title of the welcome page when running for the first time */
+"FirstRunText" = "OneDrive 설치";
+
+/* Short explaination about what OneDrive does when running for the first time */
+"FirstRunDescriptiveText" = "OneDrive에 파일을 저장하여 모든 장치에서 사용해 보세요.";
+
+/* Button to sign into a personal instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomePersonalButton" = "개인";
+
+/* Button to sign into a business instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomeBusinessButton" = "회사 또는 학교";
+
+/* Button to start email hrd sign in flow on the first run experience in welcome page */
+"FirstRunEmailSignInButton" = "로그인";
+
+/* Placeholder text for the email input box on the first run experience in welcome page */
+"FirstRunEmailInputPlaceholderText" = "전자 메일 주소 입력";
+
+/* Errors shown when there is a problem with the users email address on the first run experience in welcome page */
+"FirstRunWelcomeErrorPersonalAlreadySyncing" = "이 컴퓨터에서 개인 OneDrive를 이미 동기화하는 중입니다. 새 계정을 추가하려면 해당 계정의 연결을 끊으세요.";
+"FirstRunWelcomeErrorEmailIsMSAAndAAD" = "이 메일 주소는 OneDrive 및 비즈니스용 OneDrive에 모두 사용됩니다. 먼저 어디에 로그인하시겠습니까?";
+"FirstRunWelcomeErrorEmailIsNotKnown" = "해당 전자 메일 주소를 인식할 수 없습니다.";
+"FirstRunWelcomeErrorEmailAdminDisabled" = "조직에서 개인 OneDrive를 이 컴퓨터에서 동기화하도록 허용하지 않습니다.";
+
+/* first run wizard progress text for screen readers */
+"FirstRunProgress0" = "OneDrive 설치가 0% 완료되었습니다.";
+"FirstRunProgress50" = "OneDrive 설치가 50% 완료되었습니다.";
+"FirstRunProgress75" = "OneDrive 설치가 75% 완료되었습니다.";
+"FirstRunProgress100" = "OneDrive 설치가 100% 완료되었습니다.";
+
+/* Title of the page that introduces OneDrive folder when running for the first time */
+"FirstRunIntroduceText" = "OneDrive 폴더입니다.";
+
+/* Title of the page that prompts for required folder when mounting for the first time */
+"FirstRunIntroduceRequiredPathText" = "폴더 위치 확인";
+
+/* Title of the page that introduces OneDrive folder when running for the first time. "Finder" should be translated the same way as in the Mac OSX */
+"FirstRunIntroduceDescriptiveText" = "여기에 파일을 추가해 보세요. 파일이 이 Mac에 저장된 상태로 다른 장치에서도 해당 파일에 액세스할 수 있습니다.";
+
+/* Title of the adminstrative error that will be attached to the FirstRunIntroduceDescriptiveText */
+"FirstRunIntroduceDescriptiveTextWithError" = "여기에 파일을 추가하여 Mac에 저장된 상태로 다른 장치에서 액세스하세요. 이 위치에 저장할 때 관리자는 OneDrive 폴더를 요구합니다.";
+
+/* Title of the page that prompts for access to required folder. */
+"SelectRequiredPathDescriptiveText:%@" = "이러한 파일을 동기화하려면 %@ 폴더에 액세스할 수 있는 권한을 부여하세요.";
+
+/* This is for the button that allows users to change the root folder path. When clicked, it opens a browse window for users to select the root folder. */
+"FirstRunBrowseButtonText" = "위치 변경";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"FirstRunDoneIntroductionButtonText" = "다음";
+
+/* This is for the button when user has never selected a root folder. */
+"FirstRunSelectFolderButtonText" = "OneDrive 폴더 위치 선택";
+
+/* This is for the button when user has not yet confirmed our required folder. */
+"FirstRunSelectRequiredFolderButtonText" = "폴더 위치 확인";
+
+/* This is a prompt displayed in the file browse dialog. */
+"SelectRootFolderMessage" = "OneDrive 폴더의 위치 선택";
+
+/* This is a prompt displayed in the file browse dialog to confirm required location. */
+"SelectRequiredFolderMessage" = "선택한 폴더를 사용하고 \"위치 확인\"을 클릭하세요.";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"CreateRootFolderButton" = "이 위치 선택";
+
+/* This is for the confirmation button when user is done confirming the required folder. */
+"CreateRequiredFolderButton" = "위치 확인";
+
+/* This is for the text field to show currently selected root folder path. */
+"FirstRunShowFolderPathText:%@" = "%@ 폴더:";
+
+/* This is the alert dialog title when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootTitle:%@" = "%@ 폴더의 위치를 찾을 수 없음";
+
+/* This is the alert dialog body when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootMessage" = "OneDrive 폴더가 삭제되었거나, OneDrive 폴더가 외장형 드라이브에 있는 경우 제거되었을 수 있습니다. OneDrive 폴더를 다시 구성하려면 확인을 클릭하세요.";
+
+/* This is the alert dialog button that allows user to reconfigure */
+"FirstRunUnconfiguredRootReconfigureButton" = "확인";
+
+/* This is the alert dialog button that allows user to quit the application */
+"FirstRunUnconfiguredRootQuitButton" = "OneDrive 끝내기";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is invalid */
+"InvalidMappingLocationMessageTitle" = "선택한 위치에 OneDrive 폴더를 만들 수 없습니다.";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid. */
+"InvalidMappingLocationDetailedMessage" = "다른 위치를 선택하세요. 이동식 드라이브나 대/소문자 구분 형식의 디스크에 있는 위치가 아니어야 합니다.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location can't be used */
+"InvalidMappingLocationInUseTitle" = "이 위치에 OneDrive 폴더를 만들 수 없습니다.";
+
+/* This is a detailed explanation in the alert window telling users the selected folder is already used by another OneDrive account. */
+"InvalidMappingLocationInUseDetailedMessage" = "이 위치에 이미 다른 OneDrive 폴더가 있습니다. 다른 위치를 선택하세요.";
+
+/* This is a short text above detailed explaination in the alert window telling users to select the required path */
+"InvalidMappingRequiredPathMessageTitle" = "동기화를 계속 수행할 수 있도록 선택된 폴더 위치를 확인하세요.";
+
+/* This is a detailed explaination in the alert window telling users the selected location is not the required path. */
+"InvalidMappingRequiredPathDetailedMessage" = "선택한 위치를 유지하고 Finder에서 \"위치 확인\"을 클릭하세요.";
+
+/* This is the button in the alert window that shows up when current location is not the required path. The button allows users to choose a new location */
+"InvalidMappingRequiredPathContinueButton" = "계속";
+
+/* This is the button in the alert window that shows up when current location is invalid. The button allows users to choose a new location */
+"InvalidMappingLocationChooseButton" = "새 위치 선택";
+
+/* This is the button in the alert window that shows up when current location is invalid. This button allows users to close the alert */
+"InvalidMappingLocationCancelButton" = "취소";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty */
+"MappingLocationContainsFileMessageTitle" = "이 폴더에 이미 콘텐츠가 있습니다.";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessage:%@" = "이 위치에 \"%@\" 폴더를 만들도록 선택하면 이 폴더에 있는 콘텐츠가 OneDrive와 병합됩니다. 다른 위치를 선택하거나, 선택한 위치를 유지할 수 있습니다.";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessageWithDefaultFolder:%@" = "이 위치에 \"%@\" 폴더를 만들도록 선택하면 이 폴더에 있는 콘텐츠가 OneDrive와 병합됩니다.";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty {%1$@ is a folder name and %2$@ is its parent folder name } */
+"LibraryFolderMappingLocationContainsFileMessageTitle:%@,%@" = "\"%1$@\" 폴더가 이미 \"%2$@\" 폴더에 있습니다.";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is not empty. { %1$@ is a folder name } */
+"LibraryFolderMappingLocationContainsFileDetailedMessage:%@" = "이 위치를 \"%1$@\" 폴더로 선택하면 이 폴더의 파일이 클라우드의 파일과 병합됩니다. 선택한 위치를 사용하거나 새 폴더로 동기화 수 있습니다.";
+
+/* This is the button in the alert window that shows up when the folder location is not empty. This button allows users to continue anyway */
+"MappingLocationContainsFileContinueButton" = "이 위치 사용";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button allows users to choose a new location */
+"MappingLocationContainsFileChooseButton" = "새 위치 선택";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button informs us to automatically create a new folder on behalf of the user. */
+"MappingLocationContainsFileCreateButton" = "새 폴더로 동기화";
+
+/* This is on top of the selective sync page in First Run Experience. */
+"FirstRunSelectiveSyncTitle" = "원하는 항목만 동기화";
+
+/* This is the description right below the title on top of the selective sync page. */
+"FirstRunSelectiveSyncDescription:%@" = "OneDrive%@ 폴더에 다운로드할 파일을 선택하세요. 오프라인인 경우에도 사용할 수 있습니다.";
+
+/* This is the text on radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsTitle" = "내 OneDrive의 모든 파일 및 폴더";
+
+/* This is the description text next to the radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsDescription" = "나와 공유한 파일을 제외한 모든 항목을 이 Mac에서 동기화합니다.";
+
+/* This is the text on radio button to choose to sync only some files */
+"FirstRunSelectiveSyncSomeItemsTitle" = "동기화할 폴더 선택";
+
+/* This is the description text next to the radio button to choose to sync only some files. */
+"FirstRunSelectiveSyncSomeItemsDescription" = "이 컴퓨터와 동기화할 항목을 선택하려면 \"완료\"를 클릭하세요.";
+
+/* This is the button text in the selective sync page */
+"FirstRunSelectiveSyncNextButtonText" = "다음";
+
+/* This is the title text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncTitle" = "요청 기반 파일 관리 켜기";
+
+/* This is the description text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncDescription" = "오른쪽 클릭 상황에 맞는 메뉴에 요청 기반 파일 관리 옵션을 표시하려면 OneDrive Finder Sync 확장을 사용하도록 설정해야 합니다. 확장 기본 설정 열기를 클릭한 다음 OneDrive Finder 확장을 선택하세요.";
+
+/* This is the button text in the Enable Finder Sync page for the Enable button */
+"FirstRunEnableFinderSyncEnableButtonText" = "확장 기본 설정 열기";
+
+/* This is the button text in the Enable Finder Sync page for the Skip button */
+"FirstRunEnableFinderSyncSkipButtonText" = "나중에 확장을 사용하도록 설정하겠습니다.";
+
+/* This is on top of the Cloud Files Tutorial page in First Run Experience. */
+"FirstRunCloudFilesTutorialTitle" = "모든 파일, 준비 및 요청 시";
+
+/* This is the description right below the title on top of the Cloud Files Tutorial page. */
+"FirstRunCloudFilesTutorialDescription" = "요청 기반 파일 관리를 사용하면 Mac의 공간을 차지하지 않고 모든 항목을 OneDrive에서 탐색할 수 있습니다. 파일이 필요할 때 곧바로 다운로드됩니다.";
+
+/* This is the header text in the Cloud Files Tutorial page for online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFiles" = "온라인 전용 파일";
+
+/* This is the text in the Cloud Files Tutorial page describing online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFilesDescription" = "온라인 전용 파일은 열기 전까지 장치로 다운로드되지 않습니다.";
+
+/* This is the header text in the Cloud Files Tutorial page for locally available files. */
+"FirstRunCloudFilesTutorialHydratedFiles" = "로컬에서 사용 가능한 파일";
+
+/* This is the text in the Cloud Files Tutorial page describing locally available files. */
+"FirstRunCloudFilesTutorialHydratedFilesDescription" = "파일을 열면 파일이 장치로 다운로드되고 오프라인에서 사용할 수 있습니다.";
+
+/* This is the header text in the Cloud Files Tutorial page for always available files. */
+"FirstRunCloudFilesTutorialPinnedFiles" = "항상 사용 가능한 파일";
+
+/* This is the text in the Cloud Files Tutorial page describing always available files. */
+"FirstRunCloudFilesTutorialPinnedFilesDescription" = "오프라인 상태일 때도 항상 사용하려는 파일 및 폴더를 표시할 수 있습니다.";
+
+/* This is the button text in the Cloud Files Tutorial page */
+"FirstRunCloudFilesTutorialNextButtonText" = "다음";
+
+/* This is on top of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunTitle" = "OneDrive를 사용할 준비가 되었습니다.";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunDescription:%@" = "사용자의 파일을 다운로드하여 이 Mac에서 동기화된 상태를 유지합니다. OneDrive에 파일을 추가하려면 Finder에서 원하는 파일을 \"%@\" 폴더로 이동하세요.";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience when Cloud Files on. */
+"FirstRunFinishFirstRunCloudFilesDescription:%@" = "OneDrive가 모두 설정되어 사용할 준비가 되었습니다. OneDrive에 파일을 추가하려면 Finder에서 해당 파일을 \"%@\" 폴더로 이동하세요.";
+
+/* This is the text of the Open-at-login checkbox in the Finish First Run page (Done page) in First Run Experience */
+"FirstRunFinishFirstRunOpenAtLoginCheckboxText" = "내 파일이 자동으로 동기화되도록 로그인 시 열기";
+
+/* This is the button text in the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunButtonText:%@" = "내 %@ 폴더 열기";
+
+// Settings folder access error
+
+/* This is the title text for dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorTitle" = "설정 폴더에 액세스할 수 없습니다.";
+
+/* This is the descrption text for dialog we pop up when we cannot access settings folder {StrContains=\"Application Support\"} */
+"SettingsFolderErrorDescription" = "Application Support 폴더에 대한 액세스 권한이 있는지 확인하세요.";
+
+/* This is the button to quit for the dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorQuitButtonText" = "OneDrive 끝내기";
+
+// Cloud device - used by SyncDevice.mm
+
+/* The name of the online storage */
+"CloudDevice" = "OneDrive 동기화 저장소";
+
+
+// Folder status - used by ModelExtensions.mm
+
+/* Text shown on status menu when everything is in sync */
+"FolderStatusInSync" = "OneDrive가 최신 상태입니다."; // Up to date
+
+/* Local folder convergence status against a remote folder is not known */
+"FolderStatusUnknown" = "알 수 없음";
+
+/* Uploading and downloading files. "Files" will always be plural. */
+"FolderStatusSendAndReceive:%@" = "%@개 파일 전송 중...";
+
+/* Uploading one file from a remote folder. We show the file name. */
+"FolderStatusSendingSingular:%@" = "%@ 업로드 중...";
+
+/* Uploading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusSendingPlural:%@" = "%@개 파일 업로드 중...";
+
+/* Downloading one file from a remote folder. We show the file name. */
+"FolderStatusReceivingSingular:%@" = "%@ 다운로드 중...";
+
+/* Downloading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusReceivingPlural:%@" = "%@개 파일 다운로드 중...";
+
+/* Processing downloaded files to be created in a local folder */
+"FolderStatusRealizing" = "다운로드된 파일 처리 중...";
+
+/* Processing local file changes to be uploaded */
+"FolderStatusHashing" = "변경 내용 처리 중...";
+
+/* Scanning file changes in a folder */
+"FolderStatusScanning" = "파일 검사 중...";
+
+/* Scanning file changes in a folde */
+"FolderStatusScanningExtended:%@" = "%@ 검색 중...";
+
+/* Processing changes to files */
+"FolderStatusMetadataXfer" = "파일 처리 중...";
+
+/* Waiting to resume file transfers (upload/download) */
+"FolderStatusBlocked" = "동기화하려고 대기 중";
+
+/* Status for a folder that is not syncing*/
+"FolderStatusUnmapped" = "OneDrive가 구성되지 않았습니다.";
+
+/* Waiting to resume donwloading of a single file. We show the file name. */
+"FolderStatusBlockedSingular:%@" = "%@을(를) 받으려고 대기 중...";
+
+/* Waiting to resume donwloading files */
+"FolderStatusBlockedPlural:%@" = "%@ 파일을 받으려고 대기 중";
+
+/* Upload+Download Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB */
+"FolderStatusTransferProgress:%@,%@,%@,%@" = "%@ %@/%@ %@";
+
+/* Upload+Download+Rate Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB The third number shows the current transfer rate followed by its unit. */
+"FolderStatusTransferProgressNew:%@,%@,%@,%@,%@,%@" = "%@%@/%@%@(속도: %@%@)";
+
+/* Improve upload performance */
+"FasterUploadOption" = "배치로 업로드하면 업로드 속도가 빨라집니다.\r\n이 옵션은 대역폭을 더 많이 사용합니다. 인터넷 연결에 문제가 있는 경우, 이 옵션을 해제하세요.";
+
+/* Available storage space. Example: 20 GB used out of 200 GB. This is used in the systray. */
+"StorageQuota:%@,%@" = "%2$@ 중 %1$@ 사용됨";
+
+/* Available storage space. Example: 20 GB of 200 GB cloud storage used. This is used in account tab of preference window to show GB on disk for personal account */
+"CloudStorageQuota:%@,%@" = "%1$@/%2$@ 클라우드 저장소 사용됨";
+
+/* Storage used on Mac. Example: 2 GB used on this Mac. This is used in account tab of preference window to show GB on disk for ODB */
+"StorageOnMac:%@" = "이 Mac에서 %@ 사용됨";
+
+// Device status - used by ModelExtensions.mm
+
+/* Drive status displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlocked" = "파일을 업로드할 수 없습니다.";
+
+/* Error description displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlockedVerbose" = "파일 문제로 인해 모든 업로드가 차단되었습니다.";
+
+// Device Location - used by ModelExtensions.mm
+
+/* Local device, i.e. this computer */
+"DeviceLocationLocal" = "로컬";
+
+/* Remote device, e.g. another computer */
+"DeviceLocationRemote" = "원격";
+
+/* Cloud storage device, */
+"DeviceLocationCloud" = "클라우드";
+
+// Sync Issue Window
+
+/* "Problem" is a general term that includes both warnings and errors. Problem is singular. */
+"SyncIssueWindowTitleSingular:%@" = "1개의 문제가 있음(%@)";
+
+/* "Problem" is a general term that includes both warnings and errors. Problems is plural. */
+"SyncIssueWindowTitlePlural:%@,%@" = "%2$@에 %1$@개의 문제가 있음";
+
+/* The button is used to clear the issue list */
+"SyncIssueWindowClearButton" = "지우기";
+
+/* Reveal is showing the item */
+"SyncIssueWindowOpenInFinderToolTip" = "Finder에서 보기";
+
+/* Tool tip for the button that removes an issue from issue window */
+"SyncIssueWindowIgnoreIssueToolTip" = "이 문제 무시";
+
+/* Text on status when there are more than 1 problems. "Problems" is always plural */
+"SyncIssueStatusPlural:%@" = "OneDrive 문제 %@개";
+
+/* Text on status when there is a problem. problem is always singular */
+"SyncIssueStatusSingular" = "OneDrive 문제 1개";
+
+/* Tool tip for the button that opens issue resolver window */
+"SyncIssueWindowOpenIssueToolTip" = "이 문제를 해결합니다.";
+
+/* Primary text for error dialog with a file conflict for the file name. %@ is a file name */
+"SyncIssueAlertFileOnHoldPrimary:%@" = "\"%@\"에 대한 파일 충돌 해결";
+
+/* Secondary text for error dialog. %@ is a machine name */
+"SyncIssueAlertFileOnHoldSecondary:%@" = "Office에서 파일을 열어 두 버전의 변경 내용을 병합하거나 보관하려는 파일을 선택할 수 있습니다. 그러지 않은 경우 두 파일을 모두 유지할 수 있으며, 컴퓨터에 저장된 파일 이름에 \"-%@\"이(가) 추가되고 온라인 파일이 다운로드됩니다.";
+
+/* Primary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldMainButton" = "두 파일 모두 유지";
+
+/* Secondary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldSecondaryButton" = "Office에서 열기";
+
+// Error description - used by ModelExtensions.mm
+
+/* error description used in issue window {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFilename" = "파일 이름을 변경하세요. 공백으로 시작하거나 끝나지 않고, 마침표로 끝나지 않고, 마침표 두 개로 시작할 수 없으며, 다음 문자를 포함할 수 없습니다. \\ / : * ? \" < > | ";
+
+/* error description used in issue window  {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFoldername" = "폴더 이름을 변경하세요. 공백으로 시작하거나 끝나지 않고, 마침표로 끝나지 않고, 마침표 두 개로 시작할 수 없으며, 다음 문자를 포함할 수 없습니다. \\ / : * ? \" < > | ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionFilePathTooLong" = "파일 경로가 너무 길어 컴퓨터에 저장할 수 없습니다.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionCloudAccessDenied:%@" = "이 파일은 \"%@\"에서 읽기 전용입니다.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionDocumentCheckedOut" = "다른 사용자가 이 파일을 체크 아웃했습니다.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionServerFileConflict:%@" = "항목을 \"%@\"에 업로드할 수 없습니다.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionExcludedItem:%@" = "항목을 \"%@\"에 업로드할 수 없습니다.";
+
+/* error description used in issue window %1$@ is a size like 10 GB, %2$@ is a string like "OneDrive - Microsoft" */
+"SyncErrorShortDescriptionFileTooBig:%@,%@" = "\"%2$@\"에서 %1$@을(를) 초과하는 파일을 업로드할 수 없습니다.";
+
+/* Use "OneNote" unless there's a localized name for it {Locked=!cs, sk;\"OneNote\"} */
+"SyncErrorShortDescriptionOnenoteDeleted:%@" = "OneNote 파일에 대한 바로 가기를 \"%@\" 폴더에서 삭제할 수 없습니다. OneDrive로 이동하고 웹에서 이 파일을 삭제하려면 클릭하세요.";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionItemCantFitInQuota:%@" = "파일 또는 폴더와 해당 콘텐츠가 \"%@\"의 남은 공간 한도에 맞지 않습니다.";
+
+/* item means either folder or file */
+"SyncErrorShortDescriptionItemLimitExceeded:%@" = "\"%@\"에 파일이 너무 많습니다. 필요 없는 파일을 제거하세요.";
+
+/* The user choose to unsync files/folders but we are unable to delete it. item means either folder or file */
+"SyncErrorShortDescriptionUnmappedContentPresent:%@" = "이 이름의 파일 또는 폴더가 온라인의 \"%@\"에서 같은 위치에 이미 있습니다. 파일이나 폴더의 이름을 바꾸세요.";
+
+/* error description used when Office files have edit-edit conflicts and they cannot be merged */
+"SyncErrorShortDescriptionFileOnHold" = "Office 파일의 변경 내용을 병합하지 못했습니다. 이 문제를 해결하려면 화살표 아이콘을 클릭하세요.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaCritical:%@,%@" = "%1$@이(가) %2$@ 가득 참";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaCritical:%@,%@" = "%1$@의 사용 가능한 공간이 %2$@밖에 남지 않았습니다.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaExceeded:%@" = "%@의 공간이 부족합니다.";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaExceeded" = "OneDrive 폴더를 동기화된 상태로 유지하려면 추가 저장소 공간을 확보하거나 더 이상 필요 없는 파일을 삭제하세요.";
+
+/* error description used in issue window for business accounts */
+"CloudIssueShortDescriptionQuotaExceeded_Business" = "IT 부서에 자세한 내용을 문의하거나 파일을 제거하여 공간을 확보하세요.";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleThrottling" = "OneDrive에서 지금 파일을 전송할 수 없습니다.";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionThrottling" = "내일 다시 시도하세요.";
+
+// Status menu - used by StatusMenuController.mm
+
+/* No comments provided by engineer */
+"StatusMenuTitle" = "관리";
+
+/* The status menu item text that leads to more menu items */
+"StatusMoreMenu" = "더 보기";
+
+/* Text for status menu item that opens the folder containing deleted OneDrive files */
+"StatusMenuItemLaunchRecycleBin" = "OneDrive 휴지통";
+
+/* Status menu item to allow the user to open the dialog for sharing file/folder */
+"StatusMenuItemShare" = "파일 또는 폴더 공유...";
+
+/* Text for the status menu item which opens the OneDrive folder when clicked*/
+"StatusMenuItemOpenLocalFolder" = "OneDrive 폴더 열기";
+
+/* Text for the status menu item which opens the named folder when clicked  */
+"StatusMenuItemOpenNamedFolder: %@" = "%@ 폴더 열기";
+
+/* Status menu item that opens browser with Upgrade account page */
+"StatusMenuItemUpgrade" = "업그레이드";
+
+/* Text for the status menu item which opens a browser to OneDrive website for storage manage */
+"StatusMenuItemManageStorage" = "저장소 관리";
+
+/* Status menu item that when clicked will launch a page with user's premium features */
+"StatusMenuItemManagePremium" = "내 프리미엄 기능";
+
+/* Text for the status menu item which opens a browser to OneDrive website homepage */
+"StatusMenuItemLaunchWebsite" = "OneDrive.com으로 이동";
+
+/* The status menu item that allows user to open OneDrive help site. It will likely launch a browser to a website */
+"StatusMenuItemLaunchHelp" = "도움말";
+
+/* The status menu item that allows user to open OneDrive feedback. It will likely launch a browser to a website */
+"StatusMenuItemFeedback" = "사용자 의견";
+
+/* The status menu item that allows a user to open the Parature support dialog. */
+"StatusMenuItemReportIssue" = "문제 신고";
+
+/* Status shown on the status menu when everything is up to date */
+"StatusMenuItemUpToDate" = "OneDrive가 최신 상태입니다.";
+
+/* Status shown on the status menu to indicate last updated time in seconds */
+"StatusMenuItemLastUpToDateTimeSecondsAgo" = "방금 전 마지막으로 업데이트됨";
+
+/* Status shown on the status menu to indicate last updated time was one minute ago */
+"StatusMenuItemLastUpToDateTimeOneMinuteAgo" = "1분 전에 마지막으로 업데이트됨";
+
+/* Status shown on the status menu to indicate last updated time was minutes ago */
+"StatusMenuItemLastUpToDateTimeMinutesAgo:%d" = "%d분 전에 마지막으로 업데이트됨";
+
+/* Status shown on the status menu to indicate last updated time was one hour ago */
+"StatusMenuItemLastUpToDateTimeOneHourAgo" = "1시간 전에 마지막으로 업데이트됨";
+
+/* Status shown on the status menu to indicate last updated time was hours ago */
+"StatusMenuItemLastUpToDateTimeHoursAgo:%d" = "%d시간 전에 마지막으로 업데이트됨";
+
+/* Status shown on the status menu to indicate last updated time on a date */
+"StatusMenuItemLastUpToDateTimeDaysAgo:%@" = "%@에 마지막으로 업데이트됨";
+
+/* No comments provided by engineer */
+"StatusMenuItemViewActivity" = "최근 작업 보기";
+
+/* Status menu entry for opening the issue window */
+"StatusMenuItemViewIssues" = "동기화 문제를 보려면 여기를 클릭하세요.";
+
+/* Status shown on the status menu when downloading a file */
+"StatusMenuItemSyncCountSingularDownload: %@" = "%@ 다운로드 중";
+
+/* Status shown on the status menu when uploading a file */
+"StatusMenuItemSyncCountSingularUpload: %@" = "%@ 업로드 중";
+
+/* Status shown on the status menu when downloading or uploading more than one file */
+"StatusMenuItemSyncCount-%d" = "%d개 항목 전송 중...";
+
+/* Text for status menu item that opens the preference. It should be translated the same way as all app menu's Preferences item. */
+"StatusMenuItemPreferences" = "기본 설정";
+
+/* Text for preference window accessibility label. %1$@ is the current tab name */
+"AccessibilityPreferencesWindowLabel:%@" = "기본 설정 %1$@";
+
+/* Text for status menu item that pauses syncing. */
+"StatusMenuItemPause" = "동기화 일시 중지";
+
+/* Text for status menu item that resumes syncing when paused. */
+"StatusMenuItemResume" = "동기화 다시 시작";
+
+/* Text for status menu item that indicates to pause for 1 hour. */
+"StatusMenuItemPauseTimerSingular" = "1시간";
+
+/* Text for status menu item that indicates to pause for a number of hours. %1$@ is a number representing hours. */
+"StatusMenuItemPauseTimerPlural" = "%1$@시간";
+
+/* Text for status menu item that quits the app */
+"StatusMenuItemQuit" = "OneDrive 끝내기";
+
+/* Loading user data when signing-in */
+"StatusMenuItemLoading" = "잠시만 기다려 주세요...";
+
+/* OneDrive is at initial start up */
+"StatusMenuItemStarting" = "OneDrive 시작 중";
+
+/* OneDrive is showing first run wizard */
+"StatusMenuItemSetup" = "OneDrive 설치";
+
+/* Waiting for user input to migrate their Sandbox data */
+"StatusMenuItemMigration" = "사용자 데이터를 마이그레이션하는 중...";
+
+/* Text for status menu item that signs out the app */
+"StatusMenuItemSignOut" = "로그아웃";
+
+/* Launch the application automatically after login to OS */
+"StatusMenuItemOpenAtLogin" = "로그인할 때 열기";
+
+/* Status menu item that when clicked will launch the live sit for the account that is connected */
+"StatusMenuItemViewOnline" = "온라인 보기";
+
+// Quit Dialog
+
+/* Title text for dialog shown when user is quitting OneDrive */
+"QuitDialogHeader" = "OneDrive를 종료할까요?";
+
+/* Body text for dialog shown when user is quitting OneDrive */
+"QuitDialogDescription" = "OneDrive를 종료하면 OneDrive 폴더의 파일이 온라인 파일과 동기화되지 않습니다.";
+
+/* Title text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogHeaderUploadsPending" = "OneDrive를 종료하고 파일 업로드를 중지할까요?";
+
+/* Body text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogDescriptionUploadsPending" = "OneDrive를 종료하면 다시 시작하기 전까지 OneDrive 폴더에 있는 파일의 업로드가 완료되지 않습니다.";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will quit OneDrive. */
+"QuitDialogButtonDefault" = "OneDrive 끝내기";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will dismiss dialog. */
+"QuitDialogCancelButton" = "취소";
+
+// Dock Menu - used by DockMenuController.mm
+
+/* No comments provided by engineer */
+"DockMenuTitle" = "OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemOpenLocalFolder" = "OneDrive 폴더 열기";
+
+/* No comments provided by engineer */
+"DockMenuItemLaunchWebsite" = "OneDrive.com으로 이동";
+
+// Login Failures - used by SignInViewController.mm
+
+/* When we are unable to retrieve a user's tenant name, we will use this to show "OneDrive - Business" */
+"DefaultTenantName" = "비즈니스";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"InvalidUsernameTitleText" = "OneDrive에 로그인할 수 없습니다.";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the explaination text in the dialog {StrContains=\"example555@hotmail.com\"} */
+"InvalidUsernameDescriptionText" = "Microsoft 계정을 example555@hotmail.com과 같은 형식으로 입력하세요.";
+
+/* When we receive an invalid web request, we show this text as the first line of the dialog. */
+"InvalidWebRequestTitle" = "죄송합니다. 동기화 클라이언트를 열 수 없습니다.";
+
+/* When we receive an invalid web request, we show this text as the body text of the dialog. */
+"InvalidWebRequestBody" = "URL을 처리할 수 없습니다. 도움이 필요한 경우 지원에 문의하세요.";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailTitle" = "로그인하는 동안 문제가 발생했습니다.";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailText" = "로그인하는 중에 문제가 발생했습니다. 다시 시도하세요. Microsoft 계정과 암호가 올바르고 컴퓨터가 인터넷에 연결되어 있는지 확인하세요.";
+
+/* When we have connectivity error during sign in, we pop up a dialog and this is the first line of the text in the dialog*/
+"SignInConnectivityErrorTitleText" = "OneDrive에 연결하는 동안 문제가 발생했습니다.";
+
+/* When we have connecctivity error during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInConnectivityErrorDescriptionText" = "인터넷 연결을 확인한 후 다시 시도하세요.";
+
+/* When we fail to access the keychain during sign in, we pop up a dialog and this is the first line of text in the dialog. */
+"SignInKeychainErrorTitleText" = "키 집합에 액세스하는 중에 오류가 발생했습니다.";
+
+/* when we fail to access the keychain during sign in, we pop up a dialog and this is the detailed text in the dialog. */
+"SignInKeychainErrorDescriptionText" = "로그인 키 집합이 있고 OneDrive가 키 집합에 액세스할 수 있는지 확인하세요. 메시지가 표시되면 OneDrive가 키 집합에 액세스하도록 허용하세요.";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the first line of the text in the dialog */
+"SignInCredentialErrorTitleText" = "OneDrive에 연결하는 동안 문제가 발생했습니다.";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInCredentialErrorDescriptionText" = "인터넷 연결을 확인한 후 다시 시도하세요.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SuspendedAccountTitleText" = "OneDrive에 로그인할 수 없습니다.";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the explaination text in the dialog */
+"SuspendedAccountDescriptionText" = "계정을 일시적으로 사용할 수 없습니다.";
+
+/* When we get a user using a non-beta enabled account, we show this error title. */
+"SignInNoBetaText" = "OneDrive에 로그인할 수 없습니다.";
+
+/* When we get a user using a non-beta enabled account, we show this error description. {StrContains=\"Windows Live\"} */
+"SignInNoBetaDescriptionText" = "이 계정은 Windows Live 베타 프로그램에 사용할 수 없습니다.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnknownErrorTitle" = "로그인하는 동안 문제가 발생했습니다.";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnknownErrorText" = "잠시 후 다시 시도해 보세요.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLError500Title" = "로그인하는 동안 문제가 발생했습니다.";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLError500Text" = "죄송합니다. OneDrive에 문제가 있습니다. 잠시 후 다시 시도해 보세요.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInterruptedErrorTitle" = "로그인하는 동안 문제가 발생했습니다.";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInterruptedErrorText" = "계정에 문제가 있습니다. 이 문제를 해결하는 방법을 알아보려면 서비스 웹 사이트로 이동한 후 로그인하세요. 문제를 해결한 후 다시 시도하세요.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnauthorizedErrorTitle" = "로그인하는 동안 문제가 발생했습니다.";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnauthorizedErrorText" = "죄송합니다. OneDrive에 문제가 있습니다. 잠시 후 다시 시도해 보세요.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidClientErrorTitle" = "로그인하는 동안 문제가 발생했습니다.";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidClientErrorText" = "죄송합니다. OneDrive에 문제가 있습니다. 잠시 후 다시 시도해 보세요.";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidGrantErrorTitle" = "로그인하는 동안 문제가 발생했습니다.";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidGrantErrorText" = "죄송합니다. OneDrive에 문제가 있습니다. 잠시 후 다시 시도해 보세요.";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the title. */
+"SignInURLSPOUserNotFoundTitle" = "OneDrive가 설치되지 않았습니다.";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the error text. */
+"SignInURLSPOUserNotFoundErrorText" = "IT 부서에 지원을 문의해 보세요.";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the title */
+"SignInURLUserThrottledErrorTitle" = "이 Mac에 OneDrive를 설치하지 못했습니다.";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the error text. */
+"SignInURLUserThrottledErrorText" = "OneDrive의 트래픽이 높습니다. 나중에 다시 시도해 보세요.";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the title. */
+"SignInURLEmailMismatchTitle" = "동기화하려면 웹에서 사용한 것과 동일한 전자 메일 주소를 사용하세요.";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the error text. */
+"SignInURLEmailMismatchErrorText:%@" = "이 콘텐츠의 동기화를 시작하려면 %@(으)로 로그인하세요.";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to try signing in again. */
+"SignInTryAgainButtonText" = "다시 시도";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive*/
+"SignInQuitButtonText" = "OneDrive 끝내기";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive */
+"SignInCloseButtonText" = "닫기";
+
+/* This text is displayed in sign in dialog while we load signing in page */
+"SignInPageLoadingText" = "잠시만 기다려 주세요...";
+
+/* This text is used for voice over while we load signing in page */
+"SignInPageLoadingVoiceOverText" = "OneDrive를 로드하는 동안 기다려 주세요.";
+
+/* This text is displayed in sign in dialog while we are signing in the user */
+"SignInProgressingText" = "로그인하는 중...";
+
+/* This text is used for voice over while we are signing in the user */
+"SignInProgressingVoiceOverText" = "OneDrive에서 로그인하는 동안 기다려 주세요.";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the title. */
+"SignInDuplicateSyncErrorTitle" = "이미 이 계정을 동기화하고 있습니다.";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the text. */
+"SignInDuplicateSyncErrorText:%@" = "%@ 폴더를 열거나 다른 계정으로 로그인하세요.";
+
+/* When the userconnected service returns an error, this is the title */
+"SignInUserConnectedErrorTitle" = "OneDrive에 연결하는 중 문제가 발생했습니다.";
+
+/* When the userconnected service returns error: "AccessDenied". This is the error text. */
+"SignInUserConnectedAccessDeniedText" = "이 서비스에 대한 액세스 권한이 없습니다. 도움이 필요한 경우 IT 부서에 문의하세요.";
+
+/* When the userconnected service returns error: "AccountSuspended". This is the error text. */
+"SignInUserConnectedAccountSuspendedText" = "계정이 차단되었습니다. 도움이 필요한 경우 IT 부서에 문의하세요.";
+
+/* When the userconnected service returns error: "InvalidUserData". This is the error text. */
+"SignInUserConnectedInvalidUserDataText" = "서비스에 연결하지 못했습니다. 도움이 필요한 경우 IT 부서에 문의하세요.";
+
+/* When the userconnected service returns error: "MissingLicense". This is the error text. */
+"SignInUserConnectedMissingLicenseText" = "이 서비스에 액세스하려면 다른 라이선스가 필요합니다. 도움이 필요한 경우 IT 부서에 문의하세요.";
+
+/* When the userconnected service returns error: "ProvisioningFailed". This is the error text. */
+"SignInUserConnectedProvisioningFailedText" = "OneDrive가 설정되지 않았습니다. 도움이 필요한 경우 IT 부서에 문의하세요.";
+
+/* When the userconnected service returns error: "Throttled". This is the error text. */
+"SignInUserConnectedThrottledText" = "현재 서비스 요청이 많습니다. 몇 분 후 다시 시도하세요.";
+
+/* When the userconnected service returns error: "Timeout". This is the error text. */
+"SignInUserConnectedTimeoutText" = "서비스가 응답하는 데 너무 오래 걸립니다. 몇 분 후 다시 시도하세요.";
+
+/* When the userconnected service returns error: "Unknown". This is the error text. */
+"SignInUserConnectedUnknownText" = "몇 분 후 다시 시도하거나 문제가 지속될 경우 IT 부서에 문의하세요.";
+
+/* When the userconnected service returns error: "UnreachableHost". This is the error text. */
+"SignInUserConnectedUnreachableHostText" = "서비스를 일시적으로 사용할 수 없습니다. 몇 분 후 다시 시도하세요.";
+
+/* When the userconnected service returns error: "UserNotFound". This is the error text. */
+"SignInUserConnectedUserNotFoundText" = "사용자의 계정에 문제가 있습니다. 도움이 필요한 경우 IT 부서에 문의하세요.";
+
+/* When the userconnected service returns error: "NoTeamSitePermission". This is the error text. */
+"SignInUserConnectedNoTeamSitePermText" = "이 SharePoint 사이트에 액세스할 수 없습니다. IT 부서에 문의하세요.";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error. This is the title. */
+"SignInUserAlreadyLoadedErrorTitle" = "다른 계정을 동기화하고 있습니다.";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error.
+   Depending on whether we know which email the user is signed in with, either show the specific or the generic message below. This is the text. */
+"SignInUserAlreadyLoadedErrorEmailSpecificText:%@" = "로그인한 계정이 동기화 중인 계정과 일치하지 않습니다. \"%@\"에 대한 암호를 제공하세요. 다른 계정을 추가하려면 [기본 설정]으로 가서 [계정] 탭을 클릭하고 \"계정 추가\"를 선택하세요.";
+
+"SignInUserAlreadyLoadedErrorGenericText" = "로그인한 계정이 동기화 중인 계정과 일치하지 않습니다. 다른 계정을 추가하려면 [기본 설정]으로 가서 [계정] 탭을 클릭하고 \"계정 추가\"를 선택하세요.";
+
+/* When MSA user is already syncing with account A, and tries to sign in with account B when prompted for creds. Depending on whether the e-mail address is available or not, we show the specific or generic message below. This is the text */
+ "SignInUserAlreadyLoadedErrorMSAEmailSpecificText:%@" = "로그인된 계정이 동기화 중인 계정과 일치하지 않습니다. \"%@\"에 대한 암호를 제공하세요.";
+
+ "SignInUserAlreadyLoadedErrorMSAGenericText" = "로그인된 계정이 동기화 중인 계정과 일치하지 않습니다.";
+
+/* When an unknown error occurs that has not been handled. This is the title. */
+"SignInUnknownErrorTitle" = "로그인하는 동안 문제가 발생했습니다.";
+
+/* When an unknown error occurs that has not been handled. This is the text. */
+"SignInUnknownErrorText" = "몇 분 후 다시 시도하거나 문제가 지속될 경우 IT 부서에 문의하세요.";
+
+// Preferences - used by PreferenceController.mm
+
+/* This is the text on preference window toolbar for Preferences. */
+"PreferenceGeneralItem" = "기본 설정";
+
+/* This is the text that encloses General area in preference window. */
+"PreferenceGeneralGroupBoxText" = "일반";
+
+/* This is the text on preference window check box. When user checks this option, it allows OneDrive to start when user login. */
+"PreferenceStartAtLoginCheckBoxText" = "로그인할 때 열기";
+
+/* This is the description for enable OnPrem telemetry checkbox. */
+"PrivacyCheckBoxText" = "오류 보고서 및 사용 통계를 Microsoft로 보내기";
+
+/* This is the description when OneDrive is at the wrong location. "Applications" should be localized the same way as the OS. */
+"OpenAtLoginDisabledExplaination" = "이 설정을 사용하려면 OneDrive를 종료하고 OneDrive 응용 프로그램을 응용 프로그램으로 이동한 다음 OneDrive를 다시 여세요.";
+
+/* This is the text on preference window check box. When user checks this option, OneDrive icon is removed from the Dock. Note "Dock" is capital D */
+"PreferenceHideDockIconText" = "Dock 아이콘 숨기기";
+
+/* This is the text for a preference window check box. When the user checks this option we will automatically save screenshots any time they take a screenshot. */
+"PreferenceEnableScreenCaptureUpload" = "OneDrive에 스크린샷 저장";
+
+/* This will be displayed when a user running a store build attempts to enable the screen capture
+ * feature. Due to app store limitations, the user is forced to select their desktop folder. This
+ * message will be displayed within the file open dialog in order to help the user understand what
+ * selection they are required to make in the file open dialog. */
+"PreferenceEnableScreenCaptureUploadOpenDialogMessage" = "OneDrive를 스크린샷 프로그램에 자동으로 저장하려면 바탕 화면 폴더를 선택하세요.";
+
+/* This is the text on preference window check box. When user checks this option, we will not show share/edit notifications */
+"PreferenceDisplayShareEditNotificationsCheckBoxText" = "공유 또는 편집에 관한 알림 표시";
+
+/* This is the text on preference window toolbar for About. */
+"PreferenceAboutItem" = "정보";
+
+/* This is the text that encloses about area in preference window. */
+"PreferenceAboutGroupBoxText" = "Microsoft OneDrive 정보";
+
+/* This is the text that shows version. */
+"PreferenceVersionText:%@" = "버전 %@";
+
+/* This is the text that shows version for standalone. */
+"PreferenceStandaloneVersionText:%@" = "버전 %@(독립 실행형)";
+
+/* This is the text that encloses "more info" area in preference window. */
+"PreferenceMoreInfoGroupBoxText" = "자세한 정보";
+
+/* This is the text that opens help in browser. */
+"PreferenceGetHelpText" = "OneDrive 관련 도움말";
+
+/* This is the text that opens privacy statement in browser. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"PreferencePrivacyStatementText" = "Privacy & Cookies";
+
+/* This is the text that opens server status in browser. */
+"PreferenceServerStatusText" = "서비스 상태";
+
+/* This is the text that opens Terms of Use in browser. */
+"PreferenceTermsOfUseText" = "사용 약관";
+
+/* This is the text on the button in preference window that opens the manage storage page on browser */
+"PreferenceManageStorageButtonText" = "저장소 관리";
+
+/* This is the text on the button that unlinks OneDrive in preference window. */
+"PreferenceUnlinkButtonText" = "이 Mac의 연결 해제";
+
+/* This is the title text on the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertMessageTitle" = "이 Mac에서 계정의 연결을 해제하시겠습니까?";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for consumer accounts. */
+"PreferenceUnlinkAlertDetailedMessage" = "OneDrive 파일의 동기화가 중지됩니다. 이러한 파일의 사본은 이 Mac에 남아 있습니다.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for business accounts. */
+"PreferenceUnlinkAlertDetailedMessageBusiness:%@" = "계정(%@)과 연결된 비즈니스 콘텐츠의 동기화가 중지됩니다. 이러한 파일의 사본은 이 Mac에 남아 있습니다.";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for last library unsynced. %1$@ is a folder name, %2$@ is an email address */
+"PreferenceUnlinkLastLibraryAlertDetailedMessage:%@,%@" = "%1$@이(가) 마지막으로 동기화된 폴더입니다. 이 폴더의 동기화를 중지하면 %2$@ 계정의 링크가 해제됩니다. 이 파일의 복사본은 이 Mac에 남아 있습니다.";
+
+/* This is the text on the confirm button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertConfirmButton" = "계정 연결 끊기";
+
+/* This is the text on the cancel button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertCancelButton" = "취소";
+
+/* This is the text on the button that resets OneDrive in preference window. */
+"PreferenceResetButtonText" = "OneDrive 다시 설정";
+
+/* This is the text on preference window toolbar for account. */
+"PreferenceAccountItem" = "계정";
+
+/* This is the text that tells users how to sync down only selected folders in preference window. */
+"PreferenceSelectiveSyncDescription" = "선택한 폴더를 이 Mac에서 사용할 수 있습니다.";
+
+/* This is the text that encloses "Choose folders" area in preference window. */
+"PreferenceFolderGroupBoxText" = "폴더 선택";
+
+/* This is the button that opens up advanced selective sync in preference window. */
+"PreferenceSelectFoldersButton" = "폴더 선택";
+
+/* This is the text on the the preference window toolbar for network. */
+"PreferenceNetworkItem" = "네트워크";
+
+/* This is the text on the Upload box. */
+"PreferenceUploadBox" = "업로드 속도";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceNoLimit" = "제한 안 함";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimit" = "자동으로 조정";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimitByAdmin" = "자동으로 조정(조직에서 관리)";
+
+/* This is the text on the radio button that does limit bandwidth. */
+"PreferenceCustomLimit" = "제한 대역폭:";
+
+/* This is the text on the Download box. */
+"PreferenceDownloadBox" = "다운로드 속도";
+
+/* This is the text on the box to enable the Files On-Demand feature. */
+"PreferenceCloudFilesEnableBox" = "요청 기반 파일 관리";
+
+/* This is the description for the Files On-Demand box. */
+"PreferenceCloudFilesDescription" = "요청 시 파일은 파일을 사용할 때 파일을 다운로드하여 컴퓨터의 공간을 확보합니다.";
+
+/* Button text in Files On-Demand box. Clicking this button turns on the feature. */
+"PreferenceCloudFilesEnable" = "요청 기반 파일 관리 켜기";
+
+/* Button text in Files On-Demand box. Clicking this button turns off the feature. */
+"PreferenceCloudFilesDisable" = "요청 기반 파일 관리 끄기";
+
+/* Link in the Files On-Demand box. Clicking this link will launch a webpage with more information. */
+/* Also resued in local mass delete delete confirmed ACM. */
+"PreferenceCloudFilesMoreInfo" = "자세한 정보";
+
+/* This is the title text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertMessageTitle" = "요청 기반 파일 관리를 끄시겠습니까?";
+
+/* This is the body text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertDetailedMessage" = "모든 OneDrive 파일 및 폴더가 이 Mac으로 다운로드됩니다.";
+
+/* This is the text on the confirm button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertConfirmButton" = "확인";
+
+/* This is the text on the cancel button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertCancelButton" = "취소";
+
+/* This is the button text to display the Blocked Applications list. */
+"PreferenceBlockedAppButtonText" = "앱 관리";
+
+/* This is the description for the Hydrating Applications pane. */
+"PreferenceHydratingAppDescription" = "Mac은 온라인 전용 파일을 요청하는 앱에 대해 해당 파일을 OneDrive에서 자동으로 다운로드할 수 있습니다.";
+
+/* This is the description for the Blocked Applications box. */
+"PreferenceBlockedAppDescription" = "이러한 응용 프로그램은 OneDrive에서 자동으로 다운로드할 수 없도록 차단되었습니다.";
+
+/* This is the description for the checkbox that allows user to control whether they see a hydration notification toast. */
+"PreferenceNotifyHydratingAppCheckbox" = "앱이 OneDrive에서 다운로드할 때 알림";
+
+/* This is the header of the table listing Blocked Applications */
+"PreferenceBlockedAppTableHeader" = "응용 프로그램";
+
+/* Label for the button to close the Blocked Applications list */
+"PreferenceBlockedAppCloseButtonLabel" = "닫기";
+
+/* Prompt for user to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationPrompt" = "파일 자동 다운로드를 차단할 응용 프로그램을 선택하세요.";
+
+/* Header for error when unable to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationErrorHeader" = "선택 항목을 추가할 수 없습니다.";
+
+/* Body for error when unable to add an application to the Blocked Applications list*/
+"PreferenceBlockedAppAddApplicationErrorBody" = "응용 프로그램만 OneDrive 파일 자동 다운로드를 차단할 수 있습니다. 응용 프로그램을 선택하고 다시 시도하세요.";
+
+// Preferences - Advanced Selective Sync Page
+
+/* This is the text on the top of advanced selective sync sheet. */
+"AdvancedSelectiveSyncTitle" = "OneDrive에서 파일 동기화";
+
+/* This is the text on the top of advanced selective sync sheet when Cloud Files on. */
+"AdvancedSelectiveSyncTitleCloudFiles" = "폴더 선택";
+
+/* This is the text under the title of advanced selective sync sheet. */
+"AdvancedSelectiveSyncDescription:%@" = "\"%@\" 폴더로 다운로드할 항목을 선택하세요. 오프라인 상태에서도 이러한 항목을 사용할 수 있습니다.";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page. */
+"AdvancedSelectiveSyncDescriptionPreferences" = "동기화하는 파일은 이 Mac의 공간을 사용합니다.";
+
+/* This is the text in advanced selective sync sheet to sync everything. */
+"AdvancedSelectiveSyncAll" = "내 OneDrive의 모든 파일 및 폴더 동기화";
+
+/* This is the text in advanced selective sync sheet to sync everything under a team site. */
+"AdvancedSelectiveSyncAllTeamSite:%@" = "%@의 모든 파일 및 폴더 동기화";
+
+/* This is the text in advanced selective sync sheet to sync only some files. */
+"AdvancedSelectiveSyncSome" = "또는 다음 폴더만 동기화:";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page and Cloud Files enabled. */
+"AdvancedSelectiveSyncDescriptionCloudFiles" = "\"%@\" 폴더에서 사용할 수 있도록 설정할 파일을 선택하세요. 요청 시 해당 파일이 제공됩니다. 선택하지 않은 폴더는 Finder에서 숨겨집니다.";
+
+/* This is the text in advanced selective sync sheet to sync everything when Cloud Files is enabled. */
+"AdvancedSelectiveSyncAllCloudFiles" = "모든 파일을 사용할 수 있도록 설정";
+
+/* This is the text in advanced selective sync sheet to sync only some files when Cloud Files is enabled. */
+"AdvancedSelectiveSyncSomeCloudFiles" = "또는 다음 폴더가 표시되도록 설정:";
+
+/* This is the text on the file group item in the tree view. %@ is for folder names. ie "puppies", "Cute Kittens". */
+"AdvancedSelectiveSyncFileGroupItem:%@" = "\"%@\"의 파일";
+
+/* This is the text on the root's file group item in the tree view. */
+"AdvancedSelectiveSyncFileGroupItemRoot" = "폴더에 없는 파일";
+
+/* This is the text on the advanced selective sync sheet for the local path on Mac. */
+"AdvancedSelectiveSyncMacLocationText" = "Mac에서의 위치:";
+
+/* This is the button text on the advanced selective sync sheet for start sync. */
+"AdvancedSelectiveSyncStartSyncButtonText" = "동기화 시작";
+
+/* This is the button text on the advanced selective sync sheet for confirmation. */
+"AdvancedSelectiveSyncConfirmButtonText" = "확인";
+
+/* This is the button text on the advanced selective sync sheet for cancelling out. */
+"AdvancedSelectiveSyncCancelButtonText" = "취소";
+
+/* This is the text at the middle of advanced selective sync sheet when loading. */
+"AdvancedSelectiveSyncLoading" = "로드 중...";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoading:%@" = "%@에서 폴더 목록을 가져오지 못했습니다.\n이 대화 상자를 닫고 다시 시도하세요.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders during FRE. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoadingFRE" = "폴더 목록을 표시하는 중 문제가 발생했습니다. 계속하면 지금은 모든 파일과 폴더가 동기화되지만 나중에 [기본 설정]에서 이 설정을 변경할 수 있습니다.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to provision error. */
+"AdvancedSelectiveSyncFailedLoadingWithProvisionError" = "죄송합니다. 계정을 설정하는 중이므로 폴더 목록을 표시할 수 없습니다. 모든 파일과 폴더가 동기화되지만 나중에 [기본 설정]에서 이 설정을 변경할 수 있습니다.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to offline error*/
+"AdvancedSelectiveSyncFailedLoadingWithOfflineError" = "OneDrive에 연결할 수 없으므로 폴더 목록을 표시할 수 없습니다. 인터넷 연결을 확인하고 다시 시도하세요.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to auth error. */
+"AdvancedSelectiveSyncFailedLoadingWithAuthError" = "계정에 문제가 있으므로 폴더 목록을 표시할 수 없습니다. OneDrive를 종료하고 다시 로그인하세요.";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to having no files and folders. */
+"AdvancedSelectiveSyncFailedLoadingWithNoFileError" = "OneDrive가 비어 있습니다. 나중에 OneDrive에 추가하는 파일을 동기화하려면 \"내 OneDrive의 모든 파일 및 폴더\"를 선택하세요.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnote" = "파일 또는 폴더의 동기화를 중지하면 OneDrive에서는 유지되지만 이 Mac에서는 유지되지 않습니다. 이 Mac에 이미 있는 경우 삭제됩니다.";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnoteCloudFiles" = "Mac에서 이러한 폴더를 숨기면 OneDrive의 파일은 그대로 있지만 이 Mac에서는 제거됩니다. 이 폴더의 모든 항목이 이 Mac에서 삭제됩니다.";
+    
+/* This is the title text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingTitle" = "변경 내용을 적용하는 중 문제 발생";
+
+/* This is the description text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingDescription:%@" = "%@(으)로 동기화하도록 선택한 폴더의 목록을 저장하지 못했습니다. 다시 시도하세요.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingConfirm" = "닫기";
+
+/* This is the title text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingTitle" = "죄송합니다. 이 Mac에서 동기화되는 폴더를 변경하는 중 문제가 발생했습니다.";
+
+/* This is the description text in the alert sheet after we fail to set selective sync because syncengine is busy*/
+"AdvancedSelectiveSyncBusySettingDescription" = "동기화 중지를 시도한 항목 중 일부가 아직 OneDrive에 없습니다. 업로드를 마칠 때까지 기다린 다음 동기화 문제를 모두 해결하고 나중에 다시 변경해 보세요.";
+
+/* This is the button text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingConfirm" = "닫기";
+
+/* This is the text indicating the total size of all selected files and folders. The placeholder is the size and the unit.
+ Examples: Selected: 20 MB */
+"AdvancedSelectiveSyncFilesSelected:%@" = "%@ 선택됨";
+
+/* This is the text indicating the remaining space on disk. The first item is the disk. The second item is the size and the unit.
+ Examples: Remaining space on Macintosh HD: 20 GB */
+"AdvancedSelectiveSyncAvailableSpace:%@,%@" = "%1$@의 남은 공간: %2$@";
+
+/* This is the description text for selectively syncing folders */
+"AdvancedSelectiveSyncSyncOnlyTheseFolderTitle" = "선택한 폴더만 동기화";
+
+/* This is the text shown when calculating the selected and remaining disk space */
+"AdvancedSelectiveSyncLoadingTitle" = "계산 중...";
+
+/* This is the text shown when content already syncing */
+"AdvancedSelectiveSyncAlreadySyncingWarning" = "이 콘텐츠는 이미 동기화 중입니다.";
+
+/* This is the text shown when the teamsite that will be synced is read-only. */
+"AdvancedSelectiveSyncReadOnlyWarning" = "이 사이트는 읽기 전용입니다. 이 사이트의 파일 또는 폴더를 변경할 수 없습니다.";
+
+/* This is the text for add an account button in the account tab of preference window */
+"AddAccountButtonText" = "계정 추가";
+
+/* This is the text for teamsite box in account tab of preference window (singular) */
+"PreferenceTeamSiteGroupBoxText" = "1개의 위치가 동기화 중입니다.";
+
+/* This is the text for teamsite box in account tab of preference window (plural) */
+"PreferenceTeamSiteGroupBoxText:%d" = "%d개의 위치가 동기화 중입니다.";
+
+/* This is the text shown when not syncing ODB in account tab of preference window */
+"PreferenceNotSyncingQuotaText" = "동기화되지 않음";
+
+/* This is the text for start sync button for ODB in account tab of preference window */
+"PreferenceStartSyncButton" = "동기화 시작";
+
+/* This is the text for stop sync button for each team site library in account tab of preference window */
+"PreferenceStopSyncButton" = "동기화 중지";
+
+/* This is the title text in the dialog that stops syncing a teamsite in preference window. */
+"PreferenceStopSyncAlertMessageTitle:%@" = "%@의 동기화를 중지하시겠습니까?";
+
+/* This is the body text in the dialog that unlinks OneDrive in preference window. */
+"PreferenceStopSyncAlertDetailedMessage:%@" = "%@에서 동기화를 중지합니다. 이러한 파일의 사본은 이 Mac에 남아 있습니다.";
+
+/* This is the text on the confirm button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertConfirmButton" = "동기화 중지";
+
+/* This is the text on the cancel button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertCancelButton" = "취소";
+
+/* This is the title of the notifications we show after a team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationTitle:%@" = "지금 \"%1$@\"을(를) 동기화하는 중입니다.";
+
+/* This is the body of the notification we show after a read-only team site has been succesfully connected (initial sync). */
+"TeamSiteNotificationReadOnlyBody" = "이 사이트는 읽기 전용입니다. 파일을 보려면 여기를 클릭하세요.";
+
+/* This is the body of the notification we show after an editable team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationEditableBody:%@" = "\"%1$@\"에서 파일을 편집할 수 있습니다. 파일을 보려면 여기를 클릭하세요.";
+
+/* This is the title of the notification we show after a previously connected, editable team site has become read-only. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingReadOnlyTitle:%@" = "\"%1$@\"은(는) 이제 읽기 전용입니다.";
+
+/* This is the body of the notification we show after a previously connected, editable team site has become read-only. */
+"TeamSiteNotificationAlreadySyncingReadOnlyBody" = "사이트 사용 권한이 변경되었으므로 폴더의 파일을 더 이상 편집할 수 없습니다.";
+
+/* This is the title of the notification we show after a previously connected, read-only team site has become editable. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingEditableTitle:%@" = "이제 \"%1$@\"을(를) 변경할 수 있습니다.";
+
+/* This is the body of the notification we show after a previously connected, read-only team site has become editable. */
+"TeamSiteNotificationAlreadySyncingEditableBody" = "사이트에 변경 사항을 업로드 합니다.";
+
+/* This is the body of the notification we show after a team site has been succesfully connected. Permissions of the site are not indicated for this toast. %1$@ is a folder name. */
+"TeamSiteMountNotificationBody:%@" = "\"%1$@\" 파일이 이 Mac에 동기화되고 있습니다. 파일을 보려면 여기를 클릭하세요.";
+
+/* This is the title of the notifications we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingHeader:%@" = "\"%1$@\"은(는) 이미 동기화되고 있습니다.";
+
+/* This is the body of the notification we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingBody:%@" = "\"%1$@\"은(는) 이 장치에서 이미 동기화 중입니다. 파일을 보려면 여기를 클릭하세요.";
+
+/* Error dialog title for dialogs that stop the user from syncing On Prem because the front door URL is missing or ramp is off. */
+"CannotSyncOnPremTitle" = "죄송합니다. 이 폴더를 동기화할 수 없습니다.";
+
+/* Body text for when we can't sync on Prem because its ramped off. */
+"OnPremSyncNotEnabledBody" = "SharePoint 온-프레미스 폴더 동기화를 지원하지 않습니다.";
+
+/* Body text for when we can't sync On Prem because the front door URL is not configured. */
+"OnPremFrontDoorUrlNotSetBody" = "OneDrive를 구성하여 SharePoint 온-프레미스 폴더를 동기화하려면 IT 관리자에게 문의하세요.";
+
+/* Title text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfiguredTitle" = "OneDrive에 로그인 수 없습니다.";
+
+/* Body text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfigured" = "자격 증명에 문제가 있습니다. Ticket Viewer 응용 프로그램을 시작한 다음 ID를 추가하거나 다시 로그인하세요. 도움이 필요한 경우 IT 부서에 문의하세요.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. */
+"NewHostMountConsentTitle" = "OneDrive 동기화를 허용하시겠습니까?";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. %1$@ is the mount point's domain and %2$@ is the user's username. */
+"NewHostMountConsentMessage:%@,%@" = "새 위치(%1$@)에서 %2$@ 계정과 동기화하려고 합니다. 이 위치를 신뢰하는 경우에만 파일을 동기화해야 합니다.";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, give consent */
+"NewHostMountConsentGiveConsentButton" = "허용";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, deny consent */
+"NewHostMountConsentDenyConsentButton" = "취소";
+
+// Sync Engine errors - used by coreController.mm. These are built manually, so straight searching won't work.
+
+/* This is the title text shown on the popup dialog when we detect a new version of the client is available */
+"SyncEngineError:OldClientVersion Title" = "이 OneDrive가 최신 버전이 아닙니다.";
+
+/* This is the text shown on the popup dialog when we detect a new version of the client is available*/
+"SyncEngineError:OldClientVersion Message" = "Mac App Store로 이동한 다음 최신 버전의 Mac용 OneDrive를 다운로드하세요.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:OldClientVersion DefaultButton" = "중지";
+
+/* No comments provided by engineer */
+"SyncEngineError:PUIDFlip Title" = "장치를 확인하는 중에 문제가 발생했습니다.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:PUIDFlip Message" = "동기화된 폴더에 있는 파일을 모두 백업하세요. 그런 다음 http://g.live.com/0ELHP_MEREN/266을 방문하여 OneDrive 포럼에서 이 문제를 보고하세요. 포럼 게시물에 이 오류 텍스트를 포함하세요.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:PUIDFlip DefaultButton" = "중지";
+
+/* No comments provided by engineer */
+"SyncEngineError:DiskFull Title" = "하드 디스크가 거의 찼습니다.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:DiskFull Message" = "OneDrive를 계속 사용하려면 추가 공간을 확보하세요.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:DiskFull DefaultButton" = "중지";
+
+/* This is shown when resign-in is required for MSA account*/
+"SyncEngineError:ForceSignIn Title" = "로그인하지 않았습니다.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn Message" = "파일이 최신 상태가 아닐 수 있습니다. 동기화를 다시 시작하려면 자격 증명을 다시 입력하세요.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn DefaultButton" = "확인";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Title" = "인터넷 연결에 문제가 있는 것 같습니다.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Message" = "컴퓨터가 인터넷에 연결되어 있는지 확인한 후 다시 시도해 보세요.";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure DefaultButton" = "확인";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Title" = "죄송합니다. OneDrive에 문제가 있습니다.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Message" = "OneDrive를 다시 시작하세요.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:TerminateCore DefaultButton" = "중지";
+
+/* No comments provided by engineer*/
+"SyncEngineError:ServerError Title" = "죄송합니다. OneDrive 서버에 문제가 있습니다.";
+
+/* No comments provided by engineer */
+"SyncEngineError:ServerError Message" = "잠시 후 다시 시도해 보세요.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:ServerError DefaultButton" = "중지";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Title" = "죄송하지만 계정에 문제가 있는 것으로 보입니다. 이 문제를 해결하는 방법을 보려면 OneDrive.com으로 이동한 후 로그인하세요. 문제를 해결한 후에는 다시 시도하세요.";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Message" = "고객 지원에 문의하세요.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:AccessDenied DefaultButton" = "끝내기";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Title" = "죄송합니다. OneDrive에 문제가 있습니다.";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Message" = "OneDrive를 끝내고 컴퓨터가 인터넷에 연결되어 있는지 확인한 다음 응용 프로그램을 다시 시작하세요.";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:Unknown DefaultButton" = "중지";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid %1$@ is a library name. */
+"SyncEngineError:RootScopeNotFound Title:%@" = "\"%1$@\" 라이브러리를 웹에서 다시 만들었습니다.";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid*/
+"SyncEngineError:RootScopeNotFound Message" = "이 Mac에 이 라이브러리를 다시 설정하려면 \"OneDrive 다시 구성\"을 클릭하세요.";
+
+/* Text for button in error dialog to reconfigure OneDrive*/
+"SyncEngineError:ButtonText ReconfigureButton" = "OneDrive 다시 구성";
+
+/* Message title in error dialog when a folder not found and drive is present. %1$@ is a folder name, %2$@ is its local path */
+"SyncError:MissingFolder Title:%@,%@" = "%2$@에서 \"%1$@\" 폴더를 찾을 수 없습니다.";
+
+/* Message in error dialog when the root folder is deleted. %@ is a folder name. */
+"SyncError:RootFolderDeleted Message:%@" = "\"OneDrive 끝내기\"를 클릭하거나 \"OneDrive 설정\"을 클릭하고 \"%@\" 폴더를 다시 설정하세요.";
+
+/* Message in error dialog when folder is not found while re-mapping and drive is present */
+"SyncError:MissingFolder Message" = "이 폴더가 아직 이 위치에 있는지 확인한 다음 \"다시 시도\"를 클릭하거나, \"동기화 중지\"를 클릭하여 이 폴더 동기화를 중지하세요.";
+
+/* Message in error dialog when mounted folder not found while re-mapping. %@ is an email address */
+"SyncError:MissingMountedFolder SetUpMessage:%@" = "이 폴더가 아직 이 위치에 있는지 확인하고 \"다시 시도\"를 클릭하거나, \"OneDrive 설정\"을 클릭하고 %@ 계정을 다시 설정하세요.";
+
+/* Message title in error dialog when there's a problem with the root folder */
+"SyncError:RootFolderError Title:%@" = "%@ 폴더를 찾을 수 없습니다.";
+
+/* Message in error dialog when there's a problem with the root folder. %@ is a folder name. */
+"SyncError:RootFolderError Message:%@" = "\"OneDrive 끝내기\"를 클릭하거나 \"OneDrive 설정\"을 클릭하고 \"%@\" 폴더를 다시 설정하세요.";
+
+/* Text for button in error dialog to restart application when there's a problem with the root folder */
+"SyncError:RootFolderError DefaultButton" = "OneDrive 다시 시작";
+
+/* Message title in error dialog when OD found but creation doesn't match the DB. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:FolderMismatch Title:%@,%@" = "%2$@의 \"%1$@\" 폴더가 원래의 \"%1$@\" 폴더가 아닙니다.";
+
+/* Message in error dialog when OD found but creation doesn't match the DB. %@ is a folder name. */
+"SyncError:RootFolderMismatch Message:%@"= "원래 폴더를 다시 이 위치로 이동하고 \"다시 시도\"를 클릭하거나 \"OneDrive 설정\"을 클릭하고 \"%@\" 폴더를 다시 설정하세요.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB */
+"SyncError:MountedFolderMismatch Message" = "원래 폴더를 다시 이 위치로 이동한 다음 \"다시 시도\"를 클릭하거나, \"동기화 중지\"를 클릭하여 이 폴더 동기화를 중지하세요.";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB. %@ is an email address */
+"SyncError:MountedFolderMismatch SetUpMessage:%@" = "원래 폴더를 다시 이 위치로 이동한 다음 \"다시 시도\"를 클릭하거나, \"OneDrive 설정\"을 클릭하고 %@ 계정을 다시 설정하세요.";
+
+/* Message in error dialog when library is deemed unreachable */
+"SyncError:UnreachableLibrary Title" = "라이브러리에 액세스할 수 없습니다.";
+
+/* Message in error dialog when library is deemed unreachable {%@ is library name }*/
+"SyncError:UnreachableLibrary Message:%@" = "%@을(를) 일시적으로 사용할 수 없습니다. 네트워크 연결을 확인하고 잠시 후에 다시 시도하거나 IT 관리자에게 문의하세요.";
+
+/* Message title in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Title" = "경로 길이가 너무 길어 이 항목을 동기화할 수 없습니다.";
+
+/* Message in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Message:%@" = "경로가 너무 길어 파일이나 폴더를 다운로드할 수 없습니다. OneDrive를 종료하고 웹 브라우저에서 비즈니스용 OneDrive으로 이동하여 파일 이름이나 \r\n\"%@\" 경로의 길이를 줄여 보세요.\r\n\r\nOneDrive를 Mac의 다른 위치에 동기화하려면 [설치 프로그램 실행]을 클릭하세요.";
+
+/* Message in error dialog when the max file path limit is reached for a local file */
+"SyncError:LocalMaxPath Message:%@" = "경로가 너무 길어 파일이나 폴더를 업로드할 수 없습니다. OneDrive를 종료하고 파일 이름이나 \r\n\"%@\"의 경로를 짧게 하세요.\r\n\r\n Mac의 다른 위치에서 OneDrive를 동기화하려면 설치 프로그램 실행을 클릭하세요.";
+
+/* Message used in several error dialogs. %@ is an email address */
+"Error:ExitOrSetUpMessage:%@" = "\"OneDrive 끝내기\"를 클릭하거나, \"OneDrive 설정\"을 클릭하고 %@ 계정을 다시 설정하세요.";
+
+/* Text for button in error dialog to exit application when max path length is reached */
+"SyncError:MaxPathLength DefaultButton" = "OneDrive 끝내기";
+
+/* Text for button in error dialog to run FRE when max path length is reached */
+"SyncError:MaxPathLength AlternateButton" = "설치 프로그램 실행";
+
+/* Message title in error dialog when the root folder volume is removed. %@ is a folder name.  */
+"SyncError:DriveVolumeRemovedNoVolume Title:%@" = "\"%@\" 폴더를 찾을 수 없습니다.";
+
+/* Message in error dialog when the root folder volume is removed. %@ is a folder name. */
+"SyncError:DriveVolumeRemovedNoVolume Message:%@" = "\"%@\" 폴더의 위치를 찾을 수 없습니다. 폴더를 삭제하지 않았는지 확인하세요. OneDrive 폴더가 외장형 드라이브에 있는 경우 드라이브가 연결되어 있는지 확인하세요.";
+
+/* Text for button in error dialog to restart application when the root folder volume is removed */
+"SyncError:DriveVolumeRemoved DefaultButton" = "OneDrive 다시 시작";
+
+/* Message title in error dialog when drive containing OD could not be found. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:MissingDrive Title:%@,%@" = "%2$@의 \"%1$@\" 폴더에 액세스할 수 없습니다.";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingNoneRemovableDrive Message:%@" = "%1$@ 드라이브를 아직 Finder에서 사용할 수 있는지 확인하고 \"다시 시도\"를 클릭하거나, \"동기화 중지\"를 클릭하여 이 폴더 동기화를 중지하세요.";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingNoneRemovableDrive SetUpMessage:%@,%@" = "%1$@ 드라이브를 아직 Finder에서 사용할 수 있는지 확인하고 \"다시 시도\"를 클릭하거나, \"OneDrive 설정\"을 클릭하여 %2$@ 계정을 다시 설정하세요.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingRemovableDrive Message:%@" = "%@은(는) 이동식 드라이브입니다. 이 드라이브가 연결되어 있으며 Finder에서 사용 가능한지 확인한 다음 \"다시 시도\"를 클릭하거나, \"동기화 중지\"를 클릭하여 이 폴더 동기화를 중지하세요.";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingRemovableDrive SetUpMessage:%@,%@" = "%1$@은(는) 이동식 드라이브입니다. 이 드라이브가 연결되어 있고 Finder에서 사용 가능한지 확인하고 \"다시 시도\"를 클릭하거나, \"OneDrive 설정\"을 클릭하고 %2$@ 계정을 다시 설정하세요.";
+
+/* Message title in error dialog indicating library cannot be synced, used in ClientNotAllowed, UnsupportedLibrary and DisableSync errors */
+"SyncError:LibraryCannotSync:%@" = "%@ 폴더를 동기화할 수 없습니다.";
+
+/* Message in error dialog when sync is disabled because domain is not "whitelisted" */
+"SyncError:ClientNotAllowed Message" = "이 폴더를 동기화하기 위해 IT 부서에서 사용자가 승인된 도메인에 가입된 컴퓨터를 사용하도록 요구합니다. 지원이 필요한 경우 IT 부서에 문의하세요.";
+
+/* Message in error dialog when the library is unsupported */
+"SyncError:UnsupportedLibrary Message" = "사용자의 IT 부서에서 설정을 변경해 이 폴더의 동기화를 방해하고 있습니다. 지원이 필요한 경우 IT 부서에 문의하세요.";
+
+/* Message in error dialog when sync is disabled */
+"SyncError:DisableSync Message" = "사용자의 조직에서 이 폴더의 동기화를 허용하지 않습니다. 지원이 필요한 경우 IT 부서에 문의하세요.";
+
+/* Title in balloon tip for when the folder was removed remotely during mount. %@ is the name of the folder being mounted. */
+"SyncError:FolderRemovedRemotelyDuringMount Title:%@" = "이 위치에 \"%@\"이(가) 더 이상 존재하지 않음";
+
+/* Message in balloon tip for when the folder was removed remotely during mount */
+"SyncError:FolderRemovedRemotelyDuringMount Message" = "이 폴더는 이동되었거나 삭제된 것 같습니다.";
+
+/* Title in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them the folder has been deleted. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Title:%@" = "\"%@\"이(가) 삭제되었습니다.";
+
+/* Message in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them a copy of the files will be left on the Mac. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Message:%@" = "\"%@\"에서 동기화를 중지합니다. 이러한 파일의 사본은 이 Mac에 남아 있습니다.";
+
+/* Title in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them they no longer have permissions to sync it. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Title:%@" = "\"%@\"을(를) 동기화할 수 있는 권한이 더 이상 없음";
+
+/* Message in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them the files have been removed from the Mac. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Message:%@" = "\"%@\"이(가) Mac에서 제거되었습니다.";
+
+/* Title to show if add folder failed. %@ is a folder name. */
+"AddMountedFolderError Title:%@" = "\"%@\" 폴더를 동기화할 수 없습니다.";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorTryAgain:%@" = "지금은 \"%@\" 폴더를 추가할 수 없습니다. 다시 시도하세요.";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorContactSupport:%@" = "지금은 \"%@\" 폴더를 추가할 수 없습니다. 고객 지원에 문의하세요.";
+
+/* Text for Try Again button, used in error dialogs. */
+"TryAgainButtonText" = "다시 시도";
+
+/* Text for Stop Sync button, used in error dialogs. */
+"StopSyncButtonText" = "동기화 중지";
+
+/* Text for Set Up OneDrive button, used in error dialogs. */
+"SetUpDriveButtonText" = "OneDrive 설정";
+
+/* Text for Exit OneDrive button, used in error dialogs. */
+"ExitOneDriveButtonText" = "OneDrive 끝내기";
+
+// About box - used by coreController.mm
+
+/* Application name displayed in the about dialog */
+"AboutApplicationName" = "Microsoft® OneDrive";
+
+/* Copyright info for the updated about dialog */
+"CopyrightText" = "© 2018 Microsoft Corporation. All rights reserved.";
+
+/* Third Party Notices */
+"ThirdPartyNotices" = "타사 통지";
+
+// Menu Items
+
+/* Text for menu item to open the online help website */
+"MainMenuOnlineHelpMenuItemText" = "OneDrive 온라인 도움말";
+
+/* Text for menu item to open the service agreement website */
+"MainMenuServiceAgreementMenuItemText" = "사용 약관";
+
+/* Text for menu item to open the private agreement website. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"MainMenuPrivacyAgreementMenuItemText" = "Privacy & Cookies";
+
+/* Text for menu item to open the server status website */
+"MainMenuServerStatusMenuItemText" = "서버 상태";
+
+// Manifest failures
+
+/* Main text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureTitle" = "OneDrive를 시작할 수 없습니다.";
+
+/* Informative text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureMessage" = "응용 프로그램 파일에 문제가 있습니다. 이 컴퓨터에 응용 프로그램을 다운로드하고 다시 시도하세요.";
+
+/* Quit button for the message box which explains the application is corrupt and must exit now */
+"ManifestValidationFailureQuitButton" = "OneDrive 끝내기";
+
+// Updater
+
+/* Message title in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableTitle" = "OneDrive를 업데이트해야 합니다.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableMessage" = "OneDrive를 계속 사용하려면 업데이트를 설치해야 합니다.";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreRequiredUpdateAvailableOpenInAppStoreButton" = "업데이트 가져오기";
+
+/* Text in button which quits the application */
+"AppStoreRequiredUpdateAvailableCloseButton" = "OneDrive 끝내기";
+
+/* Message title in dialog when there is an optional update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableTitle" = "OneDrive에 대한 업데이트를 사용할 수 있습니다.";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableMessage" = "업데이트를 가져오시겠습니까?";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreOptionalUpdateAvailableOpenInAppStoreButton" = "업데이트 가져오기";
+
+/* Text in button which quits the application */
+"AppStoreOptionalUpdateAvailableCloseButton" = "아니요";
+
+// Standalone migration
+
+/* Title for dialog shown to a user in a Mac App Store (MAS) migration downgrade scenario.
+ (When a user installs a lower version of Standalone on top of a higher version of Store) */
+"MASMigrationDowngradeScenarioTitle" = "OneDrive에서 설정을 이동할 수 없습니다.";
+
+/* Message for dialog shown to a user in a MAS migration downgrade scenario, informing them of their options */
+"MASMigrationDowngradeScenarioMessage" = "사용 중인 앱이 오래되었으므로 설정을 이동할 수 없습니다. 최신 버전을 다운로드하고 설치하거나 OneDrive를 다시 설정하세요.";
+
+/* Later button for dialog shown to a user in a MAS migration downgrade scenario. The button will exit the client so the user may launch it again to retry the update later */
+"MASMigrationDowngradeScenarioLaterButton" = "나중에";
+
+/* Download button for dialog shown to a user in a MAS migration downgrade scenario. The button will trigger a download of the latest version of Standalone OneDrive */
+"MASMigrationDowngradeScenarioDownloadButton" = "다운로드 및 설치";
+
+/* Set Up OneDrive button for dialog shown to a user in a MAS migration downgrade scenario. The button will cause OneDrive to drop the user's Store settings and show FRE so the user can re-configure their OneDrive for Standalone */
+"MASMigrationDowngradeScenarioResetupOneDriveButton" = "OneDrive 설정";
+
+// Sandbox migration
+
+/* Text in button to select and confirm where the OneDrive folder is */
+"SandboxMigrationConfirmButton" = "위치 확인";
+
+/* Text in button to quit the OneDrive application */
+"SandboxMigrationQuitButton" = "OneDrive 끝내기";
+
+/* Bold text summarizing that the user needs to confirm where the OneDrive folder is */
+"SandboxMigrationTitle" = "OneDrive 폴더의 위치를 확인하세요.";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationText" = "OneDrive를 계속 사용하려면 먼저 Mac에서 OneDrive 폴더가 현재 어디에 있는지 확인해야 합니다.";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationWindowTitle:%@" = "%@ 폴더 위치 확인";
+
+/* Text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderMessage" = "OneDrive 폴더를 확인하세요.";
+
+/* Button text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderButton" = "확인";
+
+/* Title text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderTitle" = "기존 OneDrive 폴더 사용을 중지하시겠습니까?";
+
+/* Descriptive text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderMessage" = "새 위치를 선택하려면 OneDrive 설치 실행을 클릭하세요. OneDrive의 모든 항목이 새 OneDrive 폴더로 다운로드됩니다. 기존 OneDrive 폴더를 계속 사용하려면 돌아가기를 클릭하고 폴더를 선택하세요.";
+
+/* Button text to pick a different folder */
+"SandboxMigrationConfirmDifferentFolderGoBackButton" = "돌아가기";
+
+/* Button text to continue on and reconfigure OneDrive */
+"SandboxMigrationConfirmDifferentFolderQuitButton" = "OneDrive 설치 실행";
+
+/* Text for alerting invalid app bundle location */
+
+/* Title text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertTitle" = "OneDrive 응용 프로그램은 응용 프로그램 폴더에 있어야 합니다.";
+
+/* Description text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertDescription" = "OneDrive를 끝내고 OneDrive 응용 프로그램을 응용 프로그램 폴더로 이동한 다음 OneDrive를 다시 여세요.";
+
+/* Button text to exit in the invalid app location alert */
+"InvalidBundleLocationAlertButtonText" = "OneDrive 끝내기";
+
+
+/* ---------------------------- Support Window ------------------- */
+/* OK Button */
+"SupportWindowOkButton" = "확인";
+
+/* Cancel Button*/
+"SupportWindowCancelButton" = "취소";
+
+/* Try Again Button */
+"SupportWindowTryAgainButton" = "다시 시도";
+
+/* Header string for Support Window */
+"SuportWindowReportProblem" = "문제 보고";
+
+/* Subheading of support window that gives instructions on what to type */
+"SuportWindowTicketSubheading" = "OneDrive 작업에 문제가 발생했습니다. 문제를 진단하는 데 도움을 주려면 문제에 대한 정보 및 문제 발생 시에 수행했던 작업을 최대한 상세히 제공해 주시기 바랍니다.";
+
+/* Header to the textbox in the support window */
+"SupportWindowDescription" = "설명:";
+
+/* String at the bottom of the support window - right below the text field where the user types */
+"SupportWindowContactWarning" = "\"확인\"을 클릭하면 Microsoft에서 이 피드백에 대해 연락하는 것을 허용하게 됩니다.";
+
+/* Link to privacy statement - very bottom of support dialog. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"SupportWindowPrivacyStatement" = "Privacy & Cookies";
+
+/* Text below the progress bar while the support text is being sent */
+"SupportWindowSending" = "보내는 중...";
+
+/* Success message for when the support text was successfully sent */
+"SupportSuccessMessage:%@" = "소중한 시간을 내어 OneDrive에 발생한 문제를 보고해주셔서 감사합니다. 메시지 수신 확인 전자 메일(%@)을 확인하세요.";
+
+/* Error message for when the report was no sucessfully sent. Contains a hyperlink designated by <a> and </a> */
+"SupportErrorMessage" = "메시지를 보내는 중 문제가 발생했습니다. 인터넷 연결을 확인한 후 다시 시도하세요. <a>지원 부서에 문의</a>하여 문제를 보고할 수도 있습니다.";
+
+/* Text for email text field label shown in the support window */
+"SupportWindowEmailLabel" = "전자 메일 주소:";
+/* ----------------------------------------------------------------- */
+
+// App store related strings
+
+/* Apple app store description for OneDrive Mac client */
+"StoreDescription" = "OneDrive는 모든 것을 보관할 수 있는 장소입니다. 개인 파일을 저장할 수 있는 무료 온라인 저장소이므로 Mac과 기타 모든 장치(iPhone, iPad, PC, Windows Phone 또는 Android 장치)에서 액세스할 수 있습니다. 또한 비즈니스용 OneDrive를 사용하면 업무용 파일을 위한 저장소도 제공되므로 회사나 학교에서 다른 사람과 파일을 공유하고 공동 작업할 수 있습니다. Mac용 OneDrive 앱을 사용하면 Mac에서 OneDrive 파일을 간편하게 이용할 수 있습니다.\r\n•Outlook.com에서 OneDrive에 저장한 첨부 파일, Office Online에서 만든 문서와 스프레드시트를 포함한 OneDrive 파일을 Finder에서 곧바로 액세스할 수 있습니다.\r\n•오프라인 상태에서도 OneDrive 파일로 작업할 수 있습니다. 다음에 온라인 상태가 되면 변경 내용이 자동으로 동기화됩니다.\r\n•Mac에서 동기화할 OneDrive의 폴더를 선택할 수 있습니다.\r\n•여러 파일 또는 폴더를 OneDrive 폴더로 끌어서 한꺼번에 OneDrive에 추가할 수 있습니다. OneDrive에 파일을 추가하면 어디에서나 사용할 수 있으며, 컴퓨터에 문제가 생겼을 경우를 대비한 백업으로 이용할 수도 있습니다.\r\n•Word 또는 Excel과 같은 앱에서 OneDrive의 문서 및 기타 파일을 손쉽게 열고 편집하고 만들 수 있습니다. OneDrive.com의 공유 목록에서 공유 폴더를 OneDrive에 추가한 다음 컴퓨터에서 동기화하여 사용자 고유의 폴더와 함께 사용할 수 있습니다.";
+
+/* Pool of generic localized Strings to use for update description */
+"GenericUpdateDescription" = "동기화 안정성 버그가 수정되었습니다. 응용 프로그램 안정성이 개선되었습니다. 동기화 성능이 개선되었습니다. 배터리 소모가 절감되었습니다.";
+
+"GenericStoreUpdate" = "OneDrive를 이용해 주셔서 감사합니다. Microsoft는 OneDrive를 업데이트하여 최신 성능 향상 및 버그 수정으로 최상의 환경을 제공하기 위해 항상 최선을 다하고 있습니다.";
+
+"R16String" = "데이터 통신 연결 네트워크에서의 대역폭 사용이 걱정되시나요? OneDrive를 일시 중지하는 기능이 추가되었으니 안심하세요. '...' 메뉴에서 일시 중지 옵션을 찾을 수 있습니다.";
+
+"R18String" = "OneDrive를 이용해 주셔서 감사합니다. 최신 성능 개선과 버그 수정을 제공하는 일반 업데이트와 함께 다음 새 기능이 점차적으로 배포됩니다.\n폴더 공유 여부를 나타내기 위해 새 오버레이가 추가되었습니다.\n이제 스크린샷을 OneDrive로 리디렉션할 수 있습니다.";
+
+"R19String" = "OneDrive를 이용해 주셔서 감사합니다. 최신 성능 개선과 버그 수정을 제공하는 일반 업데이트와 함께 다음 새 기능이 점차적으로 배포됩니다.\n컴퓨터에 동기화된 Office 문서를 열 때 실시간 공동 작업이 준비됩니다.\n컴퓨터에 동기화된 문서는 Office 응용 프로그램에서 공유할 수 있습니다.\nOneDrive 클라우드를 마우스 오른쪽 단추로 클릭하면 활동 센터 내에서 상황에 맞는 메뉴가 열립니다.\n버전 번호는 별도의 창이 아닌 기본 설정의 [정보] 탭으로 이동되었습니다.";
+
+"R20String" = "OneDrive를 사용해 주셔서 감사합니다. 최근 성능 향상 및 버그 수정을 제공하기 위한 일반적인 업데이트와 함께 다음의 새 기능이 사용자에게 점진적으로 배포됩니다.\n동기화가 일시 중지된 상태에서 배너를 탭하면 동기화가 다시 시작됩니다.";
+
+"R21String" = "OneDrive를 사용해 주셔서 감사합니다. 최근 성능 향상 및 버그 수정을 제공하기 위한 일반적인 업데이트와 함께 다음의 새 기능이 사용자에게 점진적으로 배포됩니다.\nIRM이 설정된 SharePoint 문서 라이브러리에 동기화하는 기능을 추가했습니다.";
+
+"R22String" = "OneDrive를 사용해 주셔서 감사합니다. 최근 성능 향상 및 버그 수정을 제공하기 위한 일반적인 업데이트와 함께 다음의 새 기능이 사용자에게 점진적으로 배포됩니다.\nOneDrive 활동 센터를 더 쉽게 사용하고 이해할 수 있도록 현대화했습니다.\n메뉴의 '문제 신고' 옵션을 '피드백 보내기'로 변경했습니다. 마음에 드는 점 또는 마음에 들지 않는 점을 알려주시거나, OneDrive에 바라는 기능을 제안할 수 있습니다. 언제든지 의견을 제시해 주세요!";
+
+"R24String" = "OneDrive를 사용해 주셔서 감사합니다. 최신 성능 향상 및 버그 수정을 제공하기 위한 일반적인 업데이트와 더불어 사용자에게 점차적으로 배포되는 다음과 같은 새로운 기능이 있습니다.\n이제 OneDrive에서 macOS Mojave Dark Mode를 지원합니다. Dark Mode를 사용하도록 설정하면 OneDrive의 모든 UI가 새로운 멋진 어두운 테마로 전환됩니다!";
+
+"R26String" = "OneDrive를 사용해 주셔서 감사합니다. 최신 성능 향상 및 버그 수정을 제공하기 위한 일반 업데이트와 함께 다음의 새로운 기능을 사용자에게 점진적으로 배포하고 있습니다.\n공유 대화 상자에서 어두운 테마가 추가되었습니다.\n성능을 향상시키고 CPU 사용률을 낮추는 데 도움이 되는 몇 가지 변경을 적용했습니다. 문제가 있는 경우 알려 주세요.";
+
+"R32String" = "OneDrive를 이용해 주셔서 감사합니다. 최신 성능 개선과 버그 수정을 제공하기 위한 일반 업데이트와 더불어 다음 새 기능이 사용자에게 점진적으로 제공됩니다.\n선택한 화면에 활동 센터를 표시하기 위한 다중 디스플레이 설정 지원이 추가되었습니다.";
+
+/* Files On-Demand is the name of a feature that is already available on OneDrive on Windows already. */ 
+"R29String" = "이번 최신 업데이트를 통해 이제 OneDrive 요청 기반 파일 관리를 사용할 수 있습니다! OneDrive 요청 기반 파일 관리는 파일을 모두 다운로드하지 않아도 OneDrive의 모든 파일에 액세스할 수 있으며, 사용 중인 장치에서 저장 공간을 사용할 수 있도록 도와줍니다. 온라인 또는 다른 장치에서 만든 새 파일은 온라인 전용 파일로 표시되며, 장치의 저장 공간을 차지하지 않습니다. 인터넷에 연결되어 있는 경우 장치의 다른 파일과 동일한 방식으로 해당 파일을 사용할 수 있습니다.\n요청 기반 파일 관리를 사용하려면 최신 macOS Mojave(10.14.2 이상)를 실행해야 합니다. OneDrive 기본 설정 메뉴의 일반 탭에서 요청 기반 파일 관리를 사용하도록 설정할 수 있습니다.";
+
+// Finder sync extension commands
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will copy a shareable link to their keyboard */
+"MenuItemShareCommand" = "OneDrive 링크 공유";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will open a web browser and display the selected file in the web interface */
+"MenuItemViewOnlineCommand" = "온라인 보기";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a selective sync window. */
+"MenuItemSelectiveSyncCommand" = "동기화할 OneDrive 폴더 선택";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a browser window that displays some detailed sharing options for the file. */
+"MenuItemSharingOptionsCommand" = "추가 OneDrive 공유 옵션";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a hosted browser window that OneDrive controls. This browser window will load a web page from sharepoint and allow the user to modify sharing options from the file. This is different from just launching the user's default browser. */
+"MenuItemShareBrowserWindowCommand" = "공유";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch the preferences window for the account that the right clicked file belongs to. */
+"MenuItemPreferencesCommand" = "기본 설정";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. */
+"MenuItemPinCommand" = "항상 이 장치에 유지";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. */
+"MenuItemUnpinCommand" = "공간 확보";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will lock the folder. %@ is a folder name. */
+"MenuItemLockCommand:%@" = "%@ 잠금";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will unlock the folder. %@ is a folder name. */
+"MenuItemUnlockCommand:%@" = "%@ 잠금 해제";
+
+// Finder Sync Extension Tooltips
+
+/* Tooltip for synced / up-to-date icon in Mac Finder */
+"IconOverlaySyncedLabel" = "최신 상태";
+
+/* Tooltip for syncing icon in Mac Finder */
+"IconOverlaySyncingLabel" = "동기화 중";
+
+/* Tooltip for error icon in Mac Finder */
+"IconOverlayErrorLabel" = "오류";
+
+/* Tooltip for shared folder synced / up-to-date icon in Mac Finder */
+"IconOverlaySharedSyncedLabel" = "최신 상태";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlaySharedSyncingLabel" = "동기화 중";
+
+/* Tooltip for shared folder error icon in Mac Finder */
+"IconOverlaySharedErrorLabel" = "오류";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlayReadOnlyLabel" = "최신, 읽기 전용";
+
+/* Tooltip for unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedLabel" = "이 장치에서 사용 가능";
+
+/* Tooltip for pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedLabel" = "이 장치에서 항상 사용 가능";
+
+/* Tooltip for unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedLabel" = "온라인일 때 사용 가능";
+
+/* Tooltip for read-only, unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedReadOnlyLabel" = "이 장치에서 사용 가능, 읽기 전용";
+
+/* Tooltip for read-only, pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedReadOnlyLabel" = "이 장치에서 항상 사용 가능, 읽기 전용";
+
+/* Tooltip for read-only, unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedReadOnlyLabel" = "온라인일 때 사용 가능, 읽기 전용";
+
+/* Action center (Toast) notification header for the Icon Overlay feature */
+"IconOverlayToastTitle" = "새 동기화 상태 아이콘 보기";
+
+/* Action center (Toast) notification body for the Icon Overlay feature */
+"IconOverlayToastBody" = "OneDrive에서 Finder에 동기화 상태를 표시하도록 허용하려면 클릭합니다.";
+
+/* Preferences Dialog string for enabling icon overlays*/
+"IconOverlayPreferencesLink" = "OneDrive에서 Finder에 동기화 상태를 표시하도록 허용";
+
+// App moniker related strings
+
+/* Text of basic Moniker*/
+"BasicMoniker:%@" = "OneDrive — %@";
+
+/* Text of Moniker with user's first name. %0@ is user's firstname, %1@ is string like 'OneDrive - Personal' */
+"MonikerWithFirstName:%@,%@" = "%0@ 님의 %1@";
+
+/* Text of Moniker with user's email. %0@ is string like 'OneDrive - Personal', %1@ is email address */
+"MonikerWithEmail:%@,%@" = "%0@(%1@)";
+
+/* Text of Moniker with user's first name and email. %0@ is MonikerWithFirstName like Someone's OneDrive - Personal, %1@ is email address */
+"MonikerWithFirstNameAndEmail:%@,%@" = "%0@(%1@)";
+
+/* Text used in BasicMoniker for personal client */
+"PersonalDisplayMoniker" = "개인";
+
+// Notifications
+
+/* Balloon tip primary text to notify users that the shared folders sync feature is available */
+"SharedFoldersEnabledBaloonTipHeader" = "새 기능 – 공유된 폴더를 동기화할 수 있습니다!";
+
+/* Balloon tip secondary text describing how to start using the shared folder sync feature */
+"SharedFoldersEnabledBaloonTipBody" = "OneDrive.com에서 나와 공유된 폴더를 보려면 클릭합니다. 그런 다음 편집할 수 있는 폴더를 선택하고 \"내 OneDrive에 추가\"를 클릭합니다.";
+
+/* Message shown when users try to run different flavors of OneDrive app side by side */
+"DifferentTypesOfAppSideBySide" = "컴퓨터에 OneDrive가 두 개 있습니다. 한 번에 하나만 실행할 수 있습니다. 두 개 중 하나를 제거하는 것이 좋습니다. 어떤 것이 열려 있는지 보려면 메뉴 모음에서 OneDrive 아이콘을 클릭하고 [기본 설정] > [정보]를 선택하세요.";
+
+/* Title for a notification shown when the user copies a link to a file to their pasteboard */
+"CopyFileLinkToPasteboardTitle" = "링크를 붙여넣을 준비 완료";
+
+/* Body for a notification shown when the user copies a link toa a file to their pasteboard */
+"CopyFileLinkToPasteboardBody" = "링크가 클립보드에 저장되었습니다. 링크를 공유하려면 메시지 또는 게시물에 붙여넣으세요. 링크를 받은 사람 누구나 이 파일을 편집할 수 있습니다.";
+
+/* Title for a notification shown when a screen capture is saved */
+"ScreenshotSavedTitle" = "스크린샷 저장됨";
+
+/* Body for a notification shown when a screen capture is saved. Screenshots should be localized and capitolized. */
+"ScreenshotSavedBody" = "스크린샷 폴더를 열려면 여기를 클릭하세요.";
+
+/* Title for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorTitle" = "OneDrive에 스크린샷을 저장할 수 없음";
+
+/* Body for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorBody" = "스크린샷을 저장하려면 회사 또는 학교 파일을 OneDrive에 동기화하세요. [계정] 탭을 선택한 다음 [동기화 시작]을 클릭하세요.";
+
+// Campaign Manager toast notifications
+
+/* Title for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastTitle" = "로그인 시 열기 활성화";
+
+/* Body for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastBody" = "파일을 항상 동기화하세요.";
+
+/* Title for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastTitle" = "Finder에서 동기화 상태 확인";
+
+/* Body for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastBody" = "Finder 통합을 사용하도록 설정하세요.";
+
+/* Title for Placeholders Finder Sync Extension Campaign toast */
+"PlaceholdersFinderSyncCampaignToastTitle" = "요청 시 파일을 사용하여 공간 확보";
+
+/* Body for Placeholders Finder Sync Extension Campaign toast*/
+"PlaceholdersFinderSyncCampaignToastBody" = "OneDrive Finder 확장을 켜서 설정을 완료하려면 여기를 클릭하세요.";
+
+/* Title for Rate Application Campaign toast */
+"RatingsCampaignToastTitle" = "의견을 보내주세요.";
+
+/* Body for Rate Application Campaign toast */
+"RatingsCampaignToastBody" = "OneDrive 앱을 평가하거나 피드백을 보내세요.";
+
+// Rate Our Application Window
+
+/* Windows title for rate our application window.
+ There's probably no need to localize this string. */
+"RateApplicationWindowTitle" = "Microsoft OneDrive";
+
+/* Title for Rate Us WindowText on two lines, please keep the \n in translation as a line terminator after "Thank you" */
+"RateApplicationBodyTitle" = "OneDrive를 이용해 주셔서\n감사합니다.";
+
+/* Text for Rate us button */
+"RateApplicationWindowRateButton" = "마음에 드시나요? 자세히 알려 주세요.";
+
+/* Text for Tell us how to improve button */
+"RateApplicationWindowSupportbutton" = "개선 사항 공유";
+
+/* Text for Rate Us button - more engaging */
+"RateApplicationWindowRateButtonEngage" = "별 5개를 주세요!";
+
+/*Text for Rate Us button - with question */
+"RateApplicationWindowRateButtonQuestion" = "마음에 드시면 별 5개를 주세요!";
+
+/* ---------------------------- Activity Center ------------------- */
+
+/* Text shown in title bar of Activity Center when we're up to date */
+"ActivityCenterHeaderUpToDate" = "OneDrive가 최신 상태입니다.";
+
+/* Text shown in title bar of Activity Center when files are syncing */
+"ActivityCenterHeaderUpdatingFiles" = "OneDrive에서 파일 업데이트 중...";
+
+/* Text shown in title bar of Activity Center when there are sync problems */
+"ActivityCenterHeaderNeedsAttention" = "OneDrive에 주의 필요";
+
+/* Text shown in title bar of Activity Center when we're paused */
+"ActivityCenterHeaderPaused" = "OneDrive가 일시 중지됨";
+
+/* Text shown in title bar of Activity Center when we're offline */
+"ActivityCenterHeaderOffline" = "OneDrive가 오프라인 상태임";
+
+/* Text shown in title bar of Activity Center when we aren't signed in */
+"ActivityCenterHeaderNotConnected" = "OneDrive가 연결되어 있지 않습니다.";
+
+/* Text shown in the header of Activity Center when OneDrive is being reset */
+"ActivityCenterHeaderResetting" = "OneDrive 다시 설정 중...";
+
+/* Primary text shown in the error bar of Activity Center, placeholder is number of items */
+"ActivityCenterFileErrorsItemPrimary" = "%@개 항목을 동기화할 수 없습니다.";
+
+/* Primary text shown in the error bar of Activity Center, singular item version  */
+"ActivityCenterFileErrorsItemPrimarySingle" = "1개 항목을 동기화할 수 없습니다.";
+
+/* Secondary text shown in the error bar of Activity Center */
+"ActivityCenterFileErrorsItemSecondary" = "자세한 내용을 보려면 클릭하세요.";
+
+/* Up-to-date primary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemPrimary" = "준비 완료";
+
+/* Up-to-date secondary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemSelectiveSync" = "모든 파일이 동기화됨";
+
+/* Up-to-date primary text shown on Activity Center while paused */
+"ActivityCenterPausedPrimary" = "파일이 현재 동기화되고 있지 않습니다.";
+
+/* Up-to-date secondary text shown on Activity Center while paused */
+"ActivityCenterPausedSecondary" = "여기를 클릭하여 동기화를 다시 시작하고, 파일을 최신 상태로 유지합니다.";
+
+/* Text showing progress on one item when it's downloading or uploading. Placeholders are numbers and units for file progress. E.g. Uploading - 10 MB of 1 GB" */
+"ActivityCenterItemProgress" = "· %1$@ %2$@/%3$@ %4$@";
+
+/* Text showing progress on one item when it's downloading or uploading with differential sync. Placeholder %1$@ is a number, %2$@ is a unit, %3$@ is a number, %4$@ is a unit, %5$@ is a number, %6$@ is a unit E.g. Uploading - 10 MB of 1 GB (100 KB)" */
+"ActivityCenterItemProgressDiffSyncUX" = "· %1$@%2$@/%3$@%4$@(%5$@%6$@)";
+
+/* Text shown on one item when it's uploading. */
+"ActivityCenterItemUploading" = "업로드 중";
+
+/* Text shown on one item when it's reviewing the file before syncing. This is specific to differential sync */
+"ActivityCenterItemReviewingChanges" = "동기화 준비 중";
+
+ /* Text shown on one item when it's downloading. */
+"ActivityCenterItemDownloading" = "다운로드 중";
+
+/* Status shown on an item that's finished transfering. */
+"ActivityCenterItemUpdated" = "OneDrive에서 업데이트됨";
+
+/* Status shown on an item that's been removed. */
+"ActivityCenterItemRemoved" = "OneDrive에서 제거됨";
+
+/* Status shown on an item that's finished uploading. Placeholder %% is a folder name. */
+"ActivityCenterItemUploaded" = "%%(으)로 업로드됨";
+
+/* Status shown on an item that's finished downloading. Placeholder %% is a folder name. */
+"ActivityCenterItemDownloaded" = "%%(으)로 다운로드됨";
+
+/* Status shown on an item that's finished moving. Placeholder %% is a folder name. */
+"ActivityCenterItemMoved" = "%%(으)로 이동됨";
+
+/* Status shown on an item that was renamed. Placeholder %% is a folder name. */
+"ActivityCenterItemRenamed" = "%%에서 이름이 바뀜";
+
+/* Status shown on an item that represents a placeholder file. Placeholder %% is a folder name. */
+"ActivityCenterItemPlaceholder" = "%%에서 사용 가능";
+
+/* Timestamp on an item. Placeholders are for time difference and units E.g. 5 minutes ago */
+"ActivityCenterItemTime" = "%1$@%2$@ 전";
+
+/* Timestamp on an item plus application. Placeholders %1$@ %2$@ are for time difference and units. %3$@ is an application name E.g. 5 minutes ago · Microsoft Word */
+"ActivityCenterItemTimeWithAppName" = "%1$@%2$@ 전 - %3$@";
+
+/* Timestamp on an item plus application. Placeholder %1$@ is for a date. %2$@ is an application name E.g. 8/24/2018 · Microsoft Word */
+"ActivityCenterItemDateWithAppName" = "%1$@ - %2$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncing" = "%1$@개 파일 동기화 중(%2$@%3$@/%4$@%5$@)";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncingSingle" = "1개 파일 동기화 중(%1$@%2$@/%3$@%4$@)";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing changes */
+"ActivityCenterSummaryProcessingChanges" = "변경 내용 처리 중";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing a single change */
+"ActivityCenterSummaryProcessingChangesCountSingle" = "변경 내용 처리 중";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing multiple changes. The placeholder %1$@ indicates the number of changes */
+"ActivityCenterSummaryProcessingChangesCount" = "변경 내용 %1$@개 처리 중";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're looking for file system changes */
+"ActivityCenterSummaryLooking" = "변경 내용을 찾는 중";
+
+/* Text read aloud when list of recent files is selected */
+"ActivityCenterHistoryListAccessibleText" = "최근에 사용한 파일";
+
+/* time units used in activity center on timestamps. E.g. 1 second ago */
+"ActivityCenterSecondSingle" = "초";
+
+/* time units used in activity center on timestamps. E.g. N seconds ago */
+"ActivityCenterSecondsMultiple" = "초";
+
+/* time units used in activity center on timestamps. E.g. 1 minute ago */
+"ActivityCenterMinuteSingle" = "분";
+
+/* time units used in activity center on timestamps. E.g. N minutes ago */
+"ActivityCenterMinutesMultiple" = "분";
+
+/* time units used in activity center on timestamps. E.g. 1 hour ago */
+"ActivityCenterHourSingle" = "시간";
+
+/* time units used in activity center on timestamps. E.g. N hours ago */
+"ActivityCenterHoursMultiple" = "시간";
+
+/* Text shown on a button in the Activity Center that takes the user to the Upgrade storage page on OneDrive */
+"ActivityCenterQuotaButtonGetMoreStorage" = "추가 저장 공간 구매";
+
+/* Text shown on a link in the Activity Center that takes the user to the Free up space page on OneDrive */
+"ActivityCenterQuotaButtonFreeUpSpace" = "공간 확보";
+
+/* Primary text shown in the Activity Center when the user's quota is nearing maximum or in a critical state. The placeholders are the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso") and the percentage of space occupied, e.g Your OneDrive is 98% full */
+"ActivityCenterQuotaCriticalTitle, %@ %@" = "%1$@이(가) %2$@%% 사용됨";
+
+/* Secondart text shown in the Activity Center when the user is approaching critical quota. The placeholders are size and units remaining. E.g. You have only 10 MB of available space */
+"ActivityCenterQuotaLeftText, %@ %@" = "사용 가능한 공간이 %1$@ %2$@ 밖에 남지 않았습니다.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive. */
+"ActivityCenterQuotaReachedBody" = "새 파일을 계속 동기화하려면 저장 공간을 추가로 구매하세요.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for Office 365 users. */
+"ActivityCenterQuotaReachedBody1TB" = "공간을 확보하려면 더 이상 필요하지 않은 파일을 제거하세요.";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for business users. */
+"ActivityCenterQuotaReachedBodyBusiness" = "IT 부서에 자세한 내용을 문의하거나 파일을 제거하여 공간을 확보하세요.";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitleBusiness, %@" = "%1$@에 공간이 부족합니다.";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitle, %@" = "%1$@이(가) 가득 찼습니다.";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown for 1 week before switching to the normal banner text. */
+"ActivityCenterQuotaUpsellBannerIntroTitle" = "프리미엄 기능 소개";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalTitle" = "Premium으로 업그레이드";
+
+/* Secondary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalBody" = "1TB(1,000GB)의 저장소와 완전히 새로워진 Office 2016 응용 프로그램을 사용해 보세요.";
+
+/* Part of the secondary text shown in the Activity Center for users without an O365 subscription. This appears in the banner for both upsell states of the banner. */
+"ActivityCenterQuotaUpsellBannerLearnMore" = "자세한 정보";
+
+/* The Accessibility text hint for the ACM dismiss button. */
+"ActivityCenterMessageDismissHint" = "해제";
+
+/* Primary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInTitle" = "시작하려면 OneDrive에 로그인하세요.";
+
+/* Secondary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInBody" = "파일을 액세스하고 이 장치에서 동기화하려면 OneDrive에 로그인하세요.";
+
+/* Button text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInButton" = "로그인";
+
+/* Text shown in the Activity Center while we are signing the user in. */
+"ActivityCenterSigningIn" = "로그인하는 중";
+
+/* Text shown in the Activity Center while we are signing the user out. */
+"ActivityCenterSigningOut" = "로그아웃 중";
+
+/* Clicking this button will open (action) the OneDrive folder in File Explorer */
+"ActivityCenterFooterButtonOpenFolder" = "폴더 열기";
+
+/* Clicking this button will open (action) a web portal where the user can upgrade their account */
+"ActivityCenterFooterButtonGoPremium" = "프리미엄으로 전환";
+
+/* Clicking this button opens the user's (action) OneDrive folder online. ("View" here is an action) */
+"ActivityCenterFooterButtonViewOnline" = "온라인 보기";
+
+/* Clicking this button opens (action) a context menu which contains extra actions like pause, settings and quit */
+"ActivityCenterFooterButtonMore" = "더 보기";
+
+/* Accessibility text for button that will cancel a download */
+"ActivityCenterCancelButtonAccessibleName" = "다운로드 취소";
+
+/* The name "OneDrive" */
+"OneDriveBrandName" = "OneDrive";
+
+/* Primary text shown in the alert of restart after crash */
+"RestartAfterCrashAlertTitle" = "OneDrive에서 문제가 발생했습니다.";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is enabled */
+"RestartAfterCrashAlertBodyReportAProblemEnabled" = "죄송합니다. OneDrive에 문제가 발생했습니다. 이 문제를 보고하여 지원을 받거나 OneDrive를 다시 설정해 볼 수 있습니다. OneDrive를 다시 설정하려면 OneDrive 응용 프로그램을 다시 설치해야 합니다.";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is disabled */
+"RestartAfterCrashAlertBodyReportAProblemDisabled" = "죄송합니다. OneDrive에 문제가 발생했습니다. 이 문제를 보고하여 지원을 받거나 OneDrive를 다시 설정해 볼 수 있습니다. OneDrive를 다시 설정하려면 OneDrive 응용 프로그램을 다시 설치해야 합니다.";
+
+/* Text for report a problem button shown in the alert of restart after crash */
+"RestartAfterCrashAlertReportAProblemButtonText" = "문제 보고";
+
+/* Text for reset onedrive button shown in the alert of restart after crash */
+"RestartAfterCrashAlertResetOneDriveButtonText" = "OneDrive 다시 설정";
+
+/* Text for cancel button shown in the alert of restart after crash */
+"RestartAfterCrashAlertCancelButtonText" = "취소";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared */
+"ShareWebWindowTitle, %@" = "%@ 공유";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared - this one has quotes around the item name */
+"ShareWebWindowTitleWithQuotes:%@" = "\"%@\" 공유";
+
+/* Error primary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorTitleGeneric" = "문제가 발생했습니다.";
+
+/* Error secondary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorSecondaryTextGeneric" = "지금은 이 항목을 공유할 수 없습니다. 나중에 다시 시도하세요.";
+
+/* Error primary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorTitleOffline" = "인터넷에 연결";
+
+/* Error secondary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorSecondaryTextOffline" = "인터넷에 연결되지 않은 것 같습니다. 온라인 상태가 되면 다시 공유하세요.";
+
+/* Text on error button in the Sharing Web Browser window */
+"ShareWebErrorButtonText" = "다시 시도";
+
+/* Text shown on the Loading view of the Sharing Web Browser window */
+"ShareWebLoading" = "로드 중";
+
+/* Text read by the Voice Over utility (accessibility) for the Loading spinner on the Sharing Web Browser Window. The placeholder is the name of the file / folder being shared. */
+"ShareWebLoadingNarrator:%@" = "%@ 공유 준비 완료";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog title */
+"FoundSameNamesUnderFolderErrorTitle" = "파일을 동기화할 수 없음";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog body. The placeholder is the full path of the file. Please keep "\n" intact. */
+"FoundSameNamesUnderFolderErrorBody:%@" = "동일한 위치에 있는 다른 파일의 이름이 동일하거나 대/소문자가 다릅니다.\n%@\n파일 중 하나의 이름을 변경하거나 이동한 다음 OneDrive 앱을 다시 여세요.";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog OK button */
+"FoundSameNamesUnderFolderErrorButton" = "확인";
+
+/* Primary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedPrimary" = "업로드가 일시 중지되었습니다.";
+
+/* Secondary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedSecondary" = "온라인 파일이 사용자와 가까운 서버로 이동 중입니다. 이동이 완료되는 즉시 변경 내용이 동기화됩니다.";
+
+/* Primary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedPrimary" = "파일 동기화를 다시 시작했습니다.";
+
+/* Secondary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedSecondary" = "사용자의 새로운 위치에 있는 서버로 온라인 파일을 모두 이동했습니다.";
+
+/* Primary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantPrimaryText" = "OneDrive를 동기화할 수 없습니다.";
+
+/* Secondary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantSecondaryText" = "IT 부서에서 이 위치의 파일을 사용자 컴퓨터로 동기화하는 것을 허용하지 않습니다.";
+
+/* Text for SyncError MinorVersionLimitExceeded error dialog body */
+"SyncErrorShortDescriptionMinorVersionExceededItem" = "이 파일에 대해 저장할 수 있는 최대 부 버전 수에 도달했습니다. SharePoint 사이트에 파일 게시: 파일을 마우스 오른쪽 단추로 클릭하고 [기타] > [게시]를 선택합니다. 그런 다음 다시 부 버전 저장을 시작할 수 있습니다.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast */
+"FolderRecreatedOnFailedDelete Title" = "폴더를 삭제할 수 없습니다.";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast where %@ is a folder name */
+"FolderRecreatedOnFailedDelete Message:%@" = "\"%@\"을(를) 컴퓨터에 동기화하는 작업을 중지하려면, 여기를 클릭하여 [기본 설정]으로 이동하고 이 폴더의 선택을 취소하세요.";
+
+/* Accessibility text for menu item dropdown button */
+"MenuButtonAccessibleName" = "추가 옵션";
+
+/* Text for per item menu dropdown Open option */
+"MenuItemOpen" = "열기";
+
+/* Text for per item menu dropdown Share option */
+"MenuItemShare" = "공유";
+
+/* Text for per item menu dropdown View online option */
+"MenuItemViewOnline" = "온라인 보기";
+
+/* Title of Setting dialog tab that provides options for Office file syncing. */
+"OfficeText" = "Office";
+
+/* Title text of groupbox on the Office settings tab that provides settings for syncing and file collaboration. */
+"OfficeFileCollabGroupBox" = "파일 공동 작업";
+
+/* Explanation text in the File collaboration groupbox that explains syncing files with Office. */
+"OfficeFileCollabTextField" = "파일을 Office와 동기화하여 다른 사람과 Office 파일에서 동시에 작업할 수 있습니다.";
+
+/* Checkbox text for syncing files with Office 2016. {Locked=!cs, sk;\"Office\"} */
+"OfficeFileCollabCheckBox" = "내가 여는 Office 파일을 Office 응용 프로그램을 사용하여 동기화";
+
+/* Group box title for the Sync conflicts group box - provides options for how to deal with Office file sync conflicts. */
+"OfficeConflictGroupBox" = "동기화 충돌";
+
+/* Radio button for the option to merge files using Office. */
+"OfficeConflictRadioButtonMerge" = "변경 내용을 병합하거나 두 가지 복사본을 보관하도록 선택 허용";
+
+/* Radio button for option to always keep both copies of a file when the file is in an Office conflict. */
+"OfficeConflictRadioButtonFork" = "항상 두 복사본을 보관(이 컴퓨터에서 복사본 이름 변경)";
+
+/* Message to notify that an item cannot be deleted and it will be recreated at original location. */
+/* Title Text for SyncError DeleteCancelledByEventReceiver toast */
+"ItemCannotBeDeleted Title" = "항목을 삭제할 수 없습니다.";
+
+/* Body Text for SyncError DeleteCancelledByEventReceiver toast where %@ is an item name */
+"ItemCannotBeDeleted Message:%@" = "\"%@\"을(를) 컴퓨터에 동기화하는 작업을 중지하려면, 여기를 클릭하여 [기본 설정]으로 이동하고 이 항목의 선택을 취소하세요.";
+
+/* Message to notify that an item cannot be moved from its original location, item moved
+    will be recreated at source and the moved copy will be uploaded from destination. */
+/* Title Text for SyncError UploadFailedOnCannotMoveThickets toast */
+"ItemCannotBeMoved Title" = "항목 중 하나를 이동할 수 없습니다.";
+
+/* Body Text for SyncError MoveCancelledByEventReceiver toast where %@ is a item name which cannot be moved. */
+/* Body Text for SyncError MoveFailedOnCannotMoveThickets toast where %@ is a thicket folder name which cannot be moved. */
+"ItemCannotBeMoved Message:%@" = "대신 \"%@\"을(를) 새 위치에 복사하고, 이 항목의 두 가지 복사본을 모두 업로드했습니다.";
+
+/* Message to notify that an item cannot be added or changed due to server response of cancelled by event receiver. */
+/* Title Text for SyncError AddOrChangeCancelledByEventReceiver toast */
+"ItemAddOrChangeCancelledByEventReceiver Title" = "항목을 업로드할 수 없습니다.";
+
+/* Body Text for SyncError AddOrChangeCancelledByEventReceiver toast where %@ is an item name */
+"ItemAddOrChangeCancelledByEventReceiver Message:%@" = "\"%@\"을(를) 컴퓨터에 동기화하는 작업을 중지하려면, 여기를 클릭하여 [기본 설정]으로 이동하고 이 항목의 선택을 취소하세요.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryClientError" = "IT 부서는 Mac에서 승인된 도메인에 가입할 것을 요청합니다. Mac에서 도메인에 가입하려면 IT 부서에 문의하세요.";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryDisabled" = "조직이 이 폴더 동기화를 허용하지 않습니다. 자세한 내용은 사이트 소유자에게 문의하세요.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryCheckOut" = "이 폴더의 항목을 편집하려면 체크 아웃이 필요합니다. 이 폴더를 동기화하려면 사이트 소유자에게 \"체크 아웃 필요\" 해제를 요청하세요.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryColumnInvalid" = "이 폴더에 동기화할 수 없는 정보의 필수 열이 포함되어 있습니다. 열이 더 이상 필요하지 않고 모든 데이터 유효성 검사를 제거하려면 사이트 소유자 열 편집을 요청하세요.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryIrm" = "동기화하려는 폴더가 정보 권한 관리에 대해 구성되었습니다. 이 폴더에서 정보 권한 관리를 사용하지 않으려면 사이트 관리자에게 문의하세요.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryModeration" = "이 폴더에는 승인된 항목만 추가할 수 있습니다. 이 폴더를 동기화하려면 사이트 소유자에게 \"콘텐츠 승인\"을 요청하세요.";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibrary" = "최근에 변경된 설정으로 인해 이 폴더를 동기화할 수 없습니다. 자세한 내용은 IT 부서에 문의하세요.";
+
+/* Resolution message text for LostPermissionsToMountPoint error */
+"LostPermissionsToMountPoint" = "이 라이브러리를 동기화할 수 있는 권한이 없습니다. 라이브러리를 온라인에서 보고 액세스 권한을 요청하거나, 클릭 또는 탭하여 라이브러리 동기화를 중지하세요.";
+
+/* Resolution message text for LibraryDeleted error */
+"LibraryDeleted" = "이 라이브러리가 제거되었습니다. 이 장치에 저장된 파일은 그대로 유지됩니다. 클릭 또는 탭하여 라이브러리 동기화를 중지하거나 라이브러리 소유자에게 문의하세요.";
+
+/* Resolution message text for ServiceBlockedLibrary error */
+"ServiceBlockedLibrary" = "서비스 문제로 인해 이 라이브러리에 접근할 수 없습니다. OneDrive를 다시 시작하여 다시 시도하세요.";
+
+/* Resolution message text for LibraryNotFound error */
+"LibraryNotFound" = "이 라이브러리를 찾을 수 없습니다. 클릭 또는 탭하여 라이브러리 동기화를 중지하거나 IT 관리자에게 문의하세요.";
+
+/* Error message text for SyncIrmFileFailed error */
+"SyncIrmFileFailed" = "이 보호된 파일을 동기화할 수 없습니다. 이 보호된 파일의 SharePoint 관리자에게 액세스 권한을 요청하세요.";
+
+/* Error message text for IrmRejectedItemOnUpload error */
+"IrmRejectedItemOnUpload" = "IRM을 지원하지 않는 문서의 업로드를 차단하도록 IRM 라이브러리 설정이 구성되었기 때문에 이 파일을 동기화할 수 없습니다.";
+
+/* Error message text for IrmExtensionChangeBlockedItem error */
+"IrmExtensionChangeBlockedItem" = "조직의 정책에서 파일 확장명 바꾸기를 허용하지 않기 때문에 이 항목을 동기화할 수 없습니다. 온라인으로 전환하여 파일 확장명을 원래 이름으로 바꾸거나 사이트 관리자에게 문의하세요.";
+
+/* Error message text for IrmEncryptFailedToFindProtectorItem error */
+"IrmEncryptFailedToFindProtectorItem" = "조직의 정책에서 파일 확장명 바꾸기를 허용하지 않기 때문에 이 항목을 동기화할 수 없습니다. 사이트 관리자에게 문의하세요.";
+
+/* Error message for ItemCantFitOnDisk error. */
+"ItemCantFitOnDisk" = "이 컴퓨터에 이 파일을 동기화하기 위한 충분한 공간이 없습니다.";
+
+/* Text for menu item to open help center */
+"MainMenuItemHelpCenter" = "도움말 센터";
+
+/* Window title used for send feedback.
+ There's probably no need to localize this string. */
+"FeedbackApplicationTitle" = "Microsoft OneDrive";
+
+/* Send feedback menu item label */
+"FeedbackMenuLabel" = "피드백 보내기";
+
+/* Send feedback window title */
+"FeedbackWindowTitle" = "피드백 보내기";
+
+/* Link to privacy statement page */
+"FeedbackPrivacyLinkText" = "<a href=\"#\">사용자의 개인 정보를 소중하게 다룹니다.</a>";
+
+/* Link to terms of service page */
+"FeedbackTosLinkText" = "<a href=\"#\">Microsoft</a>는 사용자 의견을 수집하고 사용자 환경 개선에 활용합니다.";
+
+/* Header of the button to send positive feedback */
+"FeedbackSmileChoiceTitle" = "마음에 드는 점이 있습니다.";
+
+/* Explanation for the send positive feedback button */
+"FeedbackSmileChoiceText" = "사용자 여러분의 의견을 기다립니다.";
+
+/* Placeholder for the user input field */
+"FeedbackSmileFieldTip" = "마음에 드는 점을 알려 주세요.";
+
+/* Placeholder for the user input field */
+"FeedbackFrownFieldTip" = "마음에 들지 않는 점을 알려 주세요.";
+
+/* Header of the send negative feedback button */
+"FeedbackFrownChoiceTitle" = "마음에 들지 않는 점이 있습니다.";
+
+/* Explanation for the send negative feedback button */
+"FeedbackFrownChoiceText" = "마음에 들지 않는 점이 있다면 알려주세요.";
+
+/* Header of the Send a Suggestion button */
+"FeedbackSuggestionChoiceTitle" = "제안 사항이 있습니다.";
+
+/* Explanation for the Send a Suggestion button */
+"FeedbackSuggestionChoiceText" = "아이디어 또는 개선 사항을 공유합니다.";
+
+/* Checkbox label to opt-in/opt-out of sending log files */
+"FeedbackIncludeLogsLabel" = "진단 및 사용 현황 데이터 포함";
+
+/* Label for the button to send feedback */
+"FeedbackSendButtonLabel" = "전송";
+
+/* Label for the button to resent feedback in the case of sending failure */
+"FeedbackRetryButtonLabel" = "다시 시도";
+
+/* Label for the button to cancel feedback submission request */
+"FeedbackCancelButtonLabel" = "취소";
+
+/* Label for the button to finish send feedback */
+"FeedbackCloseButtonLabel" = "닫기";
+
+/* Message shown in the case of feedback submission failure */
+"FeedbackSendFailureText" = "죄송합니다. 의견을 보내는 중 문제가 발생했습니다. 인터넷 연결을 확인하고 다시 시도하세요. <a href=\"#\">고객 지원에 연락</a>하여 문제를 보고할 수도 있습니다.";
+
+/* Message shown during feedback submission */
+"FeedbackSendingText" = "보내는 중...";
+
+/* Message shown at the end of feedback submission. */
+"FeedbackSendSuccessText" = "의견을 보내주셔서 감사합니다. 사용자 의견은 제품 개선에 큰 도움이 됩니다.";
+
+/* Window title shown at the end of feedback submission. */
+"FeedbackSendSuccessTitle" = "감사합니다.";
+
+/* Label for the button to go back to feedback type selection page. */
+"FeedbackBackButtonLabel" = "뒤로";
+
+/* Title of local mass delete prompt for personal instance. */
+"LocalMassDeletePromptTitlePersonal" = "OneDrive에서 파일을 제거할까요?";
+
+/* Title of local mass delete prompt for business instance. */
+"LocalMassDeletePromptTitleBusiness" = "모든 위치에서 파일을 제거할까요?";
+
+/* Body of local mass delete prompt for personal instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyPersonal:%@" = "최근 이 장치에서 %@개 파일을 삭제했습니다. OneDrive에서도 해당 파일을 제거할까요?";
+
+/* Body of local mass delete prompt for business instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyBusiness:%@" = "최근 이 장치에서 %@개 파일을 삭제했습니다. OneDrive와 모든 공유 라이브러리에서도 해당 파일을 제거할까요?";
+
+/* Text of Restore button of local mass delete prompt. */
+"LocalMassDeletePromptRestoreButton" = "파일 복원";
+
+/* Text of Delete button of local mass delete prompt. */
+"LocalMassDeletePromptDeleteButton" = "제거";
+
+/* Text of Opt out checkbox of local mass delete prompt. */
+"LocalMassDeletePromptOptoutCheckbox" = "항상 파일 제거";
+
+/* Activity center local mass delete per item history description. */
+"ActivityCenterItemPendingRemoval" = "OneDrive에서 제거 보류 중";
+
+/* Checkbox text to toggle the local mass delete feature in settings dialog. */
+"LocalMassDeleteSettingsCheckbox" = "클라우드에서 파일을 제거하기 전에 알림";
+
+/* Title text of local mass delete confirmed ACM. */
+"LocalMassDeleteConfirmedTitle" = "파일을 복원해야 하나요?";
+
+/* Body text of local mass delete confirmed ACM for personal instance. */
+"LocalMassDeleteConfirmedBodyPersonal" = "OneDrive에서 파일을 삭제하면 모든 장치에서 해당 파일이 삭제됩니다. 30일 동안은 OneDrive 휴지통에서 해당 파일을 복원할 수 있습니다.";
+
+/* Body text of local mass delete confirmed ACM for business instance. */
+"LocalMassDeleteConfirmedBodyBusiness" = "OneDrive에서 파일을 삭제하면 모든 장치와 위치에서 해당 파일이 삭제됩니다. 93일 동안은 OneDrive 또는 공유 라이브러리의 휴지통에서 해당 파일을 복원할 수 있습니다. 최근에 삭제한 파일이 포함된 휴지통을 보려면 아래를 클릭하세요.";
+
+/* Text of recycle bin button of LocalMassDelete confirmed ACM. */
+"LocalMassDeleteRecycleBin" = "휴지통";
+
+/* Header text informing user that an application is downloading their files. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeader:%@" = "%@이(가) OneDrive에서 다운로드하고 있습니다.";
+
+/* Header text informing user that an application is downloading their files. This version is used if many files are downloading. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeaderAboveThreshold:%@" = "%@이(가) OneDrive에서 여러 파일을 다운로드하고 있습니다.";
+
+/* Body text informing user that an application is downloading their files. Clicking on this toast will open a confirmation dialog. */
+"CloudFilesHydrationToastBody" = "현재 및 향후 다운로드를 취소하려면 여기를 클릭하세요.";
+
+/* Header text informing user that an application is downloading their files. %1$@ is an application name. %2$u is a number. */
+"CloudFilesHydrationDialogHeader:%@,%u" = "%1$@이(가) 파일 %2$u개를 다운로드하고 있습니다.";
+
+/* Body text informing user that an application is downloading their files. %@ is an application name. */
+"CloudFilesHydrationDialogBody:%@" = "앱이 계속 다운로드하도록 허용하거나 다운로드를 중지할 수 있습니다. 앞으로 발생하는 %@에서의 다운로드를 모두 중지하려면 \"앱 차단\"을 선택하세요.";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will continue downloading files. */
+"CloudFilesHydrationDialogContinueButton" = "계속 다운로드";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files. */
+"CloudFilesHydrationDialogStopButton" = "다운로드 중지";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files and block this application from future downloads. */
+"CloudFilesHydrationDialogBlockButton" = "앱 차단";
+
+// Download And Go
+
+/* Download And Go application friendly name*/
+"DownloadAndGoFriendlyName" = "OneDrive 파일 시작 관리자";
+
+/* Download And Go window title when no errors are displayed. %@ is a number. */
+"DownloadAndGoTitle:%@" = "항목 %@개를 OneDrive에 다운로드 중";
+
+/* Download And Go downloading message. %@ is a file name. */
+"DownloadAndGoDownloadingMessage:%@" = "\"%@\" 다운로드 중";
+
+/* Download And Go progress message for progressing hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoProgressingHydrationProgress: %@ %@" = "%1$@/%2$@";
+
+/* Download And Go progress message for queued hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoQueuedHydrationProgress: %@ %@" = "%1$@/%2$@ - 다운로드 보류 중";
+
+/* Download And Go window title when errors are displayed*/
+"DownloadAndGoErrorsTitle" = "OneDrive에 다운로드할 수 없습니다.";
+
+/* Download And Go error message. %@ is file name. %d is a number. */
+"DownloadAndGoErrorMessage: %@ %d" = "OneDrive에서 \"%1$@\"을(를) 다운로드할 수 없습니다(오류 코드 %2$d).";
+
+/* Download And Go cancel error button */
+"DownloadAndGoCancelErrorButton" = "취소";
+
+/* Download And Go try hydration again button */
+"DownloadAndGoTryAgainButton" = "다시 시도";
+
+// Finder Sync Extension Activity Center Messages
+
+/* The title of the large ACM used to inform the user about Files On-Demand if the Finder Sync Extension is enabled. */
+"FinderSyncEnabledTitle" = "온라인 파일로 공간 절약";
+
+/* The body of a large ACM that informs the user about Files On-Demand if the Finder Sync Extension is enabled. "Finder" should be translated the same way as in the Mac OSX. "Always keep on this device" should be translated the same as the MenuItemPinCommand string. */
+"FinderSyncEnabledBody" = "이제 디스크 공간을 채우지 않고 전체 OneDrive에 액세스할 수 있습니다. 오프라인으로 필요한 항목이 있는 경우 Finder에서 해당 항목을 마우스 오른쪽 단추로 클릭하고 \"항상 이 장치에 유지\"를 선택하세요.";
+
+/* The first button's text in a large ACM that that informs the user about Files On-Demand. When clicked, the message is dismissed. */
+"FinderSyncOkay" = "확인";
+
+/* The text of a button that opens a URL with more information about Files On-Demand. Used in all Finder Sync ACMs. */
+"FinderSyncLearnMore" = "자세한 정보";
+
+/* The title of the large ACM used to prompt them to enable the Finder Sync Extension. */
+"FinderSyncPromptTitle" = "요청 시 파일 100% 활용";
+
+/* The body of a large ACM that prompts the user to enable the Finder Sync Extension if it is disabled. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptBody" = "요청 시 파일을 사용하면 OneDrive 파일을 온라인 전용으로 표시하여 컴퓨터의 공간을 확보할 수 있습니다. 파일을 온라인 전용으로 표시하려면 OneDrive Finder 확장을 켜야 합니다.";
+
+/* The first button's text in a large ACM that prompts the user to enable the Finder Sync Extension. When clicked, the user's Extensions settings are opened. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptEnableExtension" = "Finder 확장 켜기";
+
+/* The title text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpTitle" = "요청 시 파일 모두 설정";
+
+/* The body text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpBody" = "공간을 절약하기 위해 요청 시 파일을 사용할 수 있습니다.";
+
+/* The title of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */
+"FinderSyncEnabledWithSelectiveSyncTitle" = "모든 파일 보기";
+
+/* The body of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */ 
+"FinderSyncEnabledWithSelectiveSyncBody" = "이 장치에 일부 파일만 동기화하고 있습니다. 이제 요청 시 파일을 통해 장치에서 디스크 공간을 사용하지 않고 모든 파일을 볼 수 있습니다.";
+
+/* The button of an ACM that prompts the user to disable Selective Sync if the Finder Sync Extension is enabled and Files On-Demand is enabled. */
+"FinderSyncEnabledTurnOffSelectiveSyncButton" = "모든 파일 보기";
+
+// Strings for the kext installer helper
+
+/* Window title for the kext installer helper*/
+"KextWizardWindowTitle" = "Microsoft OneDrive";
+
+/* Body header for the kext installer helper */
+"KextWizardBodyHeader" = "요청 기반 파일 관리 업데이트";
+
+/* Body text for the kext installer helper*/
+"KextWizardBodyText" = "요청 기반 파일 관리를 사용하려면 OneDrive에서 시스템 확장을 허용해야 합니다. 보안 기본 설정 열기를 클릭한 다음 [허용]을 클릭하세요.";
+
+/* Action button for the kext installer helper */
+"KextWizardOpenSecurityButton" = "보안 기본 설정 열기";
+
+// Throttling
+
+/* Individual file gets throttled */
+"FileTransferThrottled" = "높은 서비스 활동으로 인해 임시 동기화 지연이 발생할 수 있습니다. 잠시 후 파일을 다시 업데이트하겠습니다.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that a number of items couldn't be synced. */
+"FileTransferThrottledPrimary" = "동기화 지연";
+
+/* Description text shown on the sub-header of the Activity Center when there are files being throttled. */
+"FileTransferThrottledSecondary" = "높은 서비스 활동으로 인해 임시 동기화 지연이 발생할 수 있습니다.";
+
+/* Describes the generic resolution, in the Errors Window, of a file that cannot sync because it is in use by another process. */
+"FilePostponedByClient" = "이 파일이 다른 프로그램에서 열려 있어 동기화할 수 없습니다. 파일이 닫히면 동기화할 수 있습니다.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that one file is in use by another application. */
+"FilePostponedByClientSingular" = "파일을 다른 응용 프로그램에서 사용 중입니다.";
+
+/* Title text shown in the sub-header of the Activity Center indicating that multiple files are in use by other applications. %@ is a number. */
+"FilePostponedByClientPlural:%@" = "파일 %@개를 다른 응용 프로그램에서 사용 중입니다.";
+
+// Reset UI strings
+
+/* Window title used for the Reset popup window */
+"ResetApplicationTitle" = "Microsoft OneDrive";
+
+/* Header text for the Reset popup window */
+"ResetHeaderText" = "OneDrive 다시 설정";
+
+/* Description text for what happens during a reset */
+"ResetDescriptionText" = "OneDrive를 동기화하는 데 문제가 있는 경우 다시 설정하면 도움이 될 수 있습니다. 다시 설정 작업이 동기화 서비스를 일시적으로 중지하고 클라우드에 있는 파일 계층 구조를 로컬 머신에 다시 동기화합니다. <a href=\"#\">자세한 정보.</a>";
+
+/* Checkbox text to ask if the user wants to preserve their selective sync and teamsites settings */
+"ResetSettingsCheckboxText" = "내 파일 설정 및 구성 유지(권장)";
+
+/* Button text to abort the reset process */
+"ResetCancelButtonLabel" = "취소";
+
+/* Button text to begin the reset process */
+"ResetConfirmButtonLabel" = "다시 설정";
+
+/* Title text for reset in progress ACM */
+"ResetInProgressTitle" = "다시 설정하는 중입니다.";
+
+/* Body text for reset in progress ACM */
+"ResetInProgressBody" = "다시 설정하는 동안 계속 파일 작업을 진행할 수 있습니다. 다시 설정이 완료된 후 파일이 로컬 디스크에 저장되며 OneDrive에 업로드됩니다.";
+
+/* Title text for reset successful ACM */
+"ResetSuccessTitle" = "다시 설정 완료";
+
+/* Body text for reset successful ACM */
+"ResetSuccessBody" = "새로워진 OneDrive를 둘러보세요.";
+
+/* Title text for reset successful with errors ACM */
+"ResetSuccessWithErrorsTitle" = "다시 설정이 완료되었으나...";
+
+/* Body text for reset successful with errors ACM */
+"ResetSuccessWithErrorsBody" = "OneDrive에 아직 오류가 있으며 다시 설정 작업으로 해결할 수 없습니다. 해당 오류를 보려면 탭하거나 클릭하세요.";
+
+/* Title text for reset failed ACM */
+"ResetFailureTitle" = "다시 설정할 수 없습니다.";
+
+/* Body text for reset failed ACM */
+"ResetFailureBody" = "문제가 발생했습니다. <a href=\"#\">자세한 정보.</a>";
+
+/* Title text for reset successful history list item */
+"ActivityListHistoryResetSuccessPrimary" = "다시 설정 완료";
+
+/* Body text for reset successful history list item */
+"ActivityListHistoryResetSuccessSecondary" = "새로워진 OneDrive를 둘러보세요.";
+
+/* Title text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsPrimary" = "다시 설정 완료";
+
+/* Body text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsSecondary" = "여전히 몇 가지 오류가 있습니다.";
+
+/* Title text for reset failed history list item */
+"ActivityListHistoryResetFailurePrimary" = "다시 설정할 수 없습니다.";
+
+/* Body text for reset failed history list item */
+"ActivityListHistoryResetFailureSecondary" = "문제가 발생했습니다.";
+
+/* Title text for reset completed toast */
+"ToastResetCompletedTitle" = "OneDrive 다시 설정이 완료되었습니다.";
+
+/* Body text for reset completed toast */
+"ToastResetCompletedBody" = "파일 상태를 보려면 여기를 탭하거나 클릭하세요.";
+
+/* Title text for reset failed toast */
+"ToastResetFailedTitle" = "OneDrive를 다시 설정할 수 없습니다.";
+
+/* Body text for reset failed toast */
+"ToastResetFailedBody" = "다음 단계를 보려면 여기를 탭하겨나 클릭하세요.";
+
+// End Reset UI strings
+
+/* Resolution message for client access denied. */
+"ClientAccessDeniedErrorsShortDescription" = "항목에 대한 액세스 권한이 없는 것 같습니다. 항목을 동기화할 수 있는 권한이 있는지 확인하세요.";
+
+// Purchase Window Strings
+
+/* Title text show in Purchase Window */
+"PurchaseWindowTitle" = "Microsoft OneDrive";
+
+/* Header text shown in Purchase Window */
+"PurchaseWindowHeader" = "프리미엄 환경을 누리세요!";
+
+/* Header text shown in Purchase Window after buying the subscription */
+"PurchaseSuccessWindowHeader" = "축하합니다!";
+
+/* Header text shown in Purchase Window while buying the subscription */
+"PurchaseWindowLoadingTitle" = "로드 중";
+
+/* Body text shown in the Purchase Window*/
+"PurchaseWindowBody" = "Office 365 무료 1개월 구독으로 프리미엄 OneDrive 기능을 즐길 수 있습니다. 적합한 요금제를 선택하고 무료 평가판을 시작하세요.";
+
+/* Body text shown in the Purchase Window after buying the subscription */
+"PurchaseSuccessWindowBody" = "이제 전용 기능에 액세스할 수 있습니다. 1개월 평가 기간 후 카드에 자동 청구됩니다.";
+
+/*Link button to skip the window */
+"PurchaseWindowSkipNowLink" = "지금은 건너뛰기";
+
+/* Sub text in product subscription card describing our premium features*/
+"PurchaseCardMainBody" = "프리미엄 OneDrive 기능";
+
+/* Decribes our product subscription right below a row of images showing the office apps*/
+"PurchaseCardSubBody" = "PC 및 Mac용 최신 Office 앱";
+
+/* Purchase card button text which will start a purchase flow */
+"PurchaseCardButtonText" = "프리미엄으로 업그레이드 - 첫 달 무료";
+
+/* Purchase card link text which will launch a learn more campaign */
+"PurchaseCardLinkText" = "자세한 정보";
+
+/* Personal subscription card list text. Only for 1 person  */
+"PurchasePersonalList1" = "개인용";
+
+/* Home subscription card list text. Bundle avaiable for 6 people*/
+"PurchaseHomeList1" = "6인용";
+
+/* Personal subscription card list text. 1 Terabyte of storage in OneDrive */
+"PurchasePersonalList2" = "1TB 저장소";
+
+/* Home subscription card list text. 6 Terabyte of storage in OneDrive */
+"PurchaseHomeList2" = "6TB 저장소";
+
+/* Common subscription card list text for all bundles. Access advanced security features */
+"PurchaseCommonList3" = "고급 보안";
+
+/* Common subscription card list text for all bundles. Access more producitivty tool*/
+"PurchaseCommonList4" = "생산성 도구";
+
+/* Price of a yearly subscription. %@ is money symbol followed by a decimal number. Example: $59.99*/
+"PurchasePriceYearConstant:%@" = "%@/년";
+
+/* Close the window */
+"PurchaseCloseButtonText" = "닫기";
+
+/* Accessible name for a list of Microsoft Office Products*/
+"PurchaseIconAccessibleName" = "Microsoft Office 제품";
+
+/* Accessible name for a list of details concerning a Office Subscription.*/
+"PurchaseListBodyAccessibleName" = "기능 목록";
+
+/* Error title of purchase window*/
+"PurchaseWindowErrorTitle" = "오류 발생";
+
+/* Error body of purchase window. Receipt is already in use*/
+"PurchaseErrorReceiptInUse" = "다른 Microsoft 계정이 이미 Office 365 구매를 신청했습니다.";
+
+/* Error body of purchase window. Transient Error that automatically might resolve*/
+"PurchaseErrorTransientIssue" = "Office 365를 구입했지만 Microsoft 계정에 구독을 적용하지 못했습니다. 나중에 다시 시도하세요. 요금은 재청구되지 않습니다. 24시간 후에도 이 문제가 지속되면 지원에 문의하세요.";
+
+/* Error body of purchase window. Error that we are unable to resolve.*/
+"PurchaseErrorUnableToResolve" = "Office 365를 구입했지만 Microsoft 계정에 구독을 적용하지 못했습니다. 지원팀에 문의하세요.";
+
+/* Terms of Use title for purchasing a subscription */
+"PurchaseSubscriptionTermsTitle" = "구독 세부 정보";
+
+/* Terms of Use body for purchasing a subscription */
+"PurchaseSubscriptionTermsBody" = "구입한 Office 365 구독은 iTunes 계정에 부과되며 사전에 자동 갱신을 해제한 경우 이외에는 현재 구독 기간이 끝나기 24시간 이내에 자동으로 갱신됩니다. 구독을 관리하거나 자동 갱신을 해제하려면 iTunes 계정 설정으로 이동하세요. 활동 구독 기간 중에는 구독을 취소할 수 없습니다. 무료 평가판 기간의 미사용 부분은 적용 가능한 경우 사용자가 해당 게시물에 대한 구독을 구매할 때 상실됩니다.";
+
+/* Text that will link to a web page describing the Microsoft terms of use */
+"PurchaseSubscriptionTermsOfUseLink" = "사용 약관";
+
+/* Text that will link to a web page describing the terms of privacy */
+"PurchaseSubscriptionPrivacyLink" = "개인 정보 보호";
+
+// End Purchase window strings
+
+// Get Help window strings
+
+/* Get Help window title */
+"GetHelpWindowTitle" = "고객 지원";
+
+/* Placeholder for the Get Help user input field */
+"GetHelpFieldTip" = "여기에 문제를 적으세요.";
+
+/* Window title shown at the end of get help submission succeeded. */
+"GetHelpSendSuccessTitle" = "지원 요청 제출됨";
+
+/* Message shown at the end of get help submission - %1$@ is user email. */
+"GetHelpSendSuccessText:%@" = "OneDrive 에이전트가 %1$@(으)로 연락드립니다.";
+
+/* Window title shown at the end of get help submission failure. */
+"GetHelpSendFailureTitle" = "지원 요청이 실패했습니다.";
+
+/* Message shown in the case of feedback submission failure */
+"GetHelpSendFailureText" = "죄송합니다. 지원 요청을 제출하는 중 문제가 발생했습니다. 인터넷 연결을 확인하고 나중에 다시 시도하세요.";
+
+// End Get Help window strings

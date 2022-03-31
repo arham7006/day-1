@@ -1,0 +1,48 @@
+﻿<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-ThreadPool-Log" />
+  <provider guid="{cdc1d2c7-f6bd-438f-858b-fd6d7a77b63c}" symbol="EventMachineLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default">
+      <event level="Warning" symbol="CreateHandlerFail" message="Unable to create handler because the current thread is not registered" value="864130886" />
+      <event level="Informational" symbol="EventMachineAttachThread" message="EventMachine::AttachThread" value="1192878903" />
+      <event level="Informational" symbol="EventMachineDetachThread" message="EventMachine::DetachThread" value="2838945175" />
+      <event level="Error" symbol="AttachThreadFail" message="AttachThread failed because the thread is already registered or this instance of EventMachine has been shutdown (_isShuttingDown=%isShutdown" value="2559149272">
+        <template>
+          <data type="Boolean" name="isShutdown" />
+        </template>
+      </event>
+      <event level="Warning" symbol="EventMachineDetachThreadFail" message="DetachThread was invoked from a thread that didn't call AttachThread before" value="875298706" />
+      <event level="Informational" symbol="EventMachineShutdown" message="EventMachine::Shutdown" value="2903579371" />
+      <event level="Verbose" symbol="EventMachineFireEvent" message="FireEvent: %name" value="1986064976">
+        <template>
+          <data type="AnsiString" name="name" />
+        </template>
+      </event>
+      <event level="Warning" symbol="DeliverEventToCurrentThreadFail" message="DeliverEventToCurrentThread was invoked, but the current thread is not registered" value="3426039321" />
+      <event level="Verbose" symbol="EventMachineDeliverEventToCurrentThread" message="DeliverEvent: %name" value="914773908">
+        <template>
+          <data type="AnsiString" name="name" />
+        </template>
+      </event>
+      <event level="Verbose" symbol="MainThreadProxyReentrantCall" message="Reentrant call to ExecuteItems detected" value="194954682" />
+      <event level="Warning" symbol="NoOneListening" message="FireEvent for %eventName was invoked, but no Handlers on any thread were registered for this event" value="987878245">
+        <template>
+          <data type="AnsiString" name="eventName" />
+        </template>
+      </event>
+      <event level="Warning" symbol="DispatchNoOneListening" message="DeliverEventToCurrentThread for %eventName was invoked, but no Handlers on this thread were registered for this event" value="1873410056">
+        <template>
+          <data type="AnsiString" name="eventName" />
+        </template>
+      </event>
+    </events>
+  </provider>
+</manifest>

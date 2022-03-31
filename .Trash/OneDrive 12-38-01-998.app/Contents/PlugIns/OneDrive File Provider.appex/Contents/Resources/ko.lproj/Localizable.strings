@@ -1,0 +1,53 @@
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. (action) */
+"ContextMenuAction_Pin" = "항상 이 장치에 유지";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. (action) */
+"ContextMenuAction_Unpin" = "공간 확보";
+
+/* A right click context menu option displayed when the user right clicks a file that opens a dialog where the user can share the item with other users (action) */
+"ContextMenuAction_Share" = "공유";
+
+/* A right click context menu option displayed when the user right clicks a file that opens a dialog where the user can restore previous versions of the file (action) */
+"ContextMenuAction_VersionHistory" = "버전 기록";
+
+/* A right click context menu option displayed when the user right clicks a file that opens a browser window with the file on OneDrive.com (action) */
+"ContextMenuAction_ViewOnline" = "온라인에서 보기";
+
+/* A right click context menu option displayed when the user right clicks one or multiple Added Folder shortcuts that OneDrive is syncing. This command will remove the shortcuts and unmount the Added Folder (action) */
+"ContextMenuAction_RemoveShortcut" = "바로 가기 제거";
+
+/* A tooltip for a file with an error icon in finder */
+"GenericFileErrorTooltip" = "오류";
+
+/* Title bar text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_Title" = "폴더를 이동할 수 없음";
+
+/* Description text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_SubTitle" = "이 폴더는 Mac으로 이동할 수 없습니다.";
+
+/* Title bar text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_Title" = "항목을 이동할 수 없음";
+
+/* Description text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_SubTitle" = "이 항목은 Mac으로 이동할 수 없습니다.";
+
+/* Text shown in the Finder when the extension boots up with no database. The resolution is for the user to exit and restart OneDrive. */
+"MacboxDisconnectReasonRestartOneDrive" = "이 위치 동기화를 계속하려면 OneDrive를 다시 시작하세요.";
+
+/* Tooltip for files and folders in the pinned state */
+"BadgeTooltip_Pinned" = "이 장치에서 항상 사용 가능";
+
+/* Tooltip for files and folders which are shared with other users. */
+"BadgeTooltip_Shared" = "공유";
+
+/* Tooltip for files and folders which are shared AND in the pinned state. */
+"BadgeTooltip_PinnedShared" = "이 장치에서 공유 및 항상 사용 가능";
+
+/* Tooltip for files excluded from syncing. Ex: HVEL, LVEL and ODIgnored */
+"BadgeTooltip_Ignored" = "동기화에서 제외됨";
+
+/* A tooltip for a custom icon on a team site folder. */
+"RootTooltip_TeamSite" = "공유 라이브러리";
+
+/* A tooltip for a custom icon on an added/shortcut folder. */
+"RootTooltip_Shortcut" = "바로 가기";

@@ -1,0 +1,1578 @@
+DIR /Contents
+DIR /Contents/OneDrive File Launcher.app
+DIR /Contents/MacOS
+DIR /Contents/PlugIns
+DIR /Contents/Resources
+DIR /Contents/Library
+DIR /Contents/OneDriveUpdaterDaemon.xpc
+DIR /Contents/StandaloneUpdater.app
+DIR /Contents/StandaloneUpdaterDaemon.xpc
+DIR /Contents/Frameworks
+DIR /Contents/OneDrive Updater.app
+DIR /Contents/OneDrive Updater.app/Contents
+DIR /Contents/OneDrive Updater.app/Contents/_CodeSignature
+DIR /Contents/OneDrive Updater.app/Contents/MacOS
+DIR /Contents/OneDrive Updater.app/Contents/Resources
+DIR /Contents/OneDrive Updater.app/Contents/Frameworks
+DIR /Contents/Frameworks/MSCommon.framework
+DIR /Contents/Frameworks/MSSyncEngine.framework
+DIR /Contents/Frameworks/QtQuickControls2.framework
+DIR /Contents/Frameworks/DatabaseManager.framework
+DIR /Contents/Frameworks/QtPrintSupport.framework
+DIR /Contents/Frameworks/QtGui.framework
+DIR /Contents/Frameworks/QtDBus.framework
+DIR /Contents/Frameworks/QtQuickTemplates2.framework
+DIR /Contents/Frameworks/QtQuick.framework
+DIR /Contents/Frameworks/QtCore.framework
+DIR /Contents/Frameworks/MacCrossPlatformUX.framework
+DIR /Contents/Frameworks/QtQml.framework
+DIR /Contents/Frameworks/MacQtViews.framework
+DIR /Contents/Frameworks/MSP2P.framework
+DIR /Contents/Frameworks/QtMacExtras.framework
+DIR /Contents/Frameworks/QtWidgets.framework
+DIR /Contents/Frameworks/QtNetwork.framework
+DIR /Contents/Frameworks/QtSvg.framework
+DIR /Contents/Frameworks/PlaceholderManager.framework
+DIR /Contents/Frameworks/HockeySDK.framework
+DIR /Contents/Frameworks/HockeySDK.framework/Versions
+DIR /Contents/Frameworks/HockeySDK.framework/Versions/A
+DIR /Contents/Frameworks/HockeySDK.framework/Versions/A/_CodeSignature
+DIR /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources
+DIR /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/de.lproj
+DIR /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/ja.lproj
+DIR /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/en.lproj
+DIR /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/nb.lproj
+DIR /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/it.lproj
+DIR /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/sv.lproj
+DIR /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/fr.lproj
+DIR /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/fi.lproj
+DIR /Contents/Frameworks/PlaceholderManager.framework/Versions
+DIR /Contents/Frameworks/PlaceholderManager.framework/Versions/A
+DIR /Contents/Frameworks/PlaceholderManager.framework/Versions/A/_CodeSignature
+DIR /Contents/Frameworks/PlaceholderManager.framework/Versions/A/Resources
+DIR /Contents/Frameworks/QtSvg.framework/Versions
+DIR /Contents/Frameworks/QtSvg.framework/Versions/5
+DIR /Contents/Frameworks/QtSvg.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtSvg.framework/Versions/5/Resources
+DIR /Contents/Frameworks/QtNetwork.framework/Versions
+DIR /Contents/Frameworks/QtNetwork.framework/Versions/5
+DIR /Contents/Frameworks/QtNetwork.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtNetwork.framework/Versions/5/Resources
+DIR /Contents/Frameworks/QtWidgets.framework/Versions
+DIR /Contents/Frameworks/QtWidgets.framework/Versions/5
+DIR /Contents/Frameworks/QtWidgets.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtWidgets.framework/Versions/5/Resources
+DIR /Contents/Frameworks/QtMacExtras.framework/Versions
+DIR /Contents/Frameworks/QtMacExtras.framework/Versions/5
+DIR /Contents/Frameworks/QtMacExtras.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtMacExtras.framework/Versions/5/Resources
+DIR /Contents/Frameworks/MSP2P.framework/Versions
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/_CodeSignature
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Resources
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/_CodeSignature
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/_CodeSignature
+DIR /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/Resources
+DIR /Contents/Frameworks/MacQtViews.framework/Versions
+DIR /Contents/Frameworks/MacQtViews.framework/Versions/A
+DIR /Contents/Frameworks/MacQtViews.framework/Versions/A/_CodeSignature
+DIR /Contents/Frameworks/MacQtViews.framework/Versions/A/Resources
+DIR /Contents/Frameworks/QtQml.framework/Versions
+DIR /Contents/Frameworks/QtQml.framework/Versions/5
+DIR /Contents/Frameworks/QtQml.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtQml.framework/Versions/5/Resources
+DIR /Contents/Frameworks/MacCrossPlatformUX.framework/Versions
+DIR /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/A
+DIR /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/A/_CodeSignature
+DIR /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/A/Resources
+DIR /Contents/Frameworks/QtCore.framework/Versions
+DIR /Contents/Frameworks/QtCore.framework/Versions/5
+DIR /Contents/Frameworks/QtCore.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtCore.framework/Versions/5/Resources
+DIR /Contents/Frameworks/QtQuick.framework/Versions
+DIR /Contents/Frameworks/QtQuick.framework/Versions/5
+DIR /Contents/Frameworks/QtQuick.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtQuick.framework/Versions/5/Resources
+DIR /Contents/Frameworks/QtQuickTemplates2.framework/Versions
+DIR /Contents/Frameworks/QtQuickTemplates2.framework/Versions/5
+DIR /Contents/Frameworks/QtQuickTemplates2.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtQuickTemplates2.framework/Versions/5/Resources
+DIR /Contents/Frameworks/QtDBus.framework/Versions
+DIR /Contents/Frameworks/QtDBus.framework/Versions/5
+DIR /Contents/Frameworks/QtDBus.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtDBus.framework/Versions/5/Resources
+DIR /Contents/Frameworks/QtGui.framework/Versions
+DIR /Contents/Frameworks/QtGui.framework/Versions/5
+DIR /Contents/Frameworks/QtGui.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtGui.framework/Versions/5/Resources
+DIR /Contents/Frameworks/QtPrintSupport.framework/Versions
+DIR /Contents/Frameworks/QtPrintSupport.framework/Versions/5
+DIR /Contents/Frameworks/QtPrintSupport.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtPrintSupport.framework/Versions/5/Resources
+DIR /Contents/Frameworks/DatabaseManager.framework/Versions
+DIR /Contents/Frameworks/DatabaseManager.framework/Versions/A
+DIR /Contents/Frameworks/DatabaseManager.framework/Versions/A/_CodeSignature
+DIR /Contents/Frameworks/DatabaseManager.framework/Versions/A/Resources
+DIR /Contents/Frameworks/QtQuickControls2.framework/Versions
+DIR /Contents/Frameworks/QtQuickControls2.framework/Versions/5
+DIR /Contents/Frameworks/QtQuickControls2.framework/Versions/5/_CodeSignature
+DIR /Contents/Frameworks/QtQuickControls2.framework/Versions/5/Resources
+DIR /Contents/Frameworks/MSSyncEngine.framework/Versions
+DIR /Contents/Frameworks/MSSyncEngine.framework/Versions/A
+DIR /Contents/Frameworks/MSSyncEngine.framework/Versions/A/_CodeSignature
+DIR /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Resources
+DIR /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks
+DIR /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework
+DIR /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Versions
+DIR /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Versions/A
+DIR /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Versions/A/_CodeSignature
+DIR /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Versions/A/Resources
+DIR /Contents/Frameworks/MSCommon.framework/Versions
+DIR /Contents/Frameworks/MSCommon.framework/Versions/A
+DIR /Contents/Frameworks/MSCommon.framework/Versions/A/_CodeSignature
+DIR /Contents/Frameworks/MSCommon.framework/Versions/A/Resources
+DIR /Contents/Frameworks/MSCommon.framework/Versions/A/Resources/English.lproj
+DIR /Contents/StandaloneUpdaterDaemon.xpc/Contents
+DIR /Contents/StandaloneUpdaterDaemon.xpc/Contents/_CodeSignature
+DIR /Contents/StandaloneUpdaterDaemon.xpc/Contents/MacOS
+DIR /Contents/StandaloneUpdaterDaemon.xpc/Contents/Resources
+DIR /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks
+DIR /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework
+DIR /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions
+DIR /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A
+DIR /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/_CodeSignature
+DIR /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/Resources
+DIR /Contents/StandaloneUpdater.app/Contents
+DIR /Contents/StandaloneUpdater.app/Contents/_CodeSignature
+DIR /Contents/StandaloneUpdater.app/Contents/MacOS
+DIR /Contents/StandaloneUpdater.app/Contents/Resources
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/_CodeSignature
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/de.lproj
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/ja.lproj
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/en.lproj
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/nb.lproj
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/it.lproj
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/sv.lproj
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/fr.lproj
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/fi.lproj
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/_CodeSignature
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Resources
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/_CodeSignature
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/_CodeSignature
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/Resources
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/A
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/A/_CodeSignature
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/A/Resources
+DIR /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/A/Resources/English.lproj
+DIR /Contents/OneDriveUpdaterDaemon.xpc/Contents
+DIR /Contents/OneDriveUpdaterDaemon.xpc/Contents/_CodeSignature
+DIR /Contents/OneDriveUpdaterDaemon.xpc/Contents/MacOS
+DIR /Contents/OneDriveUpdaterDaemon.xpc/Contents/Resources
+DIR /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks
+DIR /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework
+DIR /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions
+DIR /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A
+DIR /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/_CodeSignature
+DIR /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/Resources
+DIR /Contents/Library/LoginItems
+DIR /Contents/Library/LoginItems/Launcher Disabler.app
+DIR /Contents/Library/LoginItems/OneDrive Launcher.app
+DIR /Contents/Library/LoginItems/OneDrive Launcher.app/Contents
+DIR /Contents/Library/LoginItems/OneDrive Launcher.app/Contents/_CodeSignature
+DIR /Contents/Library/LoginItems/OneDrive Launcher.app/Contents/MacOS
+DIR /Contents/Library/LoginItems/OneDrive Launcher.app/Contents/Resources
+DIR /Contents/Library/LoginItems/Launcher Disabler.app/Contents
+DIR /Contents/Library/LoginItems/Launcher Disabler.app/Contents/_CodeSignature
+DIR /Contents/Library/LoginItems/Launcher Disabler.app/Contents/MacOS
+DIR /Contents/Library/LoginItems/Launcher Disabler.app/Contents/Resources
+DIR /Contents/Resources/de.lproj
+DIR /Contents/Resources/el.lproj
+DIR /Contents/Resources/zh-hans.lproj
+DIR /Contents/Resources/ja.lproj
+DIR /Contents/Resources/en.lproj
+DIR /Contents/Resources/nb.lproj
+DIR /Contents/Resources/en-GB.lproj
+DIR /Contents/Resources/es.lproj
+DIR /Contents/Resources/qml
+DIR /Contents/Resources/da.lproj
+DIR /Contents/Resources/images
+DIR /Contents/Resources/it.lproj
+DIR /Contents/Resources/sk.lproj
+DIR /Contents/Resources/sv.lproj
+DIR /Contents/Resources/cs.lproj
+DIR /Contents/Resources/ko.lproj
+DIR /Contents/Resources/zh-hant.lproj
+DIR /Contents/Resources/hu.lproj
+DIR /Contents/Resources/tr.lproj
+DIR /Contents/Resources/pl.lproj
+DIR /Contents/Resources/ru.lproj
+DIR /Contents/Resources/fr.lproj
+DIR /Contents/Resources/fi.lproj
+DIR /Contents/Resources/id.lproj
+DIR /Contents/Resources/nl.lproj
+DIR /Contents/Resources/th.lproj
+DIR /Contents/Resources/pt.lproj
+DIR /Contents/Resources/pt-PT.lproj
+DIR /Contents/Resources/images/darkTheme
+DIR /Contents/Resources/images/lightTheme
+DIR /Contents/Resources/qml/QtQuick.2
+DIR /Contents/Resources/qml/QtQuick
+DIR /Contents/Resources/qml/QtQuick/Templates.2
+DIR /Contents/Resources/qml/QtQuick/Controls
+DIR /Contents/Resources/qml/QtQuick/Controls.2
+DIR /Contents/Resources/qml/QtQuick/Layouts
+DIR /Contents/Resources/qml/QtQuick/Window.2
+DIR /Contents/Resources/qml/QtQuick/Extras
+DIR /Contents/Resources/qml/QtQuick/Extras/Private
+DIR /Contents/Resources/qml/QtQuick/Extras/designer
+DIR /Contents/Resources/qml/QtQuick/Extras/designer/images
+DIR /Contents/Resources/qml/QtQuick/Controls/Styles
+DIR /Contents/Resources/qml/QtQuick/Controls/Styles/Flat
+DIR /Contents/PlugIns/platforms
+DIR /Contents/PlugIns/quick
+DIR /Contents/PlugIns/FinderSync.appex
+DIR /Contents/PlugIns/imageformats
+DIR /Contents/PlugIns/FinderSync.appex/Contents
+DIR /Contents/PlugIns/FinderSync.appex/Contents/_CodeSignature
+DIR /Contents/PlugIns/FinderSync.appex/Contents/MacOS
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/de.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/el.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/zh-hans.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/ja.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/en.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/nb.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/en-GB.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/es.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/da.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/it.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/sk.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/sv.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/cs.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/ko.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/zh-hant.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/hu.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/tr.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/pl.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/ru.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/fr.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/fi.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/id.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/nl.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/th.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/pt.lproj
+DIR /Contents/PlugIns/FinderSync.appex/Contents/Resources/pt-PT.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents
+DIR /Contents/OneDrive File Launcher.app/Contents/_CodeSignature
+DIR /Contents/OneDrive File Launcher.app/Contents/MacOS
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources
+DIR /Contents/OneDrive File Launcher.app/Contents/Frameworks
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/de.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/el.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/zh-hans.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/ja.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/en.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/nb.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/en-GB.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/es.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/da.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/it.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/sk.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/sv.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/cs.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/ko.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/Base.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/zh-hant.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/hu.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/tr.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/pl.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/ru.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/fr.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/fi.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/id.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/nl.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/th.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/pt.lproj
+DIR /Contents/OneDrive File Launcher.app/Contents/Resources/pt-PT.lproj
+FILE /Contents/Info.plist
+FILE /Contents/PkgInfo
+FILE /Contents/OneDrive Updater.app/Contents/Info.plist
+FILE /Contents/OneDrive Updater.app/Contents/PkgInfo
+FILE /Contents/OneDrive Updater.app/Contents/Resources/OneDriveUpdater.icns
+FILE /Contents/OneDrive Updater.app/Contents/MacOS/OneDriveUpdater
+FILE /Contents/OneDrive Updater.app/Contents/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/HockeySDK
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/BITFeedbackWindowController.nib
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/BITCrashReportUI.nib
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/Info.plist
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/fi.lproj/HockeySDK.strings
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/fr.lproj/HockeySDK.strings
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/sv.lproj/HockeySDK.strings
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/it.lproj/HockeySDK.strings
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/nb.lproj/HockeySDK.strings
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/en.lproj/HockeySDK.strings
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/ja.lproj/HockeySDK.strings
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/de.lproj/HockeySDK.strings
+FILE /Contents/Frameworks/HockeySDK.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/PlaceholderManager.framework/Versions/A/PlaceholderManager
+FILE /Contents/Frameworks/PlaceholderManager.framework/Versions/A/Resources/Info.plist
+FILE /Contents/Frameworks/PlaceholderManager.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtSvg.framework/Versions/5/QtSvg
+FILE /Contents/Frameworks/QtSvg.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtSvg.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtNetwork.framework/Versions/5/QtNetwork
+FILE /Contents/Frameworks/QtNetwork.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtNetwork.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtWidgets.framework/Versions/5/QtWidgets
+FILE /Contents/Frameworks/QtWidgets.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtWidgets.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtMacExtras.framework/Versions/5/QtMacExtras
+FILE /Contents/Frameworks/QtMacExtras.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtMacExtras.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/MSP2P
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/OneAuth
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/Assets.car
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/Info.plist
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAAadViewController.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAGenericAccountHintViewController.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAOAuthViewController.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/ppf-vH-QJZ-view-VbE-gM-Y0B.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOANavigationController.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAErrorViewController.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAWindowController.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/pvX-by-dNc-view-wWq-gc-wPC.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/7JU-XH-Hay-view-NO2-rn-f0G.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/5If-0V-4Hq-view-dky-XE-sDL.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/Qye-Ys-k5A-view-tal-QC-DDs.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAAccountHintViewController.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/Bx1-3G-eLr-view-PAf-EM-H0R.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAAccountTypeDisambiguationViewController.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/Info.plist
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAPasswordInputViewController.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/X6e-eK-xfr-view-94s-qG-To2.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/Jbg-4W-xde-view-OBg-3y-Z48.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/ADAL
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/Resources/Info.plist
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/Resources/ADCredentialViewController.nib
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Resources/WebRequestsManifest.omc
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Resources/Info.plist
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/Resources/EventMachineManifest.omc
+FILE /Contents/Frameworks/MSP2P.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/MacQtViews.framework/Versions/A/MacQtViews
+FILE /Contents/Frameworks/MacQtViews.framework/Versions/A/Resources/ResetWindow_mocimpl.cpp
+FILE /Contents/Frameworks/MacQtViews.framework/Versions/A/Resources/Info.plist
+FILE /Contents/Frameworks/MacQtViews.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtQml.framework/Versions/5/QtQml
+FILE /Contents/Frameworks/QtQml.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtQml.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/A/MacCrossPlatformUX
+FILE /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/A/Resources/MacCrossPlatformUXStandalone_overrides.xconfig
+FILE /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/A/Resources/SupportManifest.omc
+FILE /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/A/Resources/Info.plist
+FILE /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtCore.framework/Versions/5/QtCore
+FILE /Contents/Frameworks/QtCore.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtCore.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtQuick.framework/Versions/5/QtQuick
+FILE /Contents/Frameworks/QtQuick.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtQuick.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtQuickTemplates2.framework/Versions/5/QtQuickTemplates2
+FILE /Contents/Frameworks/QtQuickTemplates2.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtQuickTemplates2.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtDBus.framework/Versions/5/QtDBus
+FILE /Contents/Frameworks/QtDBus.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtDBus.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtGui.framework/Versions/5/QtGui
+FILE /Contents/Frameworks/QtGui.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtGui.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtPrintSupport.framework/Versions/5/QtPrintSupport
+FILE /Contents/Frameworks/QtPrintSupport.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtPrintSupport.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/DatabaseManager.framework/Versions/A/DatabaseManager
+FILE /Contents/Frameworks/DatabaseManager.framework/Versions/A/Resources/Info.plist
+FILE /Contents/Frameworks/DatabaseManager.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/QtQuickControls2.framework/Versions/5/QtQuickControls2
+FILE /Contents/Frameworks/QtQuickControls2.framework/Versions/5/Resources/Info.plist
+FILE /Contents/Frameworks/QtQuickControls2.framework/Versions/5/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/MSSyncEngine.framework/Versions/A/MSSyncEngine
+FILE /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/libmip_upe_sdk.dylib
+FILE /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/libmip_protection_sdk.dylib
+FILE /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/libmip_file_sdk.dylib
+FILE /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/libmip_common.dylib
+FILE /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Versions/A/AriaOsXObjC
+FILE /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Versions/A/Resources/Info.plist
+FILE /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Resources/policy.xml
+FILE /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Resources/Info.plist
+FILE /Contents/Frameworks/MSSyncEngine.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/Frameworks/MSCommon.framework/Versions/A/MSCommon
+FILE /Contents/Frameworks/MSCommon.framework/Versions/A/Resources/Info.plist
+FILE /Contents/Frameworks/MSCommon.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+FILE /Contents/Frameworks/MSCommon.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/StandaloneUpdaterDaemon.xpc/Contents/Info.plist
+FILE /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/PlaceholderManager
+FILE /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/Resources/Info.plist
+FILE /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/StandaloneUpdaterDaemon.xpc/Contents/Resources/OneDriveDaemon_ship.xcconfig
+FILE /Contents/StandaloneUpdaterDaemon.xpc/Contents/Resources/OneDriveDaemon.xcconfig
+FILE /Contents/StandaloneUpdaterDaemon.xpc/Contents/MacOS/StandaloneUpdaterDaemon
+FILE /Contents/StandaloneUpdaterDaemon.xpc/Contents/_CodeSignature/CodeResources
+FILE /Contents/StandaloneUpdater.app/Contents/Info.plist
+FILE /Contents/StandaloneUpdater.app/Contents/PkgInfo
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/HockeySDK
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/BITFeedbackWindowController.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/BITCrashReportUI.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/Info.plist
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/fi.lproj/HockeySDK.strings
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/fr.lproj/HockeySDK.strings
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/sv.lproj/HockeySDK.strings
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/it.lproj/HockeySDK.strings
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/nb.lproj/HockeySDK.strings
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/en.lproj/HockeySDK.strings
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/ja.lproj/HockeySDK.strings
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources/de.lproj/HockeySDK.strings
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/MSP2P
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/OneAuth
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/Assets.car
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/Info.plist
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAAadViewController.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAGenericAccountHintViewController.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAOAuthViewController.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/ppf-vH-QJZ-view-VbE-gM-Y0B.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOANavigationController.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAErrorViewController.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAWindowController.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/pvX-by-dNc-view-wWq-gc-wPC.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/7JU-XH-Hay-view-NO2-rn-f0G.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/5If-0V-4Hq-view-dky-XE-sDL.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/Qye-Ys-k5A-view-tal-QC-DDs.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAAccountHintViewController.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/Bx1-3G-eLr-view-PAf-EM-H0R.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAAccountTypeDisambiguationViewController.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/Info.plist
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/MOAPasswordInputViewController.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/X6e-eK-xfr-view-94s-qG-To2.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources/OneAuth.storyboardc/Jbg-4W-xde-view-OBg-3y-Z48.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/ADAL
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/Resources/Info.plist
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/Resources/ADCredentialViewController.nib
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Resources/WebRequestsManifest.omc
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Resources/Info.plist
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Resources/EventMachineManifest.omc
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/A/MSCommon
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/A/Resources/Info.plist
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/A/Resources/English.lproj/InfoPlist.strings
+FILE /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/StandaloneUpdater.app/Contents/Resources/OneDriveUpdater.icns
+FILE /Contents/StandaloneUpdater.app/Contents/MacOS/OneDriveStandaloneUpdater
+FILE /Contents/StandaloneUpdater.app/Contents/_CodeSignature/CodeResources
+FILE /Contents/OneDriveUpdaterDaemon.xpc/Contents/Info.plist
+FILE /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/PlaceholderManager
+FILE /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/Resources/Info.plist
+FILE /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/_CodeSignature/CodeResources
+FILE /Contents/OneDriveUpdaterDaemon.xpc/Contents/Resources/OneDriveDaemon_ship.xcconfig
+FILE /Contents/OneDriveUpdaterDaemon.xpc/Contents/Resources/OneDriveDaemon.xcconfig
+FILE /Contents/OneDriveUpdaterDaemon.xpc/Contents/MacOS/OneDriveUpdaterDaemon
+FILE /Contents/OneDriveUpdaterDaemon.xpc/Contents/_CodeSignature/CodeResources
+FILE /Contents/Library/LoginItems/OneDrive Launcher.app/Contents/Info.plist
+FILE /Contents/Library/LoginItems/OneDrive Launcher.app/Contents/PkgInfo
+FILE /Contents/Library/LoginItems/OneDrive Launcher.app/Contents/Resources/Launcher.icns
+FILE /Contents/Library/LoginItems/OneDrive Launcher.app/Contents/MacOS/OneDriveLauncher
+FILE /Contents/Library/LoginItems/OneDrive Launcher.app/Contents/_CodeSignature/CodeResources
+FILE /Contents/Library/LoginItems/Launcher Disabler.app/Contents/Info.plist
+FILE /Contents/Library/LoginItems/Launcher Disabler.app/Contents/PkgInfo
+FILE /Contents/Library/LoginItems/Launcher Disabler.app/Contents/Resources/Launcher.icns
+FILE /Contents/Library/LoginItems/Launcher Disabler.app/Contents/MacOS/LauncherDisabler
+FILE /Contents/Library/LoginItems/Launcher Disabler.app/Contents/_CodeSignature/CodeResources
+FILE /Contents/Resources/OneDrive.icns
+FILE /Contents/Resources/rate_us_page_stars.png
+FILE /Contents/Resources/sync_folder_icons.icns
+FILE /Contents/Resources/findersync_enable_fre_dark.gif
+FILE /Contents/Resources/PrecompiledQML.vcxproj
+FILE /Contents/Resources/CF_tutorial_always_available_dark.png
+FILE /Contents/Resources/CF_tutorial_locally_available.png
+FILE /Contents/Resources/container-migration.plist
+FILE /Contents/Resources/ThirdPartyNotices.txt
+FILE /Contents/Resources/CF_tutorial_always_available.png
+FILE /Contents/Resources/PrecompiledQML.vcxproj.filters
+FILE /Contents/Resources/CF_tutorial_locally_available_dark.png
+FILE /Contents/Resources/languages.plist
+FILE /Contents/Resources/selective_sync_all.png
+FILE /Contents/Resources/qt.conf
+FILE /Contents/Resources/alertIcon.png
+FILE /Contents/Resources/ResetOneDriveAppStandalone.command
+FILE /Contents/Resources/cloud32.png
+FILE /Contents/Resources/StatusIcon_gray.tiff
+FILE /Contents/Resources/CF_tutorial_online_only_dark.png
+FILE /Contents/Resources/StatusIcon_syncing.tiff
+FILE /Contents/Resources/selective_sync_some.png
+FILE /Contents/Resources/MainMenu.nib
+FILE /Contents/Resources/findersync_enable_fre.gif
+FILE /Contents/Resources/building_folder_icons.icns
+FILE /Contents/Resources/Assets.car
+FILE /Contents/Resources/StatusIcon.tiff
+FILE /Contents/Resources/CF_tutorial_online_only.png
+FILE /Contents/Resources/FRE_Dark-IntroduceOneDrive.png
+FILE /Contents/Resources/FRE_Dark-WelcomePage.png
+FILE /Contents/Resources/CollectLogsStandalone.command
+FILE /Contents/Resources/ErrorPage.html
+FILE /Contents/Resources/StatusIcon_alert.tiff
+FILE /Contents/Resources/follow_link.png
+FILE /Contents/Resources/FRE_Dark-Finished_ltr.png
+FILE /Contents/Resources/StatusIcon_paused.tiff
+FILE /Contents/Resources/office32.png
+FILE /Contents/Resources/pt-PT.lproj/IssueWindow.nib
+FILE /Contents/Resources/pt-PT.lproj/SupportTicketView.nib
+FILE /Contents/Resources/pt-PT.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/pt-PT.lproj/SignInView.nib
+FILE /Contents/Resources/pt-PT.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/pt-PT.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/pt-PT.lproj/BrowserWindow.nib
+FILE /Contents/Resources/pt-PT.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/pt-PT.lproj/SupportWindow.nib
+FILE /Contents/Resources/pt-PT.lproj/Localizable.strings
+FILE /Contents/Resources/pt-PT.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/pt-PT.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/pt-PT.lproj/WelcomeView.nib
+FILE /Contents/Resources/pt-PT.lproj/SupportSendingView.nib
+FILE /Contents/Resources/pt-PT.lproj/Preferences.nib
+FILE /Contents/Resources/pt-PT.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/pt-PT.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/pt-PT.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/pt-PT.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/pt-PT.lproj/SandboxMigration.nib
+FILE /Contents/Resources/pt-PT.lproj/SupportErrorView.nib
+FILE /Contents/Resources/pt-PT.lproj/BrowserMainView.nib
+FILE /Contents/Resources/pt.lproj/IssueWindow.nib
+FILE /Contents/Resources/pt.lproj/SupportTicketView.nib
+FILE /Contents/Resources/pt.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/pt.lproj/SignInView.nib
+FILE /Contents/Resources/pt.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/pt.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/pt.lproj/BrowserWindow.nib
+FILE /Contents/Resources/pt.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/pt.lproj/SupportWindow.nib
+FILE /Contents/Resources/pt.lproj/Localizable.strings
+FILE /Contents/Resources/pt.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/pt.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/pt.lproj/WelcomeView.nib
+FILE /Contents/Resources/pt.lproj/SupportSendingView.nib
+FILE /Contents/Resources/pt.lproj/Preferences.nib
+FILE /Contents/Resources/pt.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/pt.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/pt.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/pt.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/pt.lproj/SandboxMigration.nib
+FILE /Contents/Resources/pt.lproj/SupportErrorView.nib
+FILE /Contents/Resources/pt.lproj/BrowserMainView.nib
+FILE /Contents/Resources/th.lproj/IssueWindow.nib
+FILE /Contents/Resources/th.lproj/SupportTicketView.nib
+FILE /Contents/Resources/th.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/th.lproj/SignInView.nib
+FILE /Contents/Resources/th.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/th.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/th.lproj/BrowserWindow.nib
+FILE /Contents/Resources/th.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/th.lproj/SupportWindow.nib
+FILE /Contents/Resources/th.lproj/Localizable.strings
+FILE /Contents/Resources/th.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/th.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/th.lproj/WelcomeView.nib
+FILE /Contents/Resources/th.lproj/SupportSendingView.nib
+FILE /Contents/Resources/th.lproj/Preferences.nib
+FILE /Contents/Resources/th.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/th.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/th.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/th.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/th.lproj/SandboxMigration.nib
+FILE /Contents/Resources/th.lproj/SupportErrorView.nib
+FILE /Contents/Resources/th.lproj/BrowserMainView.nib
+FILE /Contents/Resources/nl.lproj/IssueWindow.nib
+FILE /Contents/Resources/nl.lproj/SupportTicketView.nib
+FILE /Contents/Resources/nl.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/nl.lproj/SignInView.nib
+FILE /Contents/Resources/nl.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/nl.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/nl.lproj/BrowserWindow.nib
+FILE /Contents/Resources/nl.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/nl.lproj/SupportWindow.nib
+FILE /Contents/Resources/nl.lproj/Localizable.strings
+FILE /Contents/Resources/nl.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/nl.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/nl.lproj/WelcomeView.nib
+FILE /Contents/Resources/nl.lproj/SupportSendingView.nib
+FILE /Contents/Resources/nl.lproj/Preferences.nib
+FILE /Contents/Resources/nl.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/nl.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/nl.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/nl.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/nl.lproj/SandboxMigration.nib
+FILE /Contents/Resources/nl.lproj/SupportErrorView.nib
+FILE /Contents/Resources/nl.lproj/BrowserMainView.nib
+FILE /Contents/Resources/id.lproj/IssueWindow.nib
+FILE /Contents/Resources/id.lproj/SupportTicketView.nib
+FILE /Contents/Resources/id.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/id.lproj/SignInView.nib
+FILE /Contents/Resources/id.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/id.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/id.lproj/BrowserWindow.nib
+FILE /Contents/Resources/id.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/id.lproj/SupportWindow.nib
+FILE /Contents/Resources/id.lproj/Localizable.strings
+FILE /Contents/Resources/id.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/id.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/id.lproj/WelcomeView.nib
+FILE /Contents/Resources/id.lproj/SupportSendingView.nib
+FILE /Contents/Resources/id.lproj/Preferences.nib
+FILE /Contents/Resources/id.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/id.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/id.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/id.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/id.lproj/SandboxMigration.nib
+FILE /Contents/Resources/id.lproj/SupportErrorView.nib
+FILE /Contents/Resources/id.lproj/BrowserMainView.nib
+FILE /Contents/Resources/fi.lproj/IssueWindow.nib
+FILE /Contents/Resources/fi.lproj/SupportTicketView.nib
+FILE /Contents/Resources/fi.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/fi.lproj/SignInView.nib
+FILE /Contents/Resources/fi.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/fi.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/fi.lproj/BrowserWindow.nib
+FILE /Contents/Resources/fi.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/fi.lproj/SupportWindow.nib
+FILE /Contents/Resources/fi.lproj/Localizable.strings
+FILE /Contents/Resources/fi.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/fi.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/fi.lproj/WelcomeView.nib
+FILE /Contents/Resources/fi.lproj/SupportSendingView.nib
+FILE /Contents/Resources/fi.lproj/Preferences.nib
+FILE /Contents/Resources/fi.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/fi.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/fi.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/fi.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/fi.lproj/SandboxMigration.nib
+FILE /Contents/Resources/fi.lproj/SupportErrorView.nib
+FILE /Contents/Resources/fi.lproj/BrowserMainView.nib
+FILE /Contents/Resources/fr.lproj/IssueWindow.nib
+FILE /Contents/Resources/fr.lproj/SupportTicketView.nib
+FILE /Contents/Resources/fr.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/fr.lproj/SignInView.nib
+FILE /Contents/Resources/fr.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/fr.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/fr.lproj/BrowserWindow.nib
+FILE /Contents/Resources/fr.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/fr.lproj/SupportWindow.nib
+FILE /Contents/Resources/fr.lproj/Localizable.strings
+FILE /Contents/Resources/fr.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/fr.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/fr.lproj/WelcomeView.nib
+FILE /Contents/Resources/fr.lproj/SupportSendingView.nib
+FILE /Contents/Resources/fr.lproj/Preferences.nib
+FILE /Contents/Resources/fr.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/fr.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/fr.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/fr.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/fr.lproj/SandboxMigration.nib
+FILE /Contents/Resources/fr.lproj/SupportErrorView.nib
+FILE /Contents/Resources/fr.lproj/BrowserMainView.nib
+FILE /Contents/Resources/ru.lproj/IssueWindow.nib
+FILE /Contents/Resources/ru.lproj/SupportTicketView.nib
+FILE /Contents/Resources/ru.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/ru.lproj/SignInView.nib
+FILE /Contents/Resources/ru.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/ru.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/ru.lproj/BrowserWindow.nib
+FILE /Contents/Resources/ru.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/ru.lproj/SupportWindow.nib
+FILE /Contents/Resources/ru.lproj/Localizable.strings
+FILE /Contents/Resources/ru.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/ru.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/ru.lproj/WelcomeView.nib
+FILE /Contents/Resources/ru.lproj/SupportSendingView.nib
+FILE /Contents/Resources/ru.lproj/Preferences.nib
+FILE /Contents/Resources/ru.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/ru.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/ru.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/ru.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/ru.lproj/SandboxMigration.nib
+FILE /Contents/Resources/ru.lproj/SupportErrorView.nib
+FILE /Contents/Resources/ru.lproj/BrowserMainView.nib
+FILE /Contents/Resources/pl.lproj/IssueWindow.nib
+FILE /Contents/Resources/pl.lproj/SupportTicketView.nib
+FILE /Contents/Resources/pl.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/pl.lproj/SignInView.nib
+FILE /Contents/Resources/pl.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/pl.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/pl.lproj/BrowserWindow.nib
+FILE /Contents/Resources/pl.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/pl.lproj/SupportWindow.nib
+FILE /Contents/Resources/pl.lproj/Localizable.strings
+FILE /Contents/Resources/pl.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/pl.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/pl.lproj/WelcomeView.nib
+FILE /Contents/Resources/pl.lproj/SupportSendingView.nib
+FILE /Contents/Resources/pl.lproj/Preferences.nib
+FILE /Contents/Resources/pl.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/pl.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/pl.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/pl.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/pl.lproj/SandboxMigration.nib
+FILE /Contents/Resources/pl.lproj/SupportErrorView.nib
+FILE /Contents/Resources/pl.lproj/BrowserMainView.nib
+FILE /Contents/Resources/tr.lproj/IssueWindow.nib
+FILE /Contents/Resources/tr.lproj/SupportTicketView.nib
+FILE /Contents/Resources/tr.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/tr.lproj/SignInView.nib
+FILE /Contents/Resources/tr.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/tr.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/tr.lproj/BrowserWindow.nib
+FILE /Contents/Resources/tr.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/tr.lproj/SupportWindow.nib
+FILE /Contents/Resources/tr.lproj/Localizable.strings
+FILE /Contents/Resources/tr.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/tr.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/tr.lproj/WelcomeView.nib
+FILE /Contents/Resources/tr.lproj/SupportSendingView.nib
+FILE /Contents/Resources/tr.lproj/Preferences.nib
+FILE /Contents/Resources/tr.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/tr.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/tr.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/tr.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/tr.lproj/SandboxMigration.nib
+FILE /Contents/Resources/tr.lproj/SupportErrorView.nib
+FILE /Contents/Resources/tr.lproj/BrowserMainView.nib
+FILE /Contents/Resources/hu.lproj/IssueWindow.nib
+FILE /Contents/Resources/hu.lproj/SupportTicketView.nib
+FILE /Contents/Resources/hu.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/hu.lproj/SignInView.nib
+FILE /Contents/Resources/hu.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/hu.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/hu.lproj/BrowserWindow.nib
+FILE /Contents/Resources/hu.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/hu.lproj/SupportWindow.nib
+FILE /Contents/Resources/hu.lproj/Localizable.strings
+FILE /Contents/Resources/hu.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/hu.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/hu.lproj/WelcomeView.nib
+FILE /Contents/Resources/hu.lproj/SupportSendingView.nib
+FILE /Contents/Resources/hu.lproj/Preferences.nib
+FILE /Contents/Resources/hu.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/hu.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/hu.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/hu.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/hu.lproj/SandboxMigration.nib
+FILE /Contents/Resources/hu.lproj/SupportErrorView.nib
+FILE /Contents/Resources/hu.lproj/BrowserMainView.nib
+FILE /Contents/Resources/zh-hant.lproj/IssueWindow.nib
+FILE /Contents/Resources/zh-hant.lproj/SupportTicketView.nib
+FILE /Contents/Resources/zh-hant.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/zh-hant.lproj/SignInView.nib
+FILE /Contents/Resources/zh-hant.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/zh-hant.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/zh-hant.lproj/BrowserWindow.nib
+FILE /Contents/Resources/zh-hant.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/zh-hant.lproj/SupportWindow.nib
+FILE /Contents/Resources/zh-hant.lproj/Localizable.strings
+FILE /Contents/Resources/zh-hant.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/zh-hant.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/zh-hant.lproj/WelcomeView.nib
+FILE /Contents/Resources/zh-hant.lproj/SupportSendingView.nib
+FILE /Contents/Resources/zh-hant.lproj/Preferences.nib
+FILE /Contents/Resources/zh-hant.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/zh-hant.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/zh-hant.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/zh-hant.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/zh-hant.lproj/SandboxMigration.nib
+FILE /Contents/Resources/zh-hant.lproj/SupportErrorView.nib
+FILE /Contents/Resources/zh-hant.lproj/BrowserMainView.nib
+FILE /Contents/Resources/ko.lproj/IssueWindow.nib
+FILE /Contents/Resources/ko.lproj/SupportTicketView.nib
+FILE /Contents/Resources/ko.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/ko.lproj/SignInView.nib
+FILE /Contents/Resources/ko.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/ko.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/ko.lproj/BrowserWindow.nib
+FILE /Contents/Resources/ko.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/ko.lproj/SupportWindow.nib
+FILE /Contents/Resources/ko.lproj/Localizable.strings
+FILE /Contents/Resources/ko.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/ko.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/ko.lproj/WelcomeView.nib
+FILE /Contents/Resources/ko.lproj/SupportSendingView.nib
+FILE /Contents/Resources/ko.lproj/Preferences.nib
+FILE /Contents/Resources/ko.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/ko.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/ko.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/ko.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/ko.lproj/SandboxMigration.nib
+FILE /Contents/Resources/ko.lproj/SupportErrorView.nib
+FILE /Contents/Resources/ko.lproj/BrowserMainView.nib
+FILE /Contents/Resources/cs.lproj/IssueWindow.nib
+FILE /Contents/Resources/cs.lproj/SupportTicketView.nib
+FILE /Contents/Resources/cs.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/cs.lproj/SignInView.nib
+FILE /Contents/Resources/cs.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/cs.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/cs.lproj/BrowserWindow.nib
+FILE /Contents/Resources/cs.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/cs.lproj/SupportWindow.nib
+FILE /Contents/Resources/cs.lproj/Localizable.strings
+FILE /Contents/Resources/cs.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/cs.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/cs.lproj/WelcomeView.nib
+FILE /Contents/Resources/cs.lproj/SupportSendingView.nib
+FILE /Contents/Resources/cs.lproj/Preferences.nib
+FILE /Contents/Resources/cs.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/cs.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/cs.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/cs.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/cs.lproj/SandboxMigration.nib
+FILE /Contents/Resources/cs.lproj/SupportErrorView.nib
+FILE /Contents/Resources/cs.lproj/BrowserMainView.nib
+FILE /Contents/Resources/sv.lproj/IssueWindow.nib
+FILE /Contents/Resources/sv.lproj/SupportTicketView.nib
+FILE /Contents/Resources/sv.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/sv.lproj/SignInView.nib
+FILE /Contents/Resources/sv.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/sv.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/sv.lproj/BrowserWindow.nib
+FILE /Contents/Resources/sv.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/sv.lproj/SupportWindow.nib
+FILE /Contents/Resources/sv.lproj/Localizable.strings
+FILE /Contents/Resources/sv.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/sv.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/sv.lproj/WelcomeView.nib
+FILE /Contents/Resources/sv.lproj/SupportSendingView.nib
+FILE /Contents/Resources/sv.lproj/Preferences.nib
+FILE /Contents/Resources/sv.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/sv.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/sv.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/sv.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/sv.lproj/SandboxMigration.nib
+FILE /Contents/Resources/sv.lproj/SupportErrorView.nib
+FILE /Contents/Resources/sv.lproj/BrowserMainView.nib
+FILE /Contents/Resources/sk.lproj/IssueWindow.nib
+FILE /Contents/Resources/sk.lproj/SupportTicketView.nib
+FILE /Contents/Resources/sk.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/sk.lproj/SignInView.nib
+FILE /Contents/Resources/sk.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/sk.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/sk.lproj/BrowserWindow.nib
+FILE /Contents/Resources/sk.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/sk.lproj/SupportWindow.nib
+FILE /Contents/Resources/sk.lproj/Localizable.strings
+FILE /Contents/Resources/sk.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/sk.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/sk.lproj/WelcomeView.nib
+FILE /Contents/Resources/sk.lproj/SupportSendingView.nib
+FILE /Contents/Resources/sk.lproj/Preferences.nib
+FILE /Contents/Resources/sk.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/sk.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/sk.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/sk.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/sk.lproj/SandboxMigration.nib
+FILE /Contents/Resources/sk.lproj/SupportErrorView.nib
+FILE /Contents/Resources/sk.lproj/BrowserMainView.nib
+FILE /Contents/Resources/it.lproj/IssueWindow.nib
+FILE /Contents/Resources/it.lproj/SupportTicketView.nib
+FILE /Contents/Resources/it.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/it.lproj/SignInView.nib
+FILE /Contents/Resources/it.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/it.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/it.lproj/BrowserWindow.nib
+FILE /Contents/Resources/it.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/it.lproj/SupportWindow.nib
+FILE /Contents/Resources/it.lproj/Localizable.strings
+FILE /Contents/Resources/it.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/it.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/it.lproj/WelcomeView.nib
+FILE /Contents/Resources/it.lproj/SupportSendingView.nib
+FILE /Contents/Resources/it.lproj/Preferences.nib
+FILE /Contents/Resources/it.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/it.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/it.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/it.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/it.lproj/SandboxMigration.nib
+FILE /Contents/Resources/it.lproj/SupportErrorView.nib
+FILE /Contents/Resources/it.lproj/BrowserMainView.nib
+FILE /Contents/Resources/images/lightTheme/overflowIconLarge.svg
+FILE /Contents/Resources/images/lightTheme/acm_low_disk_space_online_only.svg
+FILE /Contents/Resources/images/lightTheme/errorIcon.svg
+FILE /Contents/Resources/images/lightTheme/folder_image_pictures.svg
+FILE /Contents/Resources/images/lightTheme/chevron.svg
+FILE /Contents/Resources/images/lightTheme/checkmark_selected.svg
+FILE /Contents/Resources/images/lightTheme/cancelIcon.svg
+FILE /Contents/Resources/images/lightTheme/premiumIcon.svg
+FILE /Contents/Resources/images/lightTheme/folder_image_documents.svg
+FILE /Contents/Resources/images/lightTheme/onenote.svg
+FILE /Contents/Resources/images/lightTheme/powerpoint.svg
+FILE /Contents/Resources/images/lightTheme/checkmark_in_progress.svg
+FILE /Contents/Resources/images/lightTheme/globeIcon.svg
+FILE /Contents/Resources/images/lightTheme/iceBucket.svg
+FILE /Contents/Resources/images/lightTheme/outlook.svg
+FILE /Contents/Resources/images/lightTheme/partiallyFreezing.svg
+FILE /Contents/Resources/images/lightTheme/premium_gem.svg
+FILE /Contents/Resources/images/lightTheme/onDemandFilesDehydrate.svg
+FILE /Contents/Resources/images/lightTheme/folderIcon.svg
+FILE /Contents/Resources/images/lightTheme/finderExtensionPrompt.svg
+FILE /Contents/Resources/images/lightTheme/kfm_folders_image.svg
+FILE /Contents/Resources/images/lightTheme/acmDismissIcon.svg
+FILE /Contents/Resources/images/lightTheme/vaultIntro.svg
+FILE /Contents/Resources/images/lightTheme/forwardArrow.svg
+FILE /Contents/Resources/images/lightTheme/checkmark_hovered.svg
+FILE /Contents/Resources/images/lightTheme/purchase_success_bg.svg
+FILE /Contents/Resources/images/lightTheme/paused.svg
+FILE /Contents/Resources/images/lightTheme/waterGlass.svg
+FILE /Contents/Resources/images/lightTheme/reSignIn.svg
+FILE /Contents/Resources/images/lightTheme/list_checkbox.svg
+FILE /Contents/Resources/images/lightTheme/stackedIceCubes.svg
+FILE /Contents/Resources/images/lightTheme/word.svg
+FILE /Contents/Resources/images/lightTheme/loading.svg
+FILE /Contents/Resources/images/lightTheme/onDemandSelectiveSync.svg
+FILE /Contents/Resources/images/lightTheme/pc_alert.svg
+FILE /Contents/Resources/images/lightTheme/backArrow.svg
+FILE /Contents/Resources/images/lightTheme/warning-symbol_grey.svg
+FILE /Contents/Resources/images/lightTheme/signIn.svg
+FILE /Contents/Resources/images/lightTheme/lock_icon.svg
+FILE /Contents/Resources/images/lightTheme/shield_icon.svg
+FILE /Contents/Resources/images/lightTheme/done_graphic.svg
+FILE /Contents/Resources/images/lightTheme/onDemandFiles.svg
+FILE /Contents/Resources/images/lightTheme/clock_icon.svg
+FILE /Contents/Resources/images/lightTheme/infoIcon.svg
+FILE /Contents/Resources/images/lightTheme/loading_spinner.svg
+FILE /Contents/Resources/images/lightTheme/overflowIcon.svg
+FILE /Contents/Resources/images/lightTheme/checkmark_finished.svg
+FILE /Contents/Resources/images/lightTheme/folder_image_desktop.svg
+FILE /Contents/Resources/images/lightTheme/recycleBin.svg
+FILE /Contents/Resources/images/lightTheme/chevronUp.svg
+FILE /Contents/Resources/images/lightTheme/cloud.svg
+FILE /Contents/Resources/images/lightTheme/excel.svg
+FILE /Contents/Resources/images/lightTheme/checkboxComposite.svg
+FILE /Contents/Resources/images/lightTheme/blurrect.png
+FILE /Contents/Resources/images/darkTheme/overflowIconLarge.svg
+FILE /Contents/Resources/images/darkTheme/acm_low_disk_space_online_only.svg
+FILE /Contents/Resources/images/darkTheme/errorIcon.svg
+FILE /Contents/Resources/images/darkTheme/folder_image_pictures.svg
+FILE /Contents/Resources/images/darkTheme/chevron.svg
+FILE /Contents/Resources/images/darkTheme/checkmark_selected.svg
+FILE /Contents/Resources/images/darkTheme/cancelIcon.svg
+FILE /Contents/Resources/images/darkTheme/premiumIcon.svg
+FILE /Contents/Resources/images/darkTheme/folder_image_documents.svg
+FILE /Contents/Resources/images/darkTheme/onenote.svg
+FILE /Contents/Resources/images/darkTheme/powerpoint.svg
+FILE /Contents/Resources/images/darkTheme/checkmark_in_progress.svg
+FILE /Contents/Resources/images/darkTheme/globeIcon.svg
+FILE /Contents/Resources/images/darkTheme/iceBucket.svg
+FILE /Contents/Resources/images/darkTheme/outlook.svg
+FILE /Contents/Resources/images/darkTheme/partiallyFreezing.svg
+FILE /Contents/Resources/images/darkTheme/premium_gem.svg
+FILE /Contents/Resources/images/darkTheme/onDemandFilesDehydrate.svg
+FILE /Contents/Resources/images/darkTheme/folderIcon.svg
+FILE /Contents/Resources/images/darkTheme/finderExtensionPrompt.svg
+FILE /Contents/Resources/images/darkTheme/kfm_folders_image.svg
+FILE /Contents/Resources/images/darkTheme/acmDismissIcon.svg
+FILE /Contents/Resources/images/darkTheme/vaultIntro.svg
+FILE /Contents/Resources/images/darkTheme/forwardArrow.svg
+FILE /Contents/Resources/images/darkTheme/checkmark_hovered.svg
+FILE /Contents/Resources/images/darkTheme/purchase_success_bg.svg
+FILE /Contents/Resources/images/darkTheme/paused.svg
+FILE /Contents/Resources/images/darkTheme/waterGlass.svg
+FILE /Contents/Resources/images/darkTheme/reSignIn.svg
+FILE /Contents/Resources/images/darkTheme/list_checkbox.svg
+FILE /Contents/Resources/images/darkTheme/stackedIceCubes.svg
+FILE /Contents/Resources/images/darkTheme/word.svg
+FILE /Contents/Resources/images/darkTheme/loading.svg
+FILE /Contents/Resources/images/darkTheme/onDemandSelectiveSync.svg
+FILE /Contents/Resources/images/darkTheme/pc_alert.svg
+FILE /Contents/Resources/images/darkTheme/backArrow.svg
+FILE /Contents/Resources/images/darkTheme/warning-symbol_grey.svg
+FILE /Contents/Resources/images/darkTheme/signIn.svg
+FILE /Contents/Resources/images/darkTheme/lock_icon.svg
+FILE /Contents/Resources/images/darkTheme/shield_icon.svg
+FILE /Contents/Resources/images/darkTheme/done_graphic.svg
+FILE /Contents/Resources/images/darkTheme/onDemandFiles.svg
+FILE /Contents/Resources/images/darkTheme/clock_icon.svg
+FILE /Contents/Resources/images/darkTheme/infoIcon.svg
+FILE /Contents/Resources/images/darkTheme/loading_spinner.svg
+FILE /Contents/Resources/images/darkTheme/overflowIcon.svg
+FILE /Contents/Resources/images/darkTheme/checkmark_finished.svg
+FILE /Contents/Resources/images/darkTheme/folder_image_desktop.svg
+FILE /Contents/Resources/images/darkTheme/recycleBin.svg
+FILE /Contents/Resources/images/darkTheme/chevronUp.svg
+FILE /Contents/Resources/images/darkTheme/cloud.svg
+FILE /Contents/Resources/images/darkTheme/excel.svg
+FILE /Contents/Resources/images/darkTheme/checkboxComposite.svg
+FILE /Contents/Resources/images/darkTheme/blurrect.png
+FILE /Contents/Resources/da.lproj/IssueWindow.nib
+FILE /Contents/Resources/da.lproj/SupportTicketView.nib
+FILE /Contents/Resources/da.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/da.lproj/SignInView.nib
+FILE /Contents/Resources/da.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/da.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/da.lproj/BrowserWindow.nib
+FILE /Contents/Resources/da.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/da.lproj/SupportWindow.nib
+FILE /Contents/Resources/da.lproj/Localizable.strings
+FILE /Contents/Resources/da.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/da.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/da.lproj/WelcomeView.nib
+FILE /Contents/Resources/da.lproj/SupportSendingView.nib
+FILE /Contents/Resources/da.lproj/Preferences.nib
+FILE /Contents/Resources/da.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/da.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/da.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/da.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/da.lproj/SandboxMigration.nib
+FILE /Contents/Resources/da.lproj/SupportErrorView.nib
+FILE /Contents/Resources/da.lproj/BrowserMainView.nib
+FILE /Contents/Resources/qml/palettes.js
+FILE /Contents/Resources/qml/SendFeedbackModeItem.qml
+FILE /Contents/Resources/qml/WizardWelcomePage.qml
+FILE /Contents/Resources/qml/SimpleButtonLink.qml
+FILE /Contents/Resources/qml/QmlLoader.qrc
+FILE /Contents/Resources/qml/IconAndTextButton.qml
+FILE /Contents/Resources/qml/ActivityCenter.qml
+FILE /Contents/Resources/qml/FloodgateSurvey.qml
+FILE /Contents/Resources/qml/CustomMenu.qml
+FILE /Contents/Resources/qml/TextWithLink.qml
+FILE /Contents/Resources/qml/ActivityCenterHeader.qml
+FILE /Contents/Resources/qml/FabExMDL2.ttf
+FILE /Contents/Resources/qml/WizardVaultAdminRequestPage.qml
+FILE /Contents/Resources/qml/FabricProgressBar.qml
+FILE /Contents/Resources/qml/Colors.qml
+FILE /Contents/Resources/qml/VersionHistoryWindow.qml
+FILE /Contents/Resources/qml/CustomMenuItem.qml
+FILE /Contents/Resources/qml/ErrorsView.qml
+FILE /Contents/Resources/qml/ErrorsViewEntryPoint.qml
+FILE /Contents/Resources/qml/WizardVaultIntroPage.qml
+FILE /Contents/Resources/qml/MoveWindow.qml
+FILE /Contents/Resources/qml/ConfirmDialog.qml
+FILE /Contents/Resources/qml/SendFeedback.qml
+FILE /Contents/Resources/qml/fabricMdl2.js
+FILE /Contents/Resources/qml/ActivityCenterFooter.qml
+FILE /Contents/Resources/qml/README.md
+FILE /Contents/Resources/qml/ResetWindow.qml
+FILE /Contents/Resources/qml/ErrorsListItem.qml
+FILE /Contents/Resources/qml/ActivityCenterMessageMega.qml
+FILE /Contents/Resources/qml/WizardGenericErrorPage.qml
+FILE /Contents/Resources/qml/WizardChooseFolderPage.qml
+FILE /Contents/Resources/qml/ActivityCenterMessage.qml
+FILE /Contents/Resources/qml/HelperFunctions.js
+FILE /Contents/Resources/qml/FabricButton.qml
+FILE /Contents/Resources/qml/PurchaseWindow.qml
+FILE /Contents/Resources/qml/ActivityCenterLoader.qml
+FILE /Contents/Resources/qml/FolderItem.qml
+FILE /Contents/Resources/qml/ActivityCenterContextMenu.qml
+FILE /Contents/Resources/qml/SimpleButton.qml
+FILE /Contents/Resources/qml/PurchaseCard.qml
+FILE /Contents/Resources/qml/ScrollViewWithAcc.qml
+FILE /Contents/Resources/qml/WizardWindow.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/TumblerColumn.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/Gauge.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/qmldir
+FILE /Contents/Resources/qml/QtQuick/Extras/Tumbler.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/PieMenu.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/plugins.qmltypes
+FILE /Contents/Resources/qml/QtQuick/Extras/StatusIndicator.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/DelayButton.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/CircularGauge.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/DelayButton.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/ToggleButton.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/StatusIndicator.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/TumblerColumn.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/Gauge.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/PieMenu.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/Dial.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/Tumbler.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/Dial.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/ToggleButton.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/CircularGauge.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/StatusIndicatorSpecifics.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/GaugeSpecifics.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/ToggleButtonSpecifics.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/PictureSpecifics.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/CircularGaugeSpecifics.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/PieMenuSpecifics.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/qtquickextras.metainfo
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/DelayButtonSpecifics.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/GaugeSpecifics.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/CircularGaugeSpecifics.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/DelayButtonSpecifics.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/PictureSpecifics.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/PieMenuSpecifics.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/DialSpecifics.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/StatusIndicatorSpecifics.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/DialSpecifics.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/ToggleButtonSpecifics.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/togglebutton-icon.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/circulargauge-icon.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/statusindicator-icon16.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/piemenu-icon16.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/statusindicator-icon.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/delaybutton-icon16.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/picture-icon.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/gauge-icon16.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/tumbler-icon.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/picture-icon16.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/piemenu-icon.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/tumbler-icon16.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/dial-icon16.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/delaybutton-icon.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/dial-icon.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/togglebutton-icon16.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/circulargauge-icon16.png
+FILE /Contents/Resources/qml/QtQuick/Extras/designer/images/gauge-icon.png
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/Handle.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/qmldir
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/PieMenuIcon.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/CircularButton.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/CircularTickmarkLabel.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/TextSingleton.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/PieMenuIcon.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/CircularTickmarkLabel.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/CircularButtonStyleHelper.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/Handle.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/CircularButtonStyleHelper.qml
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/CircularButton.qmlc
+FILE /Contents/Resources/qml/QtQuick/Extras/Private/TextSingleton.qml
+FILE /Contents/Resources/qml/QtQuick/Window.2/qmldir
+FILE /Contents/Resources/qml/QtQuick/Window.2/plugins.qmltypes
+FILE /Contents/Resources/qml/QtQuick/Layouts/qmldir
+FILE /Contents/Resources/qml/QtQuick/Layouts/plugins.qmltypes
+FILE /Contents/Resources/qml/QtQuick/Controls.2/qmldir
+FILE /Contents/Resources/qml/QtQuick/Controls.2/plugins.qmltypes
+FILE /Contents/Resources/qml/QtQuick/Controls.2/ScrollView.qml
+FILE /Contents/Resources/qml/QtQuick/Controls.2/CheckBox.qml
+FILE /Contents/Resources/qml/QtQuick/Controls.2/ScrollBar.qml
+FILE /Contents/Resources/qml/QtQuick/Controls.2/Button.qml
+FILE /Contents/Resources/qml/QtQuick/Controls.2/Popup.qml
+FILE /Contents/Resources/qml/QtQuick/Controls.2/Menu.qml
+FILE /Contents/Resources/qml/QtQuick/Controls.2/MenuItem.qml
+FILE /Contents/Resources/qml/QtQuick/Controls.2/ScrollIndicator.qml
+FILE /Contents/Resources/qml/QtQuick/Controls.2/RadioButton.qml
+FILE /Contents/Resources/qml/QtQuick/Controls/qmldir
+FILE /Contents/Resources/qml/QtQuick/Controls/plugins.qmltypes
+FILE /Contents/Resources/qml/QtQuick/Controls/Styles/qmldir
+FILE /Contents/Resources/qml/QtQuick/Controls/Styles/Flat/qmldir
+FILE /Contents/Resources/qml/QtQuick/Templates.2/qmldir
+FILE /Contents/Resources/qml/QtQuick/Templates.2/plugins.qmltypes
+FILE /Contents/Resources/qml/QtQuick.2/qmldir
+FILE /Contents/Resources/qml/QtQuick.2/plugins.qmltypes
+FILE /Contents/Resources/es.lproj/IssueWindow.nib
+FILE /Contents/Resources/es.lproj/SupportTicketView.nib
+FILE /Contents/Resources/es.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/es.lproj/SignInView.nib
+FILE /Contents/Resources/es.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/es.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/es.lproj/BrowserWindow.nib
+FILE /Contents/Resources/es.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/es.lproj/SupportWindow.nib
+FILE /Contents/Resources/es.lproj/Localizable.strings
+FILE /Contents/Resources/es.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/es.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/es.lproj/WelcomeView.nib
+FILE /Contents/Resources/es.lproj/SupportSendingView.nib
+FILE /Contents/Resources/es.lproj/Preferences.nib
+FILE /Contents/Resources/es.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/es.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/es.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/es.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/es.lproj/SandboxMigration.nib
+FILE /Contents/Resources/es.lproj/SupportErrorView.nib
+FILE /Contents/Resources/es.lproj/BrowserMainView.nib
+FILE /Contents/Resources/en-GB.lproj/IssueWindow.nib
+FILE /Contents/Resources/en-GB.lproj/SupportTicketView.nib
+FILE /Contents/Resources/en-GB.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/en-GB.lproj/SignInView.nib
+FILE /Contents/Resources/en-GB.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/en-GB.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/en-GB.lproj/BrowserWindow.nib
+FILE /Contents/Resources/en-GB.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/en-GB.lproj/SupportWindow.nib
+FILE /Contents/Resources/en-GB.lproj/Localizable.strings
+FILE /Contents/Resources/en-GB.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/en-GB.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/en-GB.lproj/WelcomeView.nib
+FILE /Contents/Resources/en-GB.lproj/SupportSendingView.nib
+FILE /Contents/Resources/en-GB.lproj/Preferences.nib
+FILE /Contents/Resources/en-GB.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/en-GB.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/en-GB.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/en-GB.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/en-GB.lproj/SandboxMigration.nib
+FILE /Contents/Resources/en-GB.lproj/SupportErrorView.nib
+FILE /Contents/Resources/en-GB.lproj/BrowserMainView.nib
+FILE /Contents/Resources/nb.lproj/IssueWindow.nib
+FILE /Contents/Resources/nb.lproj/SupportTicketView.nib
+FILE /Contents/Resources/nb.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/nb.lproj/SignInView.nib
+FILE /Contents/Resources/nb.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/nb.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/nb.lproj/BrowserWindow.nib
+FILE /Contents/Resources/nb.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/nb.lproj/SupportWindow.nib
+FILE /Contents/Resources/nb.lproj/Localizable.strings
+FILE /Contents/Resources/nb.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/nb.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/nb.lproj/WelcomeView.nib
+FILE /Contents/Resources/nb.lproj/SupportSendingView.nib
+FILE /Contents/Resources/nb.lproj/Preferences.nib
+FILE /Contents/Resources/nb.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/nb.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/nb.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/nb.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/nb.lproj/SandboxMigration.nib
+FILE /Contents/Resources/nb.lproj/SupportErrorView.nib
+FILE /Contents/Resources/nb.lproj/BrowserMainView.nib
+FILE /Contents/Resources/en.lproj/IssueWindow.nib
+FILE /Contents/Resources/en.lproj/SupportTicketView.nib
+FILE /Contents/Resources/en.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/en.lproj/SignInView.nib
+FILE /Contents/Resources/en.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/en.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/en.lproj/BrowserWindow.nib
+FILE /Contents/Resources/en.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/en.lproj/SupportWindow.nib
+FILE /Contents/Resources/en.lproj/Localizable.strings
+FILE /Contents/Resources/en.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/en.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/en.lproj/WelcomeView.nib
+FILE /Contents/Resources/en.lproj/SupportSendingView.nib
+FILE /Contents/Resources/en.lproj/Preferences.nib
+FILE /Contents/Resources/en.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/en.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/en.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/en.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/en.lproj/SandboxMigration.nib
+FILE /Contents/Resources/en.lproj/SupportErrorView.nib
+FILE /Contents/Resources/en.lproj/BrowserMainView.nib
+FILE /Contents/Resources/ja.lproj/IssueWindow.nib
+FILE /Contents/Resources/ja.lproj/SupportTicketView.nib
+FILE /Contents/Resources/ja.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/ja.lproj/SignInView.nib
+FILE /Contents/Resources/ja.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/ja.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/ja.lproj/BrowserWindow.nib
+FILE /Contents/Resources/ja.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/ja.lproj/SupportWindow.nib
+FILE /Contents/Resources/ja.lproj/Localizable.strings
+FILE /Contents/Resources/ja.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/ja.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/ja.lproj/WelcomeView.nib
+FILE /Contents/Resources/ja.lproj/SupportSendingView.nib
+FILE /Contents/Resources/ja.lproj/Preferences.nib
+FILE /Contents/Resources/ja.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/ja.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/ja.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/ja.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/ja.lproj/SandboxMigration.nib
+FILE /Contents/Resources/ja.lproj/SupportErrorView.nib
+FILE /Contents/Resources/ja.lproj/BrowserMainView.nib
+FILE /Contents/Resources/zh-hans.lproj/IssueWindow.nib
+FILE /Contents/Resources/zh-hans.lproj/SupportTicketView.nib
+FILE /Contents/Resources/zh-hans.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/zh-hans.lproj/SignInView.nib
+FILE /Contents/Resources/zh-hans.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/zh-hans.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/zh-hans.lproj/BrowserWindow.nib
+FILE /Contents/Resources/zh-hans.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/zh-hans.lproj/SupportWindow.nib
+FILE /Contents/Resources/zh-hans.lproj/Localizable.strings
+FILE /Contents/Resources/zh-hans.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/zh-hans.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/zh-hans.lproj/WelcomeView.nib
+FILE /Contents/Resources/zh-hans.lproj/SupportSendingView.nib
+FILE /Contents/Resources/zh-hans.lproj/Preferences.nib
+FILE /Contents/Resources/zh-hans.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/zh-hans.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/zh-hans.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/zh-hans.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/zh-hans.lproj/SandboxMigration.nib
+FILE /Contents/Resources/zh-hans.lproj/SupportErrorView.nib
+FILE /Contents/Resources/zh-hans.lproj/BrowserMainView.nib
+FILE /Contents/Resources/el.lproj/IssueWindow.nib
+FILE /Contents/Resources/el.lproj/SupportTicketView.nib
+FILE /Contents/Resources/el.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/el.lproj/SignInView.nib
+FILE /Contents/Resources/el.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/el.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/el.lproj/BrowserWindow.nib
+FILE /Contents/Resources/el.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/el.lproj/SupportWindow.nib
+FILE /Contents/Resources/el.lproj/Localizable.strings
+FILE /Contents/Resources/el.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/el.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/el.lproj/WelcomeView.nib
+FILE /Contents/Resources/el.lproj/SupportSendingView.nib
+FILE /Contents/Resources/el.lproj/Preferences.nib
+FILE /Contents/Resources/el.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/el.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/el.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/el.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/el.lproj/SandboxMigration.nib
+FILE /Contents/Resources/el.lproj/SupportErrorView.nib
+FILE /Contents/Resources/el.lproj/BrowserMainView.nib
+FILE /Contents/Resources/de.lproj/IssueWindow.nib
+FILE /Contents/Resources/de.lproj/SupportTicketView.nib
+FILE /Contents/Resources/de.lproj/SupportSuccessView.nib
+FILE /Contents/Resources/de.lproj/SignInView.nib
+FILE /Contents/Resources/de.lproj/FinishFirstRunView.nib
+FILE /Contents/Resources/de.lproj/EnableFinderSyncView.nib
+FILE /Contents/Resources/de.lproj/BrowserWindow.nib
+FILE /Contents/Resources/de.lproj/CloudFilesTutorialView.nib
+FILE /Contents/Resources/de.lproj/SupportWindow.nib
+FILE /Contents/Resources/de.lproj/Localizable.strings
+FILE /Contents/Resources/de.lproj/ManageBlockedAppsView.nib
+FILE /Contents/Resources/de.lproj/SelectiveSyncView.nib
+FILE /Contents/Resources/de.lproj/WelcomeView.nib
+FILE /Contents/Resources/de.lproj/SupportSendingView.nib
+FILE /Contents/Resources/de.lproj/Preferences.nib
+FILE /Contents/Resources/de.lproj/BrowserLoadingView.nib
+FILE /Contents/Resources/de.lproj/SelectRootFolderView.nib
+FILE /Contents/Resources/de.lproj/RateOurApplicationView.nib
+FILE /Contents/Resources/de.lproj/FirstRunWindow.nib
+FILE /Contents/Resources/de.lproj/SandboxMigration.nib
+FILE /Contents/Resources/de.lproj/SupportErrorView.nib
+FILE /Contents/Resources/de.lproj/BrowserMainView.nib
+FILE /Contents/PlugIns/imageformats/libqgif.dylib
+FILE /Contents/PlugIns/imageformats/libqjpeg.dylib
+FILE /Contents/PlugIns/imageformats/libqsvg.dylib
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Info.plist
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/OneDrive.icns
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/Assets.car
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/pt-PT.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/pt.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/th.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/nl.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/id.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/fi.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/fr.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/ru.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/pl.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/tr.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/hu.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/zh-hant.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/ko.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/cs.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/sv.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/sk.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/it.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/da.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/es.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/en-GB.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/nb.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/en.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/ja.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/zh-hans.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/el.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/Resources/de.lproj/Localizable.strings
+FILE /Contents/PlugIns/FinderSync.appex/Contents/MacOS/FinderSync
+FILE /Contents/PlugIns/FinderSync.appex/Contents/_CodeSignature/CodeResources
+FILE /Contents/PlugIns/quick/libqtquickextrasflatplugin.dylib
+FILE /Contents/PlugIns/quick/libqtquickextrasplugin.dylib
+FILE /Contents/PlugIns/quick/libqquicklayoutsplugin.dylib
+FILE /Contents/PlugIns/quick/libqtquick2plugin.dylib
+FILE /Contents/PlugIns/quick/libwindowplugin.dylib
+FILE /Contents/PlugIns/quick/libqtquickcontrolsplugin.dylib
+FILE /Contents/PlugIns/quick/libqtquicktemplates2plugin.dylib
+FILE /Contents/PlugIns/quick/libqtquickcontrols2plugin.dylib
+FILE /Contents/PlugIns/platforms/libqcocoa.dylib
+FILE /Contents/MacOS/OneDrive
+FILE /Contents/OneDrive File Launcher.app/Contents/embedded.provisionprofile
+FILE /Contents/OneDrive File Launcher.app/Contents/Info.plist
+FILE /Contents/OneDrive File Launcher.app/Contents/PkgInfo
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/OneDrive.icns
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/DownloadAndGoManifest.omc
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/pt-PT.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/pt-PT.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/pt.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/pt.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/th.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/th.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/nl.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/nl.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/id.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/id.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/fi.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/fi.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/fr.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/fr.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/ru.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/ru.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/pl.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/pl.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/tr.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/tr.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/hu.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/hu.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/zh-hant.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/zh-hant.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/Base.lproj/MainWindow.nib
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/ko.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/ko.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/cs.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/cs.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/sv.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/sv.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/sk.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/sk.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/it.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/it.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/da.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/da.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/es.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/es.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/en-GB.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/en-GB.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/nb.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/nb.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/en.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/en.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/ja.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/ja.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/zh-hans.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/zh-hans.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/el.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/el.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/de.lproj/Localizable.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/Resources/de.lproj/InfoPlist.strings
+FILE /Contents/OneDrive File Launcher.app/Contents/MacOS/OneDrive File Launcher
+FILE /Contents/OneDrive File Launcher.app/Contents/_CodeSignature/CodeResources
+LINK /Contents/OneDrive Updater.app/Contents/Frameworks/MSCommon.framework => /Contents/Frameworks/MSCommon.framework
+LINK /Contents/OneDrive Updater.app/Contents/Frameworks/MSP2P.framework => /Contents/Frameworks/MSP2P.framework
+LINK /Contents/OneDrive Updater.app/Contents/Frameworks/HockeySDK.framework => /Contents/Frameworks/HockeySDK.framework
+LINK /Contents/Frameworks/HockeySDK.framework/HockeySDK => /Contents/Frameworks/HockeySDK.framework/Versions/A/HockeySDK
+LINK /Contents/Frameworks/HockeySDK.framework/Resources => /Contents/Frameworks/HockeySDK.framework/Versions/A/Resources
+LINK /Contents/Frameworks/HockeySDK.framework/Versions/Current => /Contents/Frameworks/HockeySDK.framework/Versions/A
+LINK /Contents/Frameworks/PlaceholderManager.framework/PlaceholderManager => /Contents/Frameworks/PlaceholderManager.framework/Versions/A/PlaceholderManager
+LINK /Contents/Frameworks/PlaceholderManager.framework/Resources => /Contents/Frameworks/PlaceholderManager.framework/Versions/A/Resources
+LINK /Contents/Frameworks/PlaceholderManager.framework/Versions/Current => /Contents/Frameworks/PlaceholderManager.framework/Versions/A
+LINK /Contents/Frameworks/QtSvg.framework/QtSvg => /Contents/Frameworks/QtSvg.framework/Versions/5/QtSvg
+LINK /Contents/Frameworks/QtSvg.framework/Resources => /Contents/Frameworks/QtSvg.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtSvg.framework/Versions/Current => /Contents/Frameworks/QtSvg.framework/Versions/5
+LINK /Contents/Frameworks/QtNetwork.framework/QtNetwork => /Contents/Frameworks/QtNetwork.framework/Versions/5/QtNetwork
+LINK /Contents/Frameworks/QtNetwork.framework/Resources => /Contents/Frameworks/QtNetwork.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtNetwork.framework/Versions/Current => /Contents/Frameworks/QtNetwork.framework/Versions/5
+LINK /Contents/Frameworks/QtWidgets.framework/Resources => /Contents/Frameworks/QtWidgets.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtWidgets.framework/QtWidgets => /Contents/Frameworks/QtWidgets.framework/Versions/5/QtWidgets
+LINK /Contents/Frameworks/QtWidgets.framework/Versions/Current => /Contents/Frameworks/QtWidgets.framework/Versions/5
+LINK /Contents/Frameworks/QtMacExtras.framework/QtMacExtras => /Contents/Frameworks/QtMacExtras.framework/Versions/5/QtMacExtras
+LINK /Contents/Frameworks/QtMacExtras.framework/Resources => /Contents/Frameworks/QtMacExtras.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtMacExtras.framework/Versions/Current => /Contents/Frameworks/QtMacExtras.framework/Versions/5
+LINK /Contents/Frameworks/MSP2P.framework/Resources => /Contents/Frameworks/MSP2P.framework/Versions/A/Resources
+LINK /Contents/Frameworks/MSP2P.framework/MSP2P => /Contents/Frameworks/MSP2P.framework/Versions/A/MSP2P
+LINK /Contents/Frameworks/MSP2P.framework/Versions/Current => /Contents/Frameworks/MSP2P.framework/Versions/A
+LINK /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Resources => /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources
+LINK /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/OneAuth => /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/OneAuth
+LINK /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/Current => /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A
+LINK /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Resources => /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/Resources
+LINK /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/ADAL => /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/ADAL
+LINK /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/Current => /Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A
+LINK /Contents/Frameworks/MacQtViews.framework/Resources => /Contents/Frameworks/MacQtViews.framework/Versions/A/Resources
+LINK /Contents/Frameworks/MacQtViews.framework/MacQtViews => /Contents/Frameworks/MacQtViews.framework/Versions/A/MacQtViews
+LINK /Contents/Frameworks/MacQtViews.framework/Versions/Current => /Contents/Frameworks/MacQtViews.framework/Versions/A
+LINK /Contents/Frameworks/QtQml.framework/QtQml => /Contents/Frameworks/QtQml.framework/Versions/5/QtQml
+LINK /Contents/Frameworks/QtQml.framework/Resources => /Contents/Frameworks/QtQml.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtQml.framework/Versions/Current => /Contents/Frameworks/QtQml.framework/Versions/5
+LINK /Contents/Frameworks/MacCrossPlatformUX.framework/Resources => /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/A/Resources
+LINK /Contents/Frameworks/MacCrossPlatformUX.framework/MacCrossPlatformUX => /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/A/MacCrossPlatformUX
+LINK /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/Current => /Contents/Frameworks/MacCrossPlatformUX.framework/Versions/A
+LINK /Contents/Frameworks/QtCore.framework/Resources => /Contents/Frameworks/QtCore.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtCore.framework/QtCore => /Contents/Frameworks/QtCore.framework/Versions/5/QtCore
+LINK /Contents/Frameworks/QtCore.framework/Versions/Current => /Contents/Frameworks/QtCore.framework/Versions/5
+LINK /Contents/Frameworks/QtQuick.framework/Resources => /Contents/Frameworks/QtQuick.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtQuick.framework/QtQuick => /Contents/Frameworks/QtQuick.framework/Versions/5/QtQuick
+LINK /Contents/Frameworks/QtQuick.framework/Versions/Current => /Contents/Frameworks/QtQuick.framework/Versions/5
+LINK /Contents/Frameworks/QtQuickTemplates2.framework/Resources => /Contents/Frameworks/QtQuickTemplates2.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtQuickTemplates2.framework/QtQuickTemplates2 => /Contents/Frameworks/QtQuickTemplates2.framework/Versions/5/QtQuickTemplates2
+LINK /Contents/Frameworks/QtQuickTemplates2.framework/Versions/Current => /Contents/Frameworks/QtQuickTemplates2.framework/Versions/5
+LINK /Contents/Frameworks/QtDBus.framework/Resources => /Contents/Frameworks/QtDBus.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtDBus.framework/QtDBus => /Contents/Frameworks/QtDBus.framework/Versions/5/QtDBus
+LINK /Contents/Frameworks/QtDBus.framework/Versions/Current => /Contents/Frameworks/QtDBus.framework/Versions/5
+LINK /Contents/Frameworks/QtGui.framework/Resources => /Contents/Frameworks/QtGui.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtGui.framework/QtGui => /Contents/Frameworks/QtGui.framework/Versions/5/QtGui
+LINK /Contents/Frameworks/QtGui.framework/Versions/Current => /Contents/Frameworks/QtGui.framework/Versions/5
+LINK /Contents/Frameworks/QtPrintSupport.framework/QtPrintSupport => /Contents/Frameworks/QtPrintSupport.framework/Versions/5/QtPrintSupport
+LINK /Contents/Frameworks/QtPrintSupport.framework/Resources => /Contents/Frameworks/QtPrintSupport.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtPrintSupport.framework/Versions/Current => /Contents/Frameworks/QtPrintSupport.framework/Versions/5
+LINK /Contents/Frameworks/DatabaseManager.framework/Resources => /Contents/Frameworks/DatabaseManager.framework/Versions/A/Resources
+LINK /Contents/Frameworks/DatabaseManager.framework/DatabaseManager => /Contents/Frameworks/DatabaseManager.framework/Versions/A/DatabaseManager
+LINK /Contents/Frameworks/DatabaseManager.framework/Versions/Current => /Contents/Frameworks/DatabaseManager.framework/Versions/A
+LINK /Contents/Frameworks/QtQuickControls2.framework/Resources => /Contents/Frameworks/QtQuickControls2.framework/Versions/5/Resources
+LINK /Contents/Frameworks/QtQuickControls2.framework/QtQuickControls2 => /Contents/Frameworks/QtQuickControls2.framework/Versions/5/QtQuickControls2
+LINK /Contents/Frameworks/QtQuickControls2.framework/Versions/Current => /Contents/Frameworks/QtQuickControls2.framework/Versions/5
+LINK /Contents/Frameworks/MSSyncEngine.framework/Resources => /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Resources
+LINK /Contents/Frameworks/MSSyncEngine.framework/MSSyncEngine => /Contents/Frameworks/MSSyncEngine.framework/Versions/A/MSSyncEngine
+LINK /Contents/Frameworks/MSSyncEngine.framework/Versions/Current => /Contents/Frameworks/MSSyncEngine.framework/Versions/A
+LINK /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/AriaOsXObjC => /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Versions/A/AriaOsXObjC
+LINK /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Resources => /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Versions/A/Resources
+LINK /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Versions/Current => /Contents/Frameworks/MSSyncEngine.framework/Versions/A/Frameworks/AriaOsXObjC.framework/Versions/A
+LINK /Contents/Frameworks/MSCommon.framework/Resources => /Contents/Frameworks/MSCommon.framework/Versions/A/Resources
+LINK /Contents/Frameworks/MSCommon.framework/MSCommon => /Contents/Frameworks/MSCommon.framework/Versions/A/MSCommon
+LINK /Contents/Frameworks/MSCommon.framework/Versions/Current => /Contents/Frameworks/MSCommon.framework/Versions/A
+LINK /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/PlaceholderManager => /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/PlaceholderManager
+LINK /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Resources => /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/Resources
+LINK /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/Current => /Contents/StandaloneUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/HockeySDK => /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/HockeySDK
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Resources => /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A/Resources
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/Current => /Contents/StandaloneUpdater.app/Contents/Frameworks/HockeySDK.framework/Versions/A
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Resources => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Resources
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/MSP2P => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/MSP2P
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/Current => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Resources => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/Resources
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/OneAuth => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A/OneAuth
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/Current => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/OneAuth.framework/Versions/A
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Resources => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/Resources
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/ADAL => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A/ADAL
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/Current => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSP2P.framework/Versions/A/Frameworks/ADAL.framework/Versions/A
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Resources => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/A/Resources
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/MSCommon => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/A/MSCommon
+LINK /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/Current => /Contents/StandaloneUpdater.app/Contents/Frameworks/MSCommon.framework/Versions/A
+LINK /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/PlaceholderManager => /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/PlaceholderManager
+LINK /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Resources => /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A/Resources
+LINK /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/Current => /Contents/OneDriveUpdaterDaemon.xpc/Contents/Frameworks/PlaceholderManager.framework/Versions/A
+LINK /Contents/Resources/qml/QtQuick/Extras/libqtquickextrasplugin.dylib => /Contents/PlugIns/quick/libqtquickextrasplugin.dylib
+LINK /Contents/Resources/qml/QtQuick/Window.2/libwindowplugin.dylib => /Contents/PlugIns/quick/libwindowplugin.dylib
+LINK /Contents/Resources/qml/QtQuick/Layouts/libqquicklayoutsplugin.dylib => /Contents/PlugIns/quick/libqquicklayoutsplugin.dylib
+LINK /Contents/Resources/qml/QtQuick/Controls.2/libqtquickcontrols2plugin.dylib => /Contents/PlugIns/quick/libqtquickcontrols2plugin.dylib
+LINK /Contents/Resources/qml/QtQuick/Controls/libqtquickcontrolsplugin.dylib => /Contents/PlugIns/quick/libqtquickcontrolsplugin.dylib
+LINK /Contents/Resources/qml/QtQuick/Controls/Styles/Flat/libqtquickextrasflatplugin.dylib => /Contents/PlugIns/quick/libqtquickextrasflatplugin.dylib
+LINK /Contents/Resources/qml/QtQuick/Templates.2/libqtquicktemplates2plugin.dylib => /Contents/PlugIns/quick/libqtquicktemplates2plugin.dylib
+LINK /Contents/Resources/qml/QtQuick.2/libqtquick2plugin.dylib => /Contents/PlugIns/quick/libqtquick2plugin.dylib
+LINK /Contents/OneDrive File Launcher.app/Contents/Frameworks/MSCommon.framework => /Contents/Frameworks/MSCommon.framework
+LINK /Contents/OneDrive File Launcher.app/Contents/Frameworks/MSP2P.framework => /Contents/Frameworks/MSP2P.framework
+LINK /Contents/OneDrive File Launcher.app/Contents/Frameworks/HockeySDK.framework => /Contents/Frameworks/HockeySDK.framework

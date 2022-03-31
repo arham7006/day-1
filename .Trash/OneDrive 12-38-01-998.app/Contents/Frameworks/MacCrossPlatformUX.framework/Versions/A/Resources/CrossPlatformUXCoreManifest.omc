@@ -1,0 +1,224 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-CrossPlatformUXCore-Log" />
+  <!-- Telemetry moved from WindowsUICoreLogProvider -->
+  <provider guid="{1d80fd3d-7eea-4a76-85b5-5ed80cd8275f}" symbol="WindowsUICoreLogProvider">
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" tags="TelemetryQos" symbol="ProtocolHandlerManagerMappingTypeMismatch" message="ProtocolHandlerManager mapping type mismatch %mappingType isSiteAdmin: %isSiteAdmin. We expect the sync engine's AddMountedFolder call to fail due to wrong library type." value="2906918037">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UInt32" name="mappingType" />
+          <data type="UnicodeString" name="isSiteAdmin" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryUsage_v3" symbol="SyncButtonProtocolHandler" message="Telemetry point for the sync button in the web to record what type of site the user clicked sync on." value="994099259" version="3">
+        <template>
+          <data type="UnicodeString" name="Scenario" />
+          <data type="UnicodeString" name="ScenarioInstance" />
+          <data type="UnicodeString" name="ValidationError" />
+          <data type="UnicodeString" name="CorrelationVector" />
+          <data type="UnicodeString" name="UsageExperiment" />
+          <data type="UnicodeString" name="isSiteAdmin" />
+          <data type="UnicodeString" name="webTemplate" />
+          <data type="Boolean" name="IsIntentional" />
+          <data type="UnicodeString" name="DocID" />
+          <data type="UnicodeString" name="WebID" />
+          <data type="UnicodeString" name="SiteID" />
+          <data type="UnicodeString" name="ListID" />
+          <data type="UnicodeString" name="WebTemplateID" />
+          <data type="UnicodeString" name="FileExtension" />
+        </template>
+      </event>
+      <event level="CoreTelemetry" tags="TelemetryQos,DFD" symbol="RecordProtocolHandlerOperation_v4" message="Firing protocol handler telemetry" value="3232967950" version="4">
+        <template>
+          <!--Geneva-->
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="Int64" name="Duration" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UnicodeString" name="Error" />
+          <data type="UnicodeString" name="ValidationError" />
+          <data type="UnicodeString" name="CorrelationVector" />
+          <!--Aria-->
+          <data type="Boolean" name="IsStartUp" />
+          <data type="UnicodeString" name="LibraryType" />
+          <data type="UInt32" name="CommandType" />
+          <data type="UnicodeString" name="Ticker" value="PROTOCOLHANDLER" />
+        </template>
+      </event>
+      <event level="CoreTelemetry" tags="TelemetryQos,DFD" symbol="RecordProtocolHandlerOperation" message="Firing protocol handler telemetry" value="3232967950" version="5">
+        <template>
+          <!--Geneva-->
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <!--Aria-->
+          <data type="Boolean" name="IsStartUp" />
+          <data type="UnicodeString" name="LibraryType" />
+          <data type="UInt32" name="CommandType" />
+          <data type="UnicodeString" name="PartnerLaunchScenario" />
+          <data type="UnicodeString" name="Ticker" value="PROTOCOLHANDLER" />
+        </template>
+      </event>
+    </events>
+  </provider>
+  <!-- End of Telemetry moved from WindowsUICoreLogProvider with guid={1d80fd3d-7eea-4a76-85b5-5ed80cd8275f} -->
+  <provider guid="{915b0135-ab71-41b8-9349-1cc21ac443b0}" symbol="CrossPlatformUXCoreLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" symbol="AddToOneDriveUIManagerShowMoveShortcutDialog" message="AddToOneDriveUIManager launched qt task dialog for move shortcut" value="2777445905" />
+      <event level="Informational" symbol="AddToOneDriveUIManagerHandleTaskDialogCompleted" message="User clicked button: %buttonId within task dialog id: %taskDialogId" value="1735382430">
+        <template>
+          <data type="UInt64" name="taskDialogId" />
+          <data type="UInt64" name="buttonId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddToOneDriveUIManagerSetMessageData" message="AddToOneDriveUIManager set message data for message type: %messageType" value="2361511762">
+        <template>
+          <data type="UInt32" name="messageType" />
+        </template>
+      </event>
+      <event level="Error" symbol="AddToOneDriveUIManagerSetMessageDataUnexpected" message="AddToOneDriveUIManager set unexpected message data" value="895639741" />
+      <event level="Informational" symbol="AddToOneDriveUIManagerRemoveShortcutMessageSet" message="AddToOneDriveUIManager set remove shortcut message" value="2174027641" />
+      <event level="Informational" symbol="AddToOneDriveUIManagerDeletedFilesMessageSet" message="AddToOneDriveUIManager set files deleted message" value="60348397" />
+      <event level="Informational" symbol="AddToOneDriveUIManagerToastSend" message="AddToOneDriveMessageSource sent toast for message type: %messageType" value="4200700774">
+        <template>
+          <data type="UInt32" name="messageType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddToOneDriveUIManagerOnHandled" message="AddToOneDriveUIManager message: %messageId got handled with response: %response, action: %action" value="30327976">
+        <template>
+          <data type="WString" name="messageId" />
+          <data type="UInt32" name="response" />
+          <data type="UInt32" name="action" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="AddToOneDriveUIManagerErrorOnHandled_v1" message="AddToOneDriveUIManager error message got handled with error count: %errorCount, unmounted teamsite count: %teamsiteCount" value="1726734146" version="1">
+        <template>
+          <data type="UInt32" name="errorCount" />
+          <data type="UInt32" name="teamsiteCount" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddToOneDriveUIManagerGetEmptyNestedFolderName" message="AddToOneDriveUIManager got empty folder name for  AddToOneDriveNestedFolders error item." value="1815548391" />
+      <event level="Informational" tags="Telemetry" symbol="AddToOneDriveUIManagerErrorOnHandled_v2" message="AddToOneDriveUIManager error message got handled with error count: %errorCount" value="1726734146" version="2">
+        <template>
+          <data type="UInt32" name="errorCount" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="AddToOneDriveUIManagerErrorOnHandled" message="AddToOneDriveUIManager error message got handled with error count: %errorCount, teamsite is auto-mounted: %isAutoMount" value="1726734146" version="3">
+        <template>
+          <data type="UInt32" name="errorCount" />
+          <data type="Boolean" name="isAutoMount" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddToOneDriveUIManagerErrorDataSizeInvalid" message="AddToOneDriveUIManager got invalid error data size for error type: %errorType" value="2134415112">
+        <template>
+          <data type="WString" name="errorType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="StartWebBasedRequest" message="Prepared for execution of a web-based sync request: %webData, ProtocolHandlerResult: %ProtocolHandlerResult" version="3" value="3326807305">
+        <template>
+          <data type="PrivateInfo" name="webData" />
+          <data type="UInt32" name="ProtocolHandlerResult" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ExecuteWebBasedRequest" message="Starting to execute a web-based sync request..." value="700359574" />
+      <event level="Informational" symbol="ExecuteKFMWizardProtocol" message="Starting to execute a KFMWizard protocol with login state: %loginState" value="2505527635">
+        <template>
+          <data type="UInt32" name="loginState" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KFMWizardProtocolRequestNotShown" message="Could not launch KFM via protocol request even though user signed in. Initial setup complete: %isInitialSetupComplete" value="2013573755">
+        <template>
+          <data type="Boolean" name="isInitialSetupComplete" />
+        </template>
+      </event>
+      <event level="Error" symbol="ExecuteKFMWizardProtocolUnknownLoginState" message="Unknown login state encountered while executing a KFMWizard protocol: %loginState" value="1376797024">
+        <template>
+          <data type="UInt32" name="loginState" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ExecutedWebBasedRequest" message="Execution of the web-based request ended: %hr" value="2243624114">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ProtocolHandlerManagerInstanceMatchResults" message="ProtocolHandlerManager checked for matching instance with results: instanceId=%instanceId isUserIdMatch=%isUserIdMatch isUserEmailMatch=%isUserEmailMatch isPersonalMatch=%isPersonalMatch isBusinessMatch=%isBusinessMatch isRequestAccountSpecified=%isRequestAccountSpecified" value="3144515381">
+        <template>
+          <data type="UnicodeString" name="instanceId" />
+          <data type="Boolean" name="isUserIdMatch" />
+          <data type="Boolean" name="isUserEmailMatch" />
+          <data type="Boolean" name="isPersonalMatch" />
+          <data type="Boolean" name="isBusinessMatch" />
+          <data type="Boolean" name="isRequestAccountSpecified" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ProtocolHandlerManagerRequestInfo" message="ProtocolHandlerManager processing request info: odopenCommand=%odopenCommand mappingType=%mappingType isBusiness=%isBusiness isOnPrem=%isOnPrem instanceId=%instanceId siteId=%siteId webId=%webId webName=%webName webUrl=%webUrl webLogoUrl=%webLogoUrl webTemplate=%webTemplate listId=%listId libraryType=%libraryType folderId=%folderId folderName=%folderName folderUrl=%folderUrl tenantName=%tenantName tenantId=%tenantId userEmail=%userEmail isSiteAdmin=%isSiteAdmin mountPoint=%mountPoint userId=%userId experienceId=%experienceId scenarioId=%scenarioId" value="1263083960">
+        <template>
+          <data type="UnicodeString" name="odopenCommand" />
+          <data type="Boolean" name="isBusiness" />
+          <data type="Boolean" name="isOnPrem" />
+          <data type="UnicodeString" name="instanceId" />
+          <data type="UnicodeString" name="siteId" />
+          <data type="UnicodeString" name="webId" />
+          <data type="PrivateInfo" name="webName" />
+          <data type="PrivateInfo" name="webUrl" />
+          <data type="PrivateInfo" name="webLogoUrl" />
+          <data type="UnicodeString" name="webTemplate" />
+          <data type="UnicodeString" name="listId" />
+          <data type="UnicodeString" name="libraryType" />
+          <data type="PrivateInfo" name="folderId" />
+          <data type="PrivateInfo" name="folderName" />
+          <data type="PrivateInfo" name="folderUrl" />
+          <data type="PrivateInfo" name="tenantName" />
+          <data type="PrivateInfo" name="tenantId" />
+          <data type="PrivateInfo" name="userEmail" />
+          <data type="UnicodeString" name="isSiteAdmin" />
+          <data type="PrivateInfo" name="mountPoint" />
+          <data type="PrivateInfo" name="userId" />
+          <data type="UnicodeString" name="experienceId" />
+          <data type="UnicodeString" name="mappingType" />
+          <data type="Int32" name="scenarioId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ProtocolHandlerManagerExecuteWebRequestNotSignedIn" message="Webrequest was sent to a client without the first run completed with command: %cmd" value="654490443">
+        <template>
+          <data type="UnicodeString" name="cmd" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ProtocolHandlerManagerExecuteWebRequestSignedIn" message="Webrequest was sent to an already syncing instance with command: %cmd" value="4292308780">
+        <template>
+          <data type="UnicodeString" name="cmd" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ProtocolHandlerManagerOdOpenRequestSignIn" message="ODOPEN called needing to Request Sign-In with scenario: %scenario command: %cmd" value="608516386">
+        <template>
+          <data type="UInt32" name="scenario" />
+          <data type="UnicodeString" name="cmd" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ProtocolHandlerManagerLaunchWizardForWebRequest" message="Launching a new Wizard to handle a web request" value="4236697100" />
+      <event level="Informational" symbol="ProtocolHandlerManagerEndWebBasedRequest" message="The web-based sync request was cleared." value="3232701920" />
+    </events>
+  </provider>
+</manifest>

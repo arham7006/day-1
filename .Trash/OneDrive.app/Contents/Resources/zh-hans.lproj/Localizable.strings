@@ -1,0 +1,2575 @@
+// Misc
+
+// File Size Units
+
+/* The lowest unit for file sizes */
+"byteText" = "字节";
+
+/* Unit for file sizes. */
+"KiloByteAbbrv" = "KB";
+
+/* Unit for file sizes. */
+"MegaByteAbbrv" = "MB";
+
+/* Unit for file sizes. */
+"GigaByteAbbrv" = "GB";
+
+/* Unit for file sizes. */
+"TeraByteAbbrv" = "TB";
+
+/* Unit for file transfer speed. */
+"KiloBytePerSecond" = "KB/s";
+
+/* Unit for file transfer speed. */
+"MegaBytePerSecond" = "MB/s";
+
+
+// First run - used by FirstRunWindowController.mm and its views
+
+/* Windows title used to welcome a user running the application.
+ There's probably no need to localize this string. */
+"FirstRunWindowTitle" = "Microsoft OneDrive";
+
+/* Title of the welcome page when running for the first time */
+"FirstRunText" = "设置 OneDrive";
+
+/* Short explaination about what OneDrive does when running for the first time */
+"FirstRunDescriptiveText" = "将你的文件存放在 OneDrive 中，以便可从任何设备上获取它们。";
+
+/* Button to sign into a personal instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomePersonalButton" = "个人";
+
+/* Button to sign into a business instance of OneDrive on the first run experience in welcome page */
+"FirstRunWelcomeBusinessButton" = "工作或学校";
+
+/* Button to start email hrd sign in flow on the first run experience in welcome page */
+"FirstRunEmailSignInButton" = "登录";
+
+/* Placeholder text for the email input box on the first run experience in welcome page */
+"FirstRunEmailInputPlaceholderText" = "输入你的电子邮件地址";
+
+/* Errors shown when there is a problem with the users email address on the first run experience in welcome page */
+"FirstRunWelcomeErrorPersonalAlreadySyncing" = "你已在此计算机上同步个人 OneDrive。请取消链接此帐户以添加新的帐户。";
+"FirstRunWelcomeErrorEmailIsMSAAndAAD" = "此电子邮件地址同时用于 OneDrive 和 OneDrive for Business。你希望先登录哪一个?";
+"FirstRunWelcomeErrorEmailIsNotKnown" = "我们不能识别该电子邮件地址。";
+"FirstRunWelcomeErrorEmailAdminDisabled" = "你的组织不允许你在此计算机上同步个人 OneDrive。";
+
+/* first run wizard progress text for screen readers */
+"FirstRunProgress0" = "OneDrive 安装程序已完成百分之零";
+"FirstRunProgress50" = "OneDrive 安装程序已完成百分之五十";
+"FirstRunProgress75" = "OneDrive 安装程序已完成百分之七十五";
+"FirstRunProgress100" = "OneDrive 安装程序已完成百分之百";
+
+/* Title of the page that introduces OneDrive folder when running for the first time */
+"FirstRunIntroduceText" = "这是你的 OneDrive 文件夹";
+
+/* Title of the page that prompts for required folder when mounting for the first time */
+"FirstRunIntroduceRequiredPathText" = "确认文件夹位置";
+
+/* Title of the page that introduces OneDrive folder when running for the first time. "Finder" should be translated the same way as in the Mac OSX */
+"FirstRunIntroduceDescriptiveText" = "请在这里添加文件，以便你可以从其他设备访问这些文件，而这些文件仍存储在这台 Mac 上。";
+
+/* Title of the adminstrative error that will be attached to the FirstRunIntroduceDescriptiveText */
+"FirstRunIntroduceDescriptiveTextWithError" = "在此处添加文件，以便可从其他设备上进行访问且仍将其保留在此 Mac 上。你的管理员要求 OneDrive 文件夹位于此位置";
+
+/* Title of the page that prompts for access to required folder. */
+"SelectRequiredPathDescriptiveText:%@" = "若要同步这些文件，请向我们提供访问此文件夹的权限: %@";
+
+/* This is for the button that allows users to change the root folder path. When clicked, it opens a browse window for users to select the root folder. */
+"FirstRunBrowseButtonText" = "更改位置";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"FirstRunDoneIntroductionButtonText" = "下一步";
+
+/* This is for the button when user has never selected a root folder. */
+"FirstRunSelectFolderButtonText" = "选择 OneDrive 文件夹位置";
+
+/* This is for the button when user has not yet confirmed our required folder. */
+"FirstRunSelectRequiredFolderButtonText" = "确认文件夹位置";
+
+/* This is a prompt displayed in the file browse dialog. */
+"SelectRootFolderMessage" = "为你的 OneDrive 文件夹选择一个位置";
+
+/* This is a prompt displayed in the file browse dialog to confirm required location. */
+"SelectRequiredFolderMessage" = "使用选定的文件夹，然后单击“确认位置”。";
+
+/* This is for the confirmation button when user is done selecting the root folder. */
+"CreateRootFolderButton" = "选择此位置";
+
+/* This is for the confirmation button when user is done confirming the required folder. */
+"CreateRequiredFolderButton" = "确认位置";
+
+/* This is for the text field to show currently selected root folder path. */
+"FirstRunShowFolderPathText:%@" = "你的 %@ 文件夹是";
+
+/* This is the alert dialog title when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootTitle:%@" = "找不到你的 %@ 文件夹所在位置";
+
+/* This is the alert dialog body when we can't find the user's root folder. */
+"FirstRunUnconfiguredRootMessage" = "你的 OneDrive 文件夹可能已删除，或者如果你的 OneDrive 文件夹位于外部驱动器上，则它可能已被删除。单击“确定”以重新配置你的 OneDrive 文件夹。";
+
+/* This is the alert dialog button that allows user to reconfigure */
+"FirstRunUnconfiguredRootReconfigureButton" = "确定";
+
+/* This is the alert dialog button that allows user to quit the application */
+"FirstRunUnconfiguredRootQuitButton" = "退出 OneDrive";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is invalid */
+"InvalidMappingLocationMessageTitle" = "无法在你选择的位置创建 OneDrive 文件夹";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid. */
+"InvalidMappingLocationDetailedMessage" = "请尝试其他位置。确保此位置不在可移动驱动器上或在具有区分大小写格式的磁盘上。";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location can't be used */
+"InvalidMappingLocationInUseTitle" = "无法在此位置创建你的 OneDrive 文件夹";
+
+/* This is a detailed explanation in the alert window telling users the selected folder is already used by another OneDrive account. */
+"InvalidMappingLocationInUseDetailedMessage" = "此位置已存在另一个 OneDrive 文件夹。请选择其他位置。";
+
+/* This is a short text above detailed explaination in the alert window telling users to select the required path */
+"InvalidMappingRequiredPathMessageTitle" = "确认所选的文件夹位置，以便可继续同步";
+
+/* This is a detailed explaination in the alert window telling users the selected location is not the required path. */
+"InvalidMappingRequiredPathDetailedMessage" = "请保持所选的位置，然后在查找器中单击“确认位置”。";
+
+/* This is the button in the alert window that shows up when current location is not the required path. The button allows users to choose a new location */
+"InvalidMappingRequiredPathContinueButton" = "继续";
+
+/* This is the button in the alert window that shows up when current location is invalid. The button allows users to choose a new location */
+"InvalidMappingLocationChooseButton" = "选择新位置";
+
+/* This is the button in the alert window that shows up when current location is invalid. This button allows users to close the alert */
+"InvalidMappingLocationCancelButton" = "取消";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty */
+"MappingLocationContainsFileMessageTitle" = "内容在此文件夹中已经存在";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessage:%@" = "如果选择在此位置放置“%@”文件夹，此文件夹中的内容将与 OneDrive 合并。可选择其他位置，或继续使用所选择的位置";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is invalid.%@ is a folder name. */
+"MappingLocationContainsFileDetailedMessageWithDefaultFolder:%@" = "如果为“%@”文件夹选择此位置，则此文件夹中的内容将与 OneDrive 进行合并。";
+
+/* This is a short text above detailed explaination in the alert window telling users the OneDrive folder location is not empty {%1$@ is a folder name and %2$@ is its parent folder name } */
+"LibraryFolderMappingLocationContainsFileMessageTitle:%@,%@" = "“%2$@”文件夹中已存在名为“%1$@”的文件夹";
+
+/* This is a detailed explaination in the alert window telling users the OneDrive folder location is not empty. { %1$@ is a folder name } */
+"LibraryFolderMappingLocationContainsFileDetailedMessage:%@" = "如果选择在此位置放置“%1$@”文件夹，此文件夹中的文件将与云中文件合并。可以使用所选位置，也可同步到新文件夹。";
+
+/* This is the button in the alert window that shows up when the folder location is not empty. This button allows users to continue anyway */
+"MappingLocationContainsFileContinueButton" = "使用此位置";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button allows users to choose a new location */
+"MappingLocationContainsFileChooseButton" = "选择新位置";
+
+/* This is the button in the alert window that shows up when current location is not empty. The button informs us to automatically create a new folder on behalf of the user. */
+"MappingLocationContainsFileCreateButton" = "同步到新文件夹";
+
+/* This is on top of the selective sync page in First Run Experience. */
+"FirstRunSelectiveSyncTitle" = "仅同步你需要的内容";
+
+/* This is the description right below the title on top of the selective sync page. */
+"FirstRunSelectiveSyncDescription:%@" = "选择想要下载到你的 OneDrive%@ 文件夹的内容，即使处于离线状态也可访问。";
+
+/* This is the text on radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsTitle" = "我的 OneDrive 上的所有文件和文件夹";
+
+/* This is the description text next to the radio button to choose to sync all files */
+"FirstRunSelectiveSyncAllItemsDescription" = "除与你共享的文件之外的所有内容都将同步到此 Mac。";
+
+/* This is the text on radio button to choose to sync only some files */
+"FirstRunSelectiveSyncSomeItemsTitle" = "选择要同步的文件夹";
+
+/* This is the description text next to the radio button to choose to sync only some files. */
+"FirstRunSelectiveSyncSomeItemsDescription" = "单击“完成”可选择向此计算机同步哪些内容。";
+
+/* This is the button text in the selective sync page */
+"FirstRunSelectiveSyncNextButtonText" = "下一步";
+
+/* This is the title text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncTitle" = "打开“文件随选”";
+
+/* This is the description text in the Enable Finder Sync page */
+"FirstRunEnableFinderSyncDescription" = "要查看右键单击上下文菜单中的“文件随选”选项，需要启用 OneDrive Finder 同步扩展。请单击“打开扩展首选项”，再选择 OneDrive Finder 扩展。";
+
+/* This is the button text in the Enable Finder Sync page for the Enable button */
+"FirstRunEnableFinderSyncEnableButtonText" = "打开扩展首选项";
+
+/* This is the button text in the Enable Finder Sync page for the Skip button */
+"FirstRunEnableFinderSyncSkipButtonText" = "我稍后再启用扩展";
+
+/* This is on top of the Cloud Files Tutorial page in First Run Experience. */
+"FirstRunCloudFilesTutorialTitle" = "你的所有文件准备就绪且按需可用";
+
+/* This is the description right below the title on top of the Cloud Files Tutorial page. */
+"FirstRunCloudFilesTutorialDescription" = "利用“文件随选”功能，无需占用 Mac 上的空间即可浏览 OneDrive 中的所有内容。直接在你需要时下载文件。";
+
+/* This is the header text in the Cloud Files Tutorial page for online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFiles" = "仅联机可用的文件";
+
+/* This is the text in the Cloud Files Tutorial page describing online-only files. */
+"FirstRunCloudFilesTutorialDehydratedFilesDescription" = "在打开仅联机可用的文件之前，它们不下载到设备上。";
+
+/* This is the header text in the Cloud Files Tutorial page for locally available files. */
+"FirstRunCloudFilesTutorialHydratedFiles" = "本地可用的文件";
+
+/* This is the text in the Cloud Files Tutorial page describing locally available files. */
+"FirstRunCloudFilesTutorialHydratedFilesDescription" = "所打开的文件会下载到设备上且脱机可用。";
+
+/* This is the header text in the Cloud Files Tutorial page for always available files. */
+"FirstRunCloudFilesTutorialPinnedFiles" = "始终可用的文件";
+
+/* This is the text in the Cloud Files Tutorial page describing always available files. */
+"FirstRunCloudFilesTutorialPinnedFilesDescription" = "可标记希望始终可用(甚至脱机也可用)的文件和文件夹。";
+
+/* This is the button text in the Cloud Files Tutorial page */
+"FirstRunCloudFilesTutorialNextButtonText" = "下一步";
+
+/* This is on top of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunTitle" = "你的 OneDrive 已准备就绪";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunDescription:%@" = "将下载文件并在此 Mac 上让其保持同步。若要将文件添加到 OneDrive，在 Finder 中将其移至“%@”文件夹即可。";
+
+/* This is the description text of the Finish First Run page (Done page) in First Run Experience when Cloud Files on. */
+"FirstRunFinishFirstRunCloudFilesDescription:%@" = "你的 OneDrive 已设置完毕且可运行。要向 OneDrive 添加文件，只需将其移动到 Finder 中的“%@”文件夹即可。";
+
+/* This is the text of the Open-at-login checkbox in the Finish First Run page (Done page) in First Run Experience */
+"FirstRunFinishFirstRunOpenAtLoginCheckboxText" = "登录时打开以便我的文件自动同步";
+
+/* This is the button text in the Finish First Run page (Done page) in First Run Experience. */
+"FirstRunFinishFirstRunButtonText:%@" = "打开我的 %@ 文件夹";
+
+// Settings folder access error
+
+/* This is the title text for dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorTitle" = "无法访问设置文件夹";
+
+/* This is the descrption text for dialog we pop up when we cannot access settings folder {StrContains=\"Application Support\"} */
+"SettingsFolderErrorDescription" = "请确保你能够访问 Application Support 文件夹。";
+
+/* This is the button to quit for the dialog we pop up when we cannot access settings folder */
+"SettingsFolderErrorQuitButtonText" = "退出 OneDrive";
+
+// Cloud device - used by SyncDevice.mm
+
+/* The name of the online storage */
+"CloudDevice" = "OneDrive 已同步存储空间";
+
+
+// Folder status - used by ModelExtensions.mm
+
+/* Text shown on status menu when everything is in sync */
+"FolderStatusInSync" = "OneDrive 为最新版本"; // Up to date
+
+/* Local folder convergence status against a remote folder is not known */
+"FolderStatusUnknown" = "未知";
+
+/* Uploading and downloading files. "Files" will always be plural. */
+"FolderStatusSendAndReceive:%@" = "正在传输 %@ 个文件...";
+
+/* Uploading one file from a remote folder. We show the file name. */
+"FolderStatusSendingSingular:%@" = "正在上载 %@...";
+
+/* Uploading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusSendingPlural:%@" = "正在上载 %@ 个文件...";
+
+/* Downloading one file from a remote folder. We show the file name. */
+"FolderStatusReceivingSingular:%@" = "正在下载 %@...";
+
+/* Downloading more than one file from a remote folder. "files" is always plural. */
+"FolderStatusReceivingPlural:%@" = "正在下载 %@ 个文件...";
+
+/* Processing downloaded files to be created in a local folder */
+"FolderStatusRealizing" = "正在处理下载的文件...";
+
+/* Processing local file changes to be uploaded */
+"FolderStatusHashing" = "正在处理更改...";
+
+/* Scanning file changes in a folder */
+"FolderStatusScanning" = "正在扫描文件...";
+
+/* Scanning file changes in a folde */
+"FolderStatusScanningExtended:%@" = "正在扫描 %@...";
+
+/* Processing changes to files */
+"FolderStatusMetadataXfer" = "正在处理文件...";
+
+/* Waiting to resume file transfers (upload/download) */
+"FolderStatusBlocked" = "正在等待同步";
+
+/* Status for a folder that is not syncing*/
+"FolderStatusUnmapped" = "你的 OneDrive 未配置";
+
+/* Waiting to resume donwloading of a single file. We show the file name. */
+"FolderStatusBlockedSingular:%@" = "正在等待接收 %@...";
+
+/* Waiting to resume donwloading files */
+"FolderStatusBlockedPlural:%@" = "正在等待接收 %@ 个文件";
+
+/* Upload+Download Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB */
+"FolderStatusTransferProgress:%@,%@,%@,%@" = "%@ %@/%@ %@";
+
+/* Upload+Download+Rate Progress. The first number represents transferred amount followed by its unit. The second number shows total amount to be transferred followed by its unit. Example: 30 MB of 10.1 GB The third number shows the current transfer rate followed by its unit. */
+"FolderStatusTransferProgressNew:%@,%@,%@,%@,%@,%@" = "%@ %@ (共 %@ %@)，速率 %@ %@";
+
+/* Improve upload performance */
+"FasterUploadOption" = "通过分批上载提高上载速度。\r\n此选项将使用更多带宽。如果你发现 Internet 连接存在问题，请取消选中此选项。";
+
+/* Available storage space. Example: 20 GB used out of 200 GB. This is used in the systray. */
+"StorageQuota:%@,%@" = "已使用 %1$@，共 %2$@";
+
+/* Available storage space. Example: 20 GB of 200 GB cloud storage used. This is used in account tab of preference window to show GB on disk for personal account */
+"CloudStorageQuota:%@,%@" = "已使用 %1$@ 的云存储空间(共 %2$@)";
+
+/* Storage used on Mac. Example: 2 GB used on this Mac. This is used in account tab of preference window to show GB on disk for ODB */
+"StorageOnMac:%@" = "此 Mac 上使用了 %@";
+
+// Device status - used by ModelExtensions.mm
+
+/* Drive status displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlocked" = "无法上传文件";
+
+/* Error description displayed when all uploads are blocked from the client due to invalid content */
+"DeviceStatusUploadBlockedVerbose" = "存在文件问题，所有上传任务被阻止";
+
+// Device Location - used by ModelExtensions.mm
+
+/* Local device, i.e. this computer */
+"DeviceLocationLocal" = "本地";
+
+/* Remote device, e.g. another computer */
+"DeviceLocationRemote" = "远程";
+
+/* Cloud storage device, */
+"DeviceLocationCloud" = "云";
+
+// Sync Issue Window
+
+/* "Problem" is a general term that includes both warnings and errors. Problem is singular. */
+"SyncIssueWindowTitleSingular:%@" = "你的 %@ 有 1 个问题";
+
+/* "Problem" is a general term that includes both warnings and errors. Problems is plural. */
+"SyncIssueWindowTitlePlural:%@,%@" = "你的 %2$@ 有 %1$@ 个问题";
+
+/* The button is used to clear the issue list */
+"SyncIssueWindowClearButton" = "清除";
+
+/* Reveal is showing the item */
+"SyncIssueWindowOpenInFinderToolTip" = "在 Finder 中展现";
+
+/* Tool tip for the button that removes an issue from issue window */
+"SyncIssueWindowIgnoreIssueToolTip" = "忽略此问题";
+
+/* Text on status when there are more than 1 problems. "Problems" is always plural */
+"SyncIssueStatusPlural:%@" = "你的 OneDrive 遇到 %@ 个问题";
+
+/* Text on status when there is a problem. problem is always singular */
+"SyncIssueStatusSingular" = "你的 OneDrive 遇到 1 个问题";
+
+/* Tool tip for the button that opens issue resolver window */
+"SyncIssueWindowOpenIssueToolTip" = "解决此问题";
+
+/* Primary text for error dialog with a file conflict for the file name. %@ is a file name */
+"SyncIssueAlertFileOnHoldPrimary:%@" = "解决“%@”的文件冲突";
+
+/* Secondary text for error dialog. %@ is a machine name */
+"SyncIssueAlertFileOnHoldSecondary:%@" = "可在 Office 中打开文件，以合并两个版本中的更改，或选择要保留的文件。也可保留这两个文件，将向计算机上的文件的名称添加“-%@”，并下载在线文件。";
+
+/* Primary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldMainButton" = "保留这两个文件";
+
+/* Secondary button for error dialog to resolve file conflict */
+"SyncIssueAlertFileOnHoldSecondaryButton" = "在 Office 中打开";
+
+// Error description - used by ModelExtensions.mm
+
+/* error description used in issue window {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFilename" = "请更改该文件名，例如，确保它不以空格开头或结尾、不以一个句点结尾、不以两个句点开头，也不包含以下任意字符: \\ / : * ? \" < > | ";
+
+/* error description used in issue window  {Placeholder=\"\ / : * ? \\\" < > |\"} */
+"SyncErrorShortDescriptionInvalidFoldername" = "请更改该文件夹名称，例如，确保它不以空格开头或结尾、不以一个句点结尾、不以两个句点开头，也不包含以下任意字符: \\ / : * ? \" < > | ";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionFilePathTooLong" = "文件路径太长，因此不能存储在计算机上";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionCloudAccessDenied:%@" = "此文件在“%@”中为只读";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionDocumentCheckedOut" = "此文件由其他用户签出。";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionServerFileConflict:%@" = "无法将某项上传到“%@”";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionExcludedItem:%@" = "无法将项上传到“%@”";
+
+/* error description used in issue window %1$@ is a size like 10 GB, %2$@ is a string like "OneDrive - Microsoft" */
+"SyncErrorShortDescriptionFileTooBig:%@,%@" = "不能在 \"%2$@\" 中上传大于 %1$@ 的文件";
+
+/* Use "OneNote" unless there's a localized name for it {Locked=!cs, sk;\"OneNote\"} */
+"SyncErrorShortDescriptionOnenoteDeleted:%@" = "不能从“%@”文件夹删除 OneNote 文件的快捷方式。单击以转到 OneDrive，从 Web 删除快捷方式。";
+
+/* error description used in issue window */
+"SyncErrorShortDescriptionItemCantFitInQuota:%@" = "该文件或文件夹及其内容无法适应“%@”中的剩余配额";
+
+/* item means either folder or file */
+"SyncErrorShortDescriptionItemLimitExceeded:%@" = "“%@”中的文件过多。请删除不需要的文件。";
+
+/* The user choose to unsync files/folders but we are unable to delete it. item means either folder or file */
+"SyncErrorShortDescriptionUnmappedContentPresent:%@" = "“%@”中的相同在线位置已存在具有此名称的文件或文件夹。请重命名该文件或文件夹。";
+
+/* error description used when Office files have edit-edit conflicts and they cannot be merged */
+"SyncErrorShortDescriptionFileOnHold" = "无法合并 Office 文件中的更改。请单击箭头图标以解决问题。";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaCritical:%@,%@" = "%1$@ 已用完 %2$@ 的空间";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaCritical:%@,%@" = "%1$@ 只有 %2$@ 的可用空间。";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleQuotaExceeded:%@" = "%@ 空间不足";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionQuotaExceeded" = "要保持同步 OneDrive 文件夹，请获取更多存储空间或删除你不再需要的文件。";
+
+/* error description used in issue window for business accounts */
+"CloudIssueShortDescriptionQuotaExceeded_Business" = "请联系 IT 部门了解更多信息，或通过删除文件释放空间。";
+
+/* very terse error title used in issue window */
+"CloudIssueTitleThrottling" = "OneDrive 目前无法传输文件";
+
+/* error description used in issue window */
+"CloudIssueShortDescriptionThrottling" = "请明天再试。";
+
+// Status menu - used by StatusMenuController.mm
+
+/* No comments provided by engineer */
+"StatusMenuTitle" = "管理";
+
+/* The status menu item text that leads to more menu items */
+"StatusMoreMenu" = "更多";
+
+/* Text for status menu item that opens the folder containing deleted OneDrive files */
+"StatusMenuItemLaunchRecycleBin" = "OneDrive 回收站";
+
+/* Status menu item to allow the user to open the dialog for sharing file/folder */
+"StatusMenuItemShare" = "共享文件或文件夹...";
+
+/* Text for the status menu item which opens the OneDrive folder when clicked*/
+"StatusMenuItemOpenLocalFolder" = "打开 OneDrive 文件夹";
+
+/* Text for the status menu item which opens the named folder when clicked  */
+"StatusMenuItemOpenNamedFolder: %@" = "打开 %@ 文件夹";
+
+/* Status menu item that opens browser with Upgrade account page */
+"StatusMenuItemUpgrade" = "升级";
+
+/* Text for the status menu item which opens a browser to OneDrive website for storage manage */
+"StatusMenuItemManageStorage" = "管理存储空间";
+
+/* Status menu item that when clicked will launch a page with user's premium features */
+"StatusMenuItemManagePremium" = "我的高级版功能";
+
+/* Text for the status menu item which opens a browser to OneDrive website homepage */
+"StatusMenuItemLaunchWebsite" = "转到 OneDrive.com";
+
+/* The status menu item that allows user to open OneDrive help site. It will likely launch a browser to a website */
+"StatusMenuItemLaunchHelp" = "帮助";
+
+/* The status menu item that allows user to open OneDrive feedback. It will likely launch a browser to a website */
+"StatusMenuItemFeedback" = "反馈";
+
+/* The status menu item that allows a user to open the Parature support dialog. */
+"StatusMenuItemReportIssue" = "报告问题";
+
+/* Status shown on the status menu when everything is up to date */
+"StatusMenuItemUpToDate" = "OneDrive 为最新版本";
+
+/* Status shown on the status menu to indicate last updated time in seconds */
+"StatusMenuItemLastUpToDateTimeSecondsAgo" = "刚才进行的上次更新";
+
+/* Status shown on the status menu to indicate last updated time was one minute ago */
+"StatusMenuItemLastUpToDateTimeOneMinuteAgo" = "1 分钟之前进行的上次更新";
+
+/* Status shown on the status menu to indicate last updated time was minutes ago */
+"StatusMenuItemLastUpToDateTimeMinutesAgo:%d" = "%d 分钟之前进行的上次更新";
+
+/* Status shown on the status menu to indicate last updated time was one hour ago */
+"StatusMenuItemLastUpToDateTimeOneHourAgo" = "1 小时之前进行的上次更新";
+
+/* Status shown on the status menu to indicate last updated time was hours ago */
+"StatusMenuItemLastUpToDateTimeHoursAgo:%d" = "%d 小时之前进行的上次更新";
+
+/* Status shown on the status menu to indicate last updated time on a date */
+"StatusMenuItemLastUpToDateTimeDaysAgo:%@" = "上次更新 %@";
+
+/* No comments provided by engineer */
+"StatusMenuItemViewActivity" = "查看最近的活动";
+
+/* Status menu entry for opening the issue window */
+"StatusMenuItemViewIssues" = "单击此处可查看同步问题";
+
+/* Status shown on the status menu when downloading a file */
+"StatusMenuItemSyncCountSingularDownload: %@" = "正在下载 %@";
+
+/* Status shown on the status menu when uploading a file */
+"StatusMenuItemSyncCountSingularUpload: %@" = "正在上载 %@";
+
+/* Status shown on the status menu when downloading or uploading more than one file */
+"StatusMenuItemSyncCount-%d" = "正在传输 %d 个项目...";
+
+/* Text for status menu item that opens the preference. It should be translated the same way as all app menu's Preferences item. */
+"StatusMenuItemPreferences" = "首选项";
+
+/* Text for preference window accessibility label. %1$@ is the current tab name */
+"AccessibilityPreferencesWindowLabel:%@" = "首选项 %1$@";
+
+/* Text for status menu item that pauses syncing. */
+"StatusMenuItemPause" = "暂停同步";
+
+/* Text for status menu item that resumes syncing when paused. */
+"StatusMenuItemResume" = "继续执行同步";
+
+/* Text for status menu item that indicates to pause for 1 hour. */
+"StatusMenuItemPauseTimerSingular" = "1 小时";
+
+/* Text for status menu item that indicates to pause for a number of hours. %1$@ is a number representing hours. */
+"StatusMenuItemPauseTimerPlural" = "%1$@ 小时";
+
+/* Text for status menu item that quits the app */
+"StatusMenuItemQuit" = "退出 OneDrive";
+
+/* Loading user data when signing-in */
+"StatusMenuItemLoading" = "正在加载...";
+
+/* OneDrive is at initial start up */
+"StatusMenuItemStarting" = "启动 OneDrive";
+
+/* OneDrive is showing first run wizard */
+"StatusMenuItemSetup" = "设置 OneDrive";
+
+/* Waiting for user input to migrate their Sandbox data */
+"StatusMenuItemMigration" = "正在迁移用户数据...";
+
+/* Text for status menu item that signs out the app */
+"StatusMenuItemSignOut" = "注销";
+
+/* Launch the application automatically after login to OS */
+"StatusMenuItemOpenAtLogin" = "登录时打开";
+
+/* Status menu item that when clicked will launch the live sit for the account that is connected */
+"StatusMenuItemViewOnline" = "在线查看";
+
+// Quit Dialog
+
+/* Title text for dialog shown when user is quitting OneDrive */
+"QuitDialogHeader" = "退出 OneDrive?";
+
+/* Body text for dialog shown when user is quitting OneDrive */
+"QuitDialogDescription" = "如果退出 OneDrive，OneDrive 文件夹中的文件将不与在线文件同步。";
+
+/* Title text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogHeaderUploadsPending" = "是否退出 OneDrive 并停止上传文件?";
+
+/* Body text for dialog shown when user is quitting OneDrive, but there are pending uploads */
+"QuitDialogDescriptionUploadsPending" = "如果退出 onedrive, 则 OneDrive 文件夹中的文件在你重启后才会完成上传。";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will quit OneDrive. */
+"QuitDialogButtonDefault" = "退出 OneDrive";
+
+/* Button text in dialog shown when user is quitting OneDrive. Clicking this button will dismiss dialog. */
+"QuitDialogCancelButton" = "取消";
+
+// Dock Menu - used by DockMenuController.mm
+
+/* No comments provided by engineer */
+"DockMenuTitle" = "OneDrive";
+
+/* No comments provided by engineer */
+"DockMenuItemOpenLocalFolder" = "打开 OneDrive 文件夹";
+
+/* No comments provided by engineer */
+"DockMenuItemLaunchWebsite" = "转到 OneDrive.com";
+
+// Login Failures - used by SignInViewController.mm
+
+/* When we are unable to retrieve a user's tenant name, we will use this to show "OneDrive - Business" */
+"DefaultTenantName" = "商业版";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"InvalidUsernameTitleText" = "无法登录 OneDrive。";
+
+/* When we get invalid user during sign in, we pop a dialog and this is the explaination text in the dialog {StrContains=\"example555@hotmail.com\"} */
+"InvalidUsernameDescriptionText" = "请使用以下格式输入你的 Microsoft 帐户: example555@hotmail.com。";
+
+/* When we receive an invalid web request, we show this text as the first line of the dialog. */
+"InvalidWebRequestTitle" = "很抱歉，无法打开同步客户端";
+
+/* When we receive an invalid web request, we show this text as the body text of the dialog. */
+"InvalidWebRequestBody" = "无法处理 URL。若要获取帮助，请联系支持人员。";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailTitle" = "登录时出现问题";
+
+/* When we get authentication error during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SignInAuthFailText" = "登录时出现问题。请重试。确保你的 Microsoft 帐户和密码正确，并确保你的计算机连接到 Internet。";
+
+/* When we have connectivity error during sign in, we pop up a dialog and this is the first line of the text in the dialog*/
+"SignInConnectivityErrorTitleText" = "连接到 OneDrive 时出现问题";
+
+/* When we have connecctivity error during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInConnectivityErrorDescriptionText" = "检查你的 Internet 连接，然后重试。";
+
+/* When we fail to access the keychain during sign in, we pop up a dialog and this is the first line of text in the dialog. */
+"SignInKeychainErrorTitleText" = "访问你的钥匙串时出现问题";
+
+/* when we fail to access the keychain during sign in, we pop up a dialog and this is the detailed text in the dialog. */
+"SignInKeychainErrorDescriptionText" = "请检查登录钥匙串是否存在并且确定 OneDrive 是否可以访问它。如果出现提示，请允许 OneDrive 访问你的钥匙串。";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the first line of the text in the dialog */
+"SignInCredentialErrorTitleText" = "连接到 OneDrive 时出现问题";
+
+/* When we get invalid credential during sign in, we pop up a dialog and this is the detailed text in the dialog */
+"SignInCredentialErrorDescriptionText" = "检查你的 Internet 连接，然后重试。";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the first line of the text in the dialog */
+"SuspendedAccountTitleText" = "无法登录 OneDrive。";
+
+/* When we get a suspended user during sign in, we pop a dialog and this is the explaination text in the dialog */
+"SuspendedAccountDescriptionText" = "你的帐户已暂停。";
+
+/* When we get a user using a non-beta enabled account, we show this error title. */
+"SignInNoBetaText" = "无法登录 OneDrive。";
+
+/* When we get a user using a non-beta enabled account, we show this error description. {StrContains=\"Windows Live\"} */
+"SignInNoBetaDescriptionText" = "尚未为 Windows Live 试用版程序启用该帐户。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnknownErrorTitle" = "登录时出现问题";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnknownErrorText" = "请过几分钟后重试。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLError500Title" = "登录时出现问题";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLError500Text" = "抱歉，OneDrive 出现问题。请稍后重试。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInterruptedErrorTitle" = "登录时出现问题";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInterruptedErrorText" = "你的帐户存在问题。要了解如何修复此问题，请登录服务网站。在修复问题后，请重试。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLUnauthorizedErrorTitle" = "登录时出现问题";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLUnauthorizedErrorText" = "抱歉，OneDrive 出现问题。请稍后重试。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidClientErrorTitle" = "登录时出现问题";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidClientErrorText" = "抱歉，OneDrive 出现问题。请稍后重试。";
+
+/* When we get an error from OAuth, we show this error. This is the title */
+"SignInURLInvalidGrantErrorTitle" = "登录时出现问题";
+
+/* When we get an error from OAuth, we show this error. This is the description */
+"SignInURLInvalidGrantErrorText" = "抱歉，OneDrive 出现问题。请稍后重试。";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the title. */
+"SignInURLSPOUserNotFoundTitle" = "你的 OneDrive 尚未设置";
+
+/* When the OneDrive library has not yet been provisioned for the user, we should this error. This is the error text. */
+"SignInURLSPOUserNotFoundErrorText" = "如需帮助，请联系你的 IT 部门。";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the title */
+"SignInURLUserThrottledErrorTitle" = "无法在这台 Mac 上设置 OneDrive";
+
+/* When we get an error from Auth that the user is throttled, we show this error. This is the error text. */
+"SignInURLUserThrottledErrorText" = "很抱歉，OneDrive 当前由于访问量太大而导致网络拥堵。请稍后再尝试。";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the title. */
+"SignInURLEmailMismatchTitle" = "若要成功同步，请在此处使用 Web 上所用的相同电子邮件地址。";
+
+/* When the email signed in does not match the email from web request, we show this error. This is the error text. */
+"SignInURLEmailMismatchErrorText:%@" = "请使用 %@ 进行登录以开始同步此内容。";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to try signing in again. */
+"SignInTryAgainButtonText" = "重试";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive*/
+"SignInQuitButtonText" = "退出 OneDrive";
+
+/* When sign in failed, we pop up a dialog and the user can click this button to exit OneDrive */
+"SignInCloseButtonText" = "关闭";
+
+/* This text is displayed in sign in dialog while we load signing in page */
+"SignInPageLoadingText" = "正在加载...";
+
+/* This text is used for voice over while we load signing in page */
+"SignInPageLoadingVoiceOverText" = "OneDrive 正在加载，请稍候。";
+
+/* This text is displayed in sign in dialog while we are signing in the user */
+"SignInProgressingText" = "正在登录...";
+
+/* This text is used for voice over while we are signing in the user */
+"SignInProgressingVoiceOverText" = "OneDrive 正在登录，请稍候。";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the title. */
+"SignInDuplicateSyncErrorTitle" = "你已同步此帐户";
+
+/* When a user tries to sign in with an already synced account, we should get this error. This is the text. */
+"SignInDuplicateSyncErrorText:%@" = "打开 %@ 文件夹或使用其他帐户登录。";
+
+/* When the userconnected service returns an error, this is the title */
+"SignInUserConnectedErrorTitle" = "连接到 OneDrive 时出现问题";
+
+/* When the userconnected service returns error: "AccessDenied". This is the error text. */
+"SignInUserConnectedAccessDeniedText" = "你没有访问此服务的权限。请联系 IT 部门以获取帮助";
+
+/* When the userconnected service returns error: "AccountSuspended". This is the error text. */
+"SignInUserConnectedAccountSuspendedText" = "你的帐户已阻止。请联系 IT 部门以获取帮助";
+
+/* When the userconnected service returns error: "InvalidUserData". This is the error text. */
+"SignInUserConnectedInvalidUserDataText" = "无法与该服务建立连接。请联系你的 IT 部门以获取帮助";
+
+/* When the userconnected service returns error: "MissingLicense". This is the error text. */
+"SignInUserConnectedMissingLicenseText" = "需要另一个许可证才能访问此服务。请联系 IT 部门以获取帮助";
+
+/* When the userconnected service returns error: "ProvisioningFailed". This is the error text. */
+"SignInUserConnectedProvisioningFailedText" = "你的 OneDrive 未设置。请联系 IT 部门以获取帮助";
+
+/* When the userconnected service returns error: "Throttled". This is the error text. */
+"SignInUserConnectedThrottledText" = "该服务当前遇到大量请求。请稍等几分钟，然后重试";
+
+/* When the userconnected service returns error: "Timeout". This is the error text. */
+"SignInUserConnectedTimeoutText" = "该服务响应时间太长。请过几分钟后重试";
+
+/* When the userconnected service returns error: "Unknown". This is the error text. */
+"SignInUserConnectedUnknownText" = "请过几分钟后重试，如果问题仍然存在，请与你的 IT 部门联系";
+
+/* When the userconnected service returns error: "UnreachableHost". This is the error text. */
+"SignInUserConnectedUnreachableHostText" = "该服务暂时不可用。请过几分钟后重试";
+
+/* When the userconnected service returns error: "UserNotFound". This is the error text. */
+"SignInUserConnectedUserNotFoundText" = "你的帐户存在问题。请联系你的 IT 部门以获取帮助";
+
+/* When the userconnected service returns error: "NoTeamSitePermission". This is the error text. */
+"SignInUserConnectedNoTeamSitePermText" = "你无权访问此 SharePoint 网站。请联系 IT 部门获取帮助";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error. This is the title. */
+"SignInUserAlreadyLoadedErrorTitle" = "正在同步其他帐户";
+
+/* When a user that is already synced with account A, tries to sign in with a different account B, we should get this error.
+   Depending on whether we know which email the user is signed in with, either show the specific or the generic message below. This is the text. */
+"SignInUserAlreadyLoadedErrorEmailSpecificText:%@" = "用于登录的帐户与要同步的帐户不匹配。请提供“%@”的密码。若要添加其他帐户，请转到“首选项”，单击“帐户”选项卡，然后选择“添加帐户”";
+
+"SignInUserAlreadyLoadedErrorGenericText" = "用于登录的帐户与要同步的帐户不匹配。若要添加其他帐户，请转到“首选项”，单击“帐户”选项卡，然后选择“添加帐户”";
+
+/* When MSA user is already syncing with account A, and tries to sign in with account B when prompted for creds. Depending on whether the e-mail address is available or not, we show the specific or generic message below. This is the text */
+ "SignInUserAlreadyLoadedErrorMSAEmailSpecificText:%@" = "用于登录的帐户与要同步的帐户不匹配。请提供“%@”的密码。";
+
+ "SignInUserAlreadyLoadedErrorMSAGenericText" = "用于登录的帐户与要同步的帐户不匹配。";
+
+/* When an unknown error occurs that has not been handled. This is the title. */
+"SignInUnknownErrorTitle" = "登录时出现问题";
+
+/* When an unknown error occurs that has not been handled. This is the text. */
+"SignInUnknownErrorText" = "请过几分钟后重试，如果问题仍然存在，请与你的 IT 部门联系";
+
+// Preferences - used by PreferenceController.mm
+
+/* This is the text on preference window toolbar for Preferences. */
+"PreferenceGeneralItem" = "首选项";
+
+/* This is the text that encloses General area in preference window. */
+"PreferenceGeneralGroupBoxText" = "常规";
+
+/* This is the text on preference window check box. When user checks this option, it allows OneDrive to start when user login. */
+"PreferenceStartAtLoginCheckBoxText" = "登录时打开";
+
+/* This is the description for enable OnPrem telemetry checkbox. */
+"PrivacyCheckBoxText" = "向 Microsoft 发送错误报告和使用情况统计信息";
+
+/* This is the description when OneDrive is at the wrong location. "Applications" should be localized the same way as the OS. */
+"OpenAtLoginDisabledExplaination" = "要使此设置可用，请退出 OneDrive，将 OneDrive 应用程序移至 Applications 文件夹，然后再次打开 OneDrive。";
+
+/* This is the text on preference window check box. When user checks this option, OneDrive icon is removed from the Dock. Note "Dock" is capital D */
+"PreferenceHideDockIconText" = "隐藏 Dock 图标";
+
+/* This is the text for a preference window check box. When the user checks this option we will automatically save screenshots any time they take a screenshot. */
+"PreferenceEnableScreenCaptureUpload" = "将屏幕截图保存到 OneDrive";
+
+/* This will be displayed when a user running a store build attempts to enable the screen capture
+ * feature. Due to app store limitations, the user is forced to select their desktop folder. This
+ * message will be displayed within the file open dialog in order to help the user understand what
+ * selection they are required to make in the file open dialog. */
+"PreferenceEnableScreenCaptureUploadOpenDialogMessage" = "若要将屏幕截图自动保存到 OneDrive，请选择你的桌面文件夹。";
+
+/* This is the text on preference window check box. When user checks this option, we will not show share/edit notifications */
+"PreferenceDisplayShareEditNotificationsCheckBoxText" = "显示有关共享或编辑的通知";
+
+/* This is the text on preference window toolbar for About. */
+"PreferenceAboutItem" = "关于";
+
+/* This is the text that encloses about area in preference window. */
+"PreferenceAboutGroupBoxText" = "关于 Microsoft OneDrive";
+
+/* This is the text that shows version. */
+"PreferenceVersionText:%@" = "版本 %@";
+
+/* This is the text that shows version for standalone. */
+"PreferenceStandaloneVersionText:%@" = "版本 %@ (独立)";
+
+/* This is the text that encloses "more info" area in preference window. */
+"PreferenceMoreInfoGroupBoxText" = "详细信息";
+
+/* This is the text that opens help in browser. */
+"PreferenceGetHelpText" = "使用 OneDrive 获取帮助";
+
+/* This is the text that opens privacy statement in browser. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"PreferencePrivacyStatementText" = "隐私与 Cookie";
+
+/* This is the text that opens server status in browser. */
+"PreferenceServerStatusText" = "服务状态";
+
+/* This is the text that opens Terms of Use in browser. */
+"PreferenceTermsOfUseText" = "使用条款";
+
+/* This is the text on the button in preference window that opens the manage storage page on browser */
+"PreferenceManageStorageButtonText" = "管理存储空间";
+
+/* This is the text on the button that unlinks OneDrive in preference window. */
+"PreferenceUnlinkButtonText" = "取消链接此 Mac";
+
+/* This is the title text on the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertMessageTitle" = "在此 Mac 上取消链接帐户?";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for consumer accounts. */
+"PreferenceUnlinkAlertDetailedMessage" = "你的 OneDrive 文件将停止同步。这些文件的副本将保留在此 Mac 上。";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for business accounts. */
+"PreferenceUnlinkAlertDetailedMessageBusiness:%@" = "与此帐户相关联的业务内容(%@)将停止同步。这些文件的副本将保留在此 Mac 上。";
+
+/* This is the body text on the dialog that unlinks OneDrive in preference window for last library unsynced. %1$@ is a folder name, %2$@ is an email address */
+"PreferenceUnlinkLastLibraryAlertDetailedMessage:%@,%@" = "%1$@ 是你最后同步的文件夹。如果停止同步此文件夹，则会取消 %2$@ 帐户的链接。这些文件的副本将保留在这台 Mac 上。";
+
+/* This is the text on the confirm button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertConfirmButton" = "取消链接帐户";
+
+/* This is the text on the cancel button in the dialog that unlinks OneDrive in preference window. */
+"PreferenceUnlinkAlertCancelButton" = "取消";
+
+/* This is the text on the button that resets OneDrive in preference window. */
+"PreferenceResetButtonText" = "重置 OneDrive";
+
+/* This is the text on preference window toolbar for account. */
+"PreferenceAccountItem" = "帐户";
+
+/* This is the text that tells users how to sync down only selected folders in preference window. */
+"PreferenceSelectiveSyncDescription" = "你选择的文件夹将在此 Mac 上可用。";
+
+/* This is the text that encloses "Choose folders" area in preference window. */
+"PreferenceFolderGroupBoxText" = "选择文件夹";
+
+/* This is the button that opens up advanced selective sync in preference window. */
+"PreferenceSelectFoldersButton" = "选择文件夹";
+
+/* This is the text on the the preference window toolbar for network. */
+"PreferenceNetworkItem" = "网络";
+
+/* This is the text on the Upload box. */
+"PreferenceUploadBox" = "上传速度";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceNoLimit" = "无限制";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimit" = "自动调整";
+
+/* This is the text on the radio button that does not limit bandwidth. */
+"PreferenceAutoLimitByAdmin" = "自动调整(由组织管理)";
+
+/* This is the text on the radio button that does limit bandwidth. */
+"PreferenceCustomLimit" = "限制为:";
+
+/* This is the text on the Download box. */
+"PreferenceDownloadBox" = "下载速度";
+
+/* This is the text on the box to enable the Files On-Demand feature. */
+"PreferenceCloudFilesEnableBox" = "文件随选";
+
+/* This is the description for the Files On-Demand box. */
+"PreferenceCloudFilesDescription" = "文件随选通过按需下载文件来释放计算机上的空间。";
+
+/* Button text in Files On-Demand box. Clicking this button turns on the feature. */
+"PreferenceCloudFilesEnable" = "打开“文件随选”";
+
+/* Button text in Files On-Demand box. Clicking this button turns off the feature. */
+"PreferenceCloudFilesDisable" = "关闭“文件随选”";
+
+/* Link in the Files On-Demand box. Clicking this link will launch a webpage with more information. */
+/* Also resued in local mass delete delete confirmed ACM. */
+"PreferenceCloudFilesMoreInfo" = "了解详细信息";
+
+/* This is the title text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertMessageTitle" = "关闭“文件随选”?";
+
+/* This is the body text on the dialog that turns off Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertDetailedMessage" = "所有 OneDrive 文件和文件夹将都下载到这台 Mac。";
+
+/* This is the text on the confirm button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertConfirmButton" = "确定";
+
+/* This is the text on the cancel button in the dialog that disables Files On-Demand in preference window. */
+"PreferenceDisableCloudFilesAlertCancelButton" = "取消";
+
+/* This is the button text to display the Blocked Applications list. */
+"PreferenceBlockedAppButtonText" = "管理应用";
+
+/* This is the description for the Hydrating Applications pane. */
+"PreferenceHydratingAppDescription" = "Mac 可为请求文件的应用从 OneDrive 自动下载仅联机文件。";
+
+/* This is the description for the Blocked Applications box. */
+"PreferenceBlockedAppDescription" = "已阻止从 OneDrive 自动下载以下应用程序:";
+
+/* This is the description for the checkbox that allows user to control whether they see a hydration notification toast. */
+"PreferenceNotifyHydratingAppCheckbox" = "从 OneDrive 下载应用时通知我";
+
+/* This is the header of the table listing Blocked Applications */
+"PreferenceBlockedAppTableHeader" = "应用程序";
+
+/* Label for the button to close the Blocked Applications list */
+"PreferenceBlockedAppCloseButtonLabel" = "关闭";
+
+/* Prompt for user to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationPrompt" = "选择要阻止其自动下载文件的应用程序";
+
+/* Header for error when unable to add an application to the Blocked Applications list */
+"PreferenceBlockedAppAddApplicationErrorHeader" = "无法添加所选内容";
+
+/* Body for error when unable to add an application to the Blocked Applications list*/
+"PreferenceBlockedAppAddApplicationErrorBody" = "只可阻止应用程序自动下载 OneDrive 文件。请选择一个应用程序，然后重试。";
+
+// Preferences - Advanced Selective Sync Page
+
+/* This is the text on the top of advanced selective sync sheet. */
+"AdvancedSelectiveSyncTitle" = "同步你的 OneDrive 中的文件";
+
+/* This is the text on the top of advanced selective sync sheet when Cloud Files on. */
+"AdvancedSelectiveSyncTitleCloudFiles" = "选择文件夹";
+
+/* This is the text under the title of advanced selective sync sheet. */
+"AdvancedSelectiveSyncDescription:%@" = "选择要下载到“%@”文件夹的内容。即使处于离线状态，也可访问这些项目。";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page. */
+"AdvancedSelectiveSyncDescriptionPreferences" = "同步的文件会占用此 Mac 上的空间";
+
+/* This is the text in advanced selective sync sheet to sync everything. */
+"AdvancedSelectiveSyncAll" = "在我的 OneDrive 上同步所有文件和文件夹";
+
+/* This is the text in advanced selective sync sheet to sync everything under a team site. */
+"AdvancedSelectiveSyncAllTeamSite:%@" = "在 %@ 中同步所有文件和文件夹";
+
+/* This is the text in advanced selective sync sheet to sync only some files. */
+"AdvancedSelectiveSyncSome" = "或仅同步以下文件夹:";
+
+/* This is the text under the title of advanced selective sync sheet in the Preferences page and Cloud Files enabled. */
+"AdvancedSelectiveSyncDescriptionCloudFiles" = "选择希望在“%@”文件夹中可用的内容。可根据需要使用这些文件。未选中的文件夹将在查找器中隐藏。";
+
+/* This is the text in advanced selective sync sheet to sync everything when Cloud Files is enabled. */
+"AdvancedSelectiveSyncAllCloudFiles" = "使所有文件可用";
+
+/* This is the text in advanced selective sync sheet to sync only some files when Cloud Files is enabled. */
+"AdvancedSelectiveSyncSomeCloudFiles" = "或让这些文件夹可见:";
+
+/* This is the text on the file group item in the tree view. %@ is for folder names. ie "puppies", "Cute Kittens". */
+"AdvancedSelectiveSyncFileGroupItem:%@" = "“%@”中的文件";
+
+/* This is the text on the root's file group item in the tree view. */
+"AdvancedSelectiveSyncFileGroupItemRoot" = "文件夹以外的文件";
+
+/* This is the text on the advanced selective sync sheet for the local path on Mac. */
+"AdvancedSelectiveSyncMacLocationText" = "在 Mac 上的位置:";
+
+/* This is the button text on the advanced selective sync sheet for start sync. */
+"AdvancedSelectiveSyncStartSyncButtonText" = "开始同步";
+
+/* This is the button text on the advanced selective sync sheet for confirmation. */
+"AdvancedSelectiveSyncConfirmButtonText" = "确定";
+
+/* This is the button text on the advanced selective sync sheet for cancelling out. */
+"AdvancedSelectiveSyncCancelButtonText" = "取消";
+
+/* This is the text at the middle of advanced selective sync sheet when loading. */
+"AdvancedSelectiveSyncLoading" = "正在加载...";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoading:%@" = "无法获取 %@ 中的文件夹列表。\n请关闭此对话框，然后重试。";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders during FRE. Please keep "\n" intact. */
+"AdvancedSelectiveSyncFailedLoadingFRE" = "显示你的文件夹列表时出现问题。如果继续，我们目前将同步所有文件和文件夹，你以后可在“首选项”中进行更改。";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to provision error. */
+"AdvancedSelectiveSyncFailedLoadingWithProvisionError" = "抱歉，我们无法显示你的文件夹列表，因为我们仍在设置你的帐户。我们将同步所有文件和文件夹，你以后可在“首选项”中进行更改。";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to offline error*/
+"AdvancedSelectiveSyncFailedLoadingWithOfflineError" = "我们无法显示你的文件夹列表，因为我们无法连接到 OneDrive。请检查你的 Internet 连接，然后重试。";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to auth error. */
+"AdvancedSelectiveSyncFailedLoadingWithAuthError" = "无法显示文件夹列表，因为你的帐户存在问题。请退出 OneDrive，然后重新登录。";
+
+/* This is the text at the middle of advanced selective sync sheet when failed to load folders due to having no files and folders. */
+"AdvancedSelectiveSyncFailedLoadingWithNoFileError" = "你的 OneDrive 为空。要将你以后添加的文件同步到 OneDrive，请选择“我的 OneDrive 上的所有文件和文件夹”。";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnote" = "如果你停止同步文件或文件夹，它们将保留在 OneDrive 中而非此 Mac 上。如果它们已经在此 Mac 上，则将删除它们。";
+
+/* This is the text at the bottom of advanced selective sync sheet. */
+"AdvancedSelectiveSyncFootnoteCloudFiles" = "如果在 Mac 上隐藏这些文件夹，文件将保留在 OneDrive 上，但不在此 Mac 上。此文件夹中的所有项都将从此 Mac 中删除。";
+    
+/* This is the title text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingTitle" = "很抱歉，应用更改时出现问题";
+
+/* This is the description text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingDescription:%@" = "无法保存你选择用于同步到 %@ 的文件夹列表。请重试。";
+
+/* This is the button text in the alert sheet after we fail to set selective sync */
+"AdvancedSelectiveSyncFailedSettingConfirm" = "关闭";
+
+/* This is the title text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingTitle" = "抱歉，更改此 Mac 上同步的文件夹时出现问题";
+
+/* This is the description text in the alert sheet after we fail to set selective sync because syncengine is busy*/
+"AdvancedSelectiveSyncBusySettingDescription" = "你尝试停止同步的某些项目尚不在 OneDrive 中。请等待这些项目完成上载，并解决所有同步问题，然后稍后再尝试进行更改。";
+
+/* This is the button text in the alert sheet after we fail to set selective sync because syncengine is busy */
+"AdvancedSelectiveSyncBusySettingConfirm" = "关闭";
+
+/* This is the text indicating the total size of all selected files and folders. The placeholder is the size and the unit.
+ Examples: Selected: 20 MB */
+"AdvancedSelectiveSyncFilesSelected:%@" = "已选择: %@";
+
+/* This is the text indicating the remaining space on disk. The first item is the disk. The second item is the size and the unit.
+ Examples: Remaining space on Macintosh HD: 20 GB */
+"AdvancedSelectiveSyncAvailableSpace:%@,%@" = "%1$@ 上的剩余空间: %2$@";
+
+/* This is the description text for selectively syncing folders */
+"AdvancedSelectiveSyncSyncOnlyTheseFolderTitle" = "仅同步这些文件夹";
+
+/* This is the text shown when calculating the selected and remaining disk space */
+"AdvancedSelectiveSyncLoadingTitle" = "正在计算...";
+
+/* This is the text shown when content already syncing */
+"AdvancedSelectiveSyncAlreadySyncingWarning" = "已在同步此内容。";
+
+/* This is the text shown when the teamsite that will be synced is read-only. */
+"AdvancedSelectiveSyncReadOnlyWarning" = "此站点是只读的。无法对此站点上的文件或文件夹进行任何更改。";
+
+/* This is the text for add an account button in the account tab of preference window */
+"AddAccountButtonText" = "添加帐户";
+
+/* This is the text for teamsite box in account tab of preference window (singular) */
+"PreferenceTeamSiteGroupBoxText" = "正在同步 1 个位置";
+
+/* This is the text for teamsite box in account tab of preference window (plural) */
+"PreferenceTeamSiteGroupBoxText:%d" = "正在同步 %d 个位置";
+
+/* This is the text shown when not syncing ODB in account tab of preference window */
+"PreferenceNotSyncingQuotaText" = "不同步";
+
+/* This is the text for start sync button for ODB in account tab of preference window */
+"PreferenceStartSyncButton" = "开始同步";
+
+/* This is the text for stop sync button for each team site library in account tab of preference window */
+"PreferenceStopSyncButton" = "停止同步";
+
+/* This is the title text in the dialog that stops syncing a teamsite in preference window. */
+"PreferenceStopSyncAlertMessageTitle:%@" = "停止同步 %@?";
+
+/* This is the body text in the dialog that unlinks OneDrive in preference window. */
+"PreferenceStopSyncAlertDetailedMessage:%@" = "%@ 将停止同步。这些文件的副本将保留在此 Mac 上。";
+
+/* This is the text on the confirm button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertConfirmButton" = "停止同步";
+
+/* This is the text on the cancel button in the dialog that stops syncing in preference window. */
+"PreferenceStopSyncAlertCancelButton" = "取消";
+
+/* This is the title of the notifications we show after a team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationTitle:%@" = "正在同步“%1$@”";
+
+/* This is the body of the notification we show after a read-only team site has been succesfully connected (initial sync). */
+"TeamSiteNotificationReadOnlyBody" = "此网站是只读的。单击此处以查看你的文件。";
+
+/* This is the body of the notification we show after an editable team site has been succesfully connected (initial sync). %1$@ is a folder name. */
+"TeamSiteNotificationEditableBody:%@" = "可以编辑“%1$@”中的文件。单击此处以查看你的文件。";
+
+/* This is the title of the notification we show after a previously connected, editable team site has become read-only. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingReadOnlyTitle:%@" = "“%1$@”现在是只读的。";
+
+/* This is the body of the notification we show after a previously connected, editable team site has become read-only. */
+"TeamSiteNotificationAlreadySyncingReadOnlyBody" = "由于网站权限已更改，你不再能够编辑文件或文件夹。";
+
+/* This is the title of the notification we show after a previously connected, read-only team site has become editable. %1$@ is a folder name. */
+"TeamSiteNotificationAlreadySyncingEditableTitle:%@" = "现可以在“%1$@”中进行更改。";
+
+/* This is the body of the notification we show after a previously connected, read-only team site has become editable. */
+"TeamSiteNotificationAlreadySyncingEditableBody" = "任何更改都将上传到网站。";
+
+/* This is the body of the notification we show after a team site has been succesfully connected. Permissions of the site are not indicated for this toast. %1$@ is a folder name. */
+"TeamSiteMountNotificationBody:%@" = "你的“%1$@”文件同步到此 Mac。单击此处查看文件。";
+
+/* This is the title of the notifications we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingHeader:%@" = "已在同步“%1$@”";
+
+/* This is the body of the notification we show when a team site is already connected. %1$@ is a folder name. */
+"TeamSiteMountAlreadySyncingBody:%@" = "“%1$@”已在此设备上同步。单击此处可查看你的文件。";
+
+/* Error dialog title for dialogs that stop the user from syncing On Prem because the front door URL is missing or ramp is off. */
+"CannotSyncOnPremTitle" = "很抱歉，无法同步此文件夹";
+
+/* Body text for when we can't sync on Prem because its ramped off. */
+"OnPremSyncNotEnabledBody" = "不支持同步 SharePoint 本地文件夹。";
+
+/* Body text for when we can't sync On Prem because the front door URL is not configured. */
+"OnPremFrontDoorUrlNotSetBody" = "请联系 IT 管理员，将 OneDrive 配置为与 SharePoint 本地文件夹同步。";
+
+/* Title text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfiguredTitle" = "OneDrive 无法登录";
+
+/* Body text for when we can't sync on Prem because it's configured for Kerberos but we can't use the locally configured settings */
+"OnPremSyncNegotiateNotConfigured" = "你的凭据存在问题。请尝试启用票证查看器应用程序，然后添加你的标识或重新登录。请联系 IT 部门获取帮助。";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. */
+"NewHostMountConsentTitle" = "允许 OneDrive 进行同步?";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing. %1$@ is the mount point's domain and %2$@ is the user's username. */
+"NewHostMountConsentMessage:%@,%@" = "你正在尝试从一个新位置(%1$@)与你的 %2$@ 帐户同步。仅应在信任此位置时同步文件。";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, give consent */
+"NewHostMountConsentGiveConsentButton" = "允许";
+
+/* This is the alert dialog show when the user needs to consent to a new OnPrem host domain syncing, deny consent */
+"NewHostMountConsentDenyConsentButton" = "取消";
+
+// Sync Engine errors - used by coreController.mm. These are built manually, so straight searching won't work.
+
+/* This is the title text shown on the popup dialog when we detect a new version of the client is available */
+"SyncEngineError:OldClientVersion Title" = "此版本的 OneDrive 已过时。";
+
+/* This is the text shown on the popup dialog when we detect a new version of the client is available*/
+"SyncEngineError:OldClientVersion Message" = "请访问 Mac App Store 并更新最新版本的 OneDrive for Mac。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:OldClientVersion DefaultButton" = "退出";
+
+/* No comments provided by engineer */
+"SyncEngineError:PUIDFlip Title" = "识别你的设备时遇到问题。";
+
+/* No comments provided by engineer*/
+"SyncEngineError:PUIDFlip Message" = "请备份同步文件夹中的所有文件。然后访问 http://g.live.com/0ELHP_MEREN/266 以在 OneDrive 论坛上报告此问题。请将此错误文本包括在你的论坛贴子中。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:PUIDFlip DefaultButton" = "退出";
+
+/* No comments provided by engineer */
+"SyncEngineError:DiskFull Title" = "你的硬盘快满了。";
+
+/* No comments provided by engineer*/
+"SyncEngineError:DiskFull Message" = "请提供更多空间以继续使用 OneDrive。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:DiskFull DefaultButton" = "退出";
+
+/* This is shown when resign-in is required for MSA account*/
+"SyncEngineError:ForceSignIn Title" = "未登录";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn Message" = "文件可能不是最新版本。请重新输入凭据以再次开始同步。";
+
+/* No comments provided by engineer */
+"SyncEngineError:ForceSignIn DefaultButton" = "确定";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Title" = "Internet 连接可能存在问题。";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure Message" = "请确保你的计算机已连接到 Internet，然后重试。";
+
+/* No comments provided by engineer */
+"SyncEngineError:NetworkFailure DefaultButton" = "确定";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Title" = "抱歉，OneDrive 出现问题。";
+
+/* No comments provided by engineer*/
+"SyncEngineError:TerminateCore Message" = "请重新启动 OneDrive。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:TerminateCore DefaultButton" = "退出";
+
+/* No comments provided by engineer*/
+"SyncEngineError:ServerError Title" = "抱歉，OneDrive 服务器出现问题。";
+
+/* No comments provided by engineer */
+"SyncEngineError:ServerError Message" = "请稍后重试。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:ServerError DefaultButton" = "退出";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Title" = "对不起，你的帐户似乎存在问题。若要了解如何解决此问题，请转到 OneDrive.com 并登录。解决问题后可重试";
+
+/* Text shown when a user's account is suspended */
+"SyncEngineError:AccessDenied Message" = "请与客户支持部门联系。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:AccessDenied DefaultButton" = "退出";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Title" = "抱歉，OneDrive 出现问题。";
+
+/* No comments provided by engineer*/
+"SyncEngineError:Unknown Message" = "请退出 OneDrive，确保你的计算机已连接到 Internet，然后重新启动应用程序。";
+
+/* Text for button in error dialog to quit application */
+"SyncEngineError:Unknown DefaultButton" = "退出";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid %1$@ is a library name. */
+"SyncEngineError:RootScopeNotFound Title:%@" = "已重新在 Web 上创建“%1$@”库";
+
+/* Error shown when the Scope Id of the users OneDrive folder is invalid*/
+"SyncEngineError:RootScopeNotFound Message" = "单击“重新配置 OneDrive”重新在此台 Mac 上设置此库。";
+
+/* Text for button in error dialog to reconfigure OneDrive*/
+"SyncEngineError:ButtonText ReconfigureButton" = "重新配置 OneDrive";
+
+/* Message title in error dialog when a folder not found and drive is present. %1$@ is a folder name, %2$@ is its local path */
+"SyncError:MissingFolder Title:%@,%@" = "在 %2$@ 中找不到你的“%1$@”文件夹";
+
+/* Message in error dialog when the root folder is deleted. %@ is a folder name. */
+"SyncError:RootFolderDeleted Message:%@" = "单击“退出 OneDrive”，或单击“设置 OneDrive”以重新设置你的“%@”文件夹。";
+
+/* Message in error dialog when folder is not found while re-mapping and drive is present */
+"SyncError:MissingFolder Message" = "请确保此位置仍然存在此文件夹，然后单击“重试”，或单击“停止同步”以停止同步此文件夹。";
+
+/* Message in error dialog when mounted folder not found while re-mapping. %@ is an email address */
+"SyncError:MissingMountedFolder SetUpMessage:%@" = "请确保此位置仍然存在此文件夹，然后单击“重试”，或单击“设置 OneDrive”重新设置你的 %@ 帐户。";
+
+/* Message title in error dialog when there's a problem with the root folder */
+"SyncError:RootFolderError Title:%@" = "无法找到 %@ 文件夹。";
+
+/* Message in error dialog when there's a problem with the root folder. %@ is a folder name. */
+"SyncError:RootFolderError Message:%@" = "单击“退出 OneDrive”，或单击“设置 OneDrive”以重新设置你的“%@”文件夹。";
+
+/* Text for button in error dialog to restart application when there's a problem with the root folder */
+"SyncError:RootFolderError DefaultButton" = "重新启动 OneDrive";
+
+/* Message title in error dialog when OD found but creation doesn't match the DB. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:FolderMismatch Title:%@,%@" = "%2$@ 中的“%1$@”文件夹不是原始的“%1$@”文件夹";
+
+/* Message in error dialog when OD found but creation doesn't match the DB. %@ is a folder name. */
+"SyncError:RootFolderMismatch Message:%@"= "请将原始文件夹移回此位置，然后单击“重试”或单击“设置 OneDrive”重新设置你的“%@”文件夹。";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB */
+"SyncError:MountedFolderMismatch Message" = "请将原始文件夹移回此位置，然后单击“重试”，或单击“停止同步”以停止同步此文件夹。";
+
+/* Message in error dialog when mounted folder found but creation doesn't match the DB. %@ is an email address */
+"SyncError:MountedFolderMismatch SetUpMessage:%@" = "请将原始文件夹移回此位置，然后单击“重试”，或单击“设置 OneDrive”重新设置你的 %@ 帐户。";
+
+/* Message in error dialog when library is deemed unreachable */
+"SyncError:UnreachableLibrary Title" = "无法访问库";
+
+/* Message in error dialog when library is deemed unreachable {%@ is library name }*/
+"SyncError:UnreachableLibrary Message:%@" = "%@ 暂时不可用。请检查网络连接并在几分钟后重试，或联系 IT 管理员。";
+
+/* Message title in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Title" = "路径太长，无法同步此项目";
+
+/* Message in error dialog when the max file path limit is reached */
+"SyncError:MaxPathLength Message:%@" = "由于路径太长，无法下载文件或文件夹。请退出 OneDrive，在浏览器中访问 OneDrive for Business，然后缩短以下内容的名称或路径:\r\n“%@”\r\n\r\n若要将 OneDrive 同步到 Mac 上的不同位置，请单击“运行设置”。";
+
+/* Message in error dialog when the max file path limit is reached for a local file */
+"SyncError:LocalMaxPath Message:%@" = "由于路径太长，无法上载文件或文件夹。请退出 OneDrive，然后缩短以下内容的名称或路径:\r\n“%@”\r\n\r\n若要将 OneDrive 同步到 Mac 上的不同位置，请单击“运行安装程序”。";
+
+/* Message used in several error dialogs. %@ is an email address */
+"Error:ExitOrSetUpMessage:%@" = "单击“退出 OneDrive”，或单击“设置 OneDrive”重新设置你的 %@ 帐户。";
+
+/* Text for button in error dialog to exit application when max path length is reached */
+"SyncError:MaxPathLength DefaultButton" = "退出 OneDrive";
+
+/* Text for button in error dialog to run FRE when max path length is reached */
+"SyncError:MaxPathLength AlternateButton" = "运行安装程序";
+
+/* Message title in error dialog when the root folder volume is removed. %@ is a folder name.  */
+"SyncError:DriveVolumeRemovedNoVolume Title:%@" = "找不到你的“%@”文件夹";
+
+/* Message in error dialog when the root folder volume is removed. %@ is a folder name. */
+"SyncError:DriveVolumeRemovedNoVolume Message:%@" = "找不到你的“%@”文件夹的位置。请确保未将其删除。如果 OneDrive 文件夹位于外部驱动器上，请确保已连接该驱动器。";
+
+/* Text for button in error dialog to restart application when the root folder volume is removed */
+"SyncError:DriveVolumeRemoved DefaultButton" = "重新启动 OneDrive";
+
+/* Message title in error dialog when drive containing OD could not be found. %1$@ is a folder name, %2$@ is its local path. */
+"SyncError:MissingDrive Title:%@,%@" = "无法访问你在 %2$@ 中的“%1$@”文件夹";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingNoneRemovableDrive Message:%@" = "确保仍可在查找器中使用 %1$@ 驱动器，然后单击“重试”或单击“停止同步”以停止同步此文件夹。";
+
+/* Message in error dialog when the non-removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingNoneRemovableDrive SetUpMessage:%@,%@" = "确保仍可在查找器中使用 %1$@ 驱动器，然后单击“重试”或单击“设置 OneDrive”以重新设置 %2$@ 帐户。";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name. */
+"SyncError:MissingRemovableDrive Message:%@" = "我们注意到 %@ 是可移动驱动器。确保该驱动器已连接且可在查找器中使用，然后单击“重试”或单击“停止同步”以停止同步此文件夹。";
+
+/* Message in error dialog when the removable drive could not be found for tenant folder. %1$@ is a drive name, %2$@ is an email address */
+"SyncError:MissingRemovableDrive SetUpMessage:%@,%@" = "我们注意到 %1$@ 是可移动驱动器。确保此驱动器已连接且可在查找器中使用，然后单击“重试”或单击“设置 OneDrive”以重新设置 %2$@ 帐户。";
+
+/* Message title in error dialog indicating library cannot be synced, used in ClientNotAllowed, UnsupportedLibrary and DisableSync errors */
+"SyncError:LibraryCannotSync:%@" = "我们无法同步你的 %@ 文件夹";
+
+/* Message in error dialog when sync is disabled because domain is not "whitelisted" */
+"SyncError:ClientNotAllowed Message" = "IT 部门要求你使用加入了批准域的计算机以同步此文件夹。如需帮助，请联系 IT 部门。";
+
+/* Message in error dialog when the library is unsupported */
+"SyncError:UnsupportedLibrary Message" = "IT 部门所做的更改导致你无法同步此文件夹。若要了解详细信息，请联系 IT 部门。";
+
+/* Message in error dialog when sync is disabled */
+"SyncError:DisableSync Message" = "你的组织不允许同步此文件夹。若要了解详细信息，请联系 IT 部门。";
+
+/* Title in balloon tip for when the folder was removed remotely during mount. %@ is the name of the folder being mounted. */
+"SyncError:FolderRemovedRemotelyDuringMount Title:%@" = "此位置中不再存在“%@”";
+
+/* Message in balloon tip for when the folder was removed remotely during mount */
+"SyncError:FolderRemovedRemotelyDuringMount Message" = "此文件夹可能已被移动或删除。";
+
+/* Title in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them the folder has been deleted. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Title:%@" = "“%@”已被删除";
+
+/* Message in balloon tip for when a folder is deleted remotely that the user has mounted to their device, telling them a copy of the files will be left on the Mac. %@ is the local folder name. */
+"SyncError:MountPointRemovedRemotely Message:%@" = "“%@”将停止同步。这些文件的副本将保留在此 Mac 上。";
+
+/* Title in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them they no longer have permissions to sync it. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Title:%@" = "你不再有权同步“%@”";
+
+/* Message in balloon tip for when a user loses permissions to a folder they've mounted to their device, telling them the files have been removed from the Mac. %@ is the local folder name. */
+"SyncError:LostPermissionsToMountPoint Message:%@" = "已从 Mac 删除“%@”。";
+
+/* Title to show if add folder failed. %@ is a folder name. */
+"AddMountedFolderError Title:%@" = "无法同步你的“%@”文件夹";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorTryAgain:%@" = "很抱歉，当前无法添加你的“%@”文件夹。请重试。";
+
+/* Message to show if add mounted folder failed. %@ is a folder name.  */
+"AddMountedFolderErrorContactSupport:%@" = "很抱歉，当前无法添加你的“%@”文件夹。请联系支持人员。";
+
+/* Text for Try Again button, used in error dialogs. */
+"TryAgainButtonText" = "重试";
+
+/* Text for Stop Sync button, used in error dialogs. */
+"StopSyncButtonText" = "停止同步";
+
+/* Text for Set Up OneDrive button, used in error dialogs. */
+"SetUpDriveButtonText" = "设置 OneDrive";
+
+/* Text for Exit OneDrive button, used in error dialogs. */
+"ExitOneDriveButtonText" = "退出 OneDrive";
+
+// About box - used by coreController.mm
+
+/* Application name displayed in the about dialog */
+"AboutApplicationName" = "Microsoft® OneDrive";
+
+/* Copyright info for the updated about dialog */
+"CopyrightText" = "© 2018 Microsoft Corporation。保留所有权利。";
+
+/* Third Party Notices */
+"ThirdPartyNotices" = "第三方通知";
+
+// Menu Items
+
+/* Text for menu item to open the online help website */
+"MainMenuOnlineHelpMenuItemText" = "OneDrive 联机帮助";
+
+/* Text for menu item to open the service agreement website */
+"MainMenuServiceAgreementMenuItemText" = "使用条款";
+
+/* Text for menu item to open the private agreement website. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"MainMenuPrivacyAgreementMenuItemText" = "隐私与 Cookie";
+
+/* Text for menu item to open the server status website */
+"MainMenuServerStatusMenuItemText" = "服务器状态";
+
+// Manifest failures
+
+/* Main text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureTitle" = "OneDrive 无法启动";
+
+/* Informative text for the message box which explains that the application is corrupt */
+"ManifestValidationFailureMessage" = "应用程序文件出现问题。请将此应用程序下载到该计算机上，然后重试。";
+
+/* Quit button for the message box which explains the application is corrupt and must exit now */
+"ManifestValidationFailureQuitButton" = "退出 OneDrive";
+
+// Updater
+
+/* Message title in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableTitle" = "OneDrive 需要更新。";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreRequiredUpdateAvailableMessage" = "要继续使用 OneDrive，你需要安装更新。";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreRequiredUpdateAvailableOpenInAppStoreButton" = "获取更新";
+
+/* Text in button which quits the application */
+"AppStoreRequiredUpdateAvailableCloseButton" = "退出 OneDrive";
+
+/* Message title in dialog when there is an optional update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableTitle" = "OneDrive 的更新可用。";
+
+/* Message in dialog when there is a required update in the Mac App Store */
+"AppStoreOptionalUpdateAvailableMessage" = "是否获取此更新?";
+
+/* Text in button which opens the webpage for downloading new OneDrive */
+"AppStoreOptionalUpdateAvailableOpenInAppStoreButton" = "获取更新";
+
+/* Text in button which quits the application */
+"AppStoreOptionalUpdateAvailableCloseButton" = "不，谢谢";
+
+// Standalone migration
+
+/* Title for dialog shown to a user in a Mac App Store (MAS) migration downgrade scenario.
+ (When a user installs a lower version of Standalone on top of a higher version of Store) */
+"MASMigrationDowngradeScenarioTitle" = "OneDrive 不能移动你的设置";
+
+/* Message for dialog shown to a user in a MAS migration downgrade scenario, informing them of their options */
+"MASMigrationDowngradeScenarioMessage" = "无法移动设置，因为应用已过期。请下载并安装最新版本。或者，也可重新设置 OneDrive。";
+
+/* Later button for dialog shown to a user in a MAS migration downgrade scenario. The button will exit the client so the user may launch it again to retry the update later */
+"MASMigrationDowngradeScenarioLaterButton" = "稍后";
+
+/* Download button for dialog shown to a user in a MAS migration downgrade scenario. The button will trigger a download of the latest version of Standalone OneDrive */
+"MASMigrationDowngradeScenarioDownloadButton" = "下载并安装";
+
+/* Set Up OneDrive button for dialog shown to a user in a MAS migration downgrade scenario. The button will cause OneDrive to drop the user's Store settings and show FRE so the user can re-configure their OneDrive for Standalone */
+"MASMigrationDowngradeScenarioResetupOneDriveButton" = "设置 OneDrive";
+
+// Sandbox migration
+
+/* Text in button to select and confirm where the OneDrive folder is */
+"SandboxMigrationConfirmButton" = "确认位置";
+
+/* Text in button to quit the OneDrive application */
+"SandboxMigrationQuitButton" = "退出 OneDrive";
+
+/* Bold text summarizing that the user needs to confirm where the OneDrive folder is */
+"SandboxMigrationTitle" = "请确认 OneDrive 文件夹的位置";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationText" = "在继续使用 OneDrive 之前，你必须确认 OneDrive 文件夹当前位于 Mac 上。";
+
+/* Text explaining that it is necessary to confirm where the OneDrive folder is */
+"SandboxMigrationWindowTitle:%@" = "确认 %@ 文件夹的位置";
+
+/* Text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderMessage" = "请确认你的 OneDrive 文件夹。";
+
+/* Button text in the select folder dialog */
+"SandboxMigrationConfirmRootFolderButton" = "确认";
+
+/* Title text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderTitle" = "确定要停止使用现有的 OneDrive 文件夹?";
+
+/* Descriptive text explaining that the user picked a different folder than where we were mapped previously */
+"SandboxMigrationConfirmDifferentFolderMessage" = "要选择新的位置，请单击“运行 OneDrive 安装程序”。OneDrive 中的所有内容将下载到新的 OneDrive 文件夹。要继续使用现有的 OneDrive 文件夹，请单击“返回”并选择该文件夹。";
+
+/* Button text to pick a different folder */
+"SandboxMigrationConfirmDifferentFolderGoBackButton" = "返回";
+
+/* Button text to continue on and reconfigure OneDrive */
+"SandboxMigrationConfirmDifferentFolderQuitButton" = "运行 OneDrive 安装程序";
+
+/* Text for alerting invalid app bundle location */
+
+/* Title text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertTitle" = "OneDrive 应用程序必须在 Applications 文件夹中。";
+
+/* Description text in the alert when the app is started from an invalid location. "Applications" should be localized the same way as the OS. */
+"InvalidBundleLocationAlertDescription" = "请退出 OneDrive，将 OneDrive 应用程序移至你的 Applications 文件夹，然后再次打开 OneDrive。";
+
+/* Button text to exit in the invalid app location alert */
+"InvalidBundleLocationAlertButtonText" = "退出 OneDrive";
+
+
+/* ---------------------------- Support Window ------------------- */
+/* OK Button */
+"SupportWindowOkButton" = "确定";
+
+/* Cancel Button*/
+"SupportWindowCancelButton" = "取消";
+
+/* Try Again Button */
+"SupportWindowTryAgainButton" = "重试";
+
+/* Header string for Support Window */
+"SuportWindowReportProblem" = "报告问题";
+
+/* Subheading of support window that gives instructions on what to type */
+"SuportWindowTicketSubheading" = "对于因出现某个问题而导致你无法正常使用 OneDrive，我们深感抱歉。为了能帮助我们诊断出问题，请你提供尽可能多的关于此问题的信息以及在该问题出现时你所进行的操作。";
+
+/* Header to the textbox in the support window */
+"SupportWindowDescription" = "描述:";
+
+/* String at the bottom of the support window - right below the text field where the user types */
+"SupportWindowContactWarning" = "单击“发送”即表明你允许 Microsoft 就反馈相关事宜与你联系。";
+
+/* Link to privacy statement - very bottom of support dialog. The South Korea for this string must instead state "개인정보취급방침" (which means "pirvacy statement"). {StrContains=ko;"개인정보취급방침"} */
+"SupportWindowPrivacyStatement" = "隐私与 Cookie";
+
+/* Text below the progress bar while the support text is being sent */
+"SupportWindowSending" = "正在发送...";
+
+/* Success message for when the support text was successfully sent */
+"SupportSuccessMessage:%@" = "感谢你花时间通知我们关于你在使用 OneDrive 时所遇到的问题。请注意查收我们在收到你的来信后发送的确认电子邮件(%@)。";
+
+/* Error message for when the report was no sucessfully sent. Contains a hyperlink designated by <a> and </a> */
+"SupportErrorMessage" = "抱歉，在向你发送电子邮件时出现问题。请检查你的 Internet 连接，然后重试。你也可以<a>联系技术支持人员</a>报告问题。";
+
+/* Text for email text field label shown in the support window */
+"SupportWindowEmailLabel" = "电子邮件地址:";
+/* ----------------------------------------------------------------- */
+
+// App store related strings
+
+/* Apple app store description for OneDrive Mac client */
+"StoreDescription" = "OneDrive 可将你生活中的一切存于一处。可以免费在线存储你的所有个人文件，因此你可以从 Mac 和你使用的任何其他设备(iPhone、iPad、电脑、Windows Phone 或 Android 设备)访问它们。借助 OneDrive for Business，你还可以获取针对工作文件的存储空间，以便可借此在工作或学校时与其他人共享和协作。适用于 Mac 的 OneDrive 应用使你能够轻松地在 Mac 上处理 OneDrive 文件:\r\n•直接从 Finder 访问 OneDrive 文件，包括你从 Outlook.com 保存到 OneDrive 的附件以及你在 Office Online 上创建的文档和电子表格。\r\n•即使离线也可处理 OneDrive 文件。当你下次在线时，你的更改将自动同步。\r\n•选择 OneDrive 中要在 Mac 上同步的文件夹。\r\n•将多个文件或文件夹拖动到 OneDrive 文件夹即可一次性将它们添加到 OneDrive。 将文件存放在 OneDrive 中之后，你可以随时随地访问它们并拥有备份，以防计算机出现问题。\r\n•使用 Word 或 Excel 等应用轻松地在 OneDrive 中打开、编辑和创建文档和其他文件。将 OneDrive.com 上“共享”列表中的共享文件夹添加到 OneDrive，即可在计算机上进行同步，并与自己的文件夹同步编辑。";
+
+/* Pool of generic localized Strings to use for update description */
+"GenericUpdateDescription" = "已修复同步可靠性 bug。提高了应用程序可靠性。改进了同步性能。减少了电池消耗。";
+
+"GenericStoreUpdate" = "感谢使用 OneDrive。我们始终希望更新 OneDrive，以便为你带来最新性能改进和 Bug 修复，打造卓越的体验。";
+
+"R16String" = "担心使用按流量计费的网络时的带宽使用? 我们添加了暂停 OneDrive 的功能。可在“...”菜单下找到暂停选项。";
+
+"R18String" = "感谢使用 OneDrive。除了提供最新性能提升和 bug 修复的常规更新，还将逐渐向用户推出以下新功能:\n添加了新的覆盖功能，指示文件夹是否已共享。\n屏幕截图现可重定向到 OneDrive。";
+
+"R19String" = "感谢使用 OneDrive。我们不仅会定时更新，带来最新的性能改进和 Bug 修复，还会向用户逐步推出以下新增功能:\n打开已同步到计算机的 Office 文档时，即可在其中进行实时协作。\n可从 Office 应用程序中共享已同步到计算机的 Office 文档。\n现在，右键单击 OneDrive 云会在活动中心打开上下文菜单。\n版本号现已移动到首选项的“关于”选项卡，而不是采用独立窗口。";
+
+"R20String" = "感谢你使用 OneDrive。在提供常规更新为你带来最新性能改进和 bug 修复的同时，我们还将逐渐推出以下新功能:\n暂停同步时，点击横幅将恢复同步。";
+
+"R21String" = "感谢你使用 OneDrive。在提供常规更新为你带来最新性能改进和 bug 修复的同时，我们还将逐渐推出以下新功能:\n我们添加了同步启用了 IRM 的 SharePoint 文档库的功能";
+
+"R22String" = "感谢你使用 OneDrive。在提供常规更新为你带来最新性能改进和 bug 修复的同时，我们还将逐渐推出以下新功能:\nOneDrive 活动中心经过更新，现在更易于使用和理解。\n我们将菜单中的“报告问题”选项更改为了“发送反馈”。你现在可以告诉我们你喜欢或不喜欢的内容，或者建议你一直希望 OneDrive 中包含的功能。我们重视你的意见!";
+
+"R24String" = "感谢使用 OneDrive。除了为实现最新性能改进和错误修复而不时推出的更新外，我们还将陆续向用户推出以下新增功能:\nOneDrive 现支持 macOS Mojave 深色模式。启用深色模式后，OneDrive 的整个用户界面将切换为华丽的新深色主题!";
+
+"R26String" = "感谢使用 OneDrive。除了带给你最新性能改进和 bug 修补程序的常见更新，我们还提供以下新功能并将逐渐向用户推出这些新功能:\n已向共享对话框添加深色主题!\n进行了一组更改，可帮助提升性能和降低 CPU 使用率。如果你仍然看到问题，请告知我们。";
+
+"R32String" = "感谢你使用 OneDrive。除了可提供最新性能改进和 bug 修复的常规更新，我们还提供以下新功能(逐渐向用户推出):\n增添了对多显示器设置的支持，使其可在所选屏幕上显示活动中心。";
+
+/* Files On-Demand is the name of a feature that is already available on OneDrive on Windows already. */ 
+"R29String" = "通过此最新更新，现可使用 OneDrive 文件随选功能! OneDrive 文件随选功能可帮助你访问 OneDrive 中的所有文件，而无需全部下载并占用设备上的存储空间。在线创建或其他设备上的新文件将显示为“仅在线查看”文件，因此不占用设备上的空间。连接到 Internet 之后，即可如同设备上的任何其他文件一样使用这些文件。\n要使用文件随选功能，需要运行最新的 macOS Mojave (10.14.2 或更高版本)。可在 OneDrive 首选项菜单的“常规”选项卡中启用“文件随选”。";
+
+// Finder sync extension commands
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will copy a shareable link to their keyboard */
+"MenuItemShareCommand" = "共享 OneDrive 链接";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will open a web browser and display the selected file in the web interface */
+"MenuItemViewOnlineCommand" = "在线查看";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a selective sync window. */
+"MenuItemSelectiveSyncCommand" = "选择要同步的 OneDrive 文件夹";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a browser window that displays some detailed sharing options for the file. */
+"MenuItemSharingOptionsCommand" = "更多 OneDrive 共享选项";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch a hosted browser window that OneDrive controls. This browser window will load a web page from sharepoint and allow the user to modify sharing options from the file. This is different from just launching the user's default browser. */
+"MenuItemShareBrowserWindowCommand" = "共享";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will launch the preferences window for the account that the right clicked file belongs to. */
+"MenuItemPreferencesCommand" = "首选项";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to keep the content of this file or folder on disk. This translates to hydrating any files or folders that are dehydrated and setting the pin state to pinned on them. */
+"MenuItemPinCommand" = "始终在此设备上保留";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing and the Mac Files on Demand (Placeholders) feature is enabled. This command lets the user indicate that they want to free up space and therefore not store the content of this file or folder on disk. This translates to dehydrating any files or folders that are not already dehydrated and setting the pin state to unpinned on them. */
+"MenuItemUnpinCommand" = "释放空间";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will lock the folder. %@ is a folder name. */
+"MenuItemLockCommand:%@" = "锁定 %@";
+
+/* A right click context menu option displayed when the user right clicks a file that OneDrive is syncing. This command will unlock the folder. %@ is a folder name. */
+"MenuItemUnlockCommand:%@" = "解锁 %@";
+
+// Finder Sync Extension Tooltips
+
+/* Tooltip for synced / up-to-date icon in Mac Finder */
+"IconOverlaySyncedLabel" = "最新";
+
+/* Tooltip for syncing icon in Mac Finder */
+"IconOverlaySyncingLabel" = "正在同步";
+
+/* Tooltip for error icon in Mac Finder */
+"IconOverlayErrorLabel" = "错误";
+
+/* Tooltip for shared folder synced / up-to-date icon in Mac Finder */
+"IconOverlaySharedSyncedLabel" = "最新";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlaySharedSyncingLabel" = "正在同步";
+
+/* Tooltip for shared folder error icon in Mac Finder */
+"IconOverlaySharedErrorLabel" = "错误";
+
+/* Tooltip for shared folder syncing icon in Mac Finder */
+"IconOverlayReadOnlyLabel" = "最新，只读";
+
+/* Tooltip for unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedLabel" = "在此设备上可用";
+
+/* Tooltip for pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedLabel" = "在此设备上始终可用";
+
+/* Tooltip for unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedLabel" = "联机时可用";
+
+/* Tooltip for read-only, unspecified placeholder icon in Mac Finder */
+"IconOverlayUnspecifiedReadOnlyLabel" = "在此设备上可用，只读";
+
+/* Tooltip for read-only, pinned placeholder icon in Mac Finder */
+"IconOverlayPinnedReadOnlyLabel" = "在此设备上始终可用，只读";
+
+/* Tooltip for read-only, unpinned placeholder icon in Mac Finder */
+"IconOverlayUnpinnedReadOnlyLabel" = "联机时可用，只读";
+
+/* Action center (Toast) notification header for the Icon Overlay feature */
+"IconOverlayToastTitle" = "查看新的同步状态图标";
+
+/* Action center (Toast) notification body for the Icon Overlay feature */
+"IconOverlayToastBody" = "单击可允许 OneDrive 在 Finder 中显示同步状态。";
+
+/* Preferences Dialog string for enabling icon overlays*/
+"IconOverlayPreferencesLink" = "允许 OneDrive 在 Finder 中显示同步状态";
+
+// App moniker related strings
+
+/* Text of basic Moniker*/
+"BasicMoniker:%@" = "OneDrive — %@";
+
+/* Text of Moniker with user's first name. %0@ is user's firstname, %1@ is string like 'OneDrive - Personal' */
+"MonikerWithFirstName:%@,%@" = "%0@ 的 %1@";
+
+/* Text of Moniker with user's email. %0@ is string like 'OneDrive - Personal', %1@ is email address */
+"MonikerWithEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text of Moniker with user's first name and email. %0@ is MonikerWithFirstName like Someone's OneDrive - Personal, %1@ is email address */
+"MonikerWithFirstNameAndEmail:%@,%@" = "%0@ (%1@)";
+
+/* Text used in BasicMoniker for personal client */
+"PersonalDisplayMoniker" = "个人";
+
+// Notifications
+
+/* Balloon tip primary text to notify users that the shared folders sync feature is available */
+"SharedFoldersEnabledBaloonTipHeader" = "新增 – 可以同步共享文件夹!";
+
+/* Balloon tip secondary text describing how to start using the shared folder sync feature */
+"SharedFoldersEnabledBaloonTipBody" = "单击可在 OneDrive.com 上查看与你共享的文件夹。然后，选择可编辑的任何文件夹，并单击“添加到我的 OneDrive”。";
+
+/* Message shown when users try to run different flavors of OneDrive app side by side */
+"DifferentTypesOfAppSideBySide" = "你的计算机上有两个 OneDrive 副本。一次只能运行一个。建议你卸载其中一个。若要查看打开的是哪一个副本，请单击菜单栏中的 OneDrive 图标并选择“首选项”>“关于”。";
+
+/* Title for a notification shown when the user copies a link to a file to their pasteboard */
+"CopyFileLinkToPasteboardTitle" = "现可粘贴链接";
+
+/* Body for a notification shown when the user copies a link toa a file to their pasteboard */
+"CopyFileLinkToPasteboardBody" = "链接已保存到剪贴板。要共享它，请将其粘贴到邮件或帖子中。具有此链接的任何人都可以编辑该文件。";
+
+/* Title for a notification shown when a screen capture is saved */
+"ScreenshotSavedTitle" = "已保存屏幕截图";
+
+/* Body for a notification shown when a screen capture is saved. Screenshots should be localized and capitolized. */
+"ScreenshotSavedBody" = "单击此处打开“屏幕截图”文件夹";
+
+/* Title for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorTitle" = "无法将屏幕截图保存到 OneDrive";
+
+/* Body for an error dialog shown when a user tries to enable screenshots for a business account but is only syncing team sites. We don't know where to put the screenshots in this case so we can't enable the screenshot upload feature */
+"NoOdbScreenshotErrorBody" = "若要保存屏幕截图，请将工作或学校文件同步到 OneDrive。选择“帐户”选项卡，然后单击“开始同步”";
+
+// Campaign Manager toast notifications
+
+/* Title for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastTitle" = "启用登录时打开";
+
+/* Body for Open At Login Campaign toast */
+"OpenAtLoginCampaignToastBody" = "始终保持文件同步。";
+
+/* Title for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastTitle" = "在 Finder 中查看你的同步状态";
+
+/* Body for Finder Sync Extension Campaign toast */
+"FinderSyncCampaignToastBody" = "启用 Finder 集成。";
+
+/* Title for Placeholders Finder Sync Extension Campaign toast */
+"PlaceholdersFinderSyncCampaignToastTitle" = "使用文件随选释放空间";
+
+/* Body for Placeholders Finder Sync Extension Campaign toast*/
+"PlaceholdersFinderSyncCampaignToastBody" = "单击此处，开启 OneDrive Finder 扩展完成设置。";
+
+/* Title for Rate Application Campaign toast */
+"RatingsCampaignToastTitle" = "告诉我们你的想法";
+
+/* Body for Rate Application Campaign toast */
+"RatingsCampaignToastBody" = "评价 OneDrive 应用或发送反馈。";
+
+// Rate Our Application Window
+
+/* Windows title for rate our application window.
+ There's probably no need to localize this string. */
+"RateApplicationWindowTitle" = "Microsoft OneDrive";
+
+/* Title for Rate Us WindowText on two lines, please keep the \n in translation as a line terminator after "Thank you" */
+"RateApplicationBodyTitle" = "感谢你\n使用 OneDrive!";
+
+/* Text for Rate us button */
+"RateApplicationWindowRateButton" = "喜欢它吗? 请告诉我们更多信息!";
+
+/* Text for Tell us how to improve button */
+"RateApplicationWindowSupportbutton" = "请告诉我们如何改进";
+
+/* Text for Rate Us button - more engaging */
+"RateApplicationWindowRateButtonEngage" = "请给我们五星评价!";
+
+/*Text for Rate Us button - with question */
+"RateApplicationWindowRateButtonQuestion" = "喜欢它吗? 请给我们五星评价!";
+
+/* ---------------------------- Activity Center ------------------- */
+
+/* Text shown in title bar of Activity Center when we're up to date */
+"ActivityCenterHeaderUpToDate" = "OneDrive 为最新版本";
+
+/* Text shown in title bar of Activity Center when files are syncing */
+"ActivityCenterHeaderUpdatingFiles" = "OneDrive 正在更新文件...";
+
+/* Text shown in title bar of Activity Center when there are sync problems */
+"ActivityCenterHeaderNeedsAttention" = "OneDrive 需要关注";
+
+/* Text shown in title bar of Activity Center when we're paused */
+"ActivityCenterHeaderPaused" = "OneDrive 已暂停";
+
+/* Text shown in title bar of Activity Center when we're offline */
+"ActivityCenterHeaderOffline" = "OneDrive 处于脱机状态";
+
+/* Text shown in title bar of Activity Center when we aren't signed in */
+"ActivityCenterHeaderNotConnected" = "OneDrive 未连接";
+
+/* Text shown in the header of Activity Center when OneDrive is being reset */
+"ActivityCenterHeaderResetting" = "OneDrive 正在重置...";
+
+/* Primary text shown in the error bar of Activity Center, placeholder is number of items */
+"ActivityCenterFileErrorsItemPrimary" = "%@ 个项目无法同步";
+
+/* Primary text shown in the error bar of Activity Center, singular item version  */
+"ActivityCenterFileErrorsItemPrimarySingle" = "1 个项目无法同步";
+
+/* Secondary text shown in the error bar of Activity Center */
+"ActivityCenterFileErrorsItemSecondary" = "单击以获取详细信息";
+
+/* Up-to-date primary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemPrimary" = "一切准备就绪";
+
+/* Up-to-date secondary text shown on Activity Center at startup */
+"ActivityCenterWelcomeItemSelectiveSync" = "所有文件都保持同步";
+
+/* Up-to-date primary text shown on Activity Center while paused */
+"ActivityCenterPausedPrimary" = "你的文件当前未同步";
+
+/* Up-to-date secondary text shown on Activity Center while paused */
+"ActivityCenterPausedSecondary" = "单击此处以继续同步文件并使其保持为最新。";
+
+/* Text showing progress on one item when it's downloading or uploading. Placeholders are numbers and units for file progress. E.g. Uploading - 10 MB of 1 GB" */
+"ActivityCenterItemProgress" = "· %1$@ %2$@ / %3$@ %4$@";
+
+/* Text showing progress on one item when it's downloading or uploading with differential sync. Placeholder %1$@ is a number, %2$@ is a unit, %3$@ is a number, %4$@ is a unit, %5$@ is a number, %6$@ is a unit E.g. Uploading - 10 MB of 1 GB (100 KB)" */
+"ActivityCenterItemProgressDiffSyncUX" = "· %1$@ %2$@，共 %3$@ %4$@ (%5$@ %6$@)";
+
+/* Text shown on one item when it's uploading. */
+"ActivityCenterItemUploading" = "正在上传";
+
+/* Text shown on one item when it's reviewing the file before syncing. This is specific to differential sync */
+"ActivityCenterItemReviewingChanges" = "正在准备同步";
+
+ /* Text shown on one item when it's downloading. */
+"ActivityCenterItemDownloading" = "正在下载";
+
+/* Status shown on an item that's finished transfering. */
+"ActivityCenterItemUpdated" = "已在 OneDrive 中更新";
+
+/* Status shown on an item that's been removed. */
+"ActivityCenterItemRemoved" = "已从 OneDrive 删除";
+
+/* Status shown on an item that's finished uploading. Placeholder %% is a folder name. */
+"ActivityCenterItemUploaded" = "已上传到 %%";
+
+/* Status shown on an item that's finished downloading. Placeholder %% is a folder name. */
+"ActivityCenterItemDownloaded" = "已下载到 %%";
+
+/* Status shown on an item that's finished moving. Placeholder %% is a folder name. */
+"ActivityCenterItemMoved" = "已移动到 %%";
+
+/* Status shown on an item that was renamed. Placeholder %% is a folder name. */
+"ActivityCenterItemRenamed" = "已在 %% 中重命名";
+
+/* Status shown on an item that represents a placeholder file. Placeholder %% is a folder name. */
+"ActivityCenterItemPlaceholder" = "可通过 %% 获取";
+
+/* Timestamp on an item. Placeholders are for time difference and units E.g. 5 minutes ago */
+"ActivityCenterItemTime" = "%1$@ %2$@ 前";
+
+/* Timestamp on an item plus application. Placeholders %1$@ %2$@ are for time difference and units. %3$@ is an application name E.g. 5 minutes ago · Microsoft Word */
+"ActivityCenterItemTimeWithAppName" = "%1$@ %2$@前 · %3$@";
+
+/* Timestamp on an item plus application. Placeholder %1$@ is for a date. %2$@ is an application name E.g. 8/24/2018 · Microsoft Word */
+"ActivityCenterItemDateWithAppName" = "%1$@ · %2$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncing" = "正在同步 %1$@ 个文件 · 已同步 %2$@ %3$@，共 %4$@ %5$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're syncing. Placeholders are sizes and units for file progress. E.g. Syncing 10 files - 5 MB of 10 MB. */
+"ActivityCenterSummarySyncingSingle" = "正在同步 1 个文件 · 已同步 %1$@ %2$@，共 %3$@ %4$@";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing changes */
+"ActivityCenterSummaryProcessingChanges" = "正在处理更改";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing a single change */
+"ActivityCenterSummaryProcessingChangesCountSingle" = "正在处理更改";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're processing multiple changes. The placeholder %1$@ indicates the number of changes */
+"ActivityCenterSummaryProcessingChangesCount" = "正在处理 %1$@ 个更改";
+
+/* Sync summary shown at the top of the list of files in Activity Center when we're looking for file system changes */
+"ActivityCenterSummaryLooking" = "正在查找更改";
+
+/* Text read aloud when list of recent files is selected */
+"ActivityCenterHistoryListAccessibleText" = "最近使用的文件";
+
+/* time units used in activity center on timestamps. E.g. 1 second ago */
+"ActivityCenterSecondSingle" = "秒";
+
+/* time units used in activity center on timestamps. E.g. N seconds ago */
+"ActivityCenterSecondsMultiple" = "秒";
+
+/* time units used in activity center on timestamps. E.g. 1 minute ago */
+"ActivityCenterMinuteSingle" = "分钟";
+
+/* time units used in activity center on timestamps. E.g. N minutes ago */
+"ActivityCenterMinutesMultiple" = "分钟";
+
+/* time units used in activity center on timestamps. E.g. 1 hour ago */
+"ActivityCenterHourSingle" = "小时";
+
+/* time units used in activity center on timestamps. E.g. N hours ago */
+"ActivityCenterHoursMultiple" = "小时";
+
+/* Text shown on a button in the Activity Center that takes the user to the Upgrade storage page on OneDrive */
+"ActivityCenterQuotaButtonGetMoreStorage" = "获取更多存储空间";
+
+/* Text shown on a link in the Activity Center that takes the user to the Free up space page on OneDrive */
+"ActivityCenterQuotaButtonFreeUpSpace" = "释放空间";
+
+/* Primary text shown in the Activity Center when the user's quota is nearing maximum or in a critical state. The placeholders are the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso") and the percentage of space occupied, e.g Your OneDrive is 98% full */
+"ActivityCenterQuotaCriticalTitle, %@ %@" = "你的 %1$@ 已使用 %2$@";
+
+/* Secondart text shown in the Activity Center when the user is approaching critical quota. The placeholders are size and units remaining. E.g. You have only 10 MB of available space */
+"ActivityCenterQuotaLeftText, %@ %@" = "仅有 %1$@ %2$@ 的可用空间";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive. */
+"ActivityCenterQuotaReachedBody" = "获取更多存储空间以继续同步新文件。";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for Office 365 users. */
+"ActivityCenterQuotaReachedBody1TB" = "若要释放空间，请删除不再需要的文件。";
+
+/* Secondary text shown in Activity Center when the user's out of storage on their OneDrive, for business users. */
+"ActivityCenterQuotaReachedBodyBusiness" = "请联系 IT 部门了解更多信息，或通过删除文件释放空间。";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitleBusiness, %@" = "你的 %1$@ 空间不足";
+
+/* Primary text shown in the Activity Center when the user's out of storage on their OneDrive. The placeholder is the full name for the OneDrive account type (e.g. "OneDrive", "OneDrive - Personal" or "OneDrive - Contoso")" */
+"ActivityCenterQuotaReachedTitle, %@" = "你的 %1$@ 已满";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown for 1 week before switching to the normal banner text. */
+"ActivityCenterQuotaUpsellBannerIntroTitle" = "高级版功能简介";
+
+/* Primary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalTitle" = "升级到高级版";
+
+/* Secondary text shown in the Activity Center for users without an O365 subscription. This is shown after 1 week of showing the intro banner text. */
+"ActivityCenterQuotaUpsellBannerNormalBody" = "获取 1 TB (1000 GB)的存储空间和全新的 Office 2016 应用程序。";
+
+/* Part of the secondary text shown in the Activity Center for users without an O365 subscription. This appears in the banner for both upsell states of the banner. */
+"ActivityCenterQuotaUpsellBannerLearnMore" = "了解详细信息";
+
+/* The Accessibility text hint for the ACM dismiss button. */
+"ActivityCenterMessageDismissHint" = "忽略";
+
+/* Primary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInTitle" = "登录 OneDrive 开始使用";
+
+/* Secondary text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInBody" = "登录 OneDrive 以访问你的文件并将其同步到此设备上。";
+
+/* Button text shown in the Activity Center when user is not signed in, informs user to sign in. */
+"ActivityCenterRequestSignInButton" = "登录";
+
+/* Text shown in the Activity Center while we are signing the user in. */
+"ActivityCenterSigningIn" = "正在登录";
+
+/* Text shown in the Activity Center while we are signing the user out. */
+"ActivityCenterSigningOut" = "正在注销";
+
+/* Clicking this button will open (action) the OneDrive folder in File Explorer */
+"ActivityCenterFooterButtonOpenFolder" = "打开文件夹";
+
+/* Clicking this button will open (action) a web portal where the user can upgrade their account */
+"ActivityCenterFooterButtonGoPremium" = "升级到高级版";
+
+/* Clicking this button opens the user's (action) OneDrive folder online. ("View" here is an action) */
+"ActivityCenterFooterButtonViewOnline" = "在线查看";
+
+/* Clicking this button opens (action) a context menu which contains extra actions like pause, settings and quit */
+"ActivityCenterFooterButtonMore" = "更多";
+
+/* Accessibility text for button that will cancel a download */
+"ActivityCenterCancelButtonAccessibleName" = "取消下载";
+
+/* The name "OneDrive" */
+"OneDriveBrandName" = "OneDrive";
+
+/* Primary text shown in the alert of restart after crash */
+"RestartAfterCrashAlertTitle" = "OneDrive 存在问题";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is enabled */
+"RestartAfterCrashAlertBodyReportAProblemEnabled" = "很抱歉你遇到 OneDrive 相关问题。你可报告此问题获取支持人员的帮助，也可尝试重置 OneDrive。需要再次设置 OneDrive 应用程序才可重置 OneDrive。";
+
+/* Secondary text shown in the alert of restart after crash when report a problem is disabled */
+"RestartAfterCrashAlertBodyReportAProblemDisabled" = "很抱歉你遇到 OneDrive 相关问题。你可报告此问题获取支持人员的帮助，也可尝试重置 OneDrive。需要再次设置 OneDrive 应用程序才可重置 OneDrive。";
+
+/* Text for report a problem button shown in the alert of restart after crash */
+"RestartAfterCrashAlertReportAProblemButtonText" = "报告问题";
+
+/* Text for reset onedrive button shown in the alert of restart after crash */
+"RestartAfterCrashAlertResetOneDriveButtonText" = "重置 OneDrive";
+
+/* Text for cancel button shown in the alert of restart after crash */
+"RestartAfterCrashAlertCancelButtonText" = "取消";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared */
+"ShareWebWindowTitle, %@" = "共享 %@";
+
+/* Title of the Sharing Web Browser window, placeholder is the name of the file/folder being shared - this one has quotes around the item name */
+"ShareWebWindowTitleWithQuotes:%@" = "共享“%@”";
+
+/* Error primary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorTitleGeneric" = "出现问题";
+
+/* Error secondary text in the Sharing Web Browser window for a generic error */
+"ShareWebErrorSecondaryTextGeneric" = "当前无法共享此项。请稍后再试。";
+
+/* Error primary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorTitleOffline" = "连接到 Internet";
+
+/* Error secondary text in the Sharing Web Browser window for an offline error */
+"ShareWebErrorSecondaryTextOffline" = "你似乎未连接到 Internet。请在在线时再次尝试共享。";
+
+/* Text on error button in the Sharing Web Browser window */
+"ShareWebErrorButtonText" = "重试";
+
+/* Text shown on the Loading view of the Sharing Web Browser window */
+"ShareWebLoading" = "正在加载";
+
+/* Text read by the Voice Over utility (accessibility) for the Loading spinner on the Sharing Web Browser Window. The placeholder is the name of the file / folder being shared. */
+"ShareWebLoadingNarrator:%@" = "准备好共享 %@";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog title */
+"FoundSameNamesUnderFolderErrorTitle" = "无法同步文件";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog body. The placeholder is the full path of the file. Please keep "\n" intact. */
+"FoundSameNamesUnderFolderErrorBody:%@" = "同一位置的另一文件具有相同的名称或不同的大小写。\n%@\n请重命名或移动这些文件，然后再次打开 OneDrive 应用。";
+
+/* Text for SyncError FoundSameNamesUnderFolder error dialog OK button */
+"FoundSameNamesUnderFolderErrorButton" = "确定";
+
+/* Primary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedPrimary" = "上传已暂停";
+
+/* Secondary text for Toast that shows when uploads are blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsPausedSecondary" = "在线文件即将移动到更近的服务器。移动完成后随即同步更改。";
+
+/* Primary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedPrimary" = "已恢复同步文件";
+
+/* Secondary text for Toast that shows when uploads are resumed after being blocked due to an in progress GeoMove */
+"SyncError:GeoMoveUploadsResumedSecondary" = "已将在线文件移动到位于新位置的服务器。";
+
+/* Primary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantPrimaryText" = "OneDrive 无法同步";
+
+/* Secondary text for Blocked Tenant Sign In Error */
+"SignInBlockedTenantSecondaryText" = "你的 IT 部门不允许将文件从此位置同步到你的计算机";
+
+/* Text for SyncError MinorVersionLimitExceeded error dialog body */
+"SyncErrorShortDescriptionMinorVersionExceededItem" = "此文件已达到可以保存的次要版本数上限。在 SharePoint 网站上发布文件: 右键单击该文件，选择“更多”>“发布”。然后即可再次开始保存次要版本。";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast */
+"FolderRecreatedOnFailedDelete Title" = "无法删除文件夹。";
+
+/* Text for SyncError FolderRecreatedOnFailedDelete toast where %@ is a folder name */
+"FolderRecreatedOnFailedDelete Message:%@" = "若要停止“%@”到计算机的同步，请单击此处转到“首选项”，再取消选择此文件夹。";
+
+/* Accessibility text for menu item dropdown button */
+"MenuButtonAccessibleName" = "更多选项";
+
+/* Text for per item menu dropdown Open option */
+"MenuItemOpen" = "打开";
+
+/* Text for per item menu dropdown Share option */
+"MenuItemShare" = "共享";
+
+/* Text for per item menu dropdown View online option */
+"MenuItemViewOnline" = "在线查看";
+
+/* Title of Setting dialog tab that provides options for Office file syncing. */
+"OfficeText" = "Office";
+
+/* Title text of groupbox on the Office settings tab that provides settings for syncing and file collaboration. */
+"OfficeFileCollabGroupBox" = "文件协作";
+
+/* Explanation text in the File collaboration groupbox that explains syncing files with Office. */
+"OfficeFileCollabTextField" = "通过与 Office 同步文件，与其他人一起协作处理 Office 文件。";
+
+/* Checkbox text for syncing files with Office 2016. {Locked=!cs, sk;\"Office\"} */
+"OfficeFileCollabCheckBox" = "使用 Office 应用程序同步我打开的 Office 文件";
+
+/* Group box title for the Sync conflicts group box - provides options for how to deal with Office file sync conflicts. */
+"OfficeConflictGroupBox" = "同步冲突";
+
+/* Radio button for the option to merge files using Office. */
+"OfficeConflictRadioButtonMerge" = "允许我选择合并更改或保留两份副本";
+
+/* Radio button for option to always keep both copies of a file when the file is in an Office conflict. */
+"OfficeConflictRadioButtonFork" = "始终保留这两个副本(重命名此计算机上的副本)";
+
+/* Message to notify that an item cannot be deleted and it will be recreated at original location. */
+/* Title Text for SyncError DeleteCancelledByEventReceiver toast */
+"ItemCannotBeDeleted Title" = "无法删除某一项目。";
+
+/* Body Text for SyncError DeleteCancelledByEventReceiver toast where %@ is an item name */
+"ItemCannotBeDeleted Message:%@" = "若要停止将“%@”同步到计算机，请单击此处转到“首选项”，再取消选择此项。";
+
+/* Message to notify that an item cannot be moved from its original location, item moved
+    will be recreated at source and the moved copy will be uploaded from destination. */
+/* Title Text for SyncError UploadFailedOnCannotMoveThickets toast */
+"ItemCannotBeMoved Title" = "无法移动某个项目。";
+
+/* Body Text for SyncError MoveCancelledByEventReceiver toast where %@ is a item name which cannot be moved. */
+/* Body Text for SyncError MoveFailedOnCannotMoveThickets toast where %@ is a thicket folder name which cannot be moved. */
+"ItemCannotBeMoved Message:%@" = "相反，我们将“%@”复制到了新的位置并上传了该项目的两个副本。";
+
+/* Message to notify that an item cannot be added or changed due to server response of cancelled by event receiver. */
+/* Title Text for SyncError AddOrChangeCancelledByEventReceiver toast */
+"ItemAddOrChangeCancelledByEventReceiver Title" = "无法上传某一项目。";
+
+/* Body Text for SyncError AddOrChangeCancelledByEventReceiver toast where %@ is an item name */
+"ItemAddOrChangeCancelledByEventReceiver Message:%@" = "若要停止将“%@”同步到计算机，请单击此处转到“首选项”，再取消选择此项。";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryClientError" = "IT 部门要求将你的 Mac 加入经审批的域。如需有关将 Mac 加入域的帮助，请与 IT 部门联系。";
+
+/* Title text for Unsupported library error */
+"UnsupportedLibraryDisabled" = "你的组织不允许同步此文件夹。有关详细信息，请咨询网站所有者。";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryCheckOut" = "需要签出才能编辑此文件夹中的项目。若要同步此文件夹，请让网站所有者关闭“需要签出”。";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryColumnInvalid" = "此文件夹包含无法同步的一列必要信息。请让网站所有者编辑列使其不再必要，并删除任何数据验证。";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryIrm" = "要同步的文件夹已针对信息权限管理进行配置。请与网站管理员联系，为此文件夹禁用信息权限管理。";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibraryModeration" = "只有经审批的项目可添加到此文件夹。若要同步此文件夹，请让网站所有者关闭“内容审批”。";
+
+/* Resolution message text for Unsupported library error */
+"UnsupportedLibrary" = "最近更改的设置阻止此文件夹同步。请与 IT 部门联系以了解相关信息。";
+
+/* Resolution message text for LostPermissionsToMountPoint error */
+"LostPermissionsToMountPoint" = "你无权同步此库。请在线查看此库以请求访问权限，或单击/点击以停止同步此库。";
+
+/* Resolution message text for LibraryDeleted error */
+"LibraryDeleted" = "已删除此库。保存到此设备的所有文件仍保留不动。单击或点击以停止同步此库，或联系库所有者。";
+
+/* Resolution message text for ServiceBlockedLibrary error */
+"ServiceBlockedLibrary" = "由于服务问题，无法访问此库。请重启 OneDrive 进行重试。";
+
+/* Resolution message text for LibraryNotFound error */
+"LibraryNotFound" = "找不到此库。单击或点击以停止同步此库，或联系 IT 管理员。";
+
+/* Error message text for SyncIrmFileFailed error */
+"SyncIrmFileFailed" = "无法同步此受保护的文件。请联系此受保护文件的 SharePoint 管理员，请求访问权限。";
+
+/* Error message text for IrmRejectedItemOnUpload error */
+"IrmRejectedItemOnUpload" = "无法同步此文件，因为 IRM 库设置配置为阻止用户上传不支持 IRM 的文档。";
+
+/* Error message text for IrmExtensionChangeBlockedItem error */
+"IrmExtensionChangeBlockedItem" = "无法同步此项目，因为你的组织策略禁止重命名文件扩展名。请进行联机并将文件扩展名重命名为其原始名称，或者与网站管理员联系。";
+
+/* Error message text for IrmEncryptFailedToFindProtectorItem error */
+"IrmEncryptFailedToFindProtectorItem" = "无法同步此项目，因为你的组织策略禁止重命名文件扩展名。请联系网站管理员。";
+
+/* Error message for ItemCantFitOnDisk error. */
+"ItemCantFitOnDisk" = "此计算机上的空间不够，无法同步此文件。";
+
+/* Text for menu item to open help center */
+"MainMenuItemHelpCenter" = "帮助中心";
+
+/* Window title used for send feedback.
+ There's probably no need to localize this string. */
+"FeedbackApplicationTitle" = "Microsoft OneDrive";
+
+/* Send feedback menu item label */
+"FeedbackMenuLabel" = "发送反馈";
+
+/* Send feedback window title */
+"FeedbackWindowTitle" = "发送反馈";
+
+/* Link to privacy statement page */
+"FeedbackPrivacyLinkText" = "<a href=\"#\">我们尊重你的隐私</a>";
+
+/* Link to terms of service page */
+"FeedbackTosLinkText" = "<a href=\"#\">Microsoft</a> 收集你的反馈并使用它来改善你的体验。";
+
+/* Header of the button to send positive feedback */
+"FeedbackSmileChoiceTitle" = "我觉得满意";
+
+/* Explanation for the send positive feedback button */
+"FeedbackSmileChoiceText" = "我们希望你能告知我们你满意的内容。";
+
+/* Placeholder for the user input field */
+"FeedbackSmileFieldTip" = "告诉我们你喜欢的内容";
+
+/* Placeholder for the user input field */
+"FeedbackFrownFieldTip" = "告诉我们你不喜欢的内容";
+
+/* Header of the send negative feedback button */
+"FeedbackFrownChoiceTitle" = "我觉得不满意";
+
+/* Explanation for the send negative feedback button */
+"FeedbackFrownChoiceText" = "如果有不正确的内容，我们希望了解具体情况。";
+
+/* Header of the Send a Suggestion button */
+"FeedbackSuggestionChoiceTitle" = "我有一条建议";
+
+/* Explanation for the Send a Suggestion button */
+"FeedbackSuggestionChoiceText" = "分享想法或改进措施。";
+
+/* Checkbox label to opt-in/opt-out of sending log files */
+"FeedbackIncludeLogsLabel" = "包括诊断和使用情况数据";
+
+/* Label for the button to send feedback */
+"FeedbackSendButtonLabel" = "提交";
+
+/* Label for the button to resent feedback in the case of sending failure */
+"FeedbackRetryButtonLabel" = "重试";
+
+/* Label for the button to cancel feedback submission request */
+"FeedbackCancelButtonLabel" = "取消";
+
+/* Label for the button to finish send feedback */
+"FeedbackCloseButtonLabel" = "关闭";
+
+/* Message shown in the case of feedback submission failure */
+"FeedbackSendFailureText" = "抱歉，发送你的反馈时出现问题。请检查你的 Internet 连接，然后重试。你也可以<a href=\"#\">联系技术支持人员</a>报告问题。";
+
+/* Message shown during feedback submission */
+"FeedbackSendingText" = "正在发送...";
+
+/* Message shown at the end of feedback submission. */
+"FeedbackSendSuccessText" = "我们非常感谢你的反馈! 你的意见有助于我们改进。";
+
+/* Window title shown at the end of feedback submission. */
+"FeedbackSendSuccessTitle" = "谢谢";
+
+/* Label for the button to go back to feedback type selection page. */
+"FeedbackBackButtonLabel" = "返回";
+
+/* Title of local mass delete prompt for personal instance. */
+"LocalMassDeletePromptTitlePersonal" = "是否从 OneDrive 中删除文件?";
+
+/* Title of local mass delete prompt for business instance. */
+"LocalMassDeletePromptTitleBusiness" = "是否从所有位置删除文件?";
+
+/* Body of local mass delete prompt for personal instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyPersonal:%@" = "你最近从此设备中删除了 %@ 个文件。是否也要从 OneDrive 中删除这些文件?";
+
+/* Body of local mass delete prompt for business instance. %@ is a number. %@ is file count. */
+"LocalMassDeletePromptBodyBusiness:%@" = "你最近从此设备中删除了 %@ 个文件。是否也要从 OneDrive 和所有共享库中删除这些文件?";
+
+/* Text of Restore button of local mass delete prompt. */
+"LocalMassDeletePromptRestoreButton" = "还原文件";
+
+/* Text of Delete button of local mass delete prompt. */
+"LocalMassDeletePromptDeleteButton" = "删除";
+
+/* Text of Opt out checkbox of local mass delete prompt. */
+"LocalMassDeletePromptOptoutCheckbox" = "始终删除文件";
+
+/* Activity center local mass delete per item history description. */
+"ActivityCenterItemPendingRemoval" = "正在从 OneDrive 挂起删除";
+
+/* Checkbox text to toggle the local mass delete feature in settings dialog. */
+"LocalMassDeleteSettingsCheckbox" = "从云删除文件之前警告我";
+
+/* Title text of local mass delete confirmed ACM. */
+"LocalMassDeleteConfirmedTitle" = "需要还原文件?";
+
+/* Body text of local mass delete confirmed ACM for personal instance. */
+"LocalMassDeleteConfirmedBodyPersonal" = "在 OneDrive 中删除文件时将一并在所有设备上删除这些文件。可在 30 天内从 OneDrive 回收站还原文件。";
+
+/* Body text of local mass delete confirmed ACM for business instance. */
+"LocalMassDeleteConfirmedBodyBusiness" = "在 OneDrive 中删除文件时将一并从所有设备和位置删除这些文件。可在 93 天内从 OneDrive 回收站或共享库中还原文件。请单击下方以访问包含最近删除的文件的回收站。";
+
+/* Text of recycle bin button of LocalMassDelete confirmed ACM. */
+"LocalMassDeleteRecycleBin" = "回收站";
+
+/* Header text informing user that an application is downloading their files. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeader:%@" = "%@ 正在从 OneDrive 下载内容";
+
+/* Header text informing user that an application is downloading their files. This version is used if many files are downloading. %@ is an application name (For example: Microsoft Word)*/
+"CloudFilesHydrationToastHeaderAboveThreshold:%@" = "%@ 正在从 OneDrive 下载多个文件";
+
+/* Body text informing user that an application is downloading their files. Clicking on this toast will open a confirmation dialog. */
+"CloudFilesHydrationToastBody" = "若要取消此次下载并阻止将来的下载，请单击此处。";
+
+/* Header text informing user that an application is downloading their files. %1$@ is an application name. %2$u is a number. */
+"CloudFilesHydrationDialogHeader:%@,%u" = "%1$@ 正在下载 %2$u 个文件";
+
+/* Body text informing user that an application is downloading their files. %@ is an application name. */
+"CloudFilesHydrationDialogBody:%@" = "可允许应用继续下载或停止下载。选择“阻止应用”以阻止将来从 %@ 下载内容。";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will continue downloading files. */
+"CloudFilesHydrationDialogContinueButton" = "继续下载";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files. */
+"CloudFilesHydrationDialogStopButton" = "停止下载";
+
+/* Button text in dialog informing user that an application is downloading their files. Clicking this button will stop downloading files and block this application from future downloads. */
+"CloudFilesHydrationDialogBlockButton" = "阻止应用";
+
+// Download And Go
+
+/* Download And Go application friendly name*/
+"DownloadAndGoFriendlyName" = "OneDrive 文件启动程序";
+
+/* Download And Go window title when no errors are displayed. %@ is a number. */
+"DownloadAndGoTitle:%@" = "正在将 %@ 个项目下载到 OneDrive";
+
+/* Download And Go downloading message. %@ is a file name. */
+"DownloadAndGoDownloadingMessage:%@" = "正在下载“%@”";
+
+/* Download And Go progress message for progressing hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoProgressingHydrationProgress: %@ %@" = "%1$@/%2$@";
+
+/* Download And Go progress message for queued hydrations. Both %@ are a byte count (Example 10 MB). %1$@ is the bytes
+   downloaded. %2$@ is the total bytes. */
+"DownloadAndGoQueuedHydrationProgress: %@ %@" = "%1$@/%2$@ - 下载挂起";
+
+/* Download And Go window title when errors are displayed*/
+"DownloadAndGoErrorsTitle" = "无法下载到 OneDrive";
+
+/* Download And Go error message. %@ is file name. %d is a number. */
+"DownloadAndGoErrorMessage: %@ %d" = "OneDrive 无法下载“%1$@”(错误代码 %2$d)。";
+
+/* Download And Go cancel error button */
+"DownloadAndGoCancelErrorButton" = "取消";
+
+/* Download And Go try hydration again button */
+"DownloadAndGoTryAgainButton" = "重试";
+
+// Finder Sync Extension Activity Center Messages
+
+/* The title of the large ACM used to inform the user about Files On-Demand if the Finder Sync Extension is enabled. */
+"FinderSyncEnabledTitle" = "使用联机文件可节省空间";
+
+/* The body of a large ACM that informs the user about Files On-Demand if the Finder Sync Extension is enabled. "Finder" should be translated the same way as in the Mac OSX. "Always keep on this device" should be translated the same as the MenuItemPinCommand string. */
+"FinderSyncEnabledBody" = "现可访问完整的 OneDrive，而无需占尽磁盘空间。如果在离线时需要任何内容，可在 Finder 中右键单击所需对象，然后选择“始终保留在此设备上”。";
+
+/* The first button's text in a large ACM that that informs the user about Files On-Demand. When clicked, the message is dismissed. */
+"FinderSyncOkay" = "确定";
+
+/* The text of a button that opens a URL with more information about Files On-Demand. Used in all Finder Sync ACMs. */
+"FinderSyncLearnMore" = "了解详细信息";
+
+/* The title of the large ACM used to prompt them to enable the Finder Sync Extension. */
+"FinderSyncPromptTitle" = "充分利用文件随选";
+
+/* The body of a large ACM that prompts the user to enable the Finder Sync Extension if it is disabled. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptBody" = "使用文件随选，通过将 OneDrive 文件标记为仅联机释放计算机上的空间，要将文件标记为仅联机，需开启 OneDrive Finder 扩展。";
+
+/* The first button's text in a large ACM that prompts the user to enable the Finder Sync Extension. When clicked, the user's Extensions settings are opened. "Finder" should be translated the same way as in the Mac OSX. */
+"FinderSyncPromptEnableExtension" = "开启 Finder 扩展";
+
+/* The title text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpTitle" = "文件随选已设置完毕";
+
+/* The body text of an ACM that informs the user about Files On-Demand after they have enabled the Finder Sync Extension. */
+"FinderSyncSetUpBody" = "你的文件可按需提供以节省空间。";
+
+/* The title of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */
+"FinderSyncEnabledWithSelectiveSyncTitle" = "查看所有文件";
+
+/* The body of an ACM used to prompt the user to disable Selective Sync if the Finder Sync Extension is enabled and Selective Sync is turned on and Files On-Demand is enabled. */ 
+"FinderSyncEnabledWithSelectiveSyncBody" = "当前仅在将部分文件同步到此设备。借助文件随选，你现无需占用磁盘空间即可查看此设备上的所有文件。";
+
+/* The button of an ACM that prompts the user to disable Selective Sync if the Finder Sync Extension is enabled and Files On-Demand is enabled. */
+"FinderSyncEnabledTurnOffSelectiveSyncButton" = "查看所有文件";
+
+// Strings for the kext installer helper
+
+/* Window title for the kext installer helper*/
+"KextWizardWindowTitle" = "Microsoft OneDrive";
+
+/* Body header for the kext installer helper */
+"KextWizardBodyHeader" = "更新文件随选";
+
+/* Body text for the kext installer helper*/
+"KextWizardBodyText" = "要使用“文件随选”，需要允许来自 OneDrive 的系统扩展。请单击“打开安全首选项”，然后单击“允许”。";
+
+/* Action button for the kext installer helper */
+"KextWizardOpenSecurityButton" = "打开安全首选项";
+
+// Throttling
+
+/* Individual file gets throttled */
+"FileTransferThrottled" = "由于服务活动量大，可能遇到暂时的同步延迟。稍后将再次尝试更新文件。";
+
+/* Title text shown in the sub-header of the Activity Center indicating that a number of items couldn't be synced. */
+"FileTransferThrottledPrimary" = "同步延迟";
+
+/* Description text shown on the sub-header of the Activity Center when there are files being throttled. */
+"FileTransferThrottledSecondary" = "由于较高的服务活动，你可能暂时遇到同步延迟";
+
+/* Describes the generic resolution, in the Errors Window, of a file that cannot sync because it is in use by another process. */
+"FilePostponedByClient" = "此文件已由其他程序打开，不可同步。关闭文件后即可同步";
+
+/* Title text shown in the sub-header of the Activity Center indicating that one file is in use by another application. */
+"FilePostponedByClientSingular" = "其他应用程序正在使用某个文件";
+
+/* Title text shown in the sub-header of the Activity Center indicating that multiple files are in use by other applications. %@ is a number. */
+"FilePostponedByClientPlural:%@" = "其他应用程序正在使用 %@ 个文件";
+
+// Reset UI strings
+
+/* Window title used for the Reset popup window */
+"ResetApplicationTitle" = "Microsoft OneDrive";
+
+/* Header text for the Reset popup window */
+"ResetHeaderText" = "重置 OneDrive";
+
+/* Description text for what happens during a reset */
+"ResetDescriptionText" = "如果在同步 OneDrive 时遇到问题，重置可能有用。“重置”操作将暂时停止同步并将云端的文件层次结构和内容重新同步到本地计算机。<a href=\"#\">了解详细信息。</a>";
+
+/* Checkbox text to ask if the user wants to preserve their selective sync and teamsites settings */
+"ResetSettingsCheckboxText" = "保留我的文件设置和配置(推荐)";
+
+/* Button text to abort the reset process */
+"ResetCancelButtonLabel" = "取消";
+
+/* Button text to begin the reset process */
+"ResetConfirmButtonLabel" = "重置";
+
+/* Title text for reset in progress ACM */
+"ResetInProgressTitle" = "正在重置";
+
+/* Body text for reset in progress ACM */
+"ResetInProgressBody" = "在重置时不间断继续处理文件。文件将保存到本地磁盘，并在重置后上传到 OneDrive。";
+
+/* Title text for reset successful ACM */
+"ResetSuccessTitle" = "重置完毕";
+
+/* Body text for reset successful ACM */
+"ResetSuccessBody" = "你的 OneDrive 完好如新。";
+
+/* Title text for reset successful with errors ACM */
+"ResetSuccessWithErrorsTitle" = "重置完毕，但...";
+
+/* Body text for reset successful with errors ACM */
+"ResetSuccessWithErrorsBody" = "你的 OneDrive 仍存在重置无法解决的错误。请点击或单击进行查看。";
+
+/* Title text for reset failed ACM */
+"ResetFailureTitle" = "无法重置";
+
+/* Body text for reset failed ACM */
+"ResetFailureBody" = "出现错误。<a href=\"#\">了解详细信息。</a>";
+
+/* Title text for reset successful history list item */
+"ActivityListHistoryResetSuccessPrimary" = "重置完毕";
+
+/* Body text for reset successful history list item */
+"ActivityListHistoryResetSuccessSecondary" = "你的 OneDrive 完好如新。";
+
+/* Title text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsPrimary" = "重置完毕";
+
+/* Body text for reset successful with errors history list item */
+"ActivityListHistoryResetSuccessWithErrorsSecondary" = "仍有一些错误。";
+
+/* Title text for reset failed history list item */
+"ActivityListHistoryResetFailurePrimary" = "无法重置";
+
+/* Body text for reset failed history list item */
+"ActivityListHistoryResetFailureSecondary" = "出错了。";
+
+/* Title text for reset completed toast */
+"ToastResetCompletedTitle" = "OneDrive 重置完毕";
+
+/* Body text for reset completed toast */
+"ToastResetCompletedBody" = "点击或单击此处以查看文件状态。";
+
+/* Title text for reset failed toast */
+"ToastResetFailedTitle" = "OneDrive 无法重置";
+
+/* Body text for reset failed toast */
+"ToastResetFailedBody" = "点击或单击此处以查看后续步骤。";
+
+// End Reset UI strings
+
+/* Resolution message for client access denied. */
+"ClientAccessDeniedErrorsShortDescription" = "你似乎无权访问该项。请确保你拥有允许同步该项所需的适当权限。";
+
+// Purchase Window Strings
+
+/* Title text show in Purchase Window */
+"PurchaseWindowTitle" = "Microsoft OneDrive";
+
+/* Header text shown in Purchase Window */
+"PurchaseWindowHeader" = "获得高级版体验!";
+
+/* Header text shown in Purchase Window after buying the subscription */
+"PurchaseSuccessWindowHeader" = "祝贺你!";
+
+/* Header text shown in Purchase Window while buying the subscription */
+"PurchaseWindowLoadingTitle" = "正在加载";
+
+/* Body text shown in the Purchase Window*/
+"PurchaseWindowBody" = "免费订阅 Office 365 一个月，享受 OneDrive 高级版功能。请选择适合你的计划并启动免费试用版。";
+
+/* Body text shown in the Purchase Window after buying the subscription */
+"PurchaseSuccessWindowBody" = "现可访问专属功能。1 个月试用期后，将自动向你的卡收费。";
+
+/*Link button to skip the window */
+"PurchaseWindowSkipNowLink" = "暂时跳过";
+
+/* Sub text in product subscription card describing our premium features*/
+"PurchaseCardMainBody" = "OneDrive 高级版功能";
+
+/* Decribes our product subscription right below a row of images showing the office apps*/
+"PurchaseCardSubBody" = "适用于电脑和 Mac 的最新 Office 应用";
+
+/* Purchase card button text which will start a purchase flow */
+"PurchaseCardButtonText" = "升级到高级版 - 首月免费";
+
+/* Purchase card link text which will launch a learn more campaign */
+"PurchaseCardLinkText" = "了解详细信息";
+
+/* Personal subscription card list text. Only for 1 person  */
+"PurchasePersonalList1" = "可供 1 人使用";
+
+/* Home subscription card list text. Bundle avaiable for 6 people*/
+"PurchaseHomeList1" = "可供 6 人使用";
+
+/* Personal subscription card list text. 1 Terabyte of storage in OneDrive */
+"PurchasePersonalList2" = "1 TB 的存储空间";
+
+/* Home subscription card list text. 6 Terabyte of storage in OneDrive */
+"PurchaseHomeList2" = "6 TB 的存储空间";
+
+/* Common subscription card list text for all bundles. Access advanced security features */
+"PurchaseCommonList3" = "高级安全";
+
+/* Common subscription card list text for all bundles. Access more producitivty tool*/
+"PurchaseCommonList4" = "生产力工具";
+
+/* Price of a yearly subscription. %@ is money symbol followed by a decimal number. Example: $59.99*/
+"PurchasePriceYearConstant:%@" = "%@/年";
+
+/* Close the window */
+"PurchaseCloseButtonText" = "关闭";
+
+/* Accessible name for a list of Microsoft Office Products*/
+"PurchaseIconAccessibleName" = "Microsoft Office 产品";
+
+/* Accessible name for a list of details concerning a Office Subscription.*/
+"PurchaseListBodyAccessibleName" = "功能列表";
+
+/* Error title of purchase window*/
+"PurchaseWindowErrorTitle" = "出现错误";
+
+/* Error body of purchase window. Receipt is already in use*/
+"PurchaseErrorReceiptInUse" = "你的 Office 365 购买已由其他 Microsoft 帐户申请。";
+
+/* Error body of purchase window. Transient Error that automatically might resolve*/
+"PurchaseErrorTransientIssue" = "你已成功购买了 Office 365，但订阅无法应用于你的 Microsoft 帐户。请稍后重试，不会再向你收费。如果此问题在 24 小时后仍然存在，请与支持人员联系。";
+
+/* Error body of purchase window. Error that we are unable to resolve.*/
+"PurchaseErrorUnableToResolve" = "你已成功购买了 Office 365，但订阅无法应用于你的 Microsoft 帐户。请与支持人员联系。";
+
+/* Terms of Use title for purchasing a subscription */
+"PurchaseSubscriptionTermsTitle" = "订阅详细信息";
+
+/* Terms of Use body for purchasing a subscription */
+"PurchaseSubscriptionTermsBody" = "购买的 Office 365 订阅将向 iTunes 帐户扣费，且将在当前订阅期结束前 24 小时内自动续订，除非已事先禁用自动续订。若要管理订阅或禁用自动续订，请转到 iTunes 帐户设置。有效订阅期内不能取消订阅。如果提供了免费试用期，试用期剩余时间将在用户购买该产品发布的订阅时失效(如果适用)。";
+
+/* Text that will link to a web page describing the Microsoft terms of use */
+"PurchaseSubscriptionTermsOfUseLink" = "使用条款";
+
+/* Text that will link to a web page describing the terms of privacy */
+"PurchaseSubscriptionPrivacyLink" = "隐私";
+
+// End Purchase window strings
+
+// Get Help window strings
+
+/* Get Help window title */
+"GetHelpWindowTitle" = "联系支持人员";
+
+/* Placeholder for the Get Help user input field */
+"GetHelpFieldTip" = "请在此处描述问题。";
+
+/* Window title shown at the end of get help submission succeeded. */
+"GetHelpSendSuccessTitle" = "已提交支持请求";
+
+/* Message shown at the end of get help submission - %1$@ is user email. */
+"GetHelpSendSuccessText:%@" = "OneDrive 代理将通过 %1$@ 与你联系。";
+
+/* Window title shown at the end of get help submission failure. */
+"GetHelpSendFailureTitle" = "支持请求失败";
+
+/* Message shown in the case of feedback submission failure */
+"GetHelpSendFailureText" = "很抱歉, 提交你的支持请求时出现问题。请检查您的 Internet 连接, 稍后再试。";
+
+// End Get Help window strings

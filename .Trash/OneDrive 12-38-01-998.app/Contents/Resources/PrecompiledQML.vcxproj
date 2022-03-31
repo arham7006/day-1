@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7316E1D-0CCA-4938-9423-E9013C2C48E6}</ProjectGuid>
+    <RootNamespace>PrecompiledQML</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(inetroot)\client\onedrive\build\CppUX.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <Import Project="$(inetroot)\client\onedrive\build\CppProjectEx.props" />
+  <PropertyGroup>
+    <TargetName>PrecompiledQML</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions Condition="'$(Configuration)'=='Release'">UX_QTVIEWS_DLL;QT_NO_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(O);$(QtPrebuiltIncPath);$(QtPrebuiltIncPath)QtQml;$(QtPrebuiltIncPath)QtCore;$(QtPrebuiltIncPath)QtQml\$(QtVersion)\QtQml;$(QtPrebuiltIncPath)QtQml\$(QtVersion);$(QtPrebuiltIncPath)QtCore\$(QtVersion);$(QtPrebuiltIncPath)QtCore\$(QtVersion)\QtCore;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <CallingConvention>Cdecl</CallingConvention>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(O)ActivityCenter.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterContextMenu.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterFooter.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterHeader.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterLoader.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterMessage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ActivityCenterMessageMega.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)Colors.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ConfirmDialog.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)CustomCheckBox.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)CustomComboBox.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)CustomMenu.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)CustomMenuButton.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)CustomMenuItem.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ErrorsListItem.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ErrorsView.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ErrorsViewEntryPoint.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)FabricButton.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)FabricDropdown.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)fabricMdl2.js.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)FabricProgressBar.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)FabricRadioButton.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)FloodgateSurvey.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)HelperFunctions.js.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)IconAndTextButton.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)IconWithTextAndDescription.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ImageConfirmDialog.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)InfoBarWithDismissButton.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)KFMDonePage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)KFMScanPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)KnownFolderItem.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)OfficeIcons.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)palettes.js.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)PurchaseCard.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)PurchaseWindow.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)qmlcache_loader.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ResetWindow.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)ScrollViewWithAcc.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SelectiveSyncTreeView.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SendFeedback.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SendFeedbackModeItem.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SimpleButton.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SimpleButtonLink.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportConfirmPane.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportFailurePane.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportLoader.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportOptionsPane.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportPaneHeader.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportSendingPane.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)SupportUserInputPane.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)TaskDialogView.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)TextWithCheck.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)TextWithLink.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)TreeItemCheckBox.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)UserInputField.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)VersionHistoryWindow.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)Win7BackupPromptPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)Win7KFMDonePage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)Win7UnlinkPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardChooseFolderPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardEmailHRDPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardChinaTypeApprovalPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardEnableFinderExtension.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardGenericErrorPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardMigrationPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardOptionalDiagnosticDataPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardPageHeader.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardPageHeaderWithLink.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardPremiumPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardRequiredDiagnosticDataPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardSelectiveSyncPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialBasicOverview.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialDonePage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialFilesOnDemand.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialMobileAppUpsell.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialPageBase.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardTutorialShareFiles.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardVaultAdminRequestPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardVaultIntroPage.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(O)WizardWindow.qml.cpp">
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtQuickCompile Include="qml\ActivityCenter.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ActivityCenterContextMenu.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ActivityCenterFooter.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ActivityCenterHeader.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ActivityCenterLoader.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ActivityCenterMessage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ActivityCenterMessageMega.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\Colors.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ConfirmDialog.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\CustomCheckBox.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\CustomComboBox.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\CustomMenu.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\CustomMenuButton.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\CustomMenuItem.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ErrorsListItem.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ErrorsView.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ErrorsViewEntryPoint.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\FabricButton.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\FabricDropdown.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\fabricMdl2.js">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\FabricProgressBar.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\FabricRadioButton.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\FloodgateSurvey.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\HelperFunctions.js">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\IconAndTextButton.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\IconWithTextAndDescription.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ImageConfirmDialog.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\InfoBarWithDismissButton.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\KFMDonePage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\KFMScanPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\KnownFolderItem.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\OfficeIcons.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\palettes.js">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\PurchaseCard.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\PurchaseWindow.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\QmlLoader.qrc">
+      <ResourceFileMapping>qml\QmlLoader.qrc</ResourceFileMapping>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ResetWindow.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\ScrollViewWithAcc.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SelectiveSyncTreeView.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SendFeedback.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SendFeedbackModeItem.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SimpleButton.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SimpleButtonLink.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportConfirmPane.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportFailurePane.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportLoader.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportOptionsPane.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportPaneHeader.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportSendingPane.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\SupportUserInputPane.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\TaskDialogView.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\TextWithCheck.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\TextWithLink.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\TreeItemCheckBox.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\UserInputField.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\VersionHistoryWindow.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\Win7BackupPromptPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\Win7KFMDonePage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\Win7UnlinkPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardChooseFolderPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardEmailHRDPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardChinaTypeApprovalPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardEnableFinderExtension.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardGenericErrorPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardMigrationPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardOptionalDiagnosticDataPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardPageHeader.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardPageHeaderWithLink.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardPremiumPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardRequiredDiagnosticDataPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardSelectiveSyncPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialBasicOverview.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialDonePage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialFilesOnDemand.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialMobileAppUpsell.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialPageBase.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardTutorialShareFiles.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardVaultAdminRequestPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardVaultIntroPage.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+    <QtQuickCompile Include="qml\WizardWindow.qml">
+      <Resource>qml\QmlLoader.qrc</Resource>
+    </QtQuickCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="$(ProductCommonPath)StorageProviderLib\lib\StorageProviderLib.vcxproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <Project>{b60c3054-9f44-401f-9f20-c69f677353aa}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qml\FabricRadioButton.qml" />
+    <None Include="qml\WizardOptionalDiagnosticDataPage.qml" />
+    <None Include="qml\WizardPageHeaderWithLink.qml" />
+    <None Include="qml\WizardRequiredDiagnosticDataPage.qml" />
+  </ItemGroup>
+  <Import Project="$(inetroot)\client\onedrive\build\CppProject.targets" />
+</Project>

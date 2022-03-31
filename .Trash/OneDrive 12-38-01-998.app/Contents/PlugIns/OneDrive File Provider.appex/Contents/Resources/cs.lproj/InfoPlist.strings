@@ -1,0 +1,35 @@
+/* 
+  Strings for the File Provider extension's info.plist
+ 
+  NOTE: All strings should go in Localizable.Strings except for Badge and Root folder tooltips
+*/
+
+/* Tooltip for files and folders in the pinned state */
+"BadgeTooltip_Pinned" = "Vždy k dispozici na tomto zařízení";
+
+/* Tooltip for files and folders which are shared with other users. */
+"BadgeTooltip_Shared" = "Sdílené";
+
+/* Tooltip for files and folders which are shared AND in the pinned state. */
+"BadgeTooltip_PinnedShared" = "Sdílené a vždy k dispozici na tomto zařízení";
+
+/* Tooltip for files excluded from syncing. Ex: HVEL, LVEL and ODIgnored */
+"BadgeTooltip_Ignored" = "Vyloučeno ze synchronizace";
+
+/* A tooltip for a custom icon on a team site folder. */
+"RootTooltip_TeamSite" = "Sdílená knihovna";
+
+/* A tooltip for a custom icon on an added/shortcut folder. */
+"RootTooltip_Shortcut" = "Zástupce";
+
+/* Title bar text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_Title" = "Složkku nelze přesunout";
+
+/* Description text for the dialog that is presented when the user moves a folder but we don't support the move. */
+"UserInteraction_PreventMove_SubTitle" = "Na tomto Macu sem nelze uvedenou složku přesunout.";
+
+/* Title bar text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_Title" = "Položky nelze přesunout";
+
+/* Description text for the dialog that is presented when the user moves one or more folders but we don't support the move. */
+"UserInteraction_PreventMove_Multi_SubTitle" = "Na tomto Macu sem nelze uvedené položky přesunout.";

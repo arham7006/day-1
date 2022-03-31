@@ -1,0 +1,108 @@
+<!doctype html>
+
+<html lang="en" style="height:100%;">
+<head>
+    <meta charset="utf-8">
+    <title>Microsoft OneDrive</title>
+    <meta name="description" content="Main Content">
+    <meta name="author" content="Microsoft Corporation">
+    <link rel="stylesheet" type="text/css" href="https://support.office.com/SocContent/topicCssWithNewLandingPage" />
+    <style>
+        body, #f1Body {
+            height: 100%;
+        }
+
+        .syncOneShell {
+            width: 100%;
+            height: 85%;
+            margin-top: -5px;
+        }
+
+        .syncSupCard {
+            height: auto;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 10px;
+            margin-bottom: 13px;
+        }
+
+        .syncSupCardHidden {
+            display: none;
+            height: 0%;
+        }
+
+        .syncOneShellFull {
+            width: 100%;
+            height: 100%;
+            margin-top: -5px;
+        }
+
+        .helpDeskCard .ocpArticleContent .helpDeskCardUrl:before {
+            content: '\002709' !important;
+            color: #0067B8;
+        }
+
+        .black.olwac .helpDeskCard .ocpArticleContent .helpDeskCardUrl:before {
+            color: #B3D6F2;
+        }
+    </style>
+</head>
+    
+<body class="olwac colorful">
+    <div id="f1Body" class="olwac colorful" data-bi-area="content">
+        <iframe id="oneShell" class="syncOneShell" src="" frameborder="0"></iframe>
+        <div id="f1Asset" class="card helpDeskCard syncSupCard">
+            <div class="cardHeaderSection" style="" id="helpDeskCardHeaderSection"><h1 class="cardHeader" id="helpDeskCardHeader">Need Help?</h1></div>
+            <div class="ocpArticleContent">
+                <p style="display:none" class="helpDeskCardPhone"></p>
+                <p style="display:none" class="helpDeskCardEmail"></p>
+                <p id="helpCardUrl" style="" class="helpDeskCardUrl"><a id="supportUrlText" href="javascript:openGetHelpWindow()">Contact support</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        checkShouldHideSupportCard();
+        setOneShellUrl();
+        setLocalizedStrings();
+
+        window.onload = function () {
+            checkDarkMode();
+            window.external.pageFinishedLoading();
+        }
+
+        function openGetHelpWindow() {
+            window.external.openGetHelp();
+        }
+
+        function checkShouldHideSupportCard() {
+            if (window.external.isSupportCardEnabled() === 0) {
+                document.getElementById("f1Asset").classList.remove("syncSupCard");
+                document.getElementById("oneShell").classList.remove("syncOneShell");
+                document.getElementById("f1Asset").classList.add("syncSupCardHidden");
+                document.getElementById("oneShell").classList.add("syncOneShellFull");
+            }
+        }
+
+        function setOneShellUrl()
+        {
+            document.getElementById("oneShell").src = window.external.oneShellUrl();
+        }
+
+        function setLocalizedStrings() {
+            document.getElementById("helpDeskCardHeader").innerText = window.external.localizedString("helpDeskCardHeader");
+            document.getElementById("supportUrlText").innerText = window.external.localizedString("supportUrlText");
+        }
+        
+        function checkDarkMode() {
+            if (window.external.IsDarkMode() === 1) {
+                // .replace is not supported, remove Standard color theme and add Dark mode color class.
+                document.getElementsByTagName("body")[0].classList.remove("colorful");
+                document.getElementById("f1Body").classList.remove("colorful");
+                document.getElementsByTagName("body")[0].classList.add("black");
+                document.getElementById("f1Body").classList.add("black");
+            }
+        }
+    </script>
+</body>
+</html>

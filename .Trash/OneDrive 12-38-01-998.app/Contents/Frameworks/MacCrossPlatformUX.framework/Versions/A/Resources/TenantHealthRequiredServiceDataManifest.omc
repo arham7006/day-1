@@ -1,0 +1,275 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-TenantHealth-Log" />
+  <provider guid="{6bbc72ac-373e-432f-b371-e38ced7bc13d}" symbol="TenantHealthLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" symbol="ReportUpdaterGetOneDriveSettingsFolderPathResult" message="GetOneDriveSettingsFolderPath returned hr: %ResultCode" value="1334528819">
+        <template>
+          <data type="HResult" name="ResultCode" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUpdaterLoadFragmentCrashesArrayNotFound" message="ReportUpdater::LoadHealthReportFragment did not find a crashes array in tenantHealth.json" value="3622668845" />
+      <event level="Informational" symbol="ReportUpdaterLoadFragmentTaskDialogArrayNotFound" message="ReportUpdater::LoadHealthReportFragment did not find a task dialogs array in tenantHealth.json" value="3101391313" />
+      <event level="Error" tags="TelemetryQos" symbol="ReportUpdaterLoadFragmentFailedWithUnexpectedVersion" message="ReportUpdater::LoadHealthReportFragment tried to load tenantHealth.json with invalid version number: %Version. Loading skipped." value="1764642671">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" value="S_OK" />
+          <data type="UnicodeString" name="ResultType" value="Failure" />
+          <data type="UInt32" name="HttpCode" value="0" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="Int64" name="Version" />
+        </template>
+      </event>
+      <event level="Error" tags="TelemetryQos" symbol="ReportUpdaterLoadFragmentFailedToParseJsonDocument" message="ReportUpdater::LoadHealthReportFragment tried to load tenantHealth.json but parse failed. Loading skipped." value="3572377386">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" value="S_OK" />
+          <data type="UnicodeString" name="ResultType" value="UnexpectedFailure" />
+          <data type="UInt32" name="HttpCode" value="0" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+        </template>
+      </event>
+      <event level="Error" tags="TelemetryQos" symbol="ReportUpdaterUserInfoMissingUserInfo" message="ReportUpdater::UpdateUserInfo failed to retrieve %MissingInfo." value="2303911850">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" value="S_OK" />
+          <data type="UnicodeString" name="ResultType" value="UnexpectedFailure" />
+          <data type="UInt32" name="HttpCode" value="0" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="MissingInfo" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ReportManagerFeatureEnabledStatus_v1" message="ReportManager::PostInitialize isBusiness:%IsBusiness isRampEnabled:%IsRampEnabled isGPOEnabled: %IsGPOEnabled" value="2538088228" version="1" deprecated="yes">
+        <template>
+          <data type="Boolean" name="IsBusiness" />
+          <data type="Boolean" name="IsRampEnabled" />
+          <data type="Boolean" name="IsGPOEnabled" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ReportManagerFeatureEnabledStatus" message="ReportManager Eligibility Check: isBusiness:%IsBusiness isRampEnabled:%IsRampEnabled isGPOEnabled: %IsGPOEnabled" value="2538088228" version="2">
+        <template>
+          <data type="Boolean" name="IsBusiness" />
+          <data type="Boolean" name="IsRampEnabled" />
+          <data type="Boolean" name="IsGPOEnabled" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ReportManagerFeatureEnabledGPOStatus" message="ReportManager Feature GPO Used - usedDebugGPO: %UsedDebugGPO usedOldGPO: %UsedOldGPO isEmptyTAK: %IsEmptyTAK. If not debug or old, used new GPO." value="3269992090">
+        <template>
+          <data type="Boolean" name="UsedDebugGPO" />
+          <data type="Boolean" name="UsedOldGPO" />
+          <data type="Boolean" name="IsEmptyTAK" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ReportUploaderReportNeedsUploadInCtor_v1" message="ReportUploader ctor found report needs upload. Scheduling first upload to skip 24 hour first wait time." value="2588591390" version="1" deprecated="yes" />
+      <event level="Informational" tags="Telemetry" symbol="ReportUploaderReportNeedsUploadInCtor" message="ReportUploader ctor found report needs upload. Override secondary interval? %OverrideWaitInterval Else if loaded 2nd count is non-zero, what is secondary timer starting from? %SecondaryTimerCount" value="2588591390" version="2">
+        <template>
+          <data type="Boolean" name="OverrideWaitInterval" />
+          <data type="Int64" name="SecondaryTimerCount" />
+        </template>
+      </event>
+      <event level="Error" tags="TelemetryQos" symbol="ReportUploaderHandleUploadCallback_v1" message="ReportUpdater::HandleUploadCallback response was %ResultType, hr: %ResultCode, http status: %HttpCode." value="27247030" version="1" deprecated="yes">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UInt32" name="HttpCode" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+        </template>
+      </event>
+      <event level="Error" tags="TelemetryQos" symbol="ReportUploaderHandleUploadCallback_v2" message="ReportUpdater::HandleUploadCallback response was %ResultType, hr: %ResultCode, http status: %HttpCode, response data: %ResponseData" value="27247030" version="2" deprecated="yes">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UInt32" name="HttpCode" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="ResponseData" />
+        </template>
+      </event>
+      <event level="Error" tags="TelemetryQos" symbol="ReportUploaderHandleUploadCallback" message="ReportUpdater::HandleUploadCallback response was %ResultType, hr: %ResultCode, http status: %HttpCode, request attempt: %AttemptCount, response data: %ResponseData" value="27247030" version="3">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UInt32" name="HttpCode" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+          <data type="UnicodeString" name="ResponseData" />
+          <data type="Int64" name="AttemptCount" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ReportUploaderUploadUrlEmpty" message="ReportUploader::UploadReport UpdateRingSettings::TenantHealthReportUploadUrl url was empty." value="3189182272" />
+      <event level="Informational" tags="Telemetry" symbol="ReportUpdaterRecordHealthReportJson" message="ReportUpdater collected the current health report JSON." value="187696436">
+        <template>
+          <data type="UnicodeString" name="HealthReport" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUploaderSchedulePostponed_v1" message="Postponing tenant health report upload seed: %seed interval: %interval minutes" value="2697062859" version="1" deprecated="yes">
+        <template>
+          <data type="UInt32" name="seed" />
+          <data type="UInt32" name="interval" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUploaderSchedulePostponed" message="Postponing tenant health report upload seed: %seed interval: %interval hours overrodeRandomnessInterval?: %overrideWaitInterval" value="2697062859" version="2" deprecated="yes">
+        <template>
+          <data type="UInt32" name="seed" />
+          <data type="UInt32" name="interval" />
+          <data type="Boolean" name="overrideWaitInterval" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ReportUploaderCalculateNextUploadTimeInterval" message="Calculated next tenant health upload time as %NextUploadTime seconds using seed: %Seed extra interval: %Interval seconds" value="2321881943">
+        <template>
+          <data type="UInt32" name="Seed" />
+          <data type="Int64" name="Interval" />
+          <data type="Int64" name="NextUploadTime" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUploaderSchedulePostponedOverride_v1" message="Tenant health report upload postpone test override, new interval: %interval minutes" value="3254410416" version="1" deprecated="yes">
+        <template>
+          <data type="UInt32" name="interval" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUploaderSchedulePostponedOverride" message="Tenant health report upload postpone test override, new interval: %interval hours" value="3254410416" version="2" deprecated="yes">
+        <template>
+          <data type="UInt32" name="interval" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUploaderCalculateNextUploadTimeOverride" message="Tenant health report upload - overriding delay interval to %Interval seconds" value="2588331544">
+        <template>
+          <data type="UInt32" name="Interval" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ReportUploaderOperationPostpone_v1" message="Postponed tenant health report upload for %delayMinutes minutes" value="2038879485" version="1" deprecated="yes">
+        <template>
+          <data type="UInt32" name="delayMinutes" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ReportUploaderOperationPostpone" message="Postponed tenant health report upload for %DelayHours hours" value="2038879485" version="2" deprecated="yes">
+        <template>
+          <data type="UInt32" name="DelayHours" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ReportUpdaterLoadFragmentDeleteFileResult" message="In LoadHealthReportFragment, DeleteFileIfPresent returned %DeleteResult" value="3243092698">
+        <template>
+          <data type="HResult" name="DeleteResult" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUploaderTryToUploadAtSignOut" message="At sign out, tenant health reports feature enabled status: %IsEnabled. Fired upload request if feature was enabled." value="1819384348">
+        <template>
+          <data type="Boolean" name="IsEnabled" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ReportUploaderDidNotUploadInPausedState" message="Skipped uploading tenant health report because user is in UserLoginState Paused" value="2484417882" />
+      <event level="Error" tags="Telemetry" symbol="ReportUploaderUploadUrlSettingNotFound" message="Skipped upload request because TenantHealthReportUploadUrl update setting was not found" value="1485191664" />
+      <event level="Error" tags="Telemetry" symbol="ReportUploaderFailedToRetriveOneDriveDeviceId" message="Could not upload tenant health report because pal::GetDeviceIdAsString failed to retrieve OneDriveDeviceId." value="2244522816" />
+      <event level="Informational" symbol="ReportUploaderUploadReportAttempt" message="ReportUploader::UploadReport this is upload attempt: %AttemptCount" value="1012631190">
+        <template>
+          <data type="Int64" name="AttemptCount" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="ReportUploaderUploadRequestFired" message="Tenant health upload request fired. This means upload url setting was set and client is not in pause state." value="111276343" />
+      <event level="Informational" tags="Telemetry" symbol="ReportUploaderUploadCallbackHit_v1" message="Upload callback reached. Status code: %StatusCode HRESULT: %ResultCode" value="2198063732" version="1" deprecated="yes">
+        <template>
+          <data type="Int64" name="StatusCode" />
+          <data type="HResult" name="ResultCode" />
+        </template>
+      </event>
+      <event level="Informational" tags="TelemetryQos" symbol="ReportUploaderUploadCallbackHit" message="Upload callback reached with ResultType: %ResultType HTTP code: %HttpCode HRESULT: %ResultCode" version="2" value="2198063732">
+        <template>
+          <data type="UnicodeString" name="Component" />
+          <data type="UnicodeString" name="ApiName" />
+          <data type="HResult" name="ResultCode" />
+          <data type="UnicodeString" name="ResultType" />
+          <data type="UInt32" name="HttpCode" />
+          <data type="Int64" name="Duration" value="0" />
+          <data type="UnicodeString" name="Error" value="" />
+          <data type="UnicodeString" name="ValidationError" value="" />
+          <data type="UnicodeString" name="CorrelationVector" value="" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUploaderCtorNextUploadTime" message="In ReportUploader ctor, passed in nextUploadTime was %NextUploadTimeInput. Using this value for _nextUploadTime: %NextUploadTime" value="3137358516">
+        <template>
+          <data type="Int64" name="NextUploadTimeInput" />
+          <data type="Int64" name="NextUploadTime" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUpdaterLoadFragmentEndingValues_v1" message="Attempting to load report json. Upload should skip 24 hour initial wait: %ShouldUploadNextInit. Start upload timer at: %TimerCountAtClientExit." value="583577203" version="1" deprecated="yes">
+        <template>
+          <data type="Boolean" name="ShouldUploadNextInit" />
+          <data type="Int64" name="TimerCountAtClientExit" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUpdaterLoadFragmentEndingValues" message="Attempting to load report json. Upload should skip 24 hour initial wait: %ShouldUploadNextInit. Primary upload timer at: %PrimaryTimerCountAtClientExit, started at %PrimaryTimerStartTimestamp. Secondary upload timer at: %SecondaryTimerCountAtClientExit of %SecondaryTimerCountMaxHours max hours" value="583577203" version="2" deprecated="yes">
+        <template>
+          <data type="Boolean" name="ShouldUploadNextInit" />
+          <data type="Int64" name="PrimaryTimerCountAtClientExit" />
+          <data type="Int64" name="SecondaryTimerCountAtClientExit" />
+          <data type="Int64" name="PrimaryTimerStartTimestamp" />
+          <data type="Int64" name="SecondaryTimerCountMaxHours" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUpdaterPersistFragment_v1" message="Attempting to persist report json. Next upload should skip 24 hour initial wait: %ShouldUploadNextInit. Start next upload timer at: %TimerCountAtClientExit." value="2692683958" version="1" deprecated="yes">
+        <template>
+          <data type="Boolean" name="ShouldUploadNextInit" />
+          <data type="Int64" name="TimerCountAtClientExit" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUpdaterPersistFragment_v2" message="Attempting to persist report json. Next upload should skip 24 hour initial wait: %ShouldUploadNextInit. Primary upload timer at: %PrimaryTimerCountAtClientExit, started at %PrimaryTimerStartTimestamp. Secondary upload timer at: %SecondaryTimerCountAtClientExit of %SecondaryTimerCountMaxHours max hours" value="2692683958" version="2" deprecated="yes">
+        <template>
+          <data type="Boolean" name="ShouldUploadNextInit" />
+          <data type="Int64" name="PrimaryTimerCountAtClientExit" />
+          <data type="Int64" name="SecondaryTimerCountAtClientExit" />
+          <data type="Int64" name="PrimaryTimerStartTimestamp" />
+          <data type="Int64" name="SecondaryTimerCountMaxHours" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUpdaterPersistFragment" message="Attempting to persist report json. Next upload is eligible at %NextUploadTime seconds" value="2692683958" version="3">
+        <template>
+          <data type="Int64" name="NextUploadTime" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUpdaterGetOneDriveInfoReportingDeviceIdComponents" message="Preparing report for upload and fetching OneDriveDeviceId. Machine GUID=%MachineGuid UserName=%UserName HostName=%HostName UserDomain=%UserDomain InstanceId=%InstanceId" value="1119229147">
+        <template>
+          <data type="PrivateInfo" name="MachineGuid" />
+          <data type="PrivateInfo" name="UserName" />
+          <data type="PrivateInfo" name="HostName" />
+          <data type="PrivateInfo" name="UserDomain" />
+          <data type="UnicodeString" name="InstanceId" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ReportUpdaterAllReportFieldsCollected" message="In UpdateHealthReport, all CPUX report fields have been collected. Firing EM event to load asserts." value="3882324136" />
+      <event level="Informational" symbol="ReportManagerInitInternalComponents" message="Initializing ReportManager, creating ReportUpdater and ReportUploader" value="2673569176" />
+    </events>
+  </provider>
+</manifest>

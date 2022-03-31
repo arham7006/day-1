@@ -1,0 +1,52 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-CrossPlatformUX-Log" />
+  <provider guid="{588e49cb-9dd2-4386-980e-9875c8665dc1}" symbol="CrossPlatformUXLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Informational" symbol="BusinessAccountReturningName" message="Business account, returning name: %instanceName" value="2307163177">
+        <template>
+          <data type="UnicodeString" name="instanceName" />
+        </template>
+      </event>
+      <event level="Informational" symbol="NonBusinessAccountReturningDefaultName" message="Non Business account, returning default name: %targetFolderName" value="2682343577">
+        <template>
+          <data type="UnicodeString" name="targetFolderName" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ActionManagerLaunchUriFailedAuthUrl" message="Authenticating the Uri was unsuccessful. hr: %hr" value="1594653786">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" symbol="PerformKfmAction" message="Perform KFM Action %action uri %uri" value="4058845577">
+        <template>
+          <data type="UInt32" name="action" />
+          <data type="UnicodeString" name="uri" />
+        </template>
+      </event>
+      <event level="Informational" symbol="PerformKfmActionNotHandled" message="%action action is not handled. No-op" value="2636602600">
+        <template>
+          <data type="UInt32" name="action" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ActionManagerOpenMoveWindow" message="Received request to open move window from launch source %source" value="1955739603">
+        <template>
+          <data type="UInt32" name="source" />
+        </template>
+      </event>
+      <event level="Informational" symbol="FolderConfigurationHelpersGetUserVisiblePath" message="GetUserVisiblePath found at: %path" value="1109719188">
+        <template>
+          <data type="PrivateInfo" name="path" />
+        </template>
+      </event>
+    </events>
+  </provider>
+</manifest>

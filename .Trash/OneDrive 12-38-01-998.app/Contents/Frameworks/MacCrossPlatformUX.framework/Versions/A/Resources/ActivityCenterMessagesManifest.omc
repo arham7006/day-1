@@ -1,0 +1,74 @@
+<manifest>
+  <assemblyIdentity name="Microsoft-OneDrive-WindowsUXActivityCenterMessages-Log" />
+  <provider guid="{DDA1D2F5-0B1D-4B79-8414-CCF46615897A}" symbol="WindowsUXActivityCenterMessagesLogProvider">
+    <tasks>
+      <task name="LogTask" value="100" />
+    </tasks>
+    <opcodes>
+      <opcode name="LogStructured" symbol="OPCODE_LOG_STRUCTURED" value="11" />
+    </opcodes>
+    <keywords>
+      <keyword mask="0x1" name="Default" symbol="kwDefault" />
+    </keywords>
+    <events opcode="LogStructured" task="LogTask" version="1" keyword="Default" privacyLevel="RequiredServiceData" privacyCategory="ProductUsage">
+      <event level="Error" symbol="ODIgnoreMessageSourceFailedToReadACMStateRegKey" message="Failed to read ODIgnore ACM dismissal state from the registry with error: %hr" value="2964392224">
+        <template>
+          <data type="HResult" name="hr" />
+        </template>
+      </event>
+      <event level="Informational" tags="Telemetry" symbol="AddToOneDriveErrorMessageSourceOnHandled" message="AddToOneDriveErrorMessageSource error message got handled with response: %response, action: %action" value="4056304528">
+        <template>
+          <data type="UInt32" name="response" />
+          <data type="UInt32" name="action" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddToOneDriveErrorMessageSourceGetErrorData" message="Determining whether to show Add to OneDrive error message prompt: eligible=%eligible" value="1692543424">
+        <template>
+          <data type="Boolean" name="eligible" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddToOneDriveMessageSourceGetMessageData" message="Determining whether to show Add to OneDrive ACM prompt: eligible=%eligible" value="1943434436">
+        <template>
+          <data type="Boolean" name="eligible" />
+        </template>
+      </event>
+      <event level="Informational" symbol="AddToOneDriveMessageSourceOnHandled" message="AddToOneDriveMessageSource handled with response type: %responseType" value="1073894359">
+        <template>
+          <data type="UInt32" name="responseType" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KfmMessagingSequence" message="KFM Messaging status: %KfmMessagingStatus" value="276039544">
+        <template>
+          <data type="UInt32" name="KfmMessagingStatus" />
+        </template>
+      </event>
+      <event level="Informational" symbol="ShowingKFMFolderNotSyncingMessage" message="Showing KFM folder not syncing message in ACM" value="4270948781" />
+      <event level="Informational" symbol="KnownFolderMoveMessageSourceFolderNotSyncingMessageHandled" message="KFM FolderNotSyncing message in ACM handled" value="2879532603" />
+      <event level="Informational" symbol="KnownFolderMoveMessageSourceReadFolderNotSyncingMessageRegkey" message="KFM KnownFolderMoveMessageSource read folder not sycing message registry result: %hr with value: %value" value="2292828975">
+        <template>
+          <data type="HResult" name="hr" />
+          <data type="UInt32" name="value" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KnownFolderMoveMessageSourceClearKFMFolderNotSyncingMessage" message="Clear KFM FolderNotSyncing message in ACM" value="2511948917" />
+      <event level="Informational" symbol="KnownFolderMoveMessageSourceGetMessageData" message="Determining whether to show GPO-controlled ACM prompt to protect folders" value="1510298241">
+        <template>
+          <data type="UInt32" name="currentState" />
+          <data type="UInt32" name="hasProtectedAtLeastOnce" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KnownFolderMoveMessageSourceClearSilentTrigger" message="KnownFolderMoveMessageSource launch move window but clear the silent trigger" value="1578179470" />
+      <event level="Informational" symbol="KFMLockedFileMessageSourceGetMessageData" message="Determine whether the ACM for KFMLockedFileMessageSource is prompted. LockedFileExists: %lockedFiles, IsCorrectErrorState: %correctError" value="2716058174">
+        <template>
+          <data type="Boolean" name="lockedFiles" />
+          <data type="Boolean" name="correctError" />
+        </template>
+      </event>
+      <event level="Informational" symbol="KnownFolderMoveScanExclusionMessageSourceGetMessageData" message="Determining whether to show Scan exclusion ACM prompt to protect folders" value="3492580580">
+        <template>
+          <data type="UInt32" name="currentState" />
+        </template>
+      </event>
+    </events>
+  </provider>
+</manifest>
